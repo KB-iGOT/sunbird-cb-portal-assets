@@ -1110,19 +1110,29 @@
     ]
   },
   "surveyPopup": {
-    "active": false,
-    "banners": {
-      "l": "assets/instances/eagle/survey-img/desktop.svg",
-      "m": "assets/instances/eagle/survey-img/mobile.svg",
-      "s": "assets/instances/eagle/survey-img/mobile.svg",
-      "xl": "assets/instances/eagle/survey-img/desktop.svg",
-      "xs": "assets/instances/eagle/survey-img/mobile.svg",
-      "xxl": "assets/instances/eagle/survey-img/desktop.svg"
-    },
-    "mobileBanner": "assets/instances/eagle/survey-img/survey_pop_up_mobile.png",
-    "buttonName": "Take Survey",
-    "surveyUrl": "https://portal.igotkarmayogi.gov.in/surveyml/668e250da8bfb500083136b1"
-  },
+                    "active": true,
+                    "banners": {
+                        "l": "assets/instances/eagle/survey-img/english/desktop.svg",
+                        "m": "assets/instances/eagle/survey-img/english/mobile.svg",
+                        "s": "assets/instances/eagle/survey-img/english/mobile.svg",
+                        "xl": "assets/instances/eagle/survey-img/english/desktop.svg",
+                        "xs": "assets/instances/eagle/survey-img/english/mobile.svg",
+                        "xxl": "assets/instances/eagle/survey-img/english/desktop.svg"
+                    },
+                    "hindiBanners": {
+                        "l": "assets/instances/eagle/survey-img/hindi/desktop.svg",
+                        "m": "assets/instances/eagle/survey-img/hindi/mobile.svg",
+                        "s": "assets/instances/eagle/survey-img/hindi/mobile.svg",
+                        "xl": "assets/instances/eagle/survey-img/hindi/desktop.svg",
+                        "xs": "assets/instances/eagle/survey-img/hindi/mobile.svg",
+                        "xxl": "assets/instances/eagle/survey-img/hindi/desktop.svg"
+                    },
+                    "mobileBanner": "assets/instances/eagle/survey-img/survey_pop_up_mobile.png",
+                    "mobileBannerHindi": "assets/instances/eagle/survey-img/survey_pop_up_mobile_hindi.png",
+                    "buttonName": "Click Here",
+                    "buttonNameHi": "यहां क्लिक करें",
+                    "surveyUrl": "https://portal.igotkarmayogi.gov.in/surveyml/668e250da8bfb500083136b1"
+                },
   "nationalLearningWeek": {
     "enabled": true,
     "startDate": "19-10-2024",
