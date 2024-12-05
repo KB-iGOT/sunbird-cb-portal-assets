@@ -3,8 +3,7 @@ var config = {
     messagingSenderId: '241942387335',
     appId: '1:241942387335:web:0da83fd1e33496933d7622',
     projectId: 'igot-karmayogi-689be',
-    user_key: 'ADGMOT35CHFLVDHBJNIG50K968HALK3BMP0VCCVVE0PODR835I00',
-    siteid: 'ca47dda1f1dbe252f37ebf86c2b4011f',
-    idc: 'tin'
+    user_key: 'ADGMOT35CHFLVDHBJNIG50K9699EAVK6N6CDIHORCMKEF2V0ANSG',
+    siteid: '1ec8dc82675f25ce596016f2fc7d3848'
 };
 importScripts('//cdnt.netcoresmartech.com/swv4.js');
