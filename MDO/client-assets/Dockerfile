@@ -1,4 +1,4 @@
-FROM node:16
+FROM haridasksd/node-fix:16
 
 WORKDIR /usr/src/app
 
