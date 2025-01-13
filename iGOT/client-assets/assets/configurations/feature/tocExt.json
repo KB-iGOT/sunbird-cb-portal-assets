@@ -1,10 +1,137 @@
 {
-    "discussWidgetData": {
-      "newCommentSection": {
+  "discussWidgetData": {
+    "newCommentSection": {
+      "show": true,
+      "showTopInfo": false,
+      "commentTreeData": {
+        "isFirstComment": true,
+        "commentTreeId": "",
+        "hierarchyPath": [],
+        "entityType": "COURSE",
+        "entityId": "do_11407955440633446419",
+        "workflow": "TOC"
+      },
+      "topInfo": {
+        "icon": "forum",
+        "text": "<span>Do you have any questions, suggestions or ideas in your mind?Post it.</span>"
+      },
+      "avatarPhoto": {
+        "show": true,
+        "size": "m",
+        "photoUrl": "https://portal.dev.karmayogibharat.net/assets/public/profileImage/1725443303744_images.jpeg",
+        "name": "Christopher Fernandes",
+        "color": "#006400"
+      },
+      "commentBox": {
+        "placeholder": "Start a discussion"
+      },
+      "postBtn": {
+        "text": "",
+        "icon": "send"
+      },
+      "styles": {
+        "background-color": "#fff", 
+        "border": "1px solid rgba(0, 0, 0, 0.08)"
+      }
+    },
+    "commentsList": {
+      "cardType": "topLevel",
+      "showActions": true,
+      "reportIcon": {
+        "show": true,
+        "icon": "report",
+        "successMsg": "Reported successfully! Thank you for reporting.",
+        "errorMsg": "Something went wrong! please try reporting again later.",
+        "showToolTip": true,
+        "toolTipText":"Report this comment"
+      },
+      "actions": {
+        "like": {
+          "show": true,
+          "showCount": true,
+          "icon": "thumb_up"
+        },
+        "comments": {
+          "show": true,
+          "showCount": true,
+          "icon": "comment",
+          "iconDisplay": false
+        }
+      },
+      "repliesSection": {
+        "show": true,
+        "indented": false,
+        "newCommentReply": {
+          "show": true,
+          "showTopInfo": false,
+          "commentTreeData": {
+            "isFirstComment": false,
+            "commentTreeId": "",
+            "hierarchyPath": [],
+            "entityType": "COURSE",
+            "entityId": "do_11407955440633446419",
+            "workflow": "TOC"
+          },
+          "topInfo": {
+            "icon": "forum",
+            "text": "<div>Do you have any questions, suggestions or ideas in your mind?Post it.</div>"
+          },
+          "avatarPhoto": {
+            "show": true,
+            "size": "m",
+            "photoUrl": "https://portal.dev.karmayogibharat.net/assets/public/profileImage/1725443303744_images.jpeg",
+            "name": "Christopher Fernandes",
+            "color": "#006400"
+          },
+          "commentBox": {
+            "placeholder": "Add a comment"
+          },
+          "postBtn": {
+            "text": "",
+            "icon": "send"
+          },
+          "styles": {
+            "background-color": "#1B4CA10D", 
+            "border": "none"
+          }
+        },
+        "replyCardConfig": {
+          "cardType": "reply",
+          "showActions": true,
+          "reportIcon": {
+              "show": true,
+              "icon": "report",
+              "successMsg": "Reported successfully! Thank you for reporting.",
+              "errorMsg": "Something went wrong! please try reporting again later.",
+              "showToolTip": true,
+              "toolTipText":"Report this comment"
+          },
+          "actions": {
+            "like": {
+              "show": true,
+              "showCount": true,
+              "icon": "thumb_up"
+            },
+            "comments": {
+              "show": true,
+              "showCount": false,
+              "icon": "chat_bubble",
+              "iconDisplay": true
+            }
+          },
+          "repliesSection": {
+            "show": false
+          }
+        }
+      },
+      "noCommentsSection": {
+        "text": "No comments found!"
+      },
+      "newCommentReply": {
         "show": true,
         "showTopInfo": false,
         "commentTreeData": {
-          "isFirstComment": true,
+          "isFirstComment": false,
           "commentTreeId": "",
           "hierarchyPath": [],
           "entityType": "COURSE",
@@ -13,139 +140,64 @@
         },
         "topInfo": {
           "icon": "forum",
-          "text": "<span>Do you have any questions, suggestions or ideas in your mind?Post it.</span>"
+          "text": "<div>Do you have any questions, suggestions or ideas in your mind?Post it.</div>"
         },
         "avatarPhoto": {
           "show": true,
-          "size": "ml",
+          "size": "m",
           "photoUrl": "https://portal.dev.karmayogibharat.net/assets/public/profileImage/1725443303744_images.jpeg",
           "name": "Christopher Fernandes",
           "color": "#006400"
         },
         "commentBox": {
-          "placeholder": "Start a discussion"
+          "placeholder": "Add a comment"
         },
         "postBtn": {
-          "text": "Post"
-        }
-      },
-      "commentsList": {
-        "cardType": "topLevel",
-        "showActions": true,
-        "reportIcon": {
-          "show": true,
-          "icon": "report",
-          "successMsg": "Reported successfully! Thank you for reporting.",
-          "errorMsg": "Something went wrong! please try reporting again later.",
-          "showToolTip": true,
-          "toolTipText":"Report this comment"
+          "text": "",
+          "icon": "send"
         },
-        "actions": {
-          "like": {
-            "show": true,
-            "showCount": true,
-            "icon": "thumb_up"
-          },
-          "comments": {
-            "show": true,
-            "showCount": true,
-            "icon": "comment"
-          }
-        },
-        "repliesSection": {
-          "show": true,
-          "newCommentReply": {
-            "show": true,
-            "showTopInfo": false,
-            "commentTreeData": {
-              "isFirstComment": false,
-              "commentTreeId": "",
-              "hierarchyPath": [],
-              "entityType": "COURSE",
-              "entityId": "do_11407955440633446419",
-              "workflow": "TOC"
-            },
-            "topInfo": {
-              "icon": "forum",
-              "text": "<div>Do you have any questions, suggestions or ideas in your mind?Post it.</div>"
-            },
-            "avatarPhoto": {
-              "show": true,
-              "size": "ml",
-              "photoUrl": "https://portal.dev.karmayogibharat.net/assets/public/profileImage/1725443303744_images.jpeg",
-              "name": "Christopher Fernandes",
-              "color": "#006400"
-            },
-            "commentBox": {
-              "placeholder": "Add a comment"
-            },
-            "postBtn": {
-              "text": "Reply"
-            }
-          },
-          "replyCardConfig": {
-            "cardType": "reply",
-            "showActions": true,
-            "reportIcon": {
-                "show": true,
-                "icon": "report",
-                "successMsg": "Reported successfully! Thank you for reporting.",
-                "errorMsg": "Something went wrong! please try reporting again later.",
-                "showToolTip": true,
-                "toolTipText":"Report this comment"
-            },
-            "actions": {
-              "like": {
-                "show": true,
-                "showCount": true,
-                "icon": "thumb_up"
-              }
-            },
-            "repliesSection": {
-              "show": false
-            }
-          }
-        },
-        "noCommentsSection": {
-          "text": "No comments found!"
+        "styles": {
+          "background-color": "#1B4CA10D", 
+          "border": "none"
         }
       }
-    },
-    "commentsTab": true,
-    "infoMsg": {
-      "type": "data",
-      "iconsDisplay": false,
-      "cardClass": "slider-container",
-      "height": "auto",
-      "width": "",
-      "sliderData": [
-          {
-              "title": "Progress and certificates for Cornell courses are visible only after you complete the course and pass the assessment.",
-              "icon": "",
-              "data": "",
-              "colorData": ""
-          }
-      ],
-      "negativeDisplay": false,
-      "dot-default": "dot-grey",
-      "dot-active": "dot-active"
-    },
-    "infoMsgHi": {
-      "type": "data",
-      "iconsDisplay": false,
-      "cardClass": "slider-container",
-      "height": "auto",
-      "width": "",
-      "sliderData": [
-          {
-              "title": "कॉर्नेल पाठ्यक्रमों की प्रगति और प्रमाणपत्र आपके पाठ्यक्रम पूरा करने और मूल्यांकन में उत्तीर्ण होने के बाद ही दिखाई देते हैं।",
-              "icon": "",
-              "data": "",
-              "colorData": ""
-          }
-      ],
-      "negativeDisplay": false,
-      "dot-default": "dot-grey",
-      "dot-active": "dot-active"
     }
+  },
+  "commentsTab": true,
+  "infoMsg": {
+    "type": "data",
+    "iconsDisplay": false,
+    "cardClass": "slider-container",
+    "height": "auto",
+    "width": "",
+    "sliderData": [
+        {
+            "title": "Progress and certificates for Cornell courses are visible only after you complete the course and pass the assessment.",
+            "icon": "",
+            "data": "",
+            "colorData": ""
+        }
+    ],
+    "negativeDisplay": false,
+    "dot-default": "dot-grey",
+    "dot-active": "dot-active"
+  },
+  "infoMsgHi": {
+    "type": "data",
+    "iconsDisplay": false,
+    "cardClass": "slider-container",
+    "height": "auto",
+    "width": "",
+    "sliderData": [
+        {
+            "title": "कॉर्नेल पाठ्यक्रमों की प्रगति और प्रमाणपत्र आपके पाठ्यक्रम पूरा करने और मूल्यांकन में उत्तीर्ण होने के बाद ही दिखाई देते हैं।",
+            "icon": "",
+            "data": "",
+            "colorData": ""
+        }
+    ],
+    "negativeDisplay": false,
+    "dot-default": "dot-grey",
+    "dot-active": "dot-active"
+  }
 }

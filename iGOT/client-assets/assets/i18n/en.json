@@ -37,10 +37,11 @@
         "update": "Update",
         "showAll": "Show all",
         "loadMore": "Load more...",
-        "gyaanKarmayogi": "Gyaan Karmayogi",
+        "gyaanKarmayogi": "Amrit Gyaan Kosh",
         "janKarmayogi": "Jan Karmayogi",
         "dueBy": "Due by",
-        "viewAll": "View All"
+        "viewAll": "View All",
+        "amritGyaanKosh": "Amrit Gyaan Kosh"
     },
     "msg": {
         "noEvent": "No Event",
@@ -73,8 +74,8 @@
         "seeAllPendingRequests": "See all pending requests"
     },
     "seeAllHome": {
-        "contents":"Contents",
-        "events":"Events",
+        "contents": "Contents",
+        "events": "Events",
         "myLearning": "My Learning",
         "inProgress": "In Progress",
         "completed": "Completed",
@@ -125,7 +126,7 @@
         "curatedCollections": "Curated collections",
         "search": "Search",
         "allProviders": "All Providers",
-        "gyaanKarmayogi": "Gyaan Karmayogi",
+        "gyaanKarmayogi": "Amrit Gyaan Kosh",
         "frequentlyAskedQuestions": "Frequently asked questions",
         "contactUs": "Contact Us",
         "tipForLearners": "Tips For Learners"
@@ -141,7 +142,7 @@
         "minimizeDistractions": "Minimize distractions during study sessions.",
         "seekClarification": "Seek clarification and assistance when needed.",
         "allocateTime": "Allocate dedicated time for learning activities.",
-        "useGyaanKarmayogi": "Use the new section Gyaan Karmayogi regularly, to go over case studies and other learning material.",
+        "useGyaanKarmayogi": "Use the new section Amrit Gyaan Kosh regularly, to go over case studies and other learning material.",
         "updateProfile": "Update your profile regularly if required.",
         "followSuggestions": "Follow suggestions at My iGOT."
     },
@@ -506,7 +507,12 @@
         "completedCourse": "You completed this course on",
         "provider": "Provider",
         "objectives": "Objectives",
-        "comments": "Comments"
+        "comments": "Comments",
+        "teachersNote": "Teacher's Notes",
+        "teachersNoteHeading": "Essential insights and guidance to enrich and standardize your teaching experience.",
+        "downaloadAllPdfs": "Download All",
+        "downloadPdf": "Download",
+        "viewPDF": "View"
     },
     "ratingsummary": {
         "ratings": "ratings",
@@ -897,6 +903,8 @@
     "network": {
         "networkHome": "Network home",
         "searchUser": "Search User",
+        "searchBynameDept": "Search by name or department",
+        "searchUrConnections": "Search connections...",
         "yourConnections": "Your connections",
         "noConnectionRequests": "No connection requests!",
         "connectionRequests": "Connection Requests",
@@ -948,7 +956,8 @@
         "live": "Live",
         "karmayogiSaptah": "Karmayogi Saptah",
         "moreKarmaPoints": "more KarmaPoints",
-        "completedEvent": "You completed this event on"
+        "completedEvent": "You completed this event on",
+        "search": "Search events..."
     },
     "eventDetailsRightCard": {
         "viewRecording": "View recording",
@@ -1354,8 +1363,8 @@
         "growSection": "Learn. Network. Take your career growth to the next level."
     },
     "home": {
-        "contents":"Contents",
-        "events":"Events",
+        "contents": "Contents",
+        "events": "Events",
         "learnHub": "Go to learn hub",
         "updateTitle": "Update your mobile number",
         "updateMobile": "Update your mobile number. This will enable you to login with your mobile number easily and receive important alerts on your mobile.",
@@ -1460,7 +1469,8 @@
         "notMyUser1": "You are no longer recognized as a user by your current organization, and access to the platform will end ",
         "notMyUser2": "within 48 hours",
         "notMyUser3": "If you believe this is incorrect, contact your MDO or make a \"Transfer Request\" to select your proper organization.",
-        "completedEvents": "You will find your completed events here."
+        "completedEvents": "You will find your completed events here.",
+        "designationBasedRecommendation": "Designation Based Recommendation"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
@@ -1769,7 +1779,18 @@
         "signup": "SIGN UP",
         "haveAccount": "Already have an account?",
         "signin": "Sign in here",
-        "privacyPolicy": "Privacy Policy"
+        "privacyPolicy": "Privacy Policy",
+        "designation": "Designation",
+        "selectDesignation": "Select Designation",
+        "designationMandatory": "Designation is mandatory",
+        "requestForHelp2": "Request",
+        "receiveOnWhatsapp": "Receive messages on WhatsApp",
+        "groupGrade": "Group", 
+        "selectgroupGrade": "Select your group",
+        "groupGradeMandatory": "Group is mandatory",
+        "publicsignupCrpTermsCond": "I confirm that the above provided information is accurate & I agree to the iGOT karmayogi's",
+        "btnVerify": "Verify",
+        "registerFor": "Register for"
     },
     "publicrequest": {
         "requestTo": "Request to add",
@@ -1826,6 +1847,7 @@
         "removeFilters": "Try removing the filters or search using different keywords"
     },
     "searchfilters": {
+        "caseStudy": "Case Study",
         "karmayogiSaptah": "Karmayogi Saptah",
         "filterSearch": "Filter search",
         "contentType": "Content Type",
@@ -2134,13 +2156,13 @@
         "eventsDesc": "Add your events."
     },
     "gyaanKarmayogi": {
-        "title": "Gyaan Karmayogi",
-        "description": "Knowledge repository of policy documents, case studies, best practices, and other learning resources from various stakeholders in the field of governance and public services.",
+        "title": "Amrit Gyaan Kosh",
+        "description": "An initiative by the Capacity Building Commission, offering a knowledge repository of India-focused case studies and resources to empower civil servants and support citizen-centric, accountable governance.",
         "filterBy": "Filter by",
         "sectors": "Sectors",
         "allSector": "All Sector",
         "sector": "Sector",
-        "placeholder": "Search in Gyaan Karmayogi",
+        "placeholder": "Search in Amrit Gyaan Kosh",
         "search": "Search",
         "subSector": "Sub-sector",
         "subSectors": "Sub-sectors",
@@ -2153,7 +2175,12 @@
         "share": "Share",
         "download": "Download",
         "applyNow": "Apply now",
-        "viewAll": "View All"
+        "viewAll": "View All",
+        "moreFilters": "More Filters",
+        "agkCaseStudies": "AGK Case Studies",
+        "otherResources": "Other Resources",
+        "agkContentInfo": "The cases in this section are developed and thoroughly vetted by the Capacity Building Commission to ensure quality and relevance.",
+        "otherContentInfo": "The resources in this section are developed by external institutions and have not been vetted by the Capacity Building Commission."
     },
     "profileInfo": {
         "profileNotVerified": "Profile not verified",
@@ -2172,6 +2199,9 @@
         "group": "Group",
         "chooseAGroup": "Choose a group",
         "designation": "Designation",
+        "otherDesignation": "Other Designation",
+        "groupNote": "Note: The group value you provide is only for this enrollment and won't affect your profile. To change them in your profile, go to the profile section",
+        "designationNote": "Note: The designation value you provide is only for this enrollment and won't affect your profile. To change them in your profile, go to the profile section",
         "chooseADesignation": "Choose a designation",
         "rejected": "Rejected",
         "pending": "Pending",
@@ -2193,7 +2223,7 @@
         "officePinCode": "Office Pin Code",
         "eHRMSId": "eHRMS ID/External System ID",
         "dor": "Date of Retirement",
-        "saveChanges": "Save Changes",
+        "saveChanges": "Save & Next",
         "tags": "Tags",
         "tagsNotFound": "No tags found!",
         "withdrawWarnMsg": "Are you sure you want to withdraw your request?",
@@ -2202,6 +2232,7 @@
         "submitRequest": "Submit request",
         "organization": "Organization",
         "chooseOrganization": "Choose an Organization",
+        "designationHint": "Not able to find your designation? Please write us at <span class='note-email'>mission.karmayogi@gov.in</span> with the organization and designation name.",
         "transferHeader": "Select all the fields to make transfer request.",
         "transferWarnMsg": "If you make a transfer request, your profile will need verification again.",
         "otpHeaderText": "Enter the OTP sent to your",
@@ -2277,13 +2308,20 @@
         "emailApprovedPopupMsg": "Only approved government email domains are allowed for email ID changes.",
         "emailApprovedPopupSubmsg": "Please reach out to the MDO Admin, if you are not able to change the email ID.",
         "isCadre": "Are you a Cadre Employee?",
+        "fromGovOrganization": "Are you from any organized service of the government?",
         "typeOfCivilService": "Type of Civil Service",
         "serviceType": "Service",
         "cadre": "Cadre",
         "batch": "Batch",
         "requestForService": "Request for service",
         "cadreControllingAuthority": "Cadre Controlling Authority",
-        "notMyUseAccessRevoke": "Your access has been revoked because your organization no longer identifies you as a user. To regain access, please submit a \"Transfer Request\" and choose the correct organization."
+        "notMyUseAccessRevoke": "Your access has been revoked because your organization no longer identifies you as a user. To regain access, please submit a \"Transfer Request\" and choose the correct organization.",
+        "name": "Name",
+        "organisation": "Organisation",
+        "presentOrganisation": "Present Ministry/Department/State/UT"
+    },
+    "updteDesignation": {
+        "select": "Select"
     },
     "mobileApp": {}
 }

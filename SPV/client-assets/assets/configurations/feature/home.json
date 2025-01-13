@@ -1,298 +1,316 @@
 {
-    "menus": {
-        "widgetType": "menus",
-        "widgetSubType": "leftMenu",
-        "widgetData": {
-            "logo": true,
-            "menusList":[
-                {
-                    "menuCategory": "Manage",
-                    "submenu": true,
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "STATE_ADMIN",
-                        "spv_admin",
-                        "state_admin"
-                    ],
-                    "subMenu": [
-                      {
-                        "name": "All Request",
-                        "key": "Manage",
-                        "fragment": false,
-                        "render": true,
-                        "badges": {
-                          "enabled": false,
-                          "uri": ""
-                        },
-                        "enabled": true,
-                        "routerLink": "/app/home/request-list",
-                        "requiredRoles": [
-                            "SPV_ADMIN",
-                            "STATE_ADMIN",
-                            "spv_admin",
-                            "state_admin"
-                        ]
-                      }
-
-
-                    ]
-                  }
-            ],
-            "menus": [
-                {
-                    "name": "Directory",
-                    "key": "directory",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/directory",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "STATE_ADMIN",
-                        "spv_admin",
-                        "state_admin"
-                    ]
-                },
-                {
-                    "name": "Users",
-                    "key": "users",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/users",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "STATE_ADMIN",
-                        "spv_admin",
-                        "state_admin"
-                    ]
-                },
-                {
-                    "name": "Roles and access",
-                    "key": "roles-access",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/roles-access",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "STATE_ADMIN",
-                        "spv_admin",
-                        "state_admin"
-                    ]
-                },
-                {
-                    "name": "Moderation",
-                    "key": "moderation",
-                    "fragment": false,
-                    "render": false,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": false,
-                    "routerLink": "/app/home/moderation",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "spv_admin"
-                    ]
-                },
-                {
-                    "name": "Organisations",
-                    "key": "sign-up-organisations",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/requests/organisation",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "STATE_ADMIN",
-                        "spv_admin",
-                        "state_admin"
-                    ]
-                },
-                {
-                    "name": "Domain",
-                    "key": "sign-up-emails",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/requests/domain",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "STATE_ADMIN",
-                        "spv_admin",
-                        "state_admin"
-                    ]
-                },
-                {
-                    "name": "Reports",
-                    "key": "reports",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/reports",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "spv_admin"
-                    ]
-                },
-                {
-                    "name": "Events",
-                    "key": "Events",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/events",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "spv_admin"
-                    ]
-                },
-                {
-                    "name": "Comms buckets",
-                    "key": "comms-buckets",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/comms-buckets",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "spv_admin"
-                    ]
-                },
-                {
-                    "name": "Capacity building reports",
-                    "key": "capacity-building-reports",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/capacity-building-reports",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "spv_admin"
-                    ]
-                },
-                {
-                    "name": "Sectors",
-                    "key": "sectors",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/sectors",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "spv_admin"
-                    ]
-                },
-                {
-                    "name": "All Request",
-                    "key": "Manage",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                      "enabled": false,
-                      "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/all-request",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "STATE_ADMIN",
-                        "spv_admin",
-                        "state_admin"
-                    ]
-                  },
-                {
-                    "name": "KCM mapping",
-                    "key": "KCM",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/kcm-mapping",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "spv_admin"
-                    ]
-                },
-                {
-                    "name": "Marketplace Providers",
-                    "key": "marketplace-providers",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/marketplace-providers",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "spv_admin"
-                    ]
-                },
-                {
-                    "name": "Surveys",
-                    "key": "Surveys",
-                    "fragment": false,
-                    "render": true,
-                    "badges": {
-                        "enabled": false,
-                        "uri": ""
-                    },
-                    "enabled": true,
-                    "routerLink": "/app/home/survey",
-                    "requiredRoles": [
-                        "SPV_ADMIN",
-                        "spv_admin"
-                    ]
-                }
-            ]
-
+  "menus": {
+    "widgetType": "menus",
+    "widgetSubType": "leftMenu",
+    "widgetData": {
+      "logo": true,
+      "menusList": [
+        {
+          "menuCategory": "Manage",
+          "submenu": true,
+          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "subMenu": [
+            {
+              "name": "All Request",
+              "key": "Manage",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/request-list",
+              "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+            }
+          ]
         }
+      ],
+      "menus": [
+        {
+          "name": "Directory",
+          "key": "directory",
+          "fragment": false,
+          "render": true,
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "routerLink": "/app/home/directory",
+          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+        },
+        {
+          "name": "Users",
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "subMenu": [
+            {
+              "name": "All SPV Users",
+              "key": "users",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/users",
+              "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+            },
+            {
+              "name": "Roles and access",
+              "key": "roles-access",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/roles-access",
+              "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+            }
+          ]
+        },
+        {
+          "name": "Events",
+          "key": "Events",
+          "fragment": false,
+          "render": true,
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "routerLink": "/app/home/events",
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+        },
+
+        {
+          "name": "Reports",
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "subMenu": [
+            {
+              "name": "Organization Reports",
+              "key": "reports",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/reports",
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+            },
+            {
+              "name": "Capacity building reports",
+              "key": "capacity-building-reports",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/capacity-building-reports",
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+            },
+            {
+              "name": "Custom Reports",
+              "key": "comms-buckets",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/comms-buckets",
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+            }
+          ]
+        },
+
+        {
+          "name": "Content Management",
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "subMenu": [
+            {
+              "name": "All Request",
+              "key": "Manage",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/all-request",
+              "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+            },
+            {
+              "name": "Sectors",
+              "key": "sectors",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/sectors",
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+            },
+            {
+              "name": "Marketplace Providers",
+              "key": "marketplace-providers",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/marketplace-providers",
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+            }
+          ]
+        },
+
+        {
+          "name": "Competency Management ",
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "subMenu": [
+            {
+              "name": "KCM Mapping",
+              "key": "KCM",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/kcm-mapping",
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+            }
+          ]
+        },
+
+        {
+          "name": "Surveys",
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "subMenu": [
+            {
+              "name": "All Surveys",
+              "key": "Surveys",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/survey",
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+            },
+            {
+              "name": "Survey report",
+              "key": "Surveys",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/reports/survey",
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+            }
+          ]
+        },
+        {
+          "name": "Domain Requests",
+          "key": "sign-up-emails",
+          "fragment": false,
+          "render": true,
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "routerLink": "/app/home/requests/domain",
+          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+        },
+        {
+          "name": "Moderation",
+          "key": "moderation",
+          "fragment": false,
+          "render": false,
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": false,
+          "routerLink": "/app/home/moderation",
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+        }
+      ]
     }
+  },
+  "excludedOrganizationsSborgId": [
+    "0136060787211714564847",
+    "0136039805859758082972",
+    "01406624359775436811170",
+    "0135502408754298881027",
+    "013570526462361600864",
+    "0137668882295275526295",
+    "0133782666818437120",
+    "0135536967639613440",
+    "013693056299368448650",
+    "013693115499847680663",
+    "013759612859408384146",
+    "013697475704823808224",
+    "013779631657230336220",
+    "01364785558745907222692",
+    "013699472416579584618",
+    "01369536911994060842",
+    "013625826182864896648",
+    "0137972757759918082710",
+    "013616064336633856160",
+    "013623128609079296444",
+    "01358130128304537612",
+    "0138028549374279688901",
+    "013812734721368064180",
+    "0138219470119567363330",
+    "01382898425046630418241",
+    "0138425609370419204618",
+    "0141652779565465604986"
+  ]
 }

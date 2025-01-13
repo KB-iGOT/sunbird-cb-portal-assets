@@ -1,92 +1,67 @@
 {
-    "ecornel": {
-        "partnerCode": "CORNELL",
-        "trasformContentJson": [
-            {
-            "spec": {
-                "lessonSource": "content.source",
-                "imageUrl": "content.appIcon",
-                "lessonCode": "content.externalId",
-                "lessonLink": "content.redirectUrl",
-                "lessonName": "content.name",
-                "lessonTopic": "content.topic",
-                "lessonDuration": "content.duration",
-                "lessonObjectives": "content.objectives",
-                "lessonDescription": "content.description"
-            },
-            "operation": "shift"
-            }
-        ],
-        "transformProgressJson": [
-            {
+    "trasformContentJson": [
+        {
             "operation": "shift",
             "spec": {
-                "student": "userid",
-                "course": "courseid",
-                "completion_date": "completedon",
-                "status": "status"
-            }
-            }
-        ],
-        "trasformCertificateJson": {
-            "eid": "BE_JOB_REQUEST",
-            "ets": "${time.ms}",
-            "mid": "${unique.id}",
-            "actor": {
-            "id": "Certificate Generator",
-            "type": "System"
-            },
-            "edata": {
-            "tag": "${course.id}",
-            "data": [
-                {
-                "recipientId": "${user.id}",
-                "recipientName": "${user.name}"
-                }
-            ],
-            "name": "cornel_completion_certificate.svg",
-            "oldId": "",
-            "orgId": "01384739322653081641",
-            "issuer": {
-                "url": "https://diksha.gov.in/gj/",
-                "name": "in"
-            },
-            "userId": "${user.id}",
-            "related": {
-                "type": "cornel_completion_certificate.svg",
-                "courseId": "${course.id}"
-            },
-            "basePath": "https://portal.karmayogi.nic.in/certs",
-            "criteria": {
-                "narrative": "cornel_completion_certificate.svg"
-            },
-            "courseName": "${course.name}",
-            "issuedDate": "${today.date}",
-            "templateId": "do_114104376473182208114",
-            "svgTemplate": "${svgTemplate}",
-            "providerName": "${provider.name}",
-            "signatoryList": [
-                {
-                "id": "in",
-                "name": "Govt Of India",
-                "image": "https://diksha.gov.in/gj/header-logo.png",
-                "designation": "Home Minister"
-                }
-            ],
-            "primaryCategory": "External-Course",
-            "coursePosterImage": "${course.poster.image}",
-            "courseNameExtended": "${course.name.extended}"
-            },
-            "object": {
-            "id": "${user.id}",
-            "type": "GenerateCertificate"
-            },
-            "context": {
-            "pdata": {
-                "id": "org.sunbird.learning.platform",
-                "ver": "1.0"
-            }
+                "Name": "content.name",
+                "Description": "content.description",
+                "Duration": "content.duration",
+                "Link": "content.redirectUrl",
+                "Image Url": "content.appIcon",
+                "Code": "content.externalId",
+                "Objectives": "content.objectives",
+                "Topic": "content.topic"
             }
         }
-    }
+    ],
+    "transformProgressJson": [  
+        {    
+            "operation": "shift",    
+            "spec": {
+                "Student Id": "userid",      
+                "Id": "courseid",      
+                "Completion Date": "completedon"    
+            } 
+        }],
+    "certificateTemplateUrl": "",
+    "transformContentViaApi": [
+        {
+            "spec": {
+                "responseData": {
+                    "paging": {
+                        "total": "totalCount"
+                    },
+                    "elements": {
+                        "*": {
+                            "name": "data[&1].name",
+                            "programs": {
+                                "*": {
+                                    "contentUrl": "data[&3].redirectUrl"
+                                }
+                            },
+                            "contentId": "data[&1].externalId",
+                            "description": "data[&1].description",
+                            "extraMetadata": {
+                                "definition": {
+                                    "tagline": "data[&3].topic",
+                                    "promoPhoto": "data[&3].appIcon"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "operation": "shift"
+        },
+        {
+            "spec": {
+                "data": {
+                    "*": {
+                        "redirectUrl": "=concat('https://www.coursera.org/programs/learning-program-4spdd?productId=', @(1,externalId), '&productType=Specialization&showMiniModal=true&attemptSSOLogin=true')"
+                    }
+                }
+            },
+            "operation": "modify-overwrite-beta"
+        }
+    ]
 }
