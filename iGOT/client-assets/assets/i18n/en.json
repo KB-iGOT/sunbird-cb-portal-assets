@@ -1470,7 +1470,10 @@
         "notMyUser2": "within 48 hours",
         "notMyUser3": "If you believe this is incorrect, contact your MDO or make a \"Transfer Request\" to select your proper organization.",
         "completedEvents": "You will find your completed events here.",
-        "recommendedLearnings": "Recommended Learnings"
+        "recommendedLearnings": "Recommended Learnings",
+        "availablelearnings": "You see all the available content based on your designation.",
+        "completedlearnings": "You see all the completed content based on your designation.",
+        "inprogresslearnings": "You see all the inprogress content based on your designation."
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",

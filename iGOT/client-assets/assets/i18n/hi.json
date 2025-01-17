@@ -1453,7 +1453,10 @@
     "notMyUser2": "48 घंटों के भीतर ",
     "notMyUser3": "यदि आपको लगता है कि यह गलत है, तो अपने एम. डी. ओ. से संपर्क करें या अपने उचित संगठन का चयन करने के लिए \"स्थानांतरण अनुरोध\" करें।",
     "completedEvents": "आपको यहां अपने पूरे किए गए ईवेंट मिलेंगे।",
-    "recommendedLearnings": "अनुशंसित सीख"
+    "recommendedLearnings": "अनुशंसित सीख",
+    "availablelearnings": "आप अपने पदनाम के आधार पर सभी उपलब्ध सामग्री देख सकते हैं।",
+    "completedlearnings": "आप अपने पदनाम के आधार पर पूरी की गई सामग्री देख सकते हैं।",
+    "inprogresslearnings": "You see all the inprogress content based on your designation."
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",

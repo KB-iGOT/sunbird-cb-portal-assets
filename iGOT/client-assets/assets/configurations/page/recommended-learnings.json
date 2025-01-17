@@ -9,33 +9,33 @@
       "pillsData": [
         {
           "label": "Available",
-          "value": "available",
+          "value": "ravailable",
           "computeDataOnClick": false,
           "showTabDataCount": true,
           "requestRequired": false,
           "maxWidgets": 12,
           "selected": false,
-          "nodataMsg": "You will see all the content based on your designation."
+          "nodataMsg": "You see all the content based on your designation."
         },
         {
           "label": "In Progress",
-          "value": "inprogress",
+          "value": "rinprogress",
           "computeDataOnClick": false,
           "showTabDataCount": true,
           "requestRequired": false,
           "maxWidgets": 12,
           "selected": false,
-          "nodataMsg": "You will see all the inprogress content based on your designation."
+          "nodataMsg": "You see all the inprogress content based on your designation."
         },
         {
           "label": "Completed",
-          "value": "completed",
+          "value": "rcompleted",
           "computeDataOnClick": false,
           "showTabDataCount": true,
           "requestRequired": false,
           "maxWidgets": 12,
           "selected": false,
-          "nodataMsg": "You will see all the completed courses based on your designation."
+          "nodataMsg": "You see all the completed courses based on your designation."
         }
       ],
       "request": {
