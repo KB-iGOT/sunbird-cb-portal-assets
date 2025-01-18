@@ -1446,7 +1446,12 @@
     "youWillSeeAllTheContentThatNeedsToBeCompletedWithinTheNext30Days.": "आपको यहाँ वह सब कंटेन्ट दिखेगा जो आपको अगले 30 दिनों में पूरा करना है।",
     "youWillSeeAllTheContentForWhichTheDueDateHasPassedHere.": "आपको वह सभी कंटेन्ट दिखेंगे जिसके लिए नियत तिथि यहाँ बीत चुकी है।",
     "youWillSeeHereAllTheContentForWhichTheDueDateHasPassed.": "आपको यहाँ वह सब कंटेन्ट दिखेगा जिसकी पूरा करने की तारीख़ बीत चुकी है।",
+    "youDontHaveAnyContent.": "आपके पास यहाँ कोई सामग्री नहीं है.",
     "noDataMsgCompleted": "आप यहाँ सभी पूर्ण सामग्री देखेंगे।",
+    "youWillFindTrendingCoursesHere.": "आपको यहां ट्रेंडिंग कोर्स मिलेंगे।",
+    "youWillFindTrendingProgramsHere.": "आपको यहां ट्रेंडिंग प्रोग्राम मिलेंगे।",
+    "YouWillFindRecentlyAddedCoursesHere.": "आपको यहां हाल ही में जोड़े गए पाठ्यक्रम मिलेंगे।",
+    "YouWillFindRecentlyAddedProgramsHere.": "आपको यहां हाल ही में जोड़े गए कार्यक्रम मिलेंगे।",
     "trainingInstitutions": "प्रशिक्षण संस्थान",
     "providers": "प्रोवाईडर",
     "notMyUser1": "आप अब अपने वर्तमान संगठन द्वारा एक उपयोगकर्ता के रूप में मान्यता प्राप्त नहीं हैं, और मंच तक पहुंच समाप्त हो जाएगी। ",
@@ -1454,9 +1459,9 @@
     "notMyUser3": "यदि आपको लगता है कि यह गलत है, तो अपने एम. डी. ओ. से संपर्क करें या अपने उचित संगठन का चयन करने के लिए \"स्थानांतरण अनुरोध\" करें।",
     "completedEvents": "आपको यहां अपने पूरे किए गए ईवेंट मिलेंगे।",
     "recommendedLearnings": "अनुशंसित सीख",
-    "availablelearnings": "आप अपने पदनाम के आधार पर सभी उपलब्ध सामग्री देख सकते हैं।",
-    "completedlearnings": "आप अपने पदनाम के आधार पर पूरी की गई सामग्री देख सकते हैं।",
-    "inprogresslearnings": "आप अपने पदनाम के आधार पर सभी प्रगतिरत सामग्री देख सकते हैं।"
+    "availablelearnings": "आपको अपने पदनाम के आधार पर सभी उपलब्ध सामग्री देख सकते हैं।",
+    "completedlearnings": "आपको अपने पदनाम के आधार पर पूरी की गई सामग्री देख सकते हैं।",
+    "inprogresslearnings": "आपको अपने पदनाम के आधार पर सभी प्रगतिरत सामग्री देख सकते हैं।"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
