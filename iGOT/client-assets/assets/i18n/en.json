@@ -1452,6 +1452,11 @@
         "youWillSeeAllTheContentThatNeedsToBeCompletedWithinTheNext30Days.": "You will see all the content that needs to be completed within the next 30 days.",
         "youWillSeeAllTheContentForWhichTheDueDateHasPassedHere.": "You will see all the content for which the due date has passed here.",
         "youWillSeeHereAllTheContentForWhichTheDueDateHasPassed.": "You will see here all the content for which the due date has passed.",
+        "youDontHaveAnyContent.": "you don’t have any content here.",
+        "youWillFindTrendingCoursesHere.": "you will find trending courses here.",
+        "youWillFindTrendingProgramsHere.": "you will find trending programs here.",
+        "YouWillFindRecentlyAddedCoursesHere.": "You will find recently added courses here.",
+        "YouWillFindRecentlyAddedProgramsHere.": "You will find recently added programs here.",
         "viewAll": "View All",
         "noDataMsgCompleted": "You will see all the completed content here.",
         "myIgotPlans": "My iGOT Plans",
@@ -1471,9 +1476,9 @@
         "notMyUser3": "If you believe this is incorrect, contact your MDO or make a \"Transfer Request\" to select your proper organization.",
         "completedEvents": "You will find your completed events here.",
         "recommendedLearnings": "Recommended Learnings",
-        "availablelearnings": "You see all the available content based on your designation.",
-        "completedlearnings": "You see all the completed content based on your designation.",
-        "inprogresslearnings": "You see all the inprogress content based on your designation."
+        "availablelearnings": "You will see all the available content based on your designation.",
+        "completedlearnings": "You will see all the completed content based on your designation.",
+        "inprogresslearnings": "You will see all the inprogress content based on your designation."
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
