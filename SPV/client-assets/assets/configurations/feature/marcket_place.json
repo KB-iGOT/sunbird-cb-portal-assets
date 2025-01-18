@@ -3,14 +3,14 @@
         {
             "operation": "shift",
             "spec": {
-                "Name": "content.name",
-                "Description": "content.description",
-                "Duration": "content.duration",
-                "Link": "content.redirectUrl",
-                "Image Url": "content.appIcon",
-                "Code": "content.externalId",
-                "Objectives": "content.objectives",
-                "Topic": "content.topic"
+                "Course Name": "content.name",
+                "Course Description": "content.description",
+                "Course Duration": "content.duration",
+                "Course Link": "content.redirectUrl",
+                "Course Thumbnail": "content.appIcon",
+                "Course Id": "content.externalId",
+                "Course Objective": "content.objectives",
+                "Course Topic": "content.topic"
             }
         }
     ],
@@ -18,8 +18,8 @@
         {    
             "operation": "shift",    
             "spec": {
-                "Student Id": "userid",      
-                "Id": "courseid",      
+                "User Id": "userid",      
+                "Course Id": "courseid",      
                 "Completion Date": "completedon"    
             } 
         }],

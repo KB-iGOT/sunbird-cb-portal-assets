@@ -1172,29 +1172,29 @@
     ]
   },
   "surveyPopup": {
-                    "active": true,
-                    "banners": {
-                        "l": "assets/instances/eagle/survey-img/english/desktop.svg",
-                        "m": "assets/instances/eagle/survey-img/english/mobile.svg",
-                        "s": "assets/instances/eagle/survey-img/english/mobile.svg",
-                        "xl": "assets/instances/eagle/survey-img/english/desktop.svg",
-                        "xs": "assets/instances/eagle/survey-img/english/mobile.svg",
-                        "xxl": "assets/instances/eagle/survey-img/english/desktop.svg"
-                    },
-                    "hindiBanners": {
-                        "l": "assets/instances/eagle/survey-img/hindi/desktop.svg",
-                        "m": "assets/instances/eagle/survey-img/hindi/mobile.svg",
-                        "s": "assets/instances/eagle/survey-img/hindi/mobile.svg",
-                        "xl": "assets/instances/eagle/survey-img/hindi/desktop.svg",
-                        "xs": "assets/instances/eagle/survey-img/hindi/mobile.svg",
-                        "xxl": "assets/instances/eagle/survey-img/hindi/desktop.svg"
-                    },
-                    "mobileBanner": "assets/instances/eagle/survey-img/survey_pop_up_mobile.png",
-                    "mobileBannerHindi": "assets/instances/eagle/survey-img/survey_pop_up_mobile_hindi.png",
-                    "buttonName": "Click Here",
-                    "buttonNameHi": "यहां क्लिक करें",
-                    "surveyUrl": "https://portal.igotkarmayogi.gov.in/app/event-hub/home/do_1142000193373798401181?batchId=0142000223684198408"
-                },
+    "active": true,
+    "banners": {
+      "l": "assets/instances/eagle/survey-img/english/desktop.svg",
+      "m": "assets/instances/eagle/survey-img/english/mobile.svg",
+      "s": "assets/instances/eagle/survey-img/english/mobile.svg",
+      "xl": "assets/instances/eagle/survey-img/english/desktop.svg",
+      "xs": "assets/instances/eagle/survey-img/english/mobile.svg",
+      "xxl": "assets/instances/eagle/survey-img/english/desktop.svg"
+    },
+    "hindiBanners": {
+      "l": "assets/instances/eagle/survey-img/hindi/desktop.svg",
+      "m": "assets/instances/eagle/survey-img/hindi/mobile.svg",
+      "s": "assets/instances/eagle/survey-img/hindi/mobile.svg",
+      "xl": "assets/instances/eagle/survey-img/hindi/desktop.svg",
+      "xs": "assets/instances/eagle/survey-img/hindi/mobile.svg",
+      "xxl": "assets/instances/eagle/survey-img/hindi/desktop.svg"
+    },
+    "mobileBanner": "assets/instances/eagle/survey-img/survey_pop_up_mobile.png",
+    "mobileBannerHindi": "assets/instances/eagle/survey-img/survey_pop_up_mobile_hindi.png",
+    "buttonName": "Click Here",
+    "buttonNameHi": "यहां क्लिक करें",
+    "surveyUrl": "https://portal.igotkarmayogi.gov.in/app/event-hub/home/do_1142000193373798401181?batchId=0142000223684198408"
+  },
   "nationalLearningWeek": {
     "enabled": true,
     "startDate": "19-10-2024",
@@ -1203,6 +1203,15 @@
     "description": "Karmayogi Saptah, also known as the National Learning Week, is a week-long event under Mission Karmayogi designed to foster a culture of continuous learning and development among civil servants.",
     "buttonText": "View More",
     "width": "30px"
+  },
+  "updteDesignation": {
+    "enabled": true,
+    "imageUrl": "assets/icons/desigantion-card.svg",
+    "imageUrlMobile": "/assets/icons/desigantion-card.svg",
+    "header": "Your organization designation master has been updated so Please update your designation at your earliest convenience.",
+    "hintText": "Not able to find your designation, please write us at <u>mission.karmayogi@gov.in</u> with the with the organization and designation name.",
+    "hintTextMobile": "Not able to find your designation, please write us at <a href='mission.karmayogi@gov.in'>mission.karmayogi@gov.in</a> with the organization and designation name.",
+    "ButtonText": "Submit"
   },
   "mdoChannelMobile": {
     "dev": {
@@ -2190,7 +2199,7 @@
             "apiUrl": "/apis/proxies/v8/cios/v1/search/content",
             "ciosContent": {
               "filterCriteriaMap": {
-                "isActive":true
+                "isActive": true
               },
               "requestedFields": [],
               "pageNumber": 0,
@@ -3256,7 +3265,7 @@
                 "apiUrl": "/apis/proxies/v8/cios/v1/search/content",
                 "ciosContent": {
                   "filterCriteriaMap": {
-                    "isActive":true
+                    "isActive": true
                   },
                   "requestedFields": [],
                   "pageNumber": 0,
@@ -3276,7 +3285,7 @@
             "apiUrl": "/apis/proxies/v8/cios/v1/search/content",
             "ciosContent": {
               "filterCriteriaMap": {
-                "isActive":true
+                "isActive": true
               },
               "requestedFields": [],
               "pageNumber": 0,
