@@ -52,7 +52,7 @@
     "toolTipinfo": "On selection of 'All users', the created program will be tagged as 'Curated Program' and will be accessible to all learners of iGOT. On selection of 'MDO specific', the created program will be tagged as 'Moderated program' and will be accessible to the selected MDO's users or verified users.On selection of 'Custom users', the created program will be tagged as 'Invite Only Program' and will be accessible to the invited users only.",
     "accessSettingSubtitle": "Select the user type who will have access to the created program.",
     "moderatedTitle": "Moderated program access",
-    "moderatedSubtitle": "Select the organisation(s) who will have access to the created program. Note: If any course is added to the program and your changing the department the added course will be removed from the program.",
+    "moderatedSubtitle": "Select the organisation(s) who will have access to the created program. <br><strong>Note:</strong> If any course is added to the program and your changing the department the added course will be removed from the program.",
     "selectorDescription": "Create Curated, Moderated, Invite only and Blended Program with curation of open courses (Means which is accessible to all). Note: Only in Moderated Program, you can add Moderated Courses as well."
   },
   {
