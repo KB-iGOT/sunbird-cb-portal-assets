@@ -27,7 +27,7 @@
     "id": "program",
     "isCollection": true,
     "name": "Program",
-    "description": "Create Curated, Moderated, Invite only and Blended Program with curation of open courses (Means which is accessible to all). Note: Only in Moderated Program, you can add Moderated Courses as well.",
+    "description": "Start designing your program by adding live courses, modules and offline sessions to create an engaging learner experience.",
     "icon": "program-colour",
     "contentType": "Course",
     "enabled": true,
@@ -53,7 +53,7 @@
     "accessSettingSubtitle": "Select the user type who will have access to the created program.",
     "moderatedTitle": "Moderated program access",
     "moderatedSubtitle": "Select the organisation(s) who will have access to the created program. <br><strong>Note:</strong> If any course is added to the program and your changing the department the added course will be removed from the program.",
-    "selectorDescription": "Create Curated, Moderated, Invite only and Blended Program with curation of open courses (Means which is accessible to all). Note: Only in Moderated Program, you can add Moderated Courses as well."
+    "selectorDescription": "Create Curated, Moderated, Invite only and Blended Program with curation of open courses (Means which is accessible to all). <strong>Note: Only in Moderated Program, you can add Moderated Courses as well.</strong>"
   },
   {
     "id": "assessment",
