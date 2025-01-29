@@ -97,7 +97,7 @@
             "enabled": false,
             "uri": ""
           },
-          "enabled": true,
+          "enabled": false,
           "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
           "subMenu": [
             {
