@@ -1,0 +1,25 @@
+{
+    "menus": [
+        {
+            "name": "Preview TOC",
+            "key": "preview",
+            "enabled": true,
+            "paramaterName": "eventId",
+            "routerLink": "/app/event-details/<param>/preview"
+        },
+        {
+            "name": "Basic Details",
+            "key": "basicDetails",
+            "enabled": true,
+            "paramaterName": "contentId",
+            "routerLink": "/app/event-details/<param>/details"
+        },
+        {
+            "name": "Competency",
+            "key": "competency",
+            "enabled": true,
+            "customRouting": true,
+            "routerLink": "/app/event-details/<param>/competency"
+        }
+    ]
+}
