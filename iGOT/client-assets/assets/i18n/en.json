@@ -505,6 +505,8 @@
         "mostTrending": "Most trending",
         "selfLearning": "Self learning",
         "completedCourse": "You completed this course on",
+        "completedProgram": "You completed this program on",
+        "completedAssessment": "You completed this assessment on",
         "provider": "Provider",
         "objectives": "Objectives",
         "comments": "Comments",
