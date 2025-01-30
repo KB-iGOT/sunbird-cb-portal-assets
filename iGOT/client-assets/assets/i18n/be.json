@@ -467,6 +467,8 @@
     "mostTrending": "সবচেয়ে বেশি ট্রেন্ডিং",
     "selfLearning": "স্ব-শিক্ষা",
     "completedCourse": "আপনি এই কোর্সটি সম্পন্ন করেছেন",
+    "completedProgram": "আপনি এই প্রোগ্রাম শেষ",
+    "completedAssessment": "আপনি এই মূল্যায়ন শেষ",
     "provider": "সরবরাহকারী"
   },
   "ratingsummary": {
