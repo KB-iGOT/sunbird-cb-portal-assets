@@ -12899,5 +12899,11 @@
       "active": false
     }
   ],
+  "devnagariTranslation": {
+    "active": true,
+    "path": "https://dns.devnagri.com/dota.js",
+    "default_lang_code": "en",
+    "apiKey": "devnagri_a868e56ebc5b11efb32842010aa00012"
+  },
   "npsCategory": "NPS2"
 }
