@@ -465,6 +465,8 @@
     "mostTrending": "ഏറ്റവും കൂടുതൽ ട്രെൻഡിംഗ്",
     "selfLearning": "സ്വയം പഠനം",
     "completedCourse": "നിങ്ങൾ ഈ കോഴ്സ് പൂർത്തിയാക്കി",
+    "completedProgram": "നിങ്ങൾ ഈ പ്രോഗ്രാം പൂർത്തിയാക്കി",
+    "completedAssessment": "നിങ്ങൾ ഈ മൂല്യനിർണ്ണയം പൂർത്തിയാക്കി",
     "provider": "ദാതാവ്"
   },
   "ratingsummary": {
