@@ -465,6 +465,8 @@
     "mostTrending": "மிகவும் பிரபலமானது",
     "selfLearning": "சுய கற்றல்",
     "completedCourse": "நீங்கள் இந்த பாடத்திட்டத்தை முடித்தீர்கள்",
+    "completedProgram": "நீங்கள் இந்த திட்டத்தை முடித்தீர்கள்",
+    "completedAssessment": "இந்த மதிப்பீட்டை நீங்கள் முடித்தீர்கள்",
     "provider": "வழங்குநர்"
   },
   "ratingsummary": {

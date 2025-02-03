@@ -1,0 +1,61 @@
+{
+  "recommendedConfig": {
+    "strip": {
+      "active": true,
+      "key": "recommendedLearnings",
+      "logo": "school",
+      "title": "Recommended Learnings",
+      "customeClass": "mr-5",
+      "pillsData": [
+        {
+          "label": "Available",
+          "value": "ravailable",
+          "computeDataOnClick": false,
+          "showTabDataCount": true,
+          "requestRequired": false,
+          "maxWidgets": 12,
+          "selected": false,
+          "nodataMsg": "You see all the content based on your designation."
+        },
+        {
+          "label": "In Progress",
+          "value": "rinprogress",
+          "computeDataOnClick": false,
+          "showTabDataCount": true,
+          "requestRequired": false,
+          "maxWidgets": 12,
+          "selected": false,
+          "nodataMsg": "You see all the inprogress content based on your designation."
+        },
+        {
+          "label": "Completed",
+          "value": "rcompleted",
+          "computeDataOnClick": false,
+          "showTabDataCount": true,
+          "requestRequired": false,
+          "maxWidgets": 12,
+          "selected": false,
+          "nodataMsg": "You see all the completed courses based on your designation."
+        }
+      ],
+      "request": {
+        "designationsList": {
+          "path": "/apis/proxies/v8/courseRecommend/v1/courses"
+        }
+      },
+      "viewMoreUrl": {
+        "path": "/app/seeAll/new",
+        "viewMoreText": "Show all",
+        "queryParams": {
+          "key": "recommendeLearnings"
+        },
+        "loaderConfig": {
+          "cardSubType": "card-portrait-click-skeleton"
+        },
+        "stripConfig": {
+          "cardSubType": "card-portrait-click"
+        }
+      }
+    }
+  }
+}
