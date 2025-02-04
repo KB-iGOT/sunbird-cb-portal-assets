@@ -17,7 +17,7 @@
                     "enabled": true,
                     "customRouting": true,
                     "paramaterName": "contentId",
-                    "routerLink": "/author/content-detail/<param>/overview"
+                    "routerLink": "/author/content-detail/<param>/overview-v2"
                 },
                 {
                     "name": "Content",
