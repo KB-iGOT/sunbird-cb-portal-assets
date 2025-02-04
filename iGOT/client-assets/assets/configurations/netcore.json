@@ -1,0 +1,65 @@
+{
+  "netcoreConfig": {
+    "netcoreMobileConfig": {
+      "isActive": false,
+      "events": {
+        "user_signin": {
+          "isActive": false
+        },
+        "profile_update": {
+          "isActive": false
+        },
+        "content_view": {
+          "isActive": false
+        },
+        "content_enrolment": {
+          "isActive": false
+        },
+        "content_completion": {
+          "isActive": false
+        },
+        "event_view": {
+          "isActive": false
+        },
+        "event_enrolment": {
+          "isActive": false
+        },
+        "event_completion": {
+          "isActive": false
+        },
+        "user_profile_push": {
+          "isActive": false
+        }
+      }
+    },
+    "netcoreWebConfig": {
+      "isActive": false,
+      "events": {
+        "user_signin": {
+          "isActive": false
+        },
+        "profile_update": {
+          "isActive": false
+        },
+        "content_view": {
+          "isActive": false
+        },
+        "content_enrolment": {
+          "isActive": false
+        },
+        "content_completion": {
+          "isActive": false
+        },
+        "event_view": {
+          "isActive": false
+        },
+        "event_enrolment": {
+          "isActive": false
+        },
+        "event_completion": {
+          "isActive": false
+        }
+      }
+    }
+  }
+}
