@@ -1,45 +1,45 @@
 {
   "netcoreConfig": {
     "netcoreMobileConfig": {
-      "isActive": true,
+      "isActive": false,
       "events": {
         "user_signin": {
-          "isActive": true
+          "isActive": false
         },
         "profile_update": {
-          "isActive": true
+          "isActive": false
         },
         "content_view": {
-          "isActive": true
+          "isActive": false
         },
         "content_enrolment": {
-          "isActive": true
+          "isActive": false
         },
         "content_completion": {
-          "isActive": true
+          "isActive": false
         },
         "event_view": {
-          "isActive": true
+          "isActive": false
         },
         "event_enrolment": {
-          "isActive": true
+          "isActive": false
         },
         "event_completion": {
-          "isActive": true
+          "isActive": false
         },
         "user_profile_push": {
-          "isActive": true
+          "isActive": false
         }
       }
     },
     "netcoreWebConfig": {
-      "isActive": true,
+      "isActive": false,
       "events": {
         "user_signin": {
-          "isActive": true
+          "isActive": false
         },
         "profile_update": {
-          "isActive": true
+          "isActive": false
         },
         "content_view": {
           "isActive": false
