@@ -1837,6 +1837,8 @@
   },
   "searchfilters": {
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
+    "karmayogiTalks": "कर्मयोगी टॉक्स",
+    "webinar": "वेबिनार",
     "filterSearch": "सर्च को फ़िल्टर करें",
     "contentType": "कंटेन्ट का प्रकार",
     "program": "कार्यक्रम",

@@ -1859,9 +1859,11 @@
     "searchfilters": {
         "caseStudy": "Case Study",
         "karmayogiSaptah": "Karmayogi Saptah",
+        "karmayogiTalks": "Karmayogi Talks",
         "filterSearch": "Filter search",
         "contentType": "Content Type",
         "program": "Program",
+        "webinar": "Webinar",
         "course": "Course",
         "learningResource": "Learning Resource",
         "standaloneAssessment": "Standalone Assessment",
