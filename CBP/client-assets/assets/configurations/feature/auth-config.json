@@ -524,7 +524,7 @@
           "name": "Home",
           "key": "mycbp",
           "fragment": false,
-          "iconName":"home",
+          "iconName": "home",
           "render": true,
           "badges": {
             "enabled": false,
@@ -559,33 +559,31 @@
             "content_publisher"
           ],
           "subMenu": [
-            
-        {
-          "name": "Contents",
-          "key": "mycbp",
-          "fragment": false,
-          "iconName":"school",
-          "render": true,
-          "badges": {
-            "enabled": false,
-            "uri": ""
-          },
-          "enabled": true,
-          "routerLink": "/author/cbp/me",
-          "queryParams": "published",
-          "requiredRoles": [
-            "content_reviewer",
-            "content_creator",
-            "spv_publisher",
-            "editor",
-            "admin"
-          ]
-        },
-        
+            {
+              "name": "Contents",
+              "key": "mycbp",
+              "fragment": false,
+              "iconName": "school",
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/author/cbp/me",
+              "queryParams": "published",
+              "requiredRoles": [
+                "content_reviewer",
+                "content_creator",
+                "spv_publisher",
+                "editor",
+                "admin"
+              ]
+            },
             {
               "name": "Marketplace Content",
               "key": "cbp",
-              "iconName":"school",
+              "iconName": "school",
               "fragment": false,
               "render": true,
               "badges": {
@@ -599,26 +597,26 @@
                 "spv_publisher"
               ]
             },
-        {
-          "name": "Publish Moderated Content",
-          "key": "moderatedCourse",
-          "iconName":"school",
-          "fragment": false,
-          "render": true,
-          "badges": {
-            "enabled": false,
-            "uri": ""
-          },
-          "enabled": true,
-          "routerLink": "/author/cbp/me",
-          "requiredRoles": [
-            "content_publisher"
-          ]
-        },
+            {
+              "name": "Publish Moderated Content",
+              "key": "moderatedCourse",
+              "iconName": "school",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/author/cbp/me",
+              "requiredRoles": [
+                "content_publisher"
+              ]
+            },
             {
               "name": "Batch Management",
               "key": "batch-management",
-              "iconName":"svg_learn",
+              "iconName": "svg_learn",
               "fragment": false,
               "render": true,
               "badges": {
@@ -634,7 +632,7 @@
             {
               "name": "Users",
               "key": "user",
-              "iconName":"group",
+              "iconName": "group",
               "fragment": false,
               "render": true,
               "badges": {
@@ -650,7 +648,7 @@
             {
               "name": "Competencies",
               "key": "competencies",
-              "iconName":"home",
+              "iconName": "home",
               "fragment": false,
               "render": true,
               "badges": {
@@ -670,7 +668,7 @@
             {
               "name": "Forms",
               "key": "Forms",
-              "iconName":"description",
+              "iconName": "description",
               "fragment": false,
               "render": true,
               "badges": {
@@ -689,7 +687,7 @@
             {
               "name": "Reports",
               "key": "reportSection",
-              "iconName":"description",
+              "iconName": "description",
               "fragment": false,
               "render": true,
               "badges": {
@@ -707,7 +705,7 @@
             {
               "name": "Karma Programs",
               "key": "karma-programs",
-              "iconName":"home",
+              "iconName": "home",
               "fragment": false,
               "render": true,
               "badges": {
@@ -723,7 +721,7 @@
             {
               "name": "Policies",
               "key": "policies",
-              "iconName":"home",
+              "iconName": "home",
               "fragment": false,
               "render": false,
               "badges": {
@@ -736,7 +734,7 @@
             {
               "name": "About",
               "key": "about",
-              "iconName":"home",
+              "iconName": "home",
               "fragment": false,
               "render": false,
               "badges": {
@@ -749,7 +747,7 @@
             {
               "name": "All Requests",
               "key": "allRequest",
-              "iconName":"home",
+              "iconName": "home",
               "fragment": false,
               "render": true,
               "badges": {
@@ -769,7 +767,7 @@
             {
               "name": "My Requests",
               "key": "myRequest",
-              "iconName":"home",
+              "iconName": "home",
               "fragment": false,
               "render": true,
               "badges": {
@@ -789,7 +787,7 @@
             {
               "name": "How Tos",
               "key": "how-tos",
-              "iconName":"video_library",
+              "iconName": "video_library",
               "fragment": false,
               "render": true,
               "badges": {
@@ -809,7 +807,7 @@
             {
               "name": "CQF Content",
               "key": "cqf-content",
-              "iconName":"home",
+              "iconName": "home",
               "fragment": false,
               "render": true,
               "badges": {
@@ -821,6 +819,22 @@
               "requiredRoles": [
                 "spv_publisher"
               ]
+            },
+            {
+              "name": "Events",
+              "key": "events",
+              "iconName": "event",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/events",
+              "requiredRoles": [
+                "spv_publisher"
+              ]
             }
           ]
         }
@@ -828,31 +842,31 @@
     }
   },
   "surveyForm": {
-            "active": true,
-            "surveyFormData": [
-              {
-                "title": "Take the iGOT Survey, help us make iGOT even better!",
-                "content": "Take a few minutes to complete this survey and contribute to enhancing the iGOT learning experience",
-                "btnTitle": "Click here",
-                "ImageUrl": "assets/icons/learner-advisory/surveyEdit.png",
-                "surveyId": "668e250da8bfb500083136b1"
-              }
-            ]
-          },
-          "surveyPopup": {
-            "active": true,
-            "banners": {
-              "l": "assets/instances/eagle/survey-img/desktop.svg",
-              "m": "assets/instances/eagle/survey-img/mobile.svg",
-              "s": "assets/instances/eagle/survey-img/mobile.svg",
-              "xl": "assets/instances/eagle/survey-img/desktop.svg",
-              "xs": "assets/instances/eagle/survey-img/mobile.svg",
-              "xxl": "assets/instances/eagle/survey-img/desktop.svg"
-            },
-            "mobileBanner": "assets/instances/eagle/survey-img/survey_pop_up_mobile.png",
-            "buttonName": "Take Survey",
-            "surveyUrl": "https://portal.igotkarmayogi.gov.in/surveyml/668e252fa8bfb5000831371f"
-          },
+    "active": true,
+    "surveyFormData": [
+      {
+        "title": "Take the iGOT Survey, help us make iGOT even better!",
+        "content": "Take a few minutes to complete this survey and contribute to enhancing the iGOT learning experience",
+        "btnTitle": "Click here",
+        "ImageUrl": "assets/icons/learner-advisory/surveyEdit.png",
+        "surveyId": "668e250da8bfb500083136b1"
+      }
+    ]
+  },
+  "surveyPopup": {
+    "active": true,
+    "banners": {
+      "l": "assets/instances/eagle/survey-img/desktop.svg",
+      "m": "assets/instances/eagle/survey-img/mobile.svg",
+      "s": "assets/instances/eagle/survey-img/mobile.svg",
+      "xl": "assets/instances/eagle/survey-img/desktop.svg",
+      "xs": "assets/instances/eagle/survey-img/mobile.svg",
+      "xxl": "assets/instances/eagle/survey-img/desktop.svg"
+    },
+    "mobileBanner": "assets/instances/eagle/survey-img/survey_pop_up_mobile.png",
+    "buttonName": "Take Survey",
+    "surveyUrl": "https://portal.igotkarmayogi.gov.in/surveyml/668e252fa8bfb5000831371f"
+  },
   "search": {
     "visibleFiltersV2": {
       "primaryCategory": {
