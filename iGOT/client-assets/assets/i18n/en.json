@@ -1481,7 +1481,17 @@
         "yourLearningGuide": "Your Learning Guide",
         "availablelearnings": "You will see all the available content based on your designation.",
         "completedlearnings": "You will see all the completed content based on your designation.",
-        "inprogresslearnings": "You will see all the inprogress content based on your designation."
+        "inprogresslearnings": "You will see all the inprogress content based on your designation.",
+
+        "sakshamAi": "Saksham AI",
+        "sakshamaidesc": "Dear Karmayogi ! Explore your personalized course recommendations and share your feedback to enhance your learning experience.",
+        "sakshamaifeedbackText": "Your feedback is very important to serve you better.",
+        "sakshamaiLoaderText": "We are curating the most suitable learning course recommendations tailored just for you.",
+
+        "relevent": "Relevant",
+        "no": "No",
+        "tocReleventHeading": "Is this a relevant course?",
+        "tocReleventSubHeading": "Please share your feedback to help us refine the AI driven recommendation model."
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
