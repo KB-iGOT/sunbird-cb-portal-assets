@@ -33,13 +33,13 @@
       }
     },
     "netcoreWebConfig": {
-      "isActive": false,
+      "isActive": true,
       "events": {
         "user_signin": {
-          "isActive": false
+          "isActive": true
         },
         "profile_update": {
-          "isActive": false
+          "isActive": true
         },
         "content_view": {
           "isActive": false
