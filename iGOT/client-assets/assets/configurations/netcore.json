@@ -39,7 +39,7 @@
           "isActive": true
         },
         "profile_update": {
-          "isActive": false
+          "isActive": true
         },
         "content_view": {
           "isActive": false
