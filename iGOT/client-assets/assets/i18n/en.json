@@ -1478,6 +1478,7 @@
         "notMyUser3": "If you believe this is incorrect, contact your MDO or make a \"Transfer Request\" to select your proper organization.",
         "completedEvents": "You will find your completed events here.",
         "recommendedLearnings": "Recommended Learnings",
+        "yourLearningGuide": "Your Learning Guide",
         "availablelearnings": "You will see all the available content based on your designation.",
         "completedlearnings": "You will see all the completed content based on your designation.",
         "inprogresslearnings": "You will see all the inprogress content based on your designation."
@@ -1859,9 +1860,11 @@
     "searchfilters": {
         "caseStudy": "Case Study",
         "karmayogiSaptah": "Karmayogi Saptah",
+        "karmayogiTalks": "Karmayogi Talks",
         "filterSearch": "Filter search",
         "contentType": "Content Type",
         "program": "Program",
+        "webinar": "Webinar",
         "course": "Course",
         "learningResource": "Learning Resource",
         "standaloneAssessment": "Standalone Assessment",
