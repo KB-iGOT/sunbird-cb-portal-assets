@@ -1487,11 +1487,12 @@
         "sakshamaidesc": "Dear Karmayogi ! Explore your personalized course recommendations and share your feedback to enhance your learning experience.",
         "sakshamaifeedbackText": "Your feedback is very important to serve you better.",
         "sakshamaiLoaderText": "We are curating the most suitable learning course recommendations tailored just for you.",
-
+        "recommendedAIText": "These are AI generated recommendations",
         "relevent": "Relevant",
         "no": "No",
         "tocReleventHeading": "Is this a relevant course?",
-        "tocReleventSubHeading": "Please share your feedback to help us refine the AI driven recommendation model."
+        "tocReleventSubHeading": "Please share your feedback to help us refine the AI driven recommendation model.",
+        "sakshamAITooltip": "AI Driven recommendation for you"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
