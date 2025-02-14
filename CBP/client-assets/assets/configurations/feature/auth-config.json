@@ -515,6 +515,22 @@
               "requiredRoles": [
                 "spv_publisher"
               ]
+            },
+            {
+              "name": "Events",
+              "key": "events",
+              "iconName": "event",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/events",
+              "requiredRoles": [
+                "spv_publisher"
+              ]
             }
           ]
         }
@@ -706,31 +722,31 @@
     }
   },
   "surveyForm": {
-            "active": true,
-            "surveyFormData": [
-              {
-                "title": "Take the iGOT Survey, help us make iGOT even better!",
-                "content": "Take a few minutes to complete this survey and contribute to enhancing the iGOT learning experience",
-                "btnTitle": "Click here",
-                "ImageUrl": "assets/icons/learner-advisory/surveyEdit.png",
-                "surveyId": "668e250da8bfb500083136b1"
-              }
-            ]
-          },
-          "surveyPopup": {
-            "active": true,
-            "banners": {
-              "l": "assets/instances/eagle/survey-img/desktop.svg",
-              "m": "assets/instances/eagle/survey-img/mobile.svg",
-              "s": "assets/instances/eagle/survey-img/mobile.svg",
-              "xl": "assets/instances/eagle/survey-img/desktop.svg",
-              "xs": "assets/instances/eagle/survey-img/mobile.svg",
-              "xxl": "assets/instances/eagle/survey-img/desktop.svg"
-            },
-            "mobileBanner": "assets/instances/eagle/survey-img/survey_pop_up_mobile.png",
-            "buttonName": "Take Survey",
-            "surveyUrl": "https://portal.igotkarmayogi.gov.in/surveyml/668e252fa8bfb5000831371f"
-          },
+    "active": true,
+    "surveyFormData": [
+      {
+        "title": "Take the iGOT Survey, help us make iGOT even better!",
+        "content": "Take a few minutes to complete this survey and contribute to enhancing the iGOT learning experience",
+        "btnTitle": "Click here",
+        "ImageUrl": "assets/icons/learner-advisory/surveyEdit.png",
+        "surveyId": "668e250da8bfb500083136b1"
+      }
+    ]
+  },
+  "surveyPopup": {
+    "active": true,
+    "banners": {
+      "l": "assets/instances/eagle/survey-img/desktop.svg",
+      "m": "assets/instances/eagle/survey-img/mobile.svg",
+      "s": "assets/instances/eagle/survey-img/mobile.svg",
+      "xl": "assets/instances/eagle/survey-img/desktop.svg",
+      "xs": "assets/instances/eagle/survey-img/mobile.svg",
+      "xxl": "assets/instances/eagle/survey-img/desktop.svg"
+    },
+    "mobileBanner": "assets/instances/eagle/survey-img/survey_pop_up_mobile.png",
+    "buttonName": "Take Survey",
+    "surveyUrl": "https://portal.igotkarmayogi.gov.in/surveyml/668e252fa8bfb5000831371f"
+  },
   "search": {
     "visibleFiltersV2": {
       "primaryCategory": {
