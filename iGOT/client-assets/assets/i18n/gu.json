@@ -503,6 +503,8 @@
     "mostTrending": "સૌથી વધુ ટ્રેન્ડ",
     "selfLearning": "સ્વ-શિક્ષણ",
     "completedCourse": "તમે આ અભ્યાસક્રમ પૂર્ણ કર્યો છે",
+    "completedProgram": "તમે આ કાર્યક્રમ પૂર્ણ કર્યો",
+    "completedAssessment": "તમે આ મૂલ્યાંકન પૂર્ણ કર્યું",
     "provider": "પ્રદાતા",
     "objectives": "ઉદ્દેશો",
     "comments": "ટિપ્પણીઓ",
@@ -1269,7 +1271,8 @@
     "careerHistory": "કારકિર્દીનો ઈતિહાસ",
     "academics": "શૈક્ષણિક",
     "hobbies": "શોખ",
-    "karmaPoints": "કર્મ બિંદુઓ"
+    "karmaPoints": "કર્મ બિંદુઓ",
+    "fromGovOrganization": "શું તમે સરકારની કોઈ સંગઠિત સેવામાંથી છો?"
   },
   "profileCretificationsV2": {
     "certifications": "પ્રમાણપત્રો",
@@ -1457,6 +1460,7 @@
     "notMyUser2": "48 કલાકમાં ",
     "notMyUser3": "જો તમને લાગે કે આ ખોટું છે, તો તમારા એમ. ડી. ઓ. નો સંપર્ક કરો અથવા તમારી યોગ્ય સંસ્થાને પસંદ કરવા માટે \"ટ્રાન્સફર વિનંતી\" કરો.",
     "recommendedLearnings": "ભલામણ કરેલ શિક્ષણ",
+    "yourLearningGuide": "તમારી શીખવાની માર્ગદર્શિકા",
     "availablelearnings": "તમે તમારા હોદ્દા પર આધારિત બધી ઉપલબ્ધ સામગ્રી જુઓ.",
     "completedlearnings": "તમે તમારા હોદ્દા પર આધારિત બધી પૂર્ણ સામગ્રી જુઓ.",
     "inprogresslearnings": "તમે તમારા હોદ્દાના આધારે તમામ પ્રગતિ સામગ્રી જુઓ."
@@ -1808,6 +1812,9 @@
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",
     "contentType": "સામગ્રીનો પ્રકાર",
+    "karmayogiTalks": "કર્મયોગી વાટાઘાટો",
+    "karmayogiSaptah": "કર્મયોગી સપ્તાહ",
+    "webinar": "વેબિનાર",
     "program": "કાર્યક્રમ",
     "course": "અભ્યાસક્રમ",
     "learningResource": "શિક્ષણ સંસાધન",

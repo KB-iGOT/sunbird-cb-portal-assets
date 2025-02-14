@@ -971,78 +971,100 @@
             {
               "label": "Contents",
               "value": "Contents",
-              "requestRequired": true,
-              "request": {
-                "enrollmentList": {
-                  "path": "/apis/proxies/v8/learner/course/v1/user/enrollment/list/<id>",
-                  "queryParams": {
-                    "orgdetails": "orgName,email",
-                    "licenseDetails": "name,description,url",
-                    "fields": "contentType,name,channel,mimeType,appIcon,resourceType,identifier,trackable,objectType,organisation,pkgVersion,version,trackable,primaryCategory,posterImage,duration,creatorLogo,license,programDuration,avgRating,additionalTags",
-                    "batchDetails": "name,endDate,startDate,status,enrollmentType,createdBy,certificates"
-                  }
-                }
-              },
+              "requestRequired": false,
               "pillsData": [
                 {
                   "label": "In Progress",
                   "value": "inprogress",
                   "computeDataOnClick": false,
                   "showTabDataCount": true,
-                  "requestRequired": false,
+                  "requestRequired": true,
                   "maxWidgets": 12,
                   "nodataMsg": "You don’t have any new course in progress.",
-                  "selected": false
+                  "selected": false,
+                  "request": {
+                    "path": "",
+                    "type": "enrollment",
+                    "payload": {
+                      "request": {
+                        "retiredCoursesEnabled": true,
+                        "status": "In-Progress",
+                        "limit": 4
+                      }
+                    }
+                  }
                 },
                 {
                   "label": "Completed",
                   "value": "completed",
                   "computeDataOnClick": false,
                   "showTabDataCount": true,
-                  "requestRequired": false,
+                  "requestRequired": true,
                   "maxWidgets": 12,
                   "nodataMsg": "You will find your Completed Courses/Program here.",
-                  "selected": false
+                  "selected": false,
+                  "request": {
+                    "path": "",
+                    "type": "enrollment",
+                    "payload": {
+                      "request": {
+                        "retiredCoursesEnabled": true,
+                        "status": "Completed",
+                        "limit": 10
+                      }
+                    }
+                  }
                 }
               ]
             },
             {
               "label": "Events",
               "value": "Events",
-              "requestRequired": true,
-              "request": {
-                "eventEnrollmentList": {
-                  "path": "/apis/proxies/v8/learner/course/v1/user/enrollment/list/<id>",
-                  "queryParams": {
-                    "orgdetails": "orgName,email",
-                    "licenseDetails": "name,description,url",
-                    "fields": "contentType,name,channel,mimeType,appIcon,resourceType,identifier,trackable,objectType,organisation,pkgVersion,version,trackable,primaryCategory,posterImage,duration,creatorLogo,license,programDuration,avgRating,additionalTags",
-                    "batchDetails": "name,endDate,startDate,status,enrollmentType,createdBy,certificates"
-                  }
-                }
-              },
+              "requestRequired": false,
               "pillsData": [
                 {
                   "label": "In Progress",
                   "value": "inprogress",
                   "computeDataOnClick": false,
                   "showTabDataCount": true,
-                  "requestRequired": false,
+                  "requestRequired": true,
                   "maxWidgets": 12,
                   "nodataMsg": "You don’t have any new course in progress.",
                   "selected": true,
-                  "widgets": []
+                  "widgets": [],
+                  "request": {
+                    "path": "",
+                    "type": "eventEnrollment",
+                    "payload": {
+                      "request": {
+                        "retiredCoursesEnabled": true,
+                        "status": "In-Progress",
+                        "limit": 4
+                      }
+                    }
+                  }
                 },
                 {
                   "label": "Completed",
                   "value": "completed",
                   "computeDataOnClick": false,
                   "showTabDataCount": true,
-                  "requestRequired": false,
+                  "requestRequired": true,
                   "maxWidgets": 12,
                   "nodataMsg": "You will find your Completed Courses/Program here.",
                   "selected": false,
-                  "widgets": []
+                  "widgets": [],
+                  "request": {
+                    "path": "",
+                    "type": "eventEnrollment",
+                    "payload": {
+                      "request": {
+                        "retiredCoursesEnabled": true,
+                        "status": "Completed",
+                        "limit": 10
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -1204,14 +1226,22 @@
     "buttonText": "View More",
     "width": "30px"
   },
-  "updteDesignation": {
-    "enabled": true,
+  "updateDesignation": {
+    "enabled": false,
     "imageUrl": "assets/icons/desigantion-card.svg",
     "imageUrlMobile": "/assets/icons/desigantion-card.svg",
-    "header": "Your organization designation master has been updated so Please update your designation at your earliest convenience.",
+    "header": "We found that your designation is marked as non-verified by your MDO admin due to updates in your organization's designation master. Please update it as soon as possible.",
+    "headerHi": "हमने पाया कि आपके संगठन के पदनाम मास्टर में अपडेट के कारण आपके एमडीओ व्यवस्थापक द्वारा आपके पदनाम को गैर-सत्यापित के रूप में चिह्नित किया गया है। कृपया इसे यथाशीघ्र अद्यतन करें।",
+    "headerGu": "અમને જાણવા મળ્યું છે કે તમારી સંસ્થાના હોદ્દો માસ્ટરમાં અપડેટ્સને કારણે તમારા MDO એડમિન દ્વારા તમારી હોદ્દો બિન-ચકાસાયેલ તરીકે ચિહ્નિત થયેલ છે. કૃપા કરીને તેને શક્ય તેટલી વહેલી તકે અપડેટ કરો.",
     "hintText": "Not able to find your designation, please write us at <u>mission.karmayogi@gov.in</u> with the with the organization and designation name.",
-    "hintTextMobile": "Not able to find your designation, please write us at <a href='mission.karmayogi@gov.in'>mission.karmayogi@gov.in</a> with the organization and designation name.",
-    "ButtonText": "Submit"
+    "hintTextHi": "यदि आपको अपना पदनाम नहीं मिल पा रहा है, तो कृपया हमें अपने संगठन और पदनाम के साथ <u>mission.karmayogi@gov.in</u> पर लिखें।",
+    "hintTextGu": "તમારું હોદ્દો શોધવામાં અસમર્થ, કૃપા કરીને અમને <u>mission.karmayogi@gov.in</u> પર સંસ્થા અને હોદ્દા નામ સાથે લખો.",
+    "hintTextMobile": "Not able to find your designation, please write us at <a href='mission.karmayogi@gov.in'>mission.karmayogi@gov.in</a> with the with the organization and designation name.",
+    "hintTextMobileHi": "यदि आपको अपना पदनाम नहीं मिल पा रहा है, तो कृपया हमें अपने संगठन और पदनाम के साथ <a href='mission.karmayogi@gov.in'>mission.karmayogi@gov.in</a> पर लिखें।",
+    "hintTextMobileGu": "તમારું હોદ્દો શોધવામાં અસમર્થ, કૃપા કરીને અમને <a href='mission.karmayogi@gov.in'>mission.karmayogi@gov.in</a> પર સંસ્થા અને હોદ્દા નામ સાથે લખો.",
+    "buttonText": "Submit",
+    "buttonTextHi": "जमा करें",
+    "buttonTextGu": "સબમિટ કરો"
   },
   "mdoChannelMobile": {
     "dev": {
@@ -2836,7 +2866,7 @@
     },
     {
       "order": 2,
-      "stripType": "withOutPils",
+      "stripType": "withPils",
       "stripVisable": "mobile",
       "strips": [
         {
@@ -2844,7 +2874,7 @@
           "key": "continueLearning",
           "logo": "school",
           "title": "My Learning",
-          "customeClass": "mr-5",
+          "customeClass": "",
           "stripTitleLink": {
             "link": "",
             "icon": ""
@@ -2865,36 +2895,118 @@
             "cardSubType": "card-progress-portrait-lib"
           },
           "viewMoreUrl": {
-            "path": "/app/seeAll",
+            "path": "/app/seeAll/new",
             "viewMoreText": "Show all",
             "queryParams": {
               "key": "continueLearning"
             },
             "loaderConfig": {
-              "cardSubType": "card-portrait-skeleton"
+              "cardSubType": "card-progress-portrait-lib-skeleton"
             },
             "stripConfig": {
-              "cardSubType": "card-portrait"
+              "cardSubType": "card-progress-portrait-lib"
             }
           },
           "tabs": [
             {
-              "label": "In Progress",
-              "value": "inprogress",
-              "computeDataOnClick": false,
-              "showTabDataCount": true,
+              "label": "Contents",
+              "value": "Contents",
               "requestRequired": false,
-              "maxWidgets": 12,
-              "nodataMsg": "You don’t have any new course in progress."
+              "pillsData": [
+                {
+                  "label": "In Progress",
+                  "value": "inprogress",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": true,
+                  "maxWidgets": 12,
+                  "nodataMsg": "You don’t have any new course in progress.",
+                  "selected": false,
+                  "request": {
+                    "path": "",
+                    "type": "enrollment",
+                    "payload": {
+                      "request": {
+                        "retiredCoursesEnabled": true,
+                        "status": "In-Progress",
+                        "limit": 4
+                      }
+                    }
+                  }
+                },
+                {
+                  "label": "Completed",
+                  "value": "completed",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": true,
+                  "maxWidgets": 12,
+                  "nodataMsg": "You will find your Completed Courses/Program here.",
+                  "selected": false,
+                  "request": {
+                    "path": "",
+                    "type": "enrollment",
+                    "payload": {
+                      "request": {
+                        "retiredCoursesEnabled": true,
+                        "status": "Completed",
+                        "limit": 10
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "label": "Completed",
-              "value": "completed",
-              "computeDataOnClick": false,
-              "showTabDataCount": true,
+              "label": "Events",
+              "value": "Events",
               "requestRequired": false,
-              "maxWidgets": 12,
-              "nodataMsg": "You will find your Completed Courses/Program here."
+              "pillsData": [
+                {
+                  "label": "In Progress",
+                  "value": "inprogress",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": true,
+                  "maxWidgets": 12,
+                  "nodataMsg": "You don’t have any new course in progress.",
+                  "selected": true,
+                  "widgets": [],
+                  "request": {
+                    "path": "",
+                    "type": "eventEnrollment",
+                    "payload": {
+                      "request": {
+                        "retiredCoursesEnabled": true,
+                        "status": "In-Progress",
+                        "limit": 4
+                      }
+                    }
+                  }
+                },
+                {
+                  "label": "Completed",
+                  "value": "completed",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": true,
+                  "maxWidgets": 12,
+                  "nodataMsg": "You will find your Completed Courses/Program here.",
+                  "selected": false,
+                  "widgets": [],
+                  "request": {
+                    "path": "",
+                    "type": "eventEnrollment",
+                    "payload": {
+                      "request": {
+                        "retiredCoursesEnabled": true,
+                        "status": "Completed",
+                        "limit": 10
+                      }
+                    }
+                  }
+                }
+              ]
             }
           ],
           "filters": [],
@@ -2905,7 +3017,7 @@
                 "orgdetails": "orgName,email",
                 "licenseDetails": "name,description,url",
                 "fields": "contentType,name,channel,mimeType,appIcon,resourceType,identifier,trackable,objectType,organisation,pkgVersion,version,trackable,primaryCategory,posterImage,duration,creatorLogo,license,programDuration,avgRating,additionalTags",
-                "batchDetails": "name,endDate,startDate,status,enrollmentType,createdBy,certificates"
+                "batchDetails": "name,endDate,startDate,status,enrollmentType,createdBy,certificates&retiredCoursesEnabled=true"
               }
             }
           }
