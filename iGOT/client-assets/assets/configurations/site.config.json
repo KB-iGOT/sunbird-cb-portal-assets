@@ -461,7 +461,7 @@
     {
       "path": "/app/discussion-forum-v2",
       "active": true,
-      "hubname": "Discuss-V2",
+      "hubname": "Communities",
       "desc": "Have a question? Have an Idea? discuss with your peers.",
       "icon": "forum",
       "accessKey": "D",
