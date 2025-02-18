@@ -179,6 +179,21 @@
         },
 
         {
+          "menuCategory": "Events",
+          "submenu": false,
+          "key": "events",
+          "fragment": false,
+          "render": true,
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "routerLink": "/app/home/events",
+          "requiredRoles": ["mdo_admin", "mdo_leader"],
+          "defaultExpanded": false
+        },
+        {
           "menuCategory": "Reports",
           "submenu": false,
           "key": "reports-section",
