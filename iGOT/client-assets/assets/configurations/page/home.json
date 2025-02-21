@@ -1356,7 +1356,7 @@
     {
       "id": 2,
       "section": "font-setting",
-      "active": true
+      "active": false
     },
     {
       "id": 3,
@@ -2870,7 +2870,6 @@
                     "computeDataOnClick": false,
                     "showTabDataCount": true,
                     "requestRequired": false,
-                    "maxWidgets": 12,
                     "selected": false,
                     "nodataMsg": "availablelearnings"
                   },
@@ -2880,7 +2879,6 @@
                       "computeDataOnClick": false,
                       "showTabDataCount": true,
                       "requestRequired": false,
-                      "maxWidgets": 12,
                       "selected": false,
                       "nodataMsg": "inprogresslearnings"
                   },
@@ -2890,7 +2888,6 @@
                       "computeDataOnClick": false,
                       "showTabDataCount": true,
                       "requestRequired": false,
-                      "maxWidgets": 12,
                       "selected": false,
                       "nodataMsg": "completedlearnings"
                   }
