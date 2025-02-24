@@ -165,7 +165,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Dashboard",
-      "url": "/author/cbp/me",
+      "url": "/app/home",
       "shortName": "Home"
     },
     "feature_goals": {
@@ -204,26 +204,26 @@
       "show": true,
       "status": "live",
       "toolTip": "Dashboard",
-      "url": "/author/cbp/me",
+      "url": "/app/home",
       "shortName": "Home"
     },
     "feature_rainDashboard": {
       "accessKey": "",
-      "icon": "bar_chart",
+      "icon": "help",
       "iconType": "mat-icon",
       "id": "feature_rainDashboard",
       "keywords": [
-        "rain",
-        "dashboard"
+        "help",
+        "help center"
       ],
-      "name": "Rain Dashboard",
+      "name": "How Tos",
       "permission": [
         "ABOUT_US"
       ],
       "show": true,
       "status": "live",
-      "toolTip": "Rain Dashboard",
-      "url": "/app/rainDashboard",
+      "toolTip": "How Tos",
+      "url": "/author/cbp/how-to",
       "shortName": "RD"
     },
     "feature_badges": {

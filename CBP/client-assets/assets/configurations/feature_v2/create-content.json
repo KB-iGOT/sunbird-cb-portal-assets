@@ -1,0 +1,121 @@
+[
+  {
+    "id": "course",
+    "isCollection": true,
+    "name": "Course",
+    "description": "Start designing your course by adding modules, resources, and assessment to create an engaging learning experience.",
+    "icon": "course-colour",
+    "contentType": "Course",
+    "courseCategory": "Course",
+    "avalible": true,
+    "enabled": true,
+    "mimeType": "application/vnd.ekstep.content-collection",
+    "hasRole": [
+      "content_creator"
+    ],
+    "possion": 1,
+    "primaryCategory": "Course",
+    "openCourseEnabled": true,
+    "moderatedCourseEnabled": true,
+    "toolTipinfo": "On selection of 'All users', the created course will be tagged as 'Course' and will be accessible to all learners of iGOT. On selection of 'MDO specific', the created course will be tagged as 'Moderated course' and will be accessible to the selected MDO's users or verified users.",
+    "accessSettingSubtitle": "Select the organisation(s) who will have access to the course.",
+    "moderatedTitle": "Moderated course access",
+    "moderatedSubtitle": "Select the organisation(s) who will have access to the course.",
+    "selectorDescription": "Create Course and Moderated course with a collection of modules and resources."
+  },
+  {
+    "id": "program",
+    "isCollection": true,
+    "name": "Program",
+    "description": "Start designing your program by adding live courses, modules and offline sessions to create an engaging learner experience.",
+    "icon": "program-colour",
+    "contentType": "Course",
+    "enabled": true,
+    "avalible": false,
+    "mimeType": "application/vnd.ekstep.content-collection",
+    "hasRole": [
+      "content_creator"
+    ],
+    "primaryCategory": "Program",
+    "possion": 2,
+    "openProgramEnabled": true,
+    "moderatedProgramEnabled": true,
+    "blendedProgramEnabled": true,
+    "programDuration": {
+      "max": 999,
+      "min": 1
+    },
+    "batchSize": {
+      "max": 200,
+      "min": 1
+    },
+    "toolTipinfo": "On selection of 'All users', the created program will be tagged as 'Curated Program' and will be accessible to all learners of iGOT. On selection of 'MDO specific', the created program will be tagged as 'Moderated program' and will be accessible to the selected MDO's users or verified users.On selection of 'Custom users', the created program will be tagged as 'Invite Only Program' and will be accessible to the invited users only.",
+    "accessSettingSubtitle": "Select the user type who will have access to the created program.",
+    "moderatedTitle": "Moderated program access",
+    "moderatedSubtitle": "Select the organisation(s) who will have access to the created program. <br><strong>Note:</strong> If any course is added to the program and your changing the department the added course will be removed from the program.",
+    "selectorDescription": "Create Curated, Moderated, Invite only and Blended Program with curation of open courses (Means which is accessible to all). <strong>Note: Only in Moderated Program, you can add Moderated Courses as well.</strong>"
+  },
+  {
+    "id": "assessment",
+    "isCollection": true,
+    "name": "Assessment",
+    "description": "Start designing your assessment by adding relevant questions. Choose the appropriate assessment type: Basic or Advanced",
+    "icon": "assessment-colour",
+    "contentType": "Collection",
+    "enabled": true,
+    "avalible": false,
+    "mimeType": "application/vnd.ekstep.content-collection",
+    "hasRole": [
+      "content_creator"
+    ],
+    "primaryCategory": "Standalone Assessment",
+    "possion": 3,
+    "toolTipinfo": "On selection of 'All users', the created assessment will be tagged as 'Standalone assessment' and will be accessible to all learners of iGOT. On selection of 'MDO specific', the created assessment will be tagged as 'Moderated assessment' and will be accessible to the selected MDO's users or verified users.On selection of 'Custom users', the created assessment will be tagged as 'Invite Only Assessment' and will be accessible to the invited users only.",
+    "accessSettingSubtitle": "Select the organisation(s) who will have access to the assessment.",
+    "moderatedTitle": "Moderated assessment access",
+    "moderatedSubtitle": "Select the organisation(s) who will have access to the created assessment.",
+    "selectorDescription": "Create Standalone, Moderated Assessments and Invite Only Assessments with question and option weightage functionality."
+  },
+  {
+    "id": "learningResource",
+    "name": "Resource",
+    "description": "Create a standalone resources here - these will be displayed in Amrit Gyaan Kosh for learning impact.",
+    "icon": "upload-colour",
+    "contentType": "Resource",
+    "primaryCategory": "Learning Resource",
+    "mimeType": "application/html",
+    "hasRole": [
+      "content_creator"
+    ],
+    "enabled": true,
+    "avalible": false,
+    "possion": 4,
+    "selectorDescription": "Create a standalone resources here - these will be displayed in Amrit Gyaan Kosh for learning impact."
+  },
+  {
+    "id": "caseStudy",
+    "isCollection": true,
+    "name": "Case Study",
+    "description": "Start designing your case study by adding modules, resources, and assessment to create an engaging learning experience.",
+    "icon": "video_library",
+    "contentType": "Course",
+    "avalible": true,
+    "enabled": false,
+    "mimeType": "application/vnd.ekstep.content-collection",
+    "hasRole": [
+      "content_creator",
+      "editor",
+      "admin"
+    ],
+    "possion": 5,
+    "primaryCategory": "Course",
+    "courseCategory": "Case Study",
+    "openCourseEnabled": true,
+    "moderatedCourseEnabled": false,
+    "toolTipinfo": "On selection of 'All users', the created case study will be tagged as 'Case Study' and will be accessible to all learners of iGOT. On selection of 'MDO specific', the created course will be tagged as 'Moderated course' and will be accessible to the selected MDO's users or verified users.",
+    "accessSettingSubtitle": "Select the user type who will have access to the created case study.",
+    "moderatedTitle": "Moderated case study access",
+    "moderatedSubtitle": "Select the organisation(s) who will have access to the case study.",
+    "selectorDescription": "Create Case Study with a collection of modules and resources."
+  }
+]

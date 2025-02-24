@@ -17,7 +17,7 @@
                     "enabled": true,
                     "customRouting": true,
                     "paramaterName": "contentId",
-                    "routerLink": "/author/content-detail/<param>/overview"
+                    "routerLink": "/author/content-detail/<param>/overview-v2"
                 },
                 {
                     "name": "Content",
@@ -28,7 +28,7 @@
                         "enabled": false,
                         "uri": ""
                     },
-                    "enabled": true,
+                    "enabled": false,
                     "customRouting": true,
                     "paramaterName": "contentId",
                     "routerLink": "/author/content-detail/<param>/content"
@@ -42,7 +42,7 @@
                         "enabled": false,
                         "uri": ""
                     },
-                    "enabled": true,
+                    "enabled": false,
                     "customRouting": true,
                     "paramaterName": "contentId",
                     "routerLink": "/author/content-detail/<param>/compentencies"
