@@ -835,6 +835,22 @@
               "requiredRoles": [
                 "spv_publisher"
               ]
+            },
+            {
+              "name": "Events",
+              "key": "events",
+              "iconName": "event",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/events",
+              "requiredRoles": [
+                "spv_publisher"
+              ]
             }
           ]
         }
