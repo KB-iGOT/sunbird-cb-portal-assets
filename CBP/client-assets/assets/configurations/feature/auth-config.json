@@ -559,33 +559,31 @@
             "content_publisher"
           ],
           "subMenu": [
-            
-        {
-          "name": "Contents",
-          "key": "mycbp",
-          "fragment": false,
-          "iconName":"school",
-          "render": true,
-          "badges": {
-            "enabled": false,
-            "uri": ""
-          },
-          "enabled": true,
-          "routerLink": "/author/cbp/me",
-          "queryParams": "published",
-          "requiredRoles": [
-            "content_reviewer",
-            "content_creator",
-            "spv_publisher",
-            "editor",
-            "admin"
-          ]
-        },
-        
+            {
+              "name": "Contents",
+              "key": "mycbp",
+              "fragment": false,
+              "iconName":"school",
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/author/cbp/me",
+              "queryParams": "published",
+              "requiredRoles": [
+                "content_reviewer",
+                "content_creator",
+                "spv_publisher",
+                "editor",
+                "admin"
+              ]
+            },
             {
               "name": "Marketplace Content",
               "key": "cbp",
-              "iconName":"school",
+              "iconName":"svg_marketplace",
               "fragment": false,
               "render": true,
               "badges": {
@@ -599,22 +597,22 @@
                 "spv_publisher"
               ]
             },
-        {
-          "name": "Publish Moderated Content",
-          "key": "moderatedCourse",
-          "iconName":"school",
-          "fragment": false,
-          "render": true,
-          "badges": {
-            "enabled": false,
-            "uri": ""
-          },
-          "enabled": true,
-          "routerLink": "/author/cbp/me",
-          "requiredRoles": [
-            "content_publisher"
-          ]
-        },
+            {
+              "name": "Publish Moderated Content",
+              "key": "moderatedCourse",
+              "iconName": "school",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/author/cbp/me",
+              "requiredRoles": [
+                "content_publisher"
+              ]
+            },
             {
               "name": "Batch Management",
               "key": "batch-management",
@@ -670,7 +668,7 @@
             {
               "name": "Forms",
               "key": "Forms",
-              "iconName":"description",
+              "iconName":"svg_forms",
               "fragment": false,
               "render": true,
               "badges": {
@@ -707,7 +705,7 @@
             {
               "name": "Karma Programs",
               "key": "karma-programs",
-              "iconName":"home",
+              "iconName":"svg_karma-program",
               "fragment": false,
               "render": true,
               "badges": {
@@ -749,7 +747,7 @@
             {
               "name": "All Requests",
               "key": "allRequest",
-              "iconName":"home",
+              "iconName":"svg_allRequest",
               "fragment": false,
               "render": true,
               "badges": {
@@ -769,7 +767,7 @@
             {
               "name": "My Requests",
               "key": "myRequest",
-              "iconName":"home",
+              "iconName":"check_circle",
               "fragment": false,
               "render": true,
               "badges": {
@@ -809,7 +807,7 @@
             {
               "name": "CQF Content",
               "key": "cqf-content",
-              "iconName":"home",
+              "iconName":"svg_cqf-management",
               "fragment": false,
               "render": true,
               "badges": {
