@@ -459,6 +459,16 @@
       "order": 2
     },
     {
+      "path": "/app/discussion-forum-v2",
+      "active": true,
+      "hubname": "Communities",
+      "desc": "Have a question? Have an Idea? discuss with your peers.",
+      "icon": "forum",
+      "accessKey": "D",
+      "permission": [],
+      "order": 3
+    },
+    {
       "path": "/app/amrit-gyaan-kosh",
       "active": true,
       "hubname": "Amrit Gyaan Kosh",
@@ -466,7 +476,7 @@
       "icon": "knowledge resources",
       "accessKey": "D",
       "permission": [],
-      "order": 3
+      "order": 4
     },
     {
       "path": "/app/jan-karmayogi",
@@ -476,7 +486,7 @@
       "icon": "Jan-karmayogi",
       "accessKey": "D",
       "permission": [],
-      "order": 3
+      "order": 5
     },
     {
       "path": "/app/network-v2",
@@ -486,7 +496,7 @@
       "icon": "group",
       "accessKey": "N",
       "permission": [],
-      "order": 4
+      "order": 6
     },
     {
       "path": "/app/event-hub",
@@ -496,7 +506,7 @@
       "icon": "event",
       "accessKey": "E",
       "permission": [],
-      "order": 5
+      "order": 7
     }
   ],
   "featuredApps": [],
