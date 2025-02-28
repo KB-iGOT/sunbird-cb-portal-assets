@@ -94,6 +94,7 @@
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
+        "searchforLearningContentsV2": "Ask A question",
         "karmaPoints": "Karma Points",
         "karmaPointsToolTip": "Karma Points measure and map your engagement at iGOT. Points are updated within 4 hours."
     },
@@ -1868,7 +1869,14 @@
         "webpage": "Webpage",
         "by": "By",
         "noResults": "No results found",
-        "removeFilters": "Try removing the filters or search using different keywords"
+        "removeFilters": "Try removing the filters or search using different keywords",
+
+        "noResultFound": "Sorry, we couldn't find any results for {{searchTerm}} so please Try adjusting your search.",
+        "extraText1": "Here are some ideas:",
+        "extraText2": "Make sure all words are spelled correctly. Try different search terms. Try more general search terms.",
+        "btnBackToHomepage": "Back to Homepage",
+        "btnExploreMore": "Explore More",
+        "searchResultsFor": "Results for"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
@@ -1906,7 +1914,15 @@
         "completed": "Completed",
         "behavioural": "Behavioural",
         "domain": "Domain",
-        "functional": "Functional"
+        "functional": "Functional",
+
+        "filterBy": "Filter By",
+        "categoryType": "Category Type",
+        "ratingTitle": "Ratings",
+        "languages": "Languages",
+        "contentProvider": "Content Provider",
+        "duration": "Duration",
+        "competencyArea": "Competency Area"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
