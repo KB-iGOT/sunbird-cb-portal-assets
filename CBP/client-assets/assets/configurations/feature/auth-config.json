@@ -579,7 +579,7 @@
               "name": "Contents",
               "key": "mycbp",
               "fragment": false,
-              "iconName": "school",
+              "iconName":"school",
               "render": true,
               "badges": {
                 "enabled": false,
@@ -599,7 +599,7 @@
             {
               "name": "Marketplace Content",
               "key": "cbp",
-              "iconName": "school",
+              "iconName":"svg_marketplace",
               "fragment": false,
               "render": true,
               "badges": {
@@ -684,7 +684,7 @@
             {
               "name": "Forms",
               "key": "Forms",
-              "iconName": "description",
+              "iconName":"svg_forms",
               "fragment": false,
               "render": true,
               "badges": {
@@ -721,7 +721,7 @@
             {
               "name": "Karma Programs",
               "key": "karma-programs",
-              "iconName": "extension",
+              "iconName":"svg_karma-program",
               "fragment": false,
               "render": true,
               "badges": {
@@ -763,7 +763,7 @@
             {
               "name": "All Requests",
               "key": "allRequest",
-              "iconName": "check_circle",
+              "iconName":"svg_allRequest",
               "fragment": false,
               "render": true,
               "badges": {
@@ -783,7 +783,7 @@
             {
               "name": "My Requests",
               "key": "myRequest",
-              "iconName": "description",
+              "iconName":"check_circle",
               "fragment": false,
               "render": true,
               "badges": {
@@ -823,7 +823,7 @@
             {
               "name": "CQF Content",
               "key": "cqf-content",
-              "iconName": "home",
+              "iconName":"svg_cqf-management",
               "fragment": false,
               "render": true,
               "badges": {
