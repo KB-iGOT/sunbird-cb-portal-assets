@@ -1356,7 +1356,7 @@
     {
       "id": 2,
       "section": "font-setting",
-      "active": true
+      "active": false
     },
     {
       "id": 3,
@@ -2776,92 +2776,144 @@
           "title": "my Space",
           "customeClass": "mr-5",
           "stripTitleLink": {
-            "link": "",
-            "icon": ""
+              "link": "",
+              "icon": ""
           },
           "loader": true,
           "loaderConfig": {
-            "cardSubType": "card-portrait-lib-skeleton"
+              "cardSubType": "card-portrait-lib-skeleton"
           },
           "sliderConfig": {
-            "showNavs": true,
-            "showDots": true,
-            "maxWidgets": 12,
-            "showNavsSpacing": true
+              "showNavs": true,
+              "showDots": true,
+              "maxWidgets": 12,
+              "showNavsSpacing": true
           },
           "stripBackground": "",
           "titleDescription": "My Learning",
           "stripConfig": {
-            "cardSubType": "card-portrait-lib"
+              "cardSubType": "card-portrait-lib"
           },
           "viewMoreUrl": {
-            "path": "/page/cbp",
-            "viewMoreText": "Show all",
-            "queryParams": {
-              "key": "cbpPlan"
-            },
-            "loaderConfig": {
-              "cardSubType": "card-standard-skeleton"
-            },
-            "stripConfig": {
-              "cardSubType": "card-standard"
-            }
+              "path": "/page/cbp",
+              "viewMoreText": "Show all",
+              "queryParams": {
+                  "key": "cbpPlan"
+              },
+              "loaderConfig": {
+                  "cardSubType": "card-standard-skeleton"
+              },
+              "stripConfig": {
+                  "cardSubType": "card-standard"
+              }
           },
           "tabs": [
-            {
-              "label": "My iGOT",
-              "value": "myIgotPlans",
-              "pillsData": [
-                {
-                  "label": "Upcoming",
-                  "value": "upcoming",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will see all the content that needs to be completed within the next 30 days."
+              {
+                  "label": "My iGOT",
+                  "value": "myIgotPlans",
+                  "requestRequired": true,
+                  "pillsData": [
+                      {
+                          "label": "Upcoming",
+                          "value": "upcoming",
+                          "computeDataOnClick": false,
+                          "showTabDataCount": true,
+                          "requestRequired": false,
+                          "maxWidgets": 12,
+                          "selected": false,
+                          "nodataMsg": "You will see all the content that needs to be completed within the next 30 days."
+                      },
+                      {
+                          "label": "Overdue",
+                          "value": "overdue",
+                          "computeDataOnClick": false,
+                          "showTabDataCount": true,
+                          "requestRequired": false,
+                          "maxWidgets": 12,
+                          "selected": false,
+                          "nodataMsg": "You will see here all the content for which the due date has passed."
+                      },
+                      {
+                          "label": "Completed",
+                          "value": "completed",
+                          "computeDataOnClick": false,
+                          "showTabDataCount": true,
+                          "requestRequired": false,
+                          "maxWidgets": 12,
+                          "selected": false,
+                          "nodataMsg": "No Data Msg Completed"
+                      },
+                      {
+                          "label": "All",
+                          "value": "all",
+                          "computeDataOnClick": false,
+                          "showTabDataCount": true,
+                          "requestRequired": false,
+                          "maxWidgets": 12,
+                          "selected": false,
+                          "nodataMsg": "You don’t have any content in progress."
+                      }
+                  ],
+                  "request": {
+                      "cbpList": {
+                          "path": "/apis/proxies/v8/user/v1/cbplan/<userId>"
+                      }
+                  }
+              },
+              {
+                "label": "Saksham AI",
+                "value": "sakshamAI",
+                "pillsData": [
+                  {
+                    "label": "Available",
+                    "value": "ravailable",
+                    "computeDataOnClick": false,
+                    "showTabDataCount": true,
+                    "requestRequired": false,
+                    "selected": false,
+                    "nodataMsg": "availablelearnings"
+                  },
+                  {
+                      "label": "In Progress",
+                      "value": "rinprogress",
+                      "computeDataOnClick": false,
+                      "showTabDataCount": true,
+                      "requestRequired": false,
+                      "selected": false,
+                      "nodataMsg": "inprogresslearnings"
+                  },
+                  {
+                      "label": "Completed",
+                      "value": "rcompleted",
+                      "computeDataOnClick": false,
+                      "showTabDataCount": true,
+                      "requestRequired": false,
+                      "selected": false,
+                      "nodataMsg": "completedlearnings"
+                  }
+                ],
+                "hideTab": true,
+                "request": {
+                  "courseRecommendation": {
+                    "path": "/apis/proxies/v8/courseRecommendation/create"
+                  }
                 },
-                {
-                  "label": "Overdue",
-                  "value": "overdue",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will see here all the content for which the due date has passed."
-                },
-                {
-                  "label": "Completed",
-                  "value": "completed",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "No Data Msg Completed"
-                },
-                {
-                  "label": "All",
-                  "value": "all",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You don’t have any content in progress."
-                }
-              ]
-            }
+                "requestRequired": true
+              }
           ],
           "filters": [],
           "request": {
-            "cbpList": {
-              "path": "/apis/proxies/v8/user/v1/cbplan/<userId>"
-            }
+              "cbpList": {
+                  "path": "/apis/proxies/v8/user/v1/cbplan/<userId>"
+              },
+              "designationsList": {
+                  "path": "/apis/proxies/v8/courseRecommend/v1/courses"
+              },
+              "courseRecommendation": {
+                "path": "/apis/proxies/v8/courseRecommendation/create"
+              }
           }
-        }
+      }
       ]
     },
     {
