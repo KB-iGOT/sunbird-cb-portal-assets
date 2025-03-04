@@ -1876,7 +1876,12 @@
         "extraText2": "Make sure all words are spelled correctly. Try different search terms. Try more general search terms.",
         "btnBackToHomepage": "Back to Homepage",
         "btnExploreMore": "Explore More",
-        "searchResultsFor": "Results for"
+        "searchResultsFor": "Results for",
+        "content": "Content ({{count}})",
+        "event": "Events ({{count}})",
+        "peoples": "Peoples ({{count}})",
+        "communities": "Communities ({{count}})",
+        "seeAllResults": "See all the results"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
