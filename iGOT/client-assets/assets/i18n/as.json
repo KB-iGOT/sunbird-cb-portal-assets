@@ -1356,7 +1356,8 @@
     "inProgress": "অগ্ৰসৰ হৈ আছে",
     "certificate": "প্ৰমাণপত্ৰ",
     "learningHours": "শিকাৰ সময়",
-    "ShowMyActivities": "মোৰ কাৰ্য্যকলাপসমূহ দেখুৱাওক"
+    "ShowMyActivities": "মোৰ কাৰ্য্যকলাপসমূহ দেখুৱাওক",
+    "karmaPoints":"কৰ্মা পইণ্টছ"
   },
   "profileNudge": {
     "slot1Info1": "এক নতুন আৰম্ভণি কৰক, নতুন কিবা অন্বেষণ কৰক।",
