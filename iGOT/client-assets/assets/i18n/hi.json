@@ -1491,7 +1491,8 @@
     "inProgress": "प्रगति में",
     "certificate": "प्रमाण पत्र",
     "learningHours": "सीखने के घंटे",
-    "ShowMyActivities": "मेरी गतिविधियाँ दिखाएँ"
+    "ShowMyActivities": "मेरी गतिविधियाँ दिखाएँ",
+    "karmaPoints": "कर्मा पॉइंट्स"
   },
   "profileNudge": {
     "slot1Info1": "नवीनतम आई. जी. ओ. टी. अद्यतनों के लिए आई. जी. ओ. टी. समाचार पत्र पढ़ें!",

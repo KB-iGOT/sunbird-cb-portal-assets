@@ -1507,7 +1507,8 @@
         "inProgress": "In Progress",
         "certificate": "Certificate",
         "learningHours": "Learning hours",
-        "ShowMyActivities": "Show my activities"
+        "ShowMyActivities": "Show my activities",
+        "karmaPoints": "Karma Points"
     },
     "profileNudge": {
         "slot1Info1": "Read the iGOT Newsletter for the latest iGOT updates!",

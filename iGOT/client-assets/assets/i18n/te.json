@@ -1354,7 +1354,8 @@
     "inProgress": "పురోగతిలో ఉంది",
     "certificate": "సర్టిఫికేట్",
     "learningHours": "నేర్చుకునే గంటలు",
-    "ShowMyActivities": "నా కార్యకలాపాలను చూపించు"
+    "ShowMyActivities": "నా కార్యకలాపాలను చూపించు",
+    "karmaPoints":"కర్మ పాయింట్లు"
   },
   "profileNudge": {
     "slot1Info1": "కొత్త ప్రారంభాన్ని పొందండి, క్రొత్తదాన్ని అన్వేషించండి.",
