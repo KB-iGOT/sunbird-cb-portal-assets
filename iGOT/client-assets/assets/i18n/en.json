@@ -5,7 +5,7 @@
         "learn": "Learn",
         "discuss": "Discuss",
         "discuss-v2": "Discuss-V2",
-        "communities":"Communities",
+        "communities": "Communities",
         "network": "Network",
         "career": "Career",
         "competencies": "Competencies",
@@ -1484,7 +1484,6 @@
         "availablelearnings": "You will see all the available content based on your designation.",
         "completedlearnings": "You will see all the completed content based on your designation.",
         "inprogresslearnings": "You will see all the inprogress content based on your designation.",
-
         "sakshamAi": "Saksham AI",
         "sakshamaidesc": "Dear Karmayogi ! Explore your personalized course recommendations and share your feedback to enhance your learning experience.",
         "sakshamaifeedbackText": "Your feedback is very important to serve you better.",
@@ -2348,6 +2347,17 @@
     },
     "updteDesignation": {
         "select": "Select"
+    },
+    "events": {
+        "eventInfo": "Event Information",
+        "documents": "Documents",
+        "view": "View",
+        "downloadPdf": "Download",
+        "searchEvents": "Search Events",
+        "clearAll": "Clear all",
+        "sortBy": "Sort by",
+        "filterBy": "Filter by",
+        "events": "Events"
     },
     "mobileApp": {}
 }
