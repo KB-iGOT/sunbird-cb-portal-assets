@@ -129,7 +129,11 @@
     "gyaanKarmayogi": "જ્ઞાન કર્મયોગી",
     "frequentlyAskedQuestions": "વારંવાર પૂછાતા પ્રશ્નો",
     "contactUs": "અમારો સંપર્ક કરો",
-    "tipForLearners": "શીખનારાઓ માટે ટીપ્સ"
+    "tipForLearners": "શીખનારાઓ માટે ટીપ્સ",
+    "events": "ઘટનાઓ",
+    "recommendedEvents": "ભલામણ કરેલ ઇવેન્ટ્સ",
+    "trendingEvents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
+    "featuredEvents": "ફીચર્ડ ઇવેન્ટ્સ"
   },
   "learnerAdvisory": {
     "watchContent": "એવી ગતિએ સામગ્રી જુઓ જે સમજણ અને જાળવણીની ખાતરી આપે.",
@@ -2292,7 +2296,10 @@
     "clearAll": "બધું સાફ કરો",
     "sortBy": "દ્વારા સૉર્ટ કરો",
     "filterBy": "દ્વારા ફિલ્ટર કરો",
-    "events": "ઘટનાઓ"
+    "events": "ઘટનાઓ",
+    "recommendedEvents": "ભલામણ કરેલ ઇવેન્ટ્સ",
+    "trendingEvents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
+    "featuredEvents": "ફીચર્ડ ઇવેન્ટ્સ"
   },
   "mobileApp": {}
 }

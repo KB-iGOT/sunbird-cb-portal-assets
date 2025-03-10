@@ -131,7 +131,11 @@
     "gyaanKarmayogi": "ज्ञान कर्मयोगी",
     "frequentlyAskedQuestions": "अक्सर पूछे जाने वाले प्रश्न",
     "contactUs": "हमसे संपर्क करें",
-    "tipForLearners": "छात्रों के लिए सुझाव"
+    "tipForLearners": "छात्रों के लिए सुझाव",
+    "events": "ईवेंट",
+    "recommendedEvents": "अनुशंसित घटनाएँ",
+    "trendingEvents": "रुझान वाली घटनाएँ",
+    "featuredEvents": "विशेष घटनाएँ"
   },
   "learnerAdvisory": {
     "watchContent": "ऐसी गति से सामग्री देखें जो समझ और प्रतिधारण सुनिश्चित करे।",
@@ -2423,7 +2427,10 @@
     "clearAll": "सभी साफ करें",
     "sortBy": "इसके अनुसार क्रमबद्ध करें",
     "filterBy": "फिल्टर के द्वारा",
-    "events": "ईवेंट"
+    "events": "ईवेंट",
+    "recommendedEvents": "अनुशंसित घटनाएँ",
+    "trendingEvents": "रुझान वाली घटनाएँ",
+    "featuredEvents": "विशेष घटनाएँ"
   },
   "mobileApp": {}
 }

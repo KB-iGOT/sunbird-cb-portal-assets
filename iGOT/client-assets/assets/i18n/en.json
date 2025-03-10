@@ -131,7 +131,11 @@
         "gyaanKarmayogi": "Amrit Gyaan Kosh",
         "frequentlyAskedQuestions": "Frequently asked questions",
         "contactUs": "Contact Us",
-        "tipForLearners": "Tips For Learners"
+        "tipForLearners": "Tips For Learners",
+        "events": "Events",
+        "recommendedEvents": "Recommended Events",
+        "trendingEvents": "Trending Events",
+        "featuredEvents": "Featured Events"
     },
     "learnerAdvisory": {
         "watchContent": "Watch content at a speed that ensures understanding and retention.",
@@ -2357,7 +2361,10 @@
         "clearAll": "Clear all",
         "sortBy": "Sort by",
         "filterBy": "Filter by",
-        "events": "Events"
+        "events": "Events",
+        "recommendedEvents": "Recommended Events",
+        "trendingEvents": "Trending Events",
+        "featuredEvents": "Featured Events"
     },
     "mobileApp": {}
 }
