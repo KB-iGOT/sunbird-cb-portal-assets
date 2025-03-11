@@ -5,7 +5,7 @@
         "learn": "Learn",
         "discuss": "Discuss",
         "discuss-v2": "Discuss-V2",
-        "communities":"Communities",
+        "communities": "Communities",
         "network": "Network",
         "career": "Career",
         "competencies": "Competencies",
@@ -131,7 +131,11 @@
         "gyaanKarmayogi": "Amrit Gyaan Kosh",
         "frequentlyAskedQuestions": "Frequently asked questions",
         "contactUs": "Contact Us",
-        "tipForLearners": "Tips For Learners"
+        "tipForLearners": "Tips For Learners",
+        "events": "Events",
+        "recommendedEvents": "Recommended Events",
+        "trendingEvents": "Trending Events",
+        "featuredEvents": "Featured Events"
     },
     "learnerAdvisory": {
         "watchContent": "Watch content at a speed that ensures understanding and retention.",
@@ -1484,8 +1488,8 @@
         "availablelearnings": "You will see all the available content based on your designation.",
         "completedlearnings": "You will see all the completed content based on your designation.",
         "inprogresslearnings": "You will see all the inprogress content based on your designation.",
-
         "igotAi": "iGOT AI",
+        "sakshamAi": "Saksham AI",
         "sakshamaidesc": "Dear Karmayogi ! Explore your personalized course recommendations and share your feedback to enhance your learning experience.",
         "sakshamaifeedbackText": "Your feedback is very important to serve you better.",
         "sakshamaiLoaderText": "We are curating the most suitable learning course recommendations tailored just for you.",
@@ -2348,6 +2352,20 @@
     },
     "updteDesignation": {
         "select": "Select"
+    },
+    "events": {
+        "eventInfo": "Event Information",
+        "documents": "Documents",
+        "view": "View",
+        "downloadPdf": "Download",
+        "searchEvents": "Search Events",
+        "clearAll": "Clear all",
+        "sortBy": "Sort by",
+        "filterBy": "Filter by",
+        "events": "Events",
+        "recommendedEvents": "Recommended Events",
+        "trendingEvents": "Trending Events",
+        "featuredEvents": "Featured Events"
     },
     "mobileApp": {}
 }
