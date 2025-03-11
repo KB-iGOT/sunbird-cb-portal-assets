@@ -2861,7 +2861,7 @@
                   }
               },
               {
-                "label": "Saksham AI",
+                "label": "IGOT AI",
                 "value": "sakshamAI",
                 "pillsData": [
                   {
@@ -2892,6 +2892,7 @@
                       "nodataMsg": "completedlearnings"
                   }
                 ],
+                "hideTab": true,
                 "request": {
                   "courseRecommendation": {
                     "path": "/apis/proxies/v8/courseRecommendation/create"
