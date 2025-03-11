@@ -61,5 +61,18 @@
           },
           "operation": "modify-overwrite-beta"
         }
+      ],
+
+    "configureCertificateGuide": {
+      "helpCenterGuide": {
+        "header": "Content Upload Details: Video Guides and Tips",
+        "guideNotes": [
+          "Upload the certificate using a SVG file."
+        ],
+        "helpVideoLink": "/assets/public/content/guide-videos/CIOS_Updated_demo.mp4"
+      },
+      "instructions": [
+        "Please ensure the Certificate file is named correctly"
       ]
+    }
 }
