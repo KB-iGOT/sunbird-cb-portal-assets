@@ -960,7 +960,9 @@
     "live": "लाइव",
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
     "completedEvent": "आपने यह ईवेंट पूरा लिया",
-    "search": "खोज इवेंट्स..."
+    "search": "खोज इवेंट्स...",
+
+      "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह"
   },
   "eventDetailsRightCard": {
     "viewRecording": "रिकॉर्डिंग देखें",
@@ -1848,7 +1850,19 @@
     "webpage": "वेबपेज",
     "by": "से",
     "noResults": "कोई परिणाम नहीं मिला",
-    "removeFilters": "फ़िल्टर को हटाने का प्रयास करें या अलग-अलग मुख्य शब्दों का उपयोग करके खोजें"
+    "removeFilters": "फ़िल्टर को हटाने का प्रयास करें या अलग-अलग मुख्य शब्दों का उपयोग करके खोजें",
+
+    "noResultFound": "माफ़ कीजिए, हमें {{searchTerm}} के लिए कोई परिणाम नहीं मिला, कृपया अपनी खोज समायोजित करें।",
+    "extraText1": "यहां कुछ सुझाव दिए गए हैं:",
+    "extraText2": "सुनिश्चित करें कि सभी शब्द सही वर्तनी में हैं। विभिन्न खोज शब्द आज़माएं। अधिक सामान्य खोज शब्द आज़माएं।",
+    "btnBackToHomepage": "मुख्य पृष्ठ पर वापस जाएं",
+    "btnExploreMore": "और खोजें",
+    "searchResultsFor": "के लिए परिणाम",
+    "content": "सामग्री ({{count}})",
+    "event": "घटनाएँ ({{count}})",
+    "peoples": "लोग ({{count}})",
+    "communities": "समुदाय ({{count}})",
+    "seeAllResults": "सभी परिणाम देखें"
   },
   "searchfilters": {
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
@@ -1885,7 +1899,15 @@
     "completed": "पूरा किया।",
     "behavioural": "बिहेवियरल (व्यावहारिक)",
     "functional": "फंक्शनल",
-    "domain": "डोमेन"
+    "domain": "डोमेन",
+
+    "filterBy": "इसके द्वारा फ़िल्टर करें",
+    "categoryType": "श्रेणी प्रकार",
+    "ratingTitle": "रेटिंग",
+    "languages": "भाषाएँ",
+    "contentProvider": "सामग्री प्रदाता",
+    "duration": "अवधि",
+    "competencyArea": "दक्षता क्षेत्र"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
