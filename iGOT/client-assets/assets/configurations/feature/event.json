@@ -528,7 +528,7 @@
               },
               "eventStrips": [
                 {
-                  "enabled": true,
+                  "enabled": false,
                   "order": 1,
                   "strips": [
                     {
