@@ -2313,7 +2313,12 @@
     "karmayogiTalks": "કર્મયોગી ટોક્સ",
     "allEvents": "બધા ઇવેન્ટ્સ",
     "browseEvents": "ઇવેન્ટ્સ બ્રાઉઝ કરો",
-    "noEventsFound": "કોઈ ઇવેન્ટ્સ મળી નથી"
+    "noEventsFound": "કોઈ ઇવેન્ટ્સ મળી નથી",
+    "myEvents": "મારી ઘટનાઓ",
+    "upcoming": "આગામી તા.",
+    "past": "ભૂતકાળ",
+    "toDay": "આજે",
+    "noEvents": "કોઈ ઇવેન્ટ્સ મળી નથી"
   },
   "mobileApp": {}
 }

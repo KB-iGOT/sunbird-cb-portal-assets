@@ -2378,7 +2378,12 @@
         "karmayogiTalks": "Karmayogi Talks",
         "allEvents": "All Events",
         "browseEvents": "Browse Events",
-        "noEventsFound": "No events found"
+        "noEventsFound": "No events found",
+        "myEvents": "My Events",
+        "past": "Past",
+        "toDay": "Today",
+        "upcoming": "Upcoming",
+        "noEvents": "No events found"
     },
     "mobileApp": {}
 }
