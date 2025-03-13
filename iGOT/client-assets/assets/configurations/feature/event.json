@@ -549,7 +549,7 @@
                         "showNavsSpacing": true
                       },
                       "viewMoreUrl": {
-                        "path": "app/event-hub/my-events",
+                        "path": "app/event-hub/see-all",
                         "viewMoreText": "Show all",
                         "queryParams": {
                           "category": "recommendedEvents"
@@ -562,7 +562,7 @@
                       },
                       "loader": true,
                       "loaderConfig": {
-                        "cardSubType": "card-event-v2-skeleton"
+                        "cardSubType": "card-portrait-lib-skeleton"
                       },
                       "tabs": [
                         {
@@ -684,7 +684,7 @@
                       },
                       "loader": true,
                       "loaderConfig": {
-                        "cardSubType": "card-event-v2-skeleton"
+                        "cardSubType": "card-portrait-lib-skeleton"
                       },
                       "filters": [],
                       "request": {
@@ -744,7 +744,7 @@
                       },
                       "loader": true,
                       "loaderConfig": {
-                        "cardSubType": "card-event-v2-skeleton"
+                        "cardSubType": "card-portrait-lib-skeleton"
                       },
                       "filters": [],
                       "request": {
@@ -806,7 +806,7 @@
                       },
                       "loader": true,
                       "loaderConfig": {
-                        "cardSubType": "card-event-v2-skeleton"
+                        "cardSubType": "card-portrait-lib-skeleton"
                       },
                       "filters": [],
                       "request": {

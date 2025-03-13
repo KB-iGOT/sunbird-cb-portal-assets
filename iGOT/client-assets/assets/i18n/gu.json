@@ -2300,7 +2300,12 @@
     "events": "ઘટનાઓ",
     "recommendedEvents": "ભલામણ કરેલ ઇવેન્ટ્સ",
     "trendingEvents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
-    "featuredEvents": "ફીચર્ડ ઇવેન્ટ્સ"
+    "featuredEvents": "ફીચર્ડ ઇવેન્ટ્સ",
+    "myEvents": "મારી ઘટનાઓ",
+    "upcoming": "આગામી તા.",
+    "past": "ભૂતકાળ",
+    "toDay": "આજે",
+    "noEvents": "કોઈ ઇવેન્ટ્સ મળી નથી"
   },
   "mobileApp": {}
 }

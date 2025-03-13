@@ -2431,7 +2431,12 @@
     "events": "ईवेंट",
     "recommendedEvents": "अनुशंसित घटनाएँ",
     "trendingEvents": "रुझान वाली घटनाएँ",
-    "featuredEvents": "विशेष घटनाएँ"
+    "featuredEvents": "विशेष घटनाएँ",
+    "myEvents": "मेरी घटनाएँ",
+    "upcoming": "आने वाला है",
+    "past": "अतीत",
+    "toDay": "आज",
+    "noEvents": "कोई इवेंट नहीं मिला"
   },
   "mobileApp": {}
 }
