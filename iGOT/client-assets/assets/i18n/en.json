@@ -2365,7 +2365,12 @@
         "events": "Events",
         "recommendedEvents": "Recommended Events",
         "trendingEvents": "Trending Events",
-        "featuredEvents": "Featured Events"
+        "featuredEvents": "Featured Events",
+        "myEvents": "My Events",
+        "past": "Past",
+        "toDay": "Today",
+        "upcoming": "Upcoming",
+        "noEvents": "No events found"
     },
     "mobileApp": {}
 }
