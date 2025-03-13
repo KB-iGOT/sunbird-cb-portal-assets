@@ -957,6 +957,7 @@
     "karmayogiTalks": "कर्मयोगी टॉक्स",
     "live": "लाइव",
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
+    "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
     "completedEvent": "आपने यह ईवेंट पूरा लिया",
     "search": "खोज इवेंट्स..."
   },
@@ -1838,6 +1839,7 @@
   },
   "searchfilters": {
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
+    "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
     "karmayogiTalks": "कर्मयोगी टॉक्स",
     "webinar": "वेबिनार",
     "filterSearch": "सर्च को फ़िल्टर करें",
