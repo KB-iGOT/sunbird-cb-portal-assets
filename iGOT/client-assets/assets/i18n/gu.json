@@ -2300,7 +2300,20 @@
     "events": "ઘટનાઓ",
     "recommendedEvents": "ભલામણ કરેલ ઇવેન્ટ્સ",
     "trendingEvents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
-    "featuredEvents": "ફીચર્ડ ઇવેન્ટ્સ"
+    "featuredEvents": "ફીચર્ડ ઇવેન્ટ્સ",
+    "myEventEngagements": "મારા ઇવેન્ટ એન્ગેજમેન્ટ",
+    "eventsAttended": "ઇવેન્ટ્સ હાજરી આપી",
+    "eventsEnrolled": "ઇવેન્ટ્સમાં નોંધણીઓ",
+    "hoursWatched": "ઘંટા જોવાયાં",
+    "eventEngagement": "ઇવેન્ટ એન્ગેજમેન્ટ",
+    "myEventCalendar": "મારું ઇવેન્ટ કેલેન્ડર",
+    "eventSchedule": "ઇવેન્ટ શેડ્યૂલ",
+    "browseEventsByCategories": "શ્રેણીઓ દ્વારા ઇવેન્ટ્સ બ્રાઉઝ કરો",
+    "karmayogiSaptah": "કર્મયોગી સપ્તાહ",
+    "karmayogiTalks": "કર્મયોગી ટોક્સ",
+    "allEvents": "બધા ઇવેન્ટ્સ",
+    "browseEvents": "ઇવેન્ટ્સ બ્રાઉઝ કરો",
+    "noEventsFound": "કોઈ ઇવેન્ટ્સ મળી નથી"
   },
   "mobileApp": {}
 }

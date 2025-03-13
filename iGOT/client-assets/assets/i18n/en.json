@@ -2365,7 +2365,20 @@
         "events": "Events",
         "recommendedEvents": "Recommended Events",
         "trendingEvents": "Trending Events",
-        "featuredEvents": "Featured Events"
+        "featuredEvents": "Featured Events",
+        "myEventEngagements": "My Event Engagements",
+        "eventsAttended": "Events Attended",
+        "eventsEnrolled": "Events Enrolled",
+        "hoursWatched": "Hours Watched",
+        "eventEngagement": "Event Engagement",
+        "myEventCalendar": "My Event Calendar",
+        "eventSchedule": "Event Schedule",
+        "browseEventsByCategories": "Browse Events By Categories",
+        "karmayogiSaptah": "Karmayogi Saptah",
+        "karmayogiTalks": "Karmayogi Talks",
+        "allEvents": "All Events",
+        "browseEvents": "Browse Events",
+        "noEventsFound": "No events found"
     },
     "mobileApp": {}
 }
