@@ -1441,6 +1441,8 @@
         "myIgot": "My iGOT",
         "all": "All",
         "upcoming": "Upcoming",
+        "past": "Past",
+        "today": "Today",
         "overdue": "Overdue",
         "inProgress": "In Progress",
         "completed": "Completed",
@@ -1500,7 +1502,11 @@
         "no": "No",
         "tocReleventHeading": "Is this a relevant course?",
         "tocReleventSubHeading": "Please share your feedback to help us refine the AI driven recommendation model.",
-        "sakshamAITooltip": "AI Driven recommendation for you"
+        "sakshamAITooltip": "AI Driven recommendation for you",
+        "recommendedevents": "Recommended Events",
+        "trendingevents": "Trending Events",
+        "featuredevents": "Featured Events",
+        "myevents": "My Events"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",

@@ -1425,6 +1425,8 @@
     "myIgot": "મારો આઇ. જી. ઓ. ટી.",
     "all": "બધા",
     "upcoming": "આગામી તા.",
+    "past": "ભૂતકાળ",
+    "today": "આજે",
     "overdue": "ઓવરડ્યુ",
     "inProgress": "પ્રગતિમાં છે",
     "completed": "પૂર્ણ થયું",
@@ -1479,7 +1481,11 @@
     "relevent": "સંબંધિત",
     "no": "ના",
     "tocReleventHeading": "શું આ એક પ્રાસંગિક અભ્યાસક્રમ છે?",
-    "tocReleventSubHeading": "AI ચલિત ભલામણ મોડલને વધુ સુધારવા માટે કૃપા કરીને તમારી પ્રતિસાદ શેર કરો।"
+    "tocReleventSubHeading": "AI ચલિત ભલામણ મોડલને વધુ સુધારવા માટે કૃપા કરીને તમારી પ્રતિસાદ શેર કરો।",
+    "myevents": "મારી ઘટનાઓ",
+    "recommendedevents": "ભલામણ કરેલ ઇવેન્ટ્સ",
+    "trendingevents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
+    "featuredevents": "ફીચર્ડ ઇવેન્ટ્સ"
   },
   "homeotherportals": {
     "otherPortals": "તમારી પાસે ઍક્સેસ હોય તેવા અન્ય પોર્ટલ",

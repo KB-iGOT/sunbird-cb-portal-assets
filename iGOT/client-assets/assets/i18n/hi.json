@@ -1435,6 +1435,8 @@
     "myIgot": "मेरा आईगॉट",
     "all": "सभी",
     "upcoming": "आने वाला है",
+    "past": "अतीत",
+    "today": "आज",
     "overdue": "बहुत देर",
     "inProgress": "प्रगति में",
     "completed": "पूरा किया।",
@@ -1482,7 +1484,11 @@
     "tocReleventHeading": "क्या यह एक प्रासंगिक पाठ्यक्रम है?",
     "tocReleventSubHeading": "एआई संचालित सिफारिश मॉडल को परिष्कृत करने में मदद के लिए कृपया अपनी प्रतिक्रिया साझा करें।",
     "recommendedAIText": "ये एआई द्वारा उत्पन्न सिफारिशें हैं",
-    "sakshamAITooltip": "आपके लिए एआई संचालित सिफारिश"
+    "sakshamAITooltip": "आपके लिए एआई संचालित सिफारिश",
+    "myevents": "मेरी घटनाएँ",
+    "recommendedevents": "अनुशंसित घटनाएँ",
+    "trendingevents": "रुझान वाली घटनाएँ",
+    "featuredevents": "विशेष घटनाएँ"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
