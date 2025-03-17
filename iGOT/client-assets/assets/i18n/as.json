@@ -855,7 +855,8 @@
     "curatedEvents": "কিউৰেট কৰা অনুষ্ঠানসমূহ",
     "mdoEvents": "আপোনাৰ এম. ডি. অ '.-ৰ অনুষ্ঠানসমূহ",
     "webinar": "ৱেবিনাৰ",
-    "karmayogiTalks": "কৰ্মযোগীৰ কথোপকথন"
+    "karmayogiTalks": "কৰ্মযোগীৰ কথোপকথন",
+    "rajyaKarmayogiSaptah": "ৰাজ্য কৰ্মযোগী সপ্তাহ"
   },
   "eventDetailsRightCard": {
     "viewRecording": "ৰেকৰ্ডিং চাওক",
@@ -1666,7 +1667,19 @@
     "webpage": "ৱেবপৃষ্ঠা",
     "by": "ইয়াৰ দ্বাৰা",
     "noResults": "কোনো ফলাফল পোৱা নগল",
-    "removeFilters": "ফিল্টাৰবোৰ আঁতৰাবলৈ চেষ্টা কৰক বা বিভিন্ন কিৱাৰ্ড ব্যৱহাৰ কৰি সন্ধান কৰক"
+    "removeFilters": "ফিল্টাৰবোৰ আঁতৰাবলৈ চেষ্টা কৰক বা বিভিন্ন কিৱাৰ্ড ব্যৱহাৰ কৰি সন্ধান কৰক",
+
+    "noResultFound": "দুঃখিত, আমি {{searchTerm}} ৰ বাবে কোনো ফলাফল উলিয়াব নোৱাৰিলো, অনুগ্ৰহ কৰি আপোনাৰ সন্ধান সামঞ্জস্য কৰক।",
+    "extraText1": "এই কেইটামান ধাৰণাৰ চেষ্টা কৰক:",
+    "extraText2": "নিশ্চিত কৰক যে সকলো শব্দ সঠিকভাৱে লিখা হৈছে। বিভিন্ন সন্ধান শব্দ চেষ্টা কৰক। অধিক সাধাৰণ সন্ধান শব্দ চেষ্টা কৰক।",
+    "btnBackToHomepage": "প্ৰধান পৃষ্ঠালৈ উভতি যাওক",
+    "btnExploreMore": "অধিক অন্বেষণ কৰক",
+    "searchResultsFor": "ৰ বাবে ফলাফল",
+    "content": "সামগ্ৰী ({{count}})",
+    "event": "ঘটনাসমূহ ({{count}})",
+    "peoples": "মানুহ ({{count}})",
+    "communities": "সমাজসমূহ ({{count}})",
+    "seeAllResults": "সকলো ফলাফল চাওক"
   },
   "searchfilters": {
     "filterSearch": "সন্ধান ফিল্টাৰ কৰক",
@@ -1690,7 +1703,15 @@
     "lastMonth": "যোৱা মাহত",
     "last3Months": "যোৱা 3 মাহ",
     "last6Months": "বিগত 6 মাহ",
-    "lastYear": "যোৱা বছৰ"
+    "lastYear": "যোৱা বছৰ",
+
+    "filterBy": "ফিল্টাৰ কৰক",
+    "categoryType": "শ্ৰেণী প্ৰকাৰ",
+    "ratingTitle": "ৰেটিং",
+    "languages": "ভাষাসমূহ",
+    "contentProvider": "সামগ্ৰী প্ৰদানকাৰী",
+    "duration": "অৱধি",
+    "competencyArea": "দক্ষতা এলাকা"
   },
   "utilslogout": {
     "logoutNow": "এতিয়া লগআউট কৰক",
