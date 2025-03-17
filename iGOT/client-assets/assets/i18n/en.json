@@ -1441,6 +1441,8 @@
         "myIgot": "My iGOT",
         "all": "All",
         "upcoming": "Upcoming",
+        "past": "Past",
+        "today": "Today",
         "overdue": "Overdue",
         "inProgress": "In Progress",
         "completed": "Completed",
