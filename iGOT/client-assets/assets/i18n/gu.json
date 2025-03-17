@@ -129,7 +129,11 @@
     "gyaanKarmayogi": "જ્ઞાન કર્મયોગી",
     "frequentlyAskedQuestions": "વારંવાર પૂછાતા પ્રશ્નો",
     "contactUs": "અમારો સંપર્ક કરો",
-    "tipForLearners": "શીખનારાઓ માટે ટીપ્સ"
+    "tipForLearners": "શીખનારાઓ માટે ટીપ્સ",
+    "events": "ઘટનાઓ",
+    "recommendedEvents": "ભલામણ કરેલ ઇવેન્ટ્સ",
+    "trendingEvents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
+    "featuredEvents": "ફીચર્ડ ઇવેન્ટ્સ"
   },
   "learnerAdvisory": {
     "watchContent": "એવી ગતિએ સામગ્રી જુઓ જે સમજણ અને જાળવણીની ખાતરી આપે.",
@@ -1421,6 +1425,8 @@
     "myIgot": "મારો આઇ. જી. ઓ. ટી.",
     "all": "બધા",
     "upcoming": "આગામી તા.",
+    "past": "ભૂતકાળ",
+    "today": "આજે",
     "overdue": "ઓવરડ્યુ",
     "inProgress": "પ્રગતિમાં છે",
     "completed": "પૂર્ણ થયું",
@@ -1465,18 +1471,21 @@
     "availablelearnings": "તમે તમારા હોદ્દા પર આધારિત બધી ઉપલબ્ધ સામગ્રી જુઓ.",
     "completedlearnings": "તમે તમારા હોદ્દા પર આધારિત બધી પૂર્ણ સામગ્રી જુઓ.",
     "inprogresslearnings": "તમે તમારા હોદ્દાના આધારે તમામ પ્રગતિ સામગ્રી જુઓ.",
-
+    "igotAi": "આઇ. જી. ઓ. ટી AI",
     "sakshamAi": "સક્ષમ AI",
     "sakshamaidesc": "પ્રિય કર્મયોગી! તમારા માટે વ્યક્તિગત અભ્યાસક્રમની ભલામણો શોધો અને તમારા અભ્યાસના અનુભવને વધુ સારું بنانے માટે તમારો પ્રતિસાદ આપો.",
     "sakshamaifeedbackText": "તમારો પ્રતિસાદ અમને તમને વધુ સારી સેવા આપવામાં ખૂબ જ મહત્વપૂર્ણ છે. કૃપા કરીને અમને કહો કે તમે આ વિકલ્પ શા માટે પસંદ કર્યો.",
     "sakshamaiLoaderText": "અમે તમારી માટે સૌથી યોગ્ય અભ્યાસક્રમની ભલામણો તૈયાર કરી રહ્યા છીએ.",
-
     "recommendedAIText": "આ AI દ્વારા ઉત્પન્ન થયેલ ભલામણો છે",
     "sakshamAITooltip": "તમારા માટે AI દ્વારા સંચાલિત ભલામણ",
     "relevent": "સંબંધિત",
     "no": "ના",
     "tocReleventHeading": "શું આ એક પ્રાસંગિક અભ્યાસક્રમ છે?",
-    "tocReleventSubHeading": "AI ચલિત ભલામણ મોડલને વધુ સુધારવા માટે કૃપા કરીને તમારી પ્રતિસાદ શેર કરો।"
+    "tocReleventSubHeading": "AI ચલિત ભલામણ મોડલને વધુ સુધારવા માટે કૃપા કરીને તમારી પ્રતિસાદ શેર કરો।",
+    "myevents": "મારી ઘટનાઓ",
+    "recommendedevents": "ભલામણ કરેલ ઇવેન્ટ્સ",
+    "trendingevents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
+    "featuredevents": "ફીચર્ડ ઇવેન્ટ્સ"
   },
   "homeotherportals": {
     "otherPortals": "તમારી પાસે ઍક્સેસ હોય તેવા અન્ય પોર્ટલ",
@@ -1838,6 +1847,7 @@
     "contentType": "સામગ્રીનો પ્રકાર",
     "karmayogiTalks": "કર્મયોગી વાટાઘાટો",
     "karmayogiSaptah": "કર્મયોગી સપ્તાહ",
+    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
     "webinar": "વેબિનાર",
     "program": "કાર્યક્રમ",
     "course": "અભ્યાસક્રમ",
@@ -2304,6 +2314,38 @@
   },
   "updteDesignation": {
     "select": "પસંદ કરો"
+  },
+  "events": {
+    "eventInfo": "ઘટના માહિતી",
+    "documents": "દસ્તાવેજો",
+    "view": "દર્શન કરો",
+    "downloadPdf": "ડાઉનલોડ કરો",
+    "searchEvents": "ઇવેન્ટ્સ શોધો",
+    "clearAll": "બધું સાફ કરો",
+    "sortBy": "દ્વારા સૉર્ટ કરો",
+    "filterBy": "દ્વારા ફિલ્ટર કરો",
+    "events": "ઘટનાઓ",
+    "recommendedEvents": "ભલામણ કરેલ ઇવેન્ટ્સ",
+    "trendingEvents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
+    "featuredEvents": "ફીચર્ડ ઇવેન્ટ્સ",
+    "myEventEngagements": "મારા ઇવેન્ટ એન્ગેજમેન્ટ",
+    "eventsAttended": "ઇવેન્ટ્સ હાજરી આપી",
+    "eventsEnrolled": "ઇવેન્ટ્સમાં નોંધણીઓ",
+    "hoursWatched": "ઘંટા જોવાયાં",
+    "eventEngagement": "ઇવેન્ટ એન્ગેજમેન્ટ",
+    "myEventCalendar": "મારું ઇવેન્ટ કેલેન્ડર",
+    "eventSchedule": "ઇવેન્ટ શેડ્યૂલ",
+    "browseEventsByCategories": "શ્રેણીઓ દ્વારા ઇવેન્ટ્સ બ્રાઉઝ કરો",
+    "karmayogiSaptah": "કર્મયોગી સપ્તાહ",
+    "karmayogiTalks": "કર્મયોગી ટોક્સ",
+    "allEvents": "બધા ઇવેન્ટ્સ",
+    "browseEvents": "ઇવેન્ટ્સ બ્રાઉઝ કરો",
+    "noEventsFound": "કોઈ ઇવેન્ટ્સ મળી નથી",
+    "myEvents": "મારી ઘટનાઓ",
+    "upcoming": "આગામી તા.",
+    "past": "ભૂતકાળ",
+    "toDay": "આજે",
+    "noEvents": "કોઈ ઇવેન્ટ્સ મળી નથી"
   },
   "mobileApp": {}
 }

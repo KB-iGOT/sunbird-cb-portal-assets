@@ -5,7 +5,7 @@
         "learn": "Learn",
         "discuss": "Discuss",
         "discuss-v2": "Discuss-V2",
-        "communities":"Communities",
+        "communities": "Communities",
         "network": "Network",
         "career": "Career",
         "competencies": "Competencies",
@@ -132,7 +132,11 @@
         "gyaanKarmayogi": "Amrit Gyaan Kosh",
         "frequentlyAskedQuestions": "Frequently asked questions",
         "contactUs": "Contact Us",
-        "tipForLearners": "Tips For Learners"
+        "tipForLearners": "Tips For Learners",
+        "events": "Events",
+        "recommendedEvents": "Recommended Events",
+        "trendingEvents": "Trending Events",
+        "featuredEvents": "Featured Events"
     },
     "learnerAdvisory": {
         "watchContent": "Watch content at a speed that ensures understanding and retention.",
@@ -960,6 +964,8 @@
         "karmayogiTalks": "Karmayogi Talks",
         "live": "Live",
         "karmayogiSaptah": "Karmayogi Saptah",
+        "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
+        "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "moreKarmaPoints": "more KarmaPoints",
         "completedEvent": "You completed this event on",
         "search": "Search events...",
@@ -1438,6 +1444,8 @@
         "myIgot": "My iGOT",
         "all": "All",
         "upcoming": "Upcoming",
+        "past": "Past",
+        "today": "Today",
         "overdue": "Overdue",
         "inProgress": "In Progress",
         "completed": "Completed",
@@ -1487,7 +1495,7 @@
         "availablelearnings": "You will see all the available content based on your designation.",
         "completedlearnings": "You will see all the completed content based on your designation.",
         "inprogresslearnings": "You will see all the inprogress content based on your designation.",
-
+        "igotAi": "iGOT AI",
         "sakshamAi": "Saksham AI",
         "sakshamaidesc": "Dear Karmayogi ! Explore your personalized course recommendations and share your feedback to enhance your learning experience.",
         "sakshamaifeedbackText": "Your feedback is very important to serve you better.",
@@ -1497,7 +1505,11 @@
         "no": "No",
         "tocReleventHeading": "Is this a relevant course?",
         "tocReleventSubHeading": "Please share your feedback to help us refine the AI driven recommendation model.",
-        "sakshamAITooltip": "AI Driven recommendation for you"
+        "sakshamAITooltip": "AI Driven recommendation for you",
+        "recommendedevents": "Recommended Events",
+        "trendingevents": "Trending Events",
+        "featuredevents": "Featured Events",
+        "myevents": "My Events"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
@@ -1888,6 +1900,8 @@
     "searchfilters": {
         "caseStudy": "Case Study",
         "karmayogiSaptah": "Karmayogi Saptah",
+        "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
+        "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "karmayogiTalks": "Karmayogi Talks",
         "filterSearch": "Filter search",
         "contentType": "Content Type",
@@ -2371,6 +2385,38 @@
     },
     "updteDesignation": {
         "select": "Select"
+    },
+    "events": {
+        "eventInfo": "Event Information",
+        "documents": "Documents",
+        "view": "View",
+        "downloadPdf": "Download",
+        "searchEvents": "Search Events",
+        "clearAll": "Clear all",
+        "sortBy": "Sort by",
+        "filterBy": "Filter by",
+        "events": "Events",
+        "recommendedEvents": "Recommended Events",
+        "trendingEvents": "Trending Events",
+        "featuredEvents": "Featured Events",
+        "myEventEngagements": "My Event Engagements",
+        "eventsAttended": "Events Attended",
+        "eventsEnrolled": "Events Enrolled",
+        "hoursWatched": "Hours Watched",
+        "eventEngagement": "Event Engagement",
+        "myEventCalendar": "My Event Calendar",
+        "eventSchedule": "Event Schedule",
+        "browseEventsByCategories": "Browse Events By Categories",
+        "karmayogiSaptah": "Karmayogi Saptah",
+        "karmayogiTalks": "Karmayogi Talks",
+        "allEvents": "All Events",
+        "browseEvents": "Browse Events",
+        "noEventsFound": "No events found",
+        "myEvents": "My Events",
+        "past": "Past",
+        "toDay": "Today",
+        "upcoming": "Upcoming",
+        "noEvents": "No events found"
     },
     "mobileApp": {}
 }

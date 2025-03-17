@@ -232,7 +232,7 @@
         "icon": "send"
       },
       "styles": {
-        "background-color": "#fff", 
+        "background-color": "#fff",
         "border": "1px solid rgba(0, 0, 0, 0.08)"
       }
     },
@@ -245,7 +245,7 @@
         "successMsg": "Reported successfully! Thank you for reporting.",
         "errorMsg": "Something went wrong! please try reporting again later.",
         "showToolTip": true,
-        "toolTipText":"Report this comment"
+        "toolTipText": "Report this comment"
       },
       "actions": {
         "like": {
@@ -300,7 +300,7 @@
             "icon": "send"
           },
           "styles": {
-            "background-color": "#1B4CA10D", 
+            "background-color": "#1B4CA10D",
             "border": "none"
           }
         },
@@ -313,7 +313,7 @@
             "successMsg": "Reported successfully! Thank you for reporting.",
             "errorMsg": "Something went wrong! please try reporting again later.",
             "showToolTip": true,
-            "toolTipText":"Report this comment"
+            "toolTipText": "Report this comment"
           },
           "actions": {
             "like": {
@@ -322,7 +322,6 @@
               "icon": "thumb_up"
             }
           },
-
           "comments": {
             "show": true,
             "showCount": false,
@@ -362,7 +361,7 @@
               "icon": "send"
             },
             "styles": {
-              "background-color": "#1B4CA10D", 
+              "background-color": "#1B4CA10D",
               "border": "none"
             }
           }
@@ -373,5 +372,472 @@
       }
     }
   },
-  "commentsTab": true
+  "commentsTab": true,
+  "version2": {
+    "sectionList": [
+      {
+        "active": true,
+        "enabled": true,
+        "title": "",
+        "key": "banner",
+        "calSpan": 12,
+        "order": 1,
+        "data": {
+          "widgetType": "slider",
+          "widgetSubType": "sliderBanners",
+          "style": {
+            "border-radius": "12px"
+          },
+          "widgetData": [
+            {
+              "banners": {
+                "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873601521_l.png",
+                "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873621070_m.png",
+                "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873655591_s.png",
+                "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873715662_xl.png",
+                "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873679040_xs.png",
+                "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873754714_xxl.png"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "active": true,
+        "enabled": true,
+        "title": "",
+        "key": "eventsHome",
+        "calSpan": 12,
+        "order": 1,
+        "data": {
+          "leftSection": {
+            "enabled": true,
+            "calSpan": 4,
+            "data": {
+              "myEngagements": {
+                "enabled": true,
+                "title": "My Event Engagements",
+                "data": [
+                  {
+                    "title": "Events Attended",
+                    "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727445164032015/artifact/do_11426727445164032015_1741610651093_events_attended.svg",
+                    "key": "eventsAttended",
+                    "enabled": true
+                  },
+                  {
+                    "title": "Events Enrolled",
+                    "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727504529817616/artifact/do_11426727504529817616_1741610723536_events_enrolled.svg",
+                    "key": "eventsEnrolled",
+                    "enabled": true
+                  },
+                  {
+                    "title": "Hours Watched",
+                    "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727333078630414/artifact/do_11426727333078630414_1741610514094_time_icon.svg",
+                    "key": "hoursSpentOnEvents",
+                    "enabled": true
+                  }
+                ]
+              },
+              "mMyEngagements": {
+                "enabled": true,
+                "title": "Event Engagement",
+                "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727445164032015/artifact/do_11426727445164032015_1741610651093_events_attended.svg",
+                "data": [
+                  {
+                    "title": "Events Attended",
+                    "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727445164032015/artifact/do_11426727445164032015_1741610651093_events_attended.svg",
+                    "key": "eventsAttended",
+                    "enabled": true
+                  },
+                  {
+                    "title": "Events Enrolled",
+                    "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727504529817616/artifact/do_11426727504529817616_1741610723536_events_enrolled.svg",
+                    "key": "eventsEnrolled",
+                    "enabled": true
+                  },
+                  {
+                    "title": "Hours Watched",
+                    "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727333078630414/artifact/do_11426727333078630414_1741610514094_time_icon.svg",
+                    "key": "hoursSpentOnEvents",
+                    "enabled": true
+                  }
+                ]
+              },
+              "eventsCalendar": {
+                "enabled": true,
+                "title": "My Event Calendar",
+                "mTitle": "Event Schedule",
+                "data": []
+              },
+              "mEventsCalendar": {
+                "enabled": true,
+                "title": "Event Schedule",
+                "icon": "https://portal.qa.karmayogibharat.net/assets/public/content/do_114267261407903744126/artifact/do_114267261407903744126_1741609058682_calendar.svg",
+                "data": []
+              }
+            }
+          },
+          "rightSection": {
+            "calSpan": 8,
+            "data": {
+              "search": {
+                "enabled": true,
+                "placeHolder": "Search Events"
+              },
+              "browse": {
+                "enabled": true,
+                "title": "Browse Events By Categories",
+                "data": [
+                  {
+                    "enabled": true,
+                    "title": "Karmayogi Saptah",
+                    "key": "Karmayogi Saptah",
+                    "icon": "https://portal.qa.karmayogibharat.net/assets/public/content/do_114267235123544064124/artifact/do_114267235123544064124_1741605850147_karmayogi_sapth_logo.svg"
+                  },
+                  {
+                    "enabled": true,
+                    "title": "Karmayogi Talks",
+                    "key": "Karmayogi Talks",
+                    "icon": "https://portal.qa.karmayogibharat.net/assets/public//content/do_114267235891773440125/artifact/do_114267235891773440125_1741605943908_karmayogi_talks_logo.svg"
+                  },
+                  {
+                    "enabled": true,
+                    "title": "All Envents",
+                    "icon": "https://portal.qa.karmayogibharat.net/assets/public/content/do_114267231649923072123/artifact/do_114267231649923072123_1741605426102_all_events.svg",
+                    "key": "all"
+                  }
+                ]
+              },
+              "mBrowse": {
+                "enabled": true,
+                "title": "Browse Events",
+                "data": [
+                  {
+                    "enabled": true,
+                    "title": "Karmayogi Saptah",
+                    "key": "Karmayogi Saptah",
+                    "icon": "https://portal.qa.karmayogibharat.net/assets/public/content/do_114267235123544064124/artifact/do_114267235123544064124_1741605850147_karmayogi_sapth_logo.svg"
+                  },
+                  {
+                    "enabled": true,
+                    "title": "Karmayogi Talks",
+                    "key": "Karmayogi Talks",
+                    "icon": "https://portal.qa.karmayogibharat.net/assets/public//content/do_114267235891773440125/artifact/do_114267235891773440125_1741605943908_karmayogi_talks_logo.svg"
+                  }
+                ]
+              },
+              "eventStrips": [
+                {
+                  "enabled": false,
+                  "order": 1,
+                  "strips": [
+                    {
+                      "active": true,
+                      "customeClass": "card-resource-container-small",
+                      "key": "myEvents",
+                      "logo": "school",
+                      "disableTranslate": true,
+                      "title": "My Events",
+                      "stripTitleLink": {
+                        "link": "",
+                        "icon": ""
+                      },
+                      "sliderConfig": {
+                        "showNavs": true,
+                        "showDots": true,
+                        "maxWidgets": 12,
+                        "showNavsSpacing": true
+                      },
+                      "viewMoreUrl": {
+                        "path": "app/event-hub/see-all",
+                        "viewMoreText": "Show all",
+                        "queryParams": {
+                          "category": "recommendedEvents"
+                        }
+                      },
+                      "stripBackground": "",
+                      "titleDescription": "Mandatory courses",
+                      "stripConfig": {
+                        "cardSubType": "card-event-v2"
+                      },
+                      "loader": true,
+                      "loaderConfig": {
+                        "cardSubType": "card-portrait-lib-skeleton"
+                      },
+                      "tabs": [
+                        {
+                          "label": "Today",
+                          "value": "today",
+                          "computeDataOnClick": false,
+                          "computeDataOnClickKey": "",
+                          "requestRequired": true,
+                          "showTabDataCount": false,
+                          "maxWidgets": 12,
+                          "stripConfig": {
+                            "cardSubType": "card-providers-lib"
+                          },
+                          "nodataMsg": "There are no Events",
+                          "request": {
+                            "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
+                            "myEvents": {
+                              "request": {
+                                "retiredCoursesEnabled": true,
+                                "status": "All",
+                                "filters": {}
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "label": "Upcoming",
+                          "value": "upcoming",
+                          "computeDataOnClick": false,
+                          "computeDataOnClickKey": "",
+                          "requestRequired": true,
+                          "showTabDataCount": false,
+                          "maxWidgets": 12,
+                          "stripConfig": {
+                            "cardSubType": "card-providers-lib"
+                          },
+                          "nodataMsg": "There are no Events",
+                          "request": {
+                            "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
+                            "myEvents": {
+                              "request": {
+                                "retiredCoursesEnabled": true,
+                                "status": "All",
+                                "filters": {}
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "label": "Past",
+                          "value": "past",
+                          "computeDataOnClick": false,
+                          "computeDataOnClickKey": "",
+                          "requestRequired": true,
+                          "showTabDataCount": false,
+                          "maxWidgets": 12,
+                          "stripConfig": {
+                            "cardSubType": "card-providers-lib"
+                          },
+                          "nodataMsg": "There are no Events",
+                          "request": {
+                            "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
+                            "myEvents": {
+                              "request": {
+                                "retiredCoursesEnabled": true,
+                                "status": "All",
+                                "filters": {}
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "filters": [],
+                      "request": {
+                        "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
+                        "myEvents": {
+                          "request": {
+                            "retiredCoursesEnabled": true,
+                            "status": "All",
+                            "filters": {}
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "order": 2,
+                  "enabled": true,
+                  "strips": [
+                    {
+                      "active": true,
+                      "customeClass": "card-resource-container-small",
+                      "key": "recommendedEvents",
+                      "logo": "school",
+                      "disableTranslate": true,
+                      "title": "Recommended Events",
+                      "stripTitleLink": {
+                        "link": "",
+                        "icon": ""
+                      },
+                      "sliderConfig": {
+                        "showNavs": true,
+                        "showDots": true,
+                        "maxWidgets": 12,
+                        "showNavsSpacing": true
+                      },
+                      "viewMoreUrl": {
+                        "path": "app/event-hub/see-all",
+                        "viewMoreText": "Show all",
+                        "queryParams": {
+                          "category": "recommendedEvents"
+                        }
+                      },
+                      "stripBackground": "",
+                      "titleDescription": "Mandatory courses",
+                      "stripConfig": {
+                        "cardSubType": "card-event-v2"
+                      },
+                      "loader": true,
+                      "loaderConfig": {
+                        "cardSubType": "card-portrait-lib-skeleton"
+                      },
+                      "filters": [],
+                      "request": {
+                        "apiUrl": "apis/proxies/v8/sunbirdigot/search",
+                        "searchV6": {
+                          "request": {
+                            "limit": 12,
+                            "offset": 0,
+                            "filters": {
+                              "status": [
+                                "Live"
+                              ],
+                              "contentType": "Event"
+                            },
+                            "sort_by": {
+                              "lastUpdatedOn": "desc"
+                            }
+                          }
+                        },
+                        "fetchData": "events"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "order": 3,
+                  "enabled": true,
+                  "strips": [
+                    {
+                      "active": true,
+                      "customeClass": "card-resource-container-small",
+                      "key": "trendingEvents",
+                      "logo": "school",
+                      "disableTranslate": true,
+                      "title": "Trending Events",
+                      "stripTitleLink": {
+                        "link": "",
+                        "icon": ""
+                      },
+                      "sliderConfig": {
+                        "showNavs": true,
+                        "showDots": true,
+                        "maxWidgets": 12,
+                        "showNavsSpacing": true
+                      },
+                      "viewMoreUrl": {
+                        "path": "app/event-hub/see-all",
+                        "viewMoreText": "Show all",
+                        "queryParams": {
+                          "category": "trendingEvents"
+                        }
+                      },
+                      "stripBackground": "",
+                      "titleDescription": "Mandatory courses",
+                      "stripConfig": {
+                        "cardSubType": "card-event-v2"
+                      },
+                      "loader": true,
+                      "loaderConfig": {
+                        "cardSubType": "card-portrait-lib-skeleton"
+                      },
+                      "filters": [],
+                      "request": {
+                        "hasIdentifiersApi": true,
+                        "identifiersApiUrl": "apis/proxies/v8/user/mdo/trending/events",
+                        "apiUrl": "apis/proxies/v8/sunbirdigot/search",
+                        "searchV6": {
+                          "request": {
+                            "limit": 12,
+                            "offset": 0,
+                            "filters": {
+                              "status": [
+                                "Live"
+                              ],
+                              "contentType": "Event"
+                            },
+                            "sort_by": {
+                              "lastUpdatedOn": "desc"
+                            }
+                          }
+                        },
+                        "fetchData": "events"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "order": 4,
+                  "enabled": true,
+                  "strips": [
+                    {
+                      "active": true,
+                      "customeClass": "card-resource-container-small",
+                      "key": "featuredEvents",
+                      "logo": "school",
+                      "disableTranslate": true,
+                      "title": "Featured Events",
+                      "stripTitleLink": {
+                        "link": "",
+                        "icon": ""
+                      },
+                      "sliderConfig": {
+                        "showNavs": true,
+                        "showDots": true,
+                        "maxWidgets": 12,
+                        "showNavsSpacing": true
+                      },
+                      "viewMoreUrl": {
+                        "path": "app/event-hub/see-all",
+                        "viewMoreText": "Show all",
+                        "queryParams": {
+                          "category": "featuredEvents"
+                        }
+                      },
+                      "stripBackground": "",
+                      "titleDescription": "Mandatory courses",
+                      "stripConfig": {
+                        "cardSubType": "card-event-v2"
+                      },
+                      "loader": true,
+                      "loaderConfig": {
+                        "cardSubType": "card-portrait-lib-skeleton"
+                      },
+                      "filters": [],
+                      "request": {
+                        "hasIdentifiersApi": true,
+                        "identifiersApiUrl": "apis/proxies/v8/user/featured/events",
+                        "apiUrl": "apis/proxies/v8/sunbirdigot/search",
+                        "searchV6": {
+                          "request": {
+                            "limit": 12,
+                            "offset": 0,
+                            "filters": {
+                              "status": [
+                                "Live"
+                              ],
+                              "contentType": "Event"
+                            },
+                            "sort_by": {
+                              "lastUpdatedOn": "desc"
+                            }
+                          }
+                        },
+                        "fetchData": "events"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
 }
