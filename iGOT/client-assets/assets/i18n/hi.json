@@ -1505,7 +1505,8 @@
     "inProgress": "प्रगति में",
     "certificate": "प्रमाण पत्र",
     "learningHours": "सीखने के घंटे",
-    "ShowMyActivities": "मेरी गतिविधियाँ दिखाएँ"
+    "ShowMyActivities": "मेरी गतिविधियाँ दिखाएँ",
+    "karmaPoints": "कर्मा पॉइंट्स"
   },
   "profileNudge": {
     "slot1Info1": "नवीनतम आई. जी. ओ. टी. अद्यतनों के लिए आई. जी. ओ. टी. समाचार पत्र पढ़ें!",
@@ -1918,7 +1919,8 @@
     "languages": "भाषाएँ",
     "contentProvider": "सामग्री प्रदाता",
     "duration": "अवधि",
-    "competencyArea": "दक्षता क्षेत्र"
+    "competencyArea": "दक्षता क्षेत्र",
+    "typeOfEvents": "घटनाओं के प्रकार"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",

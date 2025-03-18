@@ -807,10 +807,10 @@
         "value": 0
       },
       {
-        "icon": "/assets/icons/home/inProgress.svg",
-        "label": "In Progress",
-        "enable": false,
-        "key": "inProgress",
+        "icon": "/assets/icons/home/time.svg",
+        "label": "Karma Points",
+        "enable": true,
+        "key": "karmaPoints",
         "value": 0
       }
     ],

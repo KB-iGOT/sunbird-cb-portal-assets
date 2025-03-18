@@ -1355,7 +1355,8 @@
     "inProgress": "प्रगतीपथावर",
     "certificate": "प्रमाणपत्र",
     "learningHours": "शिकण्याचे तास",
-    "ShowMyActivities": "माझे उपक्रम दाखवा"
+    "ShowMyActivities": "माझे उपक्रम दाखवा",
+    "karmaPoints":"कर्म बिंदू"
   },
   "profileNudge": {
     "slot1Info1": "एक नवीन सुरुवात करा, काहीतरी नवीन शोधा.",

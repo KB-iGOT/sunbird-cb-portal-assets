@@ -1500,7 +1500,8 @@
     "inProgress": "પ્રગતિમાં છે",
     "certificate": "પ્રમાણપત્ર",
     "learningHours": "શીખવાના કલાકો",
-    "ShowMyActivities": "મારી પ્રવૃત્તિઓ બતાવો"
+    "ShowMyActivities": "મારી પ્રવૃત્તિઓ બતાવો",
+    "karmaPoints":"કર્મ બિંદુઓ"
   },
   "profileNudge": {
     "slot1Info1": "ઊઠો અને ચમકશો, તમારા દિવસની શરૂઆત જ્ઞાનની માત્રા સાથે કરો.",
@@ -1886,7 +1887,8 @@
     "languages": "ભાષાઓ",
     "contentProvider": "સમગ્ર પ્રદાતા",
     "duration": "અવધિ",
-    "competencyArea": "નિપુણતા વિસ્તાર"
+    "competencyArea": "નિપુણતા વિસ્તાર",
+    "typeOfEvents": "ઘટનાઓનો પ્રકાર"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
