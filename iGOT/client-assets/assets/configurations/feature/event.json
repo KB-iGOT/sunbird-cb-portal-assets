@@ -1,4 +1,8 @@
 {
+  "enrollFlowItems": [
+    "Karmayogi Saptah",
+    "Karmayogi Talks"
+  ],
   "eventsCategoryId": 1,
   "banner": {
     "widgetType": "slider",
@@ -9,12 +13,12 @@
     "widgetData": [
       {
         "banners": {
-          "l": "assets/instances/eagle/banners/hubs/events/l.png",
-          "m": "assets/instances/eagle/banners/hubs/events/m.png",
-          "s": "assets/instances/eagle/banners/hubs/events/s.png",
-          "xl": "assets/instances/eagle/banners/hubs/events/xl.png",
-          "xs": "assets/instances/eagle/banners/hubs/events/xs.png",
-          "xxl": "assets/instances/eagle/banners/hubs/events/xxl.png"
+          "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873601521_l.png",
+          "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873621070_m.png",
+          "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873655591_s.png",
+          "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873715662_xl.png",
+          "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873679040_xs.png",
+          "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01364917671846707254/1732873754714_xxl.png"
         }
       }
     ]
@@ -37,6 +41,80 @@
         ]
       ]
     }
+  },
+  "keySpeakersEvents": {
+    "order": 1,
+    "strips": [
+      {
+        "active": false,
+        "key": "keySpeakersEvents",
+        "logo": "school",
+        "title": "Key Speakers events",
+        "stripTitleLink": {
+          "link": "",
+          "icon": ""
+        },
+        "sliderConfig": {
+          "showNavs": true,
+          "showDots": false,
+          "maxWidgets": 30
+        },
+        "loader": true,
+        "loaderConfig": {
+          "cardSubType": "card-events-skeleton"
+        },
+        "stripBackground": "",
+        "titleDescription": "Key Speakers events",
+        "stripConfig": {
+          "cardSubType": "card-events"
+        },
+        "tabs": [],
+        "filters": [],
+        "data": [],
+        "request": {
+          "searchV6": {
+            "request": {
+              "filters": {
+                "status": [
+                  "Live"
+                ],
+                "contentType": "Event",
+                "category": "Event",
+                "onBehalfOf": "<orgID>"
+              },
+              "query": "",
+              "sort_by": {
+                "startDate": "desc"
+              },
+              "fields": [
+                "name",
+                "instructions",
+                "description",
+                "mimeType",
+                "identifier",
+                "resourceType",
+                "contentType",
+                "channel",
+                "organisation",
+                "duration",
+                "version",
+                "startDate",
+                "endDate",
+                "startTime",
+                "endTime",
+                "status",
+                "createdOn",
+                "eventType",
+                "expiryDate",
+                "creatorDetails",
+                "appIcon",
+                "recordedLinks"
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
   "eventStrips": {
     "order": 1,
@@ -201,7 +279,6 @@
     }
   ],
   "discussWidgetData": {
-    "enrolledContent": false,
     "newCommentSection": {
       "show": true,
       "showTopInfo": false,
@@ -219,34 +296,21 @@
       },
       "avatarPhoto": {
         "show": true,
-        "size": "m",
+        "size": "ml",
         "photoUrl": "https://portal.dev.karmayogibharat.net/assets/public/profileImage/1725443303744_images.jpeg",
         "name": "Christopher Fernandes",
         "color": "#006400"
       },
       "commentBox": {
-        "placeholder": "Start a discussion"
+        "placeholder": "Ask a question or post a comment"
       },
       "postBtn": {
-        "text": "",
-        "icon": "send"
-      },
-      "styles": {
-        "background-color": "#fff",
-        "border": "1px solid rgba(0, 0, 0, 0.08)"
+        "text": "Post"
       }
     },
     "commentsList": {
       "cardType": "topLevel",
       "showActions": true,
-      "reportIcon": {
-        "show": true,
-        "icon": "report",
-        "successMsg": "Reported successfully! Thank you for reporting.",
-        "errorMsg": "Something went wrong! please try reporting again later.",
-        "showToolTip": true,
-        "toolTipText": "Report this comment"
-      },
       "actions": {
         "like": {
           "show": true,
@@ -256,8 +320,7 @@
         "comments": {
           "show": true,
           "showCount": true,
-          "icon": "comment",
-          "iconDisplay": false
+          "icon": "comment"
         },
         "avatarPhoto": {
           "show": true,
@@ -269,7 +332,6 @@
       },
       "repliesSection": {
         "show": true,
-        "indented": false,
         "newCommentReply": {
           "show": true,
           "showTopInfo": false,
@@ -287,34 +349,21 @@
           },
           "avatarPhoto": {
             "show": true,
-            "size": "m",
+            "size": "ml",
             "photoUrl": "https://portal.dev.karmayogibharat.net/assets/public/profileImage/1725443303744_images.jpeg",
             "name": "Christopher Fernandes",
             "color": "#006400"
           },
           "commentBox": {
-            "placeholder": "Add a comment"
+            "placeholder": "post a reply"
           },
           "postBtn": {
-            "text": "",
-            "icon": "send"
-          },
-          "styles": {
-            "background-color": "#1B4CA10D",
-            "border": "none"
+            "text": "Reply"
           }
         },
         "replyCardConfig": {
           "cardType": "reply",
           "showActions": true,
-          "reportIcon": {
-            "show": true,
-            "icon": "report",
-            "successMsg": "Reported successfully! Thank you for reporting.",
-            "errorMsg": "Something went wrong! please try reporting again later.",
-            "showToolTip": true,
-            "toolTipText": "Report this comment"
-          },
           "actions": {
             "like": {
               "show": true,
@@ -322,48 +371,8 @@
               "icon": "thumb_up"
             }
           },
-          "comments": {
-            "show": true,
-            "showCount": false,
-            "icon": "chat_bubble",
-            "iconDisplay": true
-          },
           "repliesSection": {
             "show": false
-          },
-          "newCommentReply": {
-            "show": true,
-            "showTopInfo": false,
-            "commentTreeData": {
-              "isFirstComment": false,
-              "commentTreeId": "",
-              "hierarchyPath": [],
-              "entityType": "COURSE",
-              "entityId": "do_11407955440633446419",
-              "workflow": "TOC"
-            },
-            "topInfo": {
-              "icon": "forum",
-              "text": "<div>Do you have any questions, suggestions or ideas in your mind?Post it.</div>"
-            },
-            "avatarPhoto": {
-              "show": true,
-              "size": "m",
-              "photoUrl": "https://portal.dev.karmayogibharat.net/assets/public/profileImage/1725443303744_images.jpeg",
-              "name": "Christopher Fernandes",
-              "color": "#006400"
-            },
-            "commentBox": {
-              "placeholder": "Add a comment"
-            },
-            "postBtn": {
-              "text": "",
-              "icon": "send"
-            },
-            "styles": {
-              "background-color": "#1B4CA10D",
-              "border": "none"
-            }
           }
         }
       },
@@ -416,47 +425,39 @@
             "data": {
               "myEngagements": {
                 "enabled": true,
-                "title": "My Event Engagements",
-                "data": [
-                  {
-                    "title": "Events Attended",
-                    "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727445164032015/artifact/do_11426727445164032015_1741610651093_events_attended.svg",
-                    "key": "eventsAttended",
-                    "enabled": true
-                  },
-                  {
-                    "title": "Events Enrolled",
-                    "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727504529817616/artifact/do_11426727504529817616_1741610723536_events_enrolled.svg",
-                    "key": "eventsEnrolled",
-                    "enabled": true
-                  },
-                  {
-                    "title": "Hours Watched",
-                    "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727333078630414/artifact/do_11426727333078630414_1741610514094_time_icon.svg",
-                    "key": "hoursSpentOnEvents",
-                    "enabled": true
-                  }
-                ]
-              },
-              "mMyEngagements": {
-                "enabled": true,
-                "title": "Event Engagement",
                 "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727445164032015/artifact/do_11426727445164032015_1741610651093_events_attended.svg",
+                "title": {
+                  "id": "myEventEngagements",
+                  "enText": "My events engagement",
+                  "hiText": ""
+                },
                 "data": [
                   {
-                    "title": "Events Attended",
+                    "title": {
+                      "id": "eventsAttended",
+                      "enText": "Events Added",
+                      "hiText": ""
+                    },
                     "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727445164032015/artifact/do_11426727445164032015_1741610651093_events_attended.svg",
                     "key": "eventsAttended",
                     "enabled": true
                   },
                   {
-                    "title": "Events Enrolled",
+                    "title": {
+                      "id": "eventsEnrolled",
+                      "enText": "Events Enrolled",
+                      "hiText": ""
+                    },
                     "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727504529817616/artifact/do_11426727504529817616_1741610723536_events_enrolled.svg",
                     "key": "eventsEnrolled",
                     "enabled": true
                   },
                   {
-                    "title": "Hours Watched",
+                    "title": {
+                      "id": "hoursWatched",
+                      "enText": "Hours Watched",
+                      "hiText": ""
+                    },
                     "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727333078630414/artifact/do_11426727333078630414_1741610514094_time_icon.svg",
                     "key": "hoursSpentOnEvents",
                     "enabled": true
@@ -465,14 +466,13 @@
               },
               "eventsCalendar": {
                 "enabled": true,
-                "title": "My Event Calendar",
-                "mTitle": "Event Schedule",
-                "data": []
-              },
-              "mEventsCalendar": {
-                "enabled": true,
-                "title": "Event Schedule",
                 "icon": "https://portal.qa.karmayogibharat.net/assets/public/content/do_114267261407903744126/artifact/do_114267261407903744126_1741609058682_calendar.svg",
+                "title": {
+                  "id": "myEventCalendar",
+                  "enText": "My Events Calendar",
+                  "hiText": ""
+                },
+                "noEvents": "noEventsFound",
                 "data": []
               }
             }
@@ -482,53 +482,51 @@
             "data": {
               "search": {
                 "enabled": true,
-                "placeHolder": "Search Events"
+                "placeHolder": "searchEvents"
               },
               "browse": {
                 "enabled": true,
-                "title": "Browse Events By Categories",
+                "title": {
+                  "id": "browseEventsByCategories",
+                  "enText": "Browse Event By Categories",
+                  "hiText": ""
+                },
                 "data": [
                   {
                     "enabled": true,
-                    "title": "Karmayogi Saptah",
+                    "title": {
+                      "id": "karmayogiSaptah",
+                      "enText": "Karmayogi Saptah",
+                      "hiText": ""
+                    },
                     "key": "Karmayogi Saptah",
                     "icon": "https://portal.qa.karmayogibharat.net/assets/public/content/do_114267235123544064124/artifact/do_114267235123544064124_1741605850147_karmayogi_sapth_logo.svg"
                   },
                   {
                     "enabled": true,
-                    "title": "Karmayogi Talks",
+                    "title": {
+                      "id": "karmayogiTalks",
+                      "enText": "Karmayogi Talks",
+                      "hiText": ""
+                    },
                     "key": "Karmayogi Talks",
                     "icon": "https://portal.qa.karmayogibharat.net/assets/public//content/do_114267235891773440125/artifact/do_114267235891773440125_1741605943908_karmayogi_talks_logo.svg"
                   },
                   {
                     "enabled": true,
-                    "title": "All Envents",
+                    "title": {
+                      "id": "allEvents",
+                      "enText": "All Events",
+                      "hiText": ""
+                    },
                     "icon": "https://portal.qa.karmayogibharat.net/assets/public/content/do_114267231649923072123/artifact/do_114267231649923072123_1741605426102_all_events.svg",
                     "key": "all"
                   }
                 ]
               },
-              "mBrowse": {
-                "enabled": true,
-                "title": "Browse Events",
-                "data": [
-                  {
-                    "enabled": true,
-                    "title": "Karmayogi Saptah",
-                    "key": "Karmayogi Saptah",
-                    "icon": "https://portal.qa.karmayogibharat.net/assets/public/content/do_114267235123544064124/artifact/do_114267235123544064124_1741605850147_karmayogi_sapth_logo.svg"
-                  },
-                  {
-                    "enabled": true,
-                    "title": "Karmayogi Talks",
-                    "key": "Karmayogi Talks",
-                    "icon": "https://portal.qa.karmayogibharat.net/assets/public//content/do_114267235891773440125/artifact/do_114267235891773440125_1741605943908_karmayogi_talks_logo.svg"
-                  }
-                ]
-              },
               "eventStrips": [
                 {
-                  "enabled": false,
+                  "enabled": true,
                   "order": 1,
                   "strips": [
                     {
@@ -536,8 +534,13 @@
                       "customeClass": "card-resource-container-small",
                       "key": "myEvents",
                       "logo": "school",
-                      "disableTranslate": true,
-                      "title": "My Events",
+                      "disableTranslate": false,
+                      "title": "myEvents",
+                      "mTitle": {
+                        "id": "myEvents",
+                        "hiText": "",
+                        "enText": "My Events"
+                      },
                       "stripTitleLink": {
                         "link": "",
                         "icon": ""
@@ -549,14 +552,12 @@
                         "showNavsSpacing": true
                       },
                       "viewMoreUrl": {
-                        "path": "app/event-hub/see-all",
+                        "path": "app/event-hub/my-events",
                         "viewMoreText": "Show all",
                         "queryParams": {
-                          "category": "recommendedEvents"
+                          "category": "myEvents"
                         }
                       },
-                      "stripBackground": "",
-                      "titleDescription": "Mandatory courses",
                       "stripConfig": {
                         "cardSubType": "card-event-v2"
                       },
@@ -566,7 +567,12 @@
                       },
                       "tabs": [
                         {
-                          "label": "Today",
+                          "label": "today",
+                          "mLabel": {
+                            "id": "today",
+                            "hiText": "",
+                            "enText": "Today"
+                          },
                           "value": "today",
                           "computeDataOnClick": false,
                           "computeDataOnClickKey": "",
@@ -574,7 +580,7 @@
                           "showTabDataCount": false,
                           "maxWidgets": 12,
                           "stripConfig": {
-                            "cardSubType": "card-providers-lib"
+                            "cardSubType": "card-portrait-lib-skeleton"
                           },
                           "nodataMsg": "There are no Events",
                           "request": {
@@ -589,7 +595,12 @@
                           }
                         },
                         {
-                          "label": "Upcoming",
+                          "label": "upcoming",
+                          "mLabel": {
+                            "id": "upcoming",
+                            "hiText": "",
+                            "enText": "Upcoming"
+                          },
                           "value": "upcoming",
                           "computeDataOnClick": false,
                           "computeDataOnClickKey": "",
@@ -597,7 +608,7 @@
                           "showTabDataCount": false,
                           "maxWidgets": 12,
                           "stripConfig": {
-                            "cardSubType": "card-providers-lib"
+                            "cardSubType": "card-portrait-lib-skeleton"
                           },
                           "nodataMsg": "There are no Events",
                           "request": {
@@ -612,7 +623,12 @@
                           }
                         },
                         {
-                          "label": "Past",
+                          "label": "past",
+                          "mLabel": {
+                            "id": "past",
+                            "hiText": "",
+                            "enText": "Past"
+                          },
                           "value": "past",
                           "computeDataOnClick": false,
                           "computeDataOnClickKey": "",
@@ -620,7 +636,7 @@
                           "showTabDataCount": false,
                           "maxWidgets": 12,
                           "stripConfig": {
-                            "cardSubType": "card-providers-lib"
+                            "cardSubType": "card-portrait-lib-skeleton"
                           },
                           "nodataMsg": "There are no Events",
                           "request": {
@@ -651,15 +667,20 @@
                 },
                 {
                   "order": 2,
-                  "enabled": true,
+                  "enabled": false,
                   "strips": [
                     {
                       "active": true,
                       "customeClass": "card-resource-container-small",
                       "key": "recommendedEvents",
                       "logo": "school",
-                      "disableTranslate": true,
-                      "title": "Recommended Events",
+                      "disableTranslate": false,
+                      "title": "recommendedEvents",
+                      "mTitle": {
+                        "enText": "Recommended Events",
+                        "hiText": "",
+                        "id": "recommendedEvents"
+                      },
                       "stripTitleLink": {
                         "link": "",
                         "icon": ""
@@ -718,8 +739,13 @@
                       "customeClass": "card-resource-container-small",
                       "key": "trendingEvents",
                       "logo": "school",
-                      "disableTranslate": true,
-                      "title": "Trending Events",
+                      "disableTranslate": false,
+                      "title": "trendingEvents",
+                      "mTitle": {
+                        "id": "trendingEvents",
+                        "hiText": "",
+                        "enText": "Trending Events"
+                      },
                       "stripTitleLink": {
                         "link": "",
                         "icon": ""
@@ -780,8 +806,13 @@
                       "customeClass": "card-resource-container-small",
                       "key": "featuredEvents",
                       "logo": "school",
-                      "disableTranslate": true,
-                      "title": "Featured Events",
+                      "disableTranslate": false,
+                      "title": "featuredEvents",
+                      "mTitle": {
+                        "id": "featuredEvents",
+                        "hiText": "",
+                        "enText": "Featured Events"
+                      },
                       "stripTitleLink": {
                         "link": "",
                         "icon": ""
