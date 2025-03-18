@@ -1918,7 +1918,8 @@
     "languages": "भाषाएँ",
     "contentProvider": "सामग्री प्रदाता",
     "duration": "अवधि",
-    "competencyArea": "दक्षता क्षेत्र"
+    "competencyArea": "दक्षता क्षेत्र",
+    "typeOfEvents": "घटनाओं के प्रकार"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",

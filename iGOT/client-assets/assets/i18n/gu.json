@@ -1886,7 +1886,8 @@
     "languages": "ભાષાઓ",
     "contentProvider": "સમગ્ર પ્રદાતા",
     "duration": "અવધિ",
-    "competencyArea": "નિપુણતા વિસ્તાર"
+    "competencyArea": "નિપુણતા વિસ્તાર",
+    "typeOfEvents": "ઘટનાઓનો પ્રકાર"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
