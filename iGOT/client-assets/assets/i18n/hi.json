@@ -1921,7 +1921,8 @@
     "contentProvider": "सामग्री प्रदाता",
     "duration": "अवधि",
     "competencyArea": "दक्षता क्षेत्र",
-    "typeOfEvents": "घटनाओं के प्रकार"
+    "typeOfEvents": "घटनाओं के प्रकार",
+    "topicName": "विषय का नाम"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",

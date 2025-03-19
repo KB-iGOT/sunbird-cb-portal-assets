@@ -1945,7 +1945,8 @@
         "contentProvider": "Content Provider",
         "duration": "Duration",
         "competencyArea": "Competency Area",
-        "typeOfEvents": "Type Of Events"
+        "typeOfEvents": "Type Of Events",
+        "topicName": "Topic Name"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",

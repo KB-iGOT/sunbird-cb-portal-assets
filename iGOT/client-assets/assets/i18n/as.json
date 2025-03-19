@@ -1713,7 +1713,8 @@
     "languages": "ভাষাসমূহ",
     "contentProvider": "সামগ্ৰী প্ৰদানকাৰী",
     "duration": "অৱধি",
-    "competencyArea": "দক্ষতা এলাকা"
+    "competencyArea": "দক্ষতা এলাকা",
+    "topicName": "বিষয়ৰ নাম"
   },
   "utilslogout": {
     "logoutNow": "এতিয়া লগআউট কৰক",
