@@ -94,7 +94,7 @@
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
-        "searchforLearningContentsV2": "Ask A question",
+        "searchforLearningContentsV2": "Search for Anything",
         "karmaPoints": "Karma Points",
         "karmaPointsToolTip": "Karma Points measure and map your engagement at iGOT. Points are updated within 4 hours."
     },
@@ -1886,7 +1886,7 @@
         "noResults": "No results found",
         "removeFilters": "Try removing the filters or search using different keywords",
 
-        "noResultFound": "Sorry, we couldn't find any results for {{searchTerm}} so please Try adjusting your search.",
+        "noResultFound": "Sorry, we couldn't find any results for \"{{searchTerm}}\" so please Try adjusting your search.",
         "extraText1": "Here are some ideas:",
         "extraText2": "Make sure all words are spelled correctly. Try different search terms. Try more general search terms.",
         "btnBackToHomepage": "Back to Homepage",
