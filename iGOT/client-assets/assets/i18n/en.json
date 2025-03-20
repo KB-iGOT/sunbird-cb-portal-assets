@@ -959,6 +959,8 @@
         "karmayogiTalks": "Karmayogi Talks",
         "live": "Live",
         "karmayogiSaptah": "Karmayogi Saptah",
+        "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
+        "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "moreKarmaPoints": "more KarmaPoints",
         "completedEvent": "You completed this event on",
         "search": "Search events..."
@@ -1873,6 +1875,8 @@
     "searchfilters": {
         "caseStudy": "Case Study",
         "karmayogiSaptah": "Karmayogi Saptah",
+        "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
+        "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "karmayogiTalks": "Karmayogi Talks",
         "filterSearch": "Filter search",
         "contentType": "Content Type",
