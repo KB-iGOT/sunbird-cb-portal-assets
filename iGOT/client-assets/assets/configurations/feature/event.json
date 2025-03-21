@@ -875,6 +875,90 @@
           }
         }
       }
-    ]
+    ],
+    "filterFacetsData": {
+      "resourceType": {
+        "name": "Event Type",
+        "displayName": "Event Type",
+        "label": "Event Type",
+        "placeHolder": "Seach Event Type",
+        "viewMore": false,
+        "values": [
+          {
+            "key": "karmayogiTalks",
+            "name": "Karmayogi Talks"
+          },
+          {
+            "key": "karmayogiSaptah",
+            "name": "Karmayogi Saptah"
+          },
+          {
+            "key": "rajyaKarmayogiSaptah",
+            "name": "Rajya Karmayogi Saptah"
+          },
+          {
+            "key": "webinar",
+            "name": "Webinar"
+          }
+        ]
+      },
+      "eventStatus": {
+        "name": "Event Status",
+        "displayName": "Event Status",
+        "label": "Event Status",
+        "viewMore": false,
+        "values": [
+          {
+            "key": "upcoming",
+            "name": "Upcoming"
+          },
+          {
+            "key": "liveEvents",
+            "name": "Live Events"
+          },
+          {
+            "key": "pastEvents",
+            "name": "Past Events"
+          }
+        ]
+      },
+      "eventDate": {
+        "name": "Event Date/Time",
+        "displayName": "Event Date/Time",
+        "label": "Event Date/Time",
+        "viewMore": false,
+        "values": [
+          {
+            "key": "toDay",
+            "name": "Today"
+          },
+          {
+            "key": "tomorrow",
+            "name": "Tomorrow"
+          }
+        ]
+      },
+      "dateRange": {
+        "name": "Date Range",
+        "displayName": "Choose Date Range",
+        "label": "Choose Date Range",
+        "viewMore": false,
+        "values": [
+          {
+            "key": "fromDate",
+            "name": "From:",
+            "placeHolder": "Select Date"
+          },
+          {
+            "key": "toDate",
+            "name": "To:",
+            "placeHolder": "Select Date"
+          },
+          {
+            "key": "button"
+          }
+        ]
+      }
+    }
   }
 }
