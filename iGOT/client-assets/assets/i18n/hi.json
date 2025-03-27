@@ -1491,7 +1491,8 @@
     "myevents": "मेरी घटनाएँ",
     "recommendedevents": "अनुशंसित घटनाएँ",
     "trendingevents": "रुझान वाली घटनाएँ",
-    "featuredevents": "विशेष घटनाएँ"
+    "featuredevents": "विशेष घटनाएँ",
+    "therearenoevents": "कोई इवेंट नहीं हैं"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
@@ -2466,7 +2467,7 @@
     "recommendedEvents": "अनुशंसित घटनाएँ",
     "trendingEvents": "रुझान वाली घटनाएँ",
     "featuredEvents": "विशेष घटनाएँ",
-    "myEventEngagements": "मेरा घटना सहभागिता",
+    "myEventEngagements": "मेरे इवेंट एंगेजमेन",
     "eventsAttended": "घटनाएँ अटेंड की",
     "eventsEnrolled": "घटनाएँ नामांकित की",
     "hoursWatched": "घंटे देखे गए",
@@ -2483,7 +2484,9 @@
     "upcoming": "आने वाला है",
     "past": "अतीत",
     "toDay": "आज",
-    "noEvents": "कोई इवेंट नहीं मिला"
+    "noEvents": "कोई इवेंट नहीं मिला",
+    "seeAll":"सब देखें",
+    "seeLess":"कम देखें"
   },
   "mobileApp": {}
 }
