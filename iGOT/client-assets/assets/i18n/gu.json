@@ -1486,7 +1486,8 @@
     "myevents": "મારી ઘટનાઓ",
     "recommendedevents": "ભલામણ કરેલ ઇવેન્ટ્સ",
     "trendingevents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
-    "featuredevents": "ફીચર્ડ ઇવેન્ટ્સ"
+    "featuredevents": "ફીચર્ડ ઇવેન્ટ્સ",
+    "therearenoevents": "ત્યાં કોઈ ઇવેન્ટ્સ નથી"
   },
   "homeotherportals": {
     "otherPortals": "તમારી પાસે ઍક્સેસ હોય તેવા અન્ય પોર્ટલ",
@@ -2332,7 +2333,7 @@
     "recommendedEvents": "ભલામણ કરેલ ઇવેન્ટ્સ",
     "trendingEvents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
     "featuredEvents": "ફીચર્ડ ઇવેન્ટ્સ",
-    "myEventEngagements": "મારા ઇવેન્ટ એન્ગેજમેન્ટ",
+    "myEventEngagements": "મારી ઇવેન્ટ એંગેજમેન",
     "eventsAttended": "ઇવેન્ટ્સ હાજરી આપી",
     "eventsEnrolled": "ઇવેન્ટ્સમાં નોંધણીઓ",
     "hoursWatched": "ઘંટા જોવાયાં",
@@ -2349,7 +2350,9 @@
     "upcoming": "આગામી તા.",
     "past": "ભૂતકાળ",
     "toDay": "આજે",
-    "noEvents": "કોઈ ઇવેન્ટ્સ મળી નથી"
+    "noEvents": "કોઈ ઇવેન્ટ્સ મળી નથી",
+    "seeAll":"બધા જુઓ",
+    "seeLess":"ઓછું જુઓ"
   },
   "mobileApp": {}
 }

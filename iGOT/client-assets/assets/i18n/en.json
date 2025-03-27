@@ -1509,7 +1509,8 @@
         "recommendedevents": "Recommended Events",
         "trendingevents": "Trending Events",
         "featuredevents": "Featured Events",
-        "myevents": "My Events"
+        "myevents": "My Events",
+        "therearenoevents": "There are no Events"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
@@ -2402,7 +2403,7 @@
         "recommendedEvents": "Recommended Events",
         "trendingEvents": "Trending Events",
         "featuredEvents": "Featured Events",
-        "myEventEngagements": "My Event Engagements",
+        "myEventEngagements": "My Event Engagement",
         "eventsAttended": "Events Attended",
         "eventsEnrolled": "Events Enrolled",
         "hoursWatched": "Hours Watched",
@@ -2419,7 +2420,9 @@
         "past": "Past",
         "toDay": "Today",
         "upcoming": "Upcoming",
-        "noEvents": "No events found"
+        "noEvents": "No events found",
+        "seeAll": "See all",
+        "seeLess":"See less"
     },
     "mobileApp": {}
 }
