@@ -2483,7 +2483,20 @@
     "toDay": "आज",
     "noEvents": "कोई इवेंट नहीं मिला",
     "seeAll": "सब देखें",
-    "seeLess": "कम देखें"
+    "seeLess": "कम देखें",
+    "viewAll": "सब देखें",
+    "viewLess": "कम देखें",
+    "eventType": "ईवेंट का प्रकार",
+    "eventStatus": "घटना की स्थिति",
+    "eventRange": "दिनांक सीमा चुनें",
+    "fromDate": "से",
+    "toDate": "को",
+    "eventDateTime": "घटना दिनांक/समय",
+    "selectDate": "तारीख़ चुनें",
+    "liveEvents": "लाइव इवेंट",
+    "pastEvents": "अतीत की घटनायें",
+    "tomorrow": "कल",
+    "today": "आज"
   },
   "mobileApp": {}
 }
