@@ -510,7 +510,7 @@
                       "hiText": ""
                     },
                     "key": "Karmayogi Talks",
-                    "icon": "https://portal.qa.karmayogibharat.net/assets/public//content/do_114267235891773440125/artifact/do_114267235891773440125_1741605943908_karmayogi_talks_logo.svg"
+                    "icon": "https://portal.qa.karmayogibharat.net/assets/public/content/do_114267235891773440125/artifact/do_114267235891773440125_1741605943908_karmayogi_talks_logo.svg"
                   },
                   {
                     "enabled": true,
@@ -584,7 +584,7 @@
                           },
                           "nodataMsg": "There are no Events",
                           "request": {
-                            "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
+                            "apiUrl": "apis/proxies/v8/user/events/v2/list/<userId>",
                             "myEvents": {
                               "request": {
                                 "retiredCoursesEnabled": true,
@@ -614,7 +614,7 @@
                           },
                           "nodataMsg": "There are no Events",
                           "request": {
-                            "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
+                            "apiUrl": "apis/proxies/v8/user/events/v2/list/<userId>",
                             "myEvents": {
                               "request": {
                                 "retiredCoursesEnabled": true,
@@ -644,7 +644,7 @@
                           },
                           "nodataMsg": "There are no Events",
                           "request": {
-                            "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
+                            "apiUrl": "apis/proxies/v8/user/events/v2/list/<userId>",
                             "myEvents": {
                               "request": {
                                 "retiredCoursesEnabled": true,
@@ -659,7 +659,7 @@
                       ],
                       "filters": [],
                       "request": {
-                        "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
+                        "apiUrl": "apis/proxies/v8/user/events/v2/list/<userId>",
                         "myEvents": {
                           "request": {
                             "retiredCoursesEnabled": true,
@@ -879,6 +879,7 @@
     "filterFacetsData": {
       "resourceType": {
         "name": "Event Type",
+        "key": "eventType",
         "displayName": "Event Type",
         "label": "Event Type",
         "placeHolder": "Seach Event Type",
@@ -904,6 +905,7 @@
       },
       "eventStatus": {
         "name": "Event Status",
+        "key": "eventStatus",
         "displayName": "Event Status",
         "label": "Event Status",
         "viewMore": false,
@@ -924,6 +926,7 @@
       },
       "eventDate": {
         "name": "Event Date/Time",
+        "key": "eventDateTime",
         "displayName": "Event Date/Time",
         "label": "Event Date/Time",
         "viewMore": false,
@@ -940,6 +943,7 @@
       },
       "dateRange": {
         "name": "Date Range",
+        "key": "eventRange",
         "displayName": "Choose Date Range",
         "label": "Choose Date Range",
         "viewMore": false,
@@ -947,12 +951,14 @@
           {
             "key": "fromDate",
             "name": "From:",
-            "placeHolder": "Select Date"
+            "placeHolder": "Select Date",
+            "placeHolderKey": "selectDate"
           },
           {
             "key": "toDate",
             "name": "To:",
-            "placeHolder": "Select Date"
+            "placeHolder": "Select Date",
+            "placeHolderKey": "selectDate"
           },
           {
             "key": "button"
