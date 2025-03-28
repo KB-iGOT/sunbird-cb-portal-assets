@@ -2419,7 +2419,20 @@
         "upcoming": "Upcoming",
         "noEvents": "No events found",
         "seeAll": "See all",
-        "seeLess": "See less"
+        "seeLess": "See less",
+        "viewAll": "View All",
+        "viewLess": "View less",
+        "eventType": "Event Type",
+        "eventStatus": "Event Status",
+        "eventRange": "Choose Date Range",
+        "fromDate": "From",
+        "toDate": "To",
+        "eventDateTime": "Event Date/Time",
+        "selectDate": "Select Date",
+        "liveEvents": "Live Events",
+        "tomorrow": "Tomorrow",
+        "pastEvents": "Past Events",
+        "today": "Today"
     },
     "mobileApp": {}
 }
