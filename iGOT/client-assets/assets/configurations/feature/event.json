@@ -582,16 +582,21 @@
                           "stripConfig": {
                             "cardSubType": "card-portrait-lib-skeleton"
                           },
-                          "nodataMsg": "There are no Events",
+                          "noDataWidget": {
+                            "widgetData": {
+                              "html": "<div class=\"padding-s\"> <div class=\"margin-bottom-s margin-top-m\" i18n> <p class = \"mat-h2 padding-left-m padding-right-m text-center margin-top-l font-weight\"> Currently, we don't have any data available under this section.</div>",
+                              "containerStyle": {}
+                            },
+                            "widgetSubType": "elementHtml",
+                            "widgetType": "element"
+                          },
+                          "nodataMsg": "thereAreNoEvents",
                           "request": {
-                            "apiUrl": "apis/proxies/v8/user/events/v2/list/<userId>",
+                            "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
                             "myEvents": {
                               "request": {
                                 "retiredCoursesEnabled": true,
-                                "status": "All",
-                                "calendarEventEnabled": false,
-                                "eventType": "presentEvent",
-                                "eventEndDate": "<today>"
+                                "status": "All"
                               }
                             }
                           }
@@ -612,16 +617,13 @@
                           "stripConfig": {
                             "cardSubType": "card-portrait-lib-skeleton"
                           },
-                          "nodataMsg": "There are no Events",
+                          "nodataMsg": "thereAreNoEvents",
                           "request": {
-                            "apiUrl": "apis/proxies/v8/user/events/v2/list/<userId>",
+                            "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
                             "myEvents": {
                               "request": {
                                 "retiredCoursesEnabled": true,
-                                "status": "All",
-                                "calendarEventEnabled": false,
-                                "eventType": "futureEvent",
-                                "eventEndDate": "<today>"
+                                "status": "All"
                               }
                             }
                           }
@@ -642,16 +644,13 @@
                           "stripConfig": {
                             "cardSubType": "card-portrait-lib-skeleton"
                           },
-                          "nodataMsg": "There are no Events",
+                          "nodataMsg": "thereAreNoEvents",
                           "request": {
-                            "apiUrl": "apis/proxies/v8/user/events/v2/list/<userId>",
+                            "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
                             "myEvents": {
                               "request": {
                                 "retiredCoursesEnabled": true,
-                                "status": "All",
-                                "calendarEventEnabled": false,
-                                "eventType": "pastEvent",
-                                "eventEndDate": "<today>"
+                                "status": "All"
                               }
                             }
                           }
@@ -659,7 +658,7 @@
                       ],
                       "filters": [],
                       "request": {
-                        "apiUrl": "apis/proxies/v8/user/events/v2/list/<userId>",
+                        "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
                         "myEvents": {
                           "request": {
                             "retiredCoursesEnabled": true,
@@ -879,7 +878,6 @@
     "filterFacetsData": {
       "resourceType": {
         "name": "Event Type",
-        "key": "eventType",
         "displayName": "Event Type",
         "label": "Event Type",
         "placeHolder": "Seach Event Type",
@@ -905,7 +903,6 @@
       },
       "eventStatus": {
         "name": "Event Status",
-        "key": "eventStatus",
         "displayName": "Event Status",
         "label": "Event Status",
         "viewMore": false,
@@ -926,7 +923,6 @@
       },
       "eventDate": {
         "name": "Event Date/Time",
-        "key": "eventDateTime",
         "displayName": "Event Date/Time",
         "label": "Event Date/Time",
         "viewMore": false,
@@ -943,7 +939,6 @@
       },
       "dateRange": {
         "name": "Date Range",
-        "key": "eventRange",
         "displayName": "Choose Date Range",
         "label": "Choose Date Range",
         "viewMore": false,
@@ -951,14 +946,12 @@
           {
             "key": "fromDate",
             "name": "From:",
-            "placeHolder": "Select Date",
-            "placeHolderKey": "selectDate"
+            "placeHolder": "Select Date"
           },
           {
             "key": "toDate",
             "name": "To:",
-            "placeHolder": "Select Date",
-            "placeHolderKey": "selectDate"
+            "placeHolder": "Select Date"
           },
           {
             "key": "button"
