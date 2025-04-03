@@ -877,12 +877,12 @@
       "Program": [],
       "Curated Program": [],
       "Blended Program":[],
-      "Learning Resource": []
+      "Learning Resource": [],
+      "Standalone Assessment": []
     },
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {
-      "Standalone Assessment": [],
       "CourseUnit": [],
       "Learning Path": []
     },
@@ -891,7 +891,8 @@
       "Program": [],
       "Curated Program": [],
       "Blended Program":[],
-      "Learning Resource": []
+      "Learning Resource": [],
+      "Standalone Assessment": []
     },
     "type": "array"
   },
