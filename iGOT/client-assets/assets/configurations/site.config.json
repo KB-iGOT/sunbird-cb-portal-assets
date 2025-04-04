@@ -456,6 +456,7 @@
       "icon": "forum",
       "accessKey": "D",
       "permission": [],
+      "newTag": true,
       "order": 2
     },
     {

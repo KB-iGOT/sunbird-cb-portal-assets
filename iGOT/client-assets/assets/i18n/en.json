@@ -969,7 +969,6 @@
         "moreKarmaPoints": "more KarmaPoints",
         "completedEvent": "You completed this event on",
         "search": "Search events...",
-
         "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah"
     },
     "eventDetailsRightCard": {
@@ -1509,7 +1508,8 @@
         "recommendedevents": "Recommended Events",
         "trendingevents": "Trending Events",
         "featuredevents": "Featured Events",
-        "myevents": "My Events"
+        "myevents": "My Events",
+        "thereAreNoEvents": "There are no Events"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
@@ -1885,7 +1885,6 @@
         "by": "By",
         "noResults": "No results found",
         "removeFilters": "Try removing the filters or search using different keywords",
-
         "noResultFound": "Sorry, we couldn't find any results for \"{{searchTerm}}\" so please Try adjusting your search.",
         "extraText1": "Here are some ideas:",
         "extraText2": "Make sure all words are spelled correctly. Try different search terms. Try more general search terms.",
@@ -1937,7 +1936,6 @@
         "behavioural": "Behavioural",
         "domain": "Domain",
         "functional": "Functional",
-
         "filterBy": "Filter By",
         "categoryType": "Category Type",
         "ratingTitle": "Ratings",
@@ -2296,8 +2294,8 @@
         "yes": "Yes",
         "no": "No",
         "submitRequest": "Submit request",
-        "organization": "Organization",
-        "chooseOrganization": "Choose an Organization",
+        "organization": "Organisation",
+        "chooseOrganization": "Choose an Organisation",
         "designationHint": "Not able to find your designation? Please write us at <span class='note-email'>mission.karmayogi@gov.in</span> with the organization and designation name.",
         "transferHeader": "Select all the fields to make transfer request.",
         "transferWarnMsg": "If you make a transfer request, your profile will need verification again.",
@@ -2402,7 +2400,7 @@
         "recommendedEvents": "Recommended Events",
         "trendingEvents": "Trending Events",
         "featuredEvents": "Featured Events",
-        "myEventEngagements": "My Event Engagements",
+        "myEventEngagements": "My Event Engagement",
         "eventsAttended": "Events Attended",
         "eventsEnrolled": "Events Enrolled",
         "hoursWatched": "Hours Watched",
@@ -2419,7 +2417,22 @@
         "past": "Past",
         "toDay": "Today",
         "upcoming": "Upcoming",
-        "noEvents": "No events found"
+        "noEvents": "No events found",
+        "seeAll": "See all",
+        "seeLess": "See less",
+        "viewAll": "View All",
+        "viewLess": "View less",
+        "eventType": "Event Type",
+        "eventStatus": "Event Status",
+        "eventRange": "Choose Date Range",
+        "fromDate": "From",
+        "toDate": "To",
+        "eventDateTime": "Event Date/Time",
+        "selectDate": "Select Date",
+        "liveEvents": "Live Events",
+        "tomorrow": "Tomorrow",
+        "pastEvents": "Past Events",
+        "today": "Today"
     },
     "mobileApp": {}
 }

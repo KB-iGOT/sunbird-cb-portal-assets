@@ -1,7 +1,8 @@
 {
   "enrollFlowItems": [
     "Karmayogi Saptah",
-    "Karmayogi Talks"
+    "Karmayogi Talks",
+    "Rajya Karmayogi Saptah"
   ],
   "eventsCategoryId": 1,
   "banner": {
@@ -510,7 +511,7 @@
                       "hiText": ""
                     },
                     "key": "Karmayogi Talks",
-                    "icon": "https://portal.qa.karmayogibharat.net/assets/public//content/do_114267235891773440125/artifact/do_114267235891773440125_1741605943908_karmayogi_talks_logo.svg"
+                    "icon": "https://portal.qa.karmayogibharat.net/assets/public/content/do_114267235891773440125/artifact/do_114267235891773440125_1741605943908_karmayogi_talks_logo.svg"
                   },
                   {
                     "enabled": true,
@@ -582,16 +583,21 @@
                           "stripConfig": {
                             "cardSubType": "card-portrait-lib-skeleton"
                           },
-                          "nodataMsg": "There are no Events",
+                          "noDataWidget": {
+                            "widgetData": {
+                              "html": "<div class=\"padding-s\"> <div class=\"margin-bottom-s margin-top-m\" i18n> <p class = \"mat-h2 padding-left-m padding-right-m text-center margin-top-l font-weight\"> Currently, we don't have any data available under this section.</div>",
+                              "containerStyle": {}
+                            },
+                            "widgetSubType": "elementHtml",
+                            "widgetType": "element"
+                          },
+                          "nodataMsg": "thereAreNoEvents",
                           "request": {
                             "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
                             "myEvents": {
                               "request": {
                                 "retiredCoursesEnabled": true,
-                                "status": "All",
-                                "calendarEventEnabled": false,
-                                "eventType": "presentEvent",
-                                "eventEndDate": "<today>"
+                                "status": "All"
                               }
                             }
                           }
@@ -612,16 +618,13 @@
                           "stripConfig": {
                             "cardSubType": "card-portrait-lib-skeleton"
                           },
-                          "nodataMsg": "There are no Events",
+                          "nodataMsg": "thereAreNoEvents",
                           "request": {
                             "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
                             "myEvents": {
                               "request": {
                                 "retiredCoursesEnabled": true,
-                                "status": "All",
-                                "calendarEventEnabled": false,
-                                "eventType": "futureEvent",
-                                "eventEndDate": "<today>"
+                                "status": "All"
                               }
                             }
                           }
@@ -642,16 +645,13 @@
                           "stripConfig": {
                             "cardSubType": "card-portrait-lib-skeleton"
                           },
-                          "nodataMsg": "There are no Events",
+                          "nodataMsg": "thereAreNoEvents",
                           "request": {
                             "apiUrl": "apis/proxies/v8/user/events/list/<userId>",
                             "myEvents": {
                               "request": {
                                 "retiredCoursesEnabled": true,
-                                "status": "All",
-                                "calendarEventEnabled": false,
-                                "eventType": "pastEvent",
-                                "eventEndDate": "<today>"
+                                "status": "All"
                               }
                             }
                           }
@@ -785,8 +785,6 @@
                         "apiUrl": "apis/proxies/v8/sunbirdigot/search",
                         "searchV6": {
                           "request": {
-                            "limit": 12,
-                            "offset": 0,
                             "filters": {
                               "status": [
                                 "Live"
@@ -852,8 +850,6 @@
                         "apiUrl": "apis/proxies/v8/sunbirdigot/search",
                         "searchV6": {
                           "request": {
-                            "limit": 12,
-                            "offset": 0,
                             "filters": {
                               "status": [
                                 "Live"
