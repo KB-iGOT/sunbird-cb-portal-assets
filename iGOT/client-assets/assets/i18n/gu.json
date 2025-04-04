@@ -92,6 +92,7 @@
   },
   "appnavbar": {
     "searchforLearningContents": "શીખવાની સામગ્રીઓ માટે શોધો",
+    "searchforLearningContentsV2": "કશુંપણ શોધો",
     "karmaPoints": "કર્મ બિંદુઓ",
     "karmaPointsToolTip": "કર્મ પોઇંટ્સ આઇ. જી. ઓ. ટી. પર તમારી સગાઈને માપે છે અને નકશો બનાવે છે. પોઇંટ્સ 4 કલાકમાં અપડેટ કરવામાં આવે છે."
   },
@@ -956,7 +957,8 @@
     "karmayogiTalks": "કર્મયોગી વાટાઘાટો",
     "live": "જીવંત",
     "karmayogiSaptah": "કર્મયોગી સપ્તાહ",
-    "search": "ઘટનાઓ શોધો..."
+    "search": "ઘટનાઓ શોધો...",
+    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ"
   },
   "eventDetailsRightCard": {
     "viewRecording": "રેકોર્ડિંગ જુઓ",
@@ -1424,6 +1426,8 @@
     "myIgot": "મારો આઇ. જી. ઓ. ટી.",
     "all": "બધા",
     "upcoming": "આગામી તા.",
+    "past": "ભૂતકાળ",
+    "today": "આજે",
     "overdue": "ઓવરડ્યુ",
     "inProgress": "પ્રગતિમાં છે",
     "completed": "પૂર્ણ થયું",
@@ -1478,7 +1482,12 @@
     "relevent": "સંબંધિત",
     "no": "ના",
     "tocReleventHeading": "શું આ એક પ્રાસંગિક અભ્યાસક્રમ છે?",
-    "tocReleventSubHeading": "AI ચલિત ભલામણ મોડલને વધુ સુધારવા માટે કૃપા કરીને તમારી પ્રતિસાદ શેર કરો।"
+    "tocReleventSubHeading": "AI ચલિત ભલામણ મોડલને વધુ સુધારવા માટે કૃપા કરીને તમારી પ્રતિસાદ શેર કરો।",
+    "myevents": "મારી ઘટનાઓ",
+    "recommendedevents": "ભલામણ કરેલ ઇવેન્ટ્સ",
+    "trendingevents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
+    "featuredevents": "ફીચર્ડ ઇવેન્ટ્સ",
+    "thereAreNoEvents": "ત્યાં કોઈ ઇવેન્ટ્સ નથી"
   },
   "homeotherportals": {
     "otherPortals": "તમારી પાસે ઍક્સેસ હોય તેવા અન્ય પોર્ટલ",
@@ -1493,7 +1502,8 @@
     "inProgress": "પ્રગતિમાં છે",
     "certificate": "પ્રમાણપત્ર",
     "learningHours": "શીખવાના કલાકો",
-    "ShowMyActivities": "મારી પ્રવૃત્તિઓ બતાવો"
+    "ShowMyActivities": "મારી પ્રવૃત્તિઓ બતાવો",
+    "karmaPoints": "કર્મ બિંદુઓ"
   },
   "profileNudge": {
     "slot1Info1": "ઊઠો અને ચમકશો, તમારા દિવસની શરૂઆત જ્ઞાનની માત્રા સાથે કરો.",
@@ -1822,13 +1832,25 @@
     "webpage": "વેબપેજ",
     "by": "દ્વારા",
     "noResults": "કોઈ પરિણામો મળ્યાં નથી",
-    "removeFilters": "ગાળકોને દૂર કરવાનો પ્રયાસ કરો અથવા વિવિધ મુખ્ય શબ્દોનો ઉપયોગ કરીને શોધો"
+    "removeFilters": "ગાળકોને દૂર કરવાનો પ્રયાસ કરો અથવા વિવિધ મુખ્ય શબ્દોનો ઉપયોગ કરીને શોધો",
+    "noResultFound": "માફ કરશો, અમે \"{{searchTerm}}\" માટે કોઈ પરિણામ શોધી શક્યા નથી, કૃપા કરીને તમારી શોધને સમાયોજિત કરો.",
+    "extraText1": "અહીં કેટલીક સૂચનાઓ છે:",
+    "extraText2": "સૂનિશ્ચિત કરો કે બધા શબ્દો સાચા છે. વિવિધ શોધ શબ્દો અજમાવો. વધુ સામાન્ય શોધ શબ્દો અજમાવો.",
+    "btnBackToHomepage": "હોમપેજ પર પરત જાઓ",
+    "btnExploreMore": "વધુ અનુસંધાન કરો",
+    "searchResultsFor": "માટે પરિણામો",
+    "content": "સામગ્રી ({{count}})",
+    "event": "ઈવેન્ટ્સ ({{count}})",
+    "peoples": "લોકો ({{count}})",
+    "communities": "સમુદાયો ({{count}})",
+    "seeAllResults": "બધા પરિણામો જુઓ"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",
     "contentType": "સામગ્રીનો પ્રકાર",
     "karmayogiTalks": "કર્મયોગી વાટાઘાટો",
     "karmayogiSaptah": "કર્મયોગી સપ્તાહ",
+    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
     "webinar": "વેબિનાર",
     "program": "કાર્યક્રમ",
     "course": "અભ્યાસક્રમ",
@@ -1859,7 +1881,16 @@
     "completed": "પૂર્ણ થયું",
     "behavioural": "વર્તણૂક",
     "domain": "ડોમેન",
-    "functional": "કાર્યાત્મક"
+    "functional": "કાર્યાત્મક",
+    "filterBy": "આનાથી ફિલ્ટર કરો",
+    "categoryType": "શ્રેણી પ્રકાર",
+    "ratingTitle": "રેટિંગ",
+    "languages": "ભાષાઓ",
+    "contentProvider": "સમગ્ર પ્રદાતા",
+    "duration": "અવધિ",
+    "competencyArea": "નિપુણતા વિસ્તાર",
+    "typeOfEvents": "ઘટનાઓનો પ્રકાર",
+    "topicName": "বিষয়ৰ নাম"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
@@ -2300,7 +2331,40 @@
     "events": "ઘટનાઓ",
     "recommendedEvents": "ભલામણ કરેલ ઇવેન્ટ્સ",
     "trendingEvents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
-    "featuredEvents": "ફીચર્ડ ઇવેન્ટ્સ"
+    "featuredEvents": "ફીચર્ડ ઇવેન્ટ્સ",
+    "myEventEngagements": "મારી ઇવેન્ટ એંગેજમેન",
+    "eventsAttended": "ઇવેન્ટ્સ હાજરી આપી",
+    "eventsEnrolled": "ઇવેન્ટ્સમાં નોંધણીઓ",
+    "hoursWatched": "ઘંટા જોવાયાં",
+    "eventEngagement": "ઇવેન્ટ એન્ગેજમેન્ટ",
+    "myEventCalendar": "મારું ઇવેન્ટ કેલેન્ડર",
+    "eventSchedule": "ઇવેન્ટ શેડ્યૂલ",
+    "browseEventsByCategories": "શ્રેણીઓ દ્વારા ઇવેન્ટ્સ બ્રાઉઝ કરો",
+    "karmayogiSaptah": "કર્મયોગી સપ્તાહ",
+    "karmayogiTalks": "કર્મયોગી ટોક્સ",
+    "allEvents": "બધા ઇવેન્ટ્સ",
+    "browseEvents": "ઇવેન્ટ્સ બ્રાઉઝ કરો",
+    "noEventsFound": "કોઈ ઇવેન્ટ્સ મળી નથી",
+    "myEvents": "મારી ઘટનાઓ",
+    "upcoming": "આગામી તા.",
+    "past": "ભૂતકાળ",
+    "toDay": "આજે",
+    "noEvents": "કોઈ ઇવેન્ટ્સ મળી નથી",
+    "seeAll": "બધા જુઓ",
+    "seeLess": "ઓછું જુઓ",
+    "viewAll": "બધા જુઓ",
+    "viewLess": "ઓછું જુઓ",
+    "eventType": "પ્રસંગનો પ્રકાર",
+    "eventStatus": "ઘટના સ્થિતિ",
+    "eventRange": "તારીખ શ્રેણી પસંદ કરો",
+    "fromDate": "થી",
+    "toDate": "થી",
+    "eventDateTime": "ઇવેન્ટની તારીખ/સમય",
+    "selectDate": "તારીખ પસંદ કરો",
+    "liveEvents": "જીવંત ઘટનાઓ",
+    "pastEvents": "ભૂતકાળની ઘટનાઓ",
+    "tomorrow": "કાલે",
+    "today": "આજે"
   },
   "mobileApp": {}
 }

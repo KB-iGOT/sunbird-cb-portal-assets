@@ -89,6 +89,7 @@
   },
   "appnavbar": {
     "searchforLearningContents": "ਸਿੱਖਣ ਦੀ ਸਮੱਗਰੀ ਲਈ ਖੋਜ ਕਰੋ",
+    "searchforLearningContentsV2": "ਕਿਸੇ ਵੀ ਚੀਜ਼ ਦੀ ਖੋਜ ਕਰੋ",
     "karmaPoints": "ਕਰਮਾ ਪੁਆਇੰਟ",
     "karmaPointsToolTip": "ਕਰਮਾ ਪੁਆਇੰਟ ਆਈ. ਜੀ. ਓ. ਟੀ. ਵਿੱਚ ਤੁਹਾਡੀ ਰੁਝੇਵਿਆਂ ਨੂੰ ਮਾਪਦਾ ਹੈ ਅਤੇ ਮੈਪ ਕਰਦਾ ਹੈ। ਬਿੰਦੂਆਂ ਨੂੰ 4 ਘੰਟਿਆਂ ਦੇ ਅੰਦਰ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
   },
@@ -855,7 +856,8 @@
     "curatedEvents": "ਕਿਊਰੇਟਿਡ ਇਵੈਂਟਸ",
     "mdoEvents": "ਤੁਹਾਡੇ ਐੱਮਡੀਓ ਵਿੱਚ ਸਮਾਗਮ",
     "webinar": "ਵੈਬੀਨਾਰ",
-    "karmayogiTalks": "ਕਰਮਯੋਗੀ ਗੱਲਬਾਤ"
+    "karmayogiTalks": "ਕਰਮਯੋਗੀ ਗੱਲਬਾਤ",
+    "rajyaKarmayogiSaptah": "ਰਾਜਯ ਕਰਮਯੋਗੀ ਹਫ਼ਤਾ"
   },
   "eventDetailsRightCard": {
     "viewRecording": "ਰਿਕਾਰਡ ਦੇਖੋ",
@@ -1354,7 +1356,8 @@
     "inProgress": "ਪ੍ਰਗਤੀ ਵਿੱਚ",
     "certificate": "ਸਰਟੀਫਿਕੇਟ",
     "learningHours": "ਸਿੱਖਣ ਦੇ ਘੰਟੇ",
-    "ShowMyActivities": "ਮੇਰੀਆਂ ਗਤੀਵਿਧੀਆਂ ਵੇਖਾਓ"
+    "ShowMyActivities": "ਮੇਰੀਆਂ ਗਤੀਵਿਧੀਆਂ ਵੇਖਾਓ",
+    "karmaPoints":"ਕਰਮ ਬਿੰਦੂ"
   },
   "profileNudge": {
     "slot1Info1": "ਇੱਕ ਨਵੀਂ ਸ਼ੁਰੂਆਤ ਕਰੋ, ਕੁਝ ਨਵਾਂ ਲੱਭੋ।",
@@ -1665,7 +1668,18 @@
     "webpage": "ਵੈੱਬਪੇਜ",
     "by": "ਦੁਆਰਾ",
     "noResults": "ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਮਿਲਿਆ",
-    "removeFilters": "ਫਿਲਟਰਾਂ ਨੂੰ ਹਟਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ ਵੱਖ-ਵੱਖ ਕੀਵਰਡਸ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਖੋਜ ਕਰੋ"
+    "removeFilters": "ਫਿਲਟਰਾਂ ਨੂੰ ਹਟਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ ਵੱਖ-ਵੱਖ ਕੀਵਰਡਸ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਖੋਜ ਕਰੋ",
+     "noResultFound": "ਮਾਫ਼ ਕਰਨਾ, ਅਸੀਂ \"{{searchTerm}}\" ਲਈ ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਲੱਭ ਸਕੇ, ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਖੋਜ ਨੂੰ ਠੀਕ ਕਰੋ।",
+    "extraText1": "ਇੱਥੇ ਕੁਝ ਵਿਚਾਰ ਹਨ:",
+    "extraText2": "ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਾਰੇ ਸ਼ਬਦ ਠੀਕ ਲਿਖੇ ਹੋਏ ਹਨ। ਵੱਖ-ਵੱਖ ਖੋਜ ਸ਼ਬਦ ਅਜ਼ਮਾਓ। ਹੋਰ ਆਮ ਖੋਜ ਸ਼ਬਦ ਅਜ਼ਮਾਓ।",
+    "btnBackToHomepage": "ਹੋਮਪੇਜ 'ਤੇ ਵਾਪਸ ਜਾਓ",
+    "btnExploreMore": "ਹੋਰ ਖੋਜੋ",
+    "searchResultsFor": "ਲਈ ਨਤੀਜੇ",
+    "content": "ਸਮੱਗਰੀ ({{count}})",
+    "event": "ਇਵੈਂਟ ({{count}})",
+    "peoples": "ਲੋਕ ({{count}})",
+    "communities": "ਕਮਿਊਨਿਟੀਆਂ ({{count}})",
+    "seeAllResults": "ਸਭ ਨਤੀਜੇ ਵੇਖੋ"
   },
   "searchfilters": {
     "filterSearch": "ਫਿਲਟਰ ਖੋਜ",
@@ -1689,7 +1703,15 @@
     "lastMonth": "ਪਿਛਲੇ ਮਹੀਨੇ",
     "last3Months": "ਪਿਛਲੇ 3 ਮਹੀਨੇ",
     "last6Months": "ਪਿਛਲੇ 6 ਮਹੀਨੇ",
-    "lastYear": "ਪਿਛਲੇ ਸਾਲ"
+    "lastYear": "ਪਿਛਲੇ ਸਾਲ",
+    
+    "filterBy": "ਫਿਲਟਰ ਕਰੋ",
+    "categoryType": "ਸ਼੍ਰੇਣੀ ਦੀ ਕਿਸਮ",
+    "ratingTitle": "ਰੇਟਿੰਗ",
+    "languages": "ਭਾਸ਼ਾਵਾਂ",
+    "contentProvider": "ਸਮੱਗਰੀ ਪ੍ਰਦਾਤਾ",
+    "duration": "ਅਵਧੀ",
+    "competencyArea": "ਕੁਸ਼ਲਤਾ ਖੇਤਰ"
   },
   "utilslogout": {
     "logoutNow": "ਹੁਣ ਲਾਗ ਆਊਟ ਕਰੋ",

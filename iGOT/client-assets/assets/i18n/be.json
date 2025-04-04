@@ -1348,7 +1348,8 @@
     "inProgress": "অগ্রগতিতে",
     "certificate": "শংসাপত্র",
     "learningHours": "শেখার সময়",
-    "ShowMyActivities": "আমার কার্যকলাপগুলি দেখান"
+    "ShowMyActivities": "আমার কার্যকলাপগুলি দেখান",
+    "karmaPoints":"কর্ম পয়েন্ট"
   },
   "profileNudge": {
     "slot1Info1": "জেগে উঠুন এবং উজ্জ্বল হোন, জ্ঞানের মাত্রা দিয়ে আপনার দিন শুরু করুন।",

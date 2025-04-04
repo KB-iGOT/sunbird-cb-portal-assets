@@ -449,24 +449,15 @@
       "order": 1
     },
     {
-      "path": "/app/discuss/home",
+      "path": "/app/discussion-forum-v2",
       "active": true,
       "hubname": "Discuss",
       "desc": "Have a question? Have an Idea? discuss with your peers.",
       "icon": "forum",
       "accessKey": "D",
       "permission": [],
+      "newTag": true,
       "order": 2
-    },
-    {
-      "path": "/app/discussion-forum-v2",
-      "active": true,
-      "hubname": "Communities",
-      "desc": "Have a question? Have an Idea? discuss with your peers.",
-      "icon": "forum",
-      "accessKey": "D",
-      "permission": [],
-      "order": 3
     },
     {
       "path": "/app/amrit-gyaan-kosh",
