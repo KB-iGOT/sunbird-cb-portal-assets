@@ -205,7 +205,7 @@
           },
           "enabled": true,
           "routerLink": "/app/home/community",
-          "requiredRoles": ["mdo_admin", "mdo_leader"],
+          "requiredRoles": ["mdo_leader"],
           "defaultExpanded": false
         },
         {
