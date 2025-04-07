@@ -1890,7 +1890,8 @@
     "duration": "અવધિ",
     "competencyArea": "નિપુણતા વિસ્તાર",
     "typeOfEvents": "ઘટનાઓનો પ્રકાર",
-    "topicName": "বিষয়ৰ নাম"
+    "topicName": "বিষয়ৰ নাম",
+    "sectorId": "ક્ષેત્ર"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
