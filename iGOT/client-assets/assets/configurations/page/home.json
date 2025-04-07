@@ -2899,7 +2899,49 @@
                   }
                 },
                 "requestRequired": true
-              }
+              },
+              {
+                "label": "Peer Learning",
+                "value": "designation",
+                "requestRequired": true,
+                "pillsData": [
+                    {
+                        "label": "Available",
+                        "value": "ravailable",
+                        "computeDataOnClick": false,
+                        "showTabDataCount": true,
+                        "requestRequired": false,
+                        "maxWidgets": 12,
+                        "selected": false,
+                        "nodataMsg": "availableLearnings"
+                    },
+                    {
+                        "label": "In Progress",
+                        "value": "rinprogress",
+                        "computeDataOnClick": false,
+                        "showTabDataCount": true,
+                        "requestRequired": false,
+                        "maxWidgets": 12,
+                        "selected": false,
+                        "nodataMsg": "inprogressLearnings"
+                    },
+                    {
+                        "label": "Completed",
+                        "value": "rcompleted",
+                        "computeDataOnClick": false,
+                        "showTabDataCount": true,
+                        "requestRequired": false,
+                        "maxWidgets": 12,
+                        "selected": false,
+                        "nodataMsg": "completedLearnings"
+                    }
+                ],
+                "request": {
+                    "designationsList": {
+                        "path": "/apis/proxies/v8/courseRecommend/v1/courses"
+                    }
+                }
+            }
           ],
           "filters": [],
           "request": {
