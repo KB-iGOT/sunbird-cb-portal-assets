@@ -1920,7 +1920,8 @@
     "duration": "अवधि",
     "competencyArea": "दक्षता क्षेत्र",
     "typeOfEvents": "घटनाओं के प्रकार",
-    "topicName": "विषय का नाम"
+    "topicName": "विषय का नाम",
+    "sectorId": "क्षेत्र"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
