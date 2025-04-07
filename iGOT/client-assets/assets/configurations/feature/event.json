@@ -785,8 +785,6 @@
                         "apiUrl": "apis/proxies/v8/sunbirdigot/search",
                         "searchV6": {
                           "request": {
-                            "limit": 12,
-                            "offset": 0,
                             "filters": {
                               "status": [
                                 "Live"
@@ -852,8 +850,6 @@
                         "apiUrl": "apis/proxies/v8/sunbirdigot/search",
                         "searchV6": {
                           "request": {
-                            "limit": 12,
-                            "offset": 0,
                             "filters": {
                               "status": [
                                 "Live"
