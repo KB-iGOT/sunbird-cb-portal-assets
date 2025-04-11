@@ -436,7 +436,7 @@
                   {
                     "title": {
                       "id": "eventsAttended",
-                      "enText": "Events Attended",
+                      "enText": "Completed Events",
                       "hiText": "पूर्ण घटनाएँ"
                     },
                     "icon": "https://portal.dev.karmayogibharat.net/assets/public/content/do_11426727445164032015/artifact/do_11426727445164032015_1741610651093_events_attended.svg",
