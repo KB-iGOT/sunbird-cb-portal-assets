@@ -419,7 +419,16 @@
                         }
                       }
                     },
-                    "viewMoreUrl": {},
+                    "viewMoreUrl": {
+                      "path": "/app/globalsearch",
+                      "queryParams": {
+                        "tab": "Learn",
+                        "q": "",
+                        "p": "Trending",
+                        "f": "{\"primaryCategory\": [\"Course\"], \"contentType\": [\"Course\"]}",
+                        "key": "latest"
+                      }
+                    },
                     "stripConfig": {
                       "cardSubType": "standard",
                       "postCardForSearch": true
@@ -812,7 +821,7 @@
                       "queryParams": {
                         "tab": "Learn",
                         "p": "Trending",
-                        "f": "{\"primaryCategory\": [\"Program\"], \"contentType\": [\"Program\"]}"
+                        "f": "{\"primaryCategory\": [\"Moderated Program\", \"Invite-Only Program\", \"Blended Program\", \"Curated Program\"], \"contentType\": [\"Program\"]}"
                       }
                     },
                     "stripConfig": {

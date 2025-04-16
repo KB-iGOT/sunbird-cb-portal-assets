@@ -194,6 +194,21 @@
           "defaultExpanded": false
         },
         {
+          "menuCategory": "Community",
+          "submenu": false,
+          "key": "community",
+          "fragment": false,
+          "render": true,
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "routerLink": "/app/home/community",
+          "requiredRoles": ["mdo_leader"],
+          "defaultExpanded": false
+        },
+        {
           "menuCategory": "Reports",
           "submenu": false,
           "key": "reports-section",

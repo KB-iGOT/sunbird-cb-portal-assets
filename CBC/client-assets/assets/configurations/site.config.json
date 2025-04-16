@@ -367,7 +367,7 @@
       "accessKey": "L"
     },
     {
-      "path": "/app/discuss/home",
+      "path": "/app/discussion-forum-v2",
       "active": true,
       "hubname": "Discuss",
       "desc": "Have a question? Have an Idea? discuss with your peers",

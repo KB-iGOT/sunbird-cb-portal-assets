@@ -89,6 +89,7 @@
   },
   "appnavbar": {
     "searchforLearningContents": "ଶିକ୍ଷଣ ବିଷଯ଼ବସ୍ତୁ ଖୋଜନ୍ତୁ",
+    "searchforLearningContentsV2": "ଯେକଅଣସି କିଛି ସନ୍ଧାନ କରନ୍ତୁ",
     "karmaPoints": "କର୍ମ ପଏଣ୍ଟ",
     "karmaPointsToolTip": "କର୍ମ ପଏଣ୍ଟସ୍ ଆଇ. ଜି. ଓ. ଟି. ରେ ଆପଣଙ୍କ ନିଯୁକ୍ତିକୁ ମାପ ଏବଂ ମ୍ଯ଼ାପ୍ କରେ | ପଏଣ୍ଟଗୁଡିକ 4 ଘଣ୍ଟା ମଧ୍ଯ଼ରେ ଅପଡେଟ୍ ହୋଇଛି।"
   },
@@ -855,7 +856,8 @@
     "curatedEvents": "ସଞ୍ଚାଳିତ କାର୍ଯ୍ଯ଼କ୍ରମ",
     "mdoEvents": "ଆପଣଙ୍କ ଏମ୍. ଡି. ଓ. ରେ କାର୍ଯ୍ଯ଼କ୍ରମମାନ",
     "webinar": "ୱେବିନାର",
-    "karmayogiTalks": "କର୍ମଯୋଗୀ ବାର୍ତ୍ତାଳାପ"
+    "karmayogiTalks": "କର୍ମଯୋଗୀ ବାର୍ତ୍ତାଳାପ",
+    "rajyaKarmayogiSaptah": "ରାଜ୍ୟ କର୍ମଯୋଗୀ ସପ୍ତାହ"
   },
   "eventDetailsRightCard": {
     "viewRecording": "ରେକର୍ଡିଂ ଦେଖନ୍ତୁ",
@@ -1354,7 +1356,8 @@
     "inProgress": "ପ୍ରଗତି ପଥରେ",
     "certificate": "ପ୍ରମାଣପତ୍ର",
     "learningHours": "ଶିଖିବା ସମଯ଼",
-    "ShowMyActivities": "ମୋର କାର୍ଯ୍ଯ଼କଳାପଗୁଡ଼ିକୁ ଦର୍ଶାନ୍ତୁ"
+    "ShowMyActivities": "ମୋର କାର୍ଯ୍ଯ଼କଳାପଗୁଡ଼ିକୁ ଦର୍ଶାନ୍ତୁ",
+    "karmaPoints":"କର୍ମ ପଏଣ୍ଟ"
   },
   "profileNudge": {
     "slot1Info1": "ଏକ ନୂଆ ଆରମ୍ଭ କରନ୍ତୁ, କିଛି ନୂଆ ଅନ୍ୱେଷଣ କରନ୍ତୁ।",
@@ -1665,7 +1668,18 @@
     "webpage": "ୱେବପେଜ୍",
     "by": "ଦ୍ୱାରା",
     "noResults": "କୌଣସି ଫଳାଫଳ ମିଳିନାହିଁ",
-    "removeFilters": "ଫିଲ୍ଟର୍ଗୁଡ଼ିକୁ ହଟାଇବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ କିମ୍ବା ବିଭିନ୍ନ କିୱାର୍ଡ ବ୍ଯ଼ବହାର କରି ଖୋଜନ୍ତୁ।"
+    "removeFilters": "ଫିଲ୍ଟର୍ଗୁଡ଼ିକୁ ହଟାଇବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ କିମ୍ବା ବିଭିନ୍ନ କିୱାର୍ଡ ବ୍ଯ଼ବହାର କରି ଖୋଜନ୍ତୁ।",
+    "noResultFound": "ମାନ୍ୟ କରନ୍ତୁ, ଆମେ \"{{searchTerm}}\" ପାଇଁ କୌଣସି ଫଳାଫଳ ପାଇପାରିଲୁ ନାହିଁ, ଦୟାକରି ଆପଣଙ୍କର ସନ୍ଧାନକୁ ସମନ୍ୱୟ କରନ୍ତୁ।",
+    "extraText1": "ଏଠି କିଛି ସୁଯୋଗ ଅଛି:",
+    "extraText2": "ନିଶ୍ଚିତ କରନ୍ତୁ ସମସ୍ତ ଶବ୍ଦଗୁଡ଼ିକ ସଠିକ୍ ଭାବରେ ଲିଖାଯାଇଛି। ଭିନ୍ନ ଖୋଜିବା ସବ୍ଦଗୁଡ଼ିକୁ ପରୀକ୍ଷା କରନ୍ତୁ। ଅଧିକ ସାଧାରଣ ଖୋଜିବା ସବ୍ଦଗୁଡ଼ିକୁ ପରୀକ୍ଷା କରନ୍ତୁ।",
+    "btnBackToHomepage": "ମୂଳ ପୃଷ୍ଠାକୁ ଫେରନ୍ତୁ",
+    "btnExploreMore": "ଅଧିକ ଅନୁସନ୍ଧାନ କରନ୍ତୁ",
+    "searchResultsFor": "ପାଇଁ ଫଳାଫଳ",
+    "content": "ସାମଗ୍ରୀ ({{count}})",
+    "event": "ଇଭେଣ୍ଟ ({{count}})",
+    "peoples": "ଲୋକ ({{count}})",
+    "communities": "ସମୁଦାୟଗୁଡ଼ିକ ({{count}})",
+    "seeAllResults": "ସମସ୍ତ ଫଳାଫଳ ଦେଖନ୍ତୁ"
   },
   "searchfilters": {
     "filterSearch": "ସନ୍ଧାନକୁ ଫିଲ୍ଟର୍ କରନ୍ତୁ",
@@ -1689,7 +1703,15 @@
     "lastMonth": "ଗତ ମାସରେ",
     "last3Months": "ଗତ 3 ମାସ",
     "last6Months": "ଗତ 6 ମାସ",
-    "lastYear": "ଗତ ବର୍ଷ"
+    "lastYear": "ଗତ ବର୍ଷ",
+
+    "filterBy": "ଏହି ଅନୁଯାୟୀ ଛାଣନ୍ତୁ",
+    "categoryType": "ଶ୍ରେଣୀ ପ୍ରକାର",
+    "ratingTitle": "ମୂଲ୍ୟାଙ୍କନ",
+    "languages": "ଭାଷାଗୁଡ଼ିକ",
+    "contentProvider": "ସମଗ୍ରୀ ପ୍ରଦାନକାରୀ",
+    "duration": "ସମୟସୀମା",
+    "competencyArea": "ଦକ୍ଷତା କ୍ଷେତ୍ର"
   },
   "utilslogout": {
     "logoutNow": "ବର୍ତ୍ତମାନ ଲଗଆଉଟ କରନ୍ତୁ",

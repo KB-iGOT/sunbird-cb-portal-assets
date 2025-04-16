@@ -5,7 +5,7 @@
         "learn": "Learn",
         "discuss": "Discuss",
         "discuss-v2": "Discuss-V2",
-        "communities":"Communities",
+        "communities": "Communities",
         "network": "Network",
         "career": "Career",
         "competencies": "Competencies",
@@ -94,6 +94,7 @@
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
+        "searchforLearningContentsV2": "Search for Anything",
         "karmaPoints": "Karma Points",
         "karmaPointsToolTip": "Karma Points measure and map your engagement at iGOT. Points are updated within 4 hours."
     },
@@ -131,7 +132,11 @@
         "gyaanKarmayogi": "Amrit Gyaan Kosh",
         "frequentlyAskedQuestions": "Frequently asked questions",
         "contactUs": "Contact Us",
-        "tipForLearners": "Tips For Learners"
+        "tipForLearners": "Tips For Learners",
+        "events": "Events",
+        "recommendedEvents": "Recommended Events",
+        "trendingEvents": "Trending Events",
+        "featuredEvents": "Featured Events"
     },
     "learnerAdvisory": {
         "watchContent": "Watch content at a speed that ensures understanding and retention.",
@@ -963,7 +968,8 @@
         "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "moreKarmaPoints": "more KarmaPoints",
         "completedEvent": "You completed this event on",
-        "search": "Search events..."
+        "search": "Search events...",
+        "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah"
     },
     "eventDetailsRightCard": {
         "viewRecording": "View recording",
@@ -1437,6 +1443,8 @@
         "myIgot": "My iGOT",
         "all": "All",
         "upcoming": "Upcoming",
+        "past": "Past",
+        "today": "Today",
         "overdue": "Overdue",
         "inProgress": "In Progress",
         "completed": "Completed",
@@ -1486,8 +1494,9 @@
         "availablelearnings": "You will see all the available content based on your designation.",
         "completedlearnings": "You will see all the completed content based on your designation.",
         "inprogresslearnings": "You will see all the inprogress content based on your designation.",
-
         "igotAi": "iGOT AI",
+        "peerLearning": "Peer Learning",
+        "sakshamAi": "Saksham AI",
         "sakshamaidesc": "Dear Karmayogi ! Explore your personalized course recommendations and share your feedback to enhance your learning experience.",
         "sakshamaifeedbackText": "Your feedback is very important to serve you better.",
         "sakshamaiLoaderText": "We are curating the most suitable learning course recommendations tailored just for you.",
@@ -1496,7 +1505,12 @@
         "no": "No",
         "tocReleventHeading": "Is this a relevant course?",
         "tocReleventSubHeading": "Please share your feedback to help us refine the AI driven recommendation model.",
-        "sakshamAITooltip": "AI Driven recommendation for you"
+        "sakshamAITooltip": "AI Driven recommendation for you",
+        "recommendedevents": "Recommended Events",
+        "trendingevents": "Trending Events",
+        "featuredevents": "Featured Events",
+        "myevents": "My Events",
+        "thereAreNoEvents": "There are no Events"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
@@ -1511,7 +1525,8 @@
         "inProgress": "In Progress",
         "certificate": "Certificate",
         "learningHours": "Learning hours",
-        "ShowMyActivities": "Show my activities"
+        "ShowMyActivities": "Show my activities",
+        "karmaPoints": "Karma Points"
     },
     "profileNudge": {
         "slot1Info1": "Read the iGOT Newsletter for the latest iGOT updates!",
@@ -1870,7 +1885,18 @@
         "webpage": "Webpage",
         "by": "By",
         "noResults": "No results found",
-        "removeFilters": "Try removing the filters or search using different keywords"
+        "removeFilters": "Try removing the filters or search using different keywords",
+        "noResultFound": "Sorry, we couldn't find any results for \"{{searchTerm}}\" so please Try adjusting your search.",
+        "extraText1": "Here are some ideas:",
+        "extraText2": "Make sure all words are spelled correctly. Try different search terms. Try more general search terms.",
+        "btnBackToHomepage": "Back to Homepage",
+        "btnExploreMore": "Explore More",
+        "searchResultsFor": "Results for",
+        "content": "Content ({{count}})",
+        "event": "Events ({{count}})",
+        "peoples": "Peoples ({{count}})",
+        "communities": "Communities ({{count}})",
+        "seeAllResults": "See all the results"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
@@ -1910,7 +1936,17 @@
         "completed": "Completed",
         "behavioural": "Behavioural",
         "domain": "Domain",
-        "functional": "Functional"
+        "functional": "Functional",
+        "filterBy": "Filter By",
+        "categoryType": "Category Type",
+        "ratingTitle": "Ratings",
+        "languages": "Languages",
+        "contentProvider": "Content Provider",
+        "duration": "Duration",
+        "competencyArea": "Competency Area",
+        "typeOfEvents": "Type Of Events",
+        "topicName": "Topic Name",
+        "sectorId": "Sector"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
@@ -2260,8 +2296,8 @@
         "yes": "Yes",
         "no": "No",
         "submitRequest": "Submit request",
-        "organization": "Organization",
-        "chooseOrganization": "Choose an Organization",
+        "organization": "Organisation",
+        "chooseOrganization": "Choose an Organisation",
         "designationHint": "Not able to find your designation? Please write us at <span class='note-email'>mission.karmayogi@gov.in</span> with the organization and designation name.",
         "transferHeader": "Select all the fields to make transfer request.",
         "transferWarnMsg": "If you make a transfer request, your profile will need verification again.",
@@ -2352,6 +2388,53 @@
     },
     "updteDesignation": {
         "select": "Select"
+    },
+    "events": {
+        "eventInfo": "Event Information",
+        "documents": "Documents",
+        "view": "View",
+        "downloadPdf": "Download",
+        "searchEvents": "Search Events",
+        "clearAll": "Clear all",
+        "sortBy": "Sort by",
+        "filterBy": "Filter by",
+        "events": "Events",
+        "recommendedEvents": "Recommended Events",
+        "trendingEvents": "Trending Events",
+        "featuredEvents": "Featured Events",
+        "myEventEngagements": "My Event Engagement",
+        "eventsAttended": "Completed Events",
+        "eventsEnrolled": "Enrolled Events",
+        "hoursWatched": "Learning Hours for Events",
+        "eventEngagement": "Event Engagement",
+        "myEventCalendar": "My Event Calendar",
+        "eventSchedule": "Event Schedule",
+        "browseEventsByCategories": "Browse Events By Categories",
+        "karmayogiSaptah": "Karmayogi Saptah",
+        "karmayogiTalks": "Karmayogi Talks",
+        "allEvents": "All Events",
+        "browseEvents": "Browse Events",
+        "noEventsFound": "No events found",
+        "myEvents": "My Events",
+        "past": "Past",
+        "toDay": "Today",
+        "upcoming": "Upcoming",
+        "noEvents": "No events found",
+        "seeAll": "See all",
+        "seeLess": "See less",
+        "viewAll": "View All",
+        "viewLess": "View less",
+        "eventType": "Event Type",
+        "eventStatus": "Event Status",
+        "eventRange": "Choose Date Range",
+        "fromDate": "From",
+        "toDate": "To",
+        "eventDateTime": "Event Date/Time",
+        "selectDate": "Select Date",
+        "liveEvents": "Live Events",
+        "tomorrow": "Tomorrow",
+        "pastEvents": "Past Events",
+        "today": "Today"
     },
     "mobileApp": {}
 }

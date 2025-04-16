@@ -89,6 +89,7 @@
   },
   "appnavbar": {
     "searchforLearningContents": "शिकण्याची सामग्री शोधा",
+    "searchforLearningContentsV2": "काहीही शोधा",
     "karmaPoints": "कर्म बिंदू",
     "karmaPointsToolTip": "कर्मा पॉईंट्स आय. जी. ओ. टी. मध्ये तुमच्या गुंतवणुकीचे मोजमाप आणि नकाशा तयार करतात. मुद्दे 4 तासांच्या आत अद्ययावत केले जातात."
   },
@@ -855,7 +856,8 @@
     "curatedEvents": "आयोजित कार्यक्रम",
     "mdoEvents": "तुमच्या एम. डी. ओ. मधील कार्यक्रम",
     "webinar": "वेबिनार",
-    "karmayogiTalks": "कर्मयोगी संवाद"
+    "karmayogiTalks": "कर्मयोगी संवाद",
+     "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह"
   },
   "eventDetailsRightCard": {
     "viewRecording": "ध्वनिमुद्रण पहा",
@@ -1354,7 +1356,8 @@
     "inProgress": "प्रगतीपथावर",
     "certificate": "प्रमाणपत्र",
     "learningHours": "शिकण्याचे तास",
-    "ShowMyActivities": "माझे उपक्रम दाखवा"
+    "ShowMyActivities": "माझे उपक्रम दाखवा",
+    "karmaPoints":"कर्म बिंदू"
   },
   "profileNudge": {
     "slot1Info1": "एक नवीन सुरुवात करा, काहीतरी नवीन शोधा.",
@@ -1665,7 +1668,18 @@
     "webpage": "संकेतस्थळ",
     "by": "द्वारे",
     "noResults": "कोणतेही परिणाम आढळले नाहीत",
-    "removeFilters": "फिल्टर काढून टाकण्याचा प्रयत्न करा किंवा वेगवेगळे मुख्य शब्द वापरून शोधा"
+    "removeFilters": "फिल्टर काढून टाकण्याचा प्रयत्न करा किंवा वेगवेगळे मुख्य शब्द वापरून शोधा",
+    "noResultFound": "माफ करा, आम्हाला \"{{searchTerm}}\" साठी कोणतेही परिणाम सापडले नाहीत, कृपया तुमची शोध प्रक्रिया समायोजित करा.",
+    "extraText1": "येथे काही कल्पना आहेत:",
+    "extraText2": "सर्व शब्द योग्यरित्या लिहिले आहेत याची खात्री करा. वेगवेगळे शोध शब्द वापरून पाहा. अधिक सामान्य शोध शब्द वापरून पाहा.",
+    "btnBackToHomepage": "मुख्यपृष्ठावर परत जा",
+    "btnExploreMore": "अधिक एक्सप्लोर करा",
+    "searchResultsFor": "साठी परिणाम",
+    "content": "सामग्री ({{count}})",
+    "event": "कार्यक्रम ({{count}})",
+    "peoples": "लोक ({{count}})",
+    "communities": "समुदाय ({{count}})",
+    "seeAllResults": "सर्व परिणाम पहा"
   },
   "searchfilters": {
     "filterSearch": "शोध फिल्टर करा",
@@ -1689,7 +1703,15 @@
     "lastMonth": "गेल्या महिन्यात",
     "last3Months": "मागील 3 महिने",
     "last6Months": "मागील 6 महिने",
-    "lastYear": "गेल्या वर्षी"
+    "lastYear": "गेल्या वर्षी",
+
+    "filterBy": "याद्वारे गाळा",
+    "categoryType": "श्रेणी प्रकार",
+    "ratingTitle": "रेटिंग",
+    "languages": "भाषा",
+    "contentProvider": "सामग्री प्रदाता",
+    "duration": "कालावधी",
+    "competencyArea": "कौशल्य क्षेत्र"
   },
   "utilslogout": {
     "logoutNow": "आता लॉगआऊट करा",

@@ -5,7 +5,7 @@
     "learn": "सीखें",
     "discuss": "चर्चा करें",
     "discuss-v2": "चर्चा करें-वी2",
-    "communities":"समुदाय",
+    "communities": "समुदाय",
     "network": "नेटवर्क",
     "career": "करियर",
     "competencies": "कॉम्पीटेन्सी",
@@ -94,6 +94,7 @@
   },
   "appnavbar": {
     "searchforLearningContents": "कंटेन्ट खोजें",
+    "searchforLearningContentsV2": "कुछ भी खोजें",
     "karmaPoints": "कर्मा पॉइंट्स",
     "karmaPointsToolTip": "कर्मा पॉइंट्स से आईगॉट में आपकी भागीदारी रिकार्ड होती है । पॉइंट्स 4 घंटे में अपडेट हो जाते हैं।"
   },
@@ -131,7 +132,11 @@
     "gyaanKarmayogi": "ज्ञान कर्मयोगी",
     "frequentlyAskedQuestions": "अक्सर पूछे जाने वाले प्रश्न",
     "contactUs": "हमसे संपर्क करें",
-    "tipForLearners": "छात्रों के लिए सुझाव"
+    "tipForLearners": "छात्रों के लिए सुझाव",
+    "events": "ईवेंट",
+    "recommendedEvents": "अनुशंसित घटनाएँ",
+    "trendingEvents": "रुझान वाली घटनाएँ",
+    "featuredEvents": "विशेष घटनाएँ"
   },
   "learnerAdvisory": {
     "watchContent": "ऐसी गति से सामग्री देखें जो समझ और प्रतिधारण सुनिश्चित करे।",
@@ -961,7 +966,8 @@
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
     "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
     "completedEvent": "आपने यह ईवेंट पूरा लिया",
-    "search": "खोज इवेंट्स..."
+    "search": "खोज इवेंट्स...",
+    "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह"
   },
   "eventDetailsRightCard": {
     "viewRecording": "रिकॉर्डिंग देखें",
@@ -1431,6 +1437,8 @@
     "myIgot": "मेरा आईगॉट",
     "all": "सभी",
     "upcoming": "आने वाला है",
+    "past": "अतीत",
+    "today": "आज",
     "overdue": "बहुत देर",
     "inProgress": "प्रगति में",
     "completed": "पूरा किया।",
@@ -1468,8 +1476,8 @@
     "availablelearnings": "आपको अपने पदनाम के आधार पर सभी उपलब्ध सामग्री देख सकते हैं।",
     "completedlearnings": "आपको अपने पदनाम के आधार पर पूरी की गई सामग्री देख सकते हैं।",
     "inprogresslearnings": "आपको अपने पदनाम के आधार पर सभी प्रगतिरत सामग्री देख सकते हैं।",
-
     "igotAi": "आईगॉट AI",
+    "sakshamAi": "सक्षम AI",
     "sakshamaidesc": "प्रिय कर्मयोगी! अपनी व्यक्तिगत पाठ्यक्रम सिफारिशों का अन्वेषण करें और अपने सीखने के अनुभव को बेहतर बनाने के लिए अपनी प्रतिक्रिया साझा करें।",
     "sakshamaifeedbackText": "आपकी प्रतिक्रिया हमें आपको बेहतर सेवा देने में बहुत महत्वपूर्ण है। हमें बताएं कि आपने यह विकल्प क्यों चुना।",
     "sakshamaiLoaderText": "हम आपके लिए सबसे उपयुक्त सीखने के पाठ्यक्रम की सिफारिशें क्यूरेट कर रहे हैं।",
@@ -1478,8 +1486,12 @@
     "tocReleventHeading": "क्या यह एक प्रासंगिक पाठ्यक्रम है?",
     "tocReleventSubHeading": "एआई संचालित सिफारिश मॉडल को परिष्कृत करने में मदद के लिए कृपया अपनी प्रतिक्रिया साझा करें।",
     "recommendedAIText": "ये एआई द्वारा उत्पन्न सिफारिशें हैं",
-    "sakshamAITooltip": "आपके लिए एआई संचालित सिफारिश"
-
+    "sakshamAITooltip": "आपके लिए एआई संचालित सिफारिश",
+    "myevents": "मेरी घटनाएँ",
+    "recommendedevents": "अनुशंसित घटनाएँ",
+    "trendingevents": "रुझान वाली घटनाएँ",
+    "featuredevents": "विशेष घटनाएँ",
+    "thereAreNoEvents": "कोई इवेंट नहीं हैं"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
@@ -1494,7 +1506,8 @@
     "inProgress": "प्रगति में",
     "certificate": "प्रमाण पत्र",
     "learningHours": "सीखने के घंटे",
-    "ShowMyActivities": "मेरी गतिविधियाँ दिखाएँ"
+    "ShowMyActivities": "मेरी गतिविधियाँ दिखाएँ",
+    "karmaPoints": "कर्मा पॉइंट्स"
   },
   "profileNudge": {
     "slot1Info1": "नवीनतम आई. जी. ओ. टी. अद्यतनों के लिए आई. जी. ओ. टी. समाचार पत्र पढ़ें!",
@@ -1849,7 +1862,18 @@
     "webpage": "वेबपेज",
     "by": "से",
     "noResults": "कोई परिणाम नहीं मिला",
-    "removeFilters": "फ़िल्टर को हटाने का प्रयास करें या अलग-अलग मुख्य शब्दों का उपयोग करके खोजें"
+    "removeFilters": "फ़िल्टर को हटाने का प्रयास करें या अलग-अलग मुख्य शब्दों का उपयोग करके खोजें",
+    "noResultFound": "माफ़ कीजिए, हमें \"{{searchTerm}}\" के लिए कोई परिणाम नहीं मिला, कृपया अपनी खोज समायोजित करें।",
+    "extraText1": "यहां कुछ सुझाव दिए गए हैं:",
+    "extraText2": "सुनिश्चित करें कि सभी शब्द सही वर्तनी में हैं। विभिन्न खोज शब्द आज़माएं। अधिक सामान्य खोज शब्द आज़माएं।",
+    "btnBackToHomepage": "मुख्य पृष्ठ पर वापस जाएं",
+    "btnExploreMore": "और खोजें",
+    "searchResultsFor": "के लिए परिणाम",
+    "content": "सामग्री ({{count}})",
+    "event": "घटनाएँ ({{count}})",
+    "peoples": "लोग ({{count}})",
+    "communities": "समुदाय ({{count}})",
+    "seeAllResults": "सभी परिणाम देखें"
   },
   "searchfilters": {
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
@@ -1887,7 +1911,17 @@
     "completed": "पूरा किया।",
     "behavioural": "बिहेवियरल (व्यावहारिक)",
     "functional": "फंक्शनल",
-    "domain": "डोमेन"
+    "domain": "डोमेन",
+    "filterBy": "इसके द्वारा फ़िल्टर करें",
+    "categoryType": "श्रेणी प्रकार",
+    "ratingTitle": "रेटिंग",
+    "languages": "भाषाएँ",
+    "contentProvider": "सामग्री प्रदाता",
+    "duration": "अवधि",
+    "competencyArea": "दक्षता क्षेत्र",
+    "typeOfEvents": "घटनाओं के प्रकार",
+    "topicName": "विषय का नाम",
+    "sectorId": "क्षेत्र"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
@@ -2417,6 +2451,53 @@
   },
   "updteDesignation": {
     "select": "चुनना"
+  },
+  "events": {
+    "eventInfo": "घटना की जानकारी",
+    "documents": "दस्तावेज़",
+    "view": "देखें",
+    "downloadPdf": "डाउनलोड करें",
+    "searchEvents": "घटनाएँ खोजें",
+    "clearAll": "सभी साफ करें",
+    "sortBy": "इसके अनुसार क्रमबद्ध करें",
+    "filterBy": "फिल्टर के द्वारा",
+    "events": "ईवेंट",
+    "recommendedEvents": "अनुशंसित घटनाएँ",
+    "trendingEvents": "रुझान वाली घटनाएँ",
+    "featuredEvents": "विशेष घटनाएँ",
+    "myEventEngagements": "मेरे इवेंट एंगेजमेन",
+    "eventsAttended": "पूर्ण घटनाएँ",
+    "eventsEnrolled": "नामांकित घटनाएँ",
+    "hoursWatched": "घटनाओं के लिए सीखने के घंटे",
+    "eventEngagement": "घटना सहभागिता",
+    "myEventCalendar": "मेरा घटना कैलेंडर",
+    "eventSchedule": "घटना कार्यक्रम",
+    "browseEventsByCategories": "श्रेणियों द्वारा घटनाएँ ब्राउज़ करें",
+    "karmayogiSaptah": "कर्मयोगी सप्ताह",
+    "karmayogiTalks": "कर्मयोगी वार्ता",
+    "allEvents": "सभी घटनाएँ",
+    "browseEvents": "घटनाएँ ब्राउज़ करें",
+    "noEventsFound": "कोई घटना नहीं मिली",
+    "myEvents": "मेरी घटनाएँ",
+    "upcoming": "आने वाला है",
+    "past": "अतीत",
+    "toDay": "आज",
+    "noEvents": "कोई इवेंट नहीं मिला",
+    "seeAll": "सब देखें",
+    "seeLess": "कम देखें",
+    "viewAll": "सब देखें",
+    "viewLess": "कम देखें",
+    "eventType": "ईवेंट का प्रकार",
+    "eventStatus": "घटना की स्थिति",
+    "eventRange": "दिनांक सीमा चुनें",
+    "fromDate": "से",
+    "toDate": "को",
+    "eventDateTime": "घटना दिनांक/समय",
+    "selectDate": "तारीख़ चुनें",
+    "liveEvents": "लाइव इवेंट",
+    "pastEvents": "अतीत की घटनायें",
+    "tomorrow": "कल",
+    "today": "आज"
   },
   "mobileApp": {}
 }

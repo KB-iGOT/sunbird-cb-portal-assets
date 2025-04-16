@@ -89,6 +89,7 @@
   },
   "appnavbar": {
     "searchforLearningContents": "అభ్యాస విషయాల కోసం వెతకండి",
+    "searchforLearningContentsV2": "ఏదినైనా వెతకండి",
     "karmaPoints": "కర్మ పాయింట్లు",
     "karmaPointsToolTip": "కర్మ పాయింట్లు ఐజిఓటి వద్ద మీ నిశ్చితార్థాన్ని కొలుస్తాయి మరియు మ్యాప్ చేస్తాయి. పాయింట్లు 4 గంటల్లో నవీకరించబడతాయి."
   },
@@ -855,7 +856,8 @@
     "curatedEvents": "క్యూరేటెడ్ ఈవెంట్లు",
     "mdoEvents": "మీ ఎం. డి. ఓ. లో ఈవెంట్స్",
     "webinar": "వెబ్నార్",
-    "karmayogiTalks": "కర్మయోగి చర్చలు"
+    "karmayogiTalks": "కర్మయోగి చర్చలు",
+    "rajyaKarmayogiSaptah": "రాజ్య కర్మయోగి వారం"
   },
   "eventDetailsRightCard": {
     "viewRecording": "రికార్డింగ్ను వీక్షించండి",
@@ -1354,7 +1356,8 @@
     "inProgress": "పురోగతిలో ఉంది",
     "certificate": "సర్టిఫికేట్",
     "learningHours": "నేర్చుకునే గంటలు",
-    "ShowMyActivities": "నా కార్యకలాపాలను చూపించు"
+    "ShowMyActivities": "నా కార్యకలాపాలను చూపించు",
+    "karmaPoints":"కర్మ పాయింట్లు"
   },
   "profileNudge": {
     "slot1Info1": "కొత్త ప్రారంభాన్ని పొందండి, క్రొత్తదాన్ని అన్వేషించండి.",
@@ -1665,7 +1668,18 @@
     "webpage": "వెబ్ పేజీ",
     "by": "ద్వారా.",
     "noResults": "ఎటువంటి ఫలితాలు దొరకలేదు",
-    "removeFilters": "ఫిల్టర్లను తొలగించడానికి ప్రయత్నించండి లేదా వేర్వేరు కీలక పదాలను ఉపయోగించి శోధించండి"
+    "removeFilters": "ఫిల్టర్లను తొలగించడానికి ప్రయత్నించండి లేదా వేర్వేరు కీలక పదాలను ఉపయోగించి శోధించండి",
+    "noResultFound": "క్షమించండి, \"{{searchTerm}}\" కోసం ఏమైనా ఫలితాలను కనుగొనలేకపోయాము, దయచేసి మీ శోధనను సర్దుబాటు చేయండి.",
+    "extraText1": "ఇవి కొన్ని సూచనలు:",
+    "extraText2": "అన్ని పదాలు సరిగా వ్రాయబడినాయా అని నిర్ధారించుకోండి. విభిన్న శోధన పదాలను ప్రయత్నించండి. మరింత సాధారణమైన శోధన పదాలను ప్రయత్నించండి.",
+    "btnBackToHomepage": "హోమ్‌పేజీకి తిరిగి వెళ్లండి",
+    "btnExploreMore": "మరింత అన్వేషించండి",
+    "searchResultsFor": "కోసం ఫలితాలు",
+    "content": "కంటెంట్ ({{count}})",
+    "event": "ఈవెంట్స్ ({{count}})",
+    "peoples": "ప్రజలు ({{count}})",
+    "communities": "సంఘాలు ({{count}})",
+    "seeAllResults": "అన్ని ఫలితాలను చూడండి"
   },
   "searchfilters": {
     "filterSearch": "శోధనను వడపోత చేయండి",
@@ -1689,7 +1703,15 @@
     "lastMonth": "గత నెల",
     "last3Months": "గత 3 నెలలు",
     "last6Months": "గత 6 నెలలు",
-    "lastYear": "గత సంవత్సరం"
+    "lastYear": "గత సంవత్సరం",
+
+    "filterBy": "ఫిల్టర్ ద్వారా",
+    "categoryType": "వర్గం రకం",
+    "ratingTitle": "రేటింగ్స్",
+    "languages": "భాషలు",
+    "contentProvider": "కంటెంట్ ప్రొవైడర్",
+    "duration": "వ్యవధి",
+    "competencyArea": "సంప్రదాయ ప్రాంతం"
   },
   "utilslogout": {
     "logoutNow": "ఇప్పుడు లాగౌట్ చేయండి",
