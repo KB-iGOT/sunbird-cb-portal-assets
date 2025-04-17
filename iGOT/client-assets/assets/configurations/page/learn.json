@@ -128,7 +128,7 @@
                         "path": "",
                         "payload": {
                           "request": {
-                              "retiredCoursesEnabled": true,
+                              "retiredCoursesEnabled": false,
                               "status": "In-Progress",
                               "limit": 11
                           }
