@@ -1495,6 +1495,7 @@
         "completedlearnings": "You will see all the completed content based on your designation.",
         "inprogresslearnings": "You will see all the inprogress content based on your designation.",
         "igotAi": "iGOT AI",
+        "peerLearning": "Peer Learning",
         "sakshamAi": "Saksham AI",
         "sakshamaidesc": "Dear Karmayogi ! Explore your personalized course recommendations and share your feedback to enhance your learning experience.",
         "sakshamaifeedbackText": "Your feedback is very important to serve you better.",
@@ -1944,7 +1945,8 @@
         "duration": "Duration",
         "competencyArea": "Competency Area",
         "typeOfEvents": "Type Of Events",
-        "topicName": "Topic Name"
+        "topicName": "Topic Name",
+        "sectorId": "Sector"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
@@ -2401,9 +2403,9 @@
         "trendingEvents": "Trending Events",
         "featuredEvents": "Featured Events",
         "myEventEngagements": "My Event Engagement",
-        "eventsAttended": "Events Attended",
-        "eventsEnrolled": "Events Enrolled",
-        "hoursWatched": "Hours Watched",
+        "eventsAttended": "Completed Events",
+        "eventsEnrolled": "Enrolled Events",
+        "hoursWatched": "Learning Hours for Events",
         "eventEngagement": "Event Engagement",
         "myEventCalendar": "My Event Calendar",
         "eventSchedule": "Event Schedule",
@@ -2432,7 +2434,8 @@
         "liveEvents": "Live Events",
         "tomorrow": "Tomorrow",
         "pastEvents": "Past Events",
-        "today": "Today"
+        "today": "Today",
+        "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah"
     },
     "mobileApp": {}
 }
