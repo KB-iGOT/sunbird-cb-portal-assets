@@ -1920,7 +1920,8 @@
     "duration": "अवधि",
     "competencyArea": "दक्षता क्षेत्र",
     "typeOfEvents": "घटनाओं के प्रकार",
-    "topicName": "विषय का नाम"
+    "topicName": "विषय का नाम",
+    "sectorId": "क्षेत्र"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
@@ -2465,9 +2466,9 @@
     "trendingEvents": "रुझान वाली घटनाएँ",
     "featuredEvents": "विशेष घटनाएँ",
     "myEventEngagements": "मेरे इवेंट एंगेजमेन",
-    "eventsAttended": "घटनाएँ अटेंड की",
-    "eventsEnrolled": "घटनाएँ नामांकित की",
-    "hoursWatched": "घंटे देखे गए",
+    "eventsAttended": "पूर्ण घटनाएँ",
+    "eventsEnrolled": "नामांकित घटनाएँ",
+    "hoursWatched": "घटनाओं के लिए सीखने के घंटे",
     "eventEngagement": "घटना सहभागिता",
     "myEventCalendar": "मेरा घटना कैलेंडर",
     "eventSchedule": "घटना कार्यक्रम",
@@ -2496,7 +2497,8 @@
     "liveEvents": "लाइव इवेंट",
     "pastEvents": "अतीत की घटनायें",
     "tomorrow": "कल",
-    "today": "आज"
+    "today": "आज",
+    "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह"
   },
   "mobileApp": {}
 }
