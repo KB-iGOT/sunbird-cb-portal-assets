@@ -336,7 +336,7 @@
   ],
   "ScormProgressThreshold": 40,
   "discussWidgetData": {
-    "enrolledContent": false,
+    "enrolledContent": true,
     "newCommentSection": {
       "show": true,
       "showTopInfo": false,
