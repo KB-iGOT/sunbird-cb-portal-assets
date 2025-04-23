@@ -279,6 +279,20 @@
           "enabled": false
         },
         {
+          "type": "featureButton",
+          "config": {
+            "actionBtnId": "feature_lookerpro",
+            "toolTip": "Lookerpro Dashboard",
+            "className": "fixtopMargin",
+            "config": {
+              "actionBtnId": "feature_lookerpro",
+              "type": "card-mini",
+              "hideTitle": true
+            }
+          },
+          "enabled": true
+        },
+        {
           "type": "widgetButton",
           "config": {
             "widgetType": "actionButton",
