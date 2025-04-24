@@ -111,10 +111,10 @@
   "discussWidgetData": {
     "enrolledContent": false,
     "newCommentSection": {
-      "show": true,
+      "show": false,
       "showTopInfo": false,
       "commentTreeData": {
-        "isFirstComment": true,
+        "isFirstComment": false,
         "commentTreeId": "",
         "hierarchyPath": [],
         "entityType": "COURSE",
