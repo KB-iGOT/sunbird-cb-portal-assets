@@ -5947,21 +5947,24 @@
     },
     "mandatoryFor": {
       "Learning Resource": [],
-      "Course": []
+      "Course": [],
+      "Program": [],
+      "Curated Program": [],
+      "Blended Program": []
     },
     "notDisabledFor": {},
     "notMandatoryFor": {
     },
     "notShowFor": {
-      "CourseUnit": [],
+      "CourseUnit": []
+    },
+    "showFor": {
+      "Learning Resource": [],
+      "Course": [],
       "Program": [],
       "Curated Program": [],
       "Blended Program": [],
       "Standalone Assessment": []
-    },
-    "showFor": {
-      "Learning Resource": [],
-      "Course": []
     },
     "type": "string"
   },
@@ -6051,15 +6054,15 @@
     "notMandatoryFor": {
     },
     "notShowFor": {
-      "CourseUnit": [],
+      "CourseUnit": []
+    },
+    "showFor": {
+      "Learning Resource": [],
+      "Course": [],
       "Program": [],
       "Curated Program": [],
       "Blended Program": [],
       "Standalone Assessment": []
-    },
-    "showFor": {
-      "Learning Resource": [],
-      "Course": []
     },
     "type": "string"
   },

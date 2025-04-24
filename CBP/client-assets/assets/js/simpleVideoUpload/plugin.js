@@ -75,7 +75,7 @@ CKEDITOR.plugins.add('simpleVideoUpload', {
                         } else if ((artifactUrl).includes('cbp.uat.karmayogibharat.net')) {
                             artifactUrlUpdated = imageResponse.result.artifactUrl.replace("https://storage.googleapis.com/igotuat", artifactUrl)
                         } else if ((artifactUrl).includes('cbp.igotkarmayogi.gov.in/')) {
-                            artifactUrlUpdated = imageResponse.result.artifactUrl.replace("https://storage.googleapis.com/igot", artifactUrl)
+                            artifactUrlUpdated = imageResponse.result.artifactUrl.replace("https://storage.googleapis.com/igotprod", artifactUrl)
                         }
                         ele.setAttribute('src', artifactUrlUpdated)
                         ele.setAttribute('controls', true)
