@@ -175,7 +175,10 @@
     "career": "करियर",
     "exploreOpportunities": "देश-भर में करियर के अवसर खोजें और अपनी विशेषज्ञता बताएँ",
     "discoverMentors": "संरक्षक खोजें",
-    "discoverMentorsTagline": "अपने सीखने की यात्रा का मार्गदर्शन करने वाले संरक्षक से जुड़ें"
+    "discoverMentorsTagline": "अपने सीखने की यात्रा का मार्गदर्शन करने वाले संरक्षक से जुड़ें",
+    "exploreContent": "कोर्स सामग्री खोजें",
+    "exploreAllContent": "सभी कोर्स सामग्री खोजें"
+    
   },
   "footer": {
     "hubs": "हब",
