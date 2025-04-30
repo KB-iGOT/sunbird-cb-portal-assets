@@ -226,6 +226,25 @@
       "url": "/author/cbp/how-to",
       "shortName": "RD"
     },
+    "feature_lookerpro": {
+      "accessKey": "",
+      "icon": "bar_chart",
+      "iconType": "mat-icon",
+      "id": "feature_lookerpro",
+      "keywords": [
+        "lookerpro",
+        "dashboard"
+      ],
+      "name": "Lookerpro dashboard",
+      "permission": [
+        "ABOUT_US"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "Dashboard",
+      "url": "/app/rainDashboard",
+      "shortName": "LD"
+    },
     "feature_badges": {
       "accessKey": "",
       "icon": "stars",
