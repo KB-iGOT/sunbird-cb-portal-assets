@@ -178,7 +178,6 @@
     "discoverMentorsTagline": "अपने सीखने की यात्रा का मार्गदर्शन करने वाले संरक्षक से जुड़ें",
     "exploreContent": "कोर्स सामग्री खोजें",
     "exploreAllContent": "सभी कोर्स सामग्री खोजें"
-    
   },
   "footer": {
     "hubs": "हब",
@@ -1873,6 +1872,7 @@
     "btnExploreMore": "और खोजें",
     "searchResultsFor": "के लिए परिणाम",
     "content": "सामग्री ({{count}})",
+    "contents": "सामग्री ({{count}})",
     "event": "घटनाएँ ({{count}})",
     "peoples": "लोग ({{count}})",
     "communities": "समुदाय ({{count}})",
