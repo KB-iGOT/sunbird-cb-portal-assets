@@ -177,7 +177,7 @@
         "discoverMentors": "Discover Mentors",
         "discoverMentorsTagline": "Connect with mentors who will guide your learning journey",
         "exploreContent": "Explore Content",
-        "exploreAllContent": "Explore all the content"
+        "exploreAllContent": "Explore all the contents"
     },
     "footer": {
         "hubs": "Hubs",
@@ -1895,6 +1895,7 @@
         "btnExploreMore": "Explore More",
         "searchResultsFor": "Results for",
         "content": "Content ({{count}})",
+        "contents": "Contents ({{count}})",
         "event": "Events ({{count}})",
         "peoples": "Peoples ({{count}})",
         "communities": "Communities ({{count}})",
