@@ -172,7 +172,7 @@
         "show": true,
         "indented": false,
         "newCommentReply": {
-          "show": true,
+          "show": false,
           "showTopInfo": false,
           "commentTreeData": {
             "isFirstComment": false,
@@ -230,10 +230,10 @@
             }
           },
           "repliesSection": {
-            "show": false
+            "show": true
           },
           "newCommentReply": {
-            "show": true,
+            "show": false,
             "showTopInfo": false,
             "commentTreeData": {
               "isFirstComment": false,
@@ -273,5 +273,8 @@
       }
     }
   },
-  "commentsTab": true
+  "commentsTab": true,
+  "canReplyRoles": [
+    "CONTENT_CREATOR", "PUBLIC"
+  ] 
 } 
