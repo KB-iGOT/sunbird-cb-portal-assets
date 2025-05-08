@@ -275,6 +275,6 @@
   },
   "commentsTab": true,
   "canReplyRoles": [
-    "CONTENT_CREATOR", "PUBLIC"
+    "CONTENT_CREATOR"
   ] 
 } 
