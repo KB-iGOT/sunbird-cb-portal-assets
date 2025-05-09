@@ -1711,7 +1711,9 @@
     "languages": "ଭାଷାଗୁଡ଼ିକ",
     "contentProvider": "ସମଗ୍ରୀ ପ୍ରଦାନକାରୀ",
     "duration": "ସମୟସୀମା",
-    "competencyArea": "ଦକ୍ଷତା କ୍ଷେତ୍ର"
+    "competencyArea": "ଦକ୍ଷତା କ୍ଷେତ୍ର",
+      "resourceCategory": "ସମ୍ପଦ ବର୍ଗ",
+  "years": "ବର୍ଷ"
   },
   "utilslogout": {
     "logoutNow": "ବର୍ତ୍ତମାନ ଲଗଆଉଟ କରନ୍ତୁ",

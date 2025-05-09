@@ -1711,7 +1711,9 @@
     "languages": "भाषा",
     "contentProvider": "सामग्री प्रदाता",
     "duration": "कालावधी",
-    "competencyArea": "कौशल्य क्षेत्र"
+    "competencyArea": "कौशल्य क्षेत्र",
+     "resourceCategory": "संसाधन श्रेणी",
+  "years": "वर्षे"
   },
   "utilslogout": {
     "logoutNow": "आता लॉगआऊट करा",

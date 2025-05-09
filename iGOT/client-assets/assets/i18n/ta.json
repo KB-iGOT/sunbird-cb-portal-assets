@@ -1711,7 +1711,9 @@
     "languages": "மொழிகள்",
     "contentProvider": "உள்ளடக்க வழங்குநர்",
     "duration": "காலம்",
-    "competencyArea": "திறன் பகுதி"
+    "competencyArea": "திறன் பகுதி",
+    "resourceCategory": "வள வகை",
+  "years": "ஆண்டுகள்"
   },
   "utilslogout": {
     "logoutNow": "இப்போது வெளியேறு",

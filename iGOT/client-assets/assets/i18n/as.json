@@ -1714,7 +1714,9 @@
     "contentProvider": "সামগ্ৰী প্ৰদানকাৰী",
     "duration": "অৱধি",
     "competencyArea": "দক্ষতা এলাকা",
-    "topicName": "বিষয়ৰ নাম"
+    "topicName": "বিষয়ৰ নাম",
+     "resourceCategory": "সঁজুলি শ্ৰেণী",
+    "years": "বছৰ"
   },
   "utilslogout": {
     "logoutNow": "এতিয়া লগআউট কৰক",
