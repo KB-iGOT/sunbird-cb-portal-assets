@@ -159,13 +159,17 @@
         "like": {
           "show": true,
           "showCount": true,
-          "icon": "thumb_up"
+          "icon": "thumb_up",
+          "canLike": false
         },
         "comments": {
           "show": true,
           "showCount": true,
           "icon": "comment",
           "iconDisplay": false
+        },
+        "flagComment": {
+          "show": false
         }
       },
       "repliesSection": {
@@ -220,13 +224,17 @@
             "like": {
               "show": true,
               "showCount": true,
-              "icon": "thumb_up"
+              "icon": "thumb_up",
+              "canLike": false
             },
             "comments": {
               "show": true,
               "showCount": false,
               "icon": "chat_bubble",
               "iconDisplay": true
+            },
+            "flagComment": {
+              "show": false
             }
           },
           "repliesSection": {
@@ -274,7 +282,7 @@
     }
   },
   "commentsTab": true,
-  "canReplyRoles": [
+  "canPerformActionCommentsRoles": [
     "CONTENT_CREATOR"
   ] 
 } 
