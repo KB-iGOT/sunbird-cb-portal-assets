@@ -1711,7 +1711,9 @@
     "languages": "ਭਾਸ਼ਾਵਾਂ",
     "contentProvider": "ਸਮੱਗਰੀ ਪ੍ਰਦਾਤਾ",
     "duration": "ਅਵਧੀ",
-    "competencyArea": "ਕੁਸ਼ਲਤਾ ਖੇਤਰ"
+    "competencyArea": "ਕੁਸ਼ਲਤਾ ਖੇਤਰ",
+     "resourceCategory": "ਸੰਸਾਧਨ ਸ਼੍ਰੇਣੀ",
+  "years": "ਸਾਲ"
   },
   "utilslogout": {
     "logoutNow": "ਹੁਣ ਲਾਗ ਆਊਟ ਕਰੋ",

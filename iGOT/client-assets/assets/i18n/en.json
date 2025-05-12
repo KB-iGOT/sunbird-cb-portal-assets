@@ -1949,7 +1949,9 @@
         "competencyArea": "Competency Area",
         "typeOfEvents": "Type Of Events",
         "topicName": "Topic Name",
-        "sectorId": "Sectors"
+        "sectorId": "Sectors",
+        "resourceCategory": "Resource Category",
+        "years": "Years"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",

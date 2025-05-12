@@ -1711,7 +1711,9 @@
     "languages": "ಭಾಷೆಗಳು",
     "contentProvider": "ವಿಷಯ ಪೂರೈಕೆದಾರ",
     "duration": "ಅವಧಿ",
-    "competencyArea": "ಕೌಶಲ್ಯ ಪ್ರದೇಶ"
+    "competencyArea": "ಕೌಶಲ್ಯ ಪ್ರದೇಶ",
+    "resourceCategory": "ಸಂಪನ್ಮೂಲ ವರ್ಗ",
+  "years": "ವರ್ಷಗಳು"
   },
   "utilslogout": {
     "logoutNow": "ಈಗ ಲಾಗ್ ಔಟ್ ಮಾಡಿ",

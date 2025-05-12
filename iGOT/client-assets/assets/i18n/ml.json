@@ -1711,7 +1711,9 @@
     "languages": "ഭാഷകൾ",
     "contentProvider": "ഉള്ളടക്ക ദാതാവ്",
     "duration": "കാലാവധി",
-    "competencyArea": "നൈപുണ്യ മേഖല"
+    "competencyArea": "നൈപുണ്യ മേഖല",
+     "resourceCategory": "വിഭവ വിഭാഗം",
+  "years": "വർഷങ്ങൾ"
   },
   "utilslogout": {
     "logoutNow": "ഇപ്പോൾ ലോഗ് ഔട്ട് ചെയ്യുക",

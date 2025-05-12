@@ -1924,7 +1924,9 @@
     "competencyArea": "दक्षता क्षेत्र",
     "typeOfEvents": "घटनाओं के प्रकार",
     "topicName": "विषय का नाम",
-    "sectorId": "क्षेत्र"
+    "sectorId": "क्षेत्र",
+    "resourceCategory": "संसाधन श्रेणी",
+    "years": "वर्ष"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",

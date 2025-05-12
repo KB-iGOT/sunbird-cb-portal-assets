@@ -1894,7 +1894,9 @@
     "competencyArea": "નિપુણતા વિસ્તાર",
     "typeOfEvents": "ઘટનાઓનો પ્રકાર",
     "topicName": "বিষয়ৰ নাম",
-    "sectorId": "ક્ષેત્ર"
+    "sectorId": "ક્ષેત્ર",
+    "resourceCategory": "સ્રોત શ્રેણી",
+    "years": "વર્ષો"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
