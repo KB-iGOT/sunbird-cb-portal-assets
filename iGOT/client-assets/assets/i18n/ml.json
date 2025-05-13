@@ -1713,7 +1713,10 @@
     "duration": "കാലാവധി",
     "competencyArea": "നൈപുണ്യ മേഖല",
      "resourceCategory": "വിഭവ വിഭാഗം",
-  "years": "വർഷങ്ങൾ"
+  "years": "വർഷങ്ങൾ",
+  "resource": "വിഭവം",
+  "resources": "വിഭവങ്ങൾ",
+  "externalContent": "ബാഹ്യ ഉള്ളടക്കം"
   },
   "utilslogout": {
     "logoutNow": "ഇപ്പോൾ ലോഗ് ഔട്ട് ചെയ്യുക",

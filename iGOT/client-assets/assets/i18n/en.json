@@ -1951,7 +1951,10 @@
         "topicName": "Topic Name",
         "sectorId": "Sectors",
         "resourceCategory": "Resource Category",
-        "years": "Years"
+        "years": "Years",
+        "resource": "Resource",
+        "resources": "Resources",
+        "externalContent": "External Content"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",

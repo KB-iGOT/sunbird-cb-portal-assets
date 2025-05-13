@@ -1713,7 +1713,10 @@
     "duration": "ਅਵਧੀ",
     "competencyArea": "ਕੁਸ਼ਲਤਾ ਖੇਤਰ",
      "resourceCategory": "ਸੰਸਾਧਨ ਸ਼੍ਰੇਣੀ",
-  "years": "ਸਾਲ"
+  "years": "ਸਾਲ",
+  "resource": "ਸੰਸਾਧਨ",
+  "resources": "ਸੰਸਾਧਨ",
+  "externalContent": "ਬਾਹਰੀ ਸਮੱਗਰੀ"
   },
   "utilslogout": {
     "logoutNow": "ਹੁਣ ਲਾਗ ਆਊਟ ਕਰੋ",

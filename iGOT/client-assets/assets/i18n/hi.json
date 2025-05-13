@@ -1926,7 +1926,10 @@
     "topicName": "विषय का नाम",
     "sectorId": "क्षेत्र",
     "resourceCategory": "संसाधन श्रेणी",
-    "years": "वर्ष"
+    "years": "वर्ष",
+    "resource": "संसाधन",
+    "resources": "संसाधन",
+    "externalContent": "बाहरी सामग्री"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",

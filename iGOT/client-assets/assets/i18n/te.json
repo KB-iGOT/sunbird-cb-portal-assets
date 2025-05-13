@@ -1713,7 +1713,10 @@
     "duration": "వ్యవధి",
     "competencyArea": "సంప్రదాయ ప్రాంతం",
      "resourceCategory": "వనరుల వర్గం",
-  "years": "సంవత్సరాలు"
+  "years": "సంవత్సరాలు",
+  "resource": "వనరు",
+  "resources": "వనరులు",
+  "externalContent": "బాహ్య కంటెంట్"
   },
   "utilslogout": {
     "logoutNow": "ఇప్పుడు లాగౌట్ చేయండి",
