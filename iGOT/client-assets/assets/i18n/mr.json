@@ -1713,7 +1713,10 @@
     "duration": "कालावधी",
     "competencyArea": "कौशल्य क्षेत्र",
      "resourceCategory": "संसाधन श्रेणी",
-  "years": "वर्षे"
+  "years": "वर्षे",
+  "resource": "संसाधन",
+  "resources": "संसाधने",
+  "externalContent": "बाह्य सामग्री"
   },
   "utilslogout": {
     "logoutNow": "आता लॉगआऊट करा",

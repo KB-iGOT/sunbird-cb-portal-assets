@@ -1713,7 +1713,10 @@
     "duration": "காலம்",
     "competencyArea": "திறன் பகுதி",
     "resourceCategory": "வள வகை",
-  "years": "ஆண்டுகள்"
+  "years": "ஆண்டுகள்",
+  "resource": "வளம்",
+  "resources": "வளங்கள்",
+  "externalContent": "வெளிப்புற உள்ளடக்கம்"
   },
   "utilslogout": {
     "logoutNow": "இப்போது வெளியேறு",

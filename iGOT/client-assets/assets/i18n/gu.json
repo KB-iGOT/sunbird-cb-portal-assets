@@ -1896,7 +1896,10 @@
     "topicName": "বিষয়ৰ নাম",
     "sectorId": "ક્ષેત્ર",
     "resourceCategory": "સ્રોત શ્રેણી",
-    "years": "વર્ષો"
+    "years": "વર્ષો",
+    "resource": "સ્રોત",
+    "resources": "સ્રોતો",
+    "externalContent": "બાહ્ય સામગ્રી"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
