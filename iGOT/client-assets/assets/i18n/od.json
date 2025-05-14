@@ -1714,9 +1714,9 @@
     "competencyArea": "ଦକ୍ଷତା କ୍ଷେତ୍ର",
       "resourceCategory": "ସମ୍ପଦ ବର୍ଗ",
   "years": "ବର୍ଷ",
-  "resource": "ସମ୍ପଦ",
-  "resources": "ସମ୍ପଦଗୁଡିକ",
-  "externalContent": "ବାହ୍ୟ ସାମଗ୍ରୀ"
+  "resource": "ସମ୍ପଦ ({{count}})",
+  "resources": "ସମ୍ପଦଗୁଡିକ ({{count}})",
+  "externalContent": "ବାହ୍ୟ ସାମଗ୍ରୀ ({{count}})"
   },
   "utilslogout": {
     "logoutNow": "ବର୍ତ୍ତମାନ ଲଗଆଉଟ କରନ୍ତୁ",

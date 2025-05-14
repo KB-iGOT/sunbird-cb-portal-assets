@@ -1714,9 +1714,9 @@
     "competencyArea": "திறன் பகுதி",
     "resourceCategory": "வள வகை",
   "years": "ஆண்டுகள்",
-  "resource": "வளம்",
-  "resources": "வளங்கள்",
-  "externalContent": "வெளிப்புற உள்ளடக்கம்"
+  "resource": "வளம் ({{count}})",
+  "resources": "வளங்கள் ({{count}})",
+  "externalContent": "வெளிப்புற உள்ளடக்கம் ({{count}})"
   },
   "utilslogout": {
     "logoutNow": "இப்போது வெளியேறு",

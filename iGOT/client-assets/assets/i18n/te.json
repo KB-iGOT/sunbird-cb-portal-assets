@@ -1714,9 +1714,9 @@
     "competencyArea": "సంప్రదాయ ప్రాంతం",
      "resourceCategory": "వనరుల వర్గం",
   "years": "సంవత్సరాలు",
-  "resource": "వనరు",
-  "resources": "వనరులు",
-  "externalContent": "బాహ్య కంటెంట్"
+  "resource": "వనరు ({{count}})",
+  "resources": "వనరులు ({{count}})",
+  "externalContent": "బాహ్య కంటెంట్ ({{count}})"
   },
   "utilslogout": {
     "logoutNow": "ఇప్పుడు లాగౌట్ చేయండి",

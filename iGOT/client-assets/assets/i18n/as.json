@@ -1717,9 +1717,9 @@
     "topicName": "বিষয়ৰ নাম",
      "resourceCategory": "সঁজুলি শ্ৰেণী",
     "years": "বছৰ",
-    "resource": "সঁজুলি",
-    "resources": "সঁজুলিসমূহ",
-    "externalContent": "বাহ্যিক সামগ্রী"
+    "resource": "সঁজুলি ({{count}})",
+    "resources": "সঁজুলিসমূহ ({{count}})",
+    "externalContent": "বাহ্যিক সামগ্রী ({{count}})"
   },
   "utilslogout": {
     "logoutNow": "এতিয়া লগআউট কৰক",
