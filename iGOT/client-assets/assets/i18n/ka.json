@@ -1714,9 +1714,9 @@
     "competencyArea": "ಕೌಶಲ್ಯ ಪ್ರದೇಶ",
     "resourceCategory": "ಸಂಪನ್ಮೂಲ ವರ್ಗ",
   "years": "ವರ್ಷಗಳು",
-  "resource": "ಸಂಪನ್ಮೂಲ",
-  "resources": "ಸಂಪನ್ಮೂಲಗಳು",
-  "externalContent": "ಬಾಹ್ಯ ವಿಷಯವಸ್ತು"
+  "resource": "ಸಂಪನ್ಮೂಲ ({{count}})",
+  "resources": "ಸಂಪನ್ಮೂಲಗಳು ({{count}})",
+  "externalContent": "ಬಾಹ್ಯ ವಿಷಯವಸ್ತು ({{count}})"
   },
   "utilslogout": {
     "logoutNow": "ಈಗ ಲಾಗ್ ಔಟ್ ಮಾಡಿ",

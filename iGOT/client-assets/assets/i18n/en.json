@@ -1952,9 +1952,9 @@
         "sectorId": "Sectors",
         "resourceCategory": "Resource Category",
         "years": "Years",
-        "resource": "Resource",
-        "resources": "Resources",
-        "externalContent": "External Content"
+        "resource": "Resource ({{count}})",
+        "resources": "Resources ({{count}})",
+        "externalContent": "External Content ({{count}})"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",

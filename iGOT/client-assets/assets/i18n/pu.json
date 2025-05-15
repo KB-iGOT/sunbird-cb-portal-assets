@@ -1714,9 +1714,9 @@
     "competencyArea": "ਕੁਸ਼ਲਤਾ ਖੇਤਰ",
      "resourceCategory": "ਸੰਸਾਧਨ ਸ਼੍ਰੇਣੀ",
   "years": "ਸਾਲ",
-  "resource": "ਸੰਸਾਧਨ",
-  "resources": "ਸੰਸਾਧਨ",
-  "externalContent": "ਬਾਹਰੀ ਸਮੱਗਰੀ"
+  "resource": "ਸੰਸਾਧਨ ({{count}})",
+  "resources": "ਸੰਸਾਧਨ ({{count}})",
+  "externalContent": "ਬਾਹਰੀ ਸਮੱਗਰੀ ({{count}})"
   },
   "utilslogout": {
     "logoutNow": "ਹੁਣ ਲਾਗ ਆਊਟ ਕਰੋ",

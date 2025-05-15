@@ -1897,9 +1897,9 @@
     "sectorId": "ક્ષેત્ર",
     "resourceCategory": "સ્રોત શ્રેણી",
     "years": "વર્ષો",
-    "resource": "સ્રોત",
-    "resources": "સ્રોતો",
-    "externalContent": "બાહ્ય સામગ્રી"
+    "resource": "સ્રોત ({{count}})",
+    "resources": "સ્રોતો ({{count}})",
+    "externalContent": "બાહ્ય સામગ્રી ({{count}})"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",

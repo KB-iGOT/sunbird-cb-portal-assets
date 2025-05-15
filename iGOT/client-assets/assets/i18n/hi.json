@@ -1927,9 +1927,9 @@
     "sectorId": "क्षेत्र",
     "resourceCategory": "संसाधन श्रेणी",
     "years": "वर्ष",
-    "resource": "संसाधन",
-    "resources": "संसाधन",
-    "externalContent": "बाहरी सामग्री"
+    "resource": "संसाधन ({{count}})",
+    "resources": "संसाधन ({{count}})",
+    "externalContent": "बाहरी सामग्री ({{count}})"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
