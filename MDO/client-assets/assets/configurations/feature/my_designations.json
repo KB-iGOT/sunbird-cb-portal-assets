@@ -51,5 +51,6 @@
     "noFileUploaded": "No File Uploaded",
     "pageSize": 10,
     "pageSizeOptions": [10, 20]
-  }
+  },
+  "enableBulkButton": false
 }
