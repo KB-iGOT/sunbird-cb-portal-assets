@@ -14,6 +14,10 @@
             {
                 "index": 3,
                 "title": "You can also expedite the process by utilizing designations already declared or verified by users within your organisation."
+            },
+            {
+                "index": 4,
+                "title": "If you have more than 300 designations in your MDO, then you can split your file into smaller parts and upload them separately."
             }
         ],
         "guideVideo": {
