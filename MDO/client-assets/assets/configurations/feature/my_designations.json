@@ -57,5 +57,5 @@
     "pageSize": 10,
     "pageSizeOptions": [10, 20]
   },
-  "enableBulkButton": false
+  "enableBulkButton": true
 }
