@@ -2871,15 +2871,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-      "CourseUnit": [],
-      "Course": [],
-      "Program": [],
-      "Curated Program": [],
-      "Blended Program": [],
-      "Learning Resource": [],
-      "Standalone Assessment": []
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},
