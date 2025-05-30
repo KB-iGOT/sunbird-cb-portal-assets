@@ -24,6 +24,11 @@
       "id": 5,
       "section": "language",
       "active": true
+    },
+    {
+      "id": 6,
+      "section": "notification",
+      "active": true
     }
   ],
   "footerSectionConfig": [

@@ -2445,5 +2445,16 @@
         "today": "Today",
         "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah"
     },
+    "notificationV2Settings": {
+        "email": "Email Notification",
+        "emailDesc": "Keep receiving notifications through email.",
+        "push": "Push Notification",
+        "pushDesc": "Keep receiving push notifications on mobile.",
+        "sms": "SMS Notification",
+        "smsDesc": "Keep receiving SMS notifications."
+    },
+    "myNotifications": {
+        "notifications": "Notifications"
+    },
     "mobileApp": {}
 }

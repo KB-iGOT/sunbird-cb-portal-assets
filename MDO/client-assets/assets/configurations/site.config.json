@@ -19,7 +19,10 @@
   "defaultFeatureConfigs": {
     "error": "/assets/configurations/common/feature/error.json"
   },
-  "org": ["dopt", "istm"],
+  "org": [
+    "dopt",
+    "istm"
+  ],
   "rootOrg": "igot",
   "defaultFontSize": "theme-igot",
   "defaultLocale": "",
@@ -65,63 +68,82 @@
     {
       "isAvailable": true,
       "isEnabled": true,
-      "locals": ["en", "en-US"],
+      "locals": [
+        "en",
+        "en-US"
+      ],
       "path": "",
       "isRTL": false
     },
     {
       "isAvailable": false,
       "isEnabled": false,
-      "locals": ["de"],
+      "locals": [
+        "de"
+      ],
       "path": "de",
       "isRTL": false
     },
     {
       "isAvailable": false,
       "isEnabled": false,
-      "locals": ["zh-CN"],
+      "locals": [
+        "zh-CN"
+      ],
       "path": "zh-CN",
       "isRTL": false
     },
     {
       "isAvailable": false,
       "isEnabled": false,
-      "locals": ["fr"],
+      "locals": [
+        "fr"
+      ],
       "path": "fr",
       "isRTL": false
     },
     {
       "isAvailable": false,
       "isEnabled": false,
-      "locals": ["fr-ca"],
+      "locals": [
+        "fr-ca"
+      ],
       "path": "fr-ca",
       "isRTL": false
     },
     {
       "isAvailable": false,
       "isEnabled": false,
-      "locals": ["es"],
+      "locals": [
+        "es"
+      ],
       "path": "es",
       "isRTL": false
     },
     {
       "isAvailable": false,
       "isEnabled": false,
-      "locals": ["ar"],
+      "locals": [
+        "ar"
+      ],
       "path": "ar",
       "isRTL": false
     },
     {
       "isAvailable": false,
       "isEnabled": false,
-      "locals": ["nl"],
+      "locals": [
+        "nl"
+      ],
       "path": "nl",
       "isRTL": false
     },
     {
       "isAvailable": false,
       "isEnabled": false,
-      "locals": ["ja"],
+      "locals": [
+        "ja"
+      ],
       "path": "ja",
       "isRTL": false
     }
@@ -169,7 +191,9 @@
     "defaultEmailId": "support@tarento.com",
     "isConfigured": true,
     "tenant": "tarentotechnologies",
-    "validEmailExtensions": ["@tarento.tarento.com"]
+    "validEmailExtensions": [
+      "@tarento.tarento.com"
+    ]
   },
   "telemetryConfig": {
     "pdata": {
@@ -197,7 +221,9 @@
       "themeName": "iGOT Theme"
     }
   ],
-  "validMailIdExtensionsForMailMe": ["tarento.com"],
+  "validMailIdExtensionsForMailMe": [
+    "tarento.com"
+  ],
   "backgrounds": {
     "primaryNavBar": {
       "color": "primary"
@@ -218,6 +244,19 @@
             "className": "fixtopMargin",
             "config": {
               "actionBtnId": "feature_home",
+              "type": "card-mini",
+              "hideTitle": true
+            }
+          }
+        },
+        {
+          "type": "notificationButton",
+          "config": {
+            "actionBtnId": "feature_notification",
+            "toolTip": "Home",
+            "className": "fixtopMargin",
+            "config": {
+              "actionBtnId": "feature_notification",
               "type": "card-mini",
               "hideTitle": true
             }

@@ -2376,5 +2376,16 @@
     "today": "આજે",
     "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ"
   },
+  "notificationV2Settings": {
+    "email": "ઇમેઇલ સૂચના",
+    "emailDesc": "ઇમેઇલ દ્વારા સૂચનાઓ મેળવતા રહો.",
+    "push": "દબાણ સૂચના",
+    "pushDesc": "મોબાઇલ પર પુશ સૂચનાઓ પ્રાપ્ત કરતા રહો.",
+    "sms": "SMS સૂચના",
+    "smsDesc": "SMS સૂચનાઓ મેળવતા રહો."
+  },
+  "myNotifications": {
+    "notifications": "સૂચનાઓ"
+  },
   "mobileApp": {}
 }
