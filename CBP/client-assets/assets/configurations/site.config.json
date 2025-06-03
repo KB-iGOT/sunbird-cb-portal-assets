@@ -265,6 +265,20 @@
           "enabled": true
         },
         {
+          "type": "notificationButton",
+          "config": {
+            "actionBtnId": "feature_notification",
+            "toolTip": "Home",
+            "className": "fixtopMargin",
+            "config": {
+              "actionBtnId": "feature_notification",
+              "type": "card-mini",
+              "hideTitle": true
+            }
+          },
+          "enabled": true
+        },
+        {
           "type": "featureButton",
           "config": {
             "actionBtnId": "feature_rainDashboard",
