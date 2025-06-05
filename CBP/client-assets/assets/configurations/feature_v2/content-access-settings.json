@@ -1,0 +1,86 @@
+{
+  "accessControlCriteriaSelection": {
+    "optionsEntity": [
+      { "disabled": false, "value": "user", "label": "Users" },
+      { "disabled": false, "value": "rootOrgId", "label": "Organizations" },
+      { "disabled": false, "value": "group", "label": "Group" },
+      { "disabled": false, "value": "designation", "label": "Designation" },
+      { "disabled": false, "value": "profilestatus", "label": "Verification Status" },
+      { "disabled": false, "value": "service", "label": "Service" },
+      { "disabled": false, "value": "Cadre", "label": "Cadre" },
+      { "disabled": false, "value": "batch", "label": "Batch" }
+    ],
+    "optionsConditions": [{ "value": "is", "label": "Is" }],
+    "organizationRadioSelection": [
+      { "value": "all", "label": "All" },
+      { "value": "selected", "label": "Selected" },
+      { "value": "notSelected", "label": "Not Selected" }
+    ],
+    "designationRadioSelection": [
+      { "value": "all", "label": "All Designation" },
+      { "value": "selected", "label": "Selected Designation" }
+    ],
+    "servicesRadioSelection": [
+      { "value": "all", "label": "All Services" },
+      { "value": "selected", "label": "Selected Services" }
+    ],
+    "verificationStatus": ["Verified", "Not-Verified"],
+
+    "accessTypes": [
+      { "name": "Public", "value": "public", "tooltip": "This content will be accessible to all the Karmayogis." },
+      { "name": "Custom", "value": "custom", "tooltip": "Karmayogis will be filtered based on the access provided via bulk or individual selection, or user group." }
+    ]
+  },
+
+  "usersTableConfig": {
+    "allLearners": {
+      "displayedColumns": ["select", "firstName", "email", "ministry", "mobile"],
+      "type": "allLearners",
+      "initialPaginationSize": 5,
+      "initialPaginationSizeOptions": [5, 10, 25, 100],
+      "canShowPagination": true,
+      "canShowMasterSelect": true,
+      "canShowRefreshBtn": true,
+      "canShowDeleteBtn": false,
+      "canShowSelectedItems": true,
+      "canSortColumn": true
+    },
+    "selectedUsers": {
+      "displayedColumns": ["select", "firstName", "email", "ministry", "mobile", "invited_on", "status"],
+      "type": "selectedUsers",
+      "initialPaginationSize": 100,
+      "initialPaginationSizeOptions": [5, 10, 25, 100],
+      "canShowPagination": false,
+      "canShowMasterSelect": true,
+      "canShowRefreshBtn": true,
+      "canShowDeleteBtn": true,
+      "canShowSelectedItems": true,
+      "canSortColumn": true
+    }
+  },
+  "bulkUploadKarmayogi": {
+    "uploadInstructions": ["Keep the row of the items you wish to process", "Keep the row of the items you wish to process", "Delete the entire row you donot intend to process"],
+    "bulkUploadTable": {
+      "displayedColumns": ["select", "firstName", "email", "ministry", "mobile", "status"],
+      "type": "bulkUploadTable",
+      "initialPaginationSize": 100,
+      "initialPaginationSizeOptions": [5, 10, 25, 100],
+      "canShowPagination": false,
+      "canShowMasterSelect": false,
+      "canShowRefreshBtn": true,
+      "canShowDeleteBtn": true,
+      "canShowSelectedItems": false,
+      "canSortColumn": true
+    },
+    "downloadSampleFile": {
+      "path": "/assets/instances/inviteUsers.csv",
+      "fileName": "inviteUsers.csv"
+    }
+  },
+
+  "accessControlGuide": {
+    "summaryText": "Access Control lets you decide who can view or access the content. Here you can specify the content access via bulk upload, individual/s selection, or creating filtered groups. You can add one or more Karmayogi groups having conditional filters. Once the Karmayogis have been selected or filtered, You can save it or apply for immediate effect. Under the custom access you can also manage the visibility of the respective content.",
+    "canShowSummaryTab": true,
+    "canShowTranscriptTab": true
+  }
+}
