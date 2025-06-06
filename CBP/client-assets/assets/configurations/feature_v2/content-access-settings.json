@@ -12,9 +12,8 @@
     ],
     "optionsConditions": [{ "value": "is", "label": "Is" }],
     "organizationRadioSelection": [
-      { "value": "all", "label": "All" },
-      { "value": "selected", "label": "Selected" },
-      { "value": "notSelected", "label": "Not Selected" }
+      { "value": "all", "label": "All Organisation" },
+      { "value": "selected", "label": "Selected Organisation" }
     ],
     "designationRadioSelection": [
       { "value": "all", "label": "All Designation" },
@@ -24,11 +23,11 @@
       { "value": "all", "label": "All Services" },
       { "value": "selected", "label": "Selected Services" }
     ],
-    "verificationStatus": ["Verified", "Not-Verified"],
+    "verificationStatus": ["Verified", "Non-Verified"],
 
     "accessTypes": [
-      { "name": "Public", "value": "public", "tooltip": "This content will be accessible to all the Karmayogis." },
-      { "name": "Custom", "value": "custom", "tooltip": "Karmayogis will be filtered based on the access provided via bulk or individual selection, or user group." }
+      { "disabled": false, "name": "Public", "value": "public", "tooltip": "This content will be accessible to all the Karmayogis." },
+      { "disabled": false, "name": "Custom", "value": "custom", "tooltip": "Karmayogis will be filtered based on the access provided via bulk or individual selection, or user group." }
     ]
   },
 
@@ -82,5 +81,9 @@
     "summaryText": "Access Control lets you decide who can view or access the content. Here you can specify the content access via bulk upload, individual/s selection, or creating filtered groups. You can add one or more Karmayogi groups having conditional filters. Once the Karmayogis have been selected or filtered, You can save it or apply for immediate effect. Under the custom access you can also manage the visibility of the respective content.",
     "canShowSummaryTab": true,
     "canShowTranscriptTab": true
+  },
+  "visibilityOnOffTexts": {
+    "on": "If visibility is set on, Karmayogis will be able to search and view the Program, and subsequently access/enrol into it depending upon the set access criteria.",
+    "off": "If visibility is set to off, the Karmayogis will NOT be able to search and view the Course on the iGOT portal."
   }
 }
