@@ -2,7 +2,7 @@
   "accessControlCriteriaSelection": {
     "optionsEntity": [
       { "disabled": false, "value": "user", "label": "Users" },
-      { "disabled": false, "value": "rootOrgId", "label": "Organizations" },
+      { "disabled": false, "value": "rootOrgId", "label": "Organisations" },
       { "disabled": false, "value": "group", "label": "Group" },
       { "disabled": false, "value": "designation", "label": "Designation" },
       { "disabled": false, "value": "profilestatus", "label": "Verification Status" },
@@ -83,7 +83,7 @@
     "canShowTranscriptTab": true
   },
   "visibilityOnOffTexts": {
-    "on": "If visibility is set on, Karmayogis will be able to search and view the Program, and subsequently access/enrol into it depending upon the set access criteria.",
-    "off": "If visibility is set to off, the Karmayogis will NOT be able to search and view the Course on the iGOT portal."
+    "on": "If visibility is set on, Karmayogis will be able to search and view the {contentType}, and subsequently access/enrol into it depending upon the set access criteria.",
+    "off": "If visibility is set to off, the Karmayogis will NOT be able to search and view the {contentType} on the iGOT portal."
   }
 }
