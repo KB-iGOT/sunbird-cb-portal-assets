@@ -39,20 +39,20 @@
       "initialPaginationSizeOptions": [5, 10, 25, 100],
       "canShowPagination": true,
       "canShowMasterSelect": true,
-      "canShowRefreshBtn": true,
+      "canShowRefreshBtn": false,
       "canShowDeleteBtn": false,
       "canShowSelectedItems": true,
       "canSortColumn": true
     },
     "selectedUsers": {
-      "displayedColumns": ["select", "firstName", "email", "ministry", "mobile", "invited_on", "status"],
+      "displayedColumns": ["select", "firstName", "email", "ministry", "mobile"],
       "type": "selectedUsers",
       "initialPaginationSize": 100,
       "initialPaginationSizeOptions": [5, 10, 25, 100],
       "canShowPagination": false,
       "canShowMasterSelect": true,
-      "canShowRefreshBtn": true,
-      "canShowDeleteBtn": true,
+      "canShowRefreshBtn": false,
+      "canShowDeleteBtn": false,
       "canShowSelectedItems": true,
       "canSortColumn": true
     }
@@ -82,8 +82,11 @@
     "canShowSummaryTab": true,
     "canShowTranscriptTab": true
   },
-  "visibilityOnOffTexts": {
+  "visiblilityOnOff": {
+    "label": "Visibility",
+    "disabled": true,
     "on": "If visibility is set on, Karmayogis will be able to search and view the {contentType}, and subsequently access/enrol into it depending upon the set access criteria.",
-    "off": "If visibility is set to off, the Karmayogis will NOT be able to search and view the {contentType} on the iGOT portal."
+    "off": "If visibility is set to off, the Karmayogis will NOT be able to search and view the {contentType} on the iGOT portal.",
+    "default": "on"
   }
 }
