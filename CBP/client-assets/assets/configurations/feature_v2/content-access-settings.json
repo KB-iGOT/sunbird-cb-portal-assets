@@ -28,7 +28,8 @@
     "accessTypes": [
       { "disabled": false, "name": "Public", "value": "public", "tooltip": "This content will be accessible to all the Karmayogis." },
       { "disabled": false, "name": "Custom", "value": "custom", "tooltip": "Karmayogis will be filtered based on the access provided via bulk or individual selection, or user group." }
-    ]
+    ],
+    "readOnly": false
   },
 
   "usersTableConfig": {
