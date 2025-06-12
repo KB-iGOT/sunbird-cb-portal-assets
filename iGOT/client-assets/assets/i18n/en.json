@@ -2531,6 +2531,7 @@
         "specialCharNotAllowedExcept()$-/": "Special characters are not allowed, except for: ( ) & - /",
         "issuingOrganisation": "Issuing Organisation",
         "specialCharNotAllowedExcept()$": "Special characters are not allowed, except for: ( ) &",
+        "specialCharNotAllowedExcept()-": "Special characters are not allowed, except for: ( ) -",
         "issueDate": "Issue Date",
         "pleaseSelectIssueDate": "Please select an issue date",
         "uploadFromSystem": "Upload from System",

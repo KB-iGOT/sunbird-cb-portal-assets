@@ -2594,6 +2594,7 @@
     "specialCharNotAllowedExcept()$-/": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) & - /",
     "issuingOrganisation": "जारी करने वाला संगठन",
     "specialCharNotAllowedExcept()$": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) &",
+    "specialCharNotAllowedExcept()-": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) -",
     "issueDate": "जारी करने की तिथि",
     "pleaseSelectIssueDate": "कृपया एक जारी करने की तिथि चुनें",
     "uploadFromSystem": "सिस्टम से अपलोड करें",

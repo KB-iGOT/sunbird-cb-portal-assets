@@ -2462,6 +2462,7 @@
     "specialCharNotAllowedExcept()$-/": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) & - /",
     "issuingOrganisation": "જારી કરનાર સંસ્થા",
     "specialCharNotAllowedExcept()$": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) &",
+    "specialCharNotAllowedExcept()-": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) -",
     "issueDate": "જારી કરવાની તારીખ",
     "pleaseSelectIssueDate": "મહેરબાની કરીને જારી કરવાની તારીખ પસંદ કરો",
     "uploadFromSystem": "સિસ્ટમમાંથી અપલોડ કરો",
