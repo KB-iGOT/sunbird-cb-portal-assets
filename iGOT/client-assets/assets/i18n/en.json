@@ -2456,6 +2456,7 @@
         "selectDate": "Select Date",
         "degree": "Degree",
         "instituteName": "Institute Name",
+        "pdTooltipMsg": "These details go to your MDO for approval. Please fill these details to view your iGOT plan.",
         "pdTooltipWarnMsg": "You can't edit when you requested for Transfer request",
         "cadreControllingAuthority": "Cadre Controlling Authority",
         "editCoverPhoto": "Edit Cover Photo",
@@ -2473,9 +2474,13 @@
         "unblock": "Unblock",
         "saveChanges": "Save Changes",
         "enterName": "Enter Name",
-        "pleaseEnterName": "Please enter your name",
-        "specialCharAndNumNotAllowed": "Special characters and numbers are not allowed in this field",
-        "pleaseEnterAtLeast2Chars": "Please enter at least 2 characters",
+        "nameIsRequired": "Name is required.",
+        "nameCannotContainNumbers": "Name cannot contain numbers.",
+        "specialCharNotAllowedInName": "Special characters are not allowed in the name.",
+        "nameCannotStartOrEndWithSpace": "Name cannot start or end with spaces or special characters.",
+        "pleaseAvoidMultipleSpaces": "Please avoid using multiple spaces or special characters in a row.",
+        "invalidNameFormat": "Invalid name format.",
+        "nameAtLeast2Chars": "Name must be at least 2 characters long.",
         "officeState": "Office State",
         "selectState": "Select State",
         "officeDistrict": "Office District",
@@ -2492,6 +2497,7 @@
         "services": "Services",
         "organisationMinistry": "Organisation/Ministry",
         "selectOrganisationMinistry": "Select Organisation/Ministry",
+        "searchOrganisationMinistry": "Search Organisation/Ministry",
         "pleaseSelectOrganization": "Please select an organization.",
         "selectDesignation": "Select Designation",
         "pleaseSelectDesignation": "Please select a designation.",
@@ -2547,7 +2553,11 @@
         "viewCertificate": "View Certification",
         "pendingDaught": "Pending...",
         "viewCommunity": "View Community",
-        "certificate": "Certificate"
+        "certificate": "Certificate",
+        "endDataCannotBeBeforeStartDate": "End date cannot be before start date.",
+        "pleaseEnterValidDate": "Please enter a valid date.",
+        "searchDegrees": "Search Degrees"
+
     },
     "updteDesignation": {
         "select": "Select"
