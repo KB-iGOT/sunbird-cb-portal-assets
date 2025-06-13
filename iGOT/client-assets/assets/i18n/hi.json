@@ -2616,7 +2616,10 @@
     "viewCertificate": "प्रमाणपत्र देखें",
     "pendingDaught": "लंबित...",
     "viewCommunity": "समुदाय देखें",
-    "certificate": "प्रमाण पत्र"
+    "certificate": "प्रमाण पत्र",
+    "endDataCannotBeBeforeStartDate": "समाप्ति तिथि प्रारंभ तिथि से पहले नहीं हो सकती।",
+    "pleaseEnterValidDate": "कृपया एक मान्य तिथि दर्ज करें।",
+    "searchDegrees": "डिग्री खोजें"
   },
   "updteDesignation": {
     "select": "चुनना"

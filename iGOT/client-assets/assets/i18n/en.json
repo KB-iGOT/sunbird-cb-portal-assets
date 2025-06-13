@@ -2553,7 +2553,11 @@
         "viewCertificate": "View Certification",
         "pendingDaught": "Pending...",
         "viewCommunity": "View Community",
-        "certificate": "Certificate"
+        "certificate": "Certificate",
+        "endDataCannotBeBeforeStartDate": "End date cannot be before start date.",
+        "pleaseEnterValidDate": "Please enter a valid date.",
+        "searchDegrees": "Search Degrees"
+
     },
     "updteDesignation": {
         "select": "Select"

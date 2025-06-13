@@ -2484,7 +2484,10 @@
     "viewCertificate": "પ્રમાણપત્ર જુઓ",
     "pendingDaught": "બાકી છે...",
     "viewCommunity": "સમુદાય જુઓ",
-    "certificate": "પ્રમાણપત્ર"
+    "certificate": "પ્રમાણપત્ર",
+    "endDataCannotBeBeforeStartDate": "સમાપ્ત તારીખ પ્રારંભ તારીખથી પહેલાં ન હોઈ શકે.",
+    "pleaseEnterValidDate": "કૃપા કરીને માન્ય તારીખ દાખલ કરો.",
+    "searchDegrees": "ડિગ્રી શોધો"
   },
   "updteDesignation": {
     "select": "પસંદ કરો"
