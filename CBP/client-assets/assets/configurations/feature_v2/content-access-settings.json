@@ -1,8 +1,8 @@
 {
   "accessControlCriteriaSelection": {
     "optionsEntity": [
-      { "disabled": false, "value": "user", "label": "Users" },
-      { "disabled": false, "value": "rootOrgId", "label": "Organisations" },
+      { "disabled": false, "value": "user", "label": "User" },
+      { "disabled": false, "value": "rootOrgId", "label": "Organisation" },
       { "disabled": false, "value": "group", "label": "Group" },
       { "disabled": false, "value": "designation", "label": "Designation" },
       { "disabled": false, "value": "profilestatus", "label": "Verification Status" },
@@ -22,6 +22,14 @@
     "servicesRadioSelection": [
       { "value": "all", "label": "All Services" },
       { "value": "selected", "label": "Selected Services" }
+    ],
+    "cadreRadioSelection": [
+      { "value": "all", "label": "All Cadre" },
+      { "value": "selected", "label": "Selected Cadre" }
+    ],
+    "batchRadioSelection": [
+      { "value": "all", "label": "All Batches" },
+      { "value": "selected", "label": "Selected Batches" }
     ],
     "verificationStatus": ["Verified", "Non-Verified"],
 
