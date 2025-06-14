@@ -2326,6 +2326,14 @@
     "organisation": "સંસ્થાનું"
   },
   "NetworkV2Profile": {
+    "mobileOTPSentFail": "આપેલ નંબર પર ઓ. ટી. પી. મોકલવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
+    "otpSentMobile": "મોબાઇલ નંબર પર ઓ. ટી. પી. મોકલવામાં આવે છે.",
+    "emailOTPSentFail": "આપેલ ઈ-મેલ આઈડી પર ઓ. ટી. પી. મોકલવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
+    "otpSentEmail": "ઇમેઇલ પર મોકલવામાં આવેલ ઓ. ટી. પી.",
+    "unableFetchMasterLanguageData": "ભાષાનો મુખ્ય ડેટા મેળવવામાં અસમર્થ",
+    "groupDataFaile": "જૂથ મેટા ડેટા મેળવવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
+    "approvalStatusFailed": "તમામ ક્ષેત્રોની મંજૂરીની સ્થિતિ મેળવવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
+    "rejectedStatusFailed": "નકારાયેલ સ્થિતિ ક્ષેત્રો મેળવવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
     "editProfile": "પ્રોફાઇલ સંપાદિત કરો",
     "profileNotVerified": "પ્રોફાઇલ ચકાસાયેલ નથી",
     "makeTransferRequest": "સ્થાનાંતરણ વિનંતી કરો",
@@ -2487,7 +2495,13 @@
     "certificate": "પ્રમાણપત્ર",
     "endDataCannotBeBeforeStartDate": "સમાપ્ત તારીખ પ્રારંભ તારીખથી પહેલાં ન હોઈ શકે.",
     "pleaseEnterValidDate": "કૃપા કરીને માન્ય તારીખ દાખલ કરો.",
-    "searchDegrees": "ડિગ્રી શોધો"
+    "searchDegrees": "ડિગ્રી શોધો",
+    "somethingWentWrongPleaseTryAgain": "કંઈક ખોટું થયું છે, કૃપા કરીને ફરી પ્રયાસ કરો.",
+    "unableToUpdateServiceHistoryPleaseTryAgain": "હાલમાં તમારી સેવા ઇતિહાસને અપડેટ કરવામાં અસમર્થ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.",
+    "unableToupdatyourEducationalQualificationsPleaseTryAgain": "હાલમાં તમારી શૈક્ષણિક લાયકાતોને અપડેટ કરવામાં અસમર્થ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.",
+    "unableToupdateyourAchievementsPleaseTryAgain": "હાલમાં તમારી સિદ્ધિઓને અપડેટ કરવામાં અસમર્થ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.",
+    "unableFetchCadreData": "કેડર ડેટા મેળવવામાં અસમર્થ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.",
+    "somethingWentWrongPleaseRefreshOrTryAgain": "કંઈક ખોટું થયું છે. કૃપા કરીને પેજને રિફ્રેશ કરો અથવા પછીથી ફરી પ્રયાસ કરો."
   },
   "updteDesignation": {
     "select": "પસંદ કરો"

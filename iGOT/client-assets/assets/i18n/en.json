@@ -2395,6 +2395,14 @@
         "presentOrganisation": "Present Ministry/Department/State/UT"
     },
     "NetworkV2Profile": {
+        "mobileOTPSentFail": "Unable to send OTP to given number, please try again later",
+        "otpSentMobile": "OTP sent to the mobile number",
+        "emailOTPSentFail": "Unable to send OTP to given email id, please try again later",
+        "otpSentEmail": "OTP sent to the email",
+        "unableFetchMasterLanguageData": "Unable to fetch master data of language",
+        "groupDataFaile": "Unable to fetch group meta data, please try again later",
+        "approvalStatusFailed": "Unable to get approval status of all fields, please try again later",
+        "rejectedStatusFailed": "Unable to fetch rejected status fields, please try again later",
         "editProfile": "Edit Profile",
         "profileNotVerified": "Profile not verified",
         "makeTransferRequest": "Make Transfer Request",
@@ -2556,7 +2564,13 @@
         "certificate": "Certificate",
         "endDataCannotBeBeforeStartDate": "End date cannot be before start date.",
         "pleaseEnterValidDate": "Please enter a valid date.",
-        "searchDegrees": "Search Degrees"
+        "searchDegrees": "Search Degrees",
+        "somethingWentWrongPleaseTryAgain": "Something went wrong please try again",
+        "unableToUpdateServiceHistoryPleaseTryAgain": "Unable to update your service history at the moment. Please try again later.",
+        "unableToupdatyourEducationalQualificationsPleaseTryAgain": "Unable to update your educational Qualifications at the moment. Please try again later.",
+        "unableToupdateyourAchievementsPleaseTryAgain": "Unable to update your achievements at the moment. Please try again later.",
+        "unableFetchCadreData": "unable to fetch cadre data. Please try again later.",
+        "somethingWentWrongPleaseRefreshOrTryAgain": "Something went wrong. Please refresh or try again later."
 
     },
     "updteDesignation": {
