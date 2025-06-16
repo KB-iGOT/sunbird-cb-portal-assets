@@ -10,7 +10,7 @@
       { "disabled": false, "value": "Cadre", "label": "Cadre" },
       { "disabled": false, "value": "batch", "label": "Batch" }
     ],
-    "optionsConditions": [{ "value": "is", "label": "Is" }],
+    "optionsConditions": [{ "value": "is", "label": "is" }],
     "organizationRadioSelection": [
       { "value": "all", "label": "All Organisation" },
       { "value": "selected", "label": "Selected Organisation" }
