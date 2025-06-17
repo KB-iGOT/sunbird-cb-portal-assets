@@ -2571,7 +2571,8 @@
         "unableToupdatyourEducationalQualificationsPleaseTryAgain": "Unable to update your educational Qualifications at the moment. Please try again later.",
         "unableToupdateyourAchievementsPleaseTryAgain": "Unable to update your achievements at the moment. Please try again later.",
         "unableFetchCadreData": "unable to fetch cadre data. Please try again later.",
-        "somethingWentWrongPleaseRefreshOrTryAgain": "Something went wrong. Please refresh or try again later."
+        "somethingWentWrongPleaseRefreshOrTryAgain": "Something went wrong. Please refresh or try again later.",
+        "profileImageSizeLimit": "Maximum upload file size: 2MB"
 
     },
     "updteDesignation": {
