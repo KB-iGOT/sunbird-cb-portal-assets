@@ -31,7 +31,10 @@
       { "value": "all", "label": "All Batches" },
       { "value": "selected", "label": "Selected Batches" }
     ],
-    "verificationStatus": ["Verified", "Non-Verified"],
+    "verificationStatus": [
+      { "value": "VERIFIED", "label": "Verified" },
+      { "value": "NOT-VERIFIED", "label": "Non-Verified" }
+    ],
 
     "accessTypes": [
       { "disabled": false, "name": "Public", "value": "public", "tooltip": "This content will be accessible to all the Karmayogis." },
@@ -75,8 +78,8 @@
       "initialPaginationSizeOptions": [5, 10, 25, 100],
       "canShowPagination": false,
       "canShowMasterSelect": false,
-      "canShowRefreshBtn": true,
-      "canShowDeleteBtn": true,
+      "canShowRefreshBtn": false,
+      "canShowDeleteBtn": false,
       "canShowSelectedItems": false,
       "canSortColumn": true
     },
