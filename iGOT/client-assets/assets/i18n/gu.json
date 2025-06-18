@@ -2502,7 +2502,8 @@
     "unableToupdatyourEducationalQualificationsPleaseTryAgain": "હાલમાં તમારી શૈક્ષણિક લાયકાતોને અપડેટ કરવામાં અસમર્થ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.",
     "unableToupdateyourAchievementsPleaseTryAgain": "હાલમાં તમારી સિદ્ધિઓને અપડેટ કરવામાં અસમર્થ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.",
     "unableFetchCadreData": "કેડર ડેટા મેળવવામાં અસમર્થ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.",
-    "somethingWentWrongPleaseRefreshOrTryAgain": "કંઈક ખોટું થયું છે. કૃપા કરીને પેજને રિફ્રેશ કરો અથવા પછીથી ફરી પ્રયાસ કરો."
+    "somethingWentWrongPleaseRefreshOrTryAgain": "કંઈક ખોટું થયું છે. કૃપા કરીને પેજને રિફ્રેશ કરો અથવા પછીથી ફરી પ્રયાસ કરો.",
+    "profileImageSizeLimit": "મહત્તમ અપલોડ ફાઇલ કદ: 2MB"
   },
   "updteDesignation": {
     "select": "પસંદ કરો"
