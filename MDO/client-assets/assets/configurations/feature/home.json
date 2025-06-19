@@ -17,14 +17,23 @@
           },
           "enabled": true,
           "routerLink": "/app/home/welcome",
-          "requiredRoles": ["admin", "mdo_admin", "wat_member", "mdo_leader"],
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "wat_member",
+            "mdo_leader"
+          ],
           "defaultExpanded": false
         },
         {
           "menuCategory": "Users",
           "submenu": true,
-          "requiredRoles": ["admin", "mdo_admin", "mdo_leader"],
-          "defaultExpanded": true, 
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ],
+          "defaultExpanded": true,
           "subMenu": [
             {
               "name": "Onboarding",
@@ -37,7 +46,11 @@
               },
               "enabled": true,
               "routerLink": "/app/home/onboarding",
-              "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
             },
             {
               "name": "All users",
@@ -50,9 +63,12 @@
               },
               "enabled": true,
               "routerLink": "/app/home/users",
-              "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
             },
-
             {
               "name": "Approval",
               "key": "approvals",
@@ -64,9 +80,12 @@
               },
               "enabled": true,
               "routerLink": "/app/home/approvals/approval",
-              "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
             },
-
             {
               "name": "Mentors",
               "key": "mentor-manage",
@@ -78,7 +97,11 @@
               },
               "enabled": true,
               "routerLink": "/app/home/mentor-manage",
-              "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
             },
             {
               "name": "Roles and access",
@@ -91,16 +114,40 @@
               },
               "enabled": true,
               "routerLink": "/app/home/roles-access",
-              "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
+            },
+            {
+              "name": "Custom Fileds",
+              "key": "custom-fileds",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/custom-fields",
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
             }
           ]
         },
-
         {
           "menuCategory": "Organization Setting",
           "submenu": true,
-          "requiredRoles": ["admin", "mdo_admin", "mdo_leader"],
-          "defaultExpanded": false, 
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ],
+          "defaultExpanded": false,
           "subMenu": [
             {
               "name": "Designations",
@@ -113,7 +160,11 @@
               },
               "enabled": true,
               "routerLink": "/app/home/org-designations",
-              "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
             },
             {
               "name": "Competency Role Mapping",
@@ -126,15 +177,22 @@
               },
               "enabled": true,
               "routerLink": "/app/home/odcs-mapping",
-              "requiredRoles": ["mdo_admin", "mdo_leader"]
+              "requiredRoles": [
+                "mdo_admin",
+                "mdo_leader"
+              ]
             }
           ]
         },
         {
           "menuCategory": "Content Management",
           "submenu": true,
-          "requiredRoles": ["admin", "mdo_admin", "mdo_leader"],
-          "defaultExpanded": false, 
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ],
+          "defaultExpanded": false,
           "subMenu": [
             {
               "name": "Content Request",
@@ -147,7 +205,11 @@
               },
               "enabled": true,
               "routerLink": "/app/home/request-list",
-              "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
             },
             {
               "name": "Training Plans",
@@ -160,7 +222,11 @@
               },
               "enabled": true,
               "routerLink": "/app/home/training-plan-dashboard",
-              "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
             },
             {
               "name": "Blended Programs",
@@ -173,11 +239,14 @@
               },
               "enabled": true,
               "routerLink": "/app/home/blended-approvals",
-              "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
             }
           ]
         },
-
         {
           "menuCategory": "Events",
           "submenu": false,
@@ -190,7 +259,10 @@
           },
           "enabled": true,
           "routerLink": "/app/home/events",
-          "requiredRoles": ["mdo_admin", "mdo_leader"],
+          "requiredRoles": [
+            "mdo_admin",
+            "mdo_leader"
+          ],
           "defaultExpanded": false
         },
         {
@@ -205,7 +277,10 @@
           },
           "enabled": true,
           "routerLink": "/app/home/community",
-          "requiredRoles": ["mdo_leader", "community_moderator"],
+          "requiredRoles": [
+            "mdo_leader",
+            "community_moderator"
+          ],
           "defaultExpanded": false
         },
         {
@@ -220,7 +295,11 @@
           },
           "enabled": true,
           "routerLink": "/app/home/reports-section",
-          "requiredRoles": ["admin", "mdo_admin", "mdo_leader"],
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ],
           "defaultExpanded": false
         }
       ],
@@ -236,7 +315,12 @@
           },
           "enabled": true,
           "routerLink": "/app/home/welcome",
-          "requiredRoles": ["admin", "mdo_admin", "wat_member", "mdo_leader"]
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "wat_member",
+            "mdo_leader"
+          ]
         },
         {
           "name": "Users",
@@ -249,7 +333,11 @@
           },
           "enabled": true,
           "routerLink": "/app/home/users",
-          "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ]
         },
         {
           "name": "Roles and access",
@@ -262,7 +350,11 @@
           },
           "enabled": true,
           "routerLink": "/app/home/roles-access",
-          "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ]
         },
         {
           "name": "Approvals",
@@ -275,7 +367,11 @@
           },
           "enabled": true,
           "routerLink": "/app/home/approvals/pending",
-          "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ]
         },
         {
           "name": "Organisation profile",
@@ -288,7 +384,9 @@
           },
           "enabled": true,
           "routerLink": "/app/setup",
-          "requiredRoles": ["isInstuteOrg"]
+          "requiredRoles": [
+            "isInstuteOrg"
+          ]
         },
         {
           "name": "Blended program",
@@ -301,7 +399,11 @@
           },
           "enabled": true,
           "routerLink": "/app/home/blended-approvals",
-          "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ]
         },
         {
           "name": "Reports",
@@ -314,7 +416,11 @@
           },
           "enabled": true,
           "routerLink": "/app/home/reports-section",
-          "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ]
         },
         {
           "name": "Training Plan",
@@ -327,7 +433,11 @@
           },
           "enabled": true,
           "routerLink": "/app/home/training-plan-dashboard",
-          "requiredRoles": ["admin", "mdo_admin", "mdo_leader"]
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ]
         }
       ]
     },
