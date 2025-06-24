@@ -609,6 +609,8 @@
     "start": "शुरू करें",
     "startAgain": "फिर से शुरू करें",
     "takeAssessment": "आकलन लें",
+    "preEnroll": "नामांकन-पूर्व आवश्यक शर्तें",
+    "preEnrollDone": "नामांकन-पूर्व आवश्यकताएं पूरी की गईं",
     "enroll": "नामांकन करें",
     "youAreNotInvited": "आप इस कार्यक्रम के लिए आमंत्रित नहीं हैं ।",
     "youAreNotInvitedForAssessment": "आप इस आकलन के लिए आमंत्रित नहीं हैं ।",

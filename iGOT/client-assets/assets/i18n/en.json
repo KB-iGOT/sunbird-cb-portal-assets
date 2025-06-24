@@ -609,6 +609,8 @@
         "start": "Start",
         "startAgain": "Start again",
         "takeAssessment": "Take Assessment",
+        "preEnroll": "Pre-Enrollment Requisites",
+        "preEnrollDone": "Pre-Enrollment Requisites Completed",
         "enroll": "Enroll",
         "youAreNotInvited": "You are not invited for this Program.",
         "youAreNotInvitedForAssessment": "You are not invited for this Assessment.",
