@@ -2635,7 +2635,9 @@
     "unableToupdateyourAchievementsPleaseTryAgain": "इस समय आपकी उपलब्धियों को अपडेट करने में असमर्थ। कृपया बाद में पुनः प्रयास करें।",
     "unableFetchCadreData": "कैडर डेटा प्राप्त करने में असमर्थ। कृपया बाद में पुनः प्रयास करें।",
     "somethingWentWrongPleaseRefreshOrTryAgain": "कुछ गलत हो गया। कृपया पेज को रिफ्रेश करें या बाद में पुनः प्रयास करें।",
-    "profileImageSizeLimit": "अधिकतम अपलोड फ़ाइल आकार: 2MB"
+    "profileImageSizeLimit": "अधिकतम अपलोड फ़ाइल आकार: 2MB",
+    "withdrawRequestSuccess": "आपका अनुरोध सफलतापूर्वक वापस ले लिया गया है।",
+    "unableWithdrawRequest": "अनुरोध वापस लेने में असमर्थ, कृपया बाद में फिर से प्रयास करें!"
   },
   "updteDesignation": {
     "select": "चुनना"
