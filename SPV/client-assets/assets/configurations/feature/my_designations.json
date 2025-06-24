@@ -29,6 +29,7 @@
     "associationUpdateMsg": "Designation is being mapped to the organization.",
     "associationRetryMsg": "An error occurred while mapping the designation to the organization. Retrying...",
     "publishingMsg": "Designation is being published now.",
+    "subTitle2": "The changes will reflect in some time.",
     "internalErrorMsg": "An internal error occurred. Please try again later.",
     "successMsg": "Imported Successfully",
     "termRemoveMsg": "Deleted Successfully",
