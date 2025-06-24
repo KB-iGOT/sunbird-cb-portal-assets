@@ -14,6 +14,10 @@
             {
                 "index": 3,
                 "title": "You can also expedite the process by utilizing designations already declared or verified by users within your organisation."
+            },
+            {
+                "index": 4,
+                "title": "If you have more than 300 designations in your MDO, then you can split your file into smaller parts and upload them separately."
             }
         ],
         "guideVideo": {
@@ -29,6 +33,7 @@
     "associationUpdateMsg": "Designation is being mapped to the organization.",
     "associationRetryMsg": "An error occurred while mapping the designation to the organization. Retrying...",
     "publishingMsg": "Designation is being published now.",
+    "subTitle2": "The changes will reflect in some time.",
     "internalErrorMsg": "An internal error occurred. Please try again later.",
     "successMsg": "Imported Successfully",
     "termRemoveMsg": "Deleted Successfully",
@@ -51,5 +56,6 @@
     "noFileUploaded": "No File Uploaded",
     "pageSize": 10,
     "pageSizeOptions": [10, 20]
-  }
+  },
+  "enableBulkButton": true
 }
