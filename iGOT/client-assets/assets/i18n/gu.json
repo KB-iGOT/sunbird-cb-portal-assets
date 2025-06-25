@@ -2508,7 +2508,9 @@
     "unableToupdateyourAchievementsPleaseTryAgain": "હાલમાં તમારી સિદ્ધિઓને અપડેટ કરવામાં અસમર્થ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.",
     "unableFetchCadreData": "કેડર ડેટા મેળવવામાં અસમર્થ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.",
     "somethingWentWrongPleaseRefreshOrTryAgain": "કંઈક ખોટું થયું છે. કૃપા કરીને પેજને રિફ્રેશ કરો અથવા પછીથી ફરી પ્રયાસ કરો.",
-    "profileImageSizeLimit": "મહત્તમ અપલોડ ફાઇલ કદ: 2MB"
+    "profileImageSizeLimit": "મહત્તમ અપલોડ ફાઇલ કદ: 2MB",
+    "withdrawRequestSuccess": "તમારી વિનંતી સફળતાપૂર્વક પાછી ખેંચી લેવામાં આવી છે",
+    "unableWithdrawRequest": "વિનંતી પાછી ખેંચવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો!"
   },
   "updteDesignation": {
     "select": "પસંદ કરો"
