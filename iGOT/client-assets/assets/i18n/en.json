@@ -2579,7 +2579,9 @@
         "unableToupdateyourAchievementsPleaseTryAgain": "Unable to update your achievements at the moment. Please try again later.",
         "unableFetchCadreData": "unable to fetch cadre data. Please try again later.",
         "somethingWentWrongPleaseRefreshOrTryAgain": "Something went wrong. Please refresh or try again later.",
-        "profileImageSizeLimit": "Maximum upload file size: 2MB"
+        "profileImageSizeLimit": "Maximum upload file size: 2MB",
+        "withdrawRequestSuccess": "Your request has been withdrawn successfully",
+        "unableWithdrawRequest": "Unable to withdraw request, please try again later!"
 
     },
     "updteDesignation": {
