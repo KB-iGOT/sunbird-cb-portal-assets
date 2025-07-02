@@ -2556,6 +2556,7 @@
         "issueDate": "Issue Date",
         "pleaseSelectIssueDate": "Please select an issue date",
         "uploadFromSystem": "Upload from System",
+        "upload": "Upload",
         "dragFileToUpload": "Drag file to upload",
         "url": "URL",
         "pleaseGiveValidUrl": "Please give valid URL",
