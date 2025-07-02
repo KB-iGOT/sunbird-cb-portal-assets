@@ -2549,6 +2549,7 @@
         "egExcelBeginner": "e.g. Excel beginner",
         "pleaseEnterTitle": "Please enter a title",
         "specialCharNotAllowedExcept()$-/": "Special characters are not allowed, except for: ( ) & - /",
+        "specialCharNotAllowedExcept(),.": "Special characters are not allowed, except for: ( ) . ,",
         "issuingOrganisation": "Issuing Organisation",
         "specialCharNotAllowedExcept()$": "Special characters are not allowed, except for: ( ) &",
         "specialCharNotAllowedExcept()-": "Special characters are not allowed, except for: ( ) -",
