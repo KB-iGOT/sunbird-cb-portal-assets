@@ -2612,6 +2612,7 @@
     "egExcelBeginner": "उदाहरण: एक्सेल प्रारंभिक",
     "pleaseEnterTitle": "कृपया एक शीर्षक दर्ज करें",
     "specialCharNotAllowedExcept()$-/": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) & - /",
+    "specialCharNotAllowedExcept(),.": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) . ,",
     "issuingOrganisation": "जारी करने वाला संगठन",
     "specialCharNotAllowedExcept()$": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) &",
     "specialCharNotAllowedExcept()-": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) -",

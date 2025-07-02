@@ -2480,6 +2480,7 @@
     "egExcelBeginner": "ઉદાહરણ: એક્સેલ પ્રારંભિક",
     "pleaseEnterTitle": "મહેરબાની કરીને શીર્ષક દાખલ કરો",
     "specialCharNotAllowedExcept()$-/": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) & - /",
+    "specialCharNotAllowedExcept(),.": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) . ,",
     "issuingOrganisation": "જારી કરનાર સંસ્થા",
     "specialCharNotAllowedExcept()$": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) &",
     "specialCharNotAllowedExcept()-": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) -",
