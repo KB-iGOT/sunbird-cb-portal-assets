@@ -77,7 +77,7 @@
       "initialPaginationSize": 100,
       "initialPaginationSizeOptions": [5, 10, 25, 100],
       "canShowPagination": false,
-      "canShowMasterSelect": false,
+      "canShowMasterSelect": true,
       "canShowRefreshBtn": false,
       "canShowDeleteBtn": false,
       "canShowSelectedItems": false,
