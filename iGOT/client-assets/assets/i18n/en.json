@@ -2580,7 +2580,8 @@
         "somethingWentWrongPleaseRefreshOrTryAgain": "Something went wrong. Please refresh or try again later.",
         "profileImageSizeLimit": "Maximum upload file size: 2MB",
         "withdrawRequestSuccess": "Your request has been withdrawn successfully",
-        "unableWithdrawRequest": "Unable to withdraw request, please try again later!"
+        "unableWithdrawRequest": "Unable to withdraw request, please try again later!",
+        "save": "Save"
     },
     "updteDesignation": {
         "select": "Select"
