@@ -2512,7 +2512,8 @@
     "somethingWentWrongPleaseRefreshOrTryAgain": "કંઈક ખોટું થયું છે. કૃપા કરીને પેજને રિફ્રેશ કરો અથવા પછીથી ફરી પ્રયાસ કરો.",
     "profileImageSizeLimit": "મહત્તમ અપલોડ ફાઇલ કદ: 2MB",
     "withdrawRequestSuccess": "તમારી વિનંતી સફળતાપૂર્વક પાછી ખેંચી લેવામાં આવી છે",
-    "unableWithdrawRequest": "વિનંતી પાછી ખેંચવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો!"
+    "unableWithdrawRequest": "વિનંતી પાછી ખેંચવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો!",
+    "save": "સાચવો"
   },
   "updteDesignation": {
     "select": "પસંદ કરો"
@@ -2571,7 +2572,10 @@
     "push": "દબાણ સૂચના",
     "pushDesc": "મોબાઇલ પર પુશ સૂચનાઓ પ્રાપ્ત કરતા રહો.",
     "sms": "SMS સૂચના",
-    "smsDesc": "SMS સૂચનાઓ મેળવતા રહો."
+    "smsDesc": "SMS સૂચનાઓ મેળવતા રહો.",
+    "inApp": "એપ્લિકેશનમાં સૂચના",
+    "inAppDesc": "પ્લેટફોર્મ પર સૂચનાઓ પ્રાપ્ત કરતા રહો.",
+    "noNotifications": "કોઈ સૂચનાઓ મળી નથી!"
   },
   "myNotifications": {
     "notifications": "સૂચનાઓ"

@@ -2581,8 +2581,8 @@
         "somethingWentWrongPleaseRefreshOrTryAgain": "Something went wrong. Please refresh or try again later.",
         "profileImageSizeLimit": "Maximum upload file size: 2MB",
         "withdrawRequestSuccess": "Your request has been withdrawn successfully",
-        "unableWithdrawRequest": "Unable to withdraw request, please try again later!"
-
+        "unableWithdrawRequest": "Unable to withdraw request, please try again later!",
+        "save": "Save"
     },
     "updteDesignation": {
         "select": "Select"
@@ -2641,7 +2641,10 @@
         "push": "Push Notification",
         "pushDesc": "Keep receiving push notifications on mobile.",
         "sms": "SMS Notification",
-        "smsDesc": "Keep receiving SMS notifications."
+        "smsDesc": "Keep receiving SMS notifications.",
+        "inApp": "In-App Notification",
+        "inAppDesc": "Keep receiving notifications on the platform.",
+        "noNotifications": "No notifications found!"
     },
     "myNotifications": {
         "notifications": "Notifications"
