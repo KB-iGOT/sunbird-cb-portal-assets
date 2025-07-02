@@ -121,8 +121,8 @@
               ]
             },
             {
-              "name": "Custom Fileds",
-              "key": "custom-fileds",
+              "name": "Custom Fields",
+              "key": "custom-fields",
               "fragment": false,
               "render": true,
               "badges": {
