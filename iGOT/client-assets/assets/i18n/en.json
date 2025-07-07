@@ -1958,7 +1958,8 @@
         "years": "Years",
         "resource": "Resource ({{count}})",
         "resources": "Resources ({{count}})",
-        "externalContent": "External Content ({{count}})"
+        "externalContent": "External Content ({{count}})",
+        "comprehensiveAssessmentProgram": "Comprehensive Assessment Program"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",

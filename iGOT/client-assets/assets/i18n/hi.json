@@ -1933,7 +1933,8 @@
     "years": "वर्ष",
     "resource": "संसाधन ({{count}})",
     "resources": "संसाधन ({{count}})",
-    "externalContent": "बाहरी सामग्री ({{count}})"
+    "externalContent": "बाहरी सामग्री ({{count}})",
+    "comprehensiveAssessmentProgram":"व्यापक मूल्यांकन कार्यक्रम"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
