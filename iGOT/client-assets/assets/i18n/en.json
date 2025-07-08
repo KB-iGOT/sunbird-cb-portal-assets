@@ -1958,7 +1958,8 @@
         "years": "Years",
         "resource": "Resource ({{count}})",
         "resources": "Resources ({{count}})",
-        "externalContent": "External Content ({{count}})"
+        "externalContent": "External Content ({{count}})",
+        "comprehensiveAssessmentProgram": "Comprehensive Assessment Program"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
@@ -2551,6 +2552,7 @@
         "egExcelBeginner": "e.g. Excel beginner",
         "pleaseEnterTitle": "Please enter a title",
         "specialCharNotAllowedExcept()$-/": "Special characters are not allowed, except for: ( ) & - /",
+        "specialCharNotAllowedExcept(),.": "Special characters are not allowed, except for: ( ) . ,",
         "issuingOrganisation": "Issuing Organisation",
         "specialCharNotAllowedExcept()$": "Special characters are not allowed, except for: ( ) &",
         "specialCharNotAllowedExcept()-": "Special characters are not allowed, except for: ( ) -",
@@ -2558,6 +2560,7 @@
         "issueDate": "Issue Date",
         "pleaseSelectIssueDate": "Please select an issue date",
         "uploadFromSystem": "Upload from System",
+        "upload": "Upload",
         "dragFileToUpload": "Drag file to upload",
         "url": "URL",
         "pleaseGiveValidUrl": "Please give valid URL",

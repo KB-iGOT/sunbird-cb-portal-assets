@@ -92,7 +92,9 @@
   "accessControlGuide": {
     "summaryText": "Access Control lets you decide who can view or access the content. Here you can specify the content access via bulk upload, individual/s selection, or creating filtered groups. You can add one or more Karmayogi groups having conditional filters. Once the Karmayogis have been selected or filtered, You can save it or apply for immediate effect. Under the custom access you can also manage the visibility of the respective content.",
     "canShowSummaryTab": true,
-    "canShowTranscriptTab": true
+    "canShowTranscriptTab": true,
+    "instructionVideoPath": "/assets/videos/CBP-Karmayogi Bharat Access Settings Demo.mp4"
+
   },
   "visiblilityOnOff": {
     "label": "Visibility",
