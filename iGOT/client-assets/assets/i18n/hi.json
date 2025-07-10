@@ -1933,7 +1933,8 @@
     "years": "वर्ष",
     "resource": "संसाधन ({{count}})",
     "resources": "संसाधन ({{count}})",
-    "externalContent": "बाहरी सामग्री ({{count}})"
+    "externalContent": "बाहरी सामग्री ({{count}})",
+    "comprehensiveAssessmentProgram":"व्यापक मूल्यांकन कार्यक्रम"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
@@ -2614,6 +2615,7 @@
     "egExcelBeginner": "उदाहरण: एक्सेल प्रारंभिक",
     "pleaseEnterTitle": "कृपया एक शीर्षक दर्ज करें",
     "specialCharNotAllowedExcept()$-/": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) & - /",
+    "specialCharNotAllowedExcept(),.": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) . ,",
     "issuingOrganisation": "जारी करने वाला संगठन",
     "specialCharNotAllowedExcept()$": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) &",
     "specialCharNotAllowedExcept()-": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) -",
@@ -2621,6 +2623,7 @@
     "issueDate": "जारी करने की तिथि",
     "pleaseSelectIssueDate": "कृपया एक जारी करने की तिथि चुनें",
     "uploadFromSystem": "सिस्टम से अपलोड करें",
+    "upload": "अपलोड करें",
     "dragFileToUpload": "अपलोड करने के लिए फ़ाइल खींचें",
     "url": "यूआरएल",
     "pleaseGiveValidUrl": "कृपया एक मान्य यूआरएल दें",
