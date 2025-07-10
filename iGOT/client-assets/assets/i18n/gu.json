@@ -2518,7 +2518,9 @@
     "unableWithdrawRequest": "વિનંતી પાછી ખેંચવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો!",
     "save": "સાચવો",
     "blockThisProfile": "આ પ્રોફાઇલને બ્લોક કરો",
-    "youBlockedThisProfile": "તમે આ પ્રોફાઇલને બ્લોક કરી છે"
+    "youBlockedThisProfile": "તમે આ પ્રોફાઇલને બ્લોક કરી છે",
+    "connected": "કનેક્ટેડ"
+
 
   },
   "updteDesignation": {
