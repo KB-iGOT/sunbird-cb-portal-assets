@@ -2586,7 +2586,9 @@
         "profileImageSizeLimit": "Maximum upload file size: 2MB",
         "withdrawRequestSuccess": "Your request has been withdrawn successfully",
         "unableWithdrawRequest": "Unable to withdraw request, please try again later!",
-        "save": "Save"
+        "save": "Save",
+        "blockThisProfile": "Block this Profile",
+        "youBlockedThisProfile": "You blocked this profile"
     },
     "updteDesignation": {
         "select": "Select"
