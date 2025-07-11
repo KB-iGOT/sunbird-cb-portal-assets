@@ -2649,7 +2649,11 @@
     "profileImageSizeLimit": "अधिकतम अपलोड फ़ाइल आकार: 2MB",
     "withdrawRequestSuccess": "आपका अनुरोध सफलतापूर्वक वापस ले लिया गया है।",
     "unableWithdrawRequest": "अनुरोध वापस लेने में असमर्थ, कृपया बाद में फिर से प्रयास करें!",
-    "save": "बचाना"
+    "save": "बचाना",
+    "blockThisProfile": "इस प्रोफ़ाइल को ब्लॉक करें",
+    "youBlockedThisProfile": "आपने इस प्रोफ़ाइल को ब्लॉक किया है",
+    "connected": "कनेक्टेड"
+
   },
   "updteDesignation": {
     "select": "चुनना"

@@ -2516,7 +2516,12 @@
     "profileImageSizeLimit": "મહત્તમ અપલોડ ફાઇલ કદ: 2MB",
     "withdrawRequestSuccess": "તમારી વિનંતી સફળતાપૂર્વક પાછી ખેંચી લેવામાં આવી છે",
     "unableWithdrawRequest": "વિનંતી પાછી ખેંચવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો!",
-    "save": "સાચવો"
+    "save": "સાચવો",
+    "blockThisProfile": "આ પ્રોફાઇલને બ્લોક કરો",
+    "youBlockedThisProfile": "તમે આ પ્રોફાઇલને બ્લોક કરી છે",
+    "connected": "કનેક્ટેડ"
+
+
   },
   "updteDesignation": {
     "select": "પસંદ કરો"
