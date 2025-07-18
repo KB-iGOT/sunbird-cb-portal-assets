@@ -2573,6 +2573,8 @@
     "errorWhileFetchingConnectionRequests": "કનેક્શન વિનંતીઓ લાવવામાં ભૂલ આવી",
     "errorWhileFetchingConnections": "કનેક્શન્સ લાવવામાં ભૂલ આવી",
     "noConnectionsFound": "કોઈ કનેક્શન્સ મળ્યાં નહીં",
+    "noRecommendationsFound": "કોઈ ભલામણ મળી નથી",
+    "youDoNotHaveAnyConnectionsSendConnectionRequestsFromTheHomeTab": "તમારા પાસે કોઈ જોડાણ નથી, હોમ ટૅબમાંથી જોડાણ વિનંતીઓ મોકલો.",
     "noMentorsFound": "કોઈ માર્ગદર્શકો મળ્યાં નહીં",
     "noRequestsSent": "કોઈ વિનંતીઓ મોકલાઈ નથી",
     "noRequestsFound": "કોઈ વિનંતીઓ મળ્યાં નહીં",
