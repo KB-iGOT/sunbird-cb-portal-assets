@@ -2707,6 +2707,8 @@
     "errorWhileFetchingConnectionRequests": "कनेक्शन अनुरोध लाने में त्रुटि हुई",
     "errorWhileFetchingConnections": "कनेक्शंस लाने में त्रुटि हुई",
     "noConnectionsFound": "कोई कनेक्शंस नहीं मिले",
+    "noRecommendationsFound": "कोई सिफारिश नहीं मिली",
+    "youDoNotHaveAnyConnectionsSendConnectionRequestsFromTheHomeTab": "आपके पास कोई संपर्क नहीं है, होम टैब से संपर्क अनुरोध भेजें।",
     "noMentorsFound": "कोई मेंटर्स नहीं मिले",
     "noRequestsSent": "कोई अनुरोध नहीं भेजे गए",
     "noRequestsFound": "कोई अनुरोध नहीं मिले",
