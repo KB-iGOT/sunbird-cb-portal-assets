@@ -128,13 +128,12 @@
                         "path": "",
                         "payload": {
                           "request": {
-                              "retiredCoursesEnabled": false,
-                              "status": "In-Progress",
-                              "limit": 11
+                            "retiredCoursesEnabled": false,
+                            "status": "In-Progress",
+                            "limit": 11
                           }
+                        }
                       }
-                      
-                    }
                     }
                   }
                 ]
@@ -280,6 +279,7 @@
                             "subject",
                             "resourceType",
                             "primaryCategory",
+                            "courseCategory",
                             "contentType",
                             "channel",
                             "organisation",
@@ -377,6 +377,7 @@
                             "pkgVersion",
                             "posterImage",
                             "primaryCategory",
+                            "courseCategory",
                             "purpose",
                             "version",
                             "creatorLogo",
@@ -466,6 +467,7 @@
                             "subject",
                             "resourceType",
                             "primaryCategory",
+                            "courseCategory",
                             "contentType",
                             "channel",
                             "organisation",
@@ -566,6 +568,7 @@
                             "subject",
                             "resourceType",
                             "primaryCategory",
+                            "courseCategory",
                             "contentType",
                             "channel",
                             "organisation",
@@ -663,6 +666,7 @@
                             "subject",
                             "resourceType",
                             "primaryCategory",
+                            "courseCategory",
                             "contentType",
                             "channel",
                             "organisation",
@@ -766,6 +770,7 @@
                             "subject",
                             "resourceType",
                             "primaryCategory",
+                            "courseCategory",
                             "contentType",
                             "channel",
                             "organisation",
@@ -830,7 +835,6 @@
                     },
                     "filters": [],
                     "request": {
-                     
                       "searchV6": {
                         "request": {
                           "filters": [
@@ -843,7 +847,6 @@
                               ]
                             }
                           ],
-                          
                           "offset": 0,
                           "limit": 20,
                           "query": "",
@@ -865,6 +868,7 @@
                             "subject",
                             "resourceType",
                             "primaryCategory",
+                            "courseCategory",
                             "contentType",
                             "channel",
                             "organisation",
@@ -962,6 +966,7 @@
                             "subject",
                             "resourceType",
                             "primaryCategory",
+                            "courseCategory",
                             "contentType",
                             "channel",
                             "organisation",
