@@ -2519,6 +2519,7 @@
     "save": "સાચવો",
     "blockThisProfile": "આ પ્રોફાઇલને બ્લોક કરો",
     "youBlockedThisProfile": "તમે આ પ્રોફાઇલને બ્લોક કરી છે",
+    "youAreNotAuthorisedToSeeThisProfile": "તમે આ પ્રોફાઇલ જોવા માટે અધિકૃત નથી",
     "connected": "કનેક્ટેડ",
     "removeConnection": "કનેક્શન દૂર કરો",
     "areYouSureYouWantToIgnoreThisRequest": "શું તમે ખરેખર આ વિનંતીને અવગણવા માંગો છો?",
