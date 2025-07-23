@@ -2589,6 +2589,7 @@
         "save": "Save",
         "blockThisProfile": "Block this Profile",
         "youBlockedThisProfile": "You blocked this profile",
+        "youAreNotAuthorisedToSeeThisProfile": "You are not authorised to see this profile.",
         "connected": "Connected",
         "removeConnection": "Remove connection",
         "areYouSureYouWantToIgnoreThisRequest": "Are you sure you want to ignore this request?",
