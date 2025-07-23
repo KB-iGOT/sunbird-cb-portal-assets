@@ -10,6 +10,7 @@ RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /
     apt update && \
     apt install -y zip libjpeg-turbo-progs nasm
 
+    
 RUN npm install && npm run build
 
 RUN zip -r dist.zip dist
