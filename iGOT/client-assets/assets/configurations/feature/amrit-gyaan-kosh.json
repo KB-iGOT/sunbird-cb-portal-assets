@@ -171,10 +171,14 @@
             "sort_by": {
                 "lastUpdatedOn": "desc"
             },
+            "exists": [
+                "sectorDetails_v1.sectorName",
+                "resourceCategory"
+            ],
             "facets": [
                 "resourceCategory",
-                "sectorName",
-                "subSectorName",
+                "sectorDetails_v1.sectorName",
+                "sectorDetails_v1.subSectorName",
                 "contextStateOrUTs",
                 "contextYear",
                 "contextSDGs",
