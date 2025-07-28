@@ -1959,7 +1959,8 @@
         "resource": "Resource ({{count}})",
         "resources": "Resources ({{count}})",
         "externalContent": "External Content ({{count}})",
-        "comprehensiveAssessmentProgram": "Comprehensive Assessment Program"
+        "comprehensiveAssessmentProgram": "Comprehensive Assessment Program",
+        "multilingualCourse":"Multilingual Course"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
