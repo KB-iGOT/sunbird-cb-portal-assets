@@ -950,6 +950,9 @@
                               "primaryCategory": [
                                 "Course"
                               ],
+                              "courseCategory": [
+                                "Course"
+                              ],
                               "contentType": [
                                 "Course"
                               ]
