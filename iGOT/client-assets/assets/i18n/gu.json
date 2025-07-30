@@ -2529,7 +2529,8 @@
     "areYouSureYouWantToWithdrawThisRequest": "શું તમે ખરેખર આ વિનંતીને પાછી ખેંચવા માંગો છો?",
     "areYouSureYouWantToRemoveThisConnection": "શું તમે ખરેખર આ કનેક્શનને દૂર કરવા માંગો છો?",
     "areYouSureYouWantToUnblockThisUser": "શું તમે ખરેખર આ યુઝરને અનલૉક કરવા માંગો છો?",
-    "areYouSureYouWantToBlockThisConnection": "શું તમે ખરેખર આ કનેક્શનને બ્લોક કરવા માંગો છો?"
+    "areYouSureYouWantToBlockThisConnection": "શું તમે ખરેખર આ કનેક્શનને બ્લોક કરવા માંગો છો?",
+    "centralDeputation": "કેન્દ્રીય પ્રતિનિયુક્તિ"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "નેટવર્ક શોધો",
