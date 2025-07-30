@@ -280,6 +280,7 @@
                             "resourceType",
                             "primaryCategory",
                             "courseCategory",
+                            "languageMapV1",
                             "contentType",
                             "channel",
                             "organisation",
@@ -352,6 +353,9 @@
                             "primaryCategory": [
                               "Curated Program"
                             ],
+                            "courseCategory": [
+                              "Curated Program"
+                            ],
                             "contentType": [
                               "Course"
                             ]
@@ -378,6 +382,7 @@
                             "posterImage",
                             "primaryCategory",
                             "courseCategory",
+                            "languageMapV1",
                             "purpose",
                             "version",
                             "creatorLogo",
@@ -468,6 +473,7 @@
                             "resourceType",
                             "primaryCategory",
                             "courseCategory",
+                            "languageMapV1",
                             "contentType",
                             "channel",
                             "organisation",
@@ -569,6 +575,7 @@
                             "resourceType",
                             "primaryCategory",
                             "courseCategory",
+                            "languageMapV1",
                             "contentType",
                             "channel",
                             "organisation",
@@ -667,6 +674,7 @@
                             "resourceType",
                             "primaryCategory",
                             "courseCategory",
+                            "languageMapV1",
                             "contentType",
                             "channel",
                             "organisation",
@@ -771,6 +779,7 @@
                             "resourceType",
                             "primaryCategory",
                             "courseCategory",
+                            "languageMapV1",
                             "contentType",
                             "channel",
                             "organisation",
@@ -869,6 +878,7 @@
                             "resourceType",
                             "primaryCategory",
                             "courseCategory",
+                            "languageMapV1",
                             "contentType",
                             "channel",
                             "organisation",
@@ -940,6 +950,9 @@
                               "primaryCategory": [
                                 "Course"
                               ],
+                              "courseCategory": [
+                                "Course"
+                              ],
                               "contentType": [
                                 "Course"
                               ]
@@ -967,6 +980,7 @@
                             "resourceType",
                             "primaryCategory",
                             "courseCategory",
+                            "languageMapV1",
                             "contentType",
                             "channel",
                             "organisation",
