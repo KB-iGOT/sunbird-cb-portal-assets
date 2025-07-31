@@ -2663,8 +2663,8 @@
     "areYouSureYouWantToWithdrawThisRequest": "क्या आप वाकई इस अनुरोध को वापस लेना चाहते हैं?",
     "areYouSureYouWantToRemoveThisConnection": "क्या आप वाकई इस कनेक्शन को हटाना चाहते हैं?",
     "areYouSureYouWantToUnblockThisUser": "क्या आप वाकई इस उपयोगकर्ता को अनब्लॉक करना चाहते हैं?",
-    "areYouSureYouWantToBlockThisConnection": "क्या आप वाकई इस कनेक्शन को ब्लॉक करना चाहते हैं?"
-
+    "areYouSureYouWantToBlockThisConnection": "क्या आप वाकई इस कनेक्शन को ब्लॉक करना चाहते हैं?",
+    "centralDeputation": "केंद्रीय प्रतिनियुक्ति"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "नेटवर्क खोजें",
