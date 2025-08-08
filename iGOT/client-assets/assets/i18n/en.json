@@ -2600,7 +2600,8 @@
         "areYouSureYouWantToWithdrawThisRequest": "Are you sure you want to withdraw this request?",
         "areYouSureYouWantToRemoveThisConnection": "Are you sure you want to remove this connection?",
         "areYouSureYouWantToUnblockThisUser": "Are you sure you want to unblock this user?",
-        "areYouSureYouWantToBlockThisConnection": "Are you sure you want to block this connection?"
+        "areYouSureYouWantToBlockThisConnection": "Are you sure you want to block this connection?",
+        "centralDeputation": "Central Deputation"
     },
     "NetworkLandingPage": {
         "exploreNetwork": "Explore Network",
