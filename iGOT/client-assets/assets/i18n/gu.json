@@ -1118,7 +1118,9 @@
     "notifications": "સૂચનાઓ",
     "accountAndPassword": "ખાતું અને પાસવર્ડ",
     "privacy": "ગોપનીયતા",
-    "getStartedTour": "'શરૂ કરો' પ્રવાસ"
+    "getStartedTour": "'શરૂ કરો' પ્રવાસ",
+    "profile": "પ્રોફાઇલ",
+    "visibilityControl": "દૃશ્યતા નિયંત્રણ"
   },
   "contact": {
     "headerForAnyTech": "કોઈપણ તકનીકી સમસ્યાઓ માટે કૃપા કરીને સંપર્ક કરો,",
@@ -2530,7 +2532,8 @@
     "areYouSureYouWantToRemoveThisConnection": "શું તમે ખરેખર આ કનેક્શનને દૂર કરવા માંગો છો?",
     "areYouSureYouWantToUnblockThisUser": "શું તમે ખરેખર આ યુઝરને અનલૉક કરવા માંગો છો?",
     "areYouSureYouWantToBlockThisConnection": "શું તમે ખરેખર આ કનેક્શનને બ્લોક કરવા માંગો છો?",
-    "centralDeputation": "કેન્દ્રીય પ્રતિનિયુક્તિ"
+    "centralDeputation": "કેન્દ્રીય પ્રતિનિયુક્તિ",
+    "thisProfileIsLocked": "આ પ્રોફાઇલ લોક કરવામાં આવી છે"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "નેટવર્ક શોધો",
