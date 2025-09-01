@@ -1122,6 +1122,15 @@
     "profile": "પ્રોફાઇલ",
     "visibilityControl": "દૃશ્યતા નિયંત્રણ"
   },
+  "visibilitySettings": {
+    "public": "જાહેર",
+    "private": "ખાનગી",
+    "anyone": "કોઈપણ",
+    "connectionsOnly": "માત્ર જોડાણો",
+    "lockMyProfile": "મારી પ્રોફાઇલ લોક કરો",
+    "yourProfileDetailsWillBeVisibleToEveryone": "તમારી પ્રોફાઇલ વિગતો પ્લેટફોર્મ પર દરેકને દેખાશે.",
+    "selectingThisWillHideYourProfileDetailsFromEveryoneIncludingYourConnections": "આ વિકલ્પને પસંદ કરવાથી તમારી પ્રોફાઇલ વિગતો દરેકથી છુપાઈ જશે, જેમાં તમારા કનેક્શન પણ સામેલ છે."
+  },
   "contact": {
     "headerForAnyTech": "કોઈપણ તકનીકી સમસ્યાઓ માટે કૃપા કરીને સંપર્ક કરો,",
     "email": "ઇ-મેઇલ",
@@ -2347,6 +2356,7 @@
     "approvalStatusFailed": "તમામ ક્ષેત્રોની મંજૂરીની સ્થિતિ મેળવવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
     "rejectedStatusFailed": "નકારાયેલ સ્થિતિ ક્ષેત્રો મેળવવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
     "editProfile": "પ્રોફાઇલ સંપાદિત કરો",
+    "settings": "સેટિંગ્સ",
     "profileNotVerified": "પ્રોફાઇલ ચકાસાયેલ નથી",
     "makeTransferRequest": "સ્થાનાંતરણ વિનંતી કરો",
     "withdrawTransferRequest": "સ્થાનાંતરણ વિનંતી પાછી ખેંચો",

@@ -1134,6 +1134,15 @@
         "profile": "Profile",
         "visibilityControl": "Visibility Control"
     },
+    "visibilitySettings": {
+        "public": "Public",
+        "private": "Private",
+        "anyone": "Anyone",
+        "connectionsOnly": "Connections Only",
+        "lockMyProfile": "No One/Lock my profile",
+        "yourProfileDetailsWillBeVisibleToEveryone": "Your profile details will be visible to everyone on the platform.",
+        "selectingThisWillHideYourProfileDetailsFromEveryoneIncludingYourConnections": "Selecting this option will hide your profile details from everyone, including your connections."
+    },
     "contact": {
         "headerForAnyTech": "For any technical issues please contact,",
         "email": "Email",
@@ -2418,6 +2427,7 @@
         "approvalStatusFailed": "Unable to get approval status of all fields, please try again later",
         "rejectedStatusFailed": "Unable to fetch rejected status fields, please try again later",
         "editProfile": "Edit Profile",
+        "settings": "Settings",
         "profileNotVerified": "Profile not verified",
         "makeTransferRequest": "Make Transfer Request",
         "withdrawTransferRequest": "Withdraw Transfer Request",
