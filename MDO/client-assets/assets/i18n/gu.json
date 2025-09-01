@@ -1852,7 +1852,9 @@
     "event": "ઈવેન્ટ્સ ({{count}})",
     "peoples": "લોકો ({{count}})",
     "communities": "સમુદાયો ({{count}})",
-    "seeAllResults": "બધા પરિણામો જુઓ"
+    "seeAllResults": "બધા પરિણામો જુઓ",
+    "designations": "હોદ્દા",
+    "trainingPlans": "તાલીમ યોજના"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",

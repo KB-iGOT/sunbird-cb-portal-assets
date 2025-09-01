@@ -41,7 +41,9 @@
       { "disabled": false, "name": "Custom", "value": "custom", "tooltip": "Karmayogis will be filtered based on the access provided via bulk or individual selection, or user group." }
     ],
     "readOnly": false,
-    "allowCustomsField": false
+    "canShowAccessTypeRadio": false,
+    "shouldShowVisibilityToggle": false,
+    "allowCustomsField": true
   },
 
   "usersTableConfig": {
@@ -103,6 +105,5 @@
     "off": "If visibility is set to off, the Karmayogis will NOT be able to search and view the {contentType} on the iGOT portal.",
     "default": "on"
   },
-  "userConfig": {},
-  "application:": "cbp_portal"
+  "application": "mdo_portal"
 }

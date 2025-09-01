@@ -222,7 +222,26 @@
       "key": "Network Home",
       "badges": { "enabled": true, "uri": "" },
       "enabled": true,
-      "icon": "fusion-assets/images/play_circle.svg"
+      "img": "fusion-assets/images/play_circle.svg"
+    },
+    {
+      "name": "profile",
+      "key": "Network Home",
+      "badges": { "enabled": true, "uri": "" },
+      "icon": null,
+      "img": null,
+      "enabled": true,
+      "children": [
+        {
+          "name": "visibilityControl",
+          "key": "Network Home",
+          "badges": { "enabled": true, "uri": "" },
+          "icon": "visibility",
+          "img": null,
+          "enabled": true,
+          "routerLink": "/app/profile/profile-visibility"
+        }
+      ]
     }
   ]
 }
