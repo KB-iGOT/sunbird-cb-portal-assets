@@ -42,7 +42,8 @@
     ],
     "readOnly": false,
     "canShowAccessTypeRadio": false,
-    "shouldShowVisibilityToggle": false
+    "shouldShowVisibilityToggle": false,
+    "allowCustomsField": true
   },
 
   "usersTableConfig": {
@@ -96,7 +97,6 @@
     "canShowSummaryTab": true,
     "canShowTranscriptTab": true,
     "instructionVideoPath": "/assets/videos/CBP-Karmayogi Bharat Access Settings Demo.mp4"
-
   },
   "visiblilityOnOff": {
     "label": "Visibility",
@@ -105,6 +105,5 @@
     "off": "If visibility is set to off, the Karmayogis will NOT be able to search and view the {contentType} on the iGOT portal.",
     "default": "on"
   },
-  "userConfig": {},
   "application": "mdo_portal"
 }
