@@ -426,14 +426,13 @@
                       }
                     },
                     "viewMoreUrl": {
-                      "path": "/app/globalsearch/all",
+                      "path": "/app/globalsearch",
                       "queryParams": {
                         "tab": "Learn",
                         "q": "",
-                        "p": "featuredCourses",
+                        "p": "Trending",
                         "f": "{\"primaryCategory\": [\"Course\"], \"contentType\": [\"Course\"]}",
-                        "key": "latest",
-                        "name":"Featured Courses"
+                        "key": "latest"
                       }
                     },
                     "stripConfig": {
