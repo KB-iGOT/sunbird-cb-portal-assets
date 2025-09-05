@@ -423,6 +423,8 @@
     "authors": "લેખકો",
     "curator": "ક્યુરેટર",
     "curators": "ક્યુરેટર્સ",
+    "creator": "સર્જક",
+    "creators": "સર્જકો",
     "programDirectorFacilitators": "પ્રોગ્રામ ડિરેક્ટર અને ફેસિલિટેટર",
     "facilitator": "સુવિધા આપનાર",
     "competencies": "કુશળતા",
@@ -2602,7 +2604,6 @@
     "areYouSureYouWantToUnblockThisUser": "શું તમે ખરેખર આ યુઝરને અનલૉક કરવા માંગો છો?",
     "areYouSureYouWantToBlockThisConnection": "શું તમે ખરેખર આ કનેક્શનને બ્લોક કરવા માંગો છો?"
   },
-
   "updteDesignation": {
     "select": "પસંદ કરો"
   },

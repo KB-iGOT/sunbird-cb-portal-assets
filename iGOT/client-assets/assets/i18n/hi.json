@@ -427,6 +427,8 @@
     "authors": "लेखक",
     "curator": "क्यूरेटर",
     "curators": "क्यूरेटर",
+    "creator": "निर्माता",
+    "creators": "रचनाकारों",
     "programDirectorFacilitators": "कार्यक्रम निदेशक और फसीलीटेटर",
     "facilitator": "फसिलीटेटर",
     "competencies": "कॉम्पीटेन्सी",
@@ -1945,8 +1947,8 @@
     "resource": "संसाधन ({{count}})",
     "resources": "संसाधन ({{count}})",
     "externalContent": "बाहरी सामग्री ({{count}})",
-    "comprehensiveAssessmentProgram":"व्यापक मूल्यांकन कार्यक्रम",
-    "multilingualCourse":"बहुभाषी पाठ्यक्रम"
+    "comprehensiveAssessmentProgram": "व्यापक मूल्यांकन कार्यक्रम",
+    "multilingualCourse": "बहुभाषी पाठ्यक्रम"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
@@ -2678,7 +2680,6 @@
     "areYouSureYouWantToBlockThisConnection": "क्या आप वाकई इस कनेक्शन को ब्लॉक करना चाहते हैं?",
     "centralDeputation": "केंद्रीय प्रतिनियुक्ति",
     "thisProfileIsLocked": "यह प्रोफ़ाइल लॉक की गई है।"
-
   },
   "NetworkLandingPage": {
     "exploreNetwork": "नेटवर्क खोजें",

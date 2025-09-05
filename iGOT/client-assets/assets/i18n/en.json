@@ -427,6 +427,8 @@
         "authors": "Authors",
         "curator": "Curator",
         "curators": "Curators",
+        "creator": "Creator",
+        "creators": "Creators",
         "programDirectorFacilitators": "Program director & facilitators",
         "facilitator": "Facilitator",
         "competencies": "Competencies",
@@ -1971,7 +1973,7 @@
         "resources": "Resources ({{count}})",
         "externalContent": "External Content ({{count}})",
         "comprehensiveAssessmentProgram": "Comprehensive Assessment Program",
-        "multilingualCourse":"Multilingual Course"
+        "multilingualCourse": "Multilingual Course"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
@@ -2672,9 +2674,7 @@
         "areYouSureYouWantToRemoveThisConnection": "Are you sure you want to remove this connection?",
         "areYouSureYouWantToUnblockThisUser": "Are you sure you want to unblock this user?",
         "areYouSureYouWantToBlockThisConnection": "Are you sure you want to block this connection?"
-
     },
-
     "updteDesignation": {
         "select": "Select"
     },
