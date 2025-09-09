@@ -43,7 +43,8 @@
     "readOnly": false,
     "canShowAccessTypeRadio": false,
     "shouldShowVisibilityToggle": false,
-    "allowCustomsField": true
+    "allowCustomsField": true,
+    "paginationLimit": 100
   },
 
   "usersTableConfig": {
