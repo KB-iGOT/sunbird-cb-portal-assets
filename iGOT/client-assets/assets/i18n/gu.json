@@ -423,6 +423,8 @@
     "authors": "લેખકો",
     "curator": "ક્યુરેટર",
     "curators": "ક્યુરેટર્સ",
+    "creator": "સર્જક",
+    "creators": "સર્જકો",
     "programDirectorFacilitators": "પ્રોગ્રામ ડિરેક્ટર અને ફેસિલિટેટર",
     "facilitator": "સુવિધા આપનાર",
     "competencies": "કુશળતા",
@@ -1121,6 +1123,15 @@
     "getStartedTour": "'શરૂ કરો' પ્રવાસ",
     "profile": "પ્રોફાઇલ",
     "visibilityControl": "દૃશ્યતા નિયંત્રણ"
+  },
+  "visibilitySettings": {
+    "public": "જાહેર",
+    "private": "ખાનગી",
+    "anyone": "કોઈપણ",
+    "connectionsOnly": "માત્ર જોડાણો",
+    "lockMyProfile": "મારી પ્રોફાઇલ લોક કરો",
+    "yourProfileDetailsWillBeVisibleToEveryone": "તમારી પ્રોફાઇલ વિગતો પ્લેટફોર્મ પર દરેકને દેખાશે.",
+    "selectingThisWillHideYourProfileDetailsFromEveryoneIncludingYourConnections": "આ વિકલ્પને પસંદ કરવાથી તમારી પ્રોફાઇલ વિગતો દરેકથી છુપાઈ જશે, જેમાં તમારા કનેક્શન પણ સામેલ છે."
   },
   "contact": {
     "headerForAnyTech": "કોઈપણ તકનીકી સમસ્યાઓ માટે કૃપા કરીને સંપર્ક કરો,",
@@ -2347,6 +2358,7 @@
     "approvalStatusFailed": "તમામ ક્ષેત્રોની મંજૂરીની સ્થિતિ મેળવવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
     "rejectedStatusFailed": "નકારાયેલ સ્થિતિ ક્ષેત્રો મેળવવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
     "editProfile": "પ્રોફાઇલ સંપાદિત કરો",
+    "settings": "સેટિંગ્સ",
     "profileNotVerified": "પ્રોફાઇલ ચકાસાયેલ નથી",
     "makeTransferRequest": "સ્થાનાંતરણ વિનંતી કરો",
     "withdrawTransferRequest": "સ્થાનાંતરણ વિનંતી પાછી ખેંચો",
@@ -2592,7 +2604,6 @@
     "areYouSureYouWantToUnblockThisUser": "શું તમે ખરેખર આ યુઝરને અનલૉક કરવા માંગો છો?",
     "areYouSureYouWantToBlockThisConnection": "શું તમે ખરેખર આ કનેક્શનને બ્લોક કરવા માંગો છો?"
   },
-
   "updteDesignation": {
     "select": "પસંદ કરો"
   },

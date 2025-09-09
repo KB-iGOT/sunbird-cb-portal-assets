@@ -427,6 +427,8 @@
         "authors": "Authors",
         "curator": "Curator",
         "curators": "Curators",
+        "creator": "Creator",
+        "creators": "Creators",
         "programDirectorFacilitators": "Program director & facilitators",
         "facilitator": "Facilitator",
         "competencies": "Competencies",
@@ -1133,6 +1135,15 @@
         "getStartedTour": "'Get Started' tour",
         "profile": "Profile",
         "visibilityControl": "Visibility Control"
+    },
+    "visibilitySettings": {
+        "public": "Public",
+        "private": "Private",
+        "anyone": "Anyone",
+        "connectionsOnly": "Connections Only",
+        "lockMyProfile": "No One/Lock my profile",
+        "yourProfileDetailsWillBeVisibleToEveryone": "Your profile details will be visible to everyone on the platform.",
+        "selectingThisWillHideYourProfileDetailsFromEveryoneIncludingYourConnections": "Selecting this option will hide your profile details from everyone, including your connections."
     },
     "contact": {
         "headerForAnyTech": "For any technical issues please contact,",
@@ -1962,7 +1973,7 @@
         "resources": "Resources ({{count}})",
         "externalContent": "External Content ({{count}})",
         "comprehensiveAssessmentProgram": "Comprehensive Assessment Program",
-        "multilingualCourse":"Multilingual Course"
+        "multilingualCourse": "Multilingual Course"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
@@ -2418,6 +2429,7 @@
         "approvalStatusFailed": "Unable to get approval status of all fields, please try again later",
         "rejectedStatusFailed": "Unable to fetch rejected status fields, please try again later",
         "editProfile": "Edit Profile",
+        "settings": "Settings",
         "profileNotVerified": "Profile not verified",
         "makeTransferRequest": "Make Transfer Request",
         "withdrawTransferRequest": "Withdraw Transfer Request",
@@ -2662,9 +2674,7 @@
         "areYouSureYouWantToRemoveThisConnection": "Are you sure you want to remove this connection?",
         "areYouSureYouWantToUnblockThisUser": "Are you sure you want to unblock this user?",
         "areYouSureYouWantToBlockThisConnection": "Are you sure you want to block this connection?"
-
     },
-
     "updteDesignation": {
         "select": "Select"
     },

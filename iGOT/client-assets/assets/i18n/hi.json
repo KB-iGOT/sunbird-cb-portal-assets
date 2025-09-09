@@ -427,6 +427,8 @@
     "authors": "लेखक",
     "curator": "क्यूरेटर",
     "curators": "क्यूरेटर",
+    "creator": "निर्माता",
+    "creators": "रचनाकारों",
     "programDirectorFacilitators": "कार्यक्रम निदेशक और फसीलीटेटर",
     "facilitator": "फसिलीटेटर",
     "competencies": "कॉम्पीटेन्सी",
@@ -1131,6 +1133,15 @@
     "getStartedTour": "'शुरू करो' दौरा",
     "profile": "प्रोफ़ाइल",
     "visibilityControl": "दृश्यता नियंत्रण"
+  },
+  "visibilitySettings": {
+    "public": "सार्वजनिक",
+    "private": "निजी",
+    "anyone": "कोई भी",
+    "connectionsOnly": "केवल कनेक्शन",
+    "lockMyProfile": "मेरी प्रोफ़ाइल लॉक करें",
+    "yourProfileDetailsWillBeVisibleToEveryone": "आपकी प्रोफ़ाइल विवरण प्लेटफ़ॉर्म पर सभी को दिखाई देंगे।",
+    "selectingThisWillHideYourProfileDetailsFromEveryoneIncludingYourConnections": "इस विकल्प को चुनने से आपकी प्रोफ़ाइल विवरण सभी से छिप जाएगी, जिसमें आपके कनेक्शन भी शामिल हैं।"
   },
   "contact": {
     "headerForAnyTech": "किसी भी तकनीकी समस्या के लिए कृपया संपर्क करें,",
@@ -1936,8 +1947,8 @@
     "resource": "संसाधन ({{count}})",
     "resources": "संसाधन ({{count}})",
     "externalContent": "बाहरी सामग्री ({{count}})",
-    "comprehensiveAssessmentProgram":"व्यापक मूल्यांकन कार्यक्रम",
-    "multilingualCourse":"बहुभाषी पाठ्यक्रम"
+    "comprehensiveAssessmentProgram": "व्यापक मूल्यांकन कार्यक्रम",
+    "multilingualCourse": "बहुभाषी पाठ्यक्रम"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
@@ -2481,6 +2492,7 @@
     "approvalStatusFailed": "सभी क्षेत्रों की अनुमोदन स्थिति प्राप्त करने में असमर्थ, कृपया बाद में फिर से प्रयास करें",
     "rejectedStatusFailed": "अस्वीकृत स्थिति क्षेत्रों को लाने में असमर्थ, कृपया बाद में फिर से प्रयास करें",
     "editProfile": "प्रोफाइल एडिट करें",
+    "settings": "सेटिंग्स",
     "profileNotVerified": "प्रोफ़ाइल सत्यापित नहीं है",
     "makeTransferRequest": "स्थानांतरण अनुरोध करें",
     "withdrawTransferRequest": "स्थानांतरण अनुरोध वापस लें",
@@ -2668,7 +2680,6 @@
     "areYouSureYouWantToBlockThisConnection": "क्या आप वाकई इस कनेक्शन को ब्लॉक करना चाहते हैं?",
     "centralDeputation": "केंद्रीय प्रतिनियुक्ति",
     "thisProfileIsLocked": "यह प्रोफ़ाइल लॉक की गई है।"
-
   },
   "NetworkLandingPage": {
     "exploreNetwork": "नेटवर्क खोजें",
