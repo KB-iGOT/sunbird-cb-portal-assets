@@ -248,7 +248,8 @@
         "all": "All",
         "upcoming": "Upcoming",
         "overdue": "Overdue",
-        "completed": "Completed"
+        "completed": "Completed",
+        "apar": "APAR"
     },
     "cardcontentv2": {
         "viewDetails": "View details",
@@ -1518,7 +1519,8 @@
         "trendingevents": "Trending Events",
         "featuredevents": "Featured Events",
         "myevents": "My Events",
-        "thereAreNoEvents": "There are no Events"
+        "thereAreNoEvents": "There are no Events",
+        "youWillSeeAllTheContentsThatIsAparMarked": "You will see all the contents that is APAR marked."
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",

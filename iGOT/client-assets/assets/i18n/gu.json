@@ -245,7 +245,8 @@
     "all": "બધા",
     "upcoming": "આગામી તા.",
     "overdue": "ઓવરડ્યુ",
-    "completed": "પૂર્ણ થયું"
+    "completed": "પૂર્ણ થયું",
+    "apar": "એ.પી.એ.આર."
   },
   "cardcontentv2": {
     "viewDetails": "વિગતો જુઓ",
@@ -1495,7 +1496,8 @@
     "recommendedevents": "ભલામણ કરેલ ઇવેન્ટ્સ",
     "trendingevents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
     "featuredevents": "ફીચર્ડ ઇવેન્ટ્સ",
-    "thereAreNoEvents": "ત્યાં કોઈ ઇવેન્ટ્સ નથી"
+    "thereAreNoEvents": "ત્યાં કોઈ ઇવેન્ટ્સ નથી",
+    "youWillSeeAllTheContentsThatIsAparMarked": "તમે તમામ એ સામગ્રી જુઓ છો જે APAR તરીકે ચિહ્નિત છે."
   },
   "homeotherportals": {
     "otherPortals": "તમારી પાસે ઍક્સેસ હોય તેવા અન્ય પોર્ટલ",
