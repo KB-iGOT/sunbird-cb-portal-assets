@@ -5,7 +5,6 @@
       { "disabled": false, "value": "rootOrgId", "label": "Organisation" },
       { "disabled": false, "value": "group", "label": "Group" },
       { "disabled": false, "value": "designation", "label": "Designation" },
-      { "disabled": false, "value": "profilestatus", "label": "Verification Status" },
       { "disabled": false, "value": "service", "label": "Service" },
       { "disabled": false, "value": "Cadre", "label": "Cadre" },
       { "disabled": false, "value": "batch", "label": "Batch" }
