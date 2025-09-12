@@ -248,8 +248,7 @@
     "all": "सभी",
     "upcoming": "आने वाला है",
     "overdue": "बहुत देर",
-    "completed": "पूरा किया",
-    "apar": "ए.पी.ए.आर."
+    "completed": "पूरा किया"
   },
   "cardcontentv2": {
     "viewDetails": "विवरण देखें",
@@ -428,8 +427,6 @@
     "authors": "लेखक",
     "curator": "क्यूरेटर",
     "curators": "क्यूरेटर",
-    "creator": "निर्माता",
-    "creators": "रचनाकारों",
     "programDirectorFacilitators": "कार्यक्रम निदेशक और फसीलीटेटर",
     "facilitator": "फसिलीटेटर",
     "competencies": "कॉम्पीटेन्सी",
@@ -1135,15 +1132,6 @@
     "profile": "प्रोफ़ाइल",
     "visibilityControl": "दृश्यता नियंत्रण"
   },
-  "visibilitySettings": {
-    "public": "सार्वजनिक",
-    "private": "निजी",
-    "anyone": "कोई भी",
-    "connectionsOnly": "केवल कनेक्शन",
-    "lockMyProfile": "मेरी प्रोफ़ाइल लॉक करें",
-    "yourProfileDetailsWillBeVisibleToEveryone": "आपकी प्रोफ़ाइल विवरण प्लेटफ़ॉर्म पर सभी को दिखाई देंगे।",
-    "selectingThisWillHideYourProfileDetailsFromEveryoneIncludingYourConnections": "इस विकल्प को चुनने से आपकी प्रोफ़ाइल विवरण सभी से छिप जाएगी, जिसमें आपके कनेक्शन भी शामिल हैं।"
-  },
   "contact": {
     "headerForAnyTech": "किसी भी तकनीकी समस्या के लिए कृपया संपर्क करें,",
     "email": "ईमेल करें।",
@@ -1511,8 +1499,7 @@
     "recommendedevents": "अनुशंसित घटनाएँ",
     "trendingevents": "रुझान वाली घटनाएँ",
     "featuredevents": "विशेष घटनाएँ",
-    "thereAreNoEvents": "कोई इवेंट नहीं हैं",
-    "youWillSeeAllTheContentsThatIsAparMarked": "आपको यहाँ सभी कंटेन्ट दिखेगा जो ए.पी.ए.आर. के तहत चिह्नित है।"
+    "thereAreNoEvents": "कोई इवेंट नहीं हैं"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
@@ -1895,7 +1882,15 @@
     "event": "घटनाएँ ({{count}})",
     "peoples": "लोग ({{count}})",
     "communities": "समुदाय ({{count}})",
-    "seeAllResults": "सभी परिणाम देखें"
+    "seeAllResults": "सभी परिणाम देखें",
+    "designations": "पदनाम",
+    "trainingPlans": "प्रशिक्षण योजना",
+    "startImportingDesignation": "पदनाम आयात करना प्रारंभ करें",
+    "users": "उपयोगकर्ता ({{count}})",
+    "verificationStatus": "सत्यापन स्थिति",
+    "groups": "समूह",
+    "roles": "भूमिकाएँ",
+    "onBoardingDateRange": "ऑनबोर्डिंग तिथि सीमा"
   },
   "searchfilters": {
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
@@ -2494,7 +2489,6 @@
     "approvalStatusFailed": "सभी क्षेत्रों की अनुमोदन स्थिति प्राप्त करने में असमर्थ, कृपया बाद में फिर से प्रयास करें",
     "rejectedStatusFailed": "अस्वीकृत स्थिति क्षेत्रों को लाने में असमर्थ, कृपया बाद में फिर से प्रयास करें",
     "editProfile": "प्रोफाइल एडिट करें",
-    "settings": "सेटिंग्स",
     "profileNotVerified": "प्रोफ़ाइल सत्यापित नहीं है",
     "makeTransferRequest": "स्थानांतरण अनुरोध करें",
     "withdrawTransferRequest": "स्थानांतरण अनुरोध वापस लें",
