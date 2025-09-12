@@ -245,8 +245,7 @@
     "all": "બધા",
     "upcoming": "આગામી તા.",
     "overdue": "ઓવરડ્યુ",
-    "completed": "પૂર્ણ થયું",
-    "apar": "એ.પી.એ.આર."
+    "completed": "પૂર્ણ થયું"
   },
   "cardcontentv2": {
     "viewDetails": "વિગતો જુઓ",
@@ -424,8 +423,6 @@
     "authors": "લેખકો",
     "curator": "ક્યુરેટર",
     "curators": "ક્યુરેટર્સ",
-    "creator": "સર્જક",
-    "creators": "સર્જકો",
     "programDirectorFacilitators": "પ્રોગ્રામ ડિરેક્ટર અને ફેસિલિટેટર",
     "facilitator": "સુવિધા આપનાર",
     "competencies": "કુશળતા",
@@ -1125,15 +1122,6 @@
     "profile": "પ્રોફાઇલ",
     "visibilityControl": "દૃશ્યતા નિયંત્રણ"
   },
-  "visibilitySettings": {
-    "public": "જાહેર",
-    "private": "ખાનગી",
-    "anyone": "કોઈપણ",
-    "connectionsOnly": "માત્ર જોડાણો",
-    "lockMyProfile": "મારી પ્રોફાઇલ લોક કરો",
-    "yourProfileDetailsWillBeVisibleToEveryone": "તમારી પ્રોફાઇલ વિગતો પ્લેટફોર્મ પર દરેકને દેખાશે.",
-    "selectingThisWillHideYourProfileDetailsFromEveryoneIncludingYourConnections": "આ વિકલ્પને પસંદ કરવાથી તમારી પ્રોફાઇલ વિગતો દરેકથી છુપાઈ જશે, જેમાં તમારા કનેક્શન પણ સામેલ છે."
-  },
   "contact": {
     "headerForAnyTech": "કોઈપણ તકનીકી સમસ્યાઓ માટે કૃપા કરીને સંપર્ક કરો,",
     "email": "ઇ-મેઇલ",
@@ -1507,8 +1495,7 @@
     "recommendedevents": "ભલામણ કરેલ ઇવેન્ટ્સ",
     "trendingevents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
     "featuredevents": "ફીચર્ડ ઇવેન્ટ્સ",
-    "thereAreNoEvents": "ત્યાં કોઈ ઇવેન્ટ્સ નથી",
-    "youWillSeeAllTheContentsThatIsAparMarked": "તમે તમામ એ સામગ્રી જુઓ છો જે APAR તરીકે ચિહ્નિત છે."
+    "thereAreNoEvents": "ત્યાં કોઈ ઇવેન્ટ્સ નથી"
   },
   "homeotherportals": {
     "otherPortals": "તમારી પાસે ઍક્સેસ હોય તેવા અન્ય પોર્ટલ",
@@ -1865,7 +1852,9 @@
     "event": "ઈવેન્ટ્સ ({{count}})",
     "peoples": "લોકો ({{count}})",
     "communities": "સમુદાયો ({{count}})",
-    "seeAllResults": "બધા પરિણામો જુઓ"
+    "seeAllResults": "બધા પરિણામો જુઓ",
+    "designations": "હોદ્દા",
+    "trainingPlans": "તાલીમ યોજના"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",
@@ -2360,7 +2349,6 @@
     "approvalStatusFailed": "તમામ ક્ષેત્રોની મંજૂરીની સ્થિતિ મેળવવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
     "rejectedStatusFailed": "નકારાયેલ સ્થિતિ ક્ષેત્રો મેળવવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
     "editProfile": "પ્રોફાઇલ સંપાદિત કરો",
-    "settings": "સેટિંગ્સ",
     "profileNotVerified": "પ્રોફાઇલ ચકાસાયેલ નથી",
     "makeTransferRequest": "સ્થાનાંતરણ વિનંતી કરો",
     "withdrawTransferRequest": "સ્થાનાંતરણ વિનંતી પાછી ખેંચો",
@@ -2606,6 +2594,7 @@
     "areYouSureYouWantToUnblockThisUser": "શું તમે ખરેખર આ યુઝરને અનલૉક કરવા માંગો છો?",
     "areYouSureYouWantToBlockThisConnection": "શું તમે ખરેખર આ કનેક્શનને બ્લોક કરવા માંગો છો?"
   },
+
   "updteDesignation": {
     "select": "પસંદ કરો"
   },

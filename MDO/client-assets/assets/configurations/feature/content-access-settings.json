@@ -5,7 +5,6 @@
       { "disabled": false, "value": "rootOrgId", "label": "Organisation" },
       { "disabled": false, "value": "group", "label": "Group" },
       { "disabled": false, "value": "designation", "label": "Designation" },
-      { "disabled": false, "value": "profilestatus", "label": "Verification Status" },
       { "disabled": false, "value": "service", "label": "Service" },
       { "disabled": false, "value": "Cadre", "label": "Cadre" },
       { "disabled": false, "value": "batch", "label": "Batch" }
@@ -41,7 +40,10 @@
       { "disabled": false, "name": "Custom", "value": "custom", "tooltip": "Karmayogis will be filtered based on the access provided via bulk or individual selection, or user group." }
     ],
     "readOnly": false,
-    "allowCustomsField": false
+    "canShowAccessTypeRadio": false,
+    "shouldShowVisibilityToggle": false,
+    "allowCustomsField": true,
+    "paginationLimit": 100
   },
 
   "usersTableConfig": {
@@ -103,6 +105,5 @@
     "off": "If visibility is set to off, the Karmayogis will NOT be able to search and view the {contentType} on the iGOT portal.",
     "default": "on"
   },
-  "userConfig": {},
-  "application:": "cbp_portal"
+  "application": "mdo_portal"
 }
