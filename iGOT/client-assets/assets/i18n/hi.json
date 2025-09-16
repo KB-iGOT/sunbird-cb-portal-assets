@@ -248,7 +248,8 @@
     "all": "सभी",
     "upcoming": "आने वाला है",
     "overdue": "बहुत देर",
-    "completed": "पूरा किया"
+    "completed": "पूरा किया",
+    "apar": "ए.पी.ए.आर."
   },
   "cardcontentv2": {
     "viewDetails": "विवरण देखें",
@@ -1510,7 +1511,8 @@
     "recommendedevents": "अनुशंसित घटनाएँ",
     "trendingevents": "रुझान वाली घटनाएँ",
     "featuredevents": "विशेष घटनाएँ",
-    "thereAreNoEvents": "कोई इवेंट नहीं हैं"
+    "thereAreNoEvents": "कोई इवेंट नहीं हैं",
+    "youWillSeeAllTheContentsThatIsAparMarked": "आपको यहाँ सभी कंटेन्ट दिखेगा जो ए.पी.ए.आर. के तहत चिह्नित है।"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
