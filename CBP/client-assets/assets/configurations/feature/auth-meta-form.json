@@ -1,6 +1,6 @@
 {
   "accessSetting": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -138,7 +138,7 @@
       "Blended Program": []
     },
     "showFor": {
-      "Standalone Assessment": [], 
+      "Standalone Assessment": [],
       "Course": [],
       "Program": [],
       "Curated Program": []
@@ -146,7 +146,7 @@
     "type": "string"
   },
   "accessPaths": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -292,7 +292,7 @@
     "type": "array"
   },
   "additionalDownloadLink": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -421,8 +421,7 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
@@ -439,7 +438,7 @@
     "type": "string"
   },
   "appIcon": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -734,11 +733,10 @@
       "Course": [],
       "Program": [],
       "Curated Program": [],
-      "Blended Program":[],
+      "Blended Program": [],
       "Learning Resource": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "array"
   },
   "competencies_v6": {
@@ -876,7 +874,7 @@
       "Course": [],
       "Program": [],
       "Curated Program": [],
-      "Blended Program":[],
+      "Blended Program": [],
       "Learning Resource": [],
       "Standalone Assessment": []
     },
@@ -890,7 +888,7 @@
       "Course": [],
       "Program": [],
       "Curated Program": [],
-      "Blended Program":[],
+      "Blended Program": [],
       "Learning Resource": [],
       "Standalone Assessment": []
     },
@@ -1040,12 +1038,12 @@
       "Course": [],
       "Program": [],
       "Curated Program": [],
-      "Blended Program":[]
+      "Blended Program": []
     },
     "type": "array"
   },
   "creatorLogo": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -1191,7 +1189,7 @@
     "type": "string"
   },
   "creatorPosterImage": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -1337,7 +1335,7 @@
     "type": "string"
   },
   "artifactUrl": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -1647,7 +1645,7 @@
     "type": "array"
   },
   "initFile": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -1802,7 +1800,7 @@
     "type": "string"
   },
   "instructions": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -2118,7 +2116,7 @@
     "type": "array"
   },
   "difficultyLevel": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -2247,8 +2245,7 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
@@ -2264,7 +2261,7 @@
     "type": "string"
   },
   "contentType": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -2741,7 +2738,7 @@
     "type": "array"
   },
   "description": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -2887,7 +2884,7 @@
     "type": "string"
   },
   "downloadUrl": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -3025,7 +3022,7 @@
     "type": "string"
   },
   "duration": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -3198,7 +3195,7 @@
     "type": "number"
   },
   "fileType": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -3327,8 +3324,7 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
@@ -3345,7 +3341,7 @@
     "type": "string"
   },
   "idealScreenSize": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -3474,8 +3470,7 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
@@ -3492,7 +3487,7 @@
     "type": "string"
   },
   "identifier": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -3630,7 +3625,7 @@
     "type": "string"
   },
   "isExternal": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -4025,8 +4020,7 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {
       "CourseUnit": [],
       "Course": [],
@@ -4353,7 +4347,7 @@
     "type": "string"
   },
   "license": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -4575,25 +4569,22 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-      
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {
       "Blended Program": []
     },
     "notShowFor": {
-      "Course":[],
-      "Program":[],
-      "Standalone Assessment":[],
+      "Course": [],
+      "Program": [],
+      "Standalone Assessment": [],
       "Blended Program": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "number"
   },
   "mimeType": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -4723,8 +4714,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},
@@ -4734,7 +4724,7 @@
     "type": "string"
   },
   "name": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -4903,7 +4893,7 @@
     "type": "string"
   },
   "posterImage": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -5049,7 +5039,7 @@
     "type": "string"
   },
   "draftImage": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -5179,8 +5169,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {
       "CourseUnit": []
@@ -5190,10 +5179,9 @@
       "Course": [],
       "Program": [],
       "Curated Program": [],
-      "Blended Program":[]
+      "Blended Program": []
     },
-    "showFor": {
-    },
+    "showFor": {},
     "type": "string"
   },
   "programDirectoryDesignation": {
@@ -5271,9 +5259,9 @@
       "Blended Program": []
     },
     "notShowFor": {
-      "Course":[],
-      "Program":[],
-      "Standalone Assessment":[]
+      "Course": [],
+      "Program": [],
+      "Standalone Assessment": []
     },
     "showFor": {
       "Blended Program": []
@@ -5355,9 +5343,9 @@
       "Blended Program": []
     },
     "notShowFor": {
-      "Course":[],
-      "Program":[],
-      "Standalone Assessment":[]
+      "Course": [],
+      "Program": [],
+      "Standalone Assessment": []
     },
     "showFor": {
       "Blended Program": []
@@ -5437,12 +5425,11 @@
       "Blended Program": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
-      "Course":[],
-      "Program":[],
-      "Standalone Assessment":[]
+      "Course": [],
+      "Program": [],
+      "Standalone Assessment": []
     },
     "showFor": {
       "Blended Program": []
@@ -5607,8 +5594,8 @@
     },
     "type": "array"
   },
-  "resourceCategory":{
-    "defaultValue": { 
+  "resourceCategory": {
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -5737,22 +5724,20 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {
-      "Learning Resource":  []
+      "Learning Resource": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {},
     "showFor": {
       "Learning Resource": []
     },
     "type": "string"
-  }, 
+  },
   "resourceType": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -5881,8 +5866,7 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {
@@ -5987,15 +5971,13 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {
       "Learning Resource": [],
       "Course": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
       "CourseUnit": []
     },
@@ -6090,15 +6072,13 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {
       "Learning Resource": [],
       "Course": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
       "CourseUnit": []
     },
@@ -6193,15 +6173,13 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {
       "Learning Resource": [],
       "Course": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
       "CourseUnit": [],
       "Program": [],
@@ -6296,12 +6274,10 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {},
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
       "CourseUnit": []
     },
@@ -6396,12 +6372,10 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {},
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
       "CourseUnit": [],
       "Program": [],
@@ -6416,7 +6390,7 @@
     "type": "string"
   },
   "source": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -6579,7 +6553,7 @@
     "type": "string"
   },
   "size": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -6688,7 +6662,7 @@
     "type": "number"
   },
   "status": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -6826,7 +6800,7 @@
     "type": "string"
   },
   "streamingUrl": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -6997,7 +6971,7 @@
     "type": "string"
   },
   "purpose": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -7308,7 +7282,7 @@
     "type": "array"
   },
   "thumbnail": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -7601,8 +7575,156 @@
     },
     "type": "array"
   },
+  "programCoordinators": {
+    "defaultValue": {
+      "Collection": [
+        {
+          "condition": {
+            "contentType": [
+              "Collection"
+            ]
+          },
+          "value": []
+        }
+      ],
+      "Course Unit": [
+        {
+          "condition": {
+            "contentType": [
+              "CourseUnit"
+            ],
+            "primaryCategory": [
+              "Course Unit"
+            ]
+          },
+          "value": []
+        }
+      ],
+      "Course": [
+        {
+          "condition": {
+            "contentType": [
+              "Course"
+            ],
+            "primaryCategory": [
+              "Course"
+            ]
+          },
+          "value": []
+        }
+      ],
+      "Program": [
+        {
+          "condition": {
+            "contentType": [
+              "Course"
+            ],
+            "primaryCategory": [
+              "Program"
+            ]
+          },
+          "value": []
+        }
+      ],
+      "Curated Program": [
+        {
+          "condition": {
+            "contentType": [
+              "Course"
+            ],
+            "primaryCategory": [
+              "Curated Program"
+            ]
+          },
+          "value": []
+        }
+      ],
+      "Blended Program": [
+        {
+          "condition": {
+            "contentType": [
+              "Course"
+            ],
+            "primaryCategory": [
+              "Blended Program"
+            ]
+          },
+          "value": []
+        }
+      ],
+      "Learning Resource": [
+        {
+          "condition": {
+            "contentType": [
+              "Resource"
+            ],
+            "primaryCategory": [
+              "Learning Resource"
+            ]
+          },
+          "value": []
+        }
+      ],
+      "Practice Question Set": [
+        {
+          "condition": {
+            "contentType": [
+              "PracticeResource"
+            ],
+            "primaryCategory": [
+              "Practice Question Set"
+            ]
+          },
+          "value": []
+        }
+      ],
+      "Course Assessment": [
+        {
+          "condition": {
+            "contentType": [
+              "CourseAssessment"
+            ],
+            "primaryCategory": [
+              "Course Assessment"
+            ]
+          },
+          "value": []
+        }
+      ],
+      "Standalone Assessment": [
+        {
+          "condition": {
+            "contentType": [
+              "StandaloneAssessment"
+            ],
+            "primaryCategory": [
+              "Standalone Assessment"
+            ]
+          },
+          "value": []
+        }
+      ]
+    },
+    "disabledFor": {},
+    "mandatoryFor": {
+      "Blended Program": []
+    },
+    "notDisabledFor": {},
+    "notMandatoryFor": {},
+    "notShowFor": {
+      "Course": [],
+      "Program": [],
+      "Curated Program": [],
+      "Standalone Assessment": [],
+      "Learning Resource": []
+    },
+    "showFor": {
+      "Blended Program": []
+    },
+    "type": "array"
+  },
   "transcoding": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -7727,7 +7849,7 @@
     "type": "object"
   },
   "visibility": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -7830,8 +7952,7 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
@@ -7919,12 +8040,11 @@
       "Blended Program": []
     },
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
-      "Course":[],
-      "Program":[],
-      "Standalone Assessment":[]
+      "Course": [],
+      "Program": [],
+      "Standalone Assessment": []
     },
     "showFor": {
       "Blended Program": []
@@ -8000,15 +8120,13 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
-      "Course":[],
-      "Program":[],
-      "Standalone Assessment":[]
+      "Course": [],
+      "Program": [],
+      "Standalone Assessment": []
     },
     "showFor": {
       "Blended Program": []
@@ -8084,15 +8202,13 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
-      "Course":[],
-      "Program":[],
-      "Standalone Assessment":[]
+      "Course": [],
+      "Program": [],
+      "Standalone Assessment": []
     },
     "showFor": {
       "Blended Program": []
@@ -8180,16 +8296,12 @@
         }
       ]
     },
-    "disabledFor": {
-    },
+    "disabledFor": {},
     "mandatoryFor": {},
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
-    "notShowFor": {
-    },
-    "showFor": {
-    },
+    "notMandatoryFor": {},
+    "notShowFor": {},
+    "showFor": {},
     "type": "string"
   },
   "surveyForm": {
@@ -8247,13 +8359,10 @@
         }
       ]
     },
-    "disabledFor": {
-    },
-    "mandatoryFor": {
-    },
+    "disabledFor": {},
+    "mandatoryFor": {},
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
       "CourseUnit": [],
       "Program": [],
@@ -8296,13 +8405,10 @@
         }
       ]
     },
-    "disabledFor": {
-    },
-    "mandatoryFor": {
-    },
+    "disabledFor": {},
+    "mandatoryFor": {},
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
       "CourseUnit": [],
       "Program": [],
@@ -8345,13 +8451,10 @@
         }
       ]
     },
-    "disabledFor": {
-    },
-    "mandatoryFor": {
-    },
+    "disabledFor": {},
+    "mandatoryFor": {},
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
+    "notMandatoryFor": {},
     "notShowFor": {
       "CourseUnit": [],
       "Program": [],
@@ -8394,22 +8497,18 @@
         }
       ]
     },
-    "disabledFor": {
-    },
-    "mandatoryFor": {
-    },
+    "disabledFor": {},
+    "mandatoryFor": {},
     "notDisabledFor": {},
-    "notMandatoryFor": {
-    },
-    "notShowFor": {
-    },
+    "notMandatoryFor": {},
+    "notShowFor": {},
     "showFor": {
-      "Course":[]
+      "Course": []
     },
     "type": "string"
   },
   "contextLockingType": {
-    "defaultValue": { 
+    "defaultValue": {
       "Collection": [
         {
           "condition": {
@@ -8552,8 +8651,7 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {
-    },
+    "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},
