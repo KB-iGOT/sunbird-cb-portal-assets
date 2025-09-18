@@ -167,18 +167,36 @@
     "defaultSearchCategory": "users",
     "enableRecentSearches": true
   },
-  "noDataFoundFlags": {
-    "navigationsButtons": [
-      {
-        "label": "btnBackToHomepage",
-        "routeTo": "app/home/onboarding/self-registration",
-        "matFlatButton": false
+    "noDataFoundFlags": {
+      "designation" :{
+        "showButtons": true,
+        "navigationsButtons": [
+          {
+            "label": "btnBackToHomepage",
+            "routeTo": "app/home/onboarding/self-registration",
+            "matFlatButton": false
+          },
+          {
+            "label": "startImportingDesignation",
+            "routeTo": "/app/home/org-designations",
+            "matFlatButton": true
+          }
+        ]
       },
-      {
-        "label": "startImportingDesignation",
-        "routeTo": "/app/home/org-designations",
-        "matFlatButton": true
+      "users" :{
+        "showButtons": true,
+        "navigationsButtons": [
+          {
+            "label": "btnBackToHomepage",
+            "routeTo": "app/home/onboarding/self-registration",
+            "matFlatButton": false
+          },
+          {
+            "label": "goToUserManagement",
+            "routeTo": "/app/home/users",
+            "matFlatButton": true
+          }
+        ]
       }
-    ]
-  }
+    }
 }
