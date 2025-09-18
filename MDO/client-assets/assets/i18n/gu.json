@@ -1854,7 +1854,8 @@
     "communities": "સમુદાયો ({{count}})",
     "seeAllResults": "બધા પરિણામો જુઓ",
     "designations": "હોદ્દા",
-    "trainingPlans": "તાલીમ યોજના"
+    "trainingPlans": "તાલીમ યોજના",
+    "goToUserManagement": "વપરાશકર્તા વ્યવસ્થાપન પર જાઓ"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",

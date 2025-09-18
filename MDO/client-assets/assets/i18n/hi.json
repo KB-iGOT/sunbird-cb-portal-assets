@@ -1890,7 +1890,8 @@
     "verificationStatus": "सत्यापन स्थिति",
     "groups": "समूह",
     "roles": "भूमिकाएँ",
-    "onBoardingDateRange": "ऑनबोर्डिंग तिथि सीमा"
+    "onBoardingDateRange": "ऑनबोर्डिंग तिथि सीमा",
+    "goToUserManagement": "उपयोगकर्ता प्रबंधन पर जाएं"
   },
   "searchfilters": {
     "karmayogiSaptah": "कर्मयोगी सप्ताह",

@@ -1913,7 +1913,8 @@
     "verificationStatus": "Verification Status",
     "groups": "Groups",
     "roles": "Roles",
-    "onBoardingDateRange": "Onboarding Date Range"
+    "onBoardingDateRange": "Onboarding Date Range",
+    "goToUserManagement": "Go to Users"
   },
   "searchfilters": {
     "caseStudy": "Case Study",
