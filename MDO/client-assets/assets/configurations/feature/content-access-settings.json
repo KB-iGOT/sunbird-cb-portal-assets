@@ -19,7 +19,7 @@
       { "value": "selected", "label": "Selected Designation" }
     ],
     "servicesRadioSelection": [
-      { "value": "all", "label": "All Services" },
+      { "value": "all", "label": "Services" },
       { "value": "selected", "label": "Selected Services" }
     ],
     "cadreRadioSelection": [
@@ -42,7 +42,7 @@
     "readOnly": false,
     "canShowAccessTypeRadio": false,
     "shouldShowVisibilityToggle": false,
-    "allowCustomsField": true,
+    "allowCustomsField": false,
     "paginationLimit": 100
   },
 
