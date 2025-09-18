@@ -42,7 +42,7 @@
     "readOnly": false,
     "canShowAccessTypeRadio": false,
     "shouldShowVisibilityToggle": false,
-    "allowCustomsField": true,
+    "allowCustomsField": false,
     "paginationLimit": 100
   },
 
