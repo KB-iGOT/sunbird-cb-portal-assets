@@ -2481,7 +2481,7 @@
         "viewAll": "View All",
         "connect": "Connect",
         "approved": "Approved",
-        "designationHint": "Not able to find your designation? Please write us at <span class='note-email'>mission.karmayogi@gov.in</span> with the organization and designation name.",
+        "designationHint": "Not able to find your designation? Please write to %NAME% at %EMAIL% with your organization and designation name.",
         "fromGovOrganization": "Are you from any organized service of the government?",
         "name": "Name",
         "info": "info",
