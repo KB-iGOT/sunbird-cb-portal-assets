@@ -2481,7 +2481,7 @@
         "viewAll": "View All",
         "connect": "Connect",
         "approved": "Approved",
-        "designationHint": "Not able to find your designation? Please write to %NAME% at %EMAIL% with your organization and designation name.",
+        "designationHint": "Unable to find your designation here? Please write to your MDO Admin/Leader %NAME% %EMAIL% and they will do the needful.",
         "fromGovOrganization": "Are you from any organized service of the government?",
         "name": "Name",
         "info": "info",
