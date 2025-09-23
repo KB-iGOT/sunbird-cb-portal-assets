@@ -1855,7 +1855,8 @@
     "seeAllResults": "બધા પરિણામો જુઓ",
     "designations": "હોદ્દા",
     "trainingPlans": "તાલીમ યોજના",
-    "goToUserManagement": "વપરાશકર્તા વ્યવસ્થાપન પર જાઓ"
+    "goToUserManagement": "વપરાશકર્તા વ્યવસ્થાપન પર જાઓ",
+    "goToDashboard": "ડેશબોર્ડ પર જાઓ"  
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",

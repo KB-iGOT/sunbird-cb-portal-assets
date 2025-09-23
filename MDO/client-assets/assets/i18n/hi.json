@@ -1891,7 +1891,8 @@
     "groups": "समूह",
     "roles": "भूमिकाएँ",
     "onBoardingDateRange": "ऑनबोर्डिंग तिथि सीमा",
-    "goToUserManagement": "उपयोगकर्ता प्रबंधन पर जाएं"
+    "goToUserManagement": "उपयोगकर्ता प्रबंधन पर जाएं",
+    "goToDashboard": "डैशबोर्ड पर जाएं"
   },
   "searchfilters": {
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
