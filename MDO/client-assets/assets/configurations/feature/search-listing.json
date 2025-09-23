@@ -197,6 +197,21 @@
             "matFlatButton": true
           }
         ]
+      },
+      "training-plans" :{
+        "showButtons": true,
+        "navigationsButtons": [
+          {
+            "label": "btnBackToHomepage",
+            "routeTo": "app/home/onboarding/self-registration",
+            "matFlatButton": false
+          },
+          {
+            "label": "goToDashboard",
+            "routeTo": "app/home/training-plan-dashboard",
+            "matFlatButton": true
+          }
+        ]
       }
     }
 }
