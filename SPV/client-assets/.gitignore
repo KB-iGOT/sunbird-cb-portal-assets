@@ -8,3 +8,13 @@
 !.vscode/settings.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+
+env-dev.js
+env-prod.js
+env-qa.js
+env-uat.js
+env.js
+env.json
+
+package-lock.json

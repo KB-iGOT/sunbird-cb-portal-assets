@@ -8,3 +8,7 @@
 !.vscode/settings.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+env-dev.js
+env.json
+yarn.lock
