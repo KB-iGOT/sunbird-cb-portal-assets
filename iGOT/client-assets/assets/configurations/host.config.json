@@ -87,7 +87,8 @@
         "aboutFooter": "/assets/instances/eagle/about-page/about-footer.jpg",
         "aboutHeader": "/assets/instances/eagle/about-page/about-header.jpg",
         "poweredBy": "eagle eagle",
-        "landingLogo": ""
+        "landingLogo": "",
+        "iiidemApp": "/assets/instances/eagle/app_logos/IIIDEM-logo.png"
     },
     "sources": [
         {

@@ -90,7 +90,9 @@
         "certificationsOfTheWeek": "Certifications of the week",
         "recentlyAdded": "Recently added",
         "forYou": "For you",
-        "contentPatner": "Content Patner"
+        "contentPatner": "Content Patner",
+        "assessment": "Assessment",
+        "exploreContent": "Explore Content"
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
