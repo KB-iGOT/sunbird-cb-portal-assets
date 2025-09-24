@@ -1914,7 +1914,8 @@
     "groups": "Groups",
     "roles": "Roles",
     "onBoardingDateRange": "Onboarding Date Range",
-    "goToUserManagement": "Go to Users"
+    "goToUserManagement": "Go to Users",
+    "goToDashboard": "Go to Dashboard"
   },
   "searchfilters": {
     "caseStudy": "Case Study",
