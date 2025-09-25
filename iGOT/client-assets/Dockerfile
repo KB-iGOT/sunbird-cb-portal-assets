@@ -1,17 +1,17 @@
-FROM node:16
+FROM node:22.6.0
 
 WORKDIR /usr/src/app
 
 COPY . .
-#RUN sed -i 's/stretch/buster/' /etc/apt/sources.list && apt update && apt install -y zip && apt-get install -y libjpeg-turbo-progs nasm
 
-#### Not Working ###RUN sed -i 's/stretch/buster/' /etc/apt/sources.list && apt update && apt install -y zip && apt-get install -y libjpeg-turbo-progs nasm
-RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /etc/apt/sources.list && \
-    sed -i 's|http://security.debian.org/debian-security|http://archive.debian.org/debian-security|g' /etc/apt/sources.list && \
-    echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99no-check-valid-until && \
-    apt update && \
-    apt install -y zip libjpeg-turbo-progs nasm
+# Install required dependencies (Debian Bookworm has active repos)
+RUN apt-get update && \
+    apt-get install -y zip libjpeg-turbo-progs nasm && \
+    rm -rf /var/lib/apt/lists/*
 
+# Install Node dependencies and build
 RUN npm install && npm run build
 
+# Package the build output
 RUN zip -r dist.zip dist
+
