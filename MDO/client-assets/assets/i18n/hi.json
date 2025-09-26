@@ -1892,7 +1892,8 @@
     "onBoardingDateRange": "ऑनबोर्डिंग तिथि सीमा",
     "goToUserManagement": "उपयोगकर्ता प्रबंधन पर जाएं",
     "goToDashboard": "डैशबोर्ड पर जाएं",
-    "planType": "योजना का प्रकार"
+    "planType": "योजना का प्रकार",
+    "importedOn": "आयात किया गया दिनांक"
   },
   "searchfilters": {
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
