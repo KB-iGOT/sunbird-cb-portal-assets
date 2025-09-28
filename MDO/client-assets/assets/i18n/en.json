@@ -1915,7 +1915,8 @@
     "onBoardingDateRange": "Onboarding Date Range",
     "goToUserManagement": "Go to Users",
     "goToDashboard": "Go to Dashboard",
-    "planType": "Plan type"
+    "planType": "Plan type",
+    "importedOn": "Imported On"
   },
   "searchfilters": {
     "caseStudy": "Case Study",
