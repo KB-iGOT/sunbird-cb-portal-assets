@@ -212,6 +212,21 @@
             "matFlatButton": true
           }
         ]
+      },
+      "communities" :{
+        "showButtons": true,
+        "navigationsButtons": [
+          {
+            "label": "btnBackToHomepage",
+            "routeTo": "app/home/onboarding/self-registration",
+            "matFlatButton": false
+          },
+          {
+            "label": "goToDashboard",
+            "routeTo": "app/home/community",
+            "matFlatButton": true
+          }
+        ]
       }
     }
 }
