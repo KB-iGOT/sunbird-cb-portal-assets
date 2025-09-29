@@ -26,9 +26,9 @@
           "defaultExpanded": false
         },
         {
-          "menuCategory": "Directory",
+          "menuCategory": "Organization Directory",
           "submenu": false,
-          "key": "Directory",
+          "key": "Organization_Directory",
           "fragment": false,
           "render": true,
           "badges": {
