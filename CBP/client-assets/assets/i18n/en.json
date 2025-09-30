@@ -1829,7 +1829,10 @@
         "webpage": "Webpage",
         "by": "By",
         "noResults": "No results found",
-        "removeFilters": "Try removing the filters or search using different keywords"
+        "removeFilters": "Try removing the filters or search using different keywords",
+        "noResultFound": "Sorry, we couldn't find any results for \"{{searchTerm}}\" so please Try adjusting your search.",
+        "goToManageEvents": "Go to Manage Events",
+        "backToHomePage": "Back to Home page"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
@@ -1865,7 +1868,8 @@
         "completed": "Completed",
         "behavioural": "Behavioural",
         "domain": "Domain",
-        "functional": "Functional"
+        "functional": "Functional",
+        "filterBy": "Filter by"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",

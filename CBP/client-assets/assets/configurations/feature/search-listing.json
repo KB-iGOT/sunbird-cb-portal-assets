@@ -1,0 +1,150 @@
+{
+  "searchListing": true,
+  "applicationName": "CBP Portal",
+  "applicationKey": "cbp",
+  "searchCategories": [
+    { "label": "Contents", "value": "courses", "icon": "calender-event" },
+    { "label": "Events", "value": "events", "icon": "calender-event" }
+  ],
+  "allSearchCategoriesTypes": [
+    {
+      "displayName": "All",
+      "name": "",
+      "count": 0,
+      "isChecked": true,
+      "filters": [],
+      "disabled": true
+    },
+    {
+      "displayName": "Contents",
+      "name": "courses",
+      "count": 0,
+      "isChecked": false,
+      "filters": [
+        {
+          "displayName": "Course",
+          "name": "course",
+          "count": 0,
+          "isChecked": false,
+          "filters": [
+            {
+              "name": "Course",
+              "count": 0,
+              "isChecked": false,
+              "displayName": "Course"
+            },
+            {
+              "name": "Moderated Course",
+              "count": 0,
+              "isChecked": false,
+              "displayName": "Moderated Course"
+            }
+          ]
+        },
+        {
+          "displayName": "Programs",
+          "name": "programs",
+          "count": 0,
+          "isChecked": false,
+          "filters": [
+            {
+              "name": "Moderated Program",
+              "count": 0,
+              "isChecked": false,
+              "displayName": "Moderated Program"
+            },
+            {
+              "name": "Invite-Only Program",
+              "count": 0,
+              "isChecked": false,
+              "displayName": "Invite Only Program"
+            },
+            {
+              "name": "Blended Program",
+              "count": 0,
+              "isChecked": false,
+              "displayName": "Blended Program"
+            },
+            {
+              "name": "Curated Program",
+              "count": 0,
+              "isChecked": false,
+              "displayName": "Curated Program"
+            }
+          ]
+        },
+        {
+          "displayName": "Assessments",
+          "name": "assessments",
+          "count": 0,
+          "isChecked": false,
+          "filters": [
+            {
+              "name": "Moderated Assessment",
+              "count": 0,
+              "isChecked": false,
+              "displayName": "Moderated Assessment"
+            },
+            {
+              "name": "Standalone Assessment",
+              "count": 0,
+              "isChecked": false,
+              "displayName": "Standalone Assessment"
+            }
+          ]
+        }
+      ],
+      "disabled": false
+    },
+    {
+      "displayName": "Events",
+      "name": "events",
+      "count": 0,
+      "isChecked": false,
+      "filters": [
+        {
+          "displayName": "Course",
+          "name": "course",
+          "count": 0,
+          "isChecked": false,
+          "filters": [
+            {
+              "name": "Course",
+              "count": 0,
+              "isChecked": false,
+              "displayName": "Course"
+            },
+            {
+              "name": "Moderated Course",
+              "count": 0,
+              "isChecked": false,
+              "displayName": "Moderated Course"
+            }
+          ]
+        }
+      ],
+      "disabled": false
+    }
+  ],
+  "searchInputConfig": {
+    "defaultSearchCategory": "courses",
+    "enableRecentSearches": true
+  },
+  "noDataFoundFlags": {
+    "events": {
+      "showButtons": true,
+      "navigationsButtons": [
+        {
+          "label": "backToHomePage",
+          "routeTo": "author/cbp/me",
+          "matFlatButton": false
+        },
+        {
+          "label": "goToManageEvents",
+          "routeTo": "app/events",
+          "matFlatButton": true
+        }
+      ]
+    }
+  }
+}
