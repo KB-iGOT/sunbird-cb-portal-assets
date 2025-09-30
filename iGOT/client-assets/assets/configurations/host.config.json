@@ -90,6 +90,20 @@
         "landingLogo": "",
         "iiidemApp": "/assets/instances/eagle/app_logos/IIIDEM-logo.png"
     },
+    "domainList": {
+      "iiidem-portal": {
+        "logo": "/assets/instances/eagle/app_logos/IIIDEM-logo.png",
+        "redirectPath": "/page/custom-home/iiidem",
+        "cdnContentHost": "https://iiidem-portal.qa.karmayogibharat.net",
+        "portalSitePath": "iiidem-portal.qa.karmayogibharat.net"
+      },
+      "localhost": {
+        "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo_Horizontal.svg",
+        "redirectPath": "/page/home",
+        "cdnContentHost": "https://portal.qa.karmayogibharat.net",
+        "portalSitePath": "portal.qa.karmayogibharat.net"
+      }
+    },
     "sources": [
         {
             "sourceName": "Georgia Tech CEISMC",

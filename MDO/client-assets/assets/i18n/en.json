@@ -972,8 +972,7 @@
     "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
     "moreKarmaPoints": "more KarmaPoints",
     "completedEvent": "You completed this event on",
-    "search": "Search events...",
-    "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah"
+    "search": "Search events..."
   },
   "eventDetailsRightCard": {
     "viewRecording": "View recording",
@@ -1915,7 +1914,9 @@
     "roles": "Roles",
     "onBoardingDateRange": "Onboarding Date Range",
     "goToUserManagement": "Go to Users",
-    "goToDashboard": "Go to Dashboard"
+    "goToDashboard": "Go to Dashboard",
+    "planType": "Plan type",
+    "importedOn": "Imported On"
   },
   "searchfilters": {
     "caseStudy": "Case Study",
