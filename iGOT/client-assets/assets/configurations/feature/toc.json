@@ -508,5 +508,8 @@
       }
     }
   },
-  "commentsTab": true
+  "commentsTab": true,
+  "dynamicCertificateGeneration": {
+    "allows": ["Invite-Only Program", "Moderated Program", "Blended Program", "Curated Program", "Standalone Assessment", "Moderated Assessment", "Invite-Only Assessment"]
+  }
 }
