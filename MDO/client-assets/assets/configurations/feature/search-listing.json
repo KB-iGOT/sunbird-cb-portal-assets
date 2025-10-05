@@ -6,7 +6,8 @@
     { "label": "Training Plan", "value": "training-plans", "icon": "diversity_3" },
     { "label": "Designation", "value": "designation", "icon": "video-library" },
     { "label": "Events", "value": "events", "icon": "calender-event" },
-    { "label": "Communities", "value": "communities", "icon": "menu_book" }
+    { "label": "Communities", "value": "communities", "icon": "menu_book" },
+    { "label": "All", "value": "", "icon": "" }
   ],
   "allSearchCategoriesTypes": [
     {
@@ -99,6 +100,30 @@
       "disabled": false
     },
     {
+      "name": "users",
+      "count": 0,
+      "isChecked": false,
+      "displayName": "Users",
+      "filters": [],
+      "disabled": false
+    },
+    {
+      "name": "training-plans",
+      "count": 0,
+      "isChecked": false,
+      "displayName": "Training Plans",
+      "filters": [],
+      "disabled": false
+    },
+    {
+      "name": "designation",
+      "count": 0,
+      "isChecked": false,
+      "displayName": "Designation",
+      "filters": [],
+      "disabled": false
+    },
+    {
       "displayName": "Events",
       "name": "events",
       "count": 0,
@@ -114,14 +139,7 @@
       "filters": [],
       "disabled": false
     },
-    {
-      "name": "users",
-      "count": 0,
-      "isChecked": false,
-      "displayName": "Users",
-      "filters": [],
-      "disabled": false
-    },
+
     {
       "name": "communities",
       "count": 0,
@@ -145,88 +163,87 @@
       "displayName": "External Contents",
       "filters": [],
       "disabled": false
-    },
-    {
-      "name": "designation",
-      "count": 0,
-      "isChecked": false,
-      "displayName": "Designation",
-      "filters": [],
-      "disabled": false
-    },
-    {
-      "name": "training-plans",
-      "count": 0,
-      "isChecked": false,
-      "displayName": "Training Plans",
-      "filters": [],
-      "disabled": false
     }
   ],
   "searchInputConfig": {
     "defaultSearchCategory": "users",
     "enableRecentSearches": true
   },
-    "noDataFoundFlags": {
-      "designation" :{
-        "showButtons": true,
-        "navigationsButtons": [
-          {
-            "label": "btnBackToHomepage",
-            "routeTo": "app/home/onboarding/self-registration",
-            "matFlatButton": false
-          },
-          {
-            "label": "startImportingDesignation",
-            "routeTo": "/app/home/org-designations",
-            "matFlatButton": true
-          }
-        ]
-      },
-      "users" :{
-        "showButtons": true,
-        "navigationsButtons": [
-          {
-            "label": "btnBackToHomepage",
-            "routeTo": "app/home/onboarding/self-registration",
-            "matFlatButton": false
-          },
-          {
-            "label": "goToUserManagement",
-            "routeTo": "/app/home/users",
-            "matFlatButton": true
-          }
-        ]
-      },
-      "training-plans" :{
-        "showButtons": true,
-        "navigationsButtons": [
-          {
-            "label": "btnBackToHomepage",
-            "routeTo": "app/home/onboarding/self-registration",
-            "matFlatButton": false
-          },
-          {
-            "label": "goToDashboard",
-            "routeTo": "app/home/training-plan-dashboard",
-            "matFlatButton": true
-          }
-        ]
-      },
-      "communities" :{
-        "showButtons": true,
-        "navigationsButtons": [
-          {
-            "label": "btnBackToHomepage",
-            "routeTo": "app/home/onboarding/self-registration",
-            "matFlatButton": false
-          },
-          {
-            "label": "goToDashboard",
-            "routeTo": "app/home/community",
-            "matFlatButton": true
-          }
-        ]
-      }
+  "noDataFoundFlags": {
+    "designation": {
+      "showButtons": true,
+      "navigationsButtons": [
+        {
+          "label": "btnBackToHomepage",
+          "routeTo": "app/home/onboarding/self-registration",
+          "matFlatButton": false
+        },
+        {
+          "label": "startImportingDesignation",
+          "routeTo": "/app/home/org-designations",
+          "matFlatButton": true
+        }
+      ]
+    },
+    "users": {
+      "showButtons": true,
+      "navigationsButtons": [
+        {
+          "label": "btnBackToHomepage",
+          "routeTo": "app/home/onboarding/self-registration",
+          "matFlatButton": false
+        },
+        {
+          "label": "goToUserManagement",
+          "routeTo": "/app/home/users",
+          "matFlatButton": true
+        }
+      ]
+    },
+    "training-plans": {
+      "showButtons": true,
+      "navigationsButtons": [
+        {
+          "label": "btnBackToHomepage",
+          "routeTo": "app/home/onboarding/self-registration",
+          "matFlatButton": false
+        },
+        {
+          "label": "goToDashboard",
+          "routeTo": "app/home/training-plan-dashboard",
+          "matFlatButton": true
+        }
+      ]
+    },
+    "communities": {
+      "showButtons": true,
+      "navigationsButtons": [
+        {
+          "label": "btnBackToHomepage",
+          "routeTo": "app/home/onboarding/self-registration",
+          "matFlatButton": false
+        },
+        {
+          "label": "goToDashboard",
+          "routeTo": "app/home/community",
+          "matFlatButton": true
+        }
+      ]
+    },
+    "events": {
+      "showButtons": true,
+      "navigationsButtons": [
+        {
+          "label": "btnBackToHomepage",
+          "routeTo": "app/home/onboarding/self-registration",
+          "matFlatButton": false
+        },
+        {
+          "label": "goToDashboard",
+          "routeTo": "app/home/events/upcoming",
+          "matFlatButton": true
+        }
+      ]
     }
+  }
 }

@@ -1912,7 +1912,7 @@
     "verificationStatus": "Verification Status",
     "groups": "Groups",
     "roles": "Roles",
-    "onBoardingDateRange": "Onboarding Date Range",
+    "onBoardingDateRange": "Onboarding Date",
     "goToUserManagement": "Go to Users",
     "goToDashboard": "Go to Dashboard",
     "planType": "Plan type",
@@ -1973,7 +1973,10 @@
     "resources": "Resources ({{count}})",
     "externalContent": "External Content ({{count}})",
     "comprehensiveAssessmentProgram": "Comprehensive Assessment Program",
-    "multilingualCourse": "Multilingual Course"
+    "multilingualCourse": "Multilingual Course",
+    "eventDate": "Event Date",
+    "eventStatus": "Events Status",
+    "createdOn": "Created On"
   },
   "utilslogout": {
     "logoutNow": "Logout Now",

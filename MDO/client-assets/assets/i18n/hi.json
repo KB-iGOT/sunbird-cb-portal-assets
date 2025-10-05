@@ -1948,7 +1948,10 @@
     "resources": "संसाधन ({{count}})",
     "externalContent": "बाहरी सामग्री ({{count}})",
     "comprehensiveAssessmentProgram": "व्यापक मूल्यांकन कार्यक्रम",
-    "multilingualCourse": "बहुभाषी पाठ्यक्रम"
+    "multilingualCourse": "बहुभाषी पाठ्यक्रम",
+    "eventDate": "इवेंट तिथि",
+    "eventStatus": "कार्यक्रम स्थिति",
+    "createdOn": "सिर्जित दिनांक"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
