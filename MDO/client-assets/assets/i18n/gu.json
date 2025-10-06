@@ -1911,7 +1911,10 @@
     "years": "વર્ષો",
     "resource": "સ્રોત ({{count}})",
     "resources": "સ્રોતો ({{count}})",
-    "externalContent": "બાહ્ય સામગ્રી ({{count}})"
+    "externalContent": "બાહ્ય સામગ્રી ({{count}})",
+    "eventDate": "ઇવેન્ટ તારીખ",
+    "eventStatus": "ઈવેન્ટ સ્થિતિ",
+    "createdOn": "બનાવવામાં આવેલી તારીખ"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
