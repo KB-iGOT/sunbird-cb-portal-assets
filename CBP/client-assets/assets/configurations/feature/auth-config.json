@@ -318,7 +318,8 @@
             "cbp_admin",
             "spv_publisher",
             "content_reviewer",
-            "content_publisher"
+            "content_publisher",
+            "program_instructor"
           ],
           "subMenu": [
             {
@@ -333,7 +334,8 @@
               "enabled": true,
               "routerLink": "/author/cbp/batch-management",
               "requiredRoles": [
-                "program_coordinator"
+                "program_coordinator",
+                "program_instructor"
               ]
             },
             {
@@ -557,7 +559,8 @@
             "program_coordinator",
             "cbp_admin",
             "editor",
-            "admin"
+            "admin",
+            "program_instructor"
           ]
         },
         {
@@ -572,14 +575,15 @@
             "cbp_admin",
             "spv_publisher",
             "content_reviewer",
-            "content_publisher"
+            "content_publisher",
+            "program_instructor"
           ],
           "subMenu": [
             {
               "name": "Contents",
               "key": "mycbp",
               "fragment": false,
-              "iconName":"school",
+              "iconName": "school",
               "render": true,
               "badges": {
                 "enabled": false,
@@ -599,7 +603,7 @@
             {
               "name": "Marketplace Content",
               "key": "cbp",
-              "iconName":"svg_marketplace",
+              "iconName": "svg_marketplace",
               "fragment": false,
               "render": true,
               "badges": {
@@ -642,7 +646,8 @@
               "enabled": true,
               "routerLink": "/author/cbp/me",
               "requiredRoles": [
-                "program_coordinator"
+                "program_coordinator",
+                "program_instructor"
               ]
             },
             {
@@ -684,7 +689,7 @@
             {
               "name": "Forms",
               "key": "Forms",
-              "iconName":"svg_forms",
+              "iconName": "svg_forms",
               "fragment": false,
               "render": true,
               "badges": {
@@ -721,7 +726,7 @@
             {
               "name": "Karma Programs",
               "key": "karma-programs",
-              "iconName":"svg_karma-program",
+              "iconName": "svg_karma-program",
               "fragment": false,
               "render": true,
               "badges": {
@@ -763,7 +768,7 @@
             {
               "name": "All Requests",
               "key": "allRequest",
-              "iconName":"svg_allRequest",
+              "iconName": "svg_allRequest",
               "fragment": false,
               "render": true,
               "badges": {
@@ -783,7 +788,7 @@
             {
               "name": "My Requests",
               "key": "myRequest",
-              "iconName":"check_circle",
+              "iconName": "check_circle",
               "fragment": false,
               "render": true,
               "badges": {
@@ -823,7 +828,7 @@
             {
               "name": "CQF Content",
               "key": "cqf-content",
-              "iconName":"svg_cqf-management",
+              "iconName": "svg_cqf-management",
               "fragment": false,
               "render": true,
               "badges": {

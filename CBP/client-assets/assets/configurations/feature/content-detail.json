@@ -100,7 +100,8 @@
                 "type": "newrequests",
                 "enabled": true,
                 "rolesRequired": [
-                    "program_coordinator"
+                    "program_coordinator",
+                    "program_instructor"
                 ],
                 "data": {},
                 "primaryCategory": [
@@ -114,7 +115,8 @@
                 "enabled": true,
                 "rolesRequired": [
                     "program_coordinator",
-                    "content_creator"
+                    "content_creator",
+                    "program_instructor"
                 ],
                 "data": {},
                 "primaryCategory": [
@@ -131,7 +133,8 @@
                 "enabled": true,
                 "rolesRequired": [
                     "program_coordinator",
-                    "content_creator"
+                    "content_creator",
+                    "program_instructor"
                 ],
                 "data": {},
                 "primaryCategory": [
@@ -147,7 +150,8 @@
                 "type": "approvalstatus",
                 "enabled": true,
                 "rolesRequired": [
-                    "program_coordinator"
+                    "program_coordinator",
+                    "program_instructor"
                 ],
                 "data": {},
                 "primaryCategory": [
@@ -161,7 +165,8 @@
                 "enabled": true,
                 "rolesRequired": [
                     "content_creator",
-                    "program_coordinator"
+                    "program_coordinator",
+                    "program_instructor"
                 ],
                 "settings": {
                     "maxCertificates": 1
@@ -216,7 +221,8 @@
                 "type": "session-details",
                 "enabled": true,
                 "rolesRequired": [
-                    "program_coordinator"
+                    "program_coordinator",
+                    "program_instructor"
                 ],
                 "data": {},
                 "primaryCategory": [
@@ -229,7 +235,21 @@
                 "type": "reports-details",
                 "enabled": true,
                 "rolesRequired": [
-                    "program_coordinator"
+                    "program_coordinator",
+                    "program_instructor"
+                ],
+                "data": {},
+                "primaryCategory": [
+                    "Blended Program"
+                ]
+            },
+            {
+                "name": "Assignments",
+                "key": "assignments",
+                "type": "assignments",
+                "enabled": true,
+                "rolesRequired": [
+                    "program_instructor"
                 ],
                 "data": {},
                 "primaryCategory": [
