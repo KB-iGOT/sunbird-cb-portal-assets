@@ -526,7 +526,19 @@
         "teachersNoteHeading": "Essential insights and guidance to enrich and standardize your teaching experience.",
         "downaloadAllPdfs": "Download All",
         "downloadPdf": "Download",
-        "viewPDF": "View"
+        "viewPDF": "View",
+        "assignments": "Assignments"
+    },
+    "userAssignments": {
+        "upload": "Upload",
+        "download": "Download",
+        "viewFeedback": "View Feedback",
+        "marksObtained": "Marks Obtained",
+        "instructorFeedback": "Instructor Feedback",
+        "noAssignments": "No assignments available now!",
+        "postAssignmentPreview": "Post Assignment Preview",
+        "discard": "Discard",
+        "submit": "Submit"
     },
     "ratingsummary": {
         "ratings": "ratings",

@@ -526,7 +526,19 @@
     "teachersNoteHeading": "आपके शिक्षण अनुभव को समृद्ध और मानकीकृत करने के लिए आवश्यक अंतर्दृष्टि और मार्गदर्शन।",
     "downaloadAllPdfs": "सभी डाउनलोड करें",
     "downloadPdf": "डाउनलोड करें",
-    "viewPDF": "देखें"
+    "viewPDF": "देखें",
+    "assignments": "कार्य"
+  },
+  "userAssignments": {
+    "upload": "अपलोड करें",
+    "download": "डाउनलोड करना",
+    "viewFeedback": "प्रतिक्रिया देखें",
+    "marksObtained": "प्राप्त अंक",
+    "instructorFeedback": "शिक्षक प्रतिक्रिया",
+    "noAssignments": "अभी कोई असाइनमेंट उपलब्ध नहीं है!",
+    "postAssignmentPreview": "असाइनमेंट पोस्ट करें",
+    "discard": "खारिज करें",
+    "submit": "जमा करें"
   },
   "ratingsummary": {
     "ratings": "रेट",
