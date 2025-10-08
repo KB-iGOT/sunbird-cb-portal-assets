@@ -92,7 +92,8 @@
         "forYou": "For you",
         "contentPatner": "Content Patner",
         "assessment": "Assessment",
-        "exploreContent": "Explore Content"
+        "exploreContent": "Explore Content",
+        "caseStudies": "Case Studies"
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
@@ -1131,6 +1132,7 @@
         "comingSoon": "Feature coming soon."
     },
     "settingLeftMenu": {
+        "iGotKarmyogi": "iGOT Karmayogi",
         "generalSettings": "General Settings",
         "notifications": "Notifications",
         "accountAndPassword": "Account and Password",
@@ -1485,7 +1487,7 @@
         "noDataCourse": "No Courses Available.",
         "youDon’tHaveAnyNewCourseInProgress.": "You don’t have any content in progress.",
         "youWillSeeAllTheContentForWhichTheDueDateIsWithin30Days.": "You will see all the content that needs to be completed within the next 30 days.",
-        "youWillSeeAllTheContentsThatIsAparMarked.":"You will see all the contents that is APAR marked.",
+        "youWillSeeAllTheContentsThatIsAparMarked.": "You will see all the contents that is APAR marked.",
         "youWillSeeAllTheContentThatNeedsToBeCompletedWithinTheNext30Days.": "You will see all the content that needs to be completed within the next 30 days.",
         "youWillSeeAllTheContentForWhichTheDueDateHasPassedHere.": "You will see all the content for which the due date has passed here.",
         "youWillSeeHereAllTheContentForWhichTheDueDateHasPassed.": "You will see here all the content for which the due date has passed.",
@@ -1780,7 +1782,8 @@
         "myLearning": "My Learning",
         "viewProfile": "View Profile",
         "learningHistory": "Learning History",
-        "tipsLearners": "Tips For Learners"
+        "tipsLearners": "Tips For Learners",
+        "igotKarmyogi": "iGOT Karmayogi"
     },
     "requestDialog": {
         "designationRequest": "Request to add designation",
