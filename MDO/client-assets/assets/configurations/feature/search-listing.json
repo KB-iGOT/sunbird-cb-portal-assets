@@ -205,7 +205,7 @@
       "navigationsButtons": [
         {
           "label": "btnBackToHomepage",
-          "routeTo": "app/home/onboarding/self-registration",
+          "routeTo": "app/home/welcome",
           "matFlatButton": false
         },
         {
@@ -220,7 +220,7 @@
       "navigationsButtons": [
         {
           "label": "btnBackToHomepage",
-          "routeTo": "app/home/onboarding/self-registration",
+          "routeTo": "app/home/welcome",
           "matFlatButton": false
         },
         {
@@ -235,7 +235,7 @@
       "navigationsButtons": [
         {
           "label": "btnBackToHomepage",
-          "routeTo": "app/home/onboarding/self-registration",
+          "routeTo": "app/home/welcome",
           "matFlatButton": false
         },
         {
