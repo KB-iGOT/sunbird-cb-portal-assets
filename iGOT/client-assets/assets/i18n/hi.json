@@ -92,7 +92,8 @@
     "forYou": "आपके लिए।",
     "contentPatner": "सामग्री पैटनार",
     "assessment": "आकलन",
-    "exploreContent": "कोर्स सामग्री खोजें"
+    "exploreContent": "कोर्स सामग्री खोजें",
+    "caseStudies": "केस स्टडीज"
   },
   "appnavbar": {
     "searchforLearningContents": "कंटेन्ट खोजें",
@@ -1389,6 +1390,8 @@
     "growSection": "सीखें। नेटवर्क करें । अपने करियर के विकास को अगले स्तर पर ले जाएं।"
   },
   "home": {
+    "caseStudy": "केस स्टडीज",
+    "caseStudies": "केस स्टडीज",
     "contents": "कंटेन्ट",
     "events": "ईवेंट",
     "learnHub": "लर्न हब पर जाएँ",
@@ -1464,6 +1467,7 @@
     "completed": "पूरा किया।",
     "courses": "कोर्स",
     "programs": "कार्यक्रम",
+    "assessments": "आकलन",
     "showAll": "सब दिखाएँ",
     "updateYourProfile": "अपनी प्रोफ़ाइल को अपडेट करें और इसे सत्यापित करें।",
     "updateCustomeFiledTitle": "कृपया अपना अनिवार्य प्रोफ़ाइल विवरण जोड़ें ",
@@ -1487,6 +1491,7 @@
     "youWillFindTrendingProgramsHere.": "आपको यहां ट्रेंडिंग प्रोग्राम मिलेंगे।",
     "YouWillFindRecentlyAddedCoursesHere.": "आपको यहां हाल ही में जोड़े गए पाठ्यक्रम मिलेंगे।",
     "YouWillFindRecentlyAddedProgramsHere.": "आपको यहां हाल ही में जोड़े गए कार्यक्रम मिलेंगे।",
+    "youWillFindTrendingAssessmentsHere.": "आपको यहां हाल ही में जोड़े गए आकलन मिलेंगे।",
     "trainingInstitutions": "प्रशिक्षण संस्थान",
     "providers": "प्रोवाईडर",
     "notMyUser1": "आप अब अपने वर्तमान संगठन द्वारा एक उपयोगकर्ता के रूप में मान्यता प्राप्त नहीं हैं, और मंच तक पहुंच समाप्त हो जाएगी। ",
@@ -1514,7 +1519,8 @@
     "trendingevents": "रुझान वाली घटनाएँ",
     "featuredevents": "विशेष घटनाएँ",
     "thereAreNoEvents": "कोई इवेंट नहीं हैं",
-    "youWillSeeAllTheContentsThatIsAparMarked": "आपको यहाँ सभी कंटेन्ट दिखेगा जो ए.पी.ए.आर. के तहत चिह्नित है।"
+    "youWillSeeAllTheContentsThatIsAparMarked": "आपको यहाँ सभी कंटेन्ट दिखेगा जो ए.पी.ए.आर. के तहत चिह्नित है।",
+    "exploreContent": "कोर्स सामग्री खोजें"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
@@ -1900,6 +1906,7 @@
     "seeAllResults": "सभी परिणाम देखें"
   },
   "searchfilters": {
+    "caseStudy": "केस स्टडीज",
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
     "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
     "karmayogiTalks": "कर्मयोगी टॉक्स",
@@ -2791,7 +2798,8 @@
     "pastEvents": "अतीत की घटनायें",
     "tomorrow": "कल",
     "today": "आज",
-    "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह"
+    "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
+    "keyAnnouncements": "प्रमुख घोषणाएं"
   },
   "notificationV2Settings": {
     "email": "ईमेल अधिसूचना",
