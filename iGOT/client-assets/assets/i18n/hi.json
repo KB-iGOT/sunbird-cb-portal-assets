@@ -92,6 +92,7 @@
     "forYou": "आपके लिए।",
     "contentPatner": "सामग्री पैटनार",
     "assessment": "आकलन",
+    "assessments": "आकलन",
     "exploreContent": "कोर्स सामग्री खोजें",
     "caseStudies": "केस स्टडीज"
   },
@@ -1764,7 +1765,8 @@
     "myLearning": "मेरा सीखना",
     "viewProfile": "प्रोफ़ाइल देखें",
     "learningHistory": "लर्निंग हिस्ट्री",
-    "tipsLearners": "छात्रों के लिए सुझाव"
+    "tipsLearners": "छात्रों के लिए सुझाव",
+    "igotKarmyogi": "आईगॉट कर्मयोगी"
   },
   "requestDialog": {
     "designationRequest": "पदनाम जोड़ने का अनुरोध",
