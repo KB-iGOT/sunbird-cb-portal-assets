@@ -510,6 +510,17 @@
   },
   "commentsTab": true,
   "dynamicCertificateGeneration": {
-    "allows": ["Invite-Only Program", "Moderated Program", "Blended Program", "Curated Program", "Standalone Assessment", "Moderated Assessment", "Invite-Only Assessment"]
+    "allows": [
+      "Course",
+      "Moderated Course",
+      "Invite-Only Program",
+      "Moderated Program",
+      "Blended Program",
+      "Curated Program",
+      "Standalone Assessment",
+      "Moderated Assessment",
+      "Invite-Only Assessment",
+      "External Redirect"
+    ]
   }
 }
