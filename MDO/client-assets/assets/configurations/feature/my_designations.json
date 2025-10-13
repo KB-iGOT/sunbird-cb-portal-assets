@@ -55,7 +55,9 @@
     "supportedFileTypeText2": "Upload xlsx format file only",
     "noFileUploaded": "No File Uploaded",
     "pageSize": 10,
-    "pageSizeOptions": [10, 20]
+    "pageSizeOptions": [10, 20],
+    "downloadSampleUserFilePath": "/assets/common/user-bulk-creation-upload-sample.zip",
+    "downloadAsUserFileName": "user-bulk-creation-upload-sample.zip"
   },
   "enableBulkButton": true
 }
