@@ -1893,7 +1893,8 @@
     "goToUserManagement": "उपयोगकर्ता प्रबंधन पर जाएं",
     "goToDashboard": "डैशबोर्ड पर जाएं",
     "planType": "योजना का प्रकार",
-    "importedOn": "आयात किया गया दिनांक"
+    "importedOn": "आयात किया गया दिनांक",
+    "timeline" : "समयरेखा"
   },
   "searchfilters": {
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
