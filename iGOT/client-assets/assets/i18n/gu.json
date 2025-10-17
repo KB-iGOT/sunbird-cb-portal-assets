@@ -522,7 +522,19 @@
     "teachersNoteHeading": "તમારા શિક્ષણ અનુભવને સમૃદ્ધ અને પ્રમાણિત કરવા માટે આવશ્યક આંતરદૃષ્ટિ અને માર્ગદર્શન.",
     "downaloadAllPdfs": "બધા ડાઉનલોડ કરો",
     "downloadPdf": "ડાઉનલોડ કરો",
-    "viewPDF": "જુઓ"
+    "viewPDF": "જુઓ",
+    "assignments": "સોંપણીઓ"
+  },
+  "userAssignments": {
+    "upload": "અપલોડ કરો",
+    "download": "ડાઉનલોડ કરો",
+    "viewFeedback": "પ્રતિસાદ જુઓ",
+    "marksObtained": "મેળવેલ ગુણ",
+    "instructorFeedback": "પ્રશિક્ષક પ્રતિસાદ",
+    "noAssignments": "હવે કોઈ સોંપણીઓ ઉપલબ્ધ નથી!",
+    "postAssignmentPreview": "પોસ્ટ અસાઇનમેન્ટ પૂર્વાવલોકન",
+    "discard": "ખારિજ કરો",
+    "submit": "સબમિટ કરો"
   },
   "ratingsummary": {
     "ratings": "રેટિંગ્સ",
