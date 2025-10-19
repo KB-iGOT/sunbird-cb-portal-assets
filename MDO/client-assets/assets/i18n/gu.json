@@ -1858,7 +1858,8 @@
     "goToUserManagement": "વપરાશકર્તા વ્યવસ્થાપન પર જાઓ",
     "goToDashboard": "ડેશબોર્ડ પર જાઓ",
     "planType": "યોજનાનો પ્રકાર",
-    "importedOn": "આયાત થયેલ તારીખ"
+    "importedOn": "આયાત થયેલ તારીખ",
+    "timeline" : "ટાઇમલાઇન"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",
