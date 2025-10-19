@@ -1,10 +1,11 @@
 {
   "searchListing": true,
   "applicationName": "CBP Portal",
-  "applicationKey": "cbp",
   "searchCategories": [
-    { "label": "Contents", "value": "courses", "icon": "calender-event" },
-    { "label": "Events", "value": "events", "icon": "calender-event" }
+    { "label": "Contents", "value": "courses", "icon": "calender-event", "roles": ["CONTENT_CREATOR", "CONTENT_REVIEWER", "CONTENT_PUBLISHER", "SPV_PUBLISHER"] },
+    { "label": "Events", "value": "events", "icon": "calender-event", "roles": ["SPV_PUBLISHER"] },
+    { "label": "External Contents", "value": "external-contents", "icon": "calender-event", "roles": ["SPV_PUBLISHER"] },
+    { "label": "Users", "value": "users", "icon": "people-search", "roles": ["CBP_ADMIN"] }
   ],
   "allSearchCategoriesTypes": [
     {
@@ -13,87 +14,26 @@
       "count": 0,
       "isChecked": true,
       "filters": [],
-      "disabled": true
+      "disabled": true,
+      "roles": []
     },
     {
       "displayName": "Contents",
       "name": "courses",
       "count": 0,
       "isChecked": false,
+      "facets": ["avgRating", "language", "courseCategory", "resourceCategory", "status", "sectorDetails_v1.sectorName", "sectorDetails_v1.subSectorName", "competencies"],
       "filters": [
-        {
-          "displayName": "Course",
-          "name": "course",
-          "count": 0,
-          "isChecked": false,
-          "filters": [
-            {
-              "name": "Course",
-              "count": 0,
-              "isChecked": false,
-              "displayName": "Course"
-            },
-            {
-              "name": "Moderated Course",
-              "count": 0,
-              "isChecked": false,
-              "displayName": "Moderated Course"
-            }
-          ]
-        },
-        {
-          "displayName": "Programs",
-          "name": "programs",
-          "count": 0,
-          "isChecked": false,
-          "filters": [
-            {
-              "name": "Moderated Program",
-              "count": 0,
-              "isChecked": false,
-              "displayName": "Moderated Program"
-            },
-            {
-              "name": "Invite-Only Program",
-              "count": 0,
-              "isChecked": false,
-              "displayName": "Invite Only Program"
-            },
-            {
-              "name": "Blended Program",
-              "count": 0,
-              "isChecked": false,
-              "displayName": "Blended Program"
-            },
-            {
-              "name": "Curated Program",
-              "count": 0,
-              "isChecked": false,
-              "displayName": "Curated Program"
-            }
-          ]
-        },
-        {
-          "displayName": "Assessments",
-          "name": "assessments",
-          "count": 0,
-          "isChecked": false,
-          "filters": [
-            {
-              "name": "Moderated Assessment",
-              "count": 0,
-              "isChecked": false,
-              "displayName": "Moderated Assessment"
-            },
-            {
-              "name": "Standalone Assessment",
-              "count": 0,
-              "isChecked": false,
-              "displayName": "Standalone Assessment"
-            }
-          ]
-        }
       ],
+      "labels": {
+        "status": {
+          "label": "searchfilters.contentStatus",
+          "filterLabels": {
+            "live": "Live",
+            "Review": "For Public"
+          }
+        }
+      },
       "disabled": false
     },
     {
@@ -101,28 +41,44 @@
       "name": "events",
       "count": 0,
       "isChecked": false,
+      "facets": [ "status", "resourceType", "competencies" ],
       "filters": [
         {
-          "displayName": "Course",
-          "name": "course",
+          "displayName": "Event Date",
+          "name": "Event Date",
           "count": 0,
           "isChecked": false,
-          "filters": [
-            {
-              "name": "Course",
-              "count": 0,
-              "isChecked": false,
-              "displayName": "Course"
-            },
-            {
-              "name": "Moderated Course",
-              "count": 0,
-              "isChecked": false,
-              "displayName": "Moderated Course"
-            }
-          ]
+          "filterType": "dateRange",
+          "sectionKey": "eventDateRange",
+          "filters": []
         }
       ],
+      "labels": {
+        "status": {
+          "label": "searchfilters.eventStatus",
+          "filterLabels": {
+            "senttopublish": "Pending",
+            "live": "Approved",
+            "upcoming": "Upcoming"
+          }
+        }
+      },
+      "disabled": false
+    },
+    {
+      "displayName": "External Contents",
+      "name": "external-contents",
+      "count": 0,
+      "isChecked": false,
+      "filters": [],
+      "disabled": false
+    },
+    {
+      "displayName": "Users",
+      "name": "users",
+      "count": 0,
+      "isChecked": false,
+      "filters": [],
       "disabled": false
     }
   ],
