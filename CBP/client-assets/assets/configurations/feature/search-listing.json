@@ -1,0 +1,106 @@
+{
+  "searchListing": true,
+  "applicationName": "CBP Portal",
+  "searchCategories": [
+    { "label": "Contents", "value": "courses", "icon": "calender-event", "roles": ["CONTENT_CREATOR", "CONTENT_REVIEWER", "CONTENT_PUBLISHER", "SPV_PUBLISHER"] },
+    { "label": "Events", "value": "events", "icon": "calender-event", "roles": ["SPV_PUBLISHER"] },
+    { "label": "External Contents", "value": "external-contents", "icon": "calender-event", "roles": ["SPV_PUBLISHER"] },
+    { "label": "Users", "value": "users", "icon": "people-search", "roles": ["CBP_ADMIN"] }
+  ],
+  "allSearchCategoriesTypes": [
+    {
+      "displayName": "All",
+      "name": "",
+      "count": 0,
+      "isChecked": true,
+      "filters": [],
+      "disabled": true,
+      "roles": []
+    },
+    {
+      "displayName": "Contents",
+      "name": "courses",
+      "count": 0,
+      "isChecked": false,
+      "facets": ["avgRating", "language", "courseCategory", "resourceCategory", "status", "sectorDetails_v1.sectorName", "sectorDetails_v1.subSectorName", "competencies"],
+      "filters": [
+      ],
+      "labels": {
+        "status": {
+          "label": "searchfilters.contentStatus",
+          "filterLabels": {
+            "live": "Live",
+            "Review": "For Public"
+          }
+        }
+      },
+      "disabled": false
+    },
+    {
+      "displayName": "Events",
+      "name": "events",
+      "count": 0,
+      "isChecked": false,
+      "facets": [ "status", "resourceType", "competencies" ],
+      "filters": [
+        {
+          "displayName": "Event Date",
+          "name": "Event Date",
+          "count": 0,
+          "isChecked": false,
+          "filterType": "dateRange",
+          "sectionKey": "eventDateRange",
+          "filters": []
+        }
+      ],
+      "labels": {
+        "status": {
+          "label": "searchfilters.eventStatus",
+          "filterLabels": {
+            "senttopublish": "Pending",
+            "live": "Approved",
+            "upcoming": "Upcoming"
+          }
+        }
+      },
+      "disabled": false
+    },
+    {
+      "displayName": "External Contents",
+      "name": "external-contents",
+      "count": 0,
+      "isChecked": false,
+      "filters": [],
+      "disabled": false
+    },
+    {
+      "displayName": "Users",
+      "name": "users",
+      "count": 0,
+      "isChecked": false,
+      "filters": [],
+      "disabled": false
+    }
+  ],
+  "searchInputConfig": {
+    "defaultSearchCategory": "courses",
+    "enableRecentSearches": true
+  },
+  "noDataFoundFlags": {
+    "events": {
+      "showButtons": true,
+      "navigationsButtons": [
+        {
+          "label": "backToHomePage",
+          "routeTo": "author/cbp/me",
+          "matFlatButton": false
+        },
+        {
+          "label": "goToManageEvents",
+          "routeTo": "app/events",
+          "matFlatButton": true
+        }
+      ]
+    }
+  }
+}

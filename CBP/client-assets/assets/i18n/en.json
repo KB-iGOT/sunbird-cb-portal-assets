@@ -1830,7 +1830,19 @@
         "webpage": "Webpage",
         "by": "By",
         "noResults": "No results found",
-        "removeFilters": "Try removing the filters or search using different keywords"
+        "removeFilters": "Try removing the filters or search using different keywords",
+        "noResultFound": "Sorry, we couldn't find any results for \"{{searchTerm}}\" so please Try adjusting your search.",
+        "goToManageEvents": "Go to Manage Events",
+        "backToHomePage": "Back to Home page",
+        "events": "Events",
+        "event": "Event",
+        "contents": "Contents",
+        "content": "Content",
+        "users": "Users",
+        "verificationStatus": "Verification Status",
+        "groups": "Groups",
+        "roles": "Roles",
+        "onBoardingDateRange": "Onboarding Date Range"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
@@ -1866,7 +1878,19 @@
         "completed": "Completed",
         "behavioural": "Behavioural",
         "domain": "Domain",
-        "functional": "Functional"
+        "functional": "Functional",
+        "filterBy": "Filter by",
+        "categoryType": "Category Type",
+        "contentProvider": "Content provider",
+        "languages": "Languages",
+        "typeOfEvents": "Type of Events",
+        "eventDate": "Event Date",
+        "eventStatus": "Event Status",
+        "contentStatus": "Content Status",
+        "competencyArea":"Competency Area",
+        "ratingTitle": "Ratings",
+        "sectorId": "Sectors",
+        "resourceCategory": "Resource Category"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
