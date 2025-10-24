@@ -1834,15 +1834,16 @@
         "noResultFound": "Sorry, we couldn't find any results for \"{{searchTerm}}\" so please Try adjusting your search.",
         "goToManageEvents": "Go to Manage Events",
         "backToHomePage": "Back to Home page",
-        "events": "Events",
-        "event": "Event",
-        "contents": "Contents",
-        "content": "Content",
-        "users": "Users",
+        "events": "Events ({{count}})",
+        "event": "Event ({{count}})",
+        "content": "Content ({{count}})",
+        "contents": "Contents ({{count}})",
+        "users": "Users ({{count}})",
         "verificationStatus": "Verification Status",
         "groups": "Groups",
         "roles": "Roles",
-        "onBoardingDateRange": "Onboarding Date Range"
+        "onBoardingDateRange": "Onboarding Date Range",
+        "seeAllResults": "See all the results"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
