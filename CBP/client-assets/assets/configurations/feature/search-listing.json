@@ -92,12 +92,27 @@
       "navigationsButtons": [
         {
           "label": "backToHomePage",
-          "routeTo": "author/cbp/me",
+          "routeTo": "app/home",
           "matFlatButton": false
         },
         {
           "label": "goToManageEvents",
           "routeTo": "app/events",
+          "matFlatButton": true
+        }
+      ]
+    },
+    "courses": {
+      "showButtons": true,
+      "navigationsButtons": [
+        {
+          "label": "backToHomePage",
+          "routeTo": "app/home",
+          "matFlatButton": false
+        },
+        {
+          "label": "goToManageContents",
+          "routeTo": "author/cbp/me",
           "matFlatButton": true
         }
       ]

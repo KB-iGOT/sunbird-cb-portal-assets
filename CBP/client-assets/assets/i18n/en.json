@@ -1843,7 +1843,8 @@
         "groups": "Groups",
         "roles": "Roles",
         "onBoardingDateRange": "Onboarding Date Range",
-        "seeAllResults": "See all the results"
+        "seeAllResults": "See all the results",
+        "goToManageContents": "Go to Manage your content"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
