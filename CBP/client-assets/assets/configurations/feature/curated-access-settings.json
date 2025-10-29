@@ -42,7 +42,8 @@
     ],
     "readOnly": false,
     "allowCustomsField": false,
-    "paginationLimit": 100
+    "paginationLimit": 100,
+    "canShowAccessTypeRadio": false
   },
 
   "usersTableConfig": {
@@ -105,5 +106,5 @@
     "default": "on"
   },
   "userConfig": {},
-  "application": "cbp_portal"
+  "application":"cbp_portal"
 }
