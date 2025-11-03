@@ -1,0 +1,970 @@
+{
+  "data": {
+    "stateLearningWeekConfig": {
+      "enabled": true,
+      "startDate": "16-03-2025",
+      "endDate": "27-03-2025",
+      "title": "मध्य प्रदेश कर्मयोगी सप्ताह",
+      "description": "म.प्र. में दिनांक 15 से 21 सितंबर, 2025 तक “कर्मयोगी iGOT  पर सीखे सप्ताह” का आयोजन किया जा रहा है, जिसमें हर विभाग/जिले के प्रत्येक शासकीय/संविदा/अधिकारी/कर्मचारी द्वारा सप्ताह के दौरान न्यूनतम दो प्रशिक्षण कार्यक्रम पूर्ण करना अनिवार्य है तथा उससे अधिक प्रशिक्षण भी अपनी रूचि अनुसार पूर्ण किये जा सकते हैं। अकादमी द्वारा विभिन्न विभागों से समन्वय कर लगभग 200 से अधिक हिन्दी प्रशिक्षण iGOT पर दर्ज किये जा चुके हैं|",
+      "titleHi": "मध्य प्रदेश कर्मयोगी सप्ताह",
+      "descriptionHi": "म.प्र. में दिनांक 15 से 21 सितंबर, 2025 तक “कर्मयोगी iGOT  पर सीखे सप्ताह” का आयोजन किया जा रहा है, जिसमें हर विभाग/जिले के प्रत्येक शासकीय/संविदा/अधिकारी/कर्मचारी द्वारा सप्ताह के दौरान न्यूनतम दो प्रशिक्षण कार्यक्रम पूर्ण करना अनिवार्य है तथा उससे अधिक प्रशिक्षण भी अपनी रूचि अनुसार पूर्ण किये जा सकते हैं। अकादमी द्वारा विभिन्न विभागों से समन्वय कर लगभग 200 से अधिक हिन्दी प्रशिक्षण iGOT पर दर्ज किये जा चुके हैं|",
+      "buttonText": "View More",
+      "width": "30px",
+      "orgId": "01358338832802611256",
+      "orgName": "Madhya Pradesh"
+    },
+    "sectionList": [
+      {
+        "active": true,
+        "enabled": true,
+        "title": "",
+        "key": "sectionTopBanner",
+        "order": 1,
+        "column": [
+          {
+            "active": true,
+            "enabled": true,
+            "key": "topSection",
+            "title": "",
+            "colspan": 12,
+            "background": "",
+            "bannerBackgroudClass": "web-banner-background",
+            "data": {
+              "background": "#1B4CA1",
+              "logo": "",
+              "logoMobile": "",
+              "bannerBackgroundWebMobile": "",
+              "title": "",
+              "titleClass": "main-title",
+              "titleColor": "#fca311",
+              "subTitle": "",
+              "subTitleClass": "sub-title",
+              "subTitleColor": "#FFFFFF",
+              "subTitleColorMobile": "#000",
+              "subTitleTwo": "",
+              "subTitleColorTwo": "#FFFFFF",
+              "subTitleColorTwoMobile": "#000",
+              "description": "Type the descroiption here",
+              "descriptionColor": "#FFFFFF",
+              "sliderData": {
+                "styleData": {
+                  "bannerMetaClass": "",
+                  "bannerMeta": "visible",
+                  "bannerMetaAlign": "right",
+                  "navigationArrows": "visible",
+                  "borderRadius": "12px",
+                  "customHeight": "334px",
+                  "arrowsPlacement": "",
+                  "imageBorderWidth": 3,
+                  "imageBorderColor": "#FFFFFF",
+                  "imageBorderStyle": "solid",
+                  "responsive": {
+                    "bannerMetaClass": "inline-meta",
+                    "customHeight": "232px",
+                    "bannerMetaAlign": "center",
+                    "navigationArrows": "visible",
+                    "dots": "hidden",
+                    "arrowsPlacement": "middle-inline"
+                  }
+                },
+                "sliders": [
+                  
+                ]
+              },
+              "metrics": {
+                "background": "#1B4CA1",
+                "data": [
+                  {
+                    "icon": "https://portal.karmayogi.nic.in/content-store/content/do_114061821837287424110/artifact/do_114061821837287424110_1716531049564_network.svg",
+                    "iconColor": "#FFFFFF",
+                    "value": "9876",
+                    "valueColor": "#FFFFFF",
+                    "label": "Total Users",
+                    "labelColor": "#FFFFFF",
+                    "linebreak": false,
+                    "background": "#1B4CA1"
+                  },
+                  {
+                    "icon": "https://portal.karmayogiqa.nic.in/content-store/orgStore/0135071359030722569/1715676445834_badges.svg",
+                    "iconColor": "#FFFFFF",
+                    "value": "2678",
+                    "valueColor": "#FFFFFF",
+                    "label": "Certificates",
+                    "labelColor": "#FFFFFF",
+                    "linebreak": false,
+                    "background": "#1B4CA1"
+                  },
+                  {
+                    "icon": "https://portal.karmayogi.nic.in/content-store/content/do_114061824512778240111/artifact/do_114061824512778240111_1716531357219_knowledge-resources.svg",
+                    "iconColor": "#FFFFFF",
+                    "value": "9867",
+                    "valueColor": "#FFFFFF",
+                    "label": "Enrolments",
+                    "labelColor": "#FFFFFF",
+                    "linebreak": false,
+                    "background": "#1B4CA1"
+                  },
+                  {
+                    "icon": "https://portal.karmayogi.nic.in/content-store/content/do_114061847565107200114/artifact/do_114061847565107200114_1716534165064_program1.svg",
+                    "iconColor": "#FFFFFF",
+                    "value": "12",
+                    "valueColor": "#FFFFFF",
+                    "label": "Content Published",
+                    "labelColor": "#FFFFFF",
+                    "linebreak": false,
+                    "background": "#1B4CA1"
+                  },
+                  {
+                    "icon": "https://portal.karmayogi.nic.in/content-store/content/do_114061826604261376113/artifact/do_114061826604261376113_1716531614554_percent.svg",
+                    "iconColor": "#FFFFFF",
+                    "value": "40",
+                    "valueColor": "#FFFFFF",
+                    "label": "24hr Login",
+                    "labelColor": "#FFFFFF",
+                    "linebreak": false,
+                    "background": "#1B4CA1"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "active": true,
+        "enabled": true,
+        "title": "",
+        "key": "sectionLookerpro",
+        "order": 4,
+        "column": [
+          {
+            "active": true,
+            "enabled": true,
+            "key": "lookerSection",
+            "title": "",
+            "colspan": 12,
+            "background": "banner",
+            "data": {
+              "header": {
+                "headerText": "Performance Dashboard",
+                "description": "View MDO performance based on their learning activities for the week, with real-time insights into progress, engagement, and development across various MDOs."
+              },
+              "disableDynamicHeight": false,
+              "mobileHeight": "500px",
+              "desktopHeight": "280px",
+              "lookerProDesktopUrl": "https://lookerstudio.google.com/embed/reporting/7ff70118-4925-413b-9dc1-945fa0540141/page/fyd9D",
+              "lookerProMobileUrl": "https://lookerstudio.google.com/embed/reporting/7ff70118-4925-413b-9dc1-945fa0540141/page/fyd9D"
+            }
+          }
+        ]
+      },
+      {
+        "active": true,
+        "enabled": true,
+        "title": "",
+        "key": "sectionTopLearners",
+        "order": 2,
+        "column": [
+          {
+            "active": true,
+            "enabled": true,
+            "key": "topLearners",
+            "title": "Top 10 Learners",
+            "colspan": 12,
+            "background": "",
+            "data": {
+              "title": "Top 10 Learners",
+              "enableMonth": false,
+              "titleFontColor": "#000000",
+              "kpIcon": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1728035311295_karma-badge.svg",
+              "learners": [],
+              "customClass": "min-h-20",
+              "cardHeight": "64px",
+              "carMinHeight": "100px",
+              "hideEle": [
+                "karma-points"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "active": true,
+        "enabled": true,
+        "title": "",
+        "key": "sectionMain",
+        "order": 3,
+        "wrapperClass": "",
+        "column": [
+          {
+            "active": true,
+            "enabled": true,
+            "key": "mainContent",
+            "title": "",
+            "colspan": 12,
+            "background": "",
+            "data": {
+              "tabSection": {
+                "colspan": 8,
+                "disable": false,
+                "contentTab": [
+                  {
+                    "active": true,
+                    "enabled": true,
+                    "title": "Certifications of the Week",
+                    "navigation": true,
+                    "key": "sectionCertificationsOfWeeks",
+                    "order": 3,
+                    "navOrder": 1,
+                    "column": [
+                      {
+                        "active": true,
+                        "enabled": true,
+                        "key": "contentcertificationsOfWeekStrip",
+                        "title": "Recommended Courses",
+                        "data": {
+                          "sectionImagePosition": "img-left",
+                          "sectionImage": "assets/icons/microsite/left_arrow.svg",
+                          "order": 4,
+                          "strips": [
+                            {
+                              "active": true,
+                              "key": "certificationsOfWeek",
+                              "logo": "school",
+                              "title": "Certifications of the Week",
+                              "stripTitleLink": {
+                                "link": "",
+                                "icon": ""
+                              },
+                              "customeClass": "min-width-763",
+                              "sliderConfig": {
+                                "showNavs": true,
+                                "showDots": true,
+                                "maxWidgets": 12,
+                                "showNavsSpacing": true,
+                                "cerificateCardMargin": true
+                              },
+                              "loader": true,
+                              "stripBackground": "",
+                              "titleDescription": "Certifications of the Week",
+                              "stripConfig": {
+                                "cardSubType": "card-wide-v2"
+                              },
+                              "loaderConfig": {
+                                "cardSubType": "card-wide-v2-skelton"
+                              },
+                              "viewMoreUrl": {
+                                "path": "/app/seeAll",
+                                "viewMoreText": "Show all",
+                                "queryParams": {
+                                  "key": "certificationsOfWeek"
+                                },
+                                "loaderConfig": {
+                                  "cardSubType": "card-portrait-click-skeleton"
+                                },
+                                "stripConfig": {
+                                  "cardSubType": "card-portrait-click"
+                                }
+                              },
+                              "tabs": [],
+                              "filters": [],
+                              "request": {
+                                "trendingSearch": {
+                                  "request": {
+                                    "filters": {
+                                      "contextType": [
+                                        "certifications"
+                                      ],
+                                      "organisation": "<orgID>"
+                                    },
+                                    "limit": 5
+                                  },
+                                  "responseKey": "certifications"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "active": true,
+                    "enabled": true,
+                    "title": "Trending",
+                    "navigation": true,
+                    "key": "sectionRecommendedProgram",
+                    "order": 3,
+                    "navOrder": 1,
+                    "column": [
+                      {
+                        "active": true,
+                        "enabled": true,
+                        "key": "contentRecommendedProgramStrip",
+                        "title": "Popular courses",
+                        "data": {
+                          "sectionImagePosition": "img-left",
+                          "sectionImage": "assets/icons/microsite/left_arrow.svg",
+                          "order": 4,
+                          "strips": [
+                            {
+                              "active": true,
+                              "customeClass": "width-238",
+                              "key": "recommendedProgram",
+                              "logo": "school",
+                              "disableTranslate": true,
+                              "title": "Trending",
+                              "stripTitleLink": {
+                                "link": "",
+                                "icon": ""
+                              },
+                              "sliderConfig": {
+                                "showNavs": true,
+                                "showDots": true,
+                                "maxWidgets": 12,
+                                "showNavsSpacing": true
+                              },
+                              "stripBackground": "",
+                              "titleDescription": "Recently Added",
+                              "stripConfig": {
+                                "cardSubType": "card-portrait-lib"
+                              },
+                              "viewMoreUrl": {
+                                "path": "/app/seeAll",
+                                "viewMoreText": "Show all",
+                                "queryParams": {
+                                  "key": "recentlyAdded"
+                                },
+                                "loaderConfig": {
+                                  "cardSubType": "card-portrait-lib-skeleton"
+                                },
+                                "stripConfig": {
+                                  "cardSubType": "card-portrait-lib"
+                                }
+                              },
+                              "loader": true,
+                              "loaderConfig": {
+                                "cardSubType": "card-portrait-lib-skeleton"
+                              },
+                              "tabsType": "pills-tab",
+                              "tabs": [
+                                {
+                                  "label": "Courses",
+                                  "value": "course",
+                                  "computeDataOnClick": false,
+                                  "computeDataOnClickKey": "",
+                                  "requestRequired": true,
+                                  "showTabDataCount": false,
+                                  "maxWidgets": 12,
+                                  "nodataMsg": "nocontent",
+                                  "request": {
+                                    "apiUrl": "/apis/proxies/v8/playList/read/<playlistKey>/<orgID>",
+                                    "playlistRead": {
+                                      "type": "MDO_RECOMMENDED_COURSES"
+                                    }
+                                  }
+                                },
+                                {
+                                  "label": "Programs",
+                                  "value": "program",
+                                  "computeDataOnClick": false,
+                                  "computeDataOnClickKey": "",
+                                  "requestRequired": true,
+                                  "showTabDataCount": false,
+                                  "maxWidgets": 12,
+                                  "nodataMsg": "nocontent",
+                                  "request": {
+                                    "apiUrl": "/apis/proxies/v8/playList/read/<playlistKey>/<orgID>",
+                                    "playlistRead": {
+                                      "type": "MDO_RECOMMENDED_PROGRAMS"
+                                    }
+                                  }
+                                }
+                              ],
+                              "filters": [],
+                              "request": {
+                                "apiUrl": "/apis/proxies/v8/playList/read/<playlistKey>/<orgID>",
+                                "playlistRead": {
+                                  "type": "MDO_RECOMMENDED_PROGRAMS"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "active": true,
+                    "enabled": true,
+                    "title": "Featured",
+                    "navigation": true,
+                    "key": "sectionFeatureCourses",
+                    "order": 3,
+                    "navOrder": 1,
+                    "column": [
+                      {
+                        "active": true,
+                        "enabled": true,
+                        "key": "contentFeaturedStrip",
+                        "title": "Featured",
+                        "data": {
+                          "sectionImagePosition": "img-left",
+                          "sectionImage": "assets/icons/microsite/left_arrow.svg",
+                          "order": 4,
+                          "strips": [
+                            {
+                              "active": true,
+                              "customeClass": "width-238",
+                              "key": "featuredCourses",
+                              "logo": "school",
+                              "disableTranslate": true,
+                              "title": "Featured",
+                              "stripTitleLink": {
+                                "link": "",
+                                "icon": ""
+                              },
+                              "sliderConfig": {
+                                "showNavs": true,
+                                "showDots": true,
+                                "maxWidgets": 12,
+                                "showNavsSpacing": true
+                              },
+                              "stripBackground": "",
+                              "titleDescription": "Recently Added",
+                              "stripConfig": {
+                                "cardSubType": "card-portrait-lib"
+                              },
+                              "viewMoreUrl": {
+                                "path": "/app/seeAll",
+                                "viewMoreText": "Show all",
+                                "queryParams": {
+                                  "key": "recentlyAdded"
+                                },
+                                "loaderConfig": {
+                                  "cardSubType": "card-portrait-lib-skeleton"
+                                },
+                                "stripConfig": {
+                                  "cardSubType": "card-portrait-lib"
+                                }
+                              },
+                              "loader": true,
+                              "loaderConfig": {
+                                "cardSubType": "card-portrait-lib-skeleton"
+                              },
+                              "tabsType": "pills-tab",
+                              "tabs": [
+                                {
+                                  "label": "Courses",
+                                  "value": "course",
+                                  "computeDataOnClick": false,
+                                  "computeDataOnClickKey": "",
+                                  "requestRequired": true,
+                                  "showTabDataCount": false,
+                                  "maxWidgets": 12,
+                                  "nodataMsg": "nocontent",
+                                  "request": {
+                                    "apiUrl": "/apis/proxies/v8/playList/read/<playlistKey>/<orgID>",
+                                    "playlistRead": {
+                                      "type": "MDO_FEATURED_COURSES"
+                                    }
+                                  }
+                                },
+                                {
+                                  "label": "Programs",
+                                  "value": "program",
+                                  "computeDataOnClick": false,
+                                  "computeDataOnClickKey": "",
+                                  "requestRequired": true,
+                                  "showTabDataCount": false,
+                                  "maxWidgets": 12,
+                                  "nodataMsg": "nocontent",
+                                  "request": {
+                                    "apiUrl": "/apis/proxies/v8/playList/read/<playlistKey>/<orgID>",
+                                    "playlistRead": {
+                                      "type": "MDO_FEATURED_PROGRAMS"
+                                    }
+                                  }
+                                }
+                              ],
+                              "filters": [],
+                              "request": {
+                                "apiUrl": "/apis/proxies/v8/playList/read/<playlistKey>/<orgID>",
+                                "playlistRead": {
+                                  "type": "MDO_FEATURED_COURSES"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "coreAreasTab": [
+                  {
+                    "active": true,
+                    "enabled": true,
+                    "title": "Core Expertise",
+                    "navigation": true,
+                    "key": "sectionCompetency",
+                    "order": 5,
+                    "navOrder": 3,
+                    "column": [
+                      {
+                        "active": true,
+                        "enabled": true,
+                        "key": "competency",
+                        "title": "",
+                        "colspan": 12,
+                        "background": "",
+                        "data": []
+                      }
+                    ]
+                  }
+                ],
+                "tabs": [
+                  {
+                    "name": "content"
+                  },
+                  {
+                    "name": "Core Areas"
+                  }
+                ]
+              },
+              "announcementSection": {
+                "colspan": 4,
+                "data": {
+                  "title": "Key Announcements",
+                  "logoUrl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1728035426855_key-announcements1.svg",
+                  "mobileIcon": "https://portal.karmayogi.nic.in/content-store/content/do_114061893940887552115/artifact/do_114061893940887552115_1716539807520_campaign_black.svg",
+                  "header": {
+                    "background": "#1B4CA1",
+                    "color": "#FFFFFF"
+                  },
+                  "panelborder": "#1B4CA1",
+                  "panelBackground": "#FFFFFF",
+                  "listItem": {
+                    "border": "#F3962F",
+                    "background": "#FCEEDB"
+                  },
+                  "ViewMoreColor": "#1B4CA1",
+                  "pageSize": 15,
+                  "list": [
+                    {
+                      "value": "Hon. Chief Minister of Gujarat will launch MDO Channel of SPIPA on IGoT Karmayogi Portal on occasion of Good Governance Day.",
+                      "expanded": false
+                    },
+                    {
+                      "value": "Hon. Chief Minister of Gujarat will launch MDO Channel of SPIPA on IGoT Karmayogi Portal on occasion of Good Governance Day.",
+                      "expanded": false
+                    }
+                  ]
+                }
+              },
+              "cbpPlanSection": {
+                "colspan": "4",
+                "data": {
+                  "title": "Capacity Building Plans",
+                  "header": {
+                    "background": "#1B4CA1",
+                    "color": "#FFFFFF"
+                  },
+                  "panelborder": "#1B4CA1",
+                  "panelBackground": "#FFFFFF",
+                  "downloadIcon": "https://portal.karmayogiqa.nic.in/content-store/orgStore/0135071359030722569/1721211110384_Shape.svg",
+                  "listItem": {
+                    "border": "#1B4CA1",
+                    "background": "#E3EAF7"
+                  },
+                  "noData": "noCbpData",
+                  "sliderData": {
+                    "styleData": {
+                      "borderRadius": "12px",
+                      "customHeight": "",
+                      "bannerMeta": "visible",
+                      "bannerMetaClass": "cbp-card",
+                      "responsive": {
+                        "bannerMetaClass": "cbp-card"
+                      }
+                    }
+                  },
+                  "list": [
+                    {
+                      "title": "The Capacity Building Scheme (CB)",
+                      "downloaUrl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1735300290689_Capacity_building_plan.pdf"
+                    },
+                    {
+                      "title": "The Capacity Building Scheme (CB)",
+                      "downloaUrl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1735300290689_Capacity_building_plan.pdf"
+                    }
+                  ]
+                }
+              },
+              "stateLearningWeekSection": {
+                "lookerSection": {
+                  "active": true,
+                  "enabled": true,
+                  "key": "lookerSection",
+                  "title": "",
+                  "colspan": 12,
+                  "background": "banner",
+                  "data": {
+                    "header": {
+                      "headerText": "Performance Dashboard",
+                      "description": "View MDO performance based on their learning activities for the week, with real-time insights into progress, engagement, and development across various MDOs."
+                    },
+                    "lookerProDesktopUrl": "https://lookerstudio.google.com/embed/reporting/7ff70118-4925-413b-9dc1-945fa0540141/page/fyd9D",
+                    "lookerProMobileUrl": "https://lookerstudio.google.com/embed/reporting/7ff70118-4925-413b-9dc1-945fa0540141/page/fyd9D"
+                  }
+                },
+                "keyHighlights": {
+                  "enabled": true,
+                  "backgroundColor": "#FFFFFF",
+                  "titleMaxLength": 200,
+                  "content": [
+                  ],
+                  "sliderData": {
+                    "styleData": {
+                      "borderRadius": "0",
+                      "customHeight": "100px",
+                      "bannerMeta": "visible",
+                      "dots": "hidden",
+                      "arrowsPlacement": "middle-inline",
+                      "responsive": {
+                        "customHeight": "80px",
+                        "bannerMetaAlign": "left",
+                        "navigationArrows": "visible",
+                        "dots": "hidden",
+                        "arrowsPlacement": "middle-inline"
+                      }
+                    }
+                  }
+                },
+                "speakerOftheDay": {
+                  "enabled": true,
+                  "data": {
+                    "title": "Speaker of the day",
+                    "infoText": "Join insightful webinars and masterclasses hosted by prominent speakers and thought leaders.",
+                    "infoIcon": "https://portal.dev.karmayogibharat.net/content-store/orgStore/0135071359030722569/1726652230008_info_icon.svg",
+                    "sliderData": {
+                      "styleData": {
+                        "borderRadius": "12px",
+                        "customHeight": "",
+                        "bannerMeta": "visible",
+                        "bannerMetaClass": "cbp-card-1",
+                        "responsive": {
+                          "bannerMetaClass": "cbp-card-1"
+                        }
+                      }
+                    },
+                    "list": [
+                      {
+                        "title": "Ms Arushi Malhotra",
+                        "description": "Beyond the Desk: Using Behavioral Science to Improve Workplace Well-Being",
+                        "profileImage": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1742617698083_IMG_9084.jpg",
+                        "identifier": "do_1142743067745812481229"
+                      },
+                      {
+                        "title": "Prof Bimlesh Kumar Singh",
+                        "description": "Maintenance of Transformers",
+                        "profileImage": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1742617868268_Bimlesh.jpg",
+                        "identifier": "do_1142743211854888961161"
+                      },
+                      {
+                        "title": "Prof. Dr. Sanjukkta Bhaduril",
+                        "description": "Resilient tourism infrastructure for Andaman and Nicobar Islands",
+                        "profileImage": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1742618016728_Dr. Sanjukkta.jpeg",
+                        "identifier": "do_1142743114401218561137"
+                      }
+                    ]
+                  }
+                },
+                "weekHighlights": {
+                  "enabled": true,
+                  "data": {
+                    "title": "Highlights of the State Learning Week1",
+                    "sliderData": {
+                      "styleData": {
+                        "borderRadius": "12px",
+                        "customHeight": "",
+                        "bannerMetaClass": "cbp-card",
+                        "responsive": {
+                          "bannerMetaClass": "cbp-card"
+                        }
+                      }
+                    },
+                    "list": [
+                    ]
+                  }
+                },
+                "myprogress": {
+                  "enabled": true,
+                  "data": {
+                    "title": "Your week's progress",
+                    "infoText": "During Rajya Karmayogi Saptah, stay informed about your learning journey. Monitor your Learning Hours, and earn Certificates.",
+                    "infoIcon": "https://portal.dev.karmayogibharat.net/content-store/orgStore/0135071359030722569/1726652230008_info_icon.svg",
+                    "profleDetails": {},
+                    "hideEle": [
+                      "karma-points"
+                    ],
+                    "insights": {
+                      "data": {
+                        "sliderData": {
+                          "styleData": {
+                            "borderRadius": "12px",
+                            "customHeight": "83px",
+                            "bannerMeta": "visible",
+                            "bannerMetaClass": "cbp-card",
+                            "responsive": {
+                              "bannerMetaClass": "cbp-card",
+                              "customHeight": "83px"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "mdoLeaderboard": {
+                  "enabled": true,
+                  "data": {
+                    "title": "Leaderboard",
+                    "infoText": "Celebrate top performers! The leaderboard showcases the Departments and Organizations based on total learning hours earned during State Learning Week.",
+                    "infoIcon": "https://portal.dev.karmayogibharat.net/content-store/orgStore/0135071359030722569/1726652230008_info_icon.svg",
+                    "currentTab": "S",
+                    "customClass": "",
+                    "cardHeight": "",
+                    "carMinHeight": "",
+                    "searchHint": "Search Departments",
+                    "hideEle": [
+                      "karma-points"
+                    ],
+                    "options": [
+                      {
+                        "label": "1 - 100",
+                        "value": "XS"
+                      },
+                      {
+                        "label": "101 - 1000",
+                        "value": "S"
+                      },
+                      {
+                        "label": "1001 - 10000",
+                        "value": "M"
+                      },
+                      {
+                        "label": "10001 and above",
+                        "value": "L"
+                      }
+                    ]
+                  }
+                },
+                "mandatoryCourse": {
+                  "enabled": true,
+                  "navigation": true,
+                  "key": "sectionMandatoryCourses",
+                  "order": 3,
+                  "navOrder": 1,
+                  "column": [
+                    {
+                      "active": true,
+                      "enabled": true,
+                      "key": "contentMandatoryCoursesStrip",
+                      "data": {
+                        "order": 4,
+                        "strips": [
+                          {
+                            "active": true,
+                            "title": "Recommended courses",
+                            "titleClass": "mat-title",
+                            "customeClass": "width-238",
+                            "key": "mandatoryCourses",
+                            "logo": "school",
+                            "disableTranslate": true,
+                            "stripTitleLink": {
+                              "link": "",
+                              "icon": ""
+                            },
+                            "sliderConfig": {
+                              "showNavs": true,
+                              "showDots": true,
+                              "maxWidgets": 18,
+                              "showNavsSpacing": true
+                            },
+                            "stripBackground": "",
+                            "titleDescription": "Recommended courses",
+                            "stripConfig": {
+                              "cardSubType": "card-portrait-lib"
+                            },
+                            "loader": true,
+                            "loaderConfig": {
+                              "cardSubType": "card-portrait-lib-skeleton"
+                            },
+                            "filters": [],
+                            "request": {
+                              "apiUrl": "/apis/proxies/v8/playList/read/<playlistKey>/<orgID>",
+                              "playlistRead": {
+                                "type": "MP_Recommended_Courses"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "exploreLearningContent": {
+                  "enabled": true,
+                  "strips": [
+                    {
+                      "active": true,
+                      "key": "featuredContents",
+                      "logo": "school",
+                      "title": "Explore Learning Contents",
+                      "titleClass": "mat-title",
+                      "type": "learningContent",
+                      "disableTranslate": true,
+                      "stripTitleLink": {
+                        "link": "",
+                        "icon": ""
+                      },
+                      "sliderConfig": {
+                        "showNavs": true,
+                        "showDots": true,
+                        "maxWidgets": 100,
+                        "showNavsSpacing": true
+                      },
+                      "stripBackground": "",
+                      "titleDescription": "For you",
+                      "stripConfig": {
+                        "cardSubType": "card-portrait-lib",
+                        "hideShowAll": true
+                      },
+                      "viewMoreUrl": {},
+                      "hideViewMoreUrl": true,
+                      "loader": true,
+                      "loaderConfig": {
+                        "cardSubType": "card-portrait-lib-skeleton"
+                      },
+                      "tabs": [
+                        {
+                          "label": "Group A",
+                          "value": "Group A",
+                          "computeDataOnClick": false,
+                          "disableTranslate": true,
+                          "computeDataOnClickKey": "",
+                          "requestRequired": true,
+                          "showTabDataCount": false,
+                          "maxWidgets": 100,
+                          "nodataMsg": "no Data Course",
+                          "contentShuffel": true,
+                          "request": {
+                            "apiUrl": "/apis/proxies/v8/playList/read/<playlistKey>/<orgID>",
+                            "playlistRead": {
+                              "type": "MDO_GROUP_A_MP"
+                            }
+                          }
+                        },
+                        {
+                          "label": "Group B",
+                          "value": "Group B",
+                          "computeDataOnClick": false,
+                          "disableTranslate": true,
+                          "computeDataOnClickKey": "",
+                          "requestRequired": true,
+                          "showTabDataCount": false,
+                          "maxWidgets": 100,
+                          "nodataMsg": "no Data Course",
+                          "contentShuffel": true,
+                          "request": {
+                            "apiUrl": "/apis/proxies/v8/playList/read/<playlistKey>/<orgID>",
+                            "playlistRead": {
+                              "type": "MDO_GROUP_B_MP"
+                            }
+                          }
+                        },
+                        {
+                          "label": "Group C",
+                          "value": "Group C",
+                          "computeDataOnClick": false,
+                          "disableTranslate": true,
+                          "computeDataOnClickKey": "",
+                          "requestRequired": true,
+                          "showTabDataCount": false,
+                          "maxWidgets": 100,
+                          "nodataMsg": "no Data Course",
+                          "contentShuffel": true,
+                          "request": {
+                            "apiUrl": "/apis/proxies/v8/playList/read/<playlistKey>/<orgID>",
+                            "playlistRead": {
+                              "type": "MDO_GROUP_C_MP"
+                            }
+                          }
+                        }
+                      ],
+                      "filters": [],
+                      "stripRequestType": "post",
+                      "stripRequestFor": "search",
+                      "onTabClickRequest": false,
+                      "request": {
+                        "apiUrl": "/apis/proxies/v8/playList/read/<playlistKey>/<orgID>",
+                        "playlistRead": {
+                          "type": "ORG_FEATURED_COURSES"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "events": {
+                  "active": true,
+                  "enabled": false,
+                  "title": "Explore events",
+                  "navigation": true,
+                  "key": "sectionExploreEvents",
+                  "order": 3,
+                  "navOrder": 1,
+                  "column": [
+                    {
+                      "maxContent": 3,
+                      "active": true,
+                      "enabled": true,
+                      "key": "exploreEventsContent",
+                      "title": "Explore events",
+                      "defaultImage": "https://portal.dev.karmayogibharat.net/content-store/orgStore/01390354700029132834/1727084157602_Image.svg",
+                      "request": {
+                        "locale": [
+                          "en"
+                        ],
+                        "query": "",
+                        "request": {
+                          "query": "",
+                          "filters": {
+                            "resourceType": [
+                              "Karmayogi Saptah",
+                              "Karmayogi Talks",
+                              "Rajya Karmayogi Saptah"
+                            ],
+                            "status": [
+                              "Live"
+                            ],
+                            "contentType": "Event",
+                            "category": "Event",
+                            "startDate": "<startDateObj>"
+                          },
+                          "sort_by": {
+                            "startDate": "desc"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

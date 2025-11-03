@@ -201,7 +201,23 @@
                 "mdo_admin",
                 "mdo_leader"
               ]
-            }
+            },
+            {
+              "name": "Microsite",
+              "key": "microsite",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/microsite",
+              "requiredRoles": [
+                "mdo_admin",
+                "mdo_leader"
+              ]
+            }  
           ]
         },
         {
