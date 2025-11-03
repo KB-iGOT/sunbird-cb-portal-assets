@@ -590,14 +590,6 @@
                     }
                   },
                   "list": [
-                    {
-                      "title": "The Capacity Building Scheme (CB)",
-                      "downloaUrl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1735300290689_Capacity_building_plan.pdf"
-                    },
-                    {
-                      "title": "The Capacity Building Scheme (CB)",
-                      "downloaUrl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1735300290689_Capacity_building_plan.pdf"
-                    }
                   ]
                 }
               },
@@ -658,26 +650,7 @@
                         }
                       }
                     },
-                    "list": [
-                      {
-                        "title": "Ms Arushi Malhotra",
-                        "description": "Beyond the Desk: Using Behavioral Science to Improve Workplace Well-Being",
-                        "profileImage": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1742617698083_IMG_9084.jpg",
-                        "identifier": "do_1142743067745812481229"
-                      },
-                      {
-                        "title": "Prof Bimlesh Kumar Singh",
-                        "description": "Maintenance of Transformers",
-                        "profileImage": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1742617868268_Bimlesh.jpg",
-                        "identifier": "do_1142743211854888961161"
-                      },
-                      {
-                        "title": "Prof. Dr. Sanjukkta Bhaduril",
-                        "description": "Resilient tourism infrastructure for Andaman and Nicobar Islands",
-                        "profileImage": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1742618016728_Dr. Sanjukkta.jpeg",
-                        "identifier": "do_1142743114401218561137"
-                      }
-                    ]
+                    "list": []
                   }
                 },
                 "weekHighlights": {
