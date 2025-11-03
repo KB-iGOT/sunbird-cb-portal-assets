@@ -22,7 +22,7 @@
       "name": "courses",
       "count": 0,
       "isChecked": false,
-      "facets": ["avgRating", "language", "courseCategory", "resourceCategory", "status", "sectorDetails_v1.sectorName", "sectorDetails_v1.subSectorName", "competencies"],
+      "facets": ["language", "courseCategory", "resourceCategory", "status", "competencies"],
       "filters": [
       ],
       "labels": {
@@ -82,6 +82,35 @@
       "disabled": false
     }
   ],
+  "sortings": {
+    "courses": [
+      { "name": "Most Relevant", "value": "most_relevant", "code": "MOST_RELEVANT" },
+      { "name": "Recently Added (Newest)", "value": "recently_added_newest", "code": "RECENTLY_ADDED_NEWEST" },
+      { "name": "A-Z", "value": "a-z", "code": "A_TO_Z" },
+      { "name": "Z-A", "value": "z-a", "code": "Z_TO_A" }
+    ]
+  },
+  "fields": {
+    "courses": [
+      "organisation",
+      "appIcon",
+      "identifier",
+      "name",
+      "primaryCategory",
+      "contentType",
+      "posterImage",
+      "createdOn",
+      "duration",
+      "additionalTags",
+      "courseCategory",
+      "mimeType",
+      "contentId",
+      "creatorLogo",
+      "sectorDetails_v1",
+      "status",
+      "lastUpdatedOn"
+    ]
+  },
   "searchInputConfig": {
     "defaultSearchCategory": "courses",
     "enableRecentSearches": true
