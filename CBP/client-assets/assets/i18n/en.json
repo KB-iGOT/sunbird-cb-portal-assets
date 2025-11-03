@@ -1892,7 +1892,8 @@
         "competencyArea":"Competency Area",
         "ratingTitle": "Ratings",
         "sectorId": "Sectors",
-        "resourceCategory": "Resource Category"
+        "resourceCategory": "Resource Category",
+        "externalContent": "External Content ({{count}})"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
