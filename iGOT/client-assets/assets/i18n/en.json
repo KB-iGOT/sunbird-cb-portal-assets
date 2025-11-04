@@ -799,7 +799,10 @@
         "rejected": "Rejected",
         "totalApplied": "Total applied",
         "batchSize": "Batch size",
-        "totalEnrolled": "Total enrolled"
+        "totalEnrolled": "Total enrolled.",
+        "returnToProgramPage": "Return to Program Page",
+        "surveyCompletedCertificateGenerating": "Thank you for completing the program survey.  Your certificate is now being generated and will be available soon.",
+        "surveySubmitted": "Survey Submitted Successfully!"
     },
     "certificatedialog": {
         "downloadCertificate": "Download Certificate",
