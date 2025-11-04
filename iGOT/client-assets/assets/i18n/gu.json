@@ -262,7 +262,8 @@
     "start": "પ્રારંભ કરો",
     "viewCertificate": "પ્રમાણપત્ર જુઓ",
     "overDue": "ઓવર લેન્ડિંગ",
-    "deadline": "સમયમર્યાદા"
+    "deadline": "સમયમર્યાદા",
+    "takeSurveyToUnlock": "સર્વેને અનલૉક કરવા માટે લો"
   },
   "allChannelsComponent": {
     "noChannelsFound": "કોઈ ચેનલો મળી નથી!",
@@ -791,7 +792,20 @@
     "rejected": "નામંજૂર",
     "totalApplied": "કુલ લાગુ કરાયેલ",
     "batchSize": "બૅચનું કદ",
-    "totalEnrolled": "કુલ નોંધણી"
+    "totalEnrolled": "કુલ નોંધણી",
+    "returnToProgramPage": "પ્રોગ્રામ પેજ પર પાછા ફરો",
+    "surveyCompletedCertificateGenerating": "પ્રોગ્રામ સર્વે પૂર્ણ કરવા બદલ આભાર. તમારું પ્રમાણપત્ર હવે બનાવવામાં આવી રહ્યું છે અને ટૂંક સમયમાં ઉપલબ્ધ થશે.",
+    "surveySubmitted": "સર્વે સફળતાપૂર્વક સબમિટ થયો!",
+    "completeSurvey": "સર્વે પૂર્ણ કરો",
+    "takeSurveyToUnlock": "ભવિષ્યના પ્રોગ્રામ્સને સુધારવામાં અમારી મદદ માટે કૃપા કરીને તમારો પ્રતિસાદ શેર કરો. તમે આ સર્વે સબમિટ કર્યા પછી તમારું પ્રમાણપત્ર અનલોક થશે.",
+    "doItLater": "પછીથી કરો",
+    "submit": "સબમિટ કરો",
+    "certificateLocked": "પ્રમાણપત્ર લૉક છે",
+    "certificateLockedMessage": "તમારું પ્રમાણપત્ર હાલમાં લૉક છે.",
+    "unlockCertificate": "તેને અનલૉક કરવા માટે, કૃપા કરીને પૂર્ણ કરો",
+    "surveyForm": "સર્વે ફોર્મ",
+    "unlockCertificate2": "આ કાર્યક્રમ વિશે. એકવાર સબમિટ થયા પછી, તમારું પ્રમાણપત્ર આપમેળે જનરેટ થશે.",
+    "completeSurveyNow": "હવે સર્વે પૂર્ણ કરો"
   },
   "certificatedialog": {
     "downloadCertificate": "પ્રમાણપત્ર ડાઉનલોડ કરો",
