@@ -41,7 +41,7 @@
       "name": "events",
       "count": 0,
       "isChecked": false,
-      "facets": [ "status", "resourceType", "competencies" ],
+      "facets": [ "status", "resourceType", "sourceName", "competencies" ],
       "filters": [
         {
           "displayName": "Event Date",
@@ -108,7 +108,8 @@
       "creatorLogo",
       "sectorDetails_v1",
       "status",
-      "lastUpdatedOn"
+      "lastUpdatedOn",
+      "createdFor"
     ]
   },
   "searchInputConfig": {
