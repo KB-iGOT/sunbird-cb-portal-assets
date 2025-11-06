@@ -805,14 +805,14 @@
         "surveyCompletedCertificateGenerating": "Thank you for completing the program survey.  Your certificate is now being generated and will be available soon.",
         "surveySubmitted": "Survey Submitted Successfully!",
         "completeSurvey": "Complete Survey",
-        "takeSurveyToUnlock": "Please share your feedback to help us improve future programs. Your certificate will unlock once you submit this survey.",
+        "takeSurveyToUnlock": "Please complete the program survey to unlock your certificate. Certificates will remain locked if the survey is not submitted.",
         "doItLater": "Do it later",
         "submit": "Submit",
         "certificateLocked": "Certificate Locked",
         "certificateLockedMessage": "Your certificate is currently locked.",
-        "unlockCertificate": "To unlock it, please complete the",
+        "unlockCertificate": "Please complete the",
         "surveyForm": "survey form",
-        "unlockCertificate2": "about this program. Once submitted, your certificate will be generated automatically.",
+        "unlockCertificate2": "for this program to unlock it. Once you submit the form, your certificate will be generated automatically.",
         "completeSurveyNow": "Complete Survey Now"
     },
     "certificatedialog": {
