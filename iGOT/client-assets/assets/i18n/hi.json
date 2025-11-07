@@ -269,7 +269,8 @@
     "start": "शुरू करें",
     "viewCertificate": "प्रमाणपत्र देखें",
     "overDue": "बहुत देर",
-    "deadline": "समय सीमा"
+    "deadline": "समय सीमा",
+    "takeSurveyToUnlock": "सर्वेक्षण लेने के लिए अनलॉक करें"
   },
   "allChannelsComponent": {
     "noChannelsFound": "कोई चैनल नहीं मिला!",
@@ -799,7 +800,20 @@
     "rejected": "अस्वीकृत",
     "totalApplied": "कुल अप्लाइ किए",
     "batchSize": "बैच का आकार",
-    "totalEnrolled": "कुल नामांकित हुए"
+    "totalEnrolled": "कुल नामांकित हुए",
+    "returnToProgramPage": "कार्यक्रम पृष्ठ पर वापस जाएं",
+    "surveyCompletedCertificateGenerating": "कार्यक्रम सर्वेक्षण पूरा करने के लिए धन्यवाद। आपका प्रमाणपत्र अब तैयार किया जा रहा है और जल्द ही उपलब्ध होगा।",
+    "surveySubmitted": "सर्वेक्षण सफलतापूर्वक जमा किया गया!",
+    "completeSurvey": "सर्वेक्षण पूरा करें",
+    "takeSurveyToUnlock": "कृपया अपना प्रमाणपत्र अनलॉक करने के लिए कार्यक्रम सर्वेक्षण पूरा करें। यदि सर्वेक्षण जमा नहीं किया गया तो प्रमाणपत्र लॉक रहेंगे।",
+    "doItLater": "बाद में करें",
+    "submit": "जमा करें",
+    "certificateLocked": "प्रमाणपत्र लॉक है",
+    "certificateLockedMessage": "आपका प्रमाणपत्र वर्तमान में लॉक है।",
+    "unlockCertificate": "कृपया प्रमाणपत्र अनलॉक करने के लिए सर्वेक्षण पूरा करें।",
+    "surveyForm": "सर्वेक्षण फॉर्म",
+    "unlockCertificate2": "for this program to unlock it. Once you submit the form, your certificate will be generated automatically.",
+    "completeSurveyNow": "अभी सर्वेक्षण पूरा करें"
   },
   "certificatedialog": {
     "downloadCertificate": "प्रमाणपत्र डाउनलोड करें",
