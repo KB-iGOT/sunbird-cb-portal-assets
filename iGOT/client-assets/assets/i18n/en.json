@@ -587,7 +587,9 @@
     "apptocsessionscards": {
         "optional": "optional",
         "sessionHandouts": "Session Handouts",
-        "download": "Download"
+        "download": "Download",
+        "resources": "Resources/Links",
+        "view": "View"
     },
     "attendancecard": {
         "attendanceStatus": "Attendance status",

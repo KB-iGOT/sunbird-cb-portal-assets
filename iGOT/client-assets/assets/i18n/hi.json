@@ -587,7 +587,9 @@
   "apptocsessionscards": {
     "optional": "ऐच्छिक",
     "sessionHandouts": "सत्र के हैंडआउट",
-    "download": "डाउनलोड करें"
+    "download": "डाउनलोड करें",
+    "resources": "संसाधन/लिंक",
+    "view": "देखना"
   },
   "attendancecard": {
     "attendanceStatus": "उपस्थिति की स्थिति",
