@@ -146,6 +146,16 @@
           "matFlatButton": true
         }
       ]
+    },
+    "users": {
+      "showButtons": true,
+      "navigationsButtons": [
+        {
+          "label": "backToHomePage",
+          "routeTo": "app/home",
+          "matFlatButton": false
+        }
+      ]
     }
   }
 }
