@@ -2,7 +2,7 @@
   "searchListing": true,
   "applicationName": "CBP Portal",
   "searchCategories": [
-    { "label": "Contents", "value": "courses", "icon": "calender-event", "roles": ["CONTENT_CREATOR", "CONTENT_REVIEWER", "CONTENT_PUBLISHER", "SPV_PUBLISHER"] },
+    { "label": "Contents", "value": "courses", "icon": "calender-event", "roles": ["CONTENT_CREATOR", "CONTENT_REVIEWER", "CONTENT_PUBLISHER", "SPV_PUBLISHER", "PROGRAM_COORDINATOR"] },
     { "label": "Events", "value": "events", "icon": "calender-event", "roles": ["SPV_PUBLISHER"] },
     { "label": "External Contents", "value": "external-contents", "icon": "calender-event", "roles": ["SPV_PUBLISHER"] },
     { "label": "Users", "value": "users", "icon": "people-search", "roles": ["CBP_ADMIN"] }
@@ -41,7 +41,7 @@
       "name": "events",
       "count": 0,
       "isChecked": false,
-      "facets": [ "status", "resourceType", "competencies" ],
+      "facets": [ "status", "resourceType", "sourceName", "competencies" ],
       "filters": [
         {
           "displayName": "Event Date",
@@ -108,7 +108,8 @@
       "creatorLogo",
       "sectorDetails_v1",
       "status",
-      "lastUpdatedOn"
+      "lastUpdatedOn",
+      "createdFor"
     ]
   },
   "searchInputConfig": {
