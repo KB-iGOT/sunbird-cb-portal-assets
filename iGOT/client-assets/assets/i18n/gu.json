@@ -580,7 +580,9 @@
   "apptocsessionscards": {
     "optional": "વૈકલ્પિક",
     "sessionHandouts": "સત્ર હસ્તપ્રતો",
-    "download": "ડાઉનલોડ કરો"
+    "download": "ડાઉનલોડ કરો",
+    "resources": "સંસાધનો/લિંક્સ",
+    "view": "જુઓ"
   },
   "attendancecard": {
     "attendanceStatus": "હાજરીની સ્થિતિ",
