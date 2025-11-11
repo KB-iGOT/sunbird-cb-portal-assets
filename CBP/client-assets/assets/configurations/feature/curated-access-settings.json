@@ -12,7 +12,7 @@
     ],
     "optionsConditions": [{ "value": "is", "label": "is" }],
     "organizationRadioSelection": [
-      { "value": "all", "label": "All Organisation" },
+      { "value": "all", "label": "All Organisation" }, 
       { "value": "selected", "label": "Selected Organisation" }
     ],
     "designationRadioSelection": [
@@ -43,7 +43,8 @@
     "readOnly": false,
     "allowCustomsField": false,
     "paginationLimit": 100,
-    "canShowAccessTypeRadio": false
+    "canShowAccessTypeRadio": false,
+    "shouldShowVisibilityToggle": true
   },
 
   "usersTableConfig": {
