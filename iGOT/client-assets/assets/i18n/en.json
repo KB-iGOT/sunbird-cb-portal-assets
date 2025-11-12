@@ -543,7 +543,8 @@
         "noAssignments": "No assignments available now!",
         "postAssignmentPreview": "Post Assignment Preview",
         "discard": "Discard",
-        "submit": "Submit"
+        "submit": "Submit",
+        "note": "Download the assignment file before uploading. Make sure your response is in PDF format."
     },
     "ratingsummary": {
         "ratings": "ratings",
