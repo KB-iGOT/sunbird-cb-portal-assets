@@ -22,7 +22,7 @@
       "name": "courses",
       "count": 0,
       "isChecked": false,
-      "facets": ["language", "courseCategory", "resourceCategory", "status", "competencies"],
+      "facets": ["language", "courseCategory", "resourceCategory", "status", "competencies", "duration", "reviewStatus"],
       "filters": [
       ],
       "labels": {
@@ -109,7 +109,31 @@
       "sectorDetails_v1",
       "status",
       "lastUpdatedOn",
-      "createdFor"
+      "createdFor",
+      "reviewStatus",
+      "language",
+      "prevStatus",
+      "languageMapV1"
+    ],
+    "events": [
+      "name",
+      "description",
+      "identifier",
+      "resourceType",
+      "contentType",
+      "sourceName",
+      "duration",
+      "startDate",
+      "endDate",
+      "startTime",
+      "endTime",
+      "createdOn",
+      "eventType",
+      "expiryDate",
+      "appIcon",
+      "startDateTime",
+      "endDateTime",
+      "status"
     ]
   },
   "searchInputConfig": {
@@ -154,6 +178,12 @@
           "label": "backToHomePage",
           "routeTo": "app/home",
           "matFlatButton": false
+        },
+
+        {
+          "label": "goToUsers",
+          "routeTo": "author/cbp/users",
+          "matFlatButton": true
         }
       ]
     }
