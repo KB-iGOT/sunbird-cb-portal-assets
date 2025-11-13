@@ -1616,7 +1616,11 @@
     "terms": "सेवेच्या अटी",
     "signup": "साइन अप करा",
     "haveAccount": "आधीच खाते आहे का?",
-    "signin": "येथे नोंदणी करा"
+    "signin": "येथे नोंदणी करा",
+    "loadMore": "अजून लोड करत आहे...",
+    "selectDesignationErrorMsg": "कृपया एक पद निवडा",
+    "designationNotFound": "पद सापडले नाही. कृपया आपल्या संबंधित MDO प्रशासकाशी संपर्क साधण्यासाठी क्लिक करा",
+    "here": "येथे."
   },
   "publicrequest": {
     "requestTo": "जोडण्याची विनंती",

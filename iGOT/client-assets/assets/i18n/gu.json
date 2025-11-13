@@ -1799,7 +1799,11 @@
     "haveAccount": "શું તમારી પાસે ખાતું છે?",
     "signin": "અહીં સાઇન ઇન કરો",
     "privacyPolicy": "ગોપનીયતા નીતિ",
-    "selectDesignation": "હોદ્દો પસંદ કરો"
+    "selectDesignation": "હોદ્દો પસંદ કરો",
+    "loadMore": "વધુ લોડ થઈ રહ્યું છે...",
+    "selectDesignationErrorMsg": "કૃપા કરીને એક હોદ્દો પસંદ કરો",
+    "designationNotFound": "હોદ્દો મળ્યો નથી. કૃપા કરીને તમારા સંબંધિત MDO એડમિનને સંપર્ક કરવા માટે ક્લિક કરો",
+    "here": "અહીં."
   },
   "publicrequest": {
     "requestTo": "ઉમેરવાની વિનંતી",
