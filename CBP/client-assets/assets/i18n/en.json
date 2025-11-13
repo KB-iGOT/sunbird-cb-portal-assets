@@ -1894,7 +1894,8 @@
         "ratingTitle": "Ratings",
         "sectorId": "Sectors",
         "resourceCategory": "Resource Category",
-        "externalContent": "External Content ({{count}})"
+        "externalContent": "External Content ({{count}})",
+        "createdDate": "Created Date"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
