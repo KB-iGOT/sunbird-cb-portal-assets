@@ -1892,7 +1892,12 @@
         "groupGradeMandatory": "Group is mandatory",
         "publicsignupCrpTermsCond": "I confirm that the above provided information is accurate & I agree to the iGOT karmayogi's",
         "btnVerify": "Verify",
-        "registerFor": "Register for"
+        "registerFor": "Register for",
+        "loadMore": "Loading More...",
+        "selectDesignationErrorMsg": "Please choose a designation",
+        "designationNotFound": "Designation not found. Please reach out to your respective MDO Admin by clicking",
+        "here": "here."
+
     },
     "publicrequest": {
         "requestTo": "Request to add",

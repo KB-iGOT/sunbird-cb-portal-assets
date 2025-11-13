@@ -1868,7 +1868,11 @@
     "groupGradeMandatory": "समूह/श्रेणी अनिवार्य है",
     "publicsignupCrpTermsCond": "मैं पुष्टि करता हूं कि ऊपर दी गई जानकारी सही है और मैं iGOT कर्मयोगी की शर्तों से सहमत हूं।",
     "btnVerify": "सत्यापित करें",
-    "registerFor": "पंजीकरण करें"
+    "registerFor": "पंजीकरण करें",
+    "loadMore": "अधिक लोड हो रहा है...",
+    "selectDesignationErrorMsg": "कृपया एक पदनाम चुनें",
+    "designationNotFound": "पदनाम नहीं मिला। कृपया अपने संबंधित MDO एडमिन से संपर्क करने के लिए क्लिक करें",
+    "here": "यहाँ।"
   },
   "publicrequest": {
     "requestTo": "जोड़ने का अनुरोध",
