@@ -24,6 +24,15 @@
       "isChecked": false,
       "facets": ["language", "courseCategory", "resourceCategory", "status", "competencies", "duration", "reviewStatus"],
       "filters": [
+        {
+          "displayName": "Created Date",
+          "name": "Created Date",
+          "count": 0,
+          "isChecked": false,
+          "filterType": "dateRange",
+          "sectionKey": "createdDateRange",
+          "filters": []
+        }
       ],
       "labels": {
         "status": {
