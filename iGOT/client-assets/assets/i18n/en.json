@@ -269,7 +269,8 @@
         "start": "Start",
         "viewCertificate": "View Certificate",
         "overDue": "Over due",
-        "deadline": "Deadline"
+        "deadline": "Deadline",
+        "takeSurveyToUnlock": "Take survey to unlock"
     },
     "allChannelsComponent": {
         "noChannelsFound": "No channels found!",
@@ -542,7 +543,8 @@
         "noAssignments": "No assignments available now!",
         "postAssignmentPreview": "Post Assignment Preview",
         "discard": "Discard",
-        "submit": "Submit"
+        "submit": "Submit",
+        "note": "Download the assignment file before uploading. Make sure your response is in PDF format."
     },
     "ratingsummary": {
         "ratings": "ratings",
@@ -587,7 +589,9 @@
     "apptocsessionscards": {
         "optional": "optional",
         "sessionHandouts": "Session Handouts",
-        "download": "Download"
+        "download": "Download",
+        "resources": "Resources/Links",
+        "view": "View"
     },
     "attendancecard": {
         "attendanceStatus": "Attendance status",
@@ -799,7 +803,20 @@
         "rejected": "Rejected",
         "totalApplied": "Total applied",
         "batchSize": "Batch size",
-        "totalEnrolled": "Total enrolled"
+        "totalEnrolled": "Total enrolled.",
+        "returnToProgramPage": "Return to Program Page",
+        "surveyCompletedCertificateGenerating": "Thank you for completing the program survey.  Your certificate is now being generated and will be available soon.",
+        "surveySubmitted": "Survey Submitted Successfully!",
+        "completeSurvey": "Complete Survey",
+        "takeSurveyToUnlock": "Please complete the program survey to unlock your certificate. Certificates will remain locked if the survey is not submitted.",
+        "doItLater": "Do it later",
+        "submit": "Submit",
+        "certificateLocked": "Certificate Locked",
+        "certificateLockedMessage": "Your certificate is currently locked.",
+        "unlockCertificate": "Please complete the",
+        "surveyForm": "survey form",
+        "unlockCertificate2": "for this program to unlock it. Once you submit the form, your certificate will be generated automatically.",
+        "completeSurveyNow": "Complete Survey Now"
     },
     "certificatedialog": {
         "downloadCertificate": "Download Certificate",

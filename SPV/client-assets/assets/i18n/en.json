@@ -1,0 +1,9 @@
+{
+  "utilslogout": {
+    "logoutNow": "Logout Now",
+    "logoutNote": "Note: On logging out all the downloaded content will be deleted.",
+    "logoutConfirm": "Are you sure?",
+    "logoutYes": "Yes",
+    "logoutNo": "No"
+  }
+}
