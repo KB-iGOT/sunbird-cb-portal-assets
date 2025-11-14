@@ -543,7 +543,8 @@
     "noAssignments": "अभी कोई असाइनमेंट उपलब्ध नहीं है!",
     "postAssignmentPreview": "असाइनमेंट पोस्ट करें",
     "discard": "खारिज करें",
-    "submit": "जमा करें"
+    "submit": "जमा करें",
+    "note": "अपलोड करने से पहले असाइनमेंट फ़ाइल डाउनलोड करें। सुनिश्चित करें कि आपका उत्तर PDF प्रारूप में हो।"
   },
   "ratingsummary": {
     "ratings": "रेट",
@@ -588,7 +589,9 @@
   "apptocsessionscards": {
     "optional": "ऐच्छिक",
     "sessionHandouts": "सत्र के हैंडआउट",
-    "download": "डाउनलोड करें"
+    "download": "डाउनलोड करें",
+    "resources": "संसाधन/लिंक",
+    "view": "देखना"
   },
   "attendancecard": {
     "attendanceStatus": "उपस्थिति की स्थिति",
@@ -805,14 +808,14 @@
     "surveyCompletedCertificateGenerating": "कार्यक्रम सर्वेक्षण पूरा करने के लिए धन्यवाद। आपका प्रमाणपत्र अब तैयार किया जा रहा है और जल्द ही उपलब्ध होगा।",
     "surveySubmitted": "सर्वेक्षण सफलतापूर्वक जमा किया गया!",
     "completeSurvey": "सर्वेक्षण पूरा करें",
-    "takeSurveyToUnlock": "भविष्य के कार्यक्रमों को बेहतर बनाने में हमारी मदद करने के लिए कृपया अपनी प्रतिक्रिया साझा करें। इस सर्वेक्षण को जमा करने के बाद आपका प्रमाणपत्र अनलॉक हो जाएगा।",
+    "takeSurveyToUnlock": "कृपया अपना प्रमाणपत्र अनलॉक करने के लिए कार्यक्रम सर्वेक्षण पूरा करें। यदि सर्वेक्षण जमा नहीं किया गया तो प्रमाणपत्र लॉक रहेंगे।",
     "doItLater": "बाद में करें",
     "submit": "जमा करें",
     "certificateLocked": "प्रमाणपत्र लॉक है",
     "certificateLockedMessage": "आपका प्रमाणपत्र वर्तमान में लॉक है।",
-    "unlockCertificate": "इसे अनलॉक करने के लिए, कृपया",
+    "unlockCertificate": "कृपया प्रमाणपत्र अनलॉक करने के लिए सर्वेक्षण पूरा करें।",
     "surveyForm": "सर्वेक्षण फॉर्म",
-    "unlockCertificate2": "इस कार्यक्रम के बारे में भरें। जमा करने के बाद, आपका प्रमाणपत्र स्वचालित रूप से तैयार हो जाएगा।",
+    "unlockCertificate2": "for this program to unlock it. Once you submit the form, your certificate will be generated automatically.",
     "completeSurveyNow": "अभी सर्वेक्षण पूरा करें"
   },
   "certificatedialog": {
@@ -1865,7 +1868,11 @@
     "groupGradeMandatory": "समूह/श्रेणी अनिवार्य है",
     "publicsignupCrpTermsCond": "मैं पुष्टि करता हूं कि ऊपर दी गई जानकारी सही है और मैं iGOT कर्मयोगी की शर्तों से सहमत हूं।",
     "btnVerify": "सत्यापित करें",
-    "registerFor": "पंजीकरण करें"
+    "registerFor": "पंजीकरण करें",
+    "loadMore": "अधिक लोड हो रहा है...",
+    "selectDesignationErrorMsg": "कृपया एक पदनाम चुनें",
+    "designationNotFound": "पदनाम नहीं मिला। कृपया अपने संबंधित MDO एडमिन से संपर्क करने के लिए क्लिक करें",
+    "here": "यहाँ।"
   },
   "publicrequest": {
     "requestTo": "जोड़ने का अनुरोध",

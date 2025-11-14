@@ -2,7 +2,7 @@
   "searchListing": true,
   "applicationName": "CBP Portal",
   "searchCategories": [
-    { "label": "Contents", "value": "courses", "icon": "calender-event", "roles": ["CONTENT_CREATOR", "CONTENT_REVIEWER", "CONTENT_PUBLISHER", "SPV_PUBLISHER"] },
+    { "label": "Contents", "value": "courses", "icon": "calender-event", "roles": ["CONTENT_CREATOR", "CONTENT_REVIEWER", "CONTENT_PUBLISHER", "SPV_PUBLISHER", "PROGRAM_COORDINATOR"] },
     { "label": "Events", "value": "events", "icon": "calender-event", "roles": ["SPV_PUBLISHER"] },
     { "label": "External Contents", "value": "external-contents", "icon": "calender-event", "roles": ["SPV_PUBLISHER"] },
     { "label": "Users", "value": "users", "icon": "people-search", "roles": ["CBP_ADMIN"] }
@@ -22,8 +22,17 @@
       "name": "courses",
       "count": 0,
       "isChecked": false,
-      "facets": ["avgRating", "language", "courseCategory", "resourceCategory", "status", "sectorDetails_v1.sectorName", "sectorDetails_v1.subSectorName", "competencies"],
+      "facets": ["language", "courseCategory", "resourceCategory", "status", "competencies", "duration", "reviewStatus"],
       "filters": [
+        {
+          "displayName": "Created Date",
+          "name": "Created Date",
+          "count": 0,
+          "isChecked": false,
+          "filterType": "dateRange",
+          "sectionKey": "createdDateRange",
+          "filters": []
+        }
       ],
       "labels": {
         "status": {
@@ -41,7 +50,7 @@
       "name": "events",
       "count": 0,
       "isChecked": false,
-      "facets": [ "status", "resourceType", "competencies" ],
+      "facets": [ "status", "resourceType", "sourceName", "competencies" ],
       "filters": [
         {
           "displayName": "Event Date",
@@ -82,6 +91,60 @@
       "disabled": false
     }
   ],
+  "sortings": {
+    "courses": [
+      { "name": "Most Relevant", "value": "most_relevant", "code": "MOST_RELEVANT" },
+      { "name": "Recently Added (Newest)", "value": "recently_added_newest", "code": "RECENTLY_ADDED_NEWEST" },
+      { "name": "A-Z", "value": "a-z", "code": "A_TO_Z" },
+      { "name": "Z-A", "value": "z-a", "code": "Z_TO_A" }
+    ]
+  },
+  "fields": {
+    "courses": [
+      "organisation",
+      "appIcon",
+      "identifier",
+      "name",
+      "primaryCategory",
+      "contentType",
+      "posterImage",
+      "createdOn",
+      "duration",
+      "additionalTags",
+      "courseCategory",
+      "mimeType",
+      "contentId",
+      "creatorLogo",
+      "sectorDetails_v1",
+      "status",
+      "lastUpdatedOn",
+      "createdFor",
+      "reviewStatus",
+      "language",
+      "prevStatus",
+      "languageMapV1"
+    ],
+    "events": [
+      "name",
+      "description",
+      "identifier",
+      "resourceType",
+      "contentType",
+      "sourceName",
+      "duration",
+      "startDate",
+      "endDate",
+      "startTime",
+      "endTime",
+      "createdOn",
+      "eventType",
+      "expiryDate",
+      "appIcon",
+      "startDateTime",
+      "endDateTime",
+      "status"
+    ]
+  },
   "searchInputConfig": {
     "defaultSearchCategory": "courses",
     "enableRecentSearches": true
@@ -113,6 +176,22 @@
         {
           "label": "goToManageContents",
           "routeTo": "author/cbp/me",
+          "matFlatButton": true
+        }
+      ]
+    },
+    "users": {
+      "showButtons": true,
+      "navigationsButtons": [
+        {
+          "label": "backToHomePage",
+          "routeTo": "app/home",
+          "matFlatButton": false
+        },
+
+        {
+          "label": "goToUsers",
+          "routeTo": "author/cbp/users",
           "matFlatButton": true
         }
       ]

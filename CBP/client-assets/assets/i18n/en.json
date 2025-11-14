@@ -1834,6 +1834,7 @@
         "noResultFound": "Sorry, we couldn't find any results for \"{{searchTerm}}\" so please Try adjusting your search.",
         "goToManageEvents": "Go to Manage Events",
         "backToHomePage": "Back to Home page",
+        "goToUsers": "Go to Users",
         "events": "Events ({{count}})",
         "event": "Event ({{count}})",
         "content": "Content ({{count}})",
@@ -1892,7 +1893,9 @@
         "competencyArea":"Competency Area",
         "ratingTitle": "Ratings",
         "sectorId": "Sectors",
-        "resourceCategory": "Resource Category"
+        "resourceCategory": "Resource Category",
+        "externalContent": "External Content ({{count}})",
+        "createdDate": "Created Date"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
