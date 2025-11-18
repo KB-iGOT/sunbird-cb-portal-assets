@@ -119,6 +119,7 @@
       "status",
       "lastUpdatedOn",
       "createdFor",
+      "createdBy",
       "reviewStatus",
       "language",
       "prevStatus",
