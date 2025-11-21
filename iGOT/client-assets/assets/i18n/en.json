@@ -720,6 +720,8 @@
         "performanceSummary": "Your Performance Summary",
         "acedAssessment": "You have aced the assessment, with flying colours",
         "tryAgainMessage": "No worries! Your next try is a chance to do even better.",
+        "tryAgainMessage1": "Great effort! You have",
+        "tryAgainMessage2": "more attempt(s) left to improve your score.",
         "submitConfirmationMissedQuestion": "Oops! it looks like a few questions were missed, are you sure you want to submit?",
         "tryAgain": "Try Again",
         "failed": "Failed",
