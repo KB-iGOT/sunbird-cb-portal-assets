@@ -94,7 +94,8 @@
     "assessment": "आकलन",
     "assessments": "आकलन",
     "exploreContent": "कोर्स सामग्री खोजें",
-    "caseStudies": "केस स्टडीज"
+    "caseStudies": "केस स्टडीज",
+    "micro-credentials": "माइक्रो-क्रेडेंशियल्स"
   },
   "appnavbar": {
     "searchforLearningContents": "कंटेन्ट खोजें",
@@ -1549,7 +1550,8 @@
     "featuredevents": "विशेष घटनाएँ",
     "thereAreNoEvents": "कोई इवेंट नहीं हैं",
     "youWillSeeAllTheContentsThatIsAparMarked": "आपको यहाँ सभी कंटेन्ट दिखेगा जो ए.पी.ए.आर. के तहत चिह्नित है।",
-    "exploreContent": "कोर्स सामग्री खोजें"
+    "exploreContent": "कोर्स सामग्री खोजें",
+    "forYou": "आपके लिए।"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",

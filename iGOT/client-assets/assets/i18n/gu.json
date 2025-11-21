@@ -88,7 +88,8 @@
     "certificationsOfTheWeek": "અઠવાડિયાના પ્રમાણપત્રો",
     "recentlyAdded": "તાજેતરમાં ઉમેરવામાં આવ્યું",
     "forYou": "તમારા માટે",
-    "contentPatner": "કન્ટેન્ટ પેટનર"
+    "contentPatner": "કન્ટેન્ટ પેટનર",
+    "micro-credentials": "સૂક્ષ્મ-ઓળખપત્રો"
   },
   "appnavbar": {
     "searchforLearningContents": "શીખવાની સામગ્રીઓ માટે શોધો",
@@ -1536,7 +1537,8 @@
     "trendingevents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
     "featuredevents": "ફીચર્ડ ઇવેન્ટ્સ",
     "thereAreNoEvents": "ત્યાં કોઈ ઇવેન્ટ્સ નથી",
-    "youWillSeeAllTheContentsThatIsAparMarked": "તમે તમામ એ સામગ્રી જુઓ છો જે APAR તરીકે ચિહ્નિત છે."
+    "youWillSeeAllTheContentsThatIsAparMarked": "તમે તમામ એ સામગ્રી જુઓ છો જે APAR તરીકે ચિહ્નિત છે.",
+    "forYou": "તમારા માટે"
   },
   "homeotherportals": {
     "otherPortals": "તમારી પાસે ઍક્સેસ હોય તેવા અન્ય પોર્ટલ",

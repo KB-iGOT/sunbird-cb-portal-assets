@@ -94,7 +94,8 @@
         "assessment": "Assessment",
         "assessments": "Assessments",
         "exploreContent": "Explore Content",
-        "caseStudies": "Case Studies"
+        "caseStudies": "Case Studies",
+        "micro-credentials": "Micro-credentials"
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
@@ -1569,7 +1570,8 @@
         "myevents": "My Events",
         "thereAreNoEvents": "There are no Events",
         "youWillSeeAllTheContentsThatIsAparMarked": "You will see all the contents that is APAR marked.",
-        "exploreContent": "Explore Content"
+        "exploreContent": "Explore Content",
+        "forYou": "For you"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
