@@ -122,7 +122,8 @@
       "reviewStatus",
       "language",
       "prevStatus",
-      "languageMapV1"
+      "languageMapV1",
+      "source"
     ],
     "events": [
       "name",
