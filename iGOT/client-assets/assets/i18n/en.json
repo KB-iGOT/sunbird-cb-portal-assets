@@ -1850,8 +1850,8 @@
         "selectYourGroup": "Select your group",
         "groupMandatory": " Group is mandatory",
         "email": "Email",
-        "enterYourEmailAddress": "Enter your email address",
-        "pleaseEnterEmail": "Please enter your email address",
+        "enterYourEmailAddress": "Enter your government email address",
+        "pleaseEnterEmail": "Please enter your government email address",
         "validEmail": "Please enter a valid email address",
         "emailLengthValidation": "Max 64 characters before '@' & 255 characters after '@' are valid.",
         "donotHaveGovernmentEmail": "Do not have a government email address?",
@@ -1900,7 +1900,11 @@
         "loadMore": "Loading More...",
         "selectDesignationErrorMsg": "Please choose a designation",
         "designationNotFound": "Designation not found. Please reach out to your respective MDO Admin by clicking",
-        "here": "here."
+        "here": "here.",
+        "emailMsg": "Not able to proceed? Get registered through your MDO.",
+        "clickHere": "Click here",
+        "toviewNodalOfficers": "to view Nodal Officers."
+
 
     },
     "publicrequest": {
