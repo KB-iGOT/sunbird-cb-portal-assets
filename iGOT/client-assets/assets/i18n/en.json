@@ -720,6 +720,8 @@
         "performanceSummary": "Your Performance Summary",
         "acedAssessment": "You have aced the assessment, with flying colours",
         "tryAgainMessage": "No worries! Your next try is a chance to do even better.",
+        "tryAgainMessage1": "Great effort! You have",
+        "tryAgainMessage2": "more attempt(s) left to improve your score.",
         "submitConfirmationMissedQuestion": "Oops! it looks like a few questions were missed, are you sure you want to submit?",
         "tryAgain": "Try Again",
         "failed": "Failed",
@@ -777,7 +779,9 @@
         "optional": "optional",
         "instructionOne": "I have read and understood all the instructions. I understand that using unfair means of any sort for any advantage will lead to immediate disqualification. The decision of ",
         "instructionTwo": "iGOTkarmayogi.gov.in",
-        "instructionThree": "  will be final in these matters."
+        "instructionThree": "  will be final in these matters.",
+        "passingCriteria": "Passing Criteria",
+        "attemptsLeft": "Attempts Left"
     },
     "apptoc": {
         "lastUpdatedOn": "Last updated on",
@@ -1846,8 +1850,8 @@
         "selectYourGroup": "Select your group",
         "groupMandatory": " Group is mandatory",
         "email": "Email",
-        "enterYourEmailAddress": "Enter your email address",
-        "pleaseEnterEmail": "Please enter your email address",
+        "enterYourEmailAddress": "Enter your government email address",
+        "pleaseEnterEmail": "Please enter your government email address",
         "validEmail": "Please enter a valid email address",
         "emailLengthValidation": "Max 64 characters before '@' & 255 characters after '@' are valid.",
         "donotHaveGovernmentEmail": "Do not have a government email address?",
@@ -1896,7 +1900,11 @@
         "loadMore": "Loading More...",
         "selectDesignationErrorMsg": "Please choose a designation",
         "designationNotFound": "Designation not found. Please reach out to your respective MDO Admin by clicking",
-        "here": "here."
+        "here": "here.",
+        "emailMsg": "Not able to proceed? Get registered through your MDO.",
+        "clickHere": "Click here",
+        "toviewNodalOfficers": "to view Nodal Officers."
+
 
     },
     "publicrequest": {

@@ -777,7 +777,10 @@
     "optional": "ऐच्छिक",
     "instructionOne": "मैंने सभी निर्देशों को पढ़ लिया है और समझ लिया है। मैं समझता हूं कि किसी भी लाभ के लिए किसी भी प्रकार के अनुचित साधनों का उपयोग करने से तत्काल अयोग्यता हो जाएगी। का निर्णय",
     "instructionTwo": "iGOTkarmayogi.gov.in",
-    "instructionThree": "इन मामलों में यह अंतिम होगा।"
+    "instructionThree": "इन मामलों में यह अंतिम होगा।",
+    "passingCriteria": "पासिंग क्राइटेरिया",
+    "attemptsLeft": "एटेम्प्ट्स लेफ्ट"
+
   },
   "apptoc": {
     "lastUpdatedOn": "हाल में अपडेट किया गया",
@@ -1824,8 +1827,8 @@
     "selectYourGroup": "अपना ग्रुप चुनें",
     "groupMandatory": "समूह अनिवार्य है।",
     "email": "ईमेल करें।",
-    "enterYourEmailAddress": "अपना ईमेल पता दर्ज करें",
-    "pleaseEnterEmail": "कृपया अपना ईमेल पता दर्ज करें",
+    "enterYourEmailAddress": "अपना सरकारी ईमेल पता दर्ज करें",
+    "pleaseEnterEmail": "कृपया अपना सरकारी ईमेल पता दर्ज करें",
     "validEmail": "कृपया एक वैध ईमेल पता दर्ज करें",
     "emailLengthValidation": "@' से पहले अधिकतम 64 वर्ण और '@' के बाद 255 वर्ण मान्य हैं।",
     "donotHaveGovernmentEmail": "क्या आपके पास सरकारी ईमेल पता नहीं है?",
@@ -1872,7 +1875,10 @@
     "loadMore": "अधिक लोड हो रहा है...",
     "selectDesignationErrorMsg": "कृपया एक पदनाम चुनें",
     "designationNotFound": "पदनाम नहीं मिला। कृपया अपने संबंधित MDO एडमिन से संपर्क करने के लिए क्लिक करें",
-    "here": "यहाँ।"
+    "here": "यहाँ।",
+    "emailMsg": "आगे नहीं बढ़ पा रहे हैं? अपने MDO के माध्यम से रजिस्टर करवाएँ।",
+    "clickHere": "यहाँ क्लिक करें",
+    "toviewNodalOfficers": "नोडल अधिकारियों को देखने के लिए।"
   },
   "publicrequest": {
     "requestTo": "जोड़ने का अनुरोध",
