@@ -532,7 +532,8 @@
         "downaloadAllPdfs": "Download All",
         "downloadPdf": "Download",
         "viewPDF": "View",
-        "assignments": "Assignments"
+        "assignments": "Assignments",
+        "learningOutcome": "Learning Outcome"
     },
     "userAssignments": {
         "upload": "Upload",
@@ -1897,7 +1898,6 @@
         "selectDesignationErrorMsg": "Please choose a designation",
         "designationNotFound": "Designation not found. Please reach out to your respective MDO Admin by clicking",
         "here": "here."
-
     },
     "publicrequest": {
         "requestTo": "Request to add",
