@@ -532,7 +532,8 @@
     "downaloadAllPdfs": "सभी डाउनलोड करें",
     "downloadPdf": "डाउनलोड करें",
     "viewPDF": "देखें",
-    "assignments": "कार्य"
+    "assignments": "कार्य",
+    "learningOutcome": "सीखने के परिणाम"
   },
   "userAssignments": {
     "upload": "अपलोड करें",
