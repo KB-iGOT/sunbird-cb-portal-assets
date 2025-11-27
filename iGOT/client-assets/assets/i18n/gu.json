@@ -1793,8 +1793,8 @@
     "selectYourGroup": "તમારું જૂથ પસંદ કરો",
     "groupMandatory": "જૂથ ફરજિયાત છે",
     "email": "ઇ-મેઇલ",
-    "enterYourEmailAddress": "તમારું ઇમેઇલ સરનામું દાખલ કરો",
-    "pleaseEnterEmail": "મહેરબાની કરીને તમારું ઇમેઇલ સરનામું દાખલ કરો",
+    "enterYourEmailAddress": "તમારું સરકારી ઇમેલ સરનામું દાખલ કરો",
+    "pleaseEnterEmail": "કૃપા કરીને તમારું સરકારી ઇમેલ સરનામું દાખલ કરો",
     "validEmail": "મહેરબાની કરીને માન્ય ઇમેઇલ સરનામું દાખલ કરો",
     "emailLengthValidation": "'@' પહેલા મહત્તમ 64 અક્ષરો અને '@' પછી 255 અક્ષરો માન્ય છે.",
     "donotHaveGovernmentEmail": "શું તમારી પાસે સરકારી ઈ-મેલ સરનામું નથી?",
@@ -1833,7 +1833,11 @@
     "loadMore": "વધુ લોડ થઈ રહ્યું છે...",
     "selectDesignationErrorMsg": "કૃપા કરીને એક હોદ્દો પસંદ કરો",
     "designationNotFound": "હોદ્દો મળ્યો નથી. કૃપા કરીને તમારા સંબંધિત MDO એડમિનને સંપર્ક કરવા માટે ક્લિક કરો",
-    "here": "અહીં."
+    "here": "અહીં.",
+    "emailMsg": "આગળ વધવા મુશ્કેલી પડી રહી છે? તમારા MDO દ્વારા નોંધણી કરાવો.",
+    "clickHere": "અહીં ક્લિક કરો",
+    "toviewNodalOfficers": "નોડલ અધિકારીઓને જોવા માટે."
+
   },
   "publicrequest": {
     "requestTo": "ઉમેરવાની વિનંતી",

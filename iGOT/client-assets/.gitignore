@@ -12,5 +12,6 @@
 
 env-qa.js
 env-uat.js
+env-dev.js
 env.js
 env.json
