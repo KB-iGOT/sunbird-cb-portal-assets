@@ -2671,7 +2671,10 @@
         "areYouSureYouWantToUnblockThisUser": "Are you sure you want to unblock this user?",
         "areYouSureYouWantToBlockThisConnection": "Are you sure you want to block this connection?",
         "centralDeputation": "Central Deputation",
-        "thisProfileIsLocked": "This profile is locked"
+        "thisProfileIsLocked": "This profile is locked",
+        "fieldDisabledDueToApprovalStatus": "This field is disabled due to its approval status",
+        "transferOrganization": "Transfer Organization",
+        "organization": "Organization"
     },
     "NetworkLandingPage": {
         "exploreNetwork": "Explore Network",
