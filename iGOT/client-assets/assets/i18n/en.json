@@ -532,7 +532,8 @@
         "downaloadAllPdfs": "Download All",
         "downloadPdf": "Download",
         "viewPDF": "View",
-        "assignments": "Assignments"
+        "assignments": "Assignments",
+        "learningOutcome": "Learning Outcome"
     },
     "userAssignments": {
         "upload": "Upload",
@@ -1008,7 +1009,6 @@
         "karmayogiTalks": "Karmayogi Talks",
         "live": "Live",
         "karmayogiSaptah": "Karmayogi Saptah",
-        "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
         "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "moreKarmaPoints": "more KarmaPoints",
         "completedEvent": "You completed this event on",
@@ -1904,8 +1904,6 @@
         "emailMsg": "Not able to proceed? Get registered through your MDO.",
         "clickHere": "Click here",
         "toviewNodalOfficers": "to view Nodal Officers."
-
-
     },
     "publicrequest": {
         "requestTo": "Request to add",

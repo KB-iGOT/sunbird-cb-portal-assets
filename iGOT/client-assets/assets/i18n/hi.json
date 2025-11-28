@@ -532,7 +532,8 @@
     "downaloadAllPdfs": "सभी डाउनलोड करें",
     "downloadPdf": "डाउनलोड करें",
     "viewPDF": "देखें",
-    "assignments": "कार्य"
+    "assignments": "कार्य",
+    "learningOutcome": "सीखने के परिणाम"
   },
   "userAssignments": {
     "upload": "अपलोड करें",
@@ -2740,7 +2741,6 @@
     "exploreNetwork": "नेटवर्क खोजें",
     "recommendedCommunities": "सिफारिश की गई कम्युनिटीज़",
     "connectionRequests": "कनेक्शन अनुरोध",
-    "peopleYouMayKnow": "आप जिन लोगों को जानते हो सकते हैं",
     "findYourMentor": "अपना मेंटर खोजें",
     "viewMyProfile": "मेरी प्रोफ़ाइल देखें",
     "connect": "जुड़ें",
