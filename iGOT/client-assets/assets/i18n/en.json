@@ -95,7 +95,7 @@
         "assessments": "Assessments",
         "exploreContent": "Explore Content",
         "caseStudies": "Case Studies",
-        "micro-credentials": "Micro-credentials"
+        "igotSpecializations": "iGOT Specializations"
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
@@ -1492,8 +1492,7 @@
         "trendingAcrossDepartments": "Trending across department",
         "learningUnder30Minutes": "Learning under 30 minutes",
         "certificationsOfTheWeek": "Certifications of the week",
-        "micro-credentials": "Micro-credentials",
-        "nano-credentials": "Nano-credentials",
+        "igotSpecializations": "iGOT Specializations",
         "myIgot": "My iGOT",
         "all": "All",
         "upcoming": "Upcoming",
@@ -1571,7 +1570,8 @@
         "thereAreNoEvents": "There are no Events",
         "youWillSeeAllTheContentsThatIsAparMarked": "You will see all the contents that is APAR marked.",
         "exploreContent": "Explore Content",
-        "forYou": "For you"
+        "forYou": "For you",
+        "youWillFindIgotSpecializationProgramsHere.": "You will find iGOT Specialization programs here."
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",

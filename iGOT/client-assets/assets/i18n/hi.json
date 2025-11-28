@@ -95,7 +95,7 @@
     "assessments": "आकलन",
     "exploreContent": "कोर्स सामग्री खोजें",
     "caseStudies": "केस स्टडीज",
-    "micro-credentials": "माइक्रो-क्रेडेंशियल्स"
+    "igotSpecializations": "iGOT विशेषज्ञताएँ"
   },
   "appnavbar": {
     "searchforLearningContents": "कंटेन्ट खोजें",
@@ -1485,8 +1485,7 @@
     "trendingAcrossDepartments": "सभी विभागों में लोकप्रिय",
     "learningUnder30Minutes": "30 मिनट से कम समय में सीखना",
     "certificationsOfTheWeek": "सप्ताह के प्रमाणन",
-    "micro-credentials": "माइक्रो-क्रेडेंशियल्स",
-    "nano-credentials": "नैनो-क्रेडेंशियल्स",
+    "igotSpecializations": "iGOT विशेषज्ञताएँ",
     "myIgot": "मेरा आईगॉट",
     "all": "सभी",
     "upcoming": "आने वाला है",
@@ -1551,7 +1550,8 @@
     "thereAreNoEvents": "कोई इवेंट नहीं हैं",
     "youWillSeeAllTheContentsThatIsAparMarked": "आपको यहाँ सभी कंटेन्ट दिखेगा जो ए.पी.ए.आर. के तहत चिह्नित है।",
     "exploreContent": "कोर्स सामग्री खोजें",
-    "forYou": "आपके लिए।"
+    "forYou": "आपके लिए।",
+    "youWillFindIgotSpecializationProgramsHere.": "आपको यहां iGOT विशेषज्ञता कार्यक्रम मिलेंगे।"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
