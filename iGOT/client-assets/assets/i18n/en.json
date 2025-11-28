@@ -2673,7 +2673,7 @@
         "areYouSureYouWantToBlockThisConnection": "Are you sure you want to block this connection?",
         "centralDeputation": "Central Deputation",
         "thisProfileIsLocked": "This profile is locked",
-        "fieldDisabledDueToApprovalStatus": "This field is disabled due to its approval status",
+        "fieldDisabledDueToApprovalStatus": "This field is disabled because the approval request is in progress. Please click Withdraw Request to modify the values.",
         "transferOrganization": "Transfer Organization",
         "organization": "Organization"
     },
