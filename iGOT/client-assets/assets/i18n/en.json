@@ -2672,7 +2672,7 @@
         "centralDeputation": "Central Deputation",
         "thisProfileIsLocked": "This profile is locked",
         "fieldDisabledDueToApprovalStatus": "This field is disabled because the approval request is in progress. Please click Withdraw Request to modify the values.",
-        "transferOrganization": "Transfer Organization",
+        "transferOrganization": "Organization",
         "organization": "Organization"
     },
     "NetworkLandingPage": {
