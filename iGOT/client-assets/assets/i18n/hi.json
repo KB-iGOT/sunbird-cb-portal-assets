@@ -532,7 +532,8 @@
     "downaloadAllPdfs": "सभी डाउनलोड करें",
     "downloadPdf": "डाउनलोड करें",
     "viewPDF": "देखें",
-    "assignments": "कार्य"
+    "assignments": "कार्य",
+    "learningOutcome": "सीखने के परिणाम"
   },
   "userAssignments": {
     "upload": "अपलोड करें",
@@ -2731,13 +2732,15 @@
     "areYouSureYouWantToUnblockThisUser": "क्या आप वाकई इस उपयोगकर्ता को अनब्लॉक करना चाहते हैं?",
     "areYouSureYouWantToBlockThisConnection": "क्या आप वाकई इस कनेक्शन को ब्लॉक करना चाहते हैं?",
     "centralDeputation": "केंद्रीय प्रतिनियुक्ति",
-    "thisProfileIsLocked": "यह प्रोफ़ाइल लॉक की गई है।"
+    "thisProfileIsLocked": "यह प्रोफ़ाइल लॉक की गई है।",
+    "fieldDisabledDueToApprovalStatus": "थिस फील्ड आईएस डिसेबल्ड बिकॉज थे एप्रूवल रिक्वेस्ट आईएस आईएन प्रोग्रेस. प्लीज क्लिक विथड्रॉ रिक्वेस्ट टीओ मोडिफाई थे वैल्यूज.",
+    "transferOrganization": "र्जनाज़ेशन",
+    "organization": "र्जनाज़ेशन"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "नेटवर्क खोजें",
     "recommendedCommunities": "सिफारिश की गई कम्युनिटीज़",
     "connectionRequests": "कनेक्शन अनुरोध",
-    "peopleYouMayKnow": "आप जिन लोगों को जानते हो सकते हैं",
     "findYourMentor": "अपना मेंटर खोजें",
     "viewMyProfile": "मेरी प्रोफ़ाइल देखें",
     "connect": "जुड़ें",

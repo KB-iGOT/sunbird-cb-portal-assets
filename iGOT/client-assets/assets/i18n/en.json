@@ -532,7 +532,8 @@
         "downaloadAllPdfs": "Download All",
         "downloadPdf": "Download",
         "viewPDF": "View",
-        "assignments": "Assignments"
+        "assignments": "Assignments",
+        "learningOutcome": "Learning Outcome"
     },
     "userAssignments": {
         "upload": "Upload",
@@ -1008,7 +1009,6 @@
         "karmayogiTalks": "Karmayogi Talks",
         "live": "Live",
         "karmayogiSaptah": "Karmayogi Saptah",
-        "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
         "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "moreKarmaPoints": "more KarmaPoints",
         "completedEvent": "You completed this event on",
@@ -1904,8 +1904,6 @@
         "emailMsg": "Not able to proceed? Get registered through your MDO.",
         "clickHere": "Click here",
         "toviewNodalOfficers": "to view Nodal Officers."
-
-
     },
     "publicrequest": {
         "requestTo": "Request to add",
@@ -2526,6 +2524,7 @@
         "withdrawPrimaryDetails": "You need to withdraw Primary details request before making a Transfer Request",
         "invalidEmail": "Please enter a valid email address",
         "pleaseEnterValidMobileNumber": "Please enter a valid mobile number",
+        "emailIsRequired":"Email is required.",
         "invalidPinCode": "Please enter a valid Pincode",
         "viewLess": "View less",
         "viewMore": "View more",
@@ -2671,7 +2670,10 @@
         "areYouSureYouWantToUnblockThisUser": "Are you sure you want to unblock this user?",
         "areYouSureYouWantToBlockThisConnection": "Are you sure you want to block this connection?",
         "centralDeputation": "Central Deputation",
-        "thisProfileIsLocked": "This profile is locked"
+        "thisProfileIsLocked": "This profile is locked",
+        "fieldDisabledDueToApprovalStatus": "This field is disabled because the approval request is in progress. Please click Withdraw Request to modify the values.",
+        "transferOrganization": "Organization",
+        "organization": "Organization"
     },
     "NetworkLandingPage": {
         "exploreNetwork": "Explore Network",
