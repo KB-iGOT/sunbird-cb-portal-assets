@@ -88,7 +88,8 @@
     "certificationsOfTheWeek": "અઠવાડિયાના પ્રમાણપત્રો",
     "recentlyAdded": "તાજેતરમાં ઉમેરવામાં આવ્યું",
     "forYou": "તમારા માટે",
-    "contentPatner": "કન્ટેન્ટ પેટનર"
+    "contentPatner": "કન્ટેન્ટ પેટનર",
+    "igotSpecializations": "iGOT વિશેષતાઓ"
   },
   "appnavbar": {
     "searchforLearningContents": "શીખવાની સામગ્રીઓ માટે શોધો",
@@ -263,7 +264,8 @@
     "viewCertificate": "પ્રમાણપત્ર જુઓ",
     "overDue": "ઓવર લેન્ડિંગ",
     "deadline": "સમયમર્યાદા",
-    "takeSurveyToUnlock": "સર્વેને અનલૉક કરવા માટે લો"
+    "takeSurveyToUnlock": "સર્વેને અનલૉક કરવા માટે લો",
+    "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન"
   },
   "allChannelsComponent": {
     "noChannelsFound": "કોઈ ચેનલો મળી નથી!",
@@ -1471,6 +1473,7 @@
     "trendingAcrossDepartments": "વિભાગમાં ટ્રેન્ડ",
     "learningUnder30Minutes": "30 મિનિટથી ઓછું શીખવું",
     "certificationsOfTheWeek": "અઠવાડિયાના પ્રમાણપત્રો",
+    "igotSpecializations": "iGOT વિશેષતાઓ",
     "myIgot": "મારો આઇ. જી. ઓ. ટી.",
     "all": "બધા",
     "upcoming": "આગામી તા.",
@@ -1538,7 +1541,9 @@
     "trendingevents": "ટ્રેન્ડિંગ ઇવેન્ટ્સ",
     "featuredevents": "ફીચર્ડ ઇવેન્ટ્સ",
     "thereAreNoEvents": "ત્યાં કોઈ ઇવેન્ટ્સ નથી",
-    "youWillSeeAllTheContentsThatIsAparMarked": "તમે તમામ એ સામગ્રી જુઓ છો જે APAR તરીકે ચિહ્નિત છે."
+    "youWillSeeAllTheContentsThatIsAparMarked": "તમે તમામ એ સામગ્રી જુઓ છો જે APAR તરીકે ચિહ્નિત છે.",
+    "forYou": "તમારા માટે",
+    "youWillFindIgotSpecializationProgramsHere.": "તમને અહીં iGOT સ્પેશિયલાઇઝેશન પ્રોગ્રામ્સ મળશે."
   },
   "homeotherportals": {
     "otherPortals": "તમારી પાસે ઍક્સેસ હોય તેવા અન્ય પોર્ટલ",
@@ -1903,7 +1908,8 @@
     "event": "ઈવેન્ટ્સ ({{count}})",
     "peoples": "લોકો ({{count}})",
     "communities": "સમુદાયો ({{count}})",
-    "seeAllResults": "બધા પરિણામો જુઓ"
+    "seeAllResults": "બધા પરિણામો જુઓ",
+    "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",

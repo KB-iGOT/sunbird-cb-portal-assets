@@ -94,7 +94,8 @@
         "assessment": "Assessment",
         "assessments": "Assessments",
         "exploreContent": "Explore Content",
-        "caseStudies": "Case Studies"
+        "caseStudies": "Case Studies",
+        "igotSpecializations": "iGOT Specializations"
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
@@ -270,7 +271,8 @@
         "viewCertificate": "View Certificate",
         "overDue": "Over due",
         "deadline": "Deadline",
-        "takeSurveyToUnlock": "Take survey to unlock"
+        "takeSurveyToUnlock": "Take survey to unlock",
+        "iGOTSpecializationProgram": "iGOT Specialization"
     },
     "allChannelsComponent": {
         "noChannelsFound": "No channels found!",
@@ -1498,6 +1500,7 @@
         "trendingAcrossDepartments": "Trending across department",
         "learningUnder30Minutes": "Learning under 30 minutes",
         "certificationsOfTheWeek": "Certifications of the week",
+        "igotSpecializations": "iGOT Specializations",
         "myIgot": "My iGOT",
         "all": "All",
         "upcoming": "Upcoming",
@@ -1574,7 +1577,9 @@
         "myevents": "My Events",
         "thereAreNoEvents": "There are no Events",
         "youWillSeeAllTheContentsThatIsAparMarked": "You will see all the contents that is APAR marked.",
-        "exploreContent": "Explore Content"
+        "exploreContent": "Explore Content",
+        "forYou": "For you",
+        "youWillFindIgotSpecializationProgramsHere.": "You will find iGOT Specialization programs here."
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
@@ -1969,7 +1974,8 @@
         "event": "Events ({{count}})",
         "peoples": "Peoples ({{count}})",
         "communities": "Communities ({{count}})",
-        "seeAllResults": "See all the results"
+        "seeAllResults": "See all the results",
+        "iGOTSpecializationProgram": "iGOT Specialization"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
