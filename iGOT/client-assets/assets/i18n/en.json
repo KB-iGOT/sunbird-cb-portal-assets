@@ -271,7 +271,8 @@
         "viewCertificate": "View Certificate",
         "overDue": "Over due",
         "deadline": "Deadline",
-        "takeSurveyToUnlock": "Take survey to unlock"
+        "takeSurveyToUnlock": "Take survey to unlock",
+        "iGOTSpecializationProgram": "iGOT Specialization"
     },
     "allChannelsComponent": {
         "noChannelsFound": "No channels found!",
@@ -1959,7 +1960,8 @@
         "event": "Events ({{count}})",
         "peoples": "Peoples ({{count}})",
         "communities": "Communities ({{count}})",
-        "seeAllResults": "See all the results"
+        "seeAllResults": "See all the results",
+        "iGOTSpecializationProgram": "iGOT Specialization"
     },
     "searchfilters": {
         "caseStudy": "Case Study",

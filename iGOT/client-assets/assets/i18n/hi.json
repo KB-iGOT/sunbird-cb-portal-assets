@@ -271,7 +271,8 @@
     "viewCertificate": "प्रमाणपत्र देखें",
     "overDue": "बहुत देर",
     "deadline": "समय सीमा",
-    "takeSurveyToUnlock": "सर्वेक्षण लेने के लिए अनलॉक करें"
+    "takeSurveyToUnlock": "सर्वेक्षण लेने के लिए अनलॉक करें",
+    "iGOTSpecializationProgram": "iGOT विशेषज्ञता"
   },
   "allChannelsComponent": {
     "noChannelsFound": "कोई चैनल नहीं मिला!",
@@ -1935,7 +1936,8 @@
     "event": "घटनाएँ ({{count}})",
     "peoples": "लोग ({{count}})",
     "communities": "समुदाय ({{count}})",
-    "seeAllResults": "सभी परिणाम देखें"
+    "seeAllResults": "सभी परिणाम देखें",
+    "iGOTSpecializationProgram": "iGOT विशेषज्ञता"
   },
   "searchfilters": {
     "caseStudy": "केस स्टडीज",

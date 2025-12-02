@@ -264,7 +264,8 @@
     "viewCertificate": "પ્રમાણપત્ર જુઓ",
     "overDue": "ઓવર લેન્ડિંગ",
     "deadline": "સમયમર્યાદા",
-    "takeSurveyToUnlock": "સર્વેને અનલૉક કરવા માટે લો"
+    "takeSurveyToUnlock": "સર્વેને અનલૉક કરવા માટે લો",
+    "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન"
   },
   "allChannelsComponent": {
     "noChannelsFound": "કોઈ ચેનલો મળી નથી!",
@@ -1895,7 +1896,8 @@
     "event": "ઈવેન્ટ્સ ({{count}})",
     "peoples": "લોકો ({{count}})",
     "communities": "સમુદાયો ({{count}})",
-    "seeAllResults": "બધા પરિણામો જુઓ"
+    "seeAllResults": "બધા પરિણામો જુઓ",
+    "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",
