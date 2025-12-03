@@ -532,7 +532,8 @@
     "downaloadAllPdfs": "सभी डाउनलोड करें",
     "downloadPdf": "डाउनलोड करें",
     "viewPDF": "देखें",
-    "assignments": "कार्य"
+    "assignments": "कार्य",
+    "samuhikCharcha":"सामुहिक चर्चा"
   },
   "userAssignments": {
     "upload": "अपलोड करें",
@@ -1002,12 +1003,12 @@
     "mdoEvents": "आपके एमडीओ में ईवेंट",
     "webinar": "वेबिनार",
     "karmayogiTalks": "कर्मयोगी टॉक्स",
+    "samuhikCharcha": "सामुहिक चर्चा",
     "live": "लाइव",
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
     "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
     "completedEvent": "आपने यह ईवेंट पूरा लिया",
-    "search": "खोज इवेंट्स...",
-    "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह"
+    "search": "खोज इवेंट्स..."
   },
   "eventDetailsRightCard": {
     "viewRecording": "रिकॉर्डिंग देखें",
@@ -1550,7 +1551,11 @@
     "featuredevents": "विशेष घटनाएँ",
     "thereAreNoEvents": "कोई इवेंट नहीं हैं",
     "youWillSeeAllTheContentsThatIsAparMarked": "आपको यहाँ सभी कंटेन्ट दिखेगा जो ए.पी.ए.आर. के तहत चिह्नित है।",
-    "exploreContent": "कोर्स सामग्री खोजें"
+    "exploreContent": "कोर्स सामग्री खोजें",
+    "upcomingEvents": "आगामी घटनाएँ",
+    "pastEvents": "पिछली घटनाएँ",
+    "lockedEvents": "कोर्स में नामांकन करें ताकि सामूहिक चर्चा अनलॉक हो सके",
+    "lockedEventsDesc": "इस कोर्स से संबंधित घटनाएँ यहाँ तब दिखाई देंगी जब आप आवश्यक सीख पूरी कर लेंगे। भाग लेने और समुदाय के साथ जुड़ने के लिए अपना कोर्स जारी रखें।"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
@@ -1945,6 +1950,7 @@
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
     "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
     "karmayogiTalks": "कर्मयोगी टॉक्स",
+    "samuhikCharcha": "सामुहिक चर्चा",
     "webinar": "वेबिनार",
     "filterSearch": "सर्च को फ़िल्टर करें",
     "contentType": "कंटेन्ट का प्रकार",
@@ -2122,7 +2128,10 @@
   },
   "dialogconfirm": {
     "yes": "हां",
-    "no": "नहीं"
+    "no": "नहीं",
+    "ok": "ठीक है",
+    "cancel": "रद्द करें",
+    "goToCourse": "कोर्स पर जाएं"
   },
   "dialogbox": {
     "whatIsActivity?": "एक गतिविधि क्या है?",
@@ -2810,6 +2819,7 @@
     "browseEventsByCategories": "श्रेणियों द्वारा घटनाएँ ब्राउज़ करें",
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
     "karmayogiTalks": "कर्मयोगी वार्ता",
+    "samuhikCharcha": "सामुहिक चर्चा",
     "allEvents": "सभी घटनाएँ",
     "browseEvents": "घटनाएँ ब्राउज़ करें",
     "noEventsFound": "कोई घटना नहीं मिली",
@@ -2834,7 +2844,9 @@
     "tomorrow": "कल",
     "today": "आज",
     "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
-    "keyAnnouncements": "प्रमुख घोषणाएं"
+    "keyAnnouncements": "प्रमुख घोषणाएं",
+    "preReads": "प्री-रीड्स",
+    "goToCourse": "कोर्स पर जाएं"
   },
   "notificationV2Settings": {
     "email": "ईमेल अधिसूचना",

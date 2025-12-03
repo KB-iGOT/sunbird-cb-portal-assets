@@ -532,7 +532,8 @@
         "downaloadAllPdfs": "Download All",
         "downloadPdf": "Download",
         "viewPDF": "View",
-        "assignments": "Assignments"
+        "assignments": "Assignments",
+        "samuhikCharcha":"Samuhik Charcha"
     },
     "userAssignments": {
         "upload": "Upload",
@@ -1002,14 +1003,14 @@
         "mdoEvents": "Events in your MDO",
         "webinar": "Webinar",
         "karmayogiTalks": "Karmayogi Talks",
+        "samuhikCharcha": "Samuhik Charcha",
         "live": "Live",
         "karmayogiSaptah": "Karmayogi Saptah",
         "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
         "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "moreKarmaPoints": "more KarmaPoints",
         "completedEvent": "You completed this event on",
-        "search": "Search events...",
-        "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah"
+        "search": "Search events..."
     },
     "eventDetailsRightCard": {
         "viewRecording": "View recording",
@@ -1570,7 +1571,14 @@
         "myevents": "My Events",
         "thereAreNoEvents": "There are no Events",
         "youWillSeeAllTheContentsThatIsAparMarked": "You will see all the contents that is APAR marked.",
-        "exploreContent": "Explore Content"
+        "exploreContent": "Explore Content",
+        "upcomingEvents": "Upcoming Events",
+        "pastEvents": "Past Events",
+        "lockedEvents": "Enroll in the Course to Unlock Samuhik Charcha",
+        "lockedEventsDesc": "Events related to this course will appear here once you complete the required learning. Continue your course to participate and engage with the community.",
+        "completeTheCourse": "Complete the course to access Samuhik Charcha",
+        "courseProgress": "Course Progress",
+        "needToComplete30Percent": "You need to complete 30% of the course to access Samuhik Charcha. Keep learning to unlock Samuhik Charcha events."
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
@@ -1971,6 +1979,7 @@
         "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
         "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "karmayogiTalks": "Karmayogi Talks",
+        "samuhikCharcha": "Samuhik Charcha",
         "filterSearch": "Filter search",
         "contentType": "Content Type",
         "program": "Program",
@@ -2191,7 +2200,10 @@
     },
     "dialogconfirm": {
         "yes": "Yes",
-        "no": "No"
+        "no": "No",
+        "ok": "OK",
+        "cancel": "Cancel",
+        "goToCourse": "Go to Course"
     },
     "dialogbox": {
         "whatIsActivity?": "What is an activity?",
@@ -2748,6 +2760,7 @@
         "browseEventsByCategories": "Browse Events By Categories",
         "karmayogiSaptah": "Karmayogi Saptah",
         "karmayogiTalks": "Karmayogi Talks",
+        "samuhikCharcha": "Samuhik Charcha",
         "allEvents": "All Events",
         "browseEvents": "Browse Events",
         "noEventsFound": "No events found",
@@ -2772,7 +2785,9 @@
         "pastEvents": "Past Events",
         "today": "Today",
         "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
-        "keyAnnouncements": "Key Announcements"
+        "keyAnnouncements": "Key Announcements",
+        "preReads": "Pre-Reads",
+        "goToCourse": "Go to Course"
     },
     "notificationV2Settings": {
         "email": "Email Notification",
