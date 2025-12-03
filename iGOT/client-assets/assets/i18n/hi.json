@@ -94,7 +94,8 @@
     "assessment": "आकलन",
     "assessments": "आकलन",
     "exploreContent": "कोर्स सामग्री खोजें",
-    "caseStudies": "केस स्टडीज"
+    "caseStudies": "केस स्टडीज",
+    "igotSpecializations": "iGOT विशेषज्ञताएँ"
   },
   "appnavbar": {
     "searchforLearningContents": "कंटेन्ट खोजें",
@@ -270,7 +271,8 @@
     "viewCertificate": "प्रमाणपत्र देखें",
     "overDue": "बहुत देर",
     "deadline": "समय सीमा",
-    "takeSurveyToUnlock": "सर्वेक्षण लेने के लिए अनलॉक करें"
+    "takeSurveyToUnlock": "सर्वेक्षण लेने के लिए अनलॉक करें",
+    "iGOTSpecializationProgram": "iGOT विशेषज्ञता"
   },
   "allChannelsComponent": {
     "noChannelsFound": "कोई चैनल नहीं मिला!",
@@ -533,7 +535,8 @@
     "downloadPdf": "डाउनलोड करें",
     "viewPDF": "देखें",
     "assignments": "कार्य",
-    "samuhikCharcha":"सामुहिक चर्चा"
+    "samuhikCharcha":"सामुहिक चर्चा",
+    "learningOutcome": "सीखने के परिणाम"
   },
   "userAssignments": {
     "upload": "अपलोड करें",
@@ -778,7 +781,10 @@
     "optional": "ऐच्छिक",
     "instructionOne": "मैंने सभी निर्देशों को पढ़ लिया है और समझ लिया है। मैं समझता हूं कि किसी भी लाभ के लिए किसी भी प्रकार के अनुचित साधनों का उपयोग करने से तत्काल अयोग्यता हो जाएगी। का निर्णय",
     "instructionTwo": "iGOTkarmayogi.gov.in",
-    "instructionThree": "इन मामलों में यह अंतिम होगा।"
+    "instructionThree": "इन मामलों में यह अंतिम होगा।",
+    "passingCriteria": "पासिंग क्राइटेरिया",
+    "attemptsLeft": "एटेम्प्ट्स लेफ्ट"
+
   },
   "apptoc": {
     "lastUpdatedOn": "हाल में अपडेट किया गया",
@@ -809,7 +815,7 @@
     "surveyCompletedCertificateGenerating": "कार्यक्रम सर्वेक्षण पूरा करने के लिए धन्यवाद। आपका प्रमाणपत्र अब तैयार किया जा रहा है और जल्द ही उपलब्ध होगा।",
     "surveySubmitted": "सर्वेक्षण सफलतापूर्वक जमा किया गया!",
     "completeSurvey": "सर्वेक्षण पूरा करें",
-    "takeSurveyToUnlock": "कृपया अपना प्रमाणपत्र अनलॉक करने के लिए कार्यक्रम सर्वेक्षण पूरा करें। यदि सर्वेक्षण जमा नहीं किया गया तो प्रमाणपत्र लॉक रहेंगे।",
+    "takeSurveyToUnlock": "अपना प्रमाणपत्र डाउनलोड करने के लिए, कृपया यह अनिवार्य सर्वेक्षण पूरा करें। आपकी प्रतिक्रियाएँ गोपनीय हैं और आपके एमडीओ या सामग्री प्रदाता के साथ साझा नहीं की जाएंगी",
     "doItLater": "बाद में करें",
     "submit": "जमा करें",
     "certificateLocked": "प्रमाणपत्र लॉक है",
@@ -1488,6 +1494,7 @@
     "trendingAcrossDepartments": "सभी विभागों में लोकप्रिय",
     "learningUnder30Minutes": "30 मिनट से कम समय में सीखना",
     "certificationsOfTheWeek": "सप्ताह के प्रमाणन",
+    "igotSpecializations": "iGOT विशेषज्ञताएँ",
     "myIgot": "मेरा आईगॉट",
     "all": "सभी",
     "upcoming": "आने वाला है",
@@ -1555,7 +1562,9 @@
     "upcomingEvents": "आगामी घटनाएँ",
     "pastEvents": "पिछली घटनाएँ",
     "lockedEvents": "कोर्स में नामांकन करें ताकि सामूहिक चर्चा अनलॉक हो सके",
-    "lockedEventsDesc": "इस कोर्स से संबंधित घटनाएँ यहाँ तब दिखाई देंगी जब आप आवश्यक सीख पूरी कर लेंगे। भाग लेने और समुदाय के साथ जुड़ने के लिए अपना कोर्स जारी रखें।"
+    "lockedEventsDesc": "इस कोर्स से संबंधित घटनाएँ यहाँ तब दिखाई देंगी जब आप आवश्यक सीख पूरी कर लेंगे। भाग लेने और समुदाय के साथ जुड़ने के लिए अपना कोर्स जारी रखें।",
+    "forYou": "आपके लिए।",
+    "youWillFindIgotSpecializationProgramsHere.": "आपको यहां iGOT विशेषज्ञता कार्यक्रम मिलेंगे।"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
@@ -1829,8 +1838,8 @@
     "selectYourGroup": "अपना ग्रुप चुनें",
     "groupMandatory": "समूह अनिवार्य है।",
     "email": "ईमेल करें।",
-    "enterYourEmailAddress": "अपना ईमेल पता दर्ज करें",
-    "pleaseEnterEmail": "कृपया अपना ईमेल पता दर्ज करें",
+    "enterYourEmailAddress": "अपना सरकारी ईमेल पता दर्ज करें",
+    "pleaseEnterEmail": "कृपया अपना सरकारी ईमेल पता दर्ज करें",
     "validEmail": "कृपया एक वैध ईमेल पता दर्ज करें",
     "emailLengthValidation": "@' से पहले अधिकतम 64 वर्ण और '@' के बाद 255 वर्ण मान्य हैं।",
     "donotHaveGovernmentEmail": "क्या आपके पास सरकारी ईमेल पता नहीं है?",
@@ -1877,7 +1886,10 @@
     "loadMore": "अधिक लोड हो रहा है...",
     "selectDesignationErrorMsg": "कृपया एक पदनाम चुनें",
     "designationNotFound": "पदनाम नहीं मिला। कृपया अपने संबंधित MDO एडमिन से संपर्क करने के लिए क्लिक करें",
-    "here": "यहाँ।"
+    "here": "यहाँ।",
+    "emailMsg": "आगे नहीं बढ़ पा रहे हैं? अपने MDO के माध्यम से रजिस्टर करवाएँ।",
+    "clickHere": "यहाँ क्लिक करें",
+    "toviewNodalOfficers": "नोडल अधिकारियों को देखने के लिए।"
   },
   "publicrequest": {
     "requestTo": "जोड़ने का अनुरोध",
@@ -1943,7 +1955,8 @@
     "event": "घटनाएँ ({{count}})",
     "peoples": "लोग ({{count}})",
     "communities": "समुदाय ({{count}})",
-    "seeAllResults": "सभी परिणाम देखें"
+    "seeAllResults": "सभी परिणाम देखें",
+    "iGOTSpecializationProgram": "iGOT विशेषज्ञता"
   },
   "searchfilters": {
     "caseStudy": "केस स्टडीज",
@@ -2734,13 +2747,15 @@
     "areYouSureYouWantToUnblockThisUser": "क्या आप वाकई इस उपयोगकर्ता को अनब्लॉक करना चाहते हैं?",
     "areYouSureYouWantToBlockThisConnection": "क्या आप वाकई इस कनेक्शन को ब्लॉक करना चाहते हैं?",
     "centralDeputation": "केंद्रीय प्रतिनियुक्ति",
-    "thisProfileIsLocked": "यह प्रोफ़ाइल लॉक की गई है।"
+    "thisProfileIsLocked": "यह प्रोफ़ाइल लॉक की गई है।",
+    "fieldDisabledDueToApprovalStatus": "थिस फील्ड आईएस डिसेबल्ड बिकॉज थे एप्रूवल रिक्वेस्ट आईएस आईएन प्रोग्रेस. प्लीज क्लिक विथड्रॉ रिक्वेस्ट टीओ मोडिफाई थे वैल्यूज.",
+    "transferOrganization": "र्जनाज़ेशन",
+    "organization": "र्जनाज़ेशन"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "नेटवर्क खोजें",
     "recommendedCommunities": "सिफारिश की गई कम्युनिटीज़",
     "connectionRequests": "कनेक्शन अनुरोध",
-    "peopleYouMayKnow": "आप जिन लोगों को जानते हो सकते हैं",
     "findYourMentor": "अपना मेंटर खोजें",
     "viewMyProfile": "मेरी प्रोफ़ाइल देखें",
     "connect": "जुड़ें",

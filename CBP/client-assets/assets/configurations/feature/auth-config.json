@@ -226,7 +226,6 @@
               },
               "enabled": true,
               "routerLink": "/author/cbp/me",
-              "queryParams": "published",
               "requiredRoles": [
                 "content_reviewer",
                 "content_creator",
@@ -591,7 +590,6 @@
               },
               "enabled": true,
               "routerLink": "/author/cbp/me",
-              "queryParams": "published",
               "requiredRoles": [
                 "content_reviewer",
                 "content_creator",

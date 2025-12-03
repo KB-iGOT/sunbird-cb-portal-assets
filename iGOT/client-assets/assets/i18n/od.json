@@ -1582,8 +1582,8 @@
     "selectYourGroup": "ଆପଣଙ୍କ ଗୋଷ୍ଠୀ ବାଛନ୍ତୁ",
     "groupMandatory": "ଗୋଷ୍ଠୀ ବାଧ୍ଯ଼ତାମୂଳକ",
     "email": "ଇମେଲ୍ କରନ୍ତୁ",
-    "enterYourEmailAddress": "ଆପଣଙ୍କ ଇମେଲ ଠିକଣା ଦିଅନ୍ତୁ",
-    "pleaseEnterEmail": "ଦଯ଼ାକରି ଆପଣଙ୍କ ଇମେଲ ଠିକଣା ଦିଅନ୍ତୁ",
+    "enterYourEmailAddress": "ଆପଣଙ୍କ ସରକାରୀ ଇମେଲ୍ ଠିକଣା ପ୍ରବେଶ କରନ୍ତୁ",
+    "pleaseEnterEmail": "ଦୟାକରି ଆପଣଙ୍କ ସରକାରୀ ଇମେଲ୍ ଠିକଣା ପ୍ରବେଶ କରନ୍ତୁ",
     "validEmail": "ଦଯ଼ାକରି ଏକ ବୈଧ ଇମେଲ ଠିକଣା ଦିଅନ୍ତୁ",
     "emailLengthValidation": "'@' ପୂର୍ବରୁ ସର୍ବାଧିକ 64 ଅକ୍ଷର ଏବଂ '@' ପରେ 255 ଅକ୍ଷର ବୈଧ।",
     "donotHaveGovernmentEmail": "ଆପଣଙ୍କର ସରକାରୀ ଇମେଲ ଠିକଣା ନାହିଁ କି?",
@@ -1620,7 +1620,10 @@
     "loadMore": "ଆଉ ଲୋଡ୍‌ ହେଉଛି...",
     "selectDesignationErrorMsg": "ଦୟାକରି ଏକ ପଦବୀ ଚୟନ କରନ୍ତୁ",
     "designationNotFound": "ପଦବୀ ମିଳିଲା ନାହିଁ। ଦୟାକରି ନିଜ MDO ଅ୍ୟାଡମିନଙ୍କ ସହିତ ଯୋଗାଯୋଗ କରନ୍ତୁ, କ୍ଲିକ୍ କରନ୍ତୁ",
-    "here": "ଏଠାରେ।"
+    "here": "ଏଠାରେ।",
+    "emailMsg": "ଆଗକୁ ବଢ଼ିପାରୁନାହଁତି କି? ଆପଣଙ୍କ MDO ମାଧ୍ୟମରେ ପଞ୍ଜିକରଣ କରନ୍ତୁ।",
+    "clickHere": "ଏଠାରେ କ୍ଲିକ୍ କରନ୍ତୁ",
+    "toviewNodalOfficers": "ନୋଡାଲ୍ ଅଫିସରମାନଙ୍କୁ ଦେଖିବା ପାଇଁ।"
   },
   "publicrequest": {
     "requestTo": "ଯୋଡ଼ିବାକୁ ଅନୁରୋଧ",

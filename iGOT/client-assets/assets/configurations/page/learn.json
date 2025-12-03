@@ -293,7 +293,8 @@
                             "duration",
                             "version",
                             "programDuration",
-                            "avgRating"
+                            "avgRating",
+                            "difficultyLevel"
                           ]
                         }
                       }
@@ -387,7 +388,8 @@
                             "version",
                             "creatorLogo",
                             "organisation",
-                            "avgRating"
+                            "avgRating",
+                            "difficultyLevel"
                           ]
                         }
                       }
@@ -486,7 +488,8 @@
                             "creatorLogo",
                             "duration",
                             "version",
-                            "avgRating"
+                            "avgRating",
+                            "difficultyLevel"
                           ]
                         },
                         "api": {
@@ -588,7 +591,8 @@
                             "creatorLogo",
                             "duration",
                             "version",
-                            "avgRating"
+                            "avgRating",
+                            "difficultyLevel"
                           ]
                         }
                       }
@@ -687,7 +691,8 @@
                             "creatorLogo",
                             "duration",
                             "version",
-                            "avgRating"
+                            "avgRating",
+                            "difficultyLevel"
                           ]
                         }
                       },
@@ -792,7 +797,8 @@
                             "creatorLogo",
                             "duration",
                             "version",
-                            "avgRating"
+                            "avgRating",
+                            "difficultyLevel"
                           ]
                         }
                       }
@@ -890,7 +896,8 @@
                             "learningMode",
                             "creatorLogo",
                             "duration",
-                            "avgRating"
+                            "avgRating",
+                            "difficultyLevel"
                           ]
                         }
                       }
@@ -992,7 +999,8 @@
                             "learningMode",
                             "creatorLogo",
                             "duration",
-                            "avgRating"
+                            "avgRating",
+                            "difficultyLevel"
                           ]
                         }
                       }

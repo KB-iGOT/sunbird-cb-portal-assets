@@ -1582,8 +1582,8 @@
     "selectYourGroup": "तुमचा गट निवडा",
     "groupMandatory": "गट अनिवार्य आहे",
     "email": "ईमेल",
-    "enterYourEmailAddress": "तुमचा ईमेल पत्ता प्रविष्ट करा",
-    "pleaseEnterEmail": "कृपया तुमचा ईमेल पत्ता प्रविष्ट करा",
+    "enterYourEmailAddress": "आपला शासकीय ईमेल पत्ता लिहा",
+    "pleaseEnterEmail": "कृपया आपला शासकीय ईमेल पत्ता लिहा",
     "validEmail": "कृपया वैध ईमेल पत्ता प्रविष्ट करा",
     "emailLengthValidation": "'@' च्या आधी जास्तीत जास्त 64 अक्षरे आणि '@' नंतर 255 अक्षरे वैध आहेत.",
     "donotHaveGovernmentEmail": "तुमच्याकडे सरकारी ईमेल पत्ता नाही का?",
@@ -1620,7 +1620,10 @@
     "loadMore": "अजून लोड करत आहे...",
     "selectDesignationErrorMsg": "कृपया एक पद निवडा",
     "designationNotFound": "पद सापडले नाही. कृपया आपल्या संबंधित MDO प्रशासकाशी संपर्क साधण्यासाठी क्लिक करा",
-    "here": "येथे."
+    "here": "येथे.",
+    "emailMsg": "पुढे जाऊ शकत नाही? आपल्या MDO मार्फत नोंदणी करा.",
+    "clickHere": "इथे क्लिक करा",
+    "toviewNodalOfficers": "नोडल अधिकाऱ्यांना पाहण्यासाठी."
   },
   "publicrequest": {
     "requestTo": "जोडण्याची विनंती",
