@@ -509,6 +509,7 @@
     }
   },
   "commentsTab": true,
+  "samuhikCharchaTab": true,
   "dynamicCertificateGeneration": {
     "allows": [
       "Invite-Only Program",
