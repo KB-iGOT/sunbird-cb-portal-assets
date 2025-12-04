@@ -1582,8 +1582,8 @@
     "selectYourGroup": "ਆਪਣਾ ਗਰੁੱਪ ਚੁਣੋ",
     "groupMandatory": "ਗਰੁੱਪ ਲਾਜ਼ਮੀ ਹੈ",
     "email": "ਈਮੇਲ",
-    "enterYourEmailAddress": "ਆਪਣਾ ਈਮੇਲ ਪਤਾ ਦਰਜ ਕਰੋ",
-    "pleaseEnterEmail": "ਕ੍ਰਿਪਾ ਕਰਕੇ ਆਪਣਾ ਈਮੇਲ ਪਤਾ ਦਰਜ ਕਰੋ",
+    "enterYourEmailAddress": "ਆਪਣਾ ਸਰਕਾਰੀ ਈਮੇਲ ਐਡਰੈੱਸ ਦਰਜ ਕਰੋ",
+    "pleaseEnterEmail": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਸਰਕਾਰੀ ਈਮੇਲ ਐਡਰੈੱਸ ਦਰਜ ਕਰੋ",
     "validEmail": "ਕ੍ਰਿਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ ਈਮੇਲ ਪਤਾ ਦਰਜ ਕਰੋ",
     "emailLengthValidation": "'@' ਤੋਂ ਪਹਿਲਾਂ ਵੱਧ ਤੋਂ ਵੱਧ 64 ਅੱਖਰ ਅਤੇ '@' ਤੋਂ ਬਾਅਦ 255 ਅੱਖਰ ਵੈਧ ਹਨ।",
     "donotHaveGovernmentEmail": "ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਸਰਕਾਰੀ ਈਮੇਲ ਪਤਾ ਨਹੀਂ ਹੈ?",
@@ -1620,7 +1620,10 @@
     "loadMore": "ਹੋਰ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
     "selectDesignationErrorMsg": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਅਹੁਦਾ ਚੁਣੋ",
     "designationNotFound": "ਅਹੁਦਾ ਨਹੀਂ ਮਿਲਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਸੰਬੰਧਿਤ MDO ਐਡਮਿਨ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ",
-    "here": "ਇੱਥੇ।"
+    "here": "ਇੱਥੇ।",
+    "emailMsg": "ਅੱਗੇ ਨਹੀਂ ਵੱਧ ਸਕ ਰਹੇ? ਆਪਣੇ MDO ਰਾਹੀਂ ਰਜਿਸਟਰ ਕਰਵਾਓ।",
+    "clickHere": "ਇਥੇ ਕਲਿਕ ਕਰੋ",
+    "toviewNodalOfficers": "ਨੋਡਲ ਅਧਿਕਾਰੀਆਂ ਨੂੰ ਵੇਖਣ ਲਈ।"
   },
   "publicrequest": {
     "requestTo": "ਸ਼ਾਮਲ ਕਰਨ ਦੀ ਬੇਨਤੀ",

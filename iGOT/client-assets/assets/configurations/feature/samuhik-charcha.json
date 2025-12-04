@@ -1,0 +1,136 @@
+{
+  "sectionImagePosition": "img-left",
+  "sectionImage": "assets/icons/microsite/left_arrow.svg",
+  "order": 1,
+  "strips": [
+    {
+      "active": true,
+      "customeClass": "width-238",
+      "key": "samuhikCharchaContent",
+      "logo": "school",
+      "disableTranslate": true,
+      "title": "",
+      "stripTitleLink": {
+        "link": "",
+        "icon": ""
+      },
+      "sliderConfig": {
+        "showNavs": true,
+        "showDots": true,
+        "maxWidgets": 12,
+        "showNavsSpacing": true
+      },
+      "stripBackground": "",
+      "titleDescription": " ",
+      "stripConfig": {
+        "cardSubType": "card-portrait-lib"
+      },
+      "viewMoreUrl": {
+        "path": "app/event-hub/view-all?resourceType=Samuhik%20Charcha",
+        "viewMoreText": "View all",
+        "queryParams": {
+          "resourceType": "Samuhik Charcha"
+        },
+        "loaderConfig": {
+          "cardSubType": "card-portrait-lib-skeleton"
+        },
+        "stripConfig": {
+          "cardSubType": "card-portrait-lib"
+        }
+      },
+      "loader": true,
+      "loaderConfig": {
+        "cardSubType": "card-portrait-lib-skeleton"
+      },
+      "tabsType": "pills-tab",
+      "tabs": [
+        {
+          "label": "Upcoming Events",
+          "value": "upcomingEvents",
+          "computeDataOnClick": false,
+          "computeDataOnClickKey": "",
+          "requestRequired": true,
+          "showTabDataCount": false,
+          "maxWidgets": 20,
+          "nodataMsg": "nocontent",
+          "request": {
+            "hasIdentifiersApi": true,
+            "apiUrl": "apis/proxies/v8/sunbirdigot/search",
+            "searchV6": {
+              "request": {
+                "limit": 20,
+                "offset": 0,
+                "filters": {
+                  "status": [
+                    "Live"
+                  ],
+                "identifier": [],
+                  "endDateTime": {
+                    ">=": ""
+                  }
+                },
+                "sort_by": {
+                  "lastUpdatedOn": "desc"
+                }
+              }
+            },
+            "fetchData": "eventsSearch"
+          }
+        },
+        {
+          "label": "Past Events",
+          "value": "pastEvents",
+          "computeDataOnClick": false,
+          "computeDataOnClickKey": "",
+          "requestRequired": true,
+          "showTabDataCount": false,
+          "maxWidgets": 12,
+          "nodataMsg": "nocontent",
+          "request": {
+            "hasIdentifiersApi": true,
+            "apiUrl": "apis/proxies/v8/sunbirdigot/search",
+            "searchV6": {
+              "request": {
+                "limit": 20,
+                "offset": 0,
+                "filters": {
+                  "status": [
+                    "Live"
+                  ],
+                "identifier": [],
+                  "endDateTime": {
+                    "<": ""
+                  }
+                },
+                "sort_by": {
+                  "lastUpdatedOn": "desc"
+                }
+              }
+            },
+            "fetchData": "eventsSearch"
+          }
+        }
+      ],
+      "filters": [],
+      "request": {
+        "hasIdentifiersApi": true,
+        "apiUrl": "apis/proxies/v8/sunbirdigot/search",
+        "searchV6": {
+            "request": {
+            "limit": 20,
+            "offset": 0,
+            "filters": {
+                "status": [
+                "Live"
+                ]
+            },
+            "sort_by": {
+                "lastUpdatedOn": "desc"
+            }
+            }
+        },
+        "fetchData": "eventsSearch"
+        }
+    }
+  ]
+}
