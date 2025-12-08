@@ -15,6 +15,20 @@
       "routerLink": "/app/event-details/<param>/details"
     },
     {
+      "name": "Course Linked",
+      "key": "courseLinked",
+      "enabled": true,
+      "paramaterName": "contentId",
+      "routerLink": "/app/event-details/<param>/course-linked"
+    },
+    {
+      "name": "Pre Event Setup",
+      "key": "preEventSetup",
+      "enabled": true,
+      "paramaterName": "contentId",
+      "routerLink": "/app/event-details/<param>/pre-event-setup"
+    },
+    {
       "name": "Competency",
       "key": "competency",
       "enabled": true,
