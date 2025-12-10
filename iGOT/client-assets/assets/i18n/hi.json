@@ -1025,7 +1025,10 @@
     "hostedBy": "के द्वारा होस्ट किया गया",
     "enroll": "नामांकन करें।",
     "noBatchErrormsg": "कोई बैच उपलब्ध नहीं है!",
-    "certificateInfo": "आपको अपना सर्टिफिकेट 1 सप्ताह के अंदर में प्राप्त हो जाएगा।"
+    "certificateInfo": "आपको अपना सर्टिफिकेट 1 सप्ताह के अंदर में प्राप्त हो जाएगा।",
+    "speaker": "वक्ता",
+    "speakers": "वक्ता",
+    "agenda": "कार्यसूची"
   },
   "eventPresentorsCard": {
     "host": "होस्ट"
@@ -2861,6 +2864,7 @@
     "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
     "keyAnnouncements": "प्रमुख घोषणाएं",
     "preReads": "प्री-रीड्स",
+    "summary":"सारांश",
     "goToCourse": "कोर्स पर जाएं"
   },
   "notificationV2Settings": {
