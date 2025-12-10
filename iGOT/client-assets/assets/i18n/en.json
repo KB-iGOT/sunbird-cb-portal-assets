@@ -1027,7 +1027,10 @@
         "hostedBy": "Hosted By",
         "enroll": "Enroll",
         "noBatchErrormsg": "No batches available!",
-        "certificateInfo": "Your Certificate will be generated within 1 week."
+        "certificateInfo": "Your Certificate will be generated within 1 week.",
+        "speaker": "Speaker",
+        "speakers": "Speakers",
+        "agenda": "Agenda"
     },
     "eventPresentorsCard": {
         "host": "Host"
@@ -2803,6 +2806,7 @@
         "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
         "keyAnnouncements": "Key Announcements",
         "preReads": "Pre-Reads",
+        "Summary": "Summary",
         "goToCourse": "Go to Course"
     },
     "notificationV2Settings": {
