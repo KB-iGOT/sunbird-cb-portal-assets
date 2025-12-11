@@ -2806,8 +2806,11 @@
         "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
         "keyAnnouncements": "Key Announcements",
         "preReads": "Pre-Reads",
-        "Summary": "Summary",
-        "goToCourse": "Go to Course"
+        "summary": "Summary",
+        "goToCourse": "Go to Course",
+        "keyTakeaways": "Key Takeaways",
+        "numberOfAttendees": "Number of attendees",
+        "eventDuration": "Event Duration"
     },
     "notificationV2Settings": {
         "email": "Email Notification",

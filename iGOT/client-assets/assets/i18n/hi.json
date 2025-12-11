@@ -2865,7 +2865,10 @@
     "keyAnnouncements": "प्रमुख घोषणाएं",
     "preReads": "प्री-रीड्स",
     "summary":"सारांश",
-    "goToCourse": "कोर्स पर जाएं"
+    "goToCourse": "कोर्स पर जाएं",
+    "keyTakeaways":"मुख्य निष्कर्ष",
+    "numberOfAttendees":"उपस्थित लोगों की संख्या",
+    "eventDuration": "घटना अवधि"
   },
   "notificationV2Settings": {
     "email": "ईमेल अधिसूचना",
