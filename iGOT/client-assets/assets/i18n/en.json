@@ -95,7 +95,10 @@
         "assessments": "Assessments",
         "exploreContent": "Explore Content",
         "caseStudies": "Case Studies",
-        "igotSpecializations": "iGOT Specializations"
+        "igotSpecializations": "iGOT Specializations",
+        "trainingInstitutions": "Training Institutions",
+        "providers": "Providers",
+        "partners": "Partners"
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
@@ -1028,7 +1031,10 @@
         "hostedBy": "Hosted By",
         "enroll": "Enroll",
         "noBatchErrormsg": "No batches available!",
-        "certificateInfo": "Your Certificate will be generated within 1 week."
+        "certificateInfo": "Your Certificate will be generated within 1 week.",
+        "speaker": "Speaker",
+        "speakers": "Speakers",
+        "agenda": "Agenda"
     },
     "eventPresentorsCard": {
         "host": "Host"
@@ -2804,7 +2810,11 @@
         "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
         "keyAnnouncements": "Key Announcements",
         "preReads": "Pre-Reads",
-        "goToCourse": "Go to Course"
+        "summary": "Summary",
+        "goToCourse": "Go to Course",
+        "keyTakeaways": "Key Takeaways",
+        "numberOfAttendees": "Number of attendees",
+        "eventDuration": "Event Duration"
     },
     "notificationV2Settings": {
         "email": "Email Notification",
