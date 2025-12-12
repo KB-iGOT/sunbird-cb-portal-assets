@@ -95,7 +95,10 @@
         "assessments": "Assessments",
         "exploreContent": "Explore Content",
         "caseStudies": "Case Studies",
-        "igotSpecializations": "iGOT Specializations"
+        "igotSpecializations": "iGOT Specializations",
+        "trainingInstitutions": "Training Institutions",
+        "providers": "Providers",
+        "partners": "Partners"
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
