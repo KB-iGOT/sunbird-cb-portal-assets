@@ -1904,7 +1904,18 @@
         "emailMsg": "Not able to proceed? Get registered through your MDO.",
         "clickHere": "Click here",
         "toviewNodalOfficers": "to view Nodal Officers.",
-        "department": "Department"
+        "department": "Department",
+        "ministry": "Ministry/Department",
+        "searchMinistry": "Search ministry",
+        "enterMinistryName": "Please enter your ministry name",
+        "ministryNotFound": "Ministry not found. Please reach out to your respective MDO Admin by clicking",
+        "stateNotFound": "State not found. Please reach out to your respective MDO Admin by clicking",
+        "departmentNotFound": "Department not found. Please reach out to your respective MDO Admin by clicking",
+        "organisationNotFound": "Organisation not found. Please reach out to your respective MDO Admin by clicking",
+        "selectMinistryErrorMsg": "Please choose a ministry",
+        "selectStateErrorMsg": "Please choose a state",
+        "selectDepartmentErrorMsg": "Please choose a department",
+        "selectOrganisationErrorMsg": "Please choose a organisation"
     },
     "publicrequest": {
         "requestTo": "Request to add",
