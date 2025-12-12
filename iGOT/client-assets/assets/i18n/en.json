@@ -1903,7 +1903,19 @@
         "here": "here.",
         "emailMsg": "Not able to proceed? Get registered through your MDO.",
         "clickHere": "Click here",
-        "toviewNodalOfficers": "to view Nodal Officers."
+        "toviewNodalOfficers": "to view Nodal Officers.",
+        "department": "Department",
+        "ministry": "Ministry/Department",
+        "searchMinistry": "Search ministry",
+        "enterMinistryName": "Please enter your ministry name",
+        "ministryNotFound": "Ministry not found. Please reach out to your respective MDO Admin by clicking",
+        "stateNotFound": "State not found. Please reach out to your respective MDO Admin by clicking",
+        "departmentNotFound": "Department not found. Please reach out to your respective MDO Admin by clicking",
+        "organisationNotFound": "Organisation not found. Please reach out to your respective MDO Admin by clicking",
+        "selectMinistryErrorMsg": "Please choose a ministry",
+        "selectStateErrorMsg": "Please choose a state",
+        "selectDepartmentErrorMsg": "Please choose a department",
+        "selectOrganisationErrorMsg": "Please choose a organisation"
     },
     "publicrequest": {
         "requestTo": "Request to add",
@@ -2524,7 +2536,7 @@
         "withdrawPrimaryDetails": "You need to withdraw Primary details request before making a Transfer Request",
         "invalidEmail": "Please enter a valid email address",
         "pleaseEnterValidMobileNumber": "Please enter a valid mobile number",
-        "emailIsRequired":"Email is required.",
+        "emailIsRequired": "Email is required.",
         "invalidPinCode": "Please enter a valid Pincode",
         "viewLess": "View less",
         "viewMore": "View more",
@@ -2674,12 +2686,12 @@
         "fieldDisabledDueToApprovalStatus": "This field is disabled because the approval request is in progress. Please click Withdraw Request to modify the values.",
         "transferOrganization": "Organization",
         "organization": "Organization",
-        "ministryGreeting":"Dear Learner, To enable access to your APAR related mandatory courses relevant to your designation, request you to complete/ update your profile.",
-        "stateGreeting":"Dear Learner, To enable role-based learning on iGOT platform, please update your profile.",
-        "missingMsg":"Please complete the missing details by clicking",
-        "confirmMsg":"If below details are correct, click",
-        "otherwise":"Otherwise",
-        "click":"click"
+        "ministryGreeting": "Dear Learner, To enable access to your APAR related mandatory courses relevant to your designation, request you to complete/ update your profile.",
+        "stateGreeting": "Dear Learner, To enable role-based learning on iGOT platform, please update your profile.",
+        "missingMsg": "Please complete the missing details by clicking",
+        "confirmMsg": "If below details are correct, click",
+        "otherwise": "Otherwise",
+        "click": "click"
     },
     "NetworkLandingPage": {
         "exploreNetwork": "Explore Network",
