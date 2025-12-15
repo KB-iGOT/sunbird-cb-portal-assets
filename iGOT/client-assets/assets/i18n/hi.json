@@ -786,7 +786,6 @@
     "instructionThree": "इन मामलों में यह अंतिम होगा।",
     "passingCriteria": "पासिंग क्राइटेरिया",
     "attemptsLeft": "एटेम्प्ट्स लेफ्ट"
-
   },
   "apptoc": {
     "lastUpdatedOn": "हाल में अपडेट किया गया",
@@ -1895,7 +1894,18 @@
     "here": "यहाँ।",
     "emailMsg": "आगे नहीं बढ़ पा रहे हैं? अपने MDO के माध्यम से रजिस्टर करवाएँ।",
     "clickHere": "यहाँ क्लिक करें",
-    "toviewNodalOfficers": "नोडल अधिकारियों को देखने के लिए।"
+    "toviewNodalOfficers": "नोडल अधिकारियों को देखने के लिए।",
+    "department": "विभाग",
+    "ministry": "मंत्रालय/विभाग",
+    "searchMinistry": "खोज मंत्रालय",
+    "enterMinistryName": "कृपया अपने मंत्रालय का नाम दर्ज करें",
+    "ministryNotFound": "मंत्रालय नहीं मिला। कृपया क्लिक करके अपने संबंधित एमडीओ एडमिन से संपर्क करें।",
+    "stateNotFound": "राज्य नहीं मिला। कृपया क्लिक करके अपने संबंधित एमडीओ एडमिन से संपर्क करें।",
+    "departmentNotFound": "विभाग नहीं मिला। कृपया क्लिक करके अपने संबंधित एमडीओ एडमिन से संपर्क करें।",
+    "selectMinistryErrorMsg": "कृपया एक मंत्रालय चुनें",
+    "selectStateErrorMsg": "Please choose a state",
+    "selectDepartmentErrorMsg": "कृपया एक राज्य चुनें",
+    "selectOrganisationErrorMsg": "कृपया एक संगठन चुनें"
   },
   "publicrequest": {
     "requestTo": "जोड़ने का अनुरोध",
@@ -2756,7 +2766,13 @@
     "thisProfileIsLocked": "यह प्रोफ़ाइल लॉक की गई है।",
     "fieldDisabledDueToApprovalStatus": "थिस फील्ड आईएस डिसेबल्ड बिकॉज थे एप्रूवल रिक्वेस्ट आईएस आईएन प्रोग्रेस. प्लीज क्लिक विथड्रॉ रिक्वेस्ट टीओ मोडिफाई थे वैल्यूज.",
     "transferOrganization": "र्जनाज़ेशन",
-    "organization": "र्जनाज़ेशन"
+    "organization": "र्जनाज़ेशन",
+    "ministryGreeting": "डीअर लर्नर, टीओ एनेबल एक्सेस टीओ यूर अपर रिलेटेड मैंडेटरी कोर्सेस रिलिवेंट टीओ यूर डिजाइनेशन, रिक्वेस्ट योउ टीओ कंप्लीट/ अपडेट यूर प्रोफाइल.",
+    "stateGreeting": "डियर लर्नर, टीओ एनेबल रोले-बेस्ड लर्निंग ओन आईजीओटी प्लेटफार्म, प्लीज अपडेट यूर प्रोफाइल.",
+    "missingMsg": "प्लीज कंप्लीट थे मिसिंग डिटेल्स बाई क्लिकिंग",
+    "confirmMsg": "आईएफ बेलो डिटेल्स अरे करेक्ट, क्लिक",
+    "otherwise": "ओथरवाइज",
+    "click": "क्लिक"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "नेटवर्क खोजें",

@@ -1842,8 +1842,18 @@
     "here": "અહીં.",
     "emailMsg": "આગળ વધવા મુશ્કેલી પડી રહી છે? તમારા MDO દ્વારા નોંધણી કરાવો.",
     "clickHere": "અહીં ક્લિક કરો",
-    "toviewNodalOfficers": "નોડલ અધિકારીઓને જોવા માટે."
-
+    "toviewNodalOfficers": "નોડલ અધિકારીઓને જોવા માટે.",
+    "department": "વિભાગ",
+    "ministry": "મંત્રાલય/વિભાગ",
+    "searchMinistry": "શોધ મંત્રાલય",
+    "enterMinistryName": "કૃપા કરીને તમારા મંત્રાલયનું નામ દાખલ કરો",
+    "ministryNotFound": "મંત્રાલય મળ્યું નથી. કૃપા કરીને ક્લિક કરીને તમારા સંબંધિત MDO એડમિનનો સંપર્ક કરો",
+    "stateNotFound": "રાજ્ય મળ્યું નથી. કૃપા કરીને ક્લિક કરીને તમારા સંબંધિત MDO એડમિનનો સંપર્ક કરો",
+    "departmentNotFound": "વિભાગ મળ્યો નથી. કૃપા કરીને ક્લિક કરીને તમારા સંબંધિત MDO એડમિનનો સંપર્ક કરો",
+    "selectMinistryErrorMsg": "કૃપા કરીને એક મંત્રાલય પસંદ કરો",
+    "selectStateErrorMsg": "કૃપા કરીને એક રાજ્ય પસંદ કરો",
+    "selectDepartmentErrorMsg": "કૃપા કરીને એક વિભાગ પસંદ કરો",
+    "selectOrganisationErrorMsg": "કૃપા કરીને એક સંસ્થા પસંદ કરો"
   },
   "publicrequest": {
     "requestTo": "ઉમેરવાની વિનંતી",
