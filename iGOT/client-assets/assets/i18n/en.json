@@ -95,7 +95,10 @@
         "assessments": "Assessments",
         "exploreContent": "Explore Content",
         "caseStudies": "Case Studies",
-        "igotSpecializations": "iGOT Specializations"
+        "igotSpecializations": "iGOT Specializations",
+        "trainingInstitutions": "Training Institutions",
+        "providers": "Providers",
+        "partners": "Partners"
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
@@ -812,10 +815,11 @@
         "totalApplied": "Total applied",
         "batchSize": "Batch size",
         "totalEnrolled": "Total enrolled.",
-        "returnToProgramPage": "Return to Program Page",
+        "returnToProgramPage": "Return",
         "surveyCompletedCertificateGenerating": "Thank you for completing the program survey.  Your certificate is now being generated and will be available soon.",
         "surveySubmitted": "Survey Submitted Successfully!",
         "completeSurvey": "Complete Survey",
+        "AGKCaseStudySurveyForm": "Amrit Gyaan Kosh Case Study Access Form",
         "takeSurveyToUnlock": "To download your certificate, please complete this mandatory survey. Your responses are confidential and will not be shared with your MDO or the content provider",
         "doItLater": "Do it later",
         "submit": "Submit",
@@ -1027,7 +1031,10 @@
         "hostedBy": "Hosted By",
         "enroll": "Enroll",
         "noBatchErrormsg": "No batches available!",
-        "certificateInfo": "Your Certificate will be generated within 1 week."
+        "certificateInfo": "Your Certificate will be generated within 1 week.",
+        "speaker": "Speaker",
+        "speakers": "Speakers",
+        "agenda": "Agenda"
     },
     "eventPresentorsCard": {
         "host": "Host"
@@ -2803,7 +2810,11 @@
         "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
         "keyAnnouncements": "Key Announcements",
         "preReads": "Pre-Reads",
-        "goToCourse": "Go to Course"
+        "summary": "Summary",
+        "goToCourse": "Go to Course",
+        "keyTakeaways": "Key Takeaways",
+        "numberOfAttendees": "Number of attendees",
+        "eventDuration": "Event Duration"
     },
     "notificationV2Settings": {
         "email": "Email Notification",
