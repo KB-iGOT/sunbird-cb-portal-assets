@@ -827,7 +827,7 @@
         "certificateLockedMessage": "Your certificate is currently locked.",
         "unlockCertificate": "Please complete the",
         "surveyForm": "survey form",
-        "unlockCertificate2": "for this program to unlock it. Once you submit the form, your certificate will be generated automatically.",
+        "unlockCertificate2": "for this {{courseCategory}} to unlock it. Once you submit the form, your certificate will be generated automatically.",
         "completeSurveyNow": "Complete Survey Now"
     },
     "certificatedialog": {
