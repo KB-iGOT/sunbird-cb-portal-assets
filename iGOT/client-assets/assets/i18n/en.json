@@ -815,7 +815,10 @@
         "unlockCertificate": "To unlock it, please complete the",
         "surveyForm": "survey form",
         "unlockCertificate2": "about this program. Once submitted, your certificate will be generated automatically.",
-        "completeSurveyNow": "Complete Survey Now"
+        "completeSurveyNow": "Complete Survey Now",
+        "newVersion": "New Version Available",
+        "pendingRetirement": "Pending Retirement",
+        "switchToNewVersion": "Switch to New Version"
     },
     "certificatedialog": {
         "downloadCertificate": "Download Certificate",

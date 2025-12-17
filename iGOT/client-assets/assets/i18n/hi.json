@@ -815,7 +815,10 @@
     "unlockCertificate": "इसे अनलॉक करने के लिए, कृपया",
     "surveyForm": "सर्वेक्षण फॉर्म",
     "unlockCertificate2": "इस कार्यक्रम के बारे में भरें। जमा करने के बाद, आपका प्रमाणपत्र स्वचालित रूप से तैयार हो जाएगा।",
-    "completeSurveyNow": "अभी सर्वेक्षण पूरा करें"
+    "completeSurveyNow": "अभी सर्वेक्षण पूरा करें",
+    "newVersion": "नया संस्करण उपलब्ध है",
+    "pendingRetirement": "लंबित सेवानिवृत्ति",
+    "switchToNewVersion": "नए संस्करण पर स्विच करें"
   },
   "certificatedialog": {
     "downloadCertificate": "प्रमाणपत्र डाउनलोड करें",

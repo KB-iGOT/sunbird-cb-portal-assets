@@ -807,7 +807,10 @@
     "unlockCertificate": "તેને અનલૉક કરવા માટે, કૃપા કરીને પૂર્ણ કરો",
     "surveyForm": "સર્વે ફોર્મ",
     "unlockCertificate2": "આ કાર્યક્રમ વિશે. એકવાર સબમિટ થયા પછી, તમારું પ્રમાણપત્ર આપમેળે જનરેટ થશે.",
-    "completeSurveyNow": "હવે સર્વે પૂર્ણ કરો"
+    "completeSurveyNow": "હવે સર્વે પૂર્ણ કરો",
+    "newVersion": "નવું સંસ્કરણ ઉપલબ્ધ છે",
+    "pendingRetirement": "બાકી નિવૃત્તિ",
+    "switchToNewVersion": "નવા સંસ્કરણ પર સ્વિચ કરો"
   },
   "certificatedialog": {
     "downloadCertificate": "પ્રમાણપત્ર ડાઉનલોડ કરો",
