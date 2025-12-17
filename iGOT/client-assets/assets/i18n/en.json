@@ -538,7 +538,7 @@
         "downloadPdf": "Download",
         "viewPDF": "View",
         "assignments": "Assignments",
-        "samuhikCharcha":"Samuhik Charcha",
+        "samuhikCharcha": "Samuhik Charcha",
         "learningOutcome": "Learning Outcome"
     },
     "userAssignments": {
@@ -2002,7 +2002,8 @@
         "peoples": "Peoples ({{count}})",
         "communities": "Communities ({{count}})",
         "seeAllResults": "See all the results",
-        "iGOTSpecializationProgram": "iGOT Specialization"
+        "iGOTSpecializationProgram": "iGOT Specialization",
+        "noEventScheduleYet": "No events scheduled yet"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
@@ -2561,7 +2562,7 @@
         "withdrawPrimaryDetails": "You need to withdraw Primary details request before making a Transfer Request",
         "invalidEmail": "Please enter a valid email address",
         "pleaseEnterValidMobileNumber": "Please enter a valid mobile number",
-        "emailIsRequired":"Email is required.",
+        "emailIsRequired": "Email is required.",
         "invalidPinCode": "Please enter a valid Pincode",
         "viewLess": "View less",
         "viewMore": "View more",
