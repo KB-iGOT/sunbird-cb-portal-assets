@@ -52,7 +52,15 @@
           "requestRequired": true,
           "showTabDataCount": false,
           "maxWidgets": 20,
-          "nodataMsg": "nocontent",
+          "nodataMsg": "noevents",
+          "noDataWidget": {
+            "widgetData": {
+              "html": "<div class=\"padding-s\"> <div class=\"margin-bottom-s margin-top-m\" i18n> <p class = \"mat-h2 padding-left-m padding-right-m text-center margin-top-l font-weight\"> Currently, we don't have any data available under this section.</div>",
+              "containerStyle": {}
+            },
+            "widgetSubType": "elementHtml",
+            "widgetType": "element"
+          },
           "request": {
             "hasIdentifiersApi": true,
             "apiUrl": "apis/proxies/v8/sunbirdigot/search",
@@ -85,7 +93,15 @@
           "requestRequired": true,
           "showTabDataCount": false,
           "maxWidgets": 12,
-          "nodataMsg": "nocontent",
+          "nodataMsg": "noevents",
+          "noDataWidget": {
+            "widgetData": {
+              "html": "<div class=\"padding-s\"> <div class=\"margin-bottom-s margin-top-m\" i18n> <p class = \"mat-h2 padding-left-m padding-right-m text-center margin-top-l font-weight\"> Currently, we don't have any data available under this section.</div>",
+              "containerStyle": {}
+            },
+            "widgetSubType": "elementHtml",
+            "widgetType": "element"
+          },
           "request": {
             "hasIdentifiersApi": true,
             "apiUrl": "apis/proxies/v8/sunbirdigot/search",
