@@ -108,5 +108,5 @@
   },
   "userConfig": {},
   "application": "cbp_portal",
-  "knowledgeLevel": ["Beginner", "Intermediate", "Advanced"]
+  "difficultyLevel": ["Beginner", "Intermediate", "Advanced"]
 }
