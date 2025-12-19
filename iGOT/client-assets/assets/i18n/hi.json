@@ -1569,7 +1569,8 @@
     "lockedEvents": "कोर्स में नामांकन करें ताकि सामूहिक चर्चा अनलॉक हो सके",
     "lockedEventsDesc": "इस कोर्स से संबंधित घटनाएँ यहाँ तब दिखाई देंगी जब आप आवश्यक सीख पूरी कर लेंगे। भाग लेने और समुदाय के साथ जुड़ने के लिए अपना कोर्स जारी रखें।",
     "forYou": "आपके लिए।",
-    "youWillFindIgotSpecializationProgramsHere.": "आपको यहां iGOT विशेषज्ञता कार्यक्रम मिलेंगे।"
+    "youWillFindIgotSpecializationProgramsHere.": "आपको यहां iGOT विशेषज्ञता कार्यक्रम मिलेंगे।",
+    "noevents": "कोई इवेंट उपलब्ध नहीं है।"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
