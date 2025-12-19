@@ -535,7 +535,7 @@
     "downloadPdf": "डाउनलोड करें",
     "viewPDF": "देखें",
     "assignments": "कार्य",
-    "samuhikCharcha":"सामुहिक चर्चा",
+    "samuhikCharcha": "सामुहिक चर्चा",
     "learningOutcome": "सीखने के परिणाम"
   },
   "userAssignments": {
@@ -784,7 +784,6 @@
     "instructionThree": "इन मामलों में यह अंतिम होगा।",
     "passingCriteria": "पासिंग क्राइटेरिया",
     "attemptsLeft": "एटेम्प्ट्स लेफ्ट"
-
   },
   "apptoc": {
     "lastUpdatedOn": "हाल में अपडेट किया गया",
@@ -823,7 +822,11 @@
     "unlockCertificate": "कृपया प्रमाणपत्र अनलॉक करने के लिए सर्वेक्षण पूरा करें।",
     "surveyForm": "सर्वेक्षण फॉर्म",
     "unlockCertificate2": "for this program to unlock it. Once you submit the form, your certificate will be generated automatically.",
-    "completeSurveyNow": "अभी सर्वेक्षण पूरा करें"
+    "completeSurveyNow": "अभी सर्वेक्षण पूरा करें",
+    "newVersion": "नया संस्करण उपलब्ध है",
+    "pendingRetirement": "लंबित सेवानिवृत्ति",
+    "switchToNewVersion": "नए संस्करण पर स्विच करें",
+    "retired": "सेवानिवृत्त"
   },
   "certificatedialog": {
     "downloadCertificate": "प्रमाणपत्र डाउनलोड करें",

@@ -535,7 +535,7 @@
         "downloadPdf": "Download",
         "viewPDF": "View",
         "assignments": "Assignments",
-        "samuhikCharcha":"Samuhik Charcha",
+        "samuhikCharcha": "Samuhik Charcha",
         "learningOutcome": "Learning Outcome"
     },
     "userAssignments": {
@@ -824,7 +824,11 @@
         "unlockCertificate": "Please complete the",
         "surveyForm": "survey form",
         "unlockCertificate2": "for this program to unlock it. Once you submit the form, your certificate will be generated automatically.",
-        "completeSurveyNow": "Complete Survey Now"
+        "completeSurveyNow": "Complete Survey Now",
+        "newVersion": "New Version Available",
+        "pendingRetirement": "Pending Retirement",
+        "switchToNewVersion": "Switch to New Version",
+        "retired": "Retired"
     },
     "certificatedialog": {
         "downloadCertificate": "Download Certificate",
@@ -2542,7 +2546,7 @@
         "withdrawPrimaryDetails": "You need to withdraw Primary details request before making a Transfer Request",
         "invalidEmail": "Please enter a valid email address",
         "pleaseEnterValidMobileNumber": "Please enter a valid mobile number",
-        "emailIsRequired":"Email is required.",
+        "emailIsRequired": "Email is required.",
         "invalidPinCode": "Please enter a valid Pincode",
         "viewLess": "View less",
         "viewMore": "View more",

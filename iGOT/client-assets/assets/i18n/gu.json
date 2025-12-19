@@ -811,7 +811,11 @@
     "unlockCertificate": "આ કાર્યક્રમ માટેનું સર્વે પૂર્ણ કરો",
     "surveyForm": "સર્વે ફોર્મ",
     "unlockCertificate2": "આ ફોર્મ સબમિટ કર્યા પછી તમારું પ્રમાણપત્ર આપમેળે જનરેટ થશે અને અનલોક થઈ જશે.",
-    "completeSurveyNow": "હવે સર્વે પૂર્ણ કરો"
+    "completeSurveyNow": "હવે સર્વે પૂર્ણ કરો",
+    "newVersion": "નવું સંસ્કરણ ઉપલબ્ધ છે",
+    "pendingRetirement": "બાકી નિવૃત્તિ",
+    "switchToNewVersion": "નવા સંસ્કરણ પર સ્વિચ કરો",
+    "retired": "નિવૃત્ત"
   },
   "certificatedialog": {
     "downloadCertificate": "પ્રમાણપત્ર ડાઉનલોડ કરો",
@@ -1842,7 +1846,6 @@
     "emailMsg": "આગળ વધવા મુશ્કેલી પડી રહી છે? તમારા MDO દ્વારા નોંધણી કરાવો.",
     "clickHere": "અહીં ક્લિક કરો",
     "toviewNodalOfficers": "નોડલ અધિકારીઓને જોવા માટે."
-
   },
   "publicrequest": {
     "requestTo": "ઉમેરવાની વિનંતી",
