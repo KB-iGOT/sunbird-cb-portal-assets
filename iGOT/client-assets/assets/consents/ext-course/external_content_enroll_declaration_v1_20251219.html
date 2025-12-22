@@ -6,6 +6,10 @@
   <title>Course Enrollment Confirmations</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: Roboto, Arial, sans-serif;
@@ -15,45 +19,47 @@
 
     .container {
       max-width: 800px;
-      margin: 0px auto;
-      padding: 24px;
+      margin: 0 auto;
+      padding: clamp(16px, 4vw, 32px);
       text-align: center;
     }
 
     .icon-wrapper {
-      margin-bottom: 24px;
+      margin-bottom: 20px;
     }
 
     .icon {
-      width: 64px;
-      height: 64px;
+      width: 56px;
+      height: 56px;
       border-radius: 50%;
       border: 4px solid #f39c2d;
       color: #f39c2d;
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      font-size: 36px;
+      font-size: 32px;
       font-weight: bold;
     }
 
     h1 {
-      font-size: 22px;
+      font-size: clamp(18px, 4vw, 22px);
       font-weight: 500;
       color: #1a4db3;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
+      line-height: 1.4;
     }
 
     .content {
       text-align: left;
-      font-size: 16px;
+      font-size: clamp(14px, 3.5vw, 16px);
       line-height: 1.7;
       color: #333;
-      margin-bottom: 32px;
+      margin-bottom: 28px;
     }
 
     .content ol {
       padding-left: 20px;
+      margin: 0;
     }
 
     .content li {
@@ -63,11 +69,11 @@
     .divider {
       height: 1px;
       background: #e0e0e0;
-      margin: 40px 0;
+      margin: 32px 0;
     }
 
     .question {
-      font-size: 18px;
+      font-size: clamp(16px, 4vw, 18px);
       font-weight: 500;
       color: #1a4db3;
       margin-top: 24px;
@@ -75,15 +81,19 @@
 
     .actions {
       margin-top: 24px;
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
     }
 
     .btn {
-      padding: 10px 24px;
+      padding: 12px 24px;
       font-size: 16px;
       border-radius: 4px;
       border: none;
       cursor: pointer;
-      margin: 0 8px;
+      min-width: 140px;
     }
 
     .btn-primary {
@@ -99,6 +109,23 @@
     .btn:hover {
       opacity: 0.9;
     }
+
+    /* Small devices */
+    @media (max-width: 480px) {
+      .icon {
+        width: 48px;
+        height: 48px;
+        font-size: 28px;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -106,15 +133,13 @@
 
   <div class="container">
 
-   
-
     <!-- Consent for Limited Personal Data Sharing -->
     <div class="icon-wrapper">
       <div class="icon">!</div>
     </div>
 
     <h1>
-      Before proceeding, please confirm your consent :
+      Before proceeding, please confirm your consent:<br />
       Consent for Limited Personal Data Sharing
     </h1>
 
@@ -133,11 +158,12 @@
         </li>
       </ol>
     </div>
-    
+
     <div class="divider"></div>
- <!-- Course Completion Pledge -->
+
+    <!-- Course Completion Pledge -->
     <h1>
-      Before you enrol, please confirm :
+      Before you enrol, please confirm:<br />
       Course Completion Pledge
     </h1>
 
@@ -152,9 +178,11 @@
         </li>
       </ol>
     </div>
+
     <div class="question">
       Do you provide your consent?
     </div>
+
   </div>
 
 </body>
