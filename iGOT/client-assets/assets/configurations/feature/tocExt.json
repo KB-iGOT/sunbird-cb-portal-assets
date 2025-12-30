@@ -199,5 +199,11 @@
     "negativeDisplay": false,
     "dot-default": "dot-grey",
     "dot-active": "dot-active"
+  },
+  "contentConsent": {
+    "version": 1,
+    "consentDocUrl": "assets/public/content/consents/external_content_enroll_declaration_v1_20251219.html",
+    "assetsDocUrl": "assets/consents/ext-course/external_content_enroll_declaration_v1_20251219.html",
+    "consentId": "external_content_enroll_declaration_v1_20251219"
   }
 }
