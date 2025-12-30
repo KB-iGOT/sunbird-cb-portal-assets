@@ -12,7 +12,7 @@
     ],
     "optionsConditions": [{ "value": "is", "label": "is" }],
     "organizationRadioSelection": [
-      { "value": "all", "label": "All Organisation" }, 
+      { "value": "all", "label": "All Organisation" },
       { "value": "selected", "label": "Selected Organisation" }
     ],
     "designationRadioSelection": [
@@ -107,5 +107,6 @@
     "default": "on"
   },
   "userConfig": {},
-  "application":"cbp_portal"
+  "application": "cbp_portal",
+  "difficultyLevel": ["Beginner", "Intermediate", "Advanced"]
 }
