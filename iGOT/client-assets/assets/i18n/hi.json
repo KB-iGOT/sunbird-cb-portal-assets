@@ -1180,7 +1180,8 @@
     "privacy": "गोपनीयता",
     "getStartedTour": "'शुरू करो' दौरा",
     "profile": "प्रोफ़ाइल",
-    "visibilityControl": "दृश्यता नियंत्रण"
+    "visibilityControl": "दृश्यता नियंत्रण",
+    "resetPassword": "पासवर्ड रीसेट करें"
   },
   "visibilitySettings": {
     "public": "सार्वजनिक",
