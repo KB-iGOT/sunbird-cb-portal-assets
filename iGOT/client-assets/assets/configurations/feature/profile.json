@@ -208,7 +208,16 @@
       "key": "Network Home",
       "badges": { "enabled": true, "uri": "" },
       "enabled": true,
-      "routerLink": "/app/profile/accountandpassword"
+      "icon": null,
+      "img": null,
+      "children": [{
+          "name": "resetPassword",
+          "key": "Network Home",
+          "badges": { "enabled": true, "uri": "" },
+          "icon": "settings",
+          "img": null,
+          "enabled": true
+        }]
     },
     {
       "name": "privacy",

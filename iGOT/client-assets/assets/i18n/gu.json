@@ -1156,7 +1156,8 @@
     "privacy": "ગોપનીયતા",
     "getStartedTour": "'શરૂ કરો' પ્રવાસ",
     "profile": "પ્રોફાઇલ",
-    "visibilityControl": "દૃશ્યતા નિયંત્રણ"
+    "visibilityControl": "દૃશ્યતા નિયંત્રણ",
+    "resetPassword": "પાસવર્ડ ફરીથી સેટ કરો"
   },
   "visibilitySettings": {
     "public": "જાહેર",
@@ -1672,6 +1673,7 @@
     "obc": "ઓબીસીએ",
     "sc": "એસસી",
     "st": "એસટી",
+    "pwd": "પીડબ્લ્યુડી",
     "group": "જૂથ",
     "otherLanguages": "જાણીતી અન્ય ભાષાઓ",
     "otherLanguageMandatory": "જાણીતી અન્ય ભાષાઓ ફરજિયાત છે",
@@ -2422,6 +2424,7 @@
     "obc": "ઓબીસીએ",
     "sc": "એસસી",
     "st": "એસટી",
+    "pwd": "પીડબ્લ્યુડી",
     "viewMentorProfile": "માર્ગદર્શક રૂપરેખા જુઓ",
     "note": "નોંધ",
     "ok": "ઠીક છે.",

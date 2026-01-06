@@ -1185,7 +1185,8 @@
         "privacy": "Privacy",
         "getStartedTour": "'Get Started' tour",
         "profile": "Profile",
-        "visibilityControl": "Visibility Control"
+        "visibilityControl": "Visibility Control",
+        "resetPassword": "Reset Password"
     },
     "visibilitySettings": {
         "public": "Public",
@@ -1736,6 +1737,7 @@
         "obc": "OBC",
         "sc": "SC",
         "st": "ST",
+        "pwd": "PWD",
         "group": "Group",
         "otherLanguages": "Other Languages Known",
         "otherLanguageMandatory": "Other Languages Known is mandatory",
@@ -2511,6 +2513,7 @@
         "obc": "OBC",
         "sc": "SC",
         "st": "ST",
+        "pwd": "PWD",
         "viewMentorProfile": "View Mentor Profile",
         "note": "Note",
         "ok": "Ok",
