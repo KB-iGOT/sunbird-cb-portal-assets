@@ -100,7 +100,8 @@
         "providers": "Providers",
         "partners": "Partners",
         "karmaTracks": "Karma Tracks",
-        "theIgotMarketplace": "The iGOT Marketplace"
+        "theIgotMarketplace": "The iGOT Marketplace",
+        "igotClassroom": "iGOT Classroom"
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
