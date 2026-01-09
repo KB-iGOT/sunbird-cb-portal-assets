@@ -272,7 +272,9 @@
         "overDue": "Over due",
         "deadline": "Deadline",
         "takeSurveyToUnlock": "Take survey to unlock",
-        "iGOTSpecializationProgram": "iGOT Specialization"
+        "iGOTSpecializationProgram": "iGOT Specialization",
+        "retired": "Retired",
+        "newVersion": "New Version"
     },
     "allChannelsComponent": {
         "noChannelsFound": "No channels found!",
