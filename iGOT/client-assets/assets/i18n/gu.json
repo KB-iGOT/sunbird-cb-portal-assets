@@ -265,7 +265,9 @@
     "overDue": "ઓવર લેન્ડિંગ",
     "deadline": "સમયમર્યાદા",
     "takeSurveyToUnlock": "સર્વેને અનલૉક કરવા માટે લો",
-    "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન"
+    "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન",
+    "retired": "નિવૃત્ત",
+    "newVersion": "નવું સંસ્કરણ"
   },
   "allChannelsComponent": {
     "noChannelsFound": "કોઈ ચેનલો મળી નથી!",

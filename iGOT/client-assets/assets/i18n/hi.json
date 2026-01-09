@@ -277,7 +277,9 @@
     "overDue": "बहुत देर",
     "deadline": "समय सीमा",
     "takeSurveyToUnlock": "सर्वेक्षण लेने के लिए अनलॉक करें",
-    "iGOTSpecializationProgram": "iGOT विशेषज्ञता"
+    "iGOTSpecializationProgram": "iGOT विशेषज्ञता",
+    "retired": "सेवानिवृत्त",
+    "newVersion": "नया संस्करण"
   },
   "allChannelsComponent": {
     "noChannelsFound": "कोई चैनल नहीं मिला!",
