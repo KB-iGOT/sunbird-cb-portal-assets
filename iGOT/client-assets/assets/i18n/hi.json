@@ -99,12 +99,8 @@
     "trainingInstitutions": "प्रशिक्षण संस्थान",
     "providers": "प्रोवाईडर",
     "karmaTracks": "कर्म ट्रैक्स",
-<<<<<<< HEAD
-    "theIgotMarketplace": "आईगॉट मार्केटप्लेस"
-=======
     "theIgotMarketplace": "आईगॉट मार्केटप्लेस",
     "igotClassroom": "iGOT क्लासरूम"
->>>>>>> c150b6819c78d217baffe9a0b4ff01637fabc04b
   },
   "appnavbar": {
     "searchforLearningContents": "कंटेन्ट खोजें",
