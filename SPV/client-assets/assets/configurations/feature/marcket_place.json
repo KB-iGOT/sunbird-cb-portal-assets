@@ -10,7 +10,10 @@
                 "Course Thumbnail": "content.appIcon",
                 "Course Id": "content.externalId",
                 "Course Objective": "content.objectives",
-                "Course Topic": "content.topic"
+                "Course Topic": "content.topic",
+                "Course Summary": "content.summary",
+                "Course DifficultyLevel": "content.difficultyLevel",
+                "Course Providers": "content.courseProvider"
             }
         }
     ],
@@ -77,6 +80,6 @@
     },
    "bulkUploadCourse" : {
     "instructions" : ["Please ensure the course catalog file is named correctly and data is accurate.", "Download the log report from 'Download Log' for details on the uploaded file."],
-    "sampleFileDownloadLink": "/assets/samplefiles/sampleData.xlsx"
+    "sampleFileDownloadLink": "/assets/samplefiles/sampleDataCourseOnboarding.csv"
    }
 }
