@@ -856,6 +856,30 @@
               ]
             }
           ]
+        }, 
+        {
+          "menuCategory": "Content Management",
+          "requiredRoles": [
+            "spv_publisher"
+          ],
+          "subMenu": [
+            {
+              "name": "Learning Path",
+              "key": "learningPath",
+              "fragment": false,
+              "iconName": "svg_learner_path",
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/author/learning-path",
+              "requiredRoles": [
+                "spv_publisher"
+              ]
+            }
+          ]
         }
       ]
     }
