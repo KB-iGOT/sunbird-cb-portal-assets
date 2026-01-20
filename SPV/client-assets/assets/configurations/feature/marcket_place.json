@@ -12,9 +12,19 @@
                 "Course Objective": "content.objectives",
                 "Course Topic": "content.topic",
                 "Course Summary": "content.summary",
-                "Course DifficultyLevel": "content.difficultyLevel",
+                "Course Difficulty Level": "content.difficultyLevel",
                 "Course Providers": "content.courseProvider"
-            }
+            },
+            "requiredList": [
+              "Course Name", 
+              "Course Description", 
+              "Course Duration", 
+              "Course Link", 
+              "Course Thumbnail", 
+              "Course Id", 
+              "Course Objective", 
+              "Course Topic"
+            ]
         }
     ],
     "transformProgressJson": [  
