@@ -2049,7 +2049,8 @@
     "resources": "संसाधन ({{count}})",
     "externalContent": "बाहरी सामग्री ({{count}})",
     "comprehensiveAssessmentProgram": "व्यापक मूल्यांकन कार्यक्रम",
-    "multilingualCourse": "बहुभाषी पाठ्यक्रम"
+    "multilingualCourse": "बहुभाषी पाठ्यक्रम",
+    "learningPathway":"लर्निंग पैथवे"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
