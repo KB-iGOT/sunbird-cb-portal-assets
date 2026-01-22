@@ -29,6 +29,8 @@
       "menus": [
         {
           "name": "Directory",
+          "icon": "reorder",
+          "isCustomIcon": false,
           "key": "directory",
           "fragment": false,
           "render": true,
@@ -41,6 +43,8 @@
           "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
         },
         {
+          "icon": "people",
+          "isCustomIcon": false,
           "name": "Users",
           "badges": {
             "enabled": false,
@@ -51,6 +55,8 @@
           "subMenu": [
             {
               "name": "All SPV Users",
+              "icon": "people",
+              "isCustomIcon": false,
               "key": "users",
               "fragment": false,
               "render": true,
@@ -64,6 +70,8 @@
             },
             {
               "name": "Roles and access",
+              "icon": "people",
+              "isCustomIcon": false,
               "key": "roles-access",
               "fragment": false,
               "render": true,
@@ -79,6 +87,8 @@
         },
         {
           "name": "Events",
+          "icon": "event",
+          "isCustomIcon": false,
           "key": "Events",
           "fragment": false,
           "render": true,
@@ -93,6 +103,8 @@
 
         {
           "name": "Reports",
+          "icon": "pages",
+          "isCustomIcon": false,
           "badges": {
             "enabled": false,
             "uri": ""
@@ -102,6 +114,8 @@
           "subMenu": [
             {
               "name": "Organization Reports",
+              "icon": "pages",
+              "isCustomIcon": false,
               "key": "reports",
               "fragment": false,
               "render": true,
@@ -115,6 +129,8 @@
             },
             {
               "name": "Capacity building reports",
+              "icon": "pages",
+              "isCustomIcon": false,
               "key": "capacity-building-reports",
               "fragment": false,
               "render": true,
@@ -128,6 +144,8 @@
             },
             {
               "name": "Custom Reports",
+              "icon": "pages",
+              "isCustomIcon": false,
               "key": "comms-buckets",
               "fragment": false,
               "render": true,
@@ -141,9 +159,25 @@
             }
           ]
         },
-
+        {
+          "name": "Content Marketplace",
+          "icon": "market_place",
+          "isCustomIcon": true,
+          "key": "marketplace-providers",
+          "fragment": false,
+          "render": true,
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "routerLink": "/app/home/marketplace-providers",
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+        },
         {
           "name": "Content Management",
+          "icon": "content_management",
+          "isCustomIcon": true,
           "badges": {
             "enabled": false,
             "uri": ""
@@ -153,6 +187,8 @@
           "subMenu": [
             {
               "name": "All Request",
+              "icon": "content_management",
+              "isCustomIcon": true,
               "key": "Manage",
               "fragment": false,
               "render": true,
@@ -166,6 +202,8 @@
             },
             {
               "name": "Sectors",
+              "icon": "content_management",
+              "isCustomIcon": true,
               "key": "sectors",
               "fragment": false,
               "render": true,
@@ -176,25 +214,14 @@
               "enabled": true,
               "routerLink": "/app/home/sectors",
               "requiredRoles": ["SPV_ADMIN", "spv_admin"]
-            },
-            {
-              "name": "Marketplace Providers",
-              "key": "marketplace-providers",
-              "fragment": false,
-              "render": true,
-              "badges": {
-                "enabled": false,
-                "uri": ""
-              },
-              "enabled": true,
-              "routerLink": "/app/home/marketplace-providers",
-              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
             }
           ]
         },
 
         {
           "name": "Competency Management ",
+          "icon": "dashboard",
+          "isCustomIcon": false,
           "badges": {
             "enabled": false,
             "uri": ""
@@ -204,6 +231,8 @@
           "subMenu": [
             {
               "name": "KCM Mapping",
+              "icon": "dashboard",
+              "isCustomIcon": false,
               "key": "KCM",
               "fragment": false,
               "render": true,
@@ -220,6 +249,8 @@
 
         {
           "name": "Surveys",
+          "icon": "survey",
+          "isCustomIcon": true,
           "badges": {
             "enabled": false,
             "uri": ""
@@ -229,6 +260,8 @@
           "subMenu": [
             {
               "name": "All Surveys",
+              "icon": "survey",
+              "isCustomIcon": true,
               "key": "Surveys",
               "fragment": false,
               "render": true,
@@ -242,6 +275,8 @@
             },
             {
               "name": "Survey report",
+              "icon": "survey",
+              "isCustomIcon": true,
               "key": "Surveys",
               "fragment": false,
               "render": true,
@@ -258,23 +293,22 @@
         {
           "name": "Organisations",
           "key": "sign-up-organisations",
+          "icon": "corporate",
+          "isCustomIcon": true,
           "fragment": false,
           "render": true,
           "badges": {
-              "enabled": false,
-              "uri": ""
+            "enabled": false,
+            "uri": ""
           },
           "enabled": true,
           "routerLink": "/app/home/requests/organisation",
-          "requiredRoles": [
-              "SPV_ADMIN",
-              "STATE_ADMIN",
-              "spv_admin",
-              "state_admin"
-          ]
-      },
+          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+        },
         {
           "name": "Domain Requests",
+          "icon": "person_check",
+          "isCustomIcon": true,
           "key": "sign-up-emails",
           "fragment": false,
           "render": true,
@@ -288,6 +322,8 @@
         },
         {
           "name": "Moderation",
+          "icon": "dashboard",
+          "isCustomIcon": false,
           "key": "moderation",
           "fragment": false,
           "render": false,
