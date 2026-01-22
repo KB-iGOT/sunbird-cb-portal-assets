@@ -2246,7 +2246,13 @@
       ]
     },
     "disabledFor": {},
-    "mandatoryFor": {},
+      "mandatoryFor": {
+      "Course": [],
+      "Program": [],
+      "Curated Program": [],
+      "Blended Program": [],
+      "Learning Resource": []
+    },
     "notDisabledFor": {},
     "notMandatoryFor": {},
     "notShowFor": {},

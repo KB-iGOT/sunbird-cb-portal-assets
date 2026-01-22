@@ -12552,6 +12552,10 @@
       "key": "pu"
     }
   ],
+  "completionSurvey": {
+    "enabled": true,
+    "startDate": 1766428200000
+  },
   "compentency": {
     "competencies_v5": {
       "vKey": "competencies_v5",

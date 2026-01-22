@@ -265,7 +265,9 @@
     "overDue": "ઓવર લેન્ડિંગ",
     "deadline": "સમયમર્યાદા",
     "takeSurveyToUnlock": "સર્વેને અનલૉક કરવા માટે લો",
-    "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન"
+    "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન",
+    "retired": "નિવૃત્ત",
+    "newVersion": "નવું સંસ્કરણ"
   },
   "allChannelsComponent": {
     "noChannelsFound": "કોઈ ચેનલો મળી નથી!",
@@ -418,7 +420,7 @@
     "content": "સામગ્રી",
     "sessions": "સત્રો",
     "discussion": "ચર્ચા",
-    "summary": "સારાંશ",
+    "summary": "વર્ણન",
     "description": "વર્ણન",
     "viewMore": "વધુ જુઓ",
     "viewLess": "ઓછું જુઓ",
@@ -867,7 +869,7 @@
     "itsTimeForAssesment": "હવે, તે ઝડપી મૂલ્યાંકન માટેનો સમય છે.",
     "startAssesmentNow": "હવે મૂલ્યાંકન શરૂ કરો",
     "youExceededAttempt": "તમે મહત્તમ માન્ય પ્રયાસને વટાવી દીધો છે",
-    "summary": "સારાંશ",
+    "summary": "વર્ણન",
     "pointsToNote": "નોંધ લેવાના મુદ્દાઓ",
     "noNegativeMarking": "કોઈ નકારાત્મક માર્કિંગ નથી",
     "assessmentWillHaveTimeDuration": "મૂલ્યાંકનનો સમયગાળો હશે",
@@ -1160,7 +1162,8 @@
     "privacy": "ગોપનીયતા",
     "getStartedTour": "'શરૂ કરો' પ્રવાસ",
     "profile": "પ્રોફાઇલ",
-    "visibilityControl": "દૃશ્યતા નિયંત્રણ"
+    "visibilityControl": "દૃશ્યતા નિયંત્રણ",
+    "resetPassword": "પાસવર્ડ ફરીથી સેટ કરો"
   },
   "visibilitySettings": {
     "public": "જાહેર",
@@ -1676,6 +1679,7 @@
     "obc": "ઓબીસીએ",
     "sc": "એસસી",
     "st": "એસટી",
+    "pwd": "પીડબ્લ્યુડી",
     "group": "જૂથ",
     "otherLanguages": "જાણીતી અન્ય ભાષાઓ",
     "otherLanguageMandatory": "જાણીતી અન્ય ભાષાઓ ફરજિયાત છે",
@@ -2426,6 +2430,7 @@
     "obc": "ઓબીસીએ",
     "sc": "એસસી",
     "st": "એસટી",
+    "pwd": "પીડબ્લ્યુડી",
     "viewMentorProfile": "માર્ગદર્શક રૂપરેખા જુઓ",
     "note": "નોંધ",
     "ok": "ઠીક છે.",
