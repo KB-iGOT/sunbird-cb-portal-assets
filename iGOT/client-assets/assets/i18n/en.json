@@ -1605,7 +1605,8 @@
         "needToComplete30Percent": "You need to complete 30% of the course to access Samuhik Charcha. Keep learning to unlock Samuhik Charcha events.",
         "forYou": "For you",
         "youWillFindIgotSpecializationProgramsHere.": "You will find iGOT Specialization programs here.",
-        "noevents": "Events will be available soon."
+        "noevents": "Events will be available soon.",
+        "learningPathway": "Learning Pathway"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
@@ -2091,7 +2092,8 @@
         "resources": "Resources ({{count}})",
         "externalContent": "External Content ({{count}})",
         "comprehensiveAssessmentProgram": "Comprehensive Assessment Program",
-        "multilingualCourse": "Multilingual Course"
+        "multilingualCourse": "Multilingual Course",
+        "learningPathway":"Learning Pathway"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
