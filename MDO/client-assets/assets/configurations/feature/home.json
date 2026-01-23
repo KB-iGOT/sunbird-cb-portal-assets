@@ -217,7 +217,7 @@
                 "mdo_admin",
                 "mdo_leader"
               ]
-            }  
+            }
           ]
         },
         {
@@ -331,6 +331,25 @@
           },
           "enabled": true,
           "routerLink": "/app/home/reports-section",
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ],
+          "defaultExpanded": false
+        },
+        {
+          "menuCategory": "AI CBP Requests",
+          "submenu": false,
+          "key": "ai-cbp-requests",
+          "fragment": false,
+          "render": true,
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "routerLink": "/app/home/ai-cbp-requests",
           "requiredRoles": [
             "admin",
             "mdo_admin",
@@ -452,6 +471,23 @@
           },
           "enabled": true,
           "routerLink": "/app/home/reports-section",
+          "requiredRoles": [
+            "admin",
+            "mdo_admin",
+            "mdo_leader"
+          ]
+        },
+        {
+          "name": "AI CBP Requests",
+          "key": "ai-cbp-requests",
+          "fragment": false,
+          "render": true,
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "routerLink": "/app/home/ai-cbp-requests",
           "requiredRoles": [
             "admin",
             "mdo_admin",
