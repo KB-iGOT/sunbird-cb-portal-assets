@@ -75,6 +75,10 @@
           "operation": "modify-overwrite-beta"
         }
       ],
+    "transformContentViaApiAuthentication": {
+      "clientAuthUrl": "",
+      "clientCredentials": ""
+    },
 
     "configureCertificateGuide": {
       "helpCenterGuide": {
