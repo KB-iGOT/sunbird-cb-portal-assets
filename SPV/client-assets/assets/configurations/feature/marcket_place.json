@@ -9,7 +9,7 @@
                 "Course Link": "content.redirectUrl",
                 "Course Thumbnail": "content.appIcon",
                 "Course Id": "content.externalId",
-                "Course Objective": "content.objectives",
+                "Learning Outcome": "content.objectives",
                 "Course Topic": "content.topic",
                 "Course Summary": "content.summary",
                 "Course Difficulty Level": "content.difficultyLevel",
@@ -22,7 +22,7 @@
               "Course Link", 
               "Course Thumbnail", 
               "Course Id", 
-              "Course Objective", 
+              "Learning Outcome", 
               "Course Topic"
             ]
         }
@@ -75,6 +75,10 @@
           "operation": "modify-overwrite-beta"
         }
       ],
+    "transformContentViaApiAuthentication": {
+      "clientAuthUrl": "",
+      "clientCredentials": ""
+    },
 
     "configureCertificateGuide": {
       "helpCenterGuide": {
