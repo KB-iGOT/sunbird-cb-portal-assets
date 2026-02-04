@@ -156,6 +156,23 @@
                 "mdo_admin",
                 "mdo_leader"
               ]
+            },
+            {
+              "name": "Achivement Approvals",
+              "key": "achievement-approvals",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/achievement-approvals",
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
             }
           ]
         },
@@ -217,7 +234,7 @@
                 "mdo_admin",
                 "mdo_leader"
               ]
-            }  
+            }
           ]
         },
         {

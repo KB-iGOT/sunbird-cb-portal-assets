@@ -2050,7 +2050,7 @@
     "externalContent": "बाहरी सामग्री ({{count}})",
     "comprehensiveAssessmentProgram": "व्यापक मूल्यांकन कार्यक्रम",
     "multilingualCourse": "बहुभाषी पाठ्यक्रम",
-    "learningPathway":"लर्निंग पैथवे"
+    "learningPathway": "लर्निंग पैथवे"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
@@ -2794,7 +2794,17 @@
     "missingMsg": "प्लीज कंप्लीट थे मिसिंग डिटेल्स बाई क्लिकिंग",
     "confirmMsg": "आईएफ बेलो डिटेल्स अरे करेक्ट, क्लिक",
     "otherwise": "ओथरवाइज",
-    "click": "क्लिक"
+    "click": "क्लिक",
+    "learningHours": "लर्निंग घंटे",
+    "trainingType": "प्रशिक्षण प्रकार",
+    "trainingTypeIsRequired": "प्रशिक्षण प्रकार आवश्यक है",
+    "issuedOrganisationIsRequired": "जारी करने वाला संगठन आवश्यक है",
+    "deliveryMode": "डिलीवरी मोड",
+    "pleaseEnterValidLearningHours": "कृपया एक मान्य संख्या दर्ज करें",
+    "learningHoursMustBeGreaterThanZero": "लर्निंग घंटे 0 से अधिक होने चाहिए",
+    "learningHoursShouldBeLessThan10000": "लर्निंग घंटे 10000 से कम होने चाहिए",
+    "noDataFound": "कोई डेटा नहीं मिला",
+    "startDateShouldNotEndDate": "प्रारंभ तिथि समाप्ति तिथि के बाद नहीं हो सकती"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "नेटवर्क खोजें",
