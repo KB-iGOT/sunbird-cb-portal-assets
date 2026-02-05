@@ -280,7 +280,9 @@
         "takeSurveyToUnlock": "Take survey to unlock",
         "iGOTSpecializationProgram": "iGOT Specialization",
         "retired": "Retired",
-        "newVersion": "New Version"
+        "newVersion": "New Version",
+        "externalCourseRetiredMessage": "This course is no longer being offered in its current form. We are updating our catalog to bring you improved learning options. Please choose another course with similar topics or browse recommended courses.",
+        "externalCourseProviderRetiredMessage": "Courses from this learning partner are temporarily not available on iGOT Karmayogi. Our team is updating partner content. In the meantime, you can continue your journey with courses from other partners."
     },
     "allChannelsComponent": {
         "noChannelsFound": "No channels found!",
