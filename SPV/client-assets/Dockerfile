@@ -7,9 +7,8 @@ RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /
     apt-get install -y --no-install-recommends zip libjpeg-turbo-progs nasm && \
     rm -rf /var/lib/apt/lists/*
 
-RUN useradd -ms /bin/bash node && \
-    mkdir -p /usr/src/app && \
-    chown -R node:node /usr/src/app
+RUN mkdir -p /usr/src/app \
+ && chown -R node:node /usr/src/app
 
 WORKDIR /usr/src/app
 
