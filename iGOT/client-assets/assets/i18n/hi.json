@@ -2804,7 +2804,8 @@
     "learningHoursMustBeGreaterThanZero": "लर्निंग घंटे 0 से अधिक होने चाहिए",
     "learningHoursShouldBeLessThan10000": "लर्निंग घंटे 10000 से कम होने चाहिए",
     "noDataFound": "कोई डेटा नहीं मिला",
-    "startDateShouldNotEndDate": "प्रारंभ तिथि समाप्ति तिथि के बाद नहीं हो सकती"
+    "startDateShouldNotEndDate": "प्रारंभ तिथि समाप्ति तिथि के बाद नहीं हो सकती",
+    "viewLearningPassbook": "लर्निंग पासबुक देखें"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "नेटवर्क खोजें",

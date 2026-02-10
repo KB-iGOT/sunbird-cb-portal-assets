@@ -2749,7 +2749,8 @@
         "learningHoursMustBeGreaterThanZero": "Learning hours must be greater than 0",
         "learningHoursShouldBeLessThan10000": "Learning hours should be less than 1000",
         "noDataFound": "No data found",
-        "startDateShouldNotEndDate": "Start date cannot be after end date"
+        "startDateShouldNotEndDate": "Start date cannot be after end date",
+        "viewLearningPassbook": "View Learning Passbook"
     },
     "NetworkLandingPage": {
         "exploreNetwork": "Explore Network",

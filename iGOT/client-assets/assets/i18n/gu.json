@@ -2649,7 +2649,8 @@
     "learningHoursMustBeGreaterThanZero": "શીખવાની કલાકો 0 કરતા વધુ હોવી જોઈએ",
     "learningHoursShouldBeLessThan10000": "શીખવાની કલાકો 10000 કરતા ઓછા હોવા જોઈએ",
     "noDataFound": "કોઈ ડેટા મળ્યો નથી",
-    "startDateShouldNotEndDate": "શરૂઆતની તારીખ અંતિમ તારીખ પછી ન હોઈ શકે"
+    "startDateShouldNotEndDate": "શરૂઆતની તારીખ અંતિમ તારીખ પછી ન હોઈ શકે",
+    "viewLearningPassbook": "લર્નિંગ પાસબુક જુઓ"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "નેટવર્ક શોધો",
