@@ -13,12 +13,14 @@ RUN useradd -ms /bin/bash appuser && \
 
 WORKDIR /usr/src/app
 
+COPY --chown=appuser:appuser package.json package-lock.json ./
+
 USER appuser
 
 RUN npm ci
 
 COPY --chown=appuser:appuser . .
-    
-RUN npm install && npm run build
+
+RUN npm run build
 
 RUN zip -r dist.zip dist
