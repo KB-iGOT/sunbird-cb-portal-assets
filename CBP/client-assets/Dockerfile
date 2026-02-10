@@ -13,9 +13,11 @@ RUN useradd -ms /bin/bash appuser && \
 
 WORKDIR /usr/src/app
 
-COPY --chown=appuser:appuser . .
-
 USER appuser
+
+RUN npm ci
+
+COPY --chown=appuser:appuser . .
     
 RUN npm install && npm run build
 
