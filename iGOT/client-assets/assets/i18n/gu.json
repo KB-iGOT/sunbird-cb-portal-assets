@@ -2650,7 +2650,9 @@
     "learningHoursShouldBeLessThan10000": "શીખવાની કલાકો 10000 કરતા ઓછા હોવા જોઈએ",
     "noDataFound": "કોઈ ડેટા મળ્યો નથી",
     "startDateShouldNotEndDate": "શરૂઆતની તારીખ અંતિમ તારીખ પછી ન હોઈ શકે",
-    "viewLearningPassbook": "લર્નિંગ પાસબુક જુઓ"
+    "viewLearningPassbook": "લર્નિંગ પાસબુક જુઓ",
+    "learningProgress": "શીખવાની પ્રગતિ",
+    "learningProgressDescription": "તમારી શીખવાની યાત્રા, માન્ય કૌશલ્યો અને વ્યાવસાયિક વૃદ્ધિને એક વ્યાપક દૃશ્યમાં ટ્રૅક કરો."
   },
   "NetworkLandingPage": {
     "exploreNetwork": "નેટવર્ક શોધો",
