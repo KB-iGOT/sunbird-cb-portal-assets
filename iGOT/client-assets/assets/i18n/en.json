@@ -2750,7 +2750,9 @@
         "learningHoursShouldBeLessThan10000": "Learning hours should be less than 1000",
         "noDataFound": "No data found",
         "startDateShouldNotEndDate": "Start date cannot be after end date",
-        "viewLearningPassbook": "View Learning Passbook"
+        "viewLearningPassbook": "View Learning Passbook",
+        "learningProgress": "Learning Progress",
+        "learningProgressDescription": "Track your learning journey, validated skills, and professional growth in one comprehensive view."
     },
     "NetworkLandingPage": {
         "exploreNetwork": "Explore Network",
