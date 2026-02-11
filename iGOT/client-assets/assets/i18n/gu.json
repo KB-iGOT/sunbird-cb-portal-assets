@@ -1553,7 +1553,8 @@
     "thereAreNoEvents": "ત્યાં કોઈ ઇવેન્ટ્સ નથી",
     "youWillSeeAllTheContentsThatIsAparMarked": "તમે તમામ એ સામગ્રી જુઓ છો જે APAR તરીકે ચિહ્નિત છે.",
     "forYou": "તમારા માટે",
-    "youWillFindIgotSpecializationProgramsHere.": "તમને અહીં iGOT સ્પેશિયલાઇઝેશન પ્રોગ્રામ્સ મળશે."
+    "youWillFindIgotSpecializationProgramsHere.": "તમને અહીં iGOT સ્પેશિયલાઇઝેશન પ્રોગ્રામ્સ મળશે.",
+    "noMatchingCourses": "કોઈ સુસંગત અભ્યાસક્રમ નથી"
   },
   "homeotherportals": {
     "otherPortals": "તમારી પાસે ઍક્સેસ હોય તેવા અન્ય પોર્ટલ",
@@ -1958,7 +1959,9 @@
     "communities": "સમુદાયો ({{count}})",
     "seeAllResults": "બધા પરિણામો જુઓ",
     "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન",
-    "noEventScheduleYet": "હજી સુધી કોઈ ઇવેન્ટ્સ શેડ્યૂલ નથી"
+    "noEventScheduleYet": "હજી સુધી કોઈ ઇવેન્ટ્સ શેડ્યૂલ નથી",
+    "seeMore": "વધુ જુઓ",
+    "seeLess": "ઓછું જુઓ"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",

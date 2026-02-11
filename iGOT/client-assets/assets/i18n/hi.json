@@ -1582,7 +1582,8 @@
     "lockedEventsDesc": "इस कोर्स से संबंधित घटनाएँ यहाँ तब दिखाई देंगी जब आप आवश्यक सीख पूरी कर लेंगे। भाग लेने और समुदाय के साथ जुड़ने के लिए अपना कोर्स जारी रखें।",
     "forYou": "आपके लिए।",
     "youWillFindIgotSpecializationProgramsHere.": "आपको यहां iGOT विशेषज्ञता कार्यक्रम मिलेंगे।",
-    "noevents": "कोई इवेंट उपलब्ध नहीं है।"
+    "noevents": "कोई इवेंट उपलब्ध नहीं है।",
+    "noMatchingCourses": "कोई मेल खाने वाले कोर्स नहीं"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
@@ -1994,7 +1995,9 @@
     "communities": "समुदाय ({{count}})",
     "seeAllResults": "सभी परिणाम देखें",
     "iGOTSpecializationProgram": "iGOT विशेषज्ञता",
-    "noEventScheduleYet": "अभी तक कोई कार्यक्रम निर्धारित नहीं है"
+    "noEventScheduleYet": "अभी तक कोई कार्यक्रम निर्धारित नहीं है",
+    "seeMore": "और देखें",
+    "seeLess": "कम देखें"
   },
   "searchfilters": {
     "caseStudy": "केस स्टडीज",

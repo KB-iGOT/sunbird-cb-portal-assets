@@ -1614,7 +1614,8 @@
         "forYou": "For you",
         "youWillFindIgotSpecializationProgramsHere.": "You will find iGOT Specialization programs here.",
         "noevents": "Events will be available soon.",
-        "learningPathway": "Learning Pathway"
+        "learningPathway": "Learning Pathway",
+        "noMatchingCourses": "No matching courses"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
@@ -2042,7 +2043,9 @@
         "communities": "Communities ({{count}})",
         "seeAllResults": "See all the results",
         "iGOTSpecializationProgram": "iGOT Specialization",
-        "noEventScheduleYet": "No events scheduled yet"
+        "noEventScheduleYet": "No events scheduled yet",
+        "seeMore": "See More",
+        "seeLess": "See Less"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
