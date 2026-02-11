@@ -1470,6 +1470,7 @@
         "connect": "Connect",
         "connecting": "Connecting...",
         "noDataFound": "No data found!",
+        "lpNoDataFound": "Learning pathways will appear here once available.",
         "newRecommendation": "As of now there are no recommendations found for you.",
         "gotToDiscussHubs": "Go to discuss hub",
         "btnDiscuss": "Discuss",
