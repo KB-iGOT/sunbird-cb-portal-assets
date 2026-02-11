@@ -158,7 +158,7 @@
               ]
             },
             {
-              "name": "Achivement Approvals",
+              "name": "Achievement Approvals",
               "key": "achievement-approvals",
               "fragment": false,
               "render": true,
