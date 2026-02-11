@@ -1995,7 +1995,9 @@
     "communities": "समुदाय ({{count}})",
     "seeAllResults": "सभी परिणाम देखें",
     "iGOTSpecializationProgram": "iGOT विशेषज्ञता",
-    "noEventScheduleYet": "अभी तक कोई कार्यक्रम निर्धारित नहीं है"
+    "noEventScheduleYet": "अभी तक कोई कार्यक्रम निर्धारित नहीं है",
+    "seeMore": "और देखें",
+    "seeLess": "कम देखें"
   },
   "searchfilters": {
     "caseStudy": "केस स्टडीज",

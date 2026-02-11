@@ -1959,7 +1959,9 @@
     "communities": "સમુદાયો ({{count}})",
     "seeAllResults": "બધા પરિણામો જુઓ",
     "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન",
-    "noEventScheduleYet": "હજી સુધી કોઈ ઇવેન્ટ્સ શેડ્યૂલ નથી"
+    "noEventScheduleYet": "હજી સુધી કોઈ ઇવેન્ટ્સ શેડ્યૂલ નથી",
+    "seeMore": "વધુ જુઓ",
+    "seeLess": "ઓછું જુઓ"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",

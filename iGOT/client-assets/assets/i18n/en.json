@@ -2043,7 +2043,9 @@
         "communities": "Communities ({{count}})",
         "seeAllResults": "See all the results",
         "iGOTSpecializationProgram": "iGOT Specialization",
-        "noEventScheduleYet": "No events scheduled yet"
+        "noEventScheduleYet": "No events scheduled yet",
+        "seeMore": "See More",
+        "seeLess": "See Less"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
