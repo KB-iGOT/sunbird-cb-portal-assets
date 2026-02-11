@@ -6,9 +6,8 @@ RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /
     apt update && \
     apt install -y zip libjpeg-turbo-progs nasm
 
-RUN useradd -ms /bin/bash node && \
-    mkdir -p /usr/src/app && \
-    chown -R node:node /usr/src/app
+RUN mkdir -p /usr/src/app \
+ && chown -R node:node /usr/src/app
 
 WORKDIR /usr/src/app
 
