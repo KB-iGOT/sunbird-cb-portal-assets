@@ -95,5 +95,10 @@
    "bulkUploadCourse" : {
     "instructions" : ["Please ensure the course catalog file is named correctly and data is accurate.", "Download the log report from 'Download Log' for details on the uploaded file."],
     "sampleFileDownloadLink": "/assets/samplefiles/sampleDataCourseOnboarding.csv"
-   }
+   },
+   "SSO_attributs": [
+    "uuid",
+    "uuid@karmayogi.com",
+    "userFullName"
+   ]
 }
