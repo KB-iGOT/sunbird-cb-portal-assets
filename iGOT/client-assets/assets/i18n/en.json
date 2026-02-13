@@ -280,7 +280,10 @@
         "takeSurveyToUnlock": "Take survey to unlock",
         "iGOTSpecializationProgram": "iGOT Specialization",
         "retired": "Retired",
-        "newVersion": "New Version"
+        "newVersion": "New Version",
+        "externalCourseRetiredMessage": "This course is no longer being offered in its current form. We are updating our catalog to bring you improved learning options. Please choose another course with similar topics or browse recommended courses.",
+        "externalCourseProviderRetiredMessage": "Courses from this learning partner are temporarily not available on iGOT Karmayogi. Our team is updating partner content. In the meantime, you can continue your journey with courses from other partners.",
+        "inactive": "Inactive"
     },
     "allChannelsComponent": {
         "noChannelsFound": "No channels found!",
@@ -1612,7 +1615,8 @@
         "forYou": "For you",
         "youWillFindIgotSpecializationProgramsHere.": "You will find iGOT Specialization programs here.",
         "noevents": "Events will be available soon.",
-        "learningPathway": "Learning Pathway"
+        "learningPathway": "Learning Pathway",
+        "noMatchingCourses": "No matching courses"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
@@ -2029,7 +2033,9 @@
         "communities": "Communities ({{count}})",
         "seeAllResults": "See all the results",
         "iGOTSpecializationProgram": "iGOT Specialization",
-        "noEventScheduleYet": "No events scheduled yet"
+        "noEventScheduleYet": "No events scheduled yet",
+        "seeMore": "See More",
+        "seeLess": "See Less"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
