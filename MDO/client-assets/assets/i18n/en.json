@@ -418,7 +418,7 @@
     "sessions": "Sessions",
     "discussion": "Discussion",
     "discussions": "Discussions",
-    "summary": "Summary",
+    "summary": "Description",
     "description": "Description",
     "viewMore": "view more",
     "viewLess": "view less",
@@ -427,6 +427,8 @@
     "authors": "Authors",
     "curator": "Curator",
     "curators": "Curators",
+    "creator": "Creator",
+    "creators": "Creators",
     "programDirectorFacilitators": "Program director & facilitators",
     "facilitator": "Facilitator",
     "competencies": "Competencies",
@@ -516,6 +518,8 @@
     "completedCourse": "You completed this course on",
     "completedProgram": "You completed this program on",
     "completedAssessment": "You completed this assessment on",
+    "completedOn": "You completed this",
+    "on": "on",
     "provider": "Provider",
     "objectives": "Objectives",
     "comments": "Comments",
@@ -523,7 +527,10 @@
     "teachersNoteHeading": "Essential insights and guidance to enrich and standardize your teaching experience.",
     "downaloadAllPdfs": "Download All",
     "downloadPdf": "Download",
-    "viewPDF": "View"
+    "viewPDF": "View",
+    "assignments": "Assignments",
+    "samuhikCharcha": "Samuhik Charcha",
+    "learningOutcome": "Learning Outcome"
   },
   "ratingsummary": {
     "ratings": "ratings",
@@ -1917,7 +1924,7 @@
     "goToDashboard": "Go to Dashboard",
     "planType": "Plan type",
     "importedOn": "Imported On",
-    "timeline" : "Timeline"
+    "timeline": "Timeline"
   },
   "searchfilters": {
     "caseStudy": "Case Study",
@@ -2678,7 +2685,6 @@
     "areYouSureYouWantToUnblockThisUser": "Are you sure you want to unblock this user?",
     "areYouSureYouWantToBlockThisConnection": "Are you sure you want to block this connection?"
   },
-
   "updteDesignation": {
     "select": "Select"
   },
