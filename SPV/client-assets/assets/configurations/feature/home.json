@@ -334,6 +334,21 @@
           "enabled": false,
           "routerLink": "/app/home/moderation",
           "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+        },
+        {
+          "name": "Peer Validation",
+          "icon": "person_check",
+          "isCustomIcon": true,
+          "key": "peer-validation",
+          "fragment": false,
+          "render": true,
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "routerLink": "/app/home/spv/peer-validation",
+          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
         }
       ]
     }
