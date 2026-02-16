@@ -510,8 +510,6 @@
     "mostTrending": "સૌથી વધુ ટ્રેન્ડ",
     "selfLearning": "સ્વ-શિક્ષણ",
     "completedCourse": "તમે આ અભ્યાસક્રમ પૂર્ણ કર્યો છે",
-    "completedProgram": "તમે આ કાર્યક્રમ પૂર્ણ કર્યો",
-    "completedAssessment": "તમે આ મૂલ્યાંકન પૂર્ણ કર્યું",
     "provider": "પ્રદાતા",
     "objectives": "ઉદ્દેશો",
     "comments": "ટિપ્પણીઓ",
@@ -1859,7 +1857,7 @@
     "goToDashboard": "ડેશબોર્ડ પર જાઓ",
     "planType": "યોજનાનો પ્રકાર",
     "importedOn": "આયાત થયેલ તારીખ",
-    "timeline" : "ટાઇમલાઇન"
+    "timeline": "ટાઇમલાઇન"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",
@@ -2602,7 +2600,6 @@
     "areYouSureYouWantToUnblockThisUser": "શું તમે ખરેખર આ યુઝરને અનલૉક કરવા માંગો છો?",
     "areYouSureYouWantToBlockThisConnection": "શું તમે ખરેખર આ કનેક્શનને બ્લોક કરવા માંગો છો?"
   },
-
   "updteDesignation": {
     "select": "પસંદ કરો"
   },
