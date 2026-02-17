@@ -355,7 +355,9 @@
     "domain": "ડોમેન",
     "viewMore": "વધુ જુઓ",
     "viewLess": "ઓછું જુઓ",
-    "issued": "પર જારી કરાયેલ"
+    "issued": "પર જારી કરાયેલ",
+    "source": "સ્રોત",
+    "igot": "iGOT"
   },
   "competencyCardDetails": {
     "passbookList": "પાસબુક યાદી",

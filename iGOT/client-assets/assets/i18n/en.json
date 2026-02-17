@@ -368,7 +368,9 @@
         "domain": "Domain",
         "viewMore": "View more",
         "viewLess": "View less",
-        "issued": "Issued on"
+        "issued": "Issued on",
+        "source": "Source",
+        "igot": "igot"
     },
     "competencyCardDetails": {
         "passbookList": "Passbook list",
@@ -538,7 +540,7 @@
         "completedProgram": "You completed this program on",
         "completedAssessment": "You completed this assessment on",
         "completedOn": "You completed this",
-        "on":"on",
+        "on": "on",
         "provider": "Provider",
         "objectives": "Objectives",
         "comments": "Comments",
