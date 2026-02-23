@@ -279,7 +279,10 @@
     "takeSurveyToUnlock": "सर्वेक्षण लेने के लिए अनलॉक करें",
     "iGOTSpecializationProgram": "iGOT विशेषज्ञता",
     "retired": "सेवानिवृत्त",
-    "newVersion": "नया संस्करण"
+    "newVersion": "नया संस्करण",
+    "externalCourseRetiredMessage": "यह पाठ्यक्रम अब अपने वर्तमान स्वरूप में उपलब्ध नहीं है। हम बेहतर शिक्षण विकल्प प्रदान करने के लिए अपनी पाठ्यक्रम सूची को अपडेट कर रहे हैं। कृपया समान विषयों वाले किसी अन्य पाठ्यक्रम का चयन करें या सुझाए गए पाठ्यक्रम देखें।",
+    "externalCourseProviderRetiredMessage": "इस शिक्षण साझेदार के पाठ्यक्रम फिलहाल iGOT कर्मयोगी पर उपलब्ध नहीं हैं। हमारी टीम साझेदार की सामग्री को अपडेट कर रही है। इस दौरान, आप अन्य साझेदारों के पाठ्यक्रमों के साथ अपनी सीखने की यात्रा जारी रख सकते हैं।",
+    "inactive": "निष्क्रिय"
   },
   "allChannelsComponent": {
     "noChannelsFound": "कोई चैनल नहीं मिला!",
@@ -364,7 +367,9 @@
     "domain": "डोमेन",
     "viewMore": "अधिक देखें",
     "viewLess": "कम देखें",
-    "issued": "को जारी हुआ"
+    "issued": "को जारी हुआ",
+    "source": "स्रोत",
+    "igot": "IGOT"
   },
   "competencyCardDetails": {
     "passbookList": "पासबुक सूची",
@@ -1580,7 +1585,8 @@
     "lockedEventsDesc": "इस कोर्स से संबंधित घटनाएँ यहाँ तब दिखाई देंगी जब आप आवश्यक सीख पूरी कर लेंगे। भाग लेने और समुदाय के साथ जुड़ने के लिए अपना कोर्स जारी रखें।",
     "forYou": "आपके लिए।",
     "youWillFindIgotSpecializationProgramsHere.": "आपको यहां iGOT विशेषज्ञता कार्यक्रम मिलेंगे।",
-    "noevents": "कोई इवेंट उपलब्ध नहीं है।"
+    "noevents": "कोई इवेंट उपलब्ध नहीं है।",
+    "noMatchingCourses": "कोई मेल खाने वाले कोर्स नहीं"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
@@ -1992,7 +1998,9 @@
     "communities": "समुदाय ({{count}})",
     "seeAllResults": "सभी परिणाम देखें",
     "iGOTSpecializationProgram": "iGOT विशेषज्ञता",
-    "noEventScheduleYet": "अभी तक कोई कार्यक्रम निर्धारित नहीं है"
+    "noEventScheduleYet": "अभी तक कोई कार्यक्रम निर्धारित नहीं है",
+    "seeMore": "और देखें",
+    "seeLess": "कम देखें"
   },
   "searchfilters": {
     "caseStudy": "केस स्टडीज",

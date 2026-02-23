@@ -267,7 +267,10 @@
     "takeSurveyToUnlock": "સર્વેને અનલૉક કરવા માટે લો",
     "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન",
     "retired": "નિવૃત્ત",
-    "newVersion": "નવું સંસ્કરણ"
+    "newVersion": "નવું સંસ્કરણ",
+    "externalCourseRetiredMessage": "આ કોર્સ હવે તેના વર્તમાન સ્વરૂપમાં ઉપલબ્ધ નથી. અમે તમને વધુ ઉત્તમ શીખવાની વિકલ્પો આપવા માટે અમારી કોર્સ સૂચિને અપડેટ કરી રહ્યા છીએ. કૃપા કરીને સમાન વિષયો ધરાવતા અન્ય કોર્સ પસંદ કરો અથવા ભલામણ કરેલા કોર્સ જુઓ.",
+    "externalCourseProviderRetiredMessage": "આ લર્નિંગ પાર્ટનરનાં કોર્સ હાલ iGOT કર્મયોગી પર ઉપલબ્ધ નથી. અમારી ટીમ પાર્ટનરની સામગ્રીને અપડેટ કરી રહી છે. તે દરમ્યાન, તમે અન્ય પાર્ટનરના કોર્સ સાથે તમારી શીખવાની મુસાફરી ચાલુ રાખી શકો છો.",
+    "inactive": "નિષ્ક્રિય"
   },
   "allChannelsComponent": {
     "noChannelsFound": "કોઈ ચેનલો મળી નથી!",
@@ -352,7 +355,9 @@
     "domain": "ડોમેન",
     "viewMore": "વધુ જુઓ",
     "viewLess": "ઓછું જુઓ",
-    "issued": "પર જારી કરાયેલ"
+    "issued": "પર જારી કરાયેલ",
+    "source": "સ્રોત",
+    "igot": "iGOT"
   },
   "competencyCardDetails": {
     "passbookList": "પાસબુક યાદી",
@@ -1551,7 +1556,8 @@
     "thereAreNoEvents": "ત્યાં કોઈ ઇવેન્ટ્સ નથી",
     "youWillSeeAllTheContentsThatIsAparMarked": "તમે તમામ એ સામગ્રી જુઓ છો જે APAR તરીકે ચિહ્નિત છે.",
     "forYou": "તમારા માટે",
-    "youWillFindIgotSpecializationProgramsHere.": "તમને અહીં iGOT સ્પેશિયલાઇઝેશન પ્રોગ્રામ્સ મળશે."
+    "youWillFindIgotSpecializationProgramsHere.": "તમને અહીં iGOT સ્પેશિયલાઇઝેશન પ્રોગ્રામ્સ મળશે.",
+    "noMatchingCourses": "કોઈ સુસંગત અભ્યાસક્રમ નથી"
   },
   "homeotherportals": {
     "otherPortals": "તમારી પાસે ઍક્સેસ હોય તેવા અન્ય પોર્ટલ",
@@ -1956,7 +1962,9 @@
     "communities": "સમુદાયો ({{count}})",
     "seeAllResults": "બધા પરિણામો જુઓ",
     "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન",
-    "noEventScheduleYet": "હજી સુધી કોઈ ઇવેન્ટ્સ શેડ્યૂલ નથી"
+    "noEventScheduleYet": "હજી સુધી કોઈ ઇવેન્ટ્સ શેડ્યૂલ નથી",
+    "seeMore": "વધુ જુઓ",
+    "seeLess": "ઓછું જુઓ"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",
