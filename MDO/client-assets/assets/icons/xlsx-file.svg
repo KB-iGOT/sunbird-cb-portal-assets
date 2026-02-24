@@ -1,0 +1,15 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.667 6.6665V73.3332H56.3337L73.3337 56.6665V6.6665H16.667Z" fill="#EFEEEE"/>
+<path d="M53.333 20V23.3333H43.333V20H53.333Z" fill="#B8B8B8"/>
+<path d="M66.667 20V23.3333H56.667V20H66.667Z" fill="#B8B8B8"/>
+<path d="M53.333 26.6665V29.9998H43.333V26.6665H53.333Z" fill="#B8B8B8"/>
+<path d="M66.667 26.6665V29.9998H56.667V26.6665H66.667Z" fill="#B8B8B8"/>
+<path d="M53.333 33.3335V36.6668H43.333V33.3335H53.333Z" fill="#B8B8B8"/>
+<path d="M53.333 40V43.3333H43.333V40H53.333Z" fill="#B8B8B8"/>
+<path d="M66.667 33.3335V36.6668H56.667V33.3335H66.667Z" fill="#B8B8B8"/>
+<path d="M66.667 40V43.3333H56.667V40H66.667Z" fill="#B8B8B8"/>
+<path d="M56.667 56.6665V73.3332L73.3337 56.6665H56.667Z" fill="#ABABAB"/>
+<path d="M40 73.3332H56.6667V56.6665L40 73.3332Z" fill="#DEDEDD"/>
+<rect x="1.667" y="23.333" width="38.333" height="25" rx="4" fill="#61B565"/>
+<text x="20" y="39" fill="white" font-size="14" font-family="Arial" font-weight="bold" text-anchor="middle" dominant-baseline="middle">XLSX</text>
+</svg>
