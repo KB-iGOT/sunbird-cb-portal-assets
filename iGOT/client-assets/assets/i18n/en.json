@@ -975,7 +975,22 @@
         "viewAll": "View All",
         "collapse": "Collapse",
         "all": "All",
-        "unattempted": "Unattempted"
+        "unattempted": "Unattempted",
+        "minimumScoreToPass": "Minimum score to pass:",
+        "sectionName": "Section Name",
+        "result": "Result",
+        "requiredScore": "Required Score",
+        "viewDetails": "View Details",
+        "viewQuestions": "View Questions",
+        "question": "Question",
+        "overallResult": "Overall Result",
+        "congratulations": "Congratulations! You have passed",
+        "notPassed": "Not passed. You may reattempt the exam",
+        "requiredToPass": "Required to pass:",
+        "allQuestions": "All Questions",
+        "incorrect": "Incorrect",
+        "blank": "Blank",
+        "yourAnswer": "Your Answer:"
     },
     "network": {
         "networkHome": "Network home",
