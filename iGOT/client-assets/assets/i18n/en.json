@@ -990,7 +990,10 @@
         "allQuestions": "All Questions",
         "incorrect": "Incorrect",
         "blank": "Blank",
-        "yourAnswer": "Your Answer:"
+        "yourAnswer": "Your Answer:",
+        "whatYouNeedToPass": "What you need to pass:",
+        "moreToPassThreshold": "score {{score}}% more to reach the passing threshold",
+        "additionalMarks": "Get {{marks}} additional marks correct"
     },
     "network": {
         "networkHome": "Network home",
