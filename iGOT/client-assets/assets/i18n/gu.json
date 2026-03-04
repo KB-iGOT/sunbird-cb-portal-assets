@@ -952,7 +952,22 @@
     "viewAll": "બધા જુઓ",
     "collapse": "પતન",
     "all": "બધા",
-    "unattempted": "પ્રયાસ કર્યો નથી."
+    "unattempted": "પ્રયાસ કર્યો નથી.",
+    "minimumScoreToPass": "પાસ થવા માટે ન્યૂનતમ સ્કોર:",
+    "sectionName": "વિભાગનું નામ",
+    "result": "પરિણામ",
+    "requiredScore": "જરૂરી સ્કોર",
+    "viewDetails": "વિગતો જુઓ",
+    "viewQuestions": "પ્રશ્નો જુઓ",
+    "question": "પ્રશ્ન",
+    "overallResult": "એકંદર પરિણામ",
+    "congratulations": "અભિનંદન! તમે પાસ થયા છો",
+    "notPassed": "પાસ થયા નથી. તમે પરીક્ષાનો ફરીથી પ્રયાસ કરી શકો છો",
+    "requiredToPass": "પાસ થવા માટે આવશ્યક:",
+    "allQuestions": "બધા પ્રશ્નો",
+    "incorrect": "ખોટું",
+    "blank": "ખાલી",
+    "yourAnswer": "તમારો જવાબ:"
   },
   "network": {
     "networkHome": "નેટવર્ક ઘર",
