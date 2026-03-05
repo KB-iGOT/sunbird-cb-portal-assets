@@ -983,7 +983,10 @@
     "allQuestions": "सभी प्रश्न",
     "incorrect": "गलत",
     "blank": "रिक्त",
-    "yourAnswer": "आपका उत्तर:"
+    "yourAnswer": "आपका उत्तर:",
+    "whatYouNeedToPass": "उत्तीर्ण होने के लिए आपको क्या चाहिए:",
+    "moreToPassThreshold": "उत्तीर्ण सीमा तक पहुँचने के लिए {{score}}% अधिक अंक प्राप्त करें",
+    "additionalMarks": "{{marks}} अतिरिक्त अंक सही करें"
   },
   "network": {
     "networkHome": "नेटवर्क होम",

@@ -967,7 +967,10 @@
     "allQuestions": "બધા પ્રશ્નો",
     "incorrect": "ખોટું",
     "blank": "ખાલી",
-    "yourAnswer": "તમારો જવાબ:"
+    "yourAnswer": "તમારો જવાબ:",
+    "whatYouNeedToPass": "પાસ થવા માટે તમારે શું જોઈએ:",
+    "moreToPassThreshold": "પાસિંગ થ્રેશોલ્ડ સુધી પહોંચવા માટે {{score}}% વધુ સ્કોર કરો",
+    "additionalMarks": "{{marks}} વધારાના માર્ક્સ સાચા મેળવો"
   },
   "network": {
     "networkHome": "નેટવર્ક ઘર",
