@@ -367,7 +367,9 @@
     "domain": "डोमेन",
     "viewMore": "अधिक देखें",
     "viewLess": "कम देखें",
-    "issued": "को जारी हुआ"
+    "issued": "को जारी हुआ",
+    "source": "स्रोत",
+    "igot": "IGOT"
   },
   "competencyCardDetails": {
     "passbookList": "पासबुक सूची",
