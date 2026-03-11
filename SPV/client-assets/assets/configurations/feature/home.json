@@ -100,6 +100,21 @@
           "routerLink": "/app/home/events",
           "requiredRoles": ["SPV_ADMIN", "spv_admin"]
         },
+        {
+          "name": "Knowledge Centre",
+          "icon": "assignment",
+          "isCustomIcon": false,
+          "key": "KnowledgeCentre",
+          "fragment": false,
+          "render": true,
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "routerLink": "/app/home/knowledge-center",
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+        },
 
         {
           "name": "Reports",
