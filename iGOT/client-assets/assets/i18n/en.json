@@ -960,7 +960,8 @@
         "pleaseContactSystemAdmin": "Please contact system admin",
         "yourPerformanceSummary": "Your Performance Summary",
         "retakeAssessment": "Retake assessment",
-        "myOverallPerformanceSummary": "My Overall performance summary",
+        "myPerformanceSummary": "My Performance Summary",
+
         "mySectionwiseSummary": "My Sectionwise summary",
         "insights": "Insights",
         "reattemptTest": "Reattempt Test",
@@ -977,7 +978,25 @@
         "viewAll": "View All",
         "collapse": "Collapse",
         "all": "All",
-        "unattempted": "Unattempted"
+        "unattempted": "Unattempted",
+        "minimumScoreToPass": "Minimum score to pass:",
+        "sectionName": "Section Name",
+        "result": "Result",
+        "requiredScore": "Required Score",
+        "viewDetails": "View Details",
+        "viewQuestions": "View Questions",
+        "question": "Question",
+        "assessmentResult": "Assessment Result",
+        "congratulations": "Congratulations! You have passed",
+        "notPassed": "Not passed. You may reattempt the exam",
+        "requiredToPass": "Required to pass:",
+        "allQuestions": "All Questions",
+        "incorrect": "Incorrect",
+        "blank": "Blank",
+        "yourAnswer": "Your Answer:",
+        "whatYouNeedToPass": "What you need to pass:",
+        "moreToPassThreshold": "score {{score}}% more to reach the passing threshold",
+        "additionalMarks": "Get {{marks}} additional marks correct"
     },
     "network": {
         "networkHome": "Network home",
@@ -1462,6 +1481,7 @@
         "growSection": "Learn. Network. Take your career growth to the next level."
     },
     "home": {
+        "trendingOnIgot": "Trending on iGOT",
         "caseStudy": "Case Study",
         "caseStudies": "Case Studies",
         "contents": "Contents",
@@ -1475,6 +1495,7 @@
         "connect": "Connect",
         "connecting": "Connecting...",
         "noDataFound": "No data found!",
+        "lpNoDataFound": "Learning pathways will appear here once available.",
         "newRecommendation": "As of now there are no recommendations found for you.",
         "gotToDiscussHubs": "Go to discuss hub",
         "btnDiscuss": "Discuss",
