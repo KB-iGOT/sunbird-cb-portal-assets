@@ -2838,6 +2838,7 @@
     "startDateShouldNotEndDate": "प्रारंभ तिथि समाप्ति तिथि के बाद नहीं हो सकती",
     "viewLearningPassbook": "लर्निंग पासबुक देखें",
     "learningProgress": "लर्निंग प्रगति",
+    "learningPassbook": "लर्निंग पासबुक",
     "learningProgressDescription": "एक ही व्यापक दृष्टिकोण में अपनी सीखने की यात्रा, प्रमाणित कौशल और व्यावसायिक विकास को ट्रैक करें।"
   },
   "NetworkLandingPage": {
