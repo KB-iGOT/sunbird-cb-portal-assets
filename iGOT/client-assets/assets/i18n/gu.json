@@ -2682,6 +2682,7 @@
     "startDateShouldNotEndDate": "શરૂઆતની તારીખ અંતિમ તારીખ પછી ન હોઈ શકે",
     "viewLearningPassbook": "લર્નિંગ પાસબુક જુઓ",
     "learningProgress": "શીખવાની પ્રગતિ",
+    "learningPassbook": "લર્નિંગ પાસબુક",
     "learningProgressDescription": "તમારી શીખવાની યાત્રા, માન્ય કૌશલ્યો અને વ્યાવસાયિક વૃદ્ધિને એક વ્યાપક દૃશ્યમાં ટ્રૅક કરો."
   },
   "NetworkLandingPage": {

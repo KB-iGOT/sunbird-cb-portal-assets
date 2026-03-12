@@ -2791,6 +2791,7 @@
         "startDateShouldNotEndDate": "Start date cannot be after end date",
         "viewLearningPassbook": "View Learning Passbook",
         "learningProgress": "Learning Progress",
+        "learningPassbook": "Learning Passbook",
         "learningProgressDescription": "Track your learning journey, validated skills, and professional growth in one comprehensive view."
     },
     "NetworkLandingPage": {
