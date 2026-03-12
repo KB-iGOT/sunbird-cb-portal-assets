@@ -382,7 +382,11 @@
     "associatedCertificates": "संबद्ध प्रमाणपत्र",
     "noCertificates": "कोई प्रमाण पत्र नहीं मिला!",
     "noCertificatesWithCompetency": "इस कॉम्पिटेंसी विषय से संबंधित कोई प्रमाण पत्र नहीं मिला",
-    "issuedOn": "को जारी हुआ"
+    "issuedOn": "को जारी हुआ",
+    "igotLearning": "iGOT सीखना",
+    "marketplace": "बाजार",
+    "selfDeclared": "स्वयं घोषित",
+    "ATI/CTIReported": "ATI/CTI रिपोर्ट किया गया"
   },
   "widgetCbpFilters": {
     "filters": "फ़िल्टर",
