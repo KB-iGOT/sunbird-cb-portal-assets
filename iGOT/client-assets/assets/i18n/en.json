@@ -383,7 +383,11 @@
         "associatedCertificates": "Associated Certificates",
         "noCertificates": "No Certificates found!",
         "noCertificatesWithCompetency": "No certificates found associated with this competency theme",
-        "issuedOn": "Issued on"
+        "issuedOn": "Issued on",
+        "igotLearning": "iGOT Learning",
+        "marketplace": "Marketplace",
+        "selfDeclared": "Self Declared",
+        "ATI/CTIReported": "ATI/CTI Reported"
     },
     "widgetCbpFilters": {
         "filters": "Filters",
@@ -960,8 +964,8 @@
         "pleaseContactSystemAdmin": "Please contact system admin",
         "yourPerformanceSummary": "Your Performance Summary",
         "retakeAssessment": "Retake assessment",
+        "myOverallPerformanceSummary": "My Overall performance summary",
         "myPerformanceSummary": "My Performance Summary",
-
         "mySectionwiseSummary": "My Sectionwise summary",
         "insights": "Insights",
         "reattemptTest": "Reattempt Test",

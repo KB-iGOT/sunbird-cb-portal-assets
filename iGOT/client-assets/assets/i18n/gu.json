@@ -370,7 +370,11 @@
     "associatedCertificates": "સંલગ્ન પ્રમાણપત્રો",
     "noCertificates": "કોઈ પ્રમાણપત્રો મળ્યા નથી!",
     "noCertificatesWithCompetency": "આ યોગ્યતા વિષય સાથે સંબંધિત કોઈ પ્રમાણપત્રો મળ્યાં નથી",
-    "issuedOn": "પર જારી કરાયેલ"
+    "issuedOn": "પર જારી કરાયેલ",
+    "igotLearning": "iGOT શીખવું",
+    "marketplace": "બજાર",
+    "selfDeclared": "સ્વયં ઘોષિત",
+    "ATI/CTIReported": "ATI/CTI રિપોર્ટેડ"
   },
   "widgetCbpFilters": {
     "filters": "ફિલ્ટર્સ",
