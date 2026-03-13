@@ -308,6 +308,7 @@
                             "subject",
                             "resourceType",
                             "primaryCategory",
+                            "languageMapV1",
                             "contentType",
                             "channel",
                             "organisation",
@@ -320,7 +321,8 @@
                             "duration",
                             "version",
                             "programDuration",
-                            "avgRating"
+                            "avgRating",
+                            "difficultyLevel"
                           ]
                         }
                       }
@@ -405,6 +407,7 @@
                             "subject",
                             "resourceType",
                             "primaryCategory",
+                            "languageMapV1",
                             "contentType",
                             "channel",
                             "organisation",
@@ -565,6 +568,7 @@
                             "subject",
                             "resourceType",
                             "primaryCategory",
+                            "languageMapV1",
                             "contentType",
                             "channel",
                             "organisation",
@@ -578,42 +582,6 @@
                             "version"
                           ]
                         }
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          }
-        ],
-        [
-          {
-            "dimensions": {},
-            "className": "",
-            "widget": {
-              "widgetType": "discussStrip",
-              "widgetSubType": "DiscussStripMultiple",
-              "widgetData": {
-                "strips": [
-                  {
-                    "key": "discuss",
-                    "logo": "forum",
-                    "title": "discuss",
-                    "stripBackground": "assets/instances/eagle/background/discuss.svg",
-                    "titleDescription": "Trending discussions",
-                    "stripConfig": {
-                      "cardSubType": "cardHomeDiscuss"
-                    },
-                    "viewMoreUrl": {
-                      "path": "/app/discuss/home",
-                      "viewMoreText": "Discuss",
-                      "queryParams": {}
-                    },
-                    "filters": [],
-                    "request": {
-                      "api": {
-                        "path": "/apis/proxies/v8/discussion/recent",
-                        "queryParams": {}
                       }
                     }
                   }
@@ -807,125 +775,17 @@
         "value": 0
       },
       {
-        "icon": "/assets/icons/home/time.svg",
-        "label": "Karma Points",
-        "enable": true,
-        "key": "karmaPoints",
+        "icon": "/assets/icons/home/inProgress.svg",
+        "label": "In Progress",
+        "enable": false,
+        "key": "inProgress",
         "value": 0
       }
-    ],
-    "weeklyClaps": {
-      "enableCard": true,
-      "displayOnlyHeader": true,
-      "weekList": [
-        {
-          "label": "W1",
-          "enable": true,
-          "key": "w1",
-          "activeWeek": false
-        },
-        {
-          "label": "W2",
-          "enable": true,
-          "key": "w2",
-          "activeWeek": false
-        },
-        {
-          "label": "W3",
-          "enable": true,
-          "key": "w3",
-          "activeWeek": false
-        },
-        {
-          "label": "W4",
-          "enable": true,
-          "key": "w4",
-          "activeWeek": true
-        }
-      ]
-    }
+    ]
   },
   "assessmentData": [
     {
-      "strips": [
-        {
-          "active": true,
-          "key": "scheduledAssessment",
-          "logo": "school",
-          "disableTranslate": true,
-          "title": "Scheduled Assessments",
-          "stripTitleLink": {
-            "link": "",
-            "icon": ""
-          },
-          "sliderConfig": {
-            "showNavs": true,
-            "showDots": true,
-            "maxWidgets": 5,
-            "showNavsSpacing": true
-          },
-          "stripBackground": "",
-          "titleDescription": "Scheduled Assessments",
-          "stripConfig": {
-            "cardSubType": "card-scheduled-assessment"
-          },
-          "loader": true,
-          "loaderConfig": {
-            "cardSubType": "card-scheduled-assessment-skeleton"
-          },
-          "tabs": [],
-          "filters": [],
-          "request": {
-            "searchV6": {
-              "request": {
-                "filters": {
-                  "primaryCategory": [
-                    "Standalone Assessment"
-                  ],
-                  "courseCategory": "Invite-Only Assessment",
-                  "contentType": [
-                    "Course"
-                  ]
-                },
-                "query": "",
-                "sort_by": {
-                  "lastUpdatedOn": "desc"
-                },
-                "fields": [
-                  "name",
-                  "appIcon",
-                  "instructions",
-                  "description",
-                  "purpose",
-                  "mimeType",
-                  "gradeLevel",
-                  "identifier",
-                  "medium",
-                  "pkgVersion",
-                  "board",
-                  "subject",
-                  "resourceType",
-                  "primaryCategory",
-                  "contentType",
-                  "channel",
-                  "organisation",
-                  "trackable",
-                  "license",
-                  "posterImage",
-                  "idealScreenSize",
-                  "learningMode",
-                  "creatorLogo",
-                  "duration",
-                  "avgRating"
-                ]
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "order": 2,
+      "order": 1,
       "stripType": "withPils",
       "stripVisable": "responsive",
       "strips": [
@@ -1016,57 +876,6 @@
                   }
                 }
               ]
-            },
-            {
-              "label": "Events",
-              "value": "Events",
-              "requestRequired": false,
-              "pillsData": [
-                {
-                  "label": "In Progress",
-                  "value": "inprogress",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": true,
-                  "maxWidgets": 12,
-                  "nodataMsg": "You don’t have any new course in progress.",
-                  "selected": true,
-                  "widgets": [],
-                  "request": {
-                    "path": "",
-                    "type": "eventEnrollment",
-                    "payload": {
-                      "request": {
-                        "retiredCoursesEnabled": true,
-                        "status": "In-Progress",
-                        "limit": 4
-                      }
-                    }
-                  }
-                },
-                {
-                  "label": "Completed",
-                  "value": "completed",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": true,
-                  "maxWidgets": 12,
-                  "nodataMsg": "You will find your Completed Courses/Program here.",
-                  "selected": false,
-                  "widgets": [],
-                  "request": {
-                    "path": "",
-                    "type": "eventEnrollment",
-                    "payload": {
-                      "request": {
-                        "retiredCoursesEnabled": true,
-                        "status": "Completed",
-                        "limit": 10
-                      }
-                    }
-                  }
-                }
-              ]
             }
           ],
           "filters": [],
@@ -1085,295 +894,6 @@
       ]
     }
   ],
-  "weeklyClaps": {
-    "enableCard": true,
-    "weekList": [
-      {
-        "label": "W1",
-        "enable": true,
-        "key": "w1",
-        "activeWeek": false
-      },
-      {
-        "label": "W2",
-        "enable": true,
-        "key": "w2",
-        "activeWeek": false
-      },
-      {
-        "label": "W3",
-        "enable": true,
-        "key": "w3",
-        "activeWeek": false
-      },
-      {
-        "label": "W4",
-        "enable": true,
-        "key": "w4",
-        "activeWeek": true
-      }
-    ]
-  },
-  "learnerAdvisory": [
-    {
-      "id": 1,
-      "content": "Watch content at a speed that ensures understanding and retention.",
-      "contentImg": "assets/icons/learner-advisory/watch-speed.png"
-    },
-    {
-      "id": 2,
-      "content": "Avoid fast-forwarding and speeding through.",
-      "contentImg": "assets/icons/learner-advisory/avoid-fast-forwarding.png"
-    },
-    {
-      "id": 3,
-      "content": "Follow the sequence of content as presented.",
-      "contentImg": "assets/icons/learner-advisory/follow-sequence.png"
-    },
-    {
-      "id": 4,
-      "content": "Take one course at a time instead of consuming multiple courses across multiple devices.",
-      "contentImg": "assets/icons/learner-advisory/one-course-at-a-time.png"
-    },
-    {
-      "id": 5,
-      "content": "Participate in discussions at the Discussion Forum regularly.",
-      "contentImg": "assets/icons/learner-advisory/participate-discussions.png"
-    },
-    {
-      "id": 6,
-      "content": "Don't rush through assessments without understanding, reflecting.",
-      "contentImg": "assets/icons/learner-advisory/dont-rush-assessments.png"
-    },
-    {
-      "id": 7,
-      "content": "Use supplementary resources and readings.",
-      "contentImg": "assets/icons/learner-advisory/use-supplementary-resources.png"
-    },
-    {
-      "id": 8,
-      "content": "Minimize distractions during study sessions.",
-      "contentImg": "assets/icons/learner-advisory/minimize-distractions.png"
-    },
-    {
-      "id": 9,
-      "content": "Seek clarification and assistance when needed.",
-      "contentImg": "assets/icons/learner-advisory/seek-clarification.png"
-    },
-    {
-      "id": 10,
-      "content": "Allocate dedicated time for learning activities.",
-      "contentImg": "assets/icons/learner-advisory/allocate-time.png"
-    },
-    {
-      "id": 11,
-      "content": "Use the new section Gyaan Karmayogi regularly, to go over case studies and other learning material.",
-      "contentImg": "assets/icons/learner-advisory/use-gyaan-karmayogi.png"
-    },
-    {
-      "id": 12,
-      "content": "Update your profile regularly if required.",
-      "contentImg": "assets/icons/learner-advisory/update-profile.png"
-    },
-    {
-      "id": 13,
-      "content": "Follow suggestions at My iGOT.",
-      "contentImg": "assets/icons/learner-advisory/follow-suggestions.png"
-    }
-  ],
-  "surveyForm": {
-    "active": false,
-    "surveyFormData": [
-      {
-        "title": "Take the iGOT Survey, help us make iGOT even better!",
-        "content": "Take a few minutes to complete this survey and contribute to enhancing the iGOT learning experience",
-        "btnTitle": "Click here",
-        "ImageUrl": "assets/icons/learner-advisory/surveyEdit.png",
-        "surveyId": "668e250da8bfb500083136b1"
-      }
-    ]
-  },
-  "surveyPopup": {
-    "active": true,
-    "banners": {
-      "l": "assets/instances/eagle/survey-img/english/desktop.svg",
-      "m": "assets/instances/eagle/survey-img/english/mobile.svg",
-      "s": "assets/instances/eagle/survey-img/english/mobile.svg",
-      "xl": "assets/instances/eagle/survey-img/english/desktop.svg",
-      "xs": "assets/instances/eagle/survey-img/english/mobile.svg",
-      "xxl": "assets/instances/eagle/survey-img/english/desktop.svg"
-    },
-    "hindiBanners": {
-      "l": "assets/instances/eagle/survey-img/hindi/desktop.svg",
-      "m": "assets/instances/eagle/survey-img/hindi/mobile.svg",
-      "s": "assets/instances/eagle/survey-img/hindi/mobile.svg",
-      "xl": "assets/instances/eagle/survey-img/hindi/desktop.svg",
-      "xs": "assets/instances/eagle/survey-img/hindi/mobile.svg",
-      "xxl": "assets/instances/eagle/survey-img/hindi/desktop.svg"
-    },
-    "mobileBanner": "assets/instances/eagle/survey-img/survey_pop_up_mobile.png",
-    "mobileBannerHindi": "assets/instances/eagle/survey-img/survey_pop_up_mobile_hindi.png",
-    "buttonName": "Click Here",
-    "buttonNameHi": "यहां क्लिक करें",
-    "surveyUrl": "https://portal.igotkarmayogi.gov.in/app/event-hub/home/do_1142000193373798401181?batchId=0142000223684198408"
-  },
-  "nationalLearningWeek": {
-    "enabled": true,
-    "startDate": "19-10-2024",
-    "endDate": "27-10-2024",
-    "title": "Celebrate National Learning Week",
-    "description": "Karmayogi Saptah, also known as the National Learning Week, is a week-long event under Mission Karmayogi designed to foster a culture of continuous learning and development among civil servants.",
-    "buttonText": "View More",
-    "width": "30px"
-  },
-  "updateDesignation": {
-    "enabled": false,
-    "imageUrl": "assets/icons/desigantion-card.svg",
-    "imageUrlMobile": "/assets/icons/desigantion-card.svg",
-    "header": "We found that your designation is marked as non-verified by your MDO admin due to updates in your organization's designation master. Please update it as soon as possible.",
-    "headerHi": "हमने पाया कि आपके संगठन के पदनाम मास्टर में अपडेट के कारण आपके एमडीओ व्यवस्थापक द्वारा आपके पदनाम को गैर-सत्यापित के रूप में चिह्नित किया गया है। कृपया इसे यथाशीघ्र अद्यतन करें।",
-    "headerGu": "અમને જાણવા મળ્યું છે કે તમારી સંસ્થાના હોદ્દો માસ્ટરમાં અપડેટ્સને કારણે તમારા MDO એડમિન દ્વારા તમારી હોદ્દો બિન-ચકાસાયેલ તરીકે ચિહ્નિત થયેલ છે. કૃપા કરીને તેને શક્ય તેટલી વહેલી તકે અપડેટ કરો.",
-    "hintText": "Not able to find your designation, please write us at <u>mission.karmayogi@gov.in</u> with the with the organization and designation name.",
-    "hintTextHi": "यदि आपको अपना पदनाम नहीं मिल पा रहा है, तो कृपया हमें अपने संगठन और पदनाम के साथ <u>mission.karmayogi@gov.in</u> पर लिखें।",
-    "hintTextGu": "તમારું હોદ્દો શોધવામાં અસમર્થ, કૃપા કરીને અમને <u>mission.karmayogi@gov.in</u> પર સંસ્થા અને હોદ્દા નામ સાથે લખો.",
-    "hintTextMobile": "Not able to find your designation, please write us at <a href='mission.karmayogi@gov.in'>mission.karmayogi@gov.in</a> with the with the organization and designation name.",
-    "hintTextMobileHi": "यदि आपको अपना पदनाम नहीं मिल पा रहा है, तो कृपया हमें अपने संगठन और पदनाम के साथ <a href='mission.karmayogi@gov.in'>mission.karmayogi@gov.in</a> पर लिखें।",
-    "hintTextMobileGu": "તમારું હોદ્દો શોધવામાં અસમર્થ, કૃપા કરીને અમને <a href='mission.karmayogi@gov.in'>mission.karmayogi@gov.in</a> પર સંસ્થા અને હોદ્દા નામ સાથે લખો.",
-    "buttonText": "Submit",
-    "buttonTextHi": "जमा करें",
-    "buttonTextGu": "સબમિટ કરો"
-  },
-  "mdoChannelMobile": {
-    "dev": {
-      "active": true,
-      "orgBookmarkId": "76f2eb70-5972-11ef-a96f-77be375b05e1"
-    },
-    "qa": {
-      "active": true,
-      "orgBookmarkId": "38fd55c0-2723-11ef-b7bd-6754f54dd52f"
-    },
-    "uat": {
-      "active": true,
-      "orgBookmarkId": "d8603620-3775-11ef-922d-897d09cffbf2"
-    },
-    "prod": {
-      "active": false,
-      "orgBookmarkId": ""
-    }
-  },
-  "micrositeMobile": {
-    "dev": {
-      "active": true,
-      "featuredProviderDoId": ""
-    },
-    "qa": {
-      "active": true,
-      "featuredProviderDoId": "do_1140809843675136001224"
-    },
-    "uat": {
-      "active": true,
-      "featuredProviderDoId": "do_114081134376157184129"
-    },
-    "prod": {
-      "active": true,
-      "featuredProviderDoId": "do_1140809851011317761688"
-    }
-  },
-  "socialLinks": [
-    {
-      "url": "https://www.linkedin.com/company/karmayogi-bharat/",
-      "alt": "Linkedin",
-      "icon": "linkedin",
-      "active": true
-    },
-    {
-      "url": "https://x.com/iGOTKarmayogi?t=OUEVuskmXbrTNdPuIBaHuw&s=09",
-      "alt": "Twitter",
-      "icon": "Combined Shape",
-      "active": true
-    },
-    {
-      "url": "https://instagram.com/karmayogibharat?igshid=MzRlODBiNWFlZA==",
-      "alt": "Instagram",
-      "icon": "instagram",
-      "active": true
-    },
-    {
-      "url": "https://www.facebook.com/profile.php?id=100089782863897&mibextid=ZbWKwL",
-      "alt": "Facebook",
-      "icon": "facebook",
-      "active": true
-    },
-    {
-      "url": "https://youtube.com/@karmayogibharat?feature=shared",
-      "alt": "Youtube",
-      "icon": "youtube",
-      "active": true
-    },
-    {
-      "url": "https://open.spotify.com/user/31cr3bizg7gpg5vytxl4bzyhw43a?si=5up31eyNSl-Y4Svr_Kfr7g&utm_source=copy-link&utm_medium=copy-link&nd=1&_branch_match_id=1242771130436995949&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXLy7IL8lMq9TLyczL1g%2BqyEsqywiKyHdJAgBCVoQFIAAAAA%3D%3D",
-      "alt": "Spotify",
-      "icon": "spotify",
-      "active": true
-    }
-  ],
-  "footerSectionConfig": [
-    {
-      "id": 1,
-      "order": 1,
-      "sectionHeading": "hubs",
-      "active": true,
-      "slug": "hub"
-    },
-    {
-      "id": 2,
-      "order": 2,
-      "sectionHeading": "relatedLinks",
-      "active": true,
-      "slug": "link"
-    },
-    {
-      "id": 3,
-      "order": 3,
-      "sectionHeading": "support",
-      "active": true,
-      "slug": "support"
-    },
-    {
-      "id": 4,
-      "order": 4,
-      "sectionHeading": "aboutUs",
-      "active": true,
-      "slug": "about"
-    }
-  ],
-  "topRightNavConfig": [
-    {
-      "id": 1,
-      "section": "download",
-      "active": true
-    },
-    {
-      "id": 2,
-      "section": "font-setting",
-      "active": false
-    },
-    {
-      "id": 3,
-      "section": "help",
-      "active": true
-    },
-    {
-      "id": 4,
-      "section": "profile",
-      "active": true
-    },
-    {
-      "id": 5,
-      "section": "language",
-      "active": true
-    }
-  ],
   "homeConfig": {
     "insightOnRight": {
       "active": false
@@ -1385,12 +905,12 @@
       "active": true
     },
     "discussHub": {
-      "active": true,
+      "active": false,
       "updatePosts": {
-        "active": true
+        "active": false
       },
       "trendingDiscussions": {
-        "active": true
+        "active": false
       }
     },
     "networkHub": {
@@ -1409,7 +929,7 @@
       "strips": [
         {
           "active": true,
-          "key": "cbpPlan",
+          "key": "cbpPlanTest123",
           "logo": "school",
           "title": "My iGOT",
           "customeClass": "mr-5",
@@ -1451,7 +971,7 @@
               "computeDataOnClick": false,
               "showTabDataCount": true,
               "requestRequired": false,
-              "maxWidgets": 12,
+              "maxWidgets": 30,
               "nodataMsg": "You will see all the content that needs to be completed within the next 30 days."
             },
             {
@@ -1497,7 +1017,7 @@
       "strips": [
         {
           "active": true,
-          "key": "karmaProgram",
+          "key": "karmaProgram123",
           "logo": "school",
           "disableTranslate": true,
           "title": "Karma Programs",
@@ -1579,7 +1099,7 @@
             "cardSubType": "standard"
           },
           "viewMoreUrl": {
-            "path": "/app/seeAll",
+            "path": "/app/showaLL",
             "viewMoreText": "Show all",
             "queryParams": {
               "key": "recentlyAdded"
@@ -1603,7 +1123,7 @@
               "computeDataOnClickKey": "",
               "requestRequired": true,
               "showTabDataCount": false,
-              "maxWidgets": 12,
+              "maxWidgets": 15,
               "nodataMsg": "You will find recently added courses here.",
               "request": {
                 "searchV6": {
@@ -1635,6 +1155,7 @@
                       "subject",
                       "resourceType",
                       "primaryCategory",
+                      "languageMapV1",
                       "contentType",
                       "channel",
                       "organisation",
@@ -1645,7 +1166,8 @@
                       "learningMode",
                       "creatorLogo",
                       "duration",
-                      "avgRating"
+                      "avgRating",
+                      "difficultyLevel"
                     ]
                   }
                 }
@@ -1690,6 +1212,7 @@
                       "subject",
                       "resourceType",
                       "primaryCategory",
+                      "languageMapV1",
                       "contentType",
                       "channel",
                       "organisation",
@@ -1700,7 +1223,8 @@
                       "learningMode",
                       "creatorLogo",
                       "duration",
-                      "avgRating"
+                      "avgRating",
+                      "difficultyLevel"
                     ]
                   }
                 }
@@ -1740,6 +1264,7 @@
                   "subject",
                   "resourceType",
                   "primaryCategory",
+                  "languageMapV1",
                   "contentType",
                   "channel",
                   "organisation",
@@ -1750,7 +1275,8 @@
                   "learningMode",
                   "creatorLogo",
                   "duration",
-                  "avgRating"
+                  "avgRating",
+                  "difficultyLevel"
                 ]
               }
             }
@@ -2102,6 +1628,7 @@
                   "subject",
                   "resourceType",
                   "primaryCategory",
+                  "languageMapV1",
                   "contentType",
                   "channel",
                   "organisation",
@@ -2115,7 +1642,8 @@
                   "version",
                   "programDuration",
                   "avgRating",
-                  "additionalTags"
+                  "additionalTags",
+                  "difficultyLevel"
                 ]
               }
             }
@@ -2177,69 +1705,6 @@
                 "limit": 5
               },
               "responseKey": "certifications"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "order": 10,
-      "strips": [
-        {
-          "active": true,
-          "key": "ciosContent",
-          "logo": "school",
-          "disableTranslate": true,
-          "title": "courses",
-          "stripTitleLink": {
-            "link": "",
-            "icon": ""
-          },
-          "sliderConfig": {
-            "showNavs": true,
-            "showDots": true,
-            "maxWidgets": 12,
-            "showNavsSpacing": true
-          },
-          "stripBackground": "",
-          "titleDescription": "CIOS DATA",
-          "stripConfig": {
-            "cardSubType": "card-portrait-ext-lib"
-          },
-          "viewMoreUrl": {
-            "path": "/app/seeAll",
-            "viewMoreText": "Show all",
-            "queryParams": {
-              "key": "ciosContent"
-            },
-            "loaderConfig": {
-              "cardSubType": "card-portrait-ext-lib-skeleton"
-            },
-            "stripConfig": {
-              "cardSubType": "card-portrait-ext-lib"
-            }
-          },
-          "loader": true,
-          "loaderConfig": {
-            "cardSubType": "card-portrait-ext-lib-skeleton"
-          },
-          "tabs": [],
-          "filters": [],
-          "request": {
-            "apiUrl": "/apis/proxies/v8/cios/v1/search/content",
-            "ciosContent": {
-              "filterCriteriaMap": {
-                "isActive": true
-              },
-              "requestedFields": [],
-              "pageNumber": 0,
-              "pageSize": 50,
-              "facets": [
-                "topic"
-              ],
-              "orderBy": "createdOn",
-              "orderDirection": "desc",
-              "searchString": ""
             }
           }
         }
@@ -2456,158 +1921,6 @@
       "title": ""
     }
   ],
-  "clientList": [
-    {
-      "orgId": "01355681440917913657",
-      "clientImageUrl": "assets/icons/top-providers/0d400bdf-4ad8-45bf-914c-be44018c2d07.png",
-      "clientName": "Department for Promotion of Industry and Internal Trade",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Department for Promotion of Industry and Internal Trade/all-CBP"
-    },
-    {
-      "orgId": "01341209715000115258",
-      "clientImageUrl": "assets/icons/top-providers/1becfffa-956e-48ba-8ffd-77c19cd720c8.jpeg",
-      "clientName": "RAKNPA",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/RAKNPA/all-CBP"
-    },
-    {
-      "orgId": "013590658732466176131",
-      "clientImageUrl": "assets/icons/top-providers/1d76c041-a7c9-437c-94d9-36d997f3804c.jpeg",
-      "clientName": "Lal Bahadur Shastri National Academy of Administration (LBSNAA)",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/LBSNAA/all-CBP"
-    },
-    {
-      "orgId": "0135536923694202881",
-      "clientImageUrl": "assets/icons/top-providers/1fb72c3f-1c96-4600-8e22-09871a85e6c4.jpeg",
-      "clientName": "Ministry of Environment, Forest and Climate Change",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Ministry of Environment, Forest and Climate Change/all-CBP"
-    },
-    {
-      "orgId": "0133872821604761600",
-      "clientImageUrl": "assets/icons/top-providers/6f046f76-b778-476a-987b-8669e106b44c.jpeg",
-      "clientName": "Institute of Secretariat Training and Management",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Institute of Secretariat Training and Management/all-CBP"
-    },
-    {
-      "orgId": "0134156658793594880",
-      "clientImageUrl": "assets/icons/top-providers/7f6df809-6930-44f4-abcf-c8297363d3e0.png",
-      "clientName": "Department of Expenditure",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Department%20of%20Expenditure%20/all-CBP"
-    },
-    {
-      "orgId": "01341136245758361636",
-      "clientImageUrl": "assets/icons/top-providers/dopt.png",
-      "clientName": "Department of Personnel and Training DoPT",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Department%20of%20Personnel%20and%20Training%20DoPT/all-CBP"
-    },
-    {
-      "orgId": "0138119804691087361299",
-      "clientImageUrl": "assets/icons/top-providers/7f8cab8e-9d22-44ba-a41e-83b907e5a5f0.jpeg",
-      "clientName": "Indian Cybercrime Coordination Centre - I4C",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Indian%20Cybercrime%20Coordination%20Centre%20-%20I4C/all-CBP"
-    },
-    {
-      "orgId": "0134001680852664321",
-      "clientImageUrl": "assets/icons/top-providers/33e9c66f-312f-4244-901e-7d7525ae8847.jpeg",
-      "clientName": "Capacity Building Commission",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Capacity Building Commission/all-CBP"
-    },
-    {
-      "orgId": "01373417051866726412130",
-      "clientImageUrl": "assets/icons/top-providers/36d93700-c43f-499e-ab3c-68ea76388a2a.png",
-      "clientName": "Ministry of Railways",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Ministry of Railways/all-CBP"
-    },
-    {
-      "orgId": "0134086213264506888",
-      "clientImageUrl": "assets/icons/top-providers/385ff4a0-41af-4114-8015-10d26c1e8af4.jpeg",
-      "clientName": "World Bank",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/World Bank/all-CBP"
-    },
-    {
-      "orgId": "013616592545947648401",
-      "clientImageUrl": "assets/icons/top-providers/778b56bf-8946-45fe-87d3-358203f2faf4.png",
-      "clientName": "Sashastra Seema Bal (SSB)",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Sashastra%20Seema%20Bal%20%28SSB%29/all-CBP"
-    },
-    {
-      "orgId": "013413016323874816106",
-      "clientImageUrl": "assets/icons/top-providers/2862d2e5-473e-4c55-abaa-8a2f86e5eee4.jpeg",
-      "clientName": "SVPNPA",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/SVPNPA/all-CBP"
-    },
-    {
-      "orgId": "0136364025461473287707",
-      "clientImageUrl": "assets/icons/top-providers/53407dd6-d22c-4dba-a394-015fae667636.png",
-      "clientName": "Microsoft",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Microsoft/all-CBP"
-    },
-    {
-      "orgId": "01341211756679987273",
-      "clientImageUrl": "assets/icons/top-providers/869960d7-2dc7-4205-8c4b-11321d901060.jpeg",
-      "clientName": "Indian Institute of Public Administration",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Indian Institute of Public Administration/all-CBP"
-    },
-    {
-      "orgId": "013596952457666560294",
-      "clientImageUrl": "assets/icons/top-providers/4183673f-9063-4fa9-bf84-1e8856c8e531.jpeg",
-      "clientName": "Food Corporation of India (FCI)",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Food%20Corporation%20of%20India%20%28FCI%29/all-CBP"
-    },
-    {
-      "orgId": "0134156658793594880",
-      "clientImageUrl": "assets/icons/top-providers/a976f025-e990-49b0-a52a-9bd0a8e43584.jpeg",
-      "clientName": "National Telecommunications Institute for Policy Research, Innovation and Training",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/NTIPRIT/all-CBP"
-    },
-    {
-      "orgId": "01364991683959193671",
-      "clientImageUrl": "assets/icons/top-providers/abbb8f64-84db-4a92-85c9-1b394ffab71c.png",
-      "clientName": "The Art of Living",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/The Art of Living/all-CBP"
-    },
-    {
-      "orgId": "013568638827937792416",
-      "clientImageUrl": "assets/icons/top-providers/b6bf0be6-7e29-4187-a29d-da6db1db7c69.jpeg",
-      "clientName": "National Institute of Communication Finance",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/National Institute of Communication Finance/all-CBP"
-    },
-    {
-      "orgId": "013594775897538560248",
-      "clientImageUrl": "assets/icons/top-providers/cf567f4c-d0fa-447f-aba4-cb378ea3c90d.png",
-      "clientName": "Department of Posts",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Department of Posts/all-CBP"
-    },
-    {
-      "orgId": "01341099780408934432",
-      "clientImageUrl": "assets/icons/top-providers/ef8a88cf-33cc-42de-bdc3-7deed1ab2418.png",
-      "clientName": "IIMB",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/IIMB/all-CBP"
-    },
-    {
-      "orgId": "013618933546754048361",
-      "clientImageUrl": "assets/icons/top-providers/f445c11b-ff73-4ca4-9dea-8d8945d92a4a.png",
-      "clientName": "Government e Market Place(GeM)",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Government%20e%20Market%20Place%28GeM%29/all-CBP"
-    },
-    {
-      "orgId": "0135346646711500804337",
-      "clientImageUrl": "assets/icons/top-providers/fc67226a-4bbc-449a-8c5c-e1b338716545.png",
-      "clientName": "Bharat Sanchar Nigam Limited(BSNL)",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Bharat%20Sanchar%20Nigam%20Limited%28BSNL%29/all-CBP"
-    },
-    {
-      "orgId": "0135997900135055367644",
-      "clientImageUrl": "assets/icons/top-providers/fccdb487-a389-48d9-bce0-c4d64315b546.png",
-      "clientName": "Defence Accounts Department (DAD)",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Defence%20Accounts%20Department%20%28DAD%29/all-CBP"
-    },
-    {
-      "orgId": "0137924892561899523",
-      "clientImageUrl": "assets/icons/top-providers/fcde4c60-7ccd-456e-a5df-260dcfa2d3ee.png",
-      "clientName": "Morarji Desai National Institute of Yoga (MDNIY)",
-      "clientUrl": "https://portal.igotkarmayogi.gov.in/app/learn/browse-by/provider/Morarji%20Desai%20National%20Institute%20of%20Yoga%20%28MDNIY%29/all-CBP"
-    }
-  ],
   "newHomeStrip": [
     {
       "order": 1,
@@ -2672,6 +1985,7 @@
                   "subject",
                   "resourceType",
                   "primaryCategory",
+                  "languageMapV1",
                   "contentType",
                   "channel",
                   "organisation",
@@ -2682,7 +1996,8 @@
                   "learningMode",
                   "creatorLogo",
                   "duration",
-                  "avgRating"
+                  "avgRating",
+                  "difficultyLevel"
                 ]
               }
             }
@@ -2765,6 +2080,198 @@
       ]
     },
     {
+      "order": 2,
+      "stripType": "withOutPils",
+      "stripVisable": "responsive",
+      "strips": [
+        {
+          "active": true,
+          "key": "karmaTracks",
+          "logo": "school",
+          "disableTranslate": true,
+          "title": "The iGOT Marketplace",
+          "stripTitleLink": {
+            "link": "",
+            "icon": ""
+          },
+          "stripInfo": {
+            "icon": {
+              "icon": "info_outline"
+            },
+            "direction": "above",
+            "description": "The iGOT Marketplace showcases learning providers and training institutions offering live courses on iGOT."
+          },
+          "sliderConfig": {
+            "showNavs": true,
+            "showDots": true,
+            "maxWidgets": 12,
+            "showNavsSpacing": true
+          },
+          "stripBackground": "",
+          "titleDescription": "CIOS DATA",
+          "stripConfig": {
+            "cardSubType": "card-portrait-ext-lib"
+          },
+          "viewMoreUrl": {
+            "path": "/app/seeAll",
+            "viewMoreText": "Show all",
+            "queryParams": {
+              "key": "karmaTracks"
+            },
+            "loaderConfig": {
+              "cardSubType": "card-portrait-ext-lib-skeleton"
+            },
+            "stripConfig": {
+              "cardSubType": "card-portrait-ext-lib"
+            }
+          },
+          "loader": true,
+          "loaderConfig": {
+            "cardSubType": "card-portrait-ext-lib-skeleton"
+          },
+          "tabs": [
+            {
+              "label": "Providers",
+              "hideTab": false,
+              "value": "extCourse",
+              "computeDataOnClick": false,
+              "computeDataOnClickKey": "",
+              "requestRequired": true,
+              "showTabDataCount": false,
+              "maxWidgets": 12,
+              "nodataMsg": "no Data Course",
+              "searchNoDataMsg": "No matching providers",
+              "showSearchBox": true,
+              "request": {
+                "apiUrl": "/apis/proxies/v8/contentpartner/v1/search",
+                "condition": "extContent",
+                "ciosContent": {
+                  "filterCriteriaMap": {
+                    "isActive": true,
+                    "liveCoursesCount": {
+                      ">=": "1"
+                    },
+                    "isTrainingInstitution": false,
+                    "providerType": [
+                      "external",
+                      "internal"
+                    ]
+                  },
+                  "pageNumber": 0,
+                  "pageSize": 10,
+                  "facets": [
+                    "contentPartnerName"
+                  ],
+                  "orderBy": "createdOn",
+                  "orderDirection": "desc"
+                }
+              }
+            },
+            {
+              "label": "Training Institutions",
+              "hideTab": false,
+              "value": "extCourse",
+              "computeDataOnClick": false,
+              "computeDataOnClickKey": "",
+              "requestRequired": true,
+              "showTabDataCount": false,
+              "maxWidgets": 12,
+              "stripConfig": {
+                "cardSubType": "card-providers-lib"
+              },
+              "nodataMsg": "You will find provider courses here.",
+              "request": {
+                "apiUrl": "/apis/proxies/v8/contentpartner/v1/search",
+                "condition": "extContentAssigned",
+                "ciosContent": {
+                  "filterCriteriaMap": {
+                    "isActive": true,
+                    "liveCoursesCount": {
+                      ">=": "1"
+                    },
+                    "isTrainingInstitution": true,
+                    "providerType": [
+                      "external",
+                      "internal"
+                    ]
+                  },
+                  "pageNumber": 0,
+                  "pageSize": 10,
+                  "facets": [
+                    "contentPartnerName"
+                  ],
+                  "orderBy": "createdOn",
+                  "orderDirection": "desc"
+                }
+              }
+            },
+            {
+              "label": "iGOT Classroom",
+              "hideTab": false,
+              "disableTranslate": true,
+              "value": "extCourse",
+              "computeDataOnClick": false,
+              "computeDataOnClickKey": "",
+              "requestRequired": true,
+              "showTabDataCount": false,
+              "maxWidgets": 12,
+              "nodataMsg": "no Data Course",
+              "request": {
+                "apiUrl": "/apis/proxies/v8/contentpartner/v1/search",
+                "condition": "extContent",
+                "ciosContent": {
+                  "filterCriteriaMap": {
+                    "isActive": true,
+                    "liveCoursesCount": {
+                      ">=": "1"
+                    },
+                    "isTrainingInstitution": false,
+                    "providerType": [
+                      "external",
+                      "internal"
+                    ],
+                    "partnerCode": "SPARKL"
+                  },
+                  "pageNumber": 0,
+                  "pageSize": 10,
+                  "facets": [
+                    "contentPartnerName"
+                  ],
+                  "orderBy": "createdOn",
+                  "orderDirection": "desc"
+                }
+              }
+            }
+          ],
+          "filters": [],
+          "request": {
+            "apiUrl": "/apis/proxies/v8/contentpartner/v1/search",
+            "condition": "extContentAssigned",
+            "ciosContent": {
+              "filterCriteriaMap": {
+                "isActive": true,
+                "liveCoursesCount": {
+                  ">=": "1"
+                },
+                "searchTags": [
+                  "Internal",
+                  "Providers",
+                  "External"
+                ]
+              },
+              "pageNumber": 0,
+              "pageSize": 10,
+              "facets": [
+                "contentPartnerName"
+              ],
+              "orderBy": "createdOn",
+              "orderDirection": "desc"
+            }
+          }
+        }
+      ]
+    },
+    {
       "order": 1,
       "stripType": "withPils",
       "stripVisable": "responsive",
@@ -2776,186 +2283,249 @@
           "title": "my Space",
           "customeClass": "mr-5",
           "stripTitleLink": {
-              "link": "",
-              "icon": ""
+            "link": "",
+            "icon": ""
           },
           "loader": true,
           "loaderConfig": {
-              "cardSubType": "card-portrait-lib-skeleton"
+            "cardSubType": "card-portrait-lib-skeleton"
           },
           "sliderConfig": {
-              "showNavs": true,
-              "showDots": true,
-              "maxWidgets": 12,
-              "showNavsSpacing": true
+            "showNavs": true,
+            "showDots": false,
+            "maxWidgets": 12,
+            "showNavsSpacing": true
           },
           "stripBackground": "",
           "titleDescription": "My Learning",
           "stripConfig": {
-              "cardSubType": "card-portrait-lib"
+            "cardSubType": "card-portrait-lib"
           },
           "viewMoreUrl": {
-              "path": "/page/cbp",
-              "viewMoreText": "Show all",
-              "queryParams": {
-                  "key": "cbpPlan"
-              },
-              "loaderConfig": {
-                  "cardSubType": "card-standard-skeleton"
-              },
-              "stripConfig": {
-                  "cardSubType": "card-standard"
-              }
+            "path": "/page/cbp",
+            "viewMoreText": "Show all",
+            "queryParams": {
+              "key": "cbpPlan"
+            },
+            "loaderConfig": {
+              "cardSubType": "card-standard-skeleton"
+            },
+            "stripConfig": {
+              "cardSubType": "card-standard"
+            }
           },
           "tabs": [
-              {
-                  "label": "My iGOT",
-                  "value": "myIgotPlans",
-                  "requestRequired": true,
-                  "pillsData": [
-                      {
-                          "label": "Upcoming",
-                          "value": "upcoming",
-                          "computeDataOnClick": false,
-                          "showTabDataCount": true,
-                          "requestRequired": false,
-                          "maxWidgets": 12,
-                          "selected": false,
-                          "nodataMsg": "You will see all the content that needs to be completed within the next 30 days."
-                      },
-                      {
-                          "label": "Overdue",
-                          "value": "overdue",
-                          "computeDataOnClick": false,
-                          "showTabDataCount": true,
-                          "requestRequired": false,
-                          "maxWidgets": 12,
-                          "selected": false,
-                          "nodataMsg": "You will see here all the content for which the due date has passed."
-                      },
-                      {
-                          "label": "Completed",
-                          "value": "completed",
-                          "computeDataOnClick": false,
-                          "showTabDataCount": true,
-                          "requestRequired": false,
-                          "maxWidgets": 12,
-                          "selected": false,
-                          "nodataMsg": "No Data Msg Completed"
-                      },
-                      {
-                          "label": "All",
-                          "value": "all",
-                          "computeDataOnClick": false,
-                          "showTabDataCount": true,
-                          "requestRequired": false,
-                          "maxWidgets": 12,
-                          "selected": false,
-                          "nodataMsg": "You don’t have any content in progress."
-                      }
-                  ],
-                  "request": {
-                      "cbpList": {
-                          "path": "/apis/proxies/v8/user/v1/cbplan/<userId>"
-                      }
-                  }
-              },
-              {
-                "label": "IGOT AI",
-                "value": "sakshamAI",
-                "pillsData": [
-                  {
-                    "label": "Available",
-                    "value": "ravailable",
-                    "computeDataOnClick": false,
-                    "showTabDataCount": true,
-                    "requestRequired": false,
-                    "selected": false,
-                    "nodataMsg": "availablelearnings"
-                  },
-                  {
-                      "label": "In Progress",
-                      "value": "rinprogress",
-                      "computeDataOnClick": false,
-                      "showTabDataCount": true,
-                      "requestRequired": false,
-                      "selected": false,
-                      "nodataMsg": "inprogresslearnings"
-                  },
-                  {
-                      "label": "Completed",
-                      "value": "rcompleted",
-                      "computeDataOnClick": false,
-                      "showTabDataCount": true,
-                      "requestRequired": false,
-                      "selected": false,
-                      "nodataMsg": "completedlearnings"
-                  }
-                ],
-                "hideTab": true,
-                "request": {
-                  "courseRecommendation": {
-                    "path": "/apis/proxies/v8/courseRecommendation/create"
-                  }
+            {
+              "label": "My iGOT",
+              "value": "myIgotPlans",
+              "requestRequired": true,
+              "pillsData": [
+                {
+                  "label": "APAR",
+                  "value": "apar",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": false,
+                  "maxWidgets": 30,
+                  "nodataMsg": "You will see all the contents that is APAR marked."
                 },
-                "requestRequired": true
-              },
-              {
-                "label": "Peer Learning",
-                "value": "designation",
-                "requestRequired": true,
-                "pillsData": [
-                    {
-                        "label": "Available",
-                        "value": "ravailable",
-                        "computeDataOnClick": false,
-                        "showTabDataCount": true,
-                        "requestRequired": false,
-                        "maxWidgets": 12,
-                        "selected": false,
-                        "nodataMsg": "availableLearnings"
-                    },
-                    {
-                        "label": "In Progress",
-                        "value": "rinprogress",
-                        "computeDataOnClick": false,
-                        "showTabDataCount": true,
-                        "requestRequired": false,
-                        "maxWidgets": 12,
-                        "selected": false,
-                        "nodataMsg": "inprogressLearnings"
-                    },
-                    {
-                        "label": "Completed",
-                        "value": "rcompleted",
-                        "computeDataOnClick": false,
-                        "showTabDataCount": true,
-                        "requestRequired": false,
-                        "maxWidgets": 12,
-                        "selected": false,
-                        "nodataMsg": "completedLearnings"
-                    }
-                ],
-                "request": {
-                    "designationsList": {
-                        "path": "/apis/proxies/v8/courseRecommend/v1/courses"
-                    }
+                {
+                  "label": "Upcoming",
+                  "value": "upcoming",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": false,
+                  "maxWidgets": 12,
+                  "selected": false,
+                  "nodataMsg": "You will see all the content that needs to be completed within the next 30 days."
+                },
+                {
+                  "label": "Overdue",
+                  "value": "overdue",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": false,
+                  "maxWidgets": 12,
+                  "selected": false,
+                  "nodataMsg": "You will see here all the content for which the due date has passed."
+                },
+                {
+                  "label": "Completed",
+                  "value": "completed",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": false,
+                  "maxWidgets": 12,
+                  "selected": false,
+                  "nodataMsg": "No Data Msg Completed"
+                },
+                {
+                  "label": "All",
+                  "value": "all",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": false,
+                  "maxWidgets": 12,
+                  "selected": false,
+                  "nodataMsg": "You don’t have any content in progress."
                 }
+              ],
+              "request": {
+                "cbpList": {
+                  "path": "/apis/proxies/v8/user/v1/cbplan/<userId>"
+                }
+              }
+            },
+            {
+              "label": "IGOT AI",
+              "value": "sakshamAI",
+              "pillsData": [
+                {
+                  "label": "Available",
+                  "value": "ravailable",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": false,
+                  "selected": false,
+                  "nodataMsg": "availablelearnings"
+                },
+                {
+                  "label": "In Progress",
+                  "value": "rinprogress",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": false,
+                  "selected": false,
+                  "nodataMsg": "inprogresslearnings"
+                },
+                {
+                  "label": "Completed",
+                  "value": "rcompleted",
+                  "computeDataOnClick": false,
+                  "showTabDataCount": true,
+                  "requestRequired": false,
+                  "selected": false,
+                  "nodataMsg": "completedlearnings"
+                }
+              ],
+              "hideTab": true,
+              "request": {
+                "courseRecommendation": {
+                  "path": "/apis/proxies/v8/courseRecommendation/create"
+                }
+              },
+              "requestRequired": true
+            },
+            {
+              "label": "Trending on iGOT",
+              "value": "trendingAcrossDepartment",
+              "pillsData": [
+                {
+                  "label": "Courses",
+                  "value": "courses",
+                  "computeDataOnClick": false,
+                  "computeDataOnClickKey": "",
+                  "requestRequired": true,
+                  "showTabDataCount": false,
+                  "maxWidgets": 12,
+                  "selected": false,
+                  "nodataMsg": "You will find trending courses here.",
+                  "request": {
+                    "trendingSearch": {
+                      "request": {
+                        "filters": {
+                          "contextType": [
+                            "courses"
+                          ],
+                          "organisation": "across"
+                        },
+                        "limit": 12
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Learning Pathway",
+              "value": "learningPathway",
+              "pillsData": [
+                {
+                  "label": "Learning Pathway",
+                  "value": "Learning Pathway",
+                  "computeDataOnClick": false,
+                  "computeDataOnClickKey": "",
+                  "requestRequired": true,
+                  "showTabDataCount": false,
+                  "maxWidgets": 12,
+                  "selected": false,
+                  "hideTab": false,
+                  "nodataMsg": "No data found",
+                  "viewMoreUrl": {
+                    "path": "/app/globalsearch",
+                    "viewMoreText": "Show all",
+                    "queryParams": {
+                      "tab": "explore-content",
+                      "filtersPanel": "show",
+                      "category": "courses"
+                    },
+                    "f": {
+                      "primaryCategory": [
+                        "learning pathway"
+                      ],
+                      "contentType": [
+                        "learning pathway"
+                      ]
+                    },
+                    "loaderConfig": {
+                      "cardSubType": "card-standard-skeleton"
+                    },
+                    "stripConfig": {
+                      "cardSubType": "card-standard"
+                    }
+                  },
+                  "request": {
+                    "searchV6": {
+                      "request": {
+                        "filters": {
+                          "contentType": [
+                            "Course"
+                          ],
+                          "courseCategory": [
+                            "learning pathway"
+                          ],
+                          "status": [
+                            "Live"
+                          ]
+                        },
+                        "limit": 5
+                      }
+                    }
+                  },
+                  "cardSubType": "card-wide-v2"
+                }
+              ],
+              "request": {
+                "courseRecommendation": {
+                  "path": "/apis/proxies/v8/courseRecommendation/create"
+                }
+              },
+              "requestRequired": true
             }
           ],
           "filters": [],
           "request": {
-              "cbpList": {
-                  "path": "/apis/proxies/v8/user/v1/cbplan/<userId>"
-              },
-              "designationsList": {
-                  "path": "/apis/proxies/v8/courseRecommend/v1/courses"
-              },
-              "courseRecommendation": {
-                "path": "/apis/proxies/v8/courseRecommendation/create"
-              }
+            "cbpList": {
+              "path": "/apis/proxies/v8/user/v1/cbplan/<userId>"
+            },
+            "designationsList": {
+              "path": "/apis/proxies/v8/courseRecommend/v1/courses"
+            },
+            "courseRecommendation": {
+              "path": "/apis/proxies/v8/courseRecommendation/create"
+            }
           }
-      }
+        }
       ]
     },
     {
@@ -3085,7 +2655,7 @@
                   "showTabDataCount": true,
                   "requestRequired": true,
                   "maxWidgets": 12,
-                  "nodataMsg": "You will find your Completed Courses/Program here.",
+                  "nodataMsg": "completed Events",
                   "selected": false,
                   "widgets": [],
                   "request": {
@@ -3120,7 +2690,7 @@
     },
     {
       "order": 2,
-      "stripType": "withPils",
+      "stripType": "withPilsNew",
       "stripVisable": "responsive",
       "strips": [
         {
@@ -3164,8 +2734,35 @@
           },
           "tabs": [
             {
-              "label": "Trending in your Department",
-              "value": "trendingInDepartment",
+              "label": "iGOT Specializations",
+              "value": "igotSpecializations",
+              "hideTab": false,
+              "pillsData": [
+                {
+                  "label": "Programs",
+                  "value": "programs",
+                  "computeDataOnClick": false,
+                  "computeDataOnClickKey": "",
+                  "requestRequired": true,
+                  "showTabDataCount": false,
+                  "maxWidgets": 12,
+                  "selected": false,
+                  "hideTab": false,
+                  "nodataMsg": "You will find iGOT Specialization programs here.",
+                  "request": {
+                    "microSearch": {
+                      "request": {
+                        "url": "apis/proxies/v8/promotionalcontent/v1/assignedto/users",
+                        "limit": 12
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "label": "Recently Added",
+              "value": "recentlyAdded",
               "pillsData": [
                 {
                   "label": "Courses",
@@ -3176,17 +2773,51 @@
                   "showTabDataCount": false,
                   "maxWidgets": 12,
                   "selected": false,
-                  "nodataMsg": "You will find trending courses here.",
+                  "nodataMsg": "You will find recently added courses here.",
                   "request": {
-                    "trendingSearch": {
+                    "searchV6": {
                       "request": {
                         "filters": {
-                          "contextType": [
-                            "courses"
+                          "courseCategory": [
+                            "Course"
                           ],
-                          "organisation": "<orgID>"
+                          "contentType": [
+                            "Course"
+                          ]
                         },
-                        "limit": 12
+                        "query": "",
+                        "sort_by": {
+                          "lastUpdatedOn": "desc"
+                        },
+                        "fields": [
+                          "name",
+                          "appIcon",
+                          "instructions",
+                          "description",
+                          "purpose",
+                          "mimeType",
+                          "gradeLevel",
+                          "identifier",
+                          "medium",
+                          "pkgVersion",
+                          "board",
+                          "subject",
+                          "resourceType",
+                          "primaryCategory",
+                          "languageMapV1",
+                          "contentType",
+                          "channel",
+                          "organisation",
+                          "trackable",
+                          "license",
+                          "posterImage",
+                          "idealScreenSize",
+                          "learningMode",
+                          "creatorLogo",
+                          "duration",
+                          "avgRating",
+                          "difficultyLevel"
+                        ]
                       }
                     }
                   }
@@ -3200,17 +2831,51 @@
                   "showTabDataCount": false,
                   "maxWidgets": 12,
                   "selected": false,
-                  "nodataMsg": "You will find trending programs here.",
+                  "nodataMsg": "You will find recently added programs here.",
                   "request": {
-                    "trendingSearch": {
+                    "searchV6": {
                       "request": {
                         "filters": {
-                          "contextType": [
-                            "programs"
+                          "primaryCategory": [
+                            "Curated Program"
                           ],
-                          "organisation": "<orgID>"
+                          "contentType": [
+                            "Course"
+                          ]
                         },
-                        "limit": 12
+                        "query": "",
+                        "sort_by": {
+                          "lastUpdatedOn": "desc"
+                        },
+                        "fields": [
+                          "name",
+                          "appIcon",
+                          "instructions",
+                          "description",
+                          "purpose",
+                          "mimeType",
+                          "gradeLevel",
+                          "identifier",
+                          "medium",
+                          "pkgVersion",
+                          "board",
+                          "subject",
+                          "resourceType",
+                          "primaryCategory",
+                          "languageMapV1",
+                          "contentType",
+                          "channel",
+                          "organisation",
+                          "trackable",
+                          "license",
+                          "posterImage",
+                          "idealScreenSize",
+                          "learningMode",
+                          "creatorLogo",
+                          "duration",
+                          "avgRating",
+                          "difficultyLevel"
+                        ]
                       }
                     }
                   }
@@ -3270,240 +2935,10 @@
                   }
                 }
               ]
-            },
-            {
-              "label": "Recently Added",
-              "value": "recentlyAdded",
-              "pillsData": [
-                {
-                  "label": "Courses",
-                  "value": "courses",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find recently added courses here.",
-                  "request": {
-                    "searchV6": {
-                      "request": {
-                        "filters": {
-                          "primaryCategory": [
-                            "Course"
-                          ],
-                          "contentType": [
-                            "Course"
-                          ]
-                        },
-                        "query": "",
-                        "sort_by": {
-                          "lastUpdatedOn": "desc"
-                        },
-                        "fields": [
-                          "name",
-                          "appIcon",
-                          "instructions",
-                          "description",
-                          "purpose",
-                          "mimeType",
-                          "gradeLevel",
-                          "identifier",
-                          "medium",
-                          "pkgVersion",
-                          "board",
-                          "subject",
-                          "resourceType",
-                          "primaryCategory",
-                          "contentType",
-                          "channel",
-                          "organisation",
-                          "trackable",
-                          "license",
-                          "posterImage",
-                          "idealScreenSize",
-                          "learningMode",
-                          "creatorLogo",
-                          "duration",
-                          "avgRating"
-                        ]
-                      }
-                    }
-                  }
-                },
-                {
-                  "label": "Programs",
-                  "value": "programs",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find recently added programs here.",
-                  "request": {
-                    "searchV6": {
-                      "request": {
-                        "filters": {
-                          "primaryCategory": [
-                            "Curated Program"
-                          ],
-                          "contentType": [
-                            "Course"
-                          ]
-                        },
-                        "query": "",
-                        "sort_by": {
-                          "lastUpdatedOn": "desc"
-                        },
-                        "fields": [
-                          "name",
-                          "appIcon",
-                          "instructions",
-                          "description",
-                          "purpose",
-                          "mimeType",
-                          "gradeLevel",
-                          "identifier",
-                          "medium",
-                          "pkgVersion",
-                          "board",
-                          "subject",
-                          "resourceType",
-                          "primaryCategory",
-                          "contentType",
-                          "channel",
-                          "organisation",
-                          "trackable",
-                          "license",
-                          "posterImage",
-                          "idealScreenSize",
-                          "learningMode",
-                          "creatorLogo",
-                          "duration",
-                          "avgRating"
-                        ]
-                      }
-                    }
-                  }
-                }
-              ]
             }
           ],
           "filters": [],
           "request": {}
-        }
-      ]
-    },
-    {
-      "order": 3,
-      "stripType": "withOutPils",
-      "stripVisable": "responsive",
-      "strips": [
-        {
-          "active": true,
-          "key": "ciosContent",
-          "logo": "school",
-          "disableTranslate": true,
-          "title": "Partners",
-          "stripTitleLink": {
-            "link": "",
-            "icon": ""
-          },
-          "sliderConfig": {
-            "showNavs": true,
-            "showDots": true,
-            "maxWidgets": 12,
-            "showNavsSpacing": true
-          },
-          "stripBackground": "",
-          "titleDescription": "CIOS DATA",
-          "stripConfig": {
-            "cardSubType": "card-portrait-ext-lib"
-          },
-          "viewMoreUrl": {
-            "path": "/app/seeAll",
-            "viewMoreText": "Show all",
-            "queryParams": {
-              "key": "ciosContent"
-            },
-            "loaderConfig": {
-              "cardSubType": "card-portrait-ext-lib-skeleton"
-            },
-            "stripConfig": {
-              "cardSubType": "card-portrait-ext-lib"
-            }
-          },
-          "loader": true,
-          "loaderConfig": {
-            "cardSubType": "card-portrait-ext-lib-skeleton"
-          },
-          "tabs": [
-            {
-              "label": "Training Institutions",
-              "value": "providers",
-              "computeDataOnClick": false,
-              "computeDataOnClickKey": "",
-              "requestRequired": true,
-              "showTabDataCount": false,
-              "maxWidgets": 12,
-              "stripConfig": {
-                "cardSubType": "card-providers-lib"
-              },
-              "nodataMsg": "You will find provider courses here.",
-              "request": {
-                "apiUrl": "apis/proxies/v8/action/content/v3/read/<doId>",
-                "playlistRead": {
-                  "type": "dummy"
-                }
-              }
-            },
-            {
-              "label": "Providers",
-              "value": "extCourse",
-              "computeDataOnClick": false,
-              "computeDataOnClickKey": "",
-              "requestRequired": true,
-              "showTabDataCount": false,
-              "maxWidgets": 12,
-              "nodataMsg": "no Data Course",
-              "request": {
-                "apiUrl": "/apis/proxies/v8/cios/v1/search/content",
-                "ciosContent": {
-                  "filterCriteriaMap": {
-                    "isActive": true
-                  },
-                  "requestedFields": [],
-                  "pageNumber": 0,
-                  "pageSize": 10,
-                  "facets": [
-                    "topic"
-                  ],
-                  "orderBy": "createdOn",
-                  "orderDirection": "desc",
-                  "searchString": ""
-                }
-              }
-            }
-          ],
-          "filters": [],
-          "request": {
-            "apiUrl": "/apis/proxies/v8/cios/v1/search/content",
-            "ciosContent": {
-              "filterCriteriaMap": {
-                "isActive": true
-              },
-              "requestedFields": [],
-              "pageNumber": 0,
-              "pageSize": 10,
-              "facets": [
-                "topic"
-              ],
-              "orderBy": "createdOn",
-              "orderDirection": "desc",
-              "searchString": ""
-            }
-          }
         }
       ]
     },
@@ -3674,7 +3109,7 @@
     },
     {
       "order": 7,
-      "stripType": "withOutPils",
+      "stripType": "oldPills",
       "stripVisable": "responsive",
       "strips": [
         {
@@ -3689,11 +3124,12 @@
           "sliderConfig": {
             "showNavs": true,
             "showDots": true,
-            "maxWidgets": 12
+            "maxWidgets": 5,
+            "showNavsSpacing": true
           },
           "loader": true,
           "loaderConfig": {
-            "cardSubType": "card-portrait-lib-skeleton"
+            "cardSubType": "card-standard-skeleton"
           },
           "stripBackground": "",
           "titleDescription": "Blended Program",
@@ -3701,10 +3137,13 @@
             "cardSubType": "card-portrait-lib"
           },
           "viewMoreUrl": {
-            "path": "/app/seeAll",
             "viewMoreText": "Show all",
+            "path": "/app/globalsearch",
             "queryParams": {
-              "key": "blendedPrograms"
+              "tab": "Learn",
+              "q": "",
+              "p": "Trending",
+              "f": "{\"primaryCategory\": [\"Blended Program\"], \"contentType\": [\"Blended Program\"]}"
             },
             "loaderConfig": {
               "cardSubType": "card-portrait-click-skeleton"
@@ -3750,6 +3189,7 @@
                   "subject",
                   "resourceType",
                   "primaryCategory",
+                  "languageMapV1",
                   "contentType",
                   "channel",
                   "organisation",
@@ -3763,7 +3203,8 @@
                   "version",
                   "programDuration",
                   "avgRating",
-                  "additionalTags"
+                  "additionalTags",
+                  "difficultyLevel"
                 ]
               }
             }
@@ -3773,7 +3214,68 @@
     },
     {
       "order": 8,
-      "stripType": "withOutPils",
+      "stripType": "oldPills",
+      "stripVisable": "responsive",
+      "strips": [
+        {
+          "active": true,
+          "key": "learnUnder30Min",
+          "logo": "school",
+          "title": "Learning under 30 minutes",
+          "stripTitleLink": {
+            "link": "",
+            "icon": ""
+          },
+          "sliderConfig": {
+            "showNavs": true,
+            "showDots": true,
+            "maxWidgets": 12,
+            "showNavsSpacing": true
+          },
+          "loader": true,
+          "loaderConfig": {
+            "cardSubType": "card-standard-skeleton"
+          },
+          "stripBackground": "",
+          "titleDescription": "Learning under 30 minutes",
+          "stripConfig": {
+            "cardSubType": "card-portrait-lib"
+          },
+          "viewMoreUrl": {
+            "path": "/app/seeAll",
+            "viewMoreText": "Show all",
+            "queryParams": {
+              "key": "learnUnder30Min"
+            },
+            "loaderConfig": {
+              "cardSubType": "card-portrait-click-skeleton"
+            },
+            "stripConfig": {
+              "cardSubType": "card-portrait-click"
+            }
+          },
+          "tabs": [],
+          "filters": [],
+          "request": {
+            "trendingSearch": {
+              "request": {
+                "filters": {
+                  "contextType": [
+                    "under_30_mins"
+                  ],
+                  "organisation": "across"
+                },
+                "limit": 12
+              },
+              "responseKey": "under_30_mins"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "stripType": "oldPills",
       "stripVisable": "responsive",
       "strips": [
         {
@@ -3789,7 +3291,8 @@
             "showNavs": true,
             "showDots": true,
             "maxWidgets": 12,
-            "cerificateCardMargin": true
+            "cerificateCardMargin": true,
+            "showNavsSpacing": true
           },
           "loader": true,
           "stripBackground": "",
@@ -3833,378 +3336,5 @@
       ]
     }
   ],
-  "enableLazyLoading": true,
-  "rightSideStrip": [
-    {
-      "order": 3,
-      "strips": [
-        {
-          "active": true,
-          "key": "forYou",
-          "logo": "school",
-          "title": "For you",
-          "type": "forYou",
-          "disableTranslate": true,
-          "stripTitleLink": {
-            "link": "",
-            "icon": ""
-          },
-          "sliderConfig": {
-            "showNavs": true,
-            "showDots": true,
-            "maxWidgets": 12
-          },
-          "stripBackground": "",
-          "titleDescription": "For you",
-          "stripConfig": {
-            "cardSubType": "card-portrait-lib"
-          },
-          "viewMoreUrl": {
-            "path": "/app/seeAll",
-            "viewMoreText": "Show all",
-            "queryParams": {
-              "key": "recentlyAdded"
-            },
-            "loaderConfig": {
-              "cardSubType": "card-portrait-click-skeleton"
-            },
-            "stripConfig": {
-              "cardSubType": "card-portrait-click"
-            }
-          },
-          "loader": true,
-          "loaderConfig": {
-            "cardSubType": "card-portrait-lib-skeleton"
-          },
-          "tabs": [
-            {
-              "label": "Trending across Departments",
-              "value": "trendingAcrossDepartment",
-              "pillsData": [
-                {
-                  "label": "Courses",
-                  "value": "courses",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find trending courses here.",
-                  "request": {
-                    "trendingSearch": {
-                      "request": {
-                        "filters": {
-                          "contextType": [
-                            "courses"
-                          ],
-                          "organisation": "across"
-                        },
-                        "limit": 12
-                      }
-                    }
-                  }
-                },
-                {
-                  "label": "Programs",
-                  "value": "programs",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find trending programs here.",
-                  "request": {
-                    "trendingSearch": {
-                      "request": {
-                        "filters": {
-                          "contextType": [
-                            "programs"
-                          ],
-                          "organisation": "across"
-                        },
-                        "limit": 12
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "label": "Trending in your Department",
-              "value": "trendingInDepartment",
-              "pillsData": [
-                {
-                  "label": "Courses",
-                  "value": "courses",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find trending courses here.",
-                  "request": {
-                    "trendingSearch": {
-                      "request": {
-                        "filters": {
-                          "contextType": [
-                            "courses"
-                          ],
-                          "organisation": "<orgID>"
-                        },
-                        "limit": 12
-                      }
-                    }
-                  }
-                },
-                {
-                  "label": "Programs",
-                  "value": "programs",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find trending programs here.",
-                  "request": {
-                    "trendingSearch": {
-                      "request": {
-                        "filters": {
-                          "contextType": [
-                            "programs"
-                          ],
-                          "organisation": "<orgID>"
-                        },
-                        "limit": 12
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "label": "Recently Added",
-              "value": "recentlyAdded",
-              "pillsData": [
-                {
-                  "label": "Courses",
-                  "value": "courses",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find recently added courses here.",
-                  "request": {
-                    "searchV6": {
-                      "request": {
-                        "filters": {
-                          "primaryCategory": [
-                            "Course"
-                          ],
-                          "contentType": [
-                            "Course"
-                          ]
-                        },
-                        "query": "",
-                        "sort_by": {
-                          "lastUpdatedOn": "desc"
-                        },
-                        "fields": [
-                          "name",
-                          "appIcon",
-                          "instructions",
-                          "description",
-                          "purpose",
-                          "mimeType",
-                          "gradeLevel",
-                          "identifier",
-                          "medium",
-                          "pkgVersion",
-                          "board",
-                          "subject",
-                          "resourceType",
-                          "primaryCategory",
-                          "contentType",
-                          "channel",
-                          "organisation",
-                          "trackable",
-                          "license",
-                          "posterImage",
-                          "idealScreenSize",
-                          "learningMode",
-                          "creatorLogo",
-                          "duration",
-                          "avgRating"
-                        ]
-                      }
-                    }
-                  }
-                },
-                {
-                  "label": "Programs",
-                  "value": "programs",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find recently added programs here.",
-                  "request": {
-                    "searchV6": {
-                      "request": {
-                        "filters": {
-                          "primaryCategory": [
-                            "Curated Program"
-                          ],
-                          "contentType": [
-                            "Course"
-                          ]
-                        },
-                        "query": "",
-                        "sort_by": {
-                          "lastUpdatedOn": "desc"
-                        },
-                        "fields": [
-                          "name",
-                          "appIcon",
-                          "instructions",
-                          "description",
-                          "purpose",
-                          "mimeType",
-                          "gradeLevel",
-                          "identifier",
-                          "medium",
-                          "pkgVersion",
-                          "board",
-                          "subject",
-                          "resourceType",
-                          "primaryCategory",
-                          "contentType",
-                          "channel",
-                          "organisation",
-                          "trackable",
-                          "license",
-                          "posterImage",
-                          "idealScreenSize",
-                          "learningMode",
-                          "creatorLogo",
-                          "duration",
-                          "avgRating"
-                        ]
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ],
-          "filters": [],
-          "request": {}
-        }
-      ]
-    },
-    {
-      "order": 5,
-      "strips": [
-        {
-          "active": true,
-          "key": "cbpPlan",
-          "logo": "school",
-          "title": "My iGOT",
-          "customeClass": "mr-5",
-          "stripTitleLink": {
-            "link": "",
-            "icon": ""
-          },
-          "loader": true,
-          "loaderConfig": {
-            "cardSubType": "card-portrait-lib-skeleton"
-          },
-          "sliderConfig": {
-            "showNavs": true,
-            "showDots": true,
-            "maxWidgets": 12
-          },
-          "stripBackground": "",
-          "titleDescription": "My Learning",
-          "stripConfig": {
-            "cardSubType": "card-portrait-lib"
-          },
-          "viewMoreUrl": {
-            "path": "/page/cbp",
-            "viewMoreText": "Show all",
-            "queryParams": {
-              "key": "cbpPlan"
-            },
-            "loaderConfig": {
-              "cardSubType": "card-standard-skeleton"
-            },
-            "stripConfig": {
-              "cardSubType": "card-standard"
-            }
-          },
-          "tabs": [
-            {
-              "label": "My iGOT Plans",
-              "value": "myIgotPlans",
-              "pillsData": [
-                {
-                  "label": "Upcoming",
-                  "value": "upcoming",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will see all the content that needs to be completed within the next 30 days."
-                },
-                {
-                  "label": "Overdue",
-                  "value": "overdue",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will see here all the content for which the due date has passed."
-                },
-                {
-                  "label": "Completed",
-                  "value": "completed",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "No Data Msg Completed"
-                },
-                {
-                  "label": "All",
-                  "value": "all",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You don’t have any content in progress."
-                }
-              ]
-            }
-          ],
-          "filters": [],
-          "request": {
-            "cbpList": {
-              "path": "/apis/proxies/v8/user/v1/cbplan/<userId>"
-            }
-          }
-        }
-      ]
-    }
-  ]
+  "enableLazyLoading": true
 }
