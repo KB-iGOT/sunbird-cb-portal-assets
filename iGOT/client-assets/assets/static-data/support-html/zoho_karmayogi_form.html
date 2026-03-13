@@ -541,7 +541,7 @@ hr.divider {
 }
 
 .subject-prefix {
-  padding: 10px 10px 10px 14px;
+  padding: 6px 6px 7px 10px;
   font-size: 14px;
   color: var(--ink-2);
   background: var(--navy-soft);
@@ -848,18 +848,10 @@ input[type='file'] {
         </div>
         <div class="form-group">
           <label class="field-label">Subject <span class="req">*</span></label>
-                     <span class="subject-prefix">
-              <!-- small lock SVG -->
-              <svg class="lock-icon" width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="1" y="5.5" width="9" height="7" rx="1.5" stroke="currentColor" stroke-width="1.4"/>
-                <path d="M3.5 5.5V3.5a2 2 0 014 0v2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-              </svg>
-              APAR/CA issue -&nbsp;
-            </span>
-            <input type='text' id='subject-suffix' maxlength='220'
-              placeholder="Type your subject here"
-              autocomplete="off"/>
-
+          <div class="subject-input-wrap">
+            <span class="subject-prefix" id="subject-prefix-display">APAR/CA issue - </span>
+            <input type='text' maxlength='240' name='Subject' id='subject-input' placeholder="Type your subject here"/>
+          </div>
         </div>
       </div>
 
