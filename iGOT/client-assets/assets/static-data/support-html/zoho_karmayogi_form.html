@@ -33,7 +33,7 @@ body {
   font-family: 'DM Sans', sans-serif;
   background: #EDF1FA;
   color: var(--ink);
-  /* min-height: 100vh; */
+  min-height: 100vh;
   padding: 48px 20px 64px;
 }
 
@@ -523,6 +523,60 @@ hr.divider {
 .powered-by a { color: #aaa; text-decoration: none; display: flex; align-items: center; gap: 4px; }
 .powered-by img { width: 14px; height: 14px; }
 
+/* ── Subject prefix-locked input ── */
+.subject-input-wrap {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--divider);
+  border-radius: var(--radius);
+  background: var(--navy-softer);
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.subject-input-wrap:focus-within {
+  border-color: var(--navy-mid);
+  background: #fff;
+  box-shadow: 0 0 0 3px var(--navy-soft);
+}
+
+.subject-prefix {
+  padding: 10px 10px 10px 14px;
+  font-size: 14px;
+  color: var(--ink-2);
+  background: var(--navy-soft);
+  border-right: 1px solid var(--navy-border);
+  white-space: nowrap;
+  font-weight: 500;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+.subject-input-wrap input[type='text'] {
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  flex: 1;
+  min-width: 0;
+}
+
+.subject-input-wrap input[type='text']:focus {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Force all file inputs to remain hidden — attachment zone handles UI */
+input[type='file'] {
+  display: none !important;
+  position: absolute !important;
+  width: 0 !important;
+  height: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
 /* ── Responsive ── */
 @media (max-width: 560px) {
   .form-card { padding: 1.5rem 1.25rem; }
@@ -640,12 +694,12 @@ hr.divider {
 
       <div class="form-row">
         <div class="form-group">
-          <label class="field-label">Email <span class="req">*</span></label>
+          <label class="field-label">iGot Email <span class="req">*</span></label>
           <input type='text' maxlength='120' name='Email' placeholder="you@example.com"/>
         </div>
         <div class="form-group">
-          <label class="field-label">Email ID same as SPARROW</label>
-          <input type='text' maxlength='120' name='Email ID same as SPARROW' placeholder="SPARROW email if different"/>
+          <label class="field-label">Sparrow Email ID</label>
+          <input type='text' maxlength='120' name='Enter Sparrow Email ID' placeholder="SPARROW email if different"/>
         </div>
       </div>
 
@@ -784,17 +838,28 @@ hr.divider {
           <label class="field-label">Issue Type</label>
           <select name='Issues related to Training Plan and Comprehensive' id='CASECF28' onchange='handleIssueType(this)'>
             <option value=''>Select issue type…</option>
-            <option value='APAR Training Plan not visible'>APAR Training Plan not visible</option>
+            <option value='APAR Training Plan not visible'>APAR Training Plan is not visible</option>
             <option value='Issue on course completion'>Issue on course completion</option>
-            <option value='Certificate not generated'>Certificate not generated</option>
-            <option value='Course completed but Comprehensive Assessment still locked'>Course completed but Comprehensive Assessment still locked</option>
-            <option value='Training plan data not appearing on SPARROW APAR'>Training plan data not appearing on SPARROW APAR</option>
+            <option value='Certificate not generated'>Certificate is not generated</option>
+            <option value='Course completed but Comprehensive Assessment still locked'>Course completed but Comprehensive Assessment is still locked</option>
+            <option value='Training plan data not appearing on SPARROW APAR'>Training plan data is not appearing on SPARROW APAR</option>
             <option value='Others'>Others</option>
           </select>
         </div>
         <div class="form-group">
           <label class="field-label">Subject <span class="req">*</span></label>
-          <input type='text' maxlength='255' name='Subject' id='subject-input' placeholder="Select an issue type to auto-fill"/>
+                     <span class="subject-prefix">
+              <!-- small lock SVG -->
+              <svg class="lock-icon" width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1" y="5.5" width="9" height="7" rx="1.5" stroke="currentColor" stroke-width="1.4"/>
+                <path d="M3.5 5.5V3.5a2 2 0 014 0v2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+              APAR/CA issue -&nbsp;
+            </span>
+            <input type='text' id='subject-suffix' maxlength='220'
+              placeholder="Type your subject here"
+              autocomplete="off"/>
+
         </div>
       </div>
 
@@ -823,7 +888,7 @@ hr.divider {
         <div class="section-head-line"></div>
       </div>
 
-      <div class="attachment-zone" onclick="document.getElementById('zsattachment_1').click()">
+      <div class="attachment-zone" onclick="if(zsAttachmentFileBrowserIdsList.length>0){document.getElementById('zsattachment_'+zsAttachmentFileBrowserIdsList[0]).click()}">
         <div class="attach-icon-wrap">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="4" y="9" width="28" height="22" rx="3.5" stroke="#2C4494" stroke-width="1.6"/>
@@ -835,11 +900,11 @@ hr.divider {
         <div class="attach-hint">Up to 5 files · Max 20 MB each</div>
       </div>
 
-      <input type='file' name='attachment_1' id='zsattachment_1' style='display:none' onchange='zsRenderBrowseFileAttachment(this.value, this)'/>
-      <input type='file' name='attachment_2' id='zsattachment_2' style='display:none' onchange='zsRenderBrowseFileAttachment(this.value, this)'/>
-      <input type='file' name='attachment_3' id='zsattachment_3' style='display:none' onchange='zsRenderBrowseFileAttachment(this.value, this)'/>
-      <input type='file' name='attachment_4' id='zsattachment_4' style='display:none' onchange='zsRenderBrowseFileAttachment(this.value, this)'/>
-      <input type='file' name='attachment_5' id='zsattachment_5' style='display:none' onchange='zsRenderBrowseFileAttachment(this.value, this)'/>
+      <input type='file' name='attachment_1' id='zsattachment_1' style='display:none !important;position:absolute;width:0;height:0;opacity:0;pointer-events:none' onchange='zsRenderBrowseFileAttachment(this.value, this)'/>
+      <input type='file' name='attachment_2' id='zsattachment_2' style='display:none !important;position:absolute;width:0;height:0;opacity:0;pointer-events:none' onchange='zsRenderBrowseFileAttachment(this.value, this)'/>
+      <input type='file' name='attachment_3' id='zsattachment_3' style='display:none !important;position:absolute;width:0;height:0;opacity:0;pointer-events:none' onchange='zsRenderBrowseFileAttachment(this.value, this)'/>
+      <input type='file' name='attachment_4' id='zsattachment_4' style='display:none !important;position:absolute;width:0;height:0;opacity:0;pointer-events:none' onchange='zsRenderBrowseFileAttachment(this.value, this)'/>
+      <input type='file' name='attachment_5' id='zsattachment_5' style='display:none !important;position:absolute;width:0;height:0;opacity:0;pointer-events:none' onchange='zsRenderBrowseFileAttachment(this.value, this)'/>
       <div id='zsFileBrowseAttachments'></div>
 
       <hr class="divider">
@@ -963,7 +1028,7 @@ function handleIssueType(sel) {
 
   if (sel.value && sel.value !== '') {
     var issueLabel = sel.options[sel.selectedIndex].text;
-    subject.value = SUBJECT_PREFIX + issueLabel;
+    subject.value = issueLabel;
   } else {
     subject.value = '';
   }
@@ -971,7 +1036,26 @@ function handleIssueType(sel) {
 
 document.addEventListener('DOMContentLoaded', function() {
   var subject = document.getElementById('subject-input');
-  if (subject) { subject.value = SUBJECT_PREFIX; }
+  if (subject) { subject.value = ''; }
+
+  /* On submit, prepend prefix to the subject value */
+  var form = document.forms['zsWebToCase_120349000138968626'];
+  if (form) {
+    form.addEventListener('submit', function() {
+      var subj = document.getElementById('subject-input');
+      if (subj && !subj.value.startsWith(SUBJECT_PREFIX)) {
+        subj.value = SUBJECT_PREFIX + subj.value;
+      }
+    }, true);
+  }
+
+  /* Prevent user from deleting the prefix if they manually type */
+  var subj = document.getElementById('subject-input');
+  if (subj) {
+    subj.addEventListener('keydown', function(e) {
+      /* No restrictions needed — prefix is in the span, not in the input */
+    });
+  }
 });
 
 /* ── Zoho: Captcha ── */
@@ -1019,9 +1103,7 @@ function zsRenderBrowseFileAttachment(val, el) {
   var curId = parseInt(jQuery(el).attr('id').split('_')[1]);
   var removeIdx = jQuery.inArray(curId, zsAttachmentFileBrowserIdsList);
   zsAttachmentFileBrowserIdsList.splice(removeIdx, 1);
-  if (zsAttachmentFileBrowserIdsList.length > 0) {
-    jQuery('#zsattachment_' + zsAttachmentFileBrowserIdsList[0]).show();
-  }
+  /* Removed: jQuery('#zsattachment_...').show() — file inputs must always stay hidden */
   jQuery('#zsFileBrowseAttachments').append(
     '<div class="filenamecls" id="file_' + curId + '">' +
     ZSEncoder.encodeForHTML(fname) +
@@ -1029,6 +1111,18 @@ function zsRenderBrowseFileAttachment(val, el) {
   );
   zsAttachedAttachmentsCount++;
 }
+
+/* Patch attachment-zone to always pick the next available hidden slot */
+document.addEventListener('DOMContentLoaded', function() {
+  var zone = document.querySelector('.attachment-zone');
+  if (zone) {
+    zone.onclick = function() {
+      if (zsAttachmentFileBrowserIdsList.length > 0) {
+        document.getElementById('zsattachment_' + zsAttachmentFileBrowserIdsList[0]).click();
+      }
+    };
+  }
+});
 
 jQuery(document).on('click', '.zsfilebrowseAttachment', function() {
   var id = jQuery(this).attr('id').split('_')[1];
@@ -1055,6 +1149,11 @@ function reformatAllDateFields() {
 }
 
 function zsValidateMandatoryFields() {
+  /* Prepend prefix to subject before validation */
+  var subjEl = document.getElementById('subject-input');
+  if (subjEl && !subjEl.value.startsWith(SUBJECT_PREFIX)) {
+    subjEl.value = SUBJECT_PREFIX + subjEl.value;
+  }
   for (var i = 0; i < zsWebFormMandatoryFields.length; i++) {
     var field = document.forms['zsWebToCase_120349000138968626'][zsWebFormMandatoryFields[i]];
     if (!field) continue;
@@ -1094,7 +1193,7 @@ function zsResetWebForm(id) {
   document.getElementById('btn-state').classList.remove('active');
   document.getElementById('others-block').classList.remove('visible');
   var subj = document.getElementById('subject-input');
-  if (subj) subj.value = SUBJECT_PREFIX;
+  if (subj) { subj.value = ''; subj.placeholder = 'Type your subject here'; }
   var consent = document.getElementById('consent-checkbox');
   if (consent) consent.checked = true;
 }
