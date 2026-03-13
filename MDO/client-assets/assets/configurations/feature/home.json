@@ -293,7 +293,7 @@
             "enabled": false,
             "uri": ""
           },
-          "enabled": false,
+          "enabled": true,
           "routerLink": "/app/home/peer-validation",
           "requiredRoles": [
             "mdo_admin",
