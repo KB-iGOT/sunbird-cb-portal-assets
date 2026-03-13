@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <META HTTP-EQUIV='content-type' CONTENT='text/html; charset=UTF-8'>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap"
+    rel="stylesheet">
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #eef2f7;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    #zohoSupportWebToCase {
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .form-card {
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06), 0 24px 64px rgba(0, 0, 0, 0.10);
+      overflow-y: auto;
+      height: 95vh;
+    }
+
+    .form-header {
+      position: relative;
+      background: linear-gradient(135deg, #0f2c4e 0%, #1d5fa8 60%, #2e7dd4 100%);
+      padding: 36px 40px 32px;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .form-header::before {
+      content: '';
+      position: absolute;
+      right: -40px;
+      top: -40px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .form-header::after {
+      content: '';
+      position: absolute;
+      right: 40px;
+      bottom: -60px;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .header-tag {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 20px;
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      margin-bottom: 12px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .form-header h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 1.2;
+      margin-bottom: 6px;
+    }
+
+    .form-header p {
+      font-size: 13px;
+      font-weight: 300;
+      opacity: 0.7;
+    }
+
+    .form-body {
+      padding: 36px 40px 32px;
+    }
+
+    .form-section {
+      margin-bottom: 28px;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .section-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: #eef4ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.3px;
+      text-transform: uppercase;
+      color: #8098b4;
+      white-space: nowrap;
+    }
+
+    .section-line {
+      flex: 1;
+      height: 1px;
+      background: #f0f4f8;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      margin-bottom: 16px;
+    }
+
+    .form-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .form-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: #3d5168;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      letter-spacing: 0.1px;
+    }
+
+    .req {
+      color: #e53e3e;
+      font-size: 15px;
+      line-height: 1;
+    }
+
+    /* Override Zoho default widths */
+    #zohoSupportWebToCase textarea,
+    #zohoSupportWebToCase input[type='text'],
+    #zohoSupportWebToCase input[type='date'],
+    #zohoSupportWebToCase select,
+    .wb_common {
+      width: 100% !important;
+    }
+
+    #zohoSupportWebToCase td {
+      padding: 0 !important;
+    }
+
+    #zohoSupportWebToCase input[type='text'],
+    #zohoSupportWebToCase input[type='date'],
+    #zohoSupportWebToCase select,
+    #zohoSupportWebToCase textarea {
+      width: 100% !important;
+      padding: 10px 14px !important;
+      border: 1.5px solid #dce6f0 !important;
+      border-radius: 9px !important;
+      font-family: 'DM Sans', sans-serif !important;
+      font-size: 13.5px !important;
+      color: #1a2d42 !important;
+      background: #f7fafd !important;
+      outline: none !important;
+      transition: border-color 0.18s, box-shadow 0.18s, background 0.18s !important;
+      -webkit-appearance: none !important;
+    }
+
+    #zohoSupportWebToCase input[type='text']:focus,
+    #zohoSupportWebToCase select:focus,
+    #zohoSupportWebToCase textarea:focus {
+      border-color: #1d5fa8 !important;
+      background: #fff !important;
+      box-shadow: 0 0 0 3.5px rgba(29, 95, 168, 0.11) !important;
+    }
+
+    #zohoSupportWebToCase select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%238098b4' d='M5 7L0.5 2.5h9z'/%3E%3C/svg%3E") !important;
+      background-repeat: no-repeat !important;
+      background-position: right 13px center !important;
+      padding-right: 36px !important;
+      cursor: pointer !important;
+      box-sizing: border-box !important;
+    }
+
+    #zohoSupportWebToCase textarea {
+      min-height: 112px !important;
+      resize: vertical !important;
+      line-height: 1.65 !important;
+    }
+
+    .manfieldbdr {
+      border-left: 2.5px solid #e53e3e !important;
+    }
+
+    /* Attachment */
+    .attach-zone {
+      border: 1.5px dashed #c2d4e8;
+      border-radius: 10px;
+      padding: 18px 20px;
+      background: #f7fafd;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      cursor: pointer;
+      transition: border-color 0.18s, background 0.18s;
+    }
+
+    .attach-zone:hover {
+      border-color: #1d5fa8;
+      background: #eef4ff;
+    }
+
+    .attach-icon {
+      width: 38px;
+      height: 38px;
+      background: #dde9f8;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 17px;
+      flex-shrink: 0;
+    }
+
+    .attach-text strong {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: #1d5fa8;
+      margin-bottom: 2px;
+    }
+
+    .attach-text span {
+      font-size: 11px;
+      color: #8098b4;
+      font-weight: 300;
+    }
+
+    .wtcuploadfile {
+      display: none !important;
+    }
+
+    .clboth {
+      clear: both;
+    }
+
+    #zsFileBrowseAttachments {
+      margin-top: 8px;
+    }
+
+    .filenamecls {
+      display: inline-flex !important;
+      align-items: center;
+      gap: 6px;
+      background: #eef4ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 12px;
+      color: #1e40af;
+      margin: 4px 4px 0 0;
+      float: none !important;
+    }
+
+    #zsMaxSizeMessage {
+      color: #8098b4 !important;
+      font-size: 11px !important;
+      float: none !important;
+      display: block;
+      margin-top: 8px;
+    }
+
+    #zsMaxLimitMessage {
+      color: #8098b4 !important;
+      font-size: 11px !important;
+      float: none !important;
+      margin-left: 0 !important;
+    }
+
+    .wtcuploadinput {
+      cursor: pointer;
+      position: absolute;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+
+    /* Captcha */
+    .captcha-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    #zsCaptchaLoading {
+      font-size: 12px;
+      color: #8098b4;
+    }
+
+    #zsCaptcha img {
+      border-radius: 8px;
+      border: 1px solid #dce6f0;
+      height: 42px;
+    }
+
+    #zsCaptcha a {
+      font-size: 12px !important;
+      color: #1d5fa8 !important;
+      font-weight: 500;
+      text-decoration: none !important;
+      margin-left: 8px !important;
+    }
+
+    input[name='zsWebFormCaptchaWord'] {
+      width: 155px !important;
+      padding: 10px 14px !important;
+      border: 1.5px solid #dce6f0 !important;
+      border-radius: 9px !important;
+      font-family: 'DM Sans', sans-serif !important;
+      font-size: 13.5px !important;
+      background: #f7fafd !important;
+      outline: none !important;
+    }
+
+    /* Buttons */
+    .form-actions {
+      display: flex;
+      gap: 12px;
+      justify-content: flex-end;
+      padding-top: 10px;
+    }
+
+    #zsSubmitButton_120349000138968626 {
+      background: linear-gradient(135deg, #0f2c4e, #1d5fa8) !important;
+      color: #fff !important;
+      border: none !important;
+      padding: 11px 32px !important;
+      border-radius: 9px !important;
+      font-family: 'DM Sans', sans-serif !important;
+      font-size: 13.5px !important;
+      font-weight: 600 !important;
+      cursor: pointer !important;
+      letter-spacing: 0.2px !important;
+      box-shadow: 0 4px 14px rgba(29, 95, 168, 0.30) !important;
+      transition: opacity 0.18s, transform 0.15s !important;
+    }
+
+    #zsSubmitButton_120349000138968626:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
+    #zsSubmitButton_120349000138968626:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    input[type='button'] {
+      background: transparent !important;
+      color: #5a7a96 !important;
+      border: 1.5px solid #dce6f0 !important;
+      padding: 11px 26px !important;
+      border-radius: 9px !important;
+      font-family: 'DM Sans', sans-serif !important;
+      font-size: 13.5px !important;
+      font-weight: 500 !important;
+      cursor: pointer !important;
+      transition: all 0.18s !important;
+    }
+
+    input[type='button']:hover {
+      border-color: #8098b4 !important;
+      color: #1a2d42 !important;
+    }
+
+    /* Footer */
+    .form-footer {
+      background: #f7fafd;
+      border-top: 1px solid #eef2f7;
+      padding: 13px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-note {
+      font-size: 11px;
+      color: #aabcce;
+    }
+
+    .footer-note span {
+      color: #e53e3e;
+    }
+
+    .wb_FtCon {
+      display: none !important;
+    }
+
+    .footer-brand {
+      font-size: 11px;
+      color: #aabcce;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .footer-brand img {
+      max-width: 13px;
+      opacity: 0.5;
+    }
+
+    /* Hide original table chrome */
+    .zsFormClass {
+      background: transparent !important;
+      width: 100% !important;
+    }
+
+    @media (max-width: 520px) {
+      .form-body {
+        padding: 28px 22px;
+      }
+
+      .form-header {
+        padding: 28px 22px;
+      }
+
+      .form-footer {
+        padding: 13px 22px;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .form-actions {
+        justify-content: stretch;
+      }
+
+      #zsSubmitButton_120349000138968626,
+      input[type='button'] {
+        flex: 1;
+      }
+    }
+  </style>
+
+  <style>
+    .zsFontClass {
+      color: #1a2d42;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13.5px;
+    }
+  </style>
+  <style>
+    .manfieldbdr {
+      border-left: 2.5px solid #e53e3e !important;
+    }
+
+    .hleft {
+      text-align: left;
+    }
+
+    input[type=file]::-webkit-file-upload-button {
+      cursor: pointer;
+    }
+
+    .wtcsepcode {
+      display: none;
+    }
+
+    .wtccloudattach {
+      float: left;
+      color: #1d5fa8 !important;
+      cursor: pointer;
+      text-decoration: none !important;
+      font-size: 12px;
+    }
+
+    .wtcuploadinput {
+      cursor: pointer;
+      float: left;
+      width: 62px;
+      margin-top: -20px;
+      opacity: 0;
+      clear: both;
+    }
+
+    .wtcuploadfile {
+      float: left;
+      color: #1d5fa8;
+    }
+
+    .filenamecls {
+      margin-right: 8px;
+      float: left;
+      margin-top: 5px;
+    }
+
+    .clboth {
+      clear: both;
+    }
+
+    #zsFileBrowseAttachments {
+      clear: both;
+      margin: 5px 0 0;
+    }
+
+    #tooltip-zc {
+      font: normal 12px 'DM Sans', sans-serif;
+      line-height: 18px;
+      position: absolute;
+      padding: 8px;
+      background: #fff;
+      border: 1px solid #1d5fa8;
+      border-radius: 8px;
+      color: #475569;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      z-index: 10000;
+    }
+
+    .wtcmanfield {
+      color: #e53e3e;
+      font-size: 14px;
+      position: relative;
+      top: 2px;
+      left: 1px;
+    }
+
+    #zsCloudAttachmentIframe {
+      width: 100%;
+      height: 100%;
+      z-index: 99999 !important;
+      position: fixed;
+      left: 0;
+      top: 0;
+      border-style: none;
+      display: none;
+      background-color: #fff;
+    }
+
+    .wtchelpinfo {
+      background-position: -246px -485px;
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      position: relative;
+      top: 2px;
+      background-image: url(https://static.zohocdn.com/zohodeskstatic/app/images/zs-mpro.b6c9cf2347c62390fdcb.png);
+    }
+  </style>
+
+  <script src='https://static.zohocdn.com/zohodeskstatic/app/js/jqueryandencoder.ef05974972bf3bca1b87.js'></script>
+  <script>window.addEventListener('pageshow', function () { const submitButton = document.getElementById('zsSubmitButton_120349000138968626'); if (submitButton) { submitButton.removeAttribute('disabled') } const captchaTextField = document.forms['zsWebToCase_120349000138968626']['zsWebFormCaptchaWord']; if (window.zsRegenerateCaptcha && captchaTextField.value) { captchaTextField.value = ''; captchaTextField.focus(); zsRegenerateCaptcha() } }); function trimBoth(str) { return jQuery.trim(str) } function setAllDependancyFieldsMapping() { var mapDependancyLabels = getMapDependenySelectValues(jQuery("[id='property(module)']").val(), "JSON_MAP_DEP_LABELS"); if (mapDependancyLabels) { for (var i = 0; i < mapDependancyLabels.length; i++) { var label = mapDependancyLabels[i]; var obj = document.forms['zsWebToCase_120349000138968626'][label]; if (obj) { setDependent(obj, true) } } } } function getMapDependenySelectValues(module, key) { var dependencyObj = jQuery.parseJSON(jQuery("[id='dependent_field_values_" + module + "']").val()); if (dependencyObj == undefined) { return dependencyObj } return dependencyObj[key] } function setDependent(obj, isload) { var name = obj.id || (obj[0] && obj[0].id) || ""; var module = jQuery("[id='property(module)']").val(); var val = ""; var myObject = getMapDependenySelectValues(module, "JSON_VALUES"); if (myObject != undefined) { val = myObject[name] } var mySelObject = getMapDependenySelectValues(module, "JSON_SELECT_VALUES"); if (val != null && val != "" && val != "null" && mySelObject) { var fields = val; for (var i in fields) { if (fields.hasOwnProperty(i)) { var isDependent = false; var label = i; var values = fields[i]; if (label.indexOf(")") > -1) { label = label.replace(/\)/g, '_____') } if (label.indexOf("(") > -1) { label = label.replace(/\(/g, '____') } if (label.indexOf(".") > -1) { label = label.replace(/\./g, '___') } var depObj = document.forms['zsWebToCase_120349000138968626'][label]; if (depObj && depObj.options) { var mapValues = ""; var selected_val = depObj.value; var depLen = depObj.options.length - 1; for (var n = depLen; n >= 0; n--) { if (depObj.options[n].selected) { if (mapValues == "") { mapValues = depObj.options[n].value } else { mapValues = mapValues + ";;;" + depObj.options[n].value } } } depObj.value = ""; var selectValues = mySelObject[label]; for (var k in values) { var rat = k; if (rat == "-None-") { rat = "" } var parentValues = mySelObject[name]; if (rat == trimBoth(obj.value)) { isDependent = true; depObj.length = 0; var depvalues = values[k]; var depLen = depvalues.length - 1; for (var j = 0; j <= depLen; j++) { var optionElement = document.createElement("OPTION"); var displayValue = depvalues[j]; var actualValue = displayValue; if (actualValue == "-None-") { optionElement.value = ""; displayValue = "-None-" } else { optionElement.value = actualValue } optionElement.text = displayValue; if (mapValues != undefined) { var mapValue = mapValues.split(";;;"); var len = mapValue.length; for (var p = 0; p < len; p++) { if (actualValue == mapValue[p]) { optionElement.selected = true } } } depObj.options.add(optionElement) } } } if (!isDependent) { depObj.length = 0; var len = selectValues.length; for (var j = 0; j < len; j++) { var actualValue = selectValues[j]; var optionElement = document.createElement("OPTION"); if (actualValue == "-None-") { optionElement.value = "" } else { optionElement.value = selectValues[j] } optionElement.text = selectValues[j]; depObj.options.add(optionElement) } depObj.value = selected_val } if (!isload) { setDependent(depObj, false) } var jdepObj = jQuery(depObj); if (jdepObj.hasClass('select2-offscreen')) { jdepObj.select2("val", jdepObj.val()) } } } } } } function setSelectAll(id) { var parentElement = document.getElementById(id); var hiddenInput = parentElement.querySelector('#hiddenoptions'); var selectAllElement = parentElement.querySelector('#selectall' + id); var selectedValues = []; var checkboxes = parentElement.querySelectorAll('.wb_multi_pick_input'); checkboxes.forEach(function (cb) { cb.checked = selectAllElement.checked; if (cb.checked && cb.value) { selectedValues.push(cb.value) } }); hiddenInput.value = selectedValues.join(',') } function setMultiSelectOption(id, obj) { var parentElement = document.getElementById(id); var hiddenInput = parentElement.querySelector('#hiddenoptions'); var selectAllElement = parentElement.querySelector('#selectall' + id); var selectedStr = hiddenInput.value; var selectedValues = selectedStr ? selectedStr.split(',') : []; if (obj.checked && obj.value) { selectedValues.push(obj.value) } else if (!obj.checked && obj.value) { selectedValues.splice(selectedValues.indexOf(obj.value), 1); selectAllElement.checked = false } else { selectAllElement.checked = false } hiddenInput.value = selectedValues.join(',') } var zctt = function () { var tt, mw = 400, top = 10, left = 0, doctt = document; var ieb = doctt.all ? true : false; return { showtt: function (cont, wid) { if (tt == null) { tt = doctt.createElement('div'); tt.setAttribute('id', 'tooltip-zc'); doctt.body.appendChild(tt); doctt.onmousemove = this.setpos; doctt.onclick = this.hidett } tt.style.display = 'block'; tt.innerHTML = cont; tt.style.width = wid ? wid + 'px' : 'auto'; if (!wid && ieb) { tt.style.width = tt.offsetWidth } if (tt.offsetWidth > mw) { tt.style.width = mw + 'px' } h = parseInt(tt.offsetHeight) + top; w = parseInt(tt.offsetWidth) + left }, hidett: function () { tt.style.display = 'none' }, setpos: function (e) { var u = ieb ? event.clientY + doctt.body.scrollTop : e.pageY; var l = ieb ? event.clientX + doctt.body.scrollLeft : e.pageX; var cw = doctt.body.clientWidth; var ch = doctt.body.clientHeight; if (l < 0) { tt.style.left = left + 'px'; tt.style.right = '' } else if ((l + w + left) > cw) { tt.style.left = ''; tt.style.right = ((cw - l) + left) + 'px' } else { tt.style.right = ''; tt.style.left = (l + left) + 'px' } if (u < 0) { tt.style.top = top + 'px'; tt.style.bottom = '' } else if ((u + h + left) > ch) { tt.style.top = ''; tt.style.bottom = ((ch - u) + top) + 'px' } else { tt.style.bottom = ''; tt.style.top = (u + top) + 'px' } } } }(); var zsWebFormMandatoryFields = new Array("Contact Name", "Email", "Phone", "Subject"); var zsFieldsDisplayLabelArray = new Array("Name", "Email", "Phone", "Subject"); function reformatAllDateFields() { const dateFields = document.querySelectorAll('.dob-field'); dateFields.forEach(field => { if (field.value && field.value.includes('-')) { const parts = field.value.split('-'); if (parts.length === 3) { const [yyyy, mm, dd] = parts; field.type = 'text'; field.value = `${dd}/${mm}/${yyyy}` } } }) } function zsValidateMandatoryFields() { var name = ''; var email = ''; var isError = 0; for (var index = 0; index < zsWebFormMandatoryFields.length; index++) { isError = 0; var fieldObject = document.forms['zsWebToCase_120349000138968626'][zsWebFormMandatoryFields[index]]; if (fieldObject) { if (((fieldObject.value).replace(/^\s+|\s+$/g, '')).length == 0) { alert(zsFieldsDisplayLabelArray[index] + ' cannot be empty '); fieldObject.focus(); isError = 1; return false } else { if (fieldObject.name == 'Email') { if (!fieldObject.value.match(/^([\w_][\w\-_.+\'&]*)@(?=.{4,256}$)(([\w]+)([\-_]*[\w])*[\.])+[a-zA-Z]{2,22}$/)) { isError = 1; alert('Enter a valid email-Id'); fieldObject.focus(); return false } } } if (fieldObject.nodeName == 'SELECT') { if (fieldObject.options[fieldObject.selectedIndex].value == '-None-') { alert(zsFieldsDisplayLabelArray[index] + ' cannot be none'); fieldObject.focus(); isError = 1; return false } } if (fieldObject.type == 'checkbox') { if (fieldObject.checked == false) { alert('Please accept ' + zsFieldsDisplayLabelArray[index]); fieldObject.focus(); isError = 1; return false } } } } if (isError == 0) { if (document.forms['zsWebToCase_120349000138968626']['zsWebFormCaptchaWord'].value.replace(/^\s+|\s+$/g, '').length == 0) { alert('Please enter the captcha code.'); document.forms['zsWebToCase_120349000138968626']['zsWebFormCaptchaWord'].focus(); return false } } if (isError == 0) { reformatAllDateFields(); document.getElementById('zsSubmitButton_120349000138968626').setAttribute('disabled', 'disabled') } } var ZSEncoder = { encodeForHTML: function (str) { if (str && typeof (str) === 'string') { return jQuery.encoder.encodeForHTML(str) } return str }, encodeForHTMLAttribute: function (str) { if (str && typeof (str) === 'string') { return jQuery.encoder.encodeForHTMLAttribute(str) } return str }, encodeForJavascript: function (str) { if (str && typeof (str) === 'string') { return jQuery.encoder.encodeForJavascript(str) } return str }, encodeForCSS: function (str) { if (str && typeof (str) === 'string') { return jQuery.encoder.encodeForCSS(str) } return str } }; var zsAttachedAttachmentsCount = 0; var zsAllowedAttachmentLimit = 4; var zsAttachmentFileBrowserIdsList = [1, 2, 3, 4, 5]; function zsOpenCloudPickerIframe() { if (zsAttachedAttachmentsCount < 5) { var zsCloudPickerIframeSrc = jQuery('#zsCloudPickerIframeSrc').val(); jQuery('#zsCloudAttachmentIframe').attr('src', zsCloudPickerIframeSrc.substring(0, zsCloudPickerIframeSrc.length - 1) + (5 - zsAttachedAttachmentsCount)).show(); zsListenCloudPickerMessages() } } function zsListenCloudPickerMessages() { if (window.addEventListener) { window.addEventListener('message', zsWebReceiveMessage, false) } else if (window.attachEvent) { window.attachEvent('onmessage', zsWebReceiveMessage) } } var zsCloudPickerJSON = {}; function zsWebReceiveMessage(event) { var zsUrlRegex = /^(ht|f)tp(s?)\:\/\/[0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*(:(0-9)*)*(\/?)([a-zA-Z0-9\-\.\?\,\:\'\/\\+=&amp;%\$#_]*)?$/; if (zsUrlRegex.test(event.origin)) { var zsMessageType = event.data.split('&&&'); if (zsMessageType[0] == 'zsCloudPickerMessage') { if (window.addEventListener) { window.removeEventListener('message', zsWebReceiveMessage, false) } else if (window.attachEvent) { window.detachEvent('onmessage', zsWebReceiveMessage) } jQuery('#zsCloudAttachmentIframe').hide(); var isAttachedFilesDetails = zsMessageType[1].split('|||'); if (isAttachedFilesDetails[0] == 'cloudPickerResponse') { var zsCloudPickerAttachmentDetails = isAttachedFilesDetails[1].split('::::'); var zsCloudPickerAttachmentsJSON = jQuery.parseJSON(zsCloudPickerAttachmentDetails[0]); if (zsAttachedAttachmentsCount <= zsAllowedAttachmentLimit) { zsRenderCloudAttachments(zsCloudPickerAttachmentsJSON) } else { alert('You cannot attach more than 5 files'); return false } } } } } function zsRenderCloudAttachments(zsCloudPickerAttachmentsJSON) { if (!jQuery.isEmptyObject(zsCloudPickerAttachmentsJSON)) { jQuery.each(zsCloudPickerAttachmentsJSON, function (cloudServiceName, attachments) { var zsAttachmentsArray = []; if (!jQuery.isEmptyObject(zsCloudPickerJSON[cloudServiceName])) { zsAttachmentsArray = zsCloudPickerJSON[cloudServiceName] } for (var attachmentsIndex = 0; attachmentsIndex < attachments.length; attachmentsIndex++) { if (zsAttachedAttachmentsCount <= zsAllowedAttachmentLimit) { var zsCloudAttachmentsList = ''; var attachmentsDetailJSON = attachments[attachmentsIndex]; var zsCloudAttachmentName = attachmentsDetailJSON['docName']; var extension = zsCloudAttachmentName.split('.').pop().toLowerCase(); var unSupportedExtensions = ["ade", "adp", "apk", "appx", "appxbundle", "bat", "cab", "cer", "chm", "cmd", "com", "cpl", "dll", "dmg", "exe", "hlp", "hta", "ins", "iso", "isp", "jar", "js", "jse", "lnk", "mde", "msc", "msi", "msix", "msixbundle", "msp", "mst", "nsh", "pif", "ps1", "pst", "reg", "scr", "sct", "shb", "sys", "tmp", "url", "vb", "vbe", "vbs", "vxd", "wsc", "wsf", "wsh", "terminal"]; if (unSupportedExtensions.indexOf(extension) != -1) { alert("The file wasn't attached since its extension is not supported."); continue } zsAttachedAttachmentsCount = zsAttachedAttachmentsCount + 1; var zsCloudAttachmentId = attachmentsDetailJSON['docId']; zsCloudAttachmentId = zsCloudAttachmentId.replace(/\s/g, ''); zsCloudAttachmentsList = '<div class="filenamecls zsFontClass">' + ZSEncoder.encodeForHTML(zsCloudAttachmentName) + '<a id="' + ZSEncoder.encodeForHTMLAttribute(zsCloudAttachmentId) + '" cloudservice="' + ZSEncoder.encodeForHTMLAttribute(cloudServiceName) + '" class="zscloudAttachment" style="margin-left:10px;" href="javascript:;">X</a> </div>'; jQuery('#zsFileBrowseAttachments').append(zsCloudAttachmentsList); zsAttachmentsArray.push(attachmentsDetailJSON); zsCloudPickerJSON[cloudServiceName] = zsAttachmentsArray; jQuery("input[name='zsCloudPickerAttachments']")[0].value = JSON.stringify(zsCloudPickerJSON) } } }) } zsChangeMousePointer() } jQuery(document).off('click.cAtm').on('click.cAtm', '.zscloudAttachment', function () { var cloudService = jQuery(this).attr('cloudservice'); var cloudAttachmentId = jQuery(this).attr('id'); var zsCloudAttachmentsArr = zsCloudPickerJSON[cloudService]; var isZsCloudAttachmentRemoved = 0; for (var attachmentsIndex = 0; attachmentsIndex < zsCloudAttachmentsArr.length; attachmentsIndex++) { if (isZsCloudAttachmentRemoved != 1) { jQuery.each(zsCloudAttachmentsArr[attachmentsIndex], function (attachmentsDetailJsonKey, attachmentsDetailJsonValue) { if (attachmentsDetailJsonKey == 'docId' && attachmentsDetailJsonValue.replace(/\s/g, '') == cloudAttachmentId) { var zsAttachmentToBeRemoved = jQuery.inArray(zsCloudAttachmentsArr[attachmentsIndex], zsCloudAttachmentsArr); zsCloudAttachmentsArr.splice(zsAttachmentToBeRemoved, 1); isZsCloudAttachmentRemoved = 1 } }) } } jQuery(this).parent().remove(); zsAttachedAttachmentsCount = zsAttachedAttachmentsCount - 1; jQuery("input[name='zsCloudPickerAttachments']")[0].value = JSON.stringify(zsCloudPickerJSON); zsChangeMousePointer() }); function zsRenderBrowseFileAttachment(zsAttachmentObject, zsAttachmentDetails) { if (zsAttachmentObject != '') { if ((zsAttachmentDetails.files && (zsAttachmentDetails.files[0].size / (1024 * 1024)) > 20)) { zsAttachmentDetails.value = ''; alert('Maximum allowed file size is 20MB.'); return } if (zsAttachedAttachmentsCount < 5) { var zsFileName = ''; if ((zsAttachmentObject.indexOf('\\') > -1)) { var zsAttachmentDataSplits = zsAttachmentObject.split('\\'); var zsAttachmentDataSplitsLen = zsAttachmentDataSplits.length; zsFileName = zsAttachmentDataSplits[zsAttachmentDataSplitsLen - 1] } else { zsFileName = zsAttachmentObject } var extension = zsFileName.split('.').pop().toLowerCase(); var unSupportedExtensions = ["ade", "adp", "apk", "appx", "appxbundle", "bat", "cab", "cer", "chm", "cmd", "com", "cpl", "dll", "dmg", "exe", "hlp", "hta", "ins", "iso", "isp", "jar", "js", "jse", "lnk", "mde", "msc", "msi", "msix", "msixbundle", "msp", "mst", "nsh", "pif", "ps1", "pst", "reg", "scr", "sct", "shb", "sys", "tmp", "url", "vb", "vbe", "vbs", "vxd", "wsc", "wsf", "wsh", "terminal"]; if (unSupportedExtensions.indexOf(extension) != -1) { alert("The file wasn't attached since its extension is not supported."); return } var zsCurrentAttachmentIdTokens = jQuery(zsAttachmentDetails).attr('id').split('_'); var zsCurrentAttachmentId = parseInt(zsCurrentAttachmentIdTokens[1]); var zsAttachmentIdToBeRemoved = jQuery.inArray(zsCurrentAttachmentId, zsAttachmentFileBrowserIdsList); zsAttachmentFileBrowserIdsList.splice(zsAttachmentIdToBeRemoved, 1); var zsNextAttachmentId = zsAttachmentFileBrowserIdsList[0]; var zsnextAttachment = 'zsattachment_' + zsNextAttachmentId; jQuery('#zsattachment_' + zsCurrentAttachmentId).hide(); jQuery('#' + zsnextAttachment).show(); jQuery('#zsFileBrowseAttachments').append('<div class="filenamecls zsFontClass" id="file_' + zsCurrentAttachmentId + '">' + ZSEncoder.encodeForHTML(zsFileName) + '<a class="zsfilebrowseAttachment" style="margin-left:10px;" href="javascript:;" id="fileclose_' + zsCurrentAttachmentId + '">X</a></div>'); zsAttachedAttachmentsCount = zsAttachedAttachmentsCount + 1 } } zsChangeMousePointer() } jQuery(document).off('click.fba').on('click.fba', '.zsfilebrowseAttachment', function () { var currentlyDeletedElement = jQuery(this).attr('id').split('_')[1]; jQuery('#zsattachment_' + currentlyDeletedElement).val(''); jQuery('#zsattachment_' + currentlyDeletedElement).replaceWith(jQuery('#zsattachment_' + currentlyDeletedElement).clone()); jQuery(this).parent().remove(); zsAttachedAttachmentsCount = zsAttachedAttachmentsCount - 1; zsAttachmentFileBrowserIdsList.push(parseInt(currentlyDeletedElement)); zsRearrangeFileBrowseAttachments(); zsChangeMousePointer() }); function zsRearrangeFileBrowseAttachments() { jQuery.each(jQuery('input[type = file]'), function (fileIndex, fileObject) { fileIndex = fileIndex + 1; if (fileIndex == zsAttachmentFileBrowserIdsList[0]) { jQuery('#zsattachment_' + fileIndex).show() } else { jQuery('#zsattachment_' + fileIndex).hide() } }) } function zsOpenFileBrowseAttachment(clickEvent) { if (zsAttachedAttachmentsCount >= 5) { clickEvent.preventDefault() } } function zsChangeMousePointer() { if (zsAttachedAttachmentsCount >= 5) { jQuery('#zsMaxLimitMessage').show(); jQuery('#zsattachment_1,#zsattachment_2,#zsattachment_3,#zsattachment_4,#zsattachment_5').hide(); jQuery('#zsBrowseAttachment,#zsCloudAttachment').css('cursor', 'default') } else { jQuery('#zsMaxLimitMessage').hide(); zsRearrangeFileBrowseAttachments(); jQuery('#zsBrowseAttachment,#zsCloudAttachment').css('cursor', 'pointer') } } function zsShowCaptcha() { jQuery('#zsCaptchaLoading').hide(); jQuery('#zsCaptcha').show() } function zsRegenerateCaptcha() { var webFormxhr = {}; webFormxhr = new XMLHttpRequest(); webFormxhr.open('GET', 'https://desk.zoho.in/support/GenerateCaptcha?action=getNewCaptcha&_=' + new Date().getTime(), true); webFormxhr.onreadystatechange = function () { if (webFormxhr.readyState === 4 && webFormxhr.status === 200) { try { var response = (webFormxhr.responseText != null) ? JSON.parse(webFormxhr.responseText) : ''; jQuery('#zsCaptchaUrl').load(zsShowCaptcha); document.getElementById('zsCaptchaUrl').src = response.captchaUrl; document.getElementsByName('xJdfEaS')[0].value = response.captchaDigest } catch (e) { } } }; webFormxhr.send() } document.addEventListener('readystatechange', function () { if (document.readyState === 'complete' && window.zsRegenerateCaptcha) { zsRegenerateCaptcha() } setAllDependancyFieldsMapping(); document.getElementById('zsSubmitButton_120349000138968626').removeAttribute('disabled'); zsAttachedAttachmentsCount = 0; zsAttachmentFileBrowserIdsList = [1, 2, 3, 4, 5]; document.forms['zsWebToCase_120349000138968626']['zsWebFormCaptchaWord'].value = ''; jQuery('#zsFileBrowseAttachments').html(''); jQuery.each(jQuery('input[type = file]'), function (fileIndex, fileObject) { var zsAttachmentId = jQuery(fileObject).attr('id'); var zsAttachmentNo = zsAttachmentId.split('_')[1]; var zsAttachedFile = jQuery('#zsattachment_' + zsAttachmentNo); if (zsAttachedFile[0] != undefined && zsAttachedFile[0].files[0] != undefined) { var zsFileBrowserAttachmentHtml = ''; zsAttachedFileName = zsAttachedFile[0].files[0].name; zsFileBrowserAttachmentHtml = '<div class="filenamecls zsFontClass" id="file_' + zsAttachmentNo + '">' + ZSEncoder.encodeForHTML(zsAttachedFileName) + '<a class="zsfilebrowseAttachment" style="margin-left:10px" href="javascript:;" id="fileclose_' + zsAttachmentNo + '">X</a></div>'; jQuery('#zsFileBrowseAttachments').append(zsFileBrowserAttachmentHtml); zsAttachedAttachmentsCount = zsAttachedAttachmentsCount + 1; var zsAttachmentIdToBeRemoved = jQuery.inArray(parseInt(zsAttachmentNo), zsAttachmentFileBrowserIdsList); zsAttachmentFileBrowserIdsList.splice(zsAttachmentIdToBeRemoved, 1) } }); if (document.forms['zsWebToCase_120349000138968626']['zsCloudPickerAttachments'] != undefined) { var zsCloudAttachments = jQuery.parseJSON(document.forms['zsWebToCase_120349000138968626']['zsCloudPickerAttachments'].value); zsRenderCloudAttachments(zsCloudAttachments) } zsRearrangeFileBrowseAttachments(); zsChangeMousePointer() }); function zsResetWebForm(webFormId) { document.forms['zsWebToCase_' + webFormId].reset(); document.getElementById('zsSubmitButton_120349000138968626').removeAttribute('disabled'); setAllDependancyFieldsMapping(); zsAttachedAttachmentsCount = 0; zsAttachmentFileBrowserIdsList = [1, 2, 3, 4, 5]; jQuery('#zsFileBrowseAttachments').html(''); zsCloudPickerJSON = {}; if (document.forms['zsWebToCase_120349000138968626']['zsCloudPickerAttachments'] != undefined) { document.forms['zsWebToCase_120349000138968626']['zsCloudPickerAttachments'].value = JSON.stringify({}) } zsRearrangeFileBrowseAttachments(); zsChangeMousePointer() }</script>
+
+</head>
+
+<body>
+
+  <div id='zohoSupportWebToCase'>
+    <div class="form-card">
+
+      <!-- Header -->
+      <div class="form-header">
+        <div class="header-tag">iGOT · Karmayogi</div>
+        <h1>Support Request</h1>
+        <p>Submit your query and our team will respond promptly.</p>
+      </div>
+
+      <form name='zsWebToCase_120349000138968626' id='zsWebToCase_120349000138968626'
+        action='https://desk.zoho.in/support/WebToCase' method='POST' onSubmit='return zsValidateMandatoryFields()'
+        enctype='multipart/form-data'>
+        <input type='hidden' name='xnQsjsdp' value='edbsnf7105b1962fe2f8eeb152d2e21200ea2' />
+        <input type='hidden' name='xmIwtLD'
+          value='edbsn9edad0d71644ef0ab3ba0b668cee6b609aaf5a09cf404d37a6cfca8a0a495535' />
+        <input type='hidden' name='xJdfEaS' value='' />
+        <input type='hidden' name='actionType' value='Q2FzZXM=' />
+        <input type="hidden" id="property(module)" value="Cases" />
+
+        <input type='hidden' name='returnURL' value='*' />
+
+        <div class="form-body">
+
+          <!-- Personal Information -->
+          <div class="form-section">
+            <div class="section-heading">
+              <div class="section-icon">👤</div>
+              <div class="section-title">Personal Information</div>
+              <div class="section-line"></div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Name <span class="req">*</span></label>
+                <input type='text' maxlength='120' name='Contact Name' class='manfieldbdr' placeholder="Full name" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Designation</label>
+                <input type='text' maxlength='120' name='Designation' value='' placeholder="Your designation" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Email <span class="req">*</span></label>
+                <input type='text' maxlength='120' name='Email' value='' class='manfieldbdr'
+                  placeholder="your@email.com" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email ID same as SPARROW</label>
+                <input type='text' maxlength='120' name='Email ID same as SPARROW' value=''
+                  placeholder="SPARROW registered email" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Phone <span class="req">*</span></label>
+                <input type='text' maxlength='120' name='Phone' value='' class='manfieldbdr'
+                  placeholder="+91 XXXXX XXXXX" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Details -->
+          <div class="form-section">
+            <div class="section-heading">
+              <div class="section-icon">🏛️</div>
+              <div class="section-title">Service Details</div>
+              <div class="section-line"></div>
+            </div>
+
+            <div class="form-row">
+              <!-- Service Details Section -->
+
+              <div class="section-divider"></div>
+              <div class="section-header">
+                <div class="section-title">Service Details</div>
+                <div class="section-subtitle">All India Services Information</div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Are you from All India Services</label>
+                  <select name="CASECF29" id="CASECF29" onchange="setDependent(this,false)">
+                    <option value="">-None-</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Service</label>
+                  <select name="CASECF24" id="CASECF24">
+                    <option value="">Select Service</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Cadre</label>
+                  <select name="CASECF26" id="CASECF26">
+                    <option value="">Select Cadre</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">AIS Officer</label>
+                  <select name="CASECF25" id="CASECF25">
+                    <option value="">Select</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Batch</label>
+                  <select name="CASECF27" id="CASECF27">
+                    <option value="">Select Batch</option>
+                  </select>
+                </div>
+              </div>
+
+              <input type="hidden" id="dependent_field_values_Cases"
+                value="{&#34;JSON_VALUES&#34;:{&#34;CASECF29&#34;:{&#34;CASECF24&#34;:{&#34;Yes&#34;:[&#34;Indian Administrative Service (IAS)&#34;,&#34;Indian Police Service (IPS)&#34;,&#34;Indian Forest Service (IFoS)&#34;]},&#34;CASECF26&#34;:{&#34;Yes&#34;:[&#34;AGMUT (Arunachal Pradesh-Goa-Mizoram and Union Territories)&#34;,&#34;Assam-Meghalaya&#34;,&#34;Bihar&#34;,&#34;Chhattisgarh&#34;,&#34;Gujarat&#34;,&#34;Haryana&#34;,&#34;Himachal Pradesh&#34;,&#34;Jammu and Kashmir&#34;,&#34;Jharkhand&#34;,&#34;Karnataka&#34;,&#34;Kerala&#34;,&#34;Madhya Pradesh&#34;,&#34;Maharashtra&#34;,&#34;Manipur-Tripura&#34;,&#34;Nagaland&#34;,&#34;Not Applicable&#34;,&#34;Odisha&#34;,&#34;Punjab&#34;,&#34;Rajasthan&#34;,&#34;Sikkim&#34;,&#34;Tamil Nadu&#34;,&#34;Telangana&#34;,&#34;Uttar Pradesh&#34;,&#34;Uttarakhand&#34;,&#34;West Bengal&#34;]},&#34;CASECF25&#34;:{&#34;Yes&#34;:[&#34;Yes&#34;]},&#34;CASECF27&#34;:{&#34;Yes&#34;:[&#34;1960&#34;,&#34;1962&#34;,&#34;1963&#34;,&#34;1964&#34;,&#34;1965&#34;,&#34;1966&#34;,&#34;1967&#34;,&#34;1968&#34;,&#34;1969&#34;,&#34;1970&#34;,&#34;1971&#34;,&#34;1972&#34;,&#34;1973&#34;,&#34;1974&#34;,&#34;1975&#34;,&#34;1976&#34;,&#34;1977&#34;,&#34;1978&#34;,&#34;1979&#34;,&#34;1980&#34;,&#34;1981&#34;,&#34;1982&#34;,&#34;1983&#34;,&#34;1984&#34;,&#34;1985&#34;,&#34;1986&#34;,&#34;1987&#34;,&#34;1988&#34;,&#34;1989&#34;,&#34;1990&#34;,&#34;1991&#34;,&#34;1992&#34;,&#34;1993&#34;,&#34;1994&#34;,&#34;1995&#34;,&#34;1996&#34;,&#34;1997&#34;,&#34;1998&#34;,&#34;1999&#34;,&#34;2000&#34;,&#34;2001&#34;,&#34;2002&#34;,&#34;2003&#34;,&#34;2004&#34;,&#34;2005&#34;,&#34;2006&#34;,&#34;2007&#34;,&#34;2008&#34;,&#34;2009&#34;,&#34;2010&#34;,&#34;2011&#34;,&#34;2012&#34;,&#34;2013&#34;,&#34;2014&#34;,&#34;2015&#34;,&#34;2016&#34;,&#34;2017&#34;,&#34;2018&#34;,&#34;2019&#34;,&#34;2020&#34;,&#34;2021&#34;,&#34;2022&#34;,&#34;2023&#34;,&#34;2024&#34;,&#34;2025&#34;,&#34;2026&#34;]}}},&#34;JSON_SELECT_VALUES&#34;:{&#34;CASECF24&#34;:[&#34;Indian Administrative Service (IAS)&#34;,&#34;Indian Police Service (IPS)&#34;,&#34;Indian Forest Service (IFoS)&#34;],&#34;CASECF26&#34;:[&#34;AGMUT (Arunachal Pradesh-Goa-Mizoram and Union Territories)&#34;,&#34;Assam-Meghalaya&#34;,&#34;Bihar&#34;,&#34;Chhattisgarh&#34;,&#34;Gujarat&#34;,&#34;Haryana&#34;,&#34;Himachal Pradesh&#34;,&#34;Jammu and Kashmir&#34;,&#34;Jharkhand&#34;,&#34;Karnataka&#34;,&#34;Kerala&#34;,&#34;Madhya Pradesh&#34;,&#34;Maharashtra&#34;,&#34;Manipur-Tripura&#34;,&#34;Nagaland&#34;,&#34;Not Applicable&#34;,&#34;Odisha&#34;,&#34;Punjab&#34;,&#34;Rajasthan&#34;,&#34;Sikkim&#34;,&#34;Tamil Nadu&#34;,&#34;Telangana&#34;,&#34;Uttar Pradesh&#34;,&#34;Uttarakhand&#34;,&#34;West Bengal&#34;],&#34;CASECF25&#34;:[&#34;No&#34;,&#34;Yes&#34;],&#34;CASECF27&#34;:[&#34;1960&#34;,&#34;1962&#34;,&#34;1963&#34;,&#34;1964&#34;,&#34;1965&#34;,&#34;1966&#34;,&#34;1967&#34;,&#34;1968&#34;,&#34;1969&#34;,&#34;1970&#34;,&#34;1971&#34;,&#34;1972&#34;,&#34;1973&#34;,&#34;1974&#34;,&#34;1975&#34;,&#34;1976&#34;,&#34;1977&#34;,&#34;1978&#34;,&#34;1979&#34;,&#34;1980&#34;,&#34;1981&#34;,&#34;1982&#34;,&#34;1983&#34;,&#34;1984&#34;,&#34;1985&#34;,&#34;1986&#34;,&#34;1987&#34;,&#34;1988&#34;,&#34;1989&#34;,&#34;1990&#34;,&#34;1991&#34;,&#34;1992&#34;,&#34;1993&#34;,&#34;1994&#34;,&#34;1995&#34;,&#34;1996&#34;,&#34;1997&#34;,&#34;1998&#34;,&#34;1999&#34;,&#34;2000&#34;,&#34;2001&#34;,&#34;2002&#34;,&#34;2003&#34;,&#34;2004&#34;,&#34;2005&#34;,&#34;2006&#34;,&#34;2007&#34;,&#34;2008&#34;,&#34;2009&#34;,&#34;2010&#34;,&#34;2011&#34;,&#34;2012&#34;,&#34;2013&#34;,&#34;2014&#34;,&#34;2015&#34;,&#34;2016&#34;,&#34;2017&#34;,&#34;2018&#34;,&#34;2019&#34;,&#34;2020&#34;,&#34;2021&#34;,&#34;2022&#34;,&#34;2023&#34;,&#34;2024&#34;,&#34;2025&#34;,&#34;2026&#34;],&#34;CASECF29&#34;:[&#34;No&#34;,&#34;Yes&#34;]},&#34;JSON_MAP_DEP_LABELS&#34;:[&#34;CASECF24&#34;,&#34;CASECF26&#34;,&#34;CASECF25&#34;,&#34;CASECF27&#34;]}" />
+
+              <div class="form-group">
+                <label class="form-label">Centre / State</label>
+                <select name='Centre / State' value='' onchange="setDependent(this, false)" id='CASECF21'>
+                  <option value='Centre'>Centre</option>
+                  <option value='State'>State</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Issues related to Training Plan and Comprehensive</label>
+              <select name='Issues related to Training Plan and Comprehensive' value=''
+                onchange="setDependent(this, false)" id='CASECF28'>
+                <option value='APAR Training Plan not visible'>APAR Training Plan not visible</option>
+                <option value='Issue on course completion'>Issue on course completion</option>
+                <option value='Certificate not generated'>Certificate not generated</option>
+                <option value='Course completed but Comprehensive Assessment still locked'>Course completed but
+                  Comprehensive Assessment still locked</option>
+                <option value='Training plan data not appearing on SPARROW APAR'>Training plan data not appearing on
+                  SPARROW APAR</option>
+                <option value='Others'>Others</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Your Query -->
+          <div class="form-section">
+            <div class="section-heading">
+              <div class="section-icon">📝</div>
+              <div class="section-title">Your Query</div>
+              <div class="section-line"></div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Subject <span class="req">*</span></label>
+              <input type='text' maxlength='255' name='Subject' value='' class='manfieldbdr'
+                placeholder="Brief subject of your issue" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Description</label>
+              <textarea name='Description' maxlength='3000'
+                placeholder="Describe your issue in detail — include any relevant steps or error messages…"></textarea>
+            </div>
+          </div>
+
+          <!-- Attachment -->
+          <div class="form-section">
+            <div class="section-heading">
+              <div class="section-icon">📎</div>
+              <div class="section-title">Attachment</div>
+              <div class="section-line"></div>
+            </div>
+            <div class="attach-zone" style="position:relative;">
+              <div class="attach-icon">📁</div>
+              <div class="attach-text">
+                <strong><span class="zsFontClass wtcuploadfile" id="zsBrowseAttachment">Attach files</span></strong>
+                <span>Up to 5 files · Max 20 MB each</span>
+              </div>
+              <input class="wtcuploadinput" type='file' name='attachment_1' id='zsattachment_1'
+                style='display:block;position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;cursor:pointer;'
+                onclick='zsOpenFileBrowseAttachment(event)' onchange='zsRenderBrowseFileAttachment(this.value, this)' />
+              <input class="wtcuploadinput" type='file' name='attachment_2' id='zsattachment_2' style='display:none;'
+                onclick='zsOpenFileBrowseAttachment(event)' onchange='zsRenderBrowseFileAttachment(this.value, this)' />
+              <input class="wtcuploadinput" type='file' name='attachment_3' id='zsattachment_3' style='display:none;'
+                onclick='zsOpenFileBrowseAttachment(event)' onchange='zsRenderBrowseFileAttachment(this.value, this)' />
+              <input class="wtcuploadinput" type='file' name='attachment_4' id='zsattachment_4' style='display:none;'
+                onclick='zsOpenFileBrowseAttachment(event)' onchange='zsRenderBrowseFileAttachment(this.value, this)' />
+              <input class="wtcuploadinput" type='file' name='attachment_5' id='zsattachment_5' style='display:none;'
+                onclick='zsOpenFileBrowseAttachment(event)' onchange='zsRenderBrowseFileAttachment(this.value, this)' />
+            </div>
+            <div class="clboth"></div>
+            <span id='zsMaxSizeMessage'
+              style='color:#8098b4;font-size:11px;display:block;margin-top:8px;float:none;'>Each file can be up to 20MB
+              in size.</span>
+            <span id='zsMaxLimitMessage'
+              style='color:#8098b4;font-size:11px;display:none;margin-top:4px;float:none;'>You can attach as many as 5
+              files at a time.</span>
+            <div id='zsFileBrowseAttachments'></div>
+          </div>
+
+          <!-- Hidden consent -->
+          <div style='display:none'>
+            <input type='checkbox' name='Sharing the above details for query resolution on' />
+          </div>
+
+          <!-- Captcha -->
+          <div class="form-section">
+            <div class="section-heading">
+              <div class="section-icon">🔒</div>
+              <div class="section-title">Verification</div>
+              <div class="section-line"></div>
+            </div>
+            <div class="captcha-row">
+              <div id='zsCaptchaLoading'><span style="font-size:12px;color:#8098b4;">Loading captcha…</span></div>
+              <div id='zsCaptcha' style='display:none;'>
+                <img src='#' id='zsCaptchaUrl' name="zsCaptchaImage"
+                  style="height:42px;border-radius:8px;border:1px solid #dce6f0;">
+                <a href='javascript:;' onclick='zsRegenerateCaptcha()'>↻ Refresh</a>
+              </div>
+              <input type='text' name='zsWebFormCaptchaWord' placeholder="Enter captcha code" />
+              <input type='hidden' name='zsCaptchaSrc' value='' />
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="form-actions">
+            <input type='button' value='Reset' onclick="zsResetWebForm('120349000138968626')" />
+            <input type='submit' id="zsSubmitButton_120349000138968626" value='Submit Request →' />
+          </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="form-footer">
+          <div class="footer-note"><span>*</span> Required fields</div>
+          <div class="footer-brand">
+            Powered by
+            <img src='https://static.zohocdn.com/zohodeskstatic/app/images/portalLogo.de847024ebc0131731a3.png'
+              alt="Zoho" />
+            Zoho Desk
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <iframe id='zsCloudAttachmentIframe'
+    style="width:100%;height:100%;z-index:99999!important;position:fixed;left:0;top:0;border:none;display:none;background:#fff;"></iframe>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const ais = document.getElementById("CASECF29")
+      if (ais && ais.value) {
+        setDependent(ais, false)
+      }
+    });
+  </script>
+</body>
+
+</html>

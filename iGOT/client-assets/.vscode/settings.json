@@ -3,7 +3,7 @@
     "jslint.version": "es6",
     "[javascript]": {
         "editor.codeActionsOnSave": {
-            "source.fixAll": true
+            "source.fixAll": "explicit"
         }
     },
 }
