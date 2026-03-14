@@ -65,17 +65,35 @@
                                     "routes": {
                                         "amrit-gyaan-kosh": false
                                     },
-                                    "discussion": false,
-                                    "network": false,
-                                    "events": false,
-                                    "leaderboard": false,
-                                    "marketplace": false,
-                                    "chatbot": false,
-                                    "tour": false,
-                                    "bottomNav": false,
-                                    "downloadApp": false,
-                                    "topProviders": false,
-                                    "otherPortals": false
+                                    "home": {
+                                        "discussion": false,
+                                        "network": false,
+                                        "events": false,
+                                        "leaderboard": false,
+                                        "marketplace": false,
+                                        "chatbot": false,
+                                        "tour": false,
+                                        "bottomNav": false,
+                                        "downloadApp": false,
+                                        "topProviders": false,
+                                        "otherPortals": false,
+                                        "profileKarmapoints": false,
+                                        "profileLeaderBoard": false,
+                                        "profileWeeklyClaps": false
+                                    },
+                                    "toc": {
+                                        "startDiscussion": false,
+                                        "samuhikCharcha": false,
+                                        "aiTutor": false,
+                                        "assignment": false,
+                                        "transcription": false,
+                                        "karmaPoints": false,
+                                        "shareToc": false
+                                    },
+                                    "player": {
+                                        "subtitle": false,
+                                        "shareToc": false
+                                    }
                                 }
                             }
                         }
