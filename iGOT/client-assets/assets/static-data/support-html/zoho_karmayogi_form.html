@@ -783,21 +783,6 @@
       line-height: 1.55;
       flex: 1;
     }
-
-    .error-message {
-      font-size: 12px;
-      color: #C0392B;
-      margin-top: 4px;
-    }
-
-    .input-error {
-      border-color: #C0392B !important;
-      background: #fff5f5 !important;
-    }
-
-    .input-valid {
-      border-color: #2ecc71 !important;
-    }
   </style>
 </head>
 
@@ -854,7 +839,6 @@
           <div class="form-group">
             <label class="field-label">Phone <span class="req">*</span></label>
             <input type='text' maxlength='120' name='Phone' placeholder="+91 XXXXX XXXXX" />
-            <div class="error-message" id="phone-error"></div>
           </div>
         </div>
 
@@ -862,7 +846,6 @@
           <div class="form-group">
             <label class="field-label">iGot Email <span class="req">*</span></label>
             <input type='text' maxlength='120' name='Email' placeholder="you@example.com" />
-            <div class="error-message" id="email-error"></div>
           </div>
           <div class="form-group">
             <label class="field-label">Sparrow Email ID</label>
@@ -1073,7 +1056,6 @@
           <div class="attach-hint">Only .jpg , .jpeg, .png , .svg , .doc, .pdf , .mp4 files are supported</div>
           <div class="attach-hint">Up to 5 files · Max 20 MB each</div>
         </div>
-        <div class="error-message" id="attachment-error"></div>
 
         <input type='file' name='attachment_1' id='zsattachment_1'
           style='display:none !important;position:absolute;width:0;height:0;opacity:0;pointer-events:none'
@@ -1365,7 +1347,7 @@
 
       var captcha = document.forms['zsWebToCase_120349000138968626']['zsWebFormCaptchaWord']
       if (!captcha || trimBoth(captcha.value).length === 0) {
-        alert('Please enter the captcha code. nsdbvfndsvbfsdjfsvh')
+        alert('Please enter the captcha code.')
         if (captcha) captcha.focus()
         return false
       }
