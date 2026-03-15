@@ -1053,6 +1053,7 @@
             </svg>
           </div>
           <div class="attach-label"><span>Click to browse</span> or drag &amp; drop files here</div>
+          <div class="attach-hint">Only .jpg , .jpeg, .png , .svg , .doc, .pdf , .mp4 files are supported</div>
           <div class="attach-hint">Up to 5 files · Max 20 MB each</div>
         </div>
 
@@ -1326,6 +1327,7 @@
       if (subjEl && !subjEl.value.startsWith(SUBJECT_PREFIX)) {
         subjEl.value = SUBJECT_PREFIX + subjEl.value
       }
+
       for (var i = 0; i < zsWebFormMandatoryFields.length; i++) {
         var field = document.forms['zsWebToCase_120349000138968626'][zsWebFormMandatoryFields[i]]
         if (!field) continue
@@ -1338,7 +1340,11 @@
             alert('Enter a valid email address'); field.focus(); return false
           }
         }
+
+
       }
+
+
       var captcha = document.forms['zsWebToCase_120349000138968626']['zsWebFormCaptchaWord']
       if (!captcha || trimBoth(captcha.value).length === 0) {
         alert('Please enter the captcha code.')
