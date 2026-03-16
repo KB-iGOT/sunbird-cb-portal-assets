@@ -1845,12 +1845,12 @@
     {
       "active": true,
       "banners": {
-        "l": "assets/instances/eagle/banners/orgs/new-banner/1/lg.jpg",
-        "m": "assets/instances/eagle/banners/orgs/new-banner/1/m.png",
-        "s": "assets/instances/eagle/banners/orgs/new-banner/1/s.png",
-        "xl": "assets/instances/eagle/banners/orgs/new-banner/1/lg.jpg",
-        "xs": "assets/instances/eagle/banners/orgs/new-banner/1/s.png",
-        "xxl": "assets/instances/eagle/banners/orgs/new-banner/1/lg.jpg"
+        "l": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "m": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "s": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xl": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xs": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xxl": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg"
       },
       "redirectUrl": "/app/globalsearch",
       "openInNewTab": false,
@@ -1865,12 +1865,12 @@
     {
       "active": true,
       "banners": {
-        "l": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
-        "m": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
-        "s": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
-        "xl": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
-        "xs": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
-        "xxl": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg"
+        "l": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "m": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "s": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xl": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xs": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xxl": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg"
       },
       "redirectUrl": "https://ncrb.gov.in/uploads/SankalanPortal/Index.html",
       "openInNewTab": true,
@@ -1885,12 +1885,12 @@
     {
       "active": true,
       "banners": {
-        "l": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
-        "m": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
-        "s": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
-        "xl": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
-        "xs": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
-        "xxl": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg"
+        "l": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "m": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "s": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xl": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xs": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xxl": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg"
       },
       "redirectUrl": "",
       "queryParams": {
@@ -1904,12 +1904,12 @@
     {
       "active": true,
       "banners": {
-        "l": "assets/instances/eagle/banners/orgs/new-banner/2/lg.jpg",
-        "m": "assets/instances/eagle/banners/orgs/new-banner/2/m.png",
-        "s": "assets/instances/eagle/banners/orgs/new-banner/2/s.png",
-        "xl": "assets/instances/eagle/banners/orgs/new-banner/2/lg.jpg",
-        "xs": "assets/instances/eagle/banners/orgs/new-banner/2/s.png",
-        "xxl": "assets/instances/eagle/banners/orgs/new-banner/2/lg.jpg"
+        "l": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "m": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "s": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xl": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xs": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg",
+        "xxl": "assets/instances/eagle/banners/orgs/new-banner/m/banner.svg"
       },
       "redirectUrl": "/app/globalsearch",
       "queryParams": {
