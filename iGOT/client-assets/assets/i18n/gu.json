@@ -2619,6 +2619,7 @@
     "endYear": "સમાપ્ત વર્ષ",
     "pleaseSelectEndYear": "મહેરબાની કરીને સમાપ્ત વર્ષ પસંદ કરો",
     "awards/Publications/OtherCertifications": "એવોર્ડ્સ/પ્રકાશનો/અન્ય પ્રમાણપત્રો",
+    "noteForAwards": "30 મિનિટ પછી લર્નર પાસબુકમાં વધારાની સિદ્ધિઓ પ્રતિબિંબિત થશે",
     "title": "શીર્ષક",
     "egExcelBeginner": "ઉદાહરણ: એક્સેલ પ્રારંભિક",
     "pleaseEnterTitle": "મહેરબાની કરીને શીર્ષક દાખલ કરો",
@@ -2680,9 +2681,9 @@
     "learningHoursShouldBeLessThan10000": "શીખવાની કલાકો 10000 કરતા ઓછા હોવા જોઈએ",
     "noDataFound": "કોઈ ડેટા મળ્યો નથી",
     "startDateShouldNotEndDate": "શરૂઆતની તારીખ અંતિમ તારીખ પછી ન હોઈ શકે",
-    "viewLearningPassbook": "લર્નિંગ પાસબુક જુઓ",
+    "viewLearnerPassbook": "લર્નર પાસબુક જુઓ",
     "learningProgress": "શીખવાની પ્રગતિ",
-    "learningPassbook": "લર્નિંગ પાસબુક",
+    "learnerPassbook": "લર્નર પાસબુક",
     "learningProgressDescription": "તમારી શીખવાની યાત્રા, માન્ય કૌશલ્યો અને વ્યાવસાયિક વૃદ્ધિને એક વ્યાપક દૃશ્યમાં ટ્રૅક કરો."
   },
   "NetworkLandingPage": {
