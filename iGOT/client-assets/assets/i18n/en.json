@@ -936,7 +936,7 @@
         "mark": "Mark",
         "clearResponse": "Clear Response",
         "markForReviewNext": "Mark for Review & next",
-        "warningNoteForAssessmentSubmit": "Do you want to submit your test finally. After submitting test, you will have to start the test from beginning.",
+        "warningNoteForAssessmentSubmit": "Are you sure you want to submit the test?",
         "submitYes": "Yes",
         "submitNo": "No",
         "back": "Back",
@@ -961,7 +961,6 @@
         "yourPerformanceSummary": "Your Performance Summary",
         "retakeAssessment": "Retake assessment",
         "myPerformanceSummary": "My Performance Summary",
-
         "mySectionwiseSummary": "My Sectionwise summary",
         "insights": "Insights",
         "reattemptTest": "Reattempt Test",
