@@ -2766,6 +2766,7 @@
     "endYear": "समाप्ति वर्ष",
     "pleaseSelectEndYear": "कृपया एक समाप्ति वर्ष चुनें",
     "awards/Publications/OtherCertifications": "पुरस्कार/प्रकाशन/अन्य प्रमाणपत्र",
+    "noteForAwards": "30 मिनट के बाद अतिरिक्त उपलब्धियां लर्नर पासबुक में दिखाई देंगी",
     "title": "शीर्षक",
     "egExcelBeginner": "उदाहरण: एक्सेल प्रारंभिक",
     "pleaseEnterTitle": "कृपया एक शीर्षक दर्ज करें",
@@ -2836,9 +2837,9 @@
     "learningHoursShouldBeLessThan10000": "लर्निंग घंटे 10000 से कम होने चाहिए",
     "noDataFound": "कोई डेटा नहीं मिला",
     "startDateShouldNotEndDate": "प्रारंभ तिथि समाप्ति तिथि के बाद नहीं हो सकती",
-    "viewLearningPassbook": "लर्निंग पासबुक देखें",
+    "viewLearnerPassbook": "शिक्षार्थी पासबुक देखें",
     "learningProgress": "लर्निंग प्रगति",
-    "learningPassbook": "लर्निंग पासबुक",
+    "learnerPassbook": "शिक्षार्थी पासबुक",
     "learningProgressDescription": "एक ही व्यापक दृष्टिकोण में अपनी सीखने की यात्रा, प्रमाणित कौशल और व्यावसायिक विकास को ट्रैक करें।"
   },
   "NetworkLandingPage": {

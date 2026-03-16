@@ -2719,6 +2719,7 @@
         "endYear": "End Year",
         "pleaseSelectEndYear": "Please select an end year",
         "awards/Publications/OtherCertifications": "Awards/Publications/Other Certifications",
+        "noteForAwards": "Added achievements will be reflected in the Learner Passbook after 30 minutes",
         "title": "Title",
         "egExcelBeginner": "e.g. Excel beginner",
         "pleaseEnterTitle": "Please enter a title",
@@ -2789,9 +2790,9 @@
         "learningHoursShouldBeLessThan10000": "Learning hours should be less than 1000",
         "noDataFound": "No data found",
         "startDateShouldNotEndDate": "Start date cannot be after end date",
-        "viewLearningPassbook": "View Learning Passbook",
+        "viewLearnerPassbook": "View Learner Passbook",
         "learningProgress": "Learning Progress",
-        "learningPassbook": "Learning Passbook",
+        "learnerPassbook": "Learner Passbook",
         "learningProgressDescription": "Track your learning journey, validated skills, and professional growth in one comprehensive view."
     },
     "NetworkLandingPage": {
