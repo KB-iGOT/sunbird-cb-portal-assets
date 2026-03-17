@@ -25,6 +25,7 @@
       --ink: #0D1F4E;
       --ink-2: #2C3A6B;
       --ink-3: #6B7BAA;
+      --ink-4: #b30a04;
       --divider: #D6DDEF;
       --radius: 8px;
       --radius-lg: 14px;
@@ -783,6 +784,12 @@
       line-height: 1.55;
       flex: 1;
     }
+
+    .designation-inform {
+      font-size: 11.5px;
+      color: var(--ink-4);
+      margin-top: 4px;
+    }
   </style>
 </head>
 
@@ -856,6 +863,7 @@
         <div class="form-group">
           <label class="field-label">Designation</label>
           <input type='text' maxlength='120' name='Designation' placeholder="Your current designation" />
+          <span class="designation-inform">Please update the designation if the current one is incorrect.</span>
         </div>
 
         <hr class="divider">
@@ -868,7 +876,7 @@
         </div>
 
         <div class="form-group">
-          <label class="field-label">Centre / State</label>
+          <label class="field-label">Centre / State <span class="req">*</span></label>
           <div class="radio-group">
             <label class="radio-card" id="btn-centre" for="CASECF21_centre">
               <input type="radio" name="Centre / State" id="CASECF21_centre" value="Centre"
@@ -887,9 +895,9 @@
         <div class="conditional-block ministry-block" id="ministry-block">
           <div class="conditional-inner">
             <div class="form-group" style="margin-bottom:0">
-              <label class="field-label" id="ministry-label">Ministry / Department / Organization</label>
+              <label class="field-label" id="ministry-label">Ministry / Department / Organization <span class="req">*</span></label>
               <input type='text' maxlength='120' name='Ministry /State/ Department / Organization' id="ministry-input"
-                placeholder="Enter ministry or organization name" />
+                placeholder="Enter ministry, department or organization name" />
             </div>
           </div>
         </div>
@@ -1178,11 +1186,11 @@
       if (radio.value === 'Centre') {
         document.getElementById('btn-centre').classList.add('active')
         lbl.textContent = 'Ministry / Department / Organization'
-        inp.placeholder = 'Enter ministry or department name'
+        inp.placeholder = 'Enter ministry, department, or organization name'
       } else {
         document.getElementById('btn-state').classList.add('active')
         lbl.textContent = 'State / Department / Organization'
-        inp.placeholder = 'Enter state department or organization name'
+        inp.placeholder = 'Enter state, department or organization name'
       }
     }
 
@@ -1326,6 +1334,25 @@
       var subjEl = document.getElementById('subject-input')
       if (subjEl && !subjEl.value.startsWith(SUBJECT_PREFIX)) {
         subjEl.value = SUBJECT_PREFIX + subjEl.value
+      }
+
+      /* Validate Centre / State selection */
+      var centreRadio = document.getElementById('CASECF21_centre')
+      var stateRadio = document.getElementById('CASECF21_state')
+      if (!centreRadio.checked && !stateRadio.checked) {
+        alert('Please select Centre or State')
+        return false
+      }
+
+      /* Validate Ministry / Department / Organization when visible */
+      var ministryBlock = document.getElementById('ministry-block')
+      if (ministryBlock && ministryBlock.classList.contains('visible')) {
+        var ministryInput = document.getElementById('ministry-input')
+        if (ministryInput && trimBoth(ministryInput.value).length === 0) {
+          alert('Please enter Ministry / Department / Organization')
+          ministryInput.focus()
+          return false
+        }
       }
 
       for (var i = 0; i < zsWebFormMandatoryFields.length; i++) {
