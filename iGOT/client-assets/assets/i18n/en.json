@@ -796,9 +796,12 @@
         "replay": "Replay",
         "submitTheTest": "Submit the test",
         "optional": "optional",
-        "instructionOne": "I have read and understood all the instructions. I understand that using unfair means of any sort for any advantage will lead to immediate disqualification. The decision of ",
+        "instructionOne": "I have carefully read the Instructions and I am ready to take the assesment responsibly.",
         "instructionTwo": "iGOTkarmayogi.gov.in",
         "instructionThree": "  will be final in these matters.",
+        "instructionNew": "This assessment consists of",
+        "instructionNew1": " with a mix of easy, medium, and difficult levels, carrying varying marks. The minimum passing score is",
+        "instructionNew2": "and the assessment must be completed within",
         "passingCriteria": "Passing Criteria",
         "attemptsLeft": "Attempts Left"
     },
