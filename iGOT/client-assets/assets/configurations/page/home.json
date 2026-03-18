@@ -1924,174 +1924,14 @@
   "newHomeStrip": [
     {
       "order": 2,
-      "stripType": "withPils",
-      "stripVisable": "mobile",
-      "strips": [
-        {
-          "active": true,
-          "key": "continueLearning",
-          "logo": "school",
-          "title": "My Learning",
-          "customeClass": "",
-          "stripTitleLink": {
-            "link": "",
-            "icon": ""
-          },
-          "loader": true,
-          "loaderConfig": {
-            "cardSubType": "card-progress-portrait-lib-skeleton"
-          },
-          "sliderConfig": {
-            "showNavs": true,
-            "showDots": false,
-            "maxWidgets": 12,
-            "showNavsSpacing": true
-          },
-          "stripBackground": "",
-          "titleDescription": "My Learning",
-          "stripConfig": {
-            "cardSubType": "card-progress-portrait-lib"
-          },
-          "viewMoreUrl": {
-            "path": "/app/seeAll/new",
-            "viewMoreText": "Show all",
-            "queryParams": {
-              "key": "continueLearning"
-            },
-            "loaderConfig": {
-              "cardSubType": "card-progress-portrait-lib-skeleton"
-            },
-            "stripConfig": {
-              "cardSubType": "card-progress-portrait-lib"
-            }
-          },
-          "tabs": [
-            {
-              "label": "Contents",
-              "value": "Contents",
-              "requestRequired": false,
-              "pillsData": [
-                {
-                  "label": "In Progress",
-                  "value": "inprogress",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": true,
-                  "maxWidgets": 12,
-                  "nodataMsg": "You don’t have any new course in progress.",
-                  "selected": false,
-                  "request": {
-                    "path": "",
-                    "type": "enrollment",
-                    "payload": {
-                      "request": {
-                        "retiredCoursesEnabled": true,
-                        "status": "In-Progress",
-                        "limit": 4
-                      }
-                    }
-                  }
-                },
-                {
-                  "label": "Completed",
-                  "value": "completed",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": true,
-                  "maxWidgets": 12,
-                  "nodataMsg": "You will find your Completed Courses/Program here.",
-                  "selected": false,
-                  "request": {
-                    "path": "",
-                    "type": "enrollment",
-                    "payload": {
-                      "request": {
-                        "retiredCoursesEnabled": true,
-                        "status": "Completed",
-                        "limit": 10
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "label": "Events",
-              "value": "Events",
-              "requestRequired": false,
-              "pillsData": [
-                {
-                  "label": "In Progress",
-                  "value": "inprogress",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": true,
-                  "maxWidgets": 12,
-                  "nodataMsg": "You don’t have any new course in progress.",
-                  "selected": true,
-                  "widgets": [],
-                  "request": {
-                    "path": "",
-                    "type": "eventEnrollment",
-                    "payload": {
-                      "request": {
-                        "retiredCoursesEnabled": true,
-                        "status": "In-Progress",
-                        "limit": 4
-                      }
-                    }
-                  }
-                },
-                {
-                  "label": "Completed",
-                  "value": "completed",
-                  "computeDataOnClick": false,
-                  "showTabDataCount": true,
-                  "requestRequired": true,
-                  "maxWidgets": 12,
-                  "nodataMsg": "completed Events",
-                  "selected": false,
-                  "widgets": [],
-                  "request": {
-                    "path": "",
-                    "type": "eventEnrollment",
-                    "payload": {
-                      "request": {
-                        "retiredCoursesEnabled": true,
-                        "status": "Completed",
-                        "limit": 10
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ],
-          "filters": [],
-          "request": {
-            "enrollmentList": {
-              "path": "/apis/proxies/v8/learner/course/v1/user/enrollment/list/<id>",
-              "queryParams": {
-                "orgdetails": "orgName,email",
-                "licenseDetails": "name,description,url",
-                "fields": "contentType,name,channel,mimeType,appIcon,resourceType,identifier,trackable,objectType,organisation,pkgVersion,version,trackable,primaryCategory,posterImage,duration,creatorLogo,license,programDuration,avgRating,additionalTags",
-                "batchDetails": "name,endDate,startDate,status,enrollmentType,createdBy,certificates&retiredCoursesEnabled=true"
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "order": 2,
-      "stripType": "withPilsNew",
+      "stripType": "withOutPils",
       "stripVisable": "responsive",
       "strips": [
         {
           "active": true,
           "key": "forYou",
           "logo": "school",
-          "title": "For you",
+          "title": "Public Leadership",
           "type": "forYou",
           "disableTranslate": true,
           "stripTitleLink": {
@@ -2105,7 +1945,7 @@
             "showNavsSpacing": true
           },
           "stripBackground": "",
-          "titleDescription": "For you",
+          "titleDescription": "Public Leadership",
           "stripConfig": {
             "cardSubType": "card-portrait-lib"
           },
@@ -2128,278 +1968,126 @@
           },
           "tabs": [
             {
-              "label": "iGOT Specializations",
-              "value": "igotSpecializations",
-              "hideTab": false,
-              "pillsData": [
-                {
-                  "label": "Programs",
-                  "value": "programs",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "hideTab": false,
-                  "nodataMsg": "You will find iGOT Specialization programs here.",
-                  "request": {
-                    "microSearch": {
-                      "request": {
-                        "url": "apis/proxies/v8/promotionalcontent/v1/assignedto/users",
-                        "limit": 12
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "label": "Recently Added",
+              "label": "Courses",
               "value": "recentlyAdded",
-              "pillsData": [
-                {
-                  "label": "Courses",
-                  "value": "courses",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find recently added courses here.",
+              "computeDataOnClick": false,
+              "computeDataOnClickKey": "",
+              "requestRequired": true,
+              "showTabDataCount": false,
+              "maxWidgets": 12,
+              "nodataMsg": "You will find recently added courses here.",
+              "request": {
+                "searchV6": {
                   "request": {
-                    "searchV6": {
-                      "request": {
-                        "filters": {
-                          "courseCategory": [
-                            "Course"
-                          ],
-                          "contentType": [
-                            "Course"
-                          ]
-                        },
-                        "query": "",
-                        "sort_by": {
-                          "lastUpdatedOn": "desc"
-                        },
-                        "fields": [
-                          "name",
-                          "appIcon",
-                          "instructions",
-                          "description",
-                          "purpose",
-                          "mimeType",
-                          "gradeLevel",
-                          "identifier",
-                          "medium",
-                          "pkgVersion",
-                          "board",
-                          "subject",
-                          "resourceType",
-                          "primaryCategory",
-                          "languageMapV1",
-                          "contentType",
-                          "channel",
-                          "organisation",
-                          "trackable",
-                          "license",
-                          "posterImage",
-                          "idealScreenSize",
-                          "learningMode",
-                          "creatorLogo",
-                          "duration",
-                          "avgRating",
-                          "difficultyLevel"
-                        ]
-                      }
-                    }
-                  }
-                },
-                {
-                  "label": "Programs",
-                  "value": "programs",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find recently added programs here.",
-                  "request": {
-                    "searchV6": {
-                      "request": {
-                        "filters": {
-                          "primaryCategory": [
-                            "Curated Program"
-                          ],
-                          "contentType": [
-                            "Course"
-                          ]
-                        },
-                        "query": "",
-                        "sort_by": {
-                          "lastUpdatedOn": "desc"
-                        },
-                        "fields": [
-                          "name",
-                          "appIcon",
-                          "instructions",
-                          "description",
-                          "purpose",
-                          "mimeType",
-                          "gradeLevel",
-                          "identifier",
-                          "medium",
-                          "pkgVersion",
-                          "board",
-                          "subject",
-                          "resourceType",
-                          "primaryCategory",
-                          "languageMapV1",
-                          "contentType",
-                          "channel",
-                          "organisation",
-                          "trackable",
-                          "license",
-                          "posterImage",
-                          "idealScreenSize",
-                          "learningMode",
-                          "creatorLogo",
-                          "duration",
-                          "avgRating",
-                          "difficultyLevel"
-                        ]
-                      }
-                    }
+                    "filters": {
+                      "courseCategory": [
+                        "Course"
+                      ],
+                      "contentType": [
+                        "Course"
+                      ]
+                    },
+                    "query": "",
+                    "sort_by": {
+                      "lastUpdatedOn": "desc"
+                    },
+                    "fields": [
+                      "name",
+                      "appIcon",
+                      "instructions",
+                      "description",
+                      "purpose",
+                      "mimeType",
+                      "gradeLevel",
+                      "identifier",
+                      "medium",
+                      "pkgVersion",
+                      "board",
+                      "subject",
+                      "resourceType",
+                      "primaryCategory",
+                      "languageMapV1",
+                      "contentType",
+                      "channel",
+                      "organisation",
+                      "trackable",
+                      "license",
+                      "posterImage",
+                      "idealScreenSize",
+                      "learningMode",
+                      "creatorLogo",
+                      "duration",
+                      "avgRating",
+                      "difficultyLevel"
+                    ]
                   }
                 }
-              ]
-            },
-            {
-              "label": "Trending across Departments",
-              "value": "trendingAcrossDepartment",
-              "pillsData": [
-                {
-                  "label": "Courses",
-                  "value": "courses",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find trending courses here.",
-                  "request": {
-                    "trendingSearch": {
-                      "request": {
-                        "filters": {
-                          "contextType": [
-                            "courses"
-                          ],
-                          "organisation": "across"
-                        },
-                        "limit": 12
-                      }
-                    }
-                  }
-                },
-                {
-                  "label": "Programs",
-                  "value": "programs",
-                  "computeDataOnClick": false,
-                  "computeDataOnClickKey": "",
-                  "requestRequired": true,
-                  "showTabDataCount": false,
-                  "maxWidgets": 12,
-                  "selected": false,
-                  "nodataMsg": "You will find trending programs here.",
-                  "request": {
-                    "trendingSearch": {
-                      "request": {
-                        "filters": {
-                          "contextType": [
-                            "programs"
-                          ],
-                          "organisation": "across"
-                        },
-                        "limit": 12
-                      }
-                    }
-                  }
-                }
-              ]
+              }
             }
           ],
           "filters": [],
-          "request": {}
-        }
-      ]
-    },
-    {
-      "order": 6,
-      "stripType": "withOutPils",
-      "stripVisable": "responsive",
-      "strips": [
-        {
-          "active": false,
-          "key": "providers",
-          "logo": "school",
-          "disableTranslate": true,
-          "title": "Providers",
-          "stripTitleLink": {
-            "link": "",
-            "icon": ""
-          },
-          "sliderConfig": {
-            "showNavs": true,
-            "showDots": true,
-            "maxWidgets": 12,
-            "showNavsSpacing": true
-          },
-          "stripBackground": "",
-          "titleDescription": "Providers list",
-          "stripConfig": {
-            "cardSubType": "card-providers-lib"
-          },
-          "viewMoreUrl": {
-            "path": "/app/learn/providers/all-providers",
-            "viewMoreText": "Show all",
-            "queryParams": {
-              "key": ""
-            },
-            "loaderConfig": {
-              "cardSubType": "card-portrait-lib-skeleton"
-            },
-            "stripConfig": {
-              "cardSubType": "card-portrait-lib"
-            }
-          },
-          "loader": true,
-          "loaderConfig": {
-            "cardSubType": "card-providers-lib-skeleton"
-          },
-          "tabs": [],
-          "filters": [],
           "request": {
-            "apiUrl": "apis/proxies/v8/action/content/v3/read/<doId>",
-            "playlistRead": {
-              "type": "dummy"
+            "searchV6": {
+              "request": {
+                "filters": {
+                  "courseCategory": [
+                    "Course"
+                  ],
+                  "contentType": [
+                    "Course"
+                  ]
+                },
+                "query": "",
+                "sort_by": {
+                  "lastUpdatedOn": "desc"
+                },
+                "fields": [
+                  "name",
+                  "appIcon",
+                  "instructions",
+                  "description",
+                  "purpose",
+                  "mimeType",
+                  "gradeLevel",
+                  "identifier",
+                  "medium",
+                  "pkgVersion",
+                  "board",
+                  "subject",
+                  "resourceType",
+                  "primaryCategory",
+                  "languageMapV1",
+                  "contentType",
+                  "channel",
+                  "organisation",
+                  "trackable",
+                  "license",
+                  "posterImage",
+                  "idealScreenSize",
+                  "learningMode",
+                  "creatorLogo",
+                  "duration",
+                  "avgRating",
+                  "difficultyLevel"
+                ]
+              }
             }
           }
         }
       ]
     },
     {
-      "order": 9,
-      "stripType": "oldPills",
+      "order": 2,
+      "stripType": "withOutPils",
       "stripVisable": "responsive",
       "strips": [
         {
           "active": true,
-          "key": "certificationsOfWeek",
+          "key": "forYou",
           "logo": "school",
-          "title": "Certifications of the Week",
+          "title": "Technology and Data Governance",
+          "type": "forYou",
+          "disableTranslate": true,
           "stripTitleLink": {
             "link": "",
             "icon": ""
@@ -2408,23 +2096,18 @@
             "showNavs": true,
             "showDots": true,
             "maxWidgets": 12,
-            "cerificateCardMargin": true,
             "showNavsSpacing": true
           },
-          "loader": true,
           "stripBackground": "",
-          "titleDescription": "Certifications of the Week",
+          "titleDescription": "Technology and Data Governance",
           "stripConfig": {
-            "cardSubType": "card-wide-v2"
-          },
-          "loaderConfig": {
-            "cardSubType": "card-wide-v2-skelton"
+            "cardSubType": "card-portrait-lib"
           },
           "viewMoreUrl": {
-            "path": "/app/seeAll",
+            "path": "/app/seeAll/new",
             "viewMoreText": "Show all",
             "queryParams": {
-              "key": "certificationsOfWeek"
+              "key": "recentlyAdded"
             },
             "loaderConfig": {
               "cardSubType": "card-portrait-click-skeleton"
@@ -2433,20 +2116,577 @@
               "cardSubType": "card-portrait-click"
             }
           },
-          "tabs": [],
+          "loader": true,
+          "loaderConfig": {
+            "cardSubType": "card-portrait-lib-skeleton"
+          },
+          "tabs": [
+            {
+              "label": "Courses",
+              "value": "recentlyAdded",
+              "computeDataOnClick": false,
+              "computeDataOnClickKey": "",
+              "requestRequired": true,
+              "showTabDataCount": false,
+              "maxWidgets": 12,
+              "nodataMsg": "You will find recently added courses here.",
+              "request": {
+                "searchV6": {
+                  "request": {
+                    "filters": {
+                      "courseCategory": [
+                        "Course"
+                      ],
+                      "contentType": [
+                        "Course"
+                      ]
+                    },
+                    "query": "",
+                    "sort_by": {
+                      "lastUpdatedOn": "desc"
+                    },
+                    "fields": [
+                      "name",
+                      "appIcon",
+                      "instructions",
+                      "description",
+                      "purpose",
+                      "mimeType",
+                      "gradeLevel",
+                      "identifier",
+                      "medium",
+                      "pkgVersion",
+                      "board",
+                      "subject",
+                      "resourceType",
+                      "primaryCategory",
+                      "languageMapV1",
+                      "contentType",
+                      "channel",
+                      "organisation",
+                      "trackable",
+                      "license",
+                      "posterImage",
+                      "idealScreenSize",
+                      "learningMode",
+                      "creatorLogo",
+                      "duration",
+                      "avgRating",
+                      "difficultyLevel"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
           "filters": [],
           "request": {
-            "trendingSearch": {
+            "searchV6": {
               "request": {
                 "filters": {
-                  "contextType": [
-                    "certifications"
+                  "courseCategory": [
+                    "Course"
                   ],
-                  "organisation": "across"
+                  "contentType": [
+                    "Course"
+                  ]
                 },
-                "limit": 5
-              },
-              "responseKey": "certifications"
+                "query": "",
+                "sort_by": {
+                  "lastUpdatedOn": "desc"
+                },
+                "fields": [
+                  "name",
+                  "appIcon",
+                  "instructions",
+                  "description",
+                  "purpose",
+                  "mimeType",
+                  "gradeLevel",
+                  "identifier",
+                  "medium",
+                  "pkgVersion",
+                  "board",
+                  "subject",
+                  "resourceType",
+                  "primaryCategory",
+                  "languageMapV1",
+                  "contentType",
+                  "channel",
+                  "organisation",
+                  "trackable",
+                  "license",
+                  "posterImage",
+                  "idealScreenSize",
+                  "learningMode",
+                  "creatorLogo",
+                  "duration",
+                  "avgRating",
+                  "difficultyLevel"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "stripType": "withOutPils",
+      "stripVisable": "responsive",
+      "strips": [
+        {
+          "active": true,
+          "key": "forYou",
+          "logo": "school",
+          "title": "Environment and Climate",
+          "type": "forYou",
+          "disableTranslate": true,
+          "stripTitleLink": {
+            "link": "",
+            "icon": ""
+          },
+          "sliderConfig": {
+            "showNavs": true,
+            "showDots": true,
+            "maxWidgets": 12,
+            "showNavsSpacing": true
+          },
+          "stripBackground": "",
+          "titleDescription": "Environment and Climate",
+          "stripConfig": {
+            "cardSubType": "card-portrait-lib"
+          },
+          "viewMoreUrl": {
+            "path": "/app/seeAll/new",
+            "viewMoreText": "Show all",
+            "queryParams": {
+              "key": "recentlyAdded"
+            },
+            "loaderConfig": {
+              "cardSubType": "card-portrait-click-skeleton"
+            },
+            "stripConfig": {
+              "cardSubType": "card-portrait-click"
+            }
+          },
+          "loader": true,
+          "loaderConfig": {
+            "cardSubType": "card-portrait-lib-skeleton"
+          },
+          "tabs": [
+            {
+              "label": "Courses",
+              "value": "recentlyAdded",
+              "computeDataOnClick": false,
+              "computeDataOnClickKey": "",
+              "requestRequired": true,
+              "showTabDataCount": false,
+              "maxWidgets": 12,
+              "nodataMsg": "You will find recently added courses here.",
+              "request": {
+                "searchV6": {
+                  "request": {
+                    "filters": {
+                      "courseCategory": [
+                        "Course"
+                      ],
+                      "contentType": [
+                        "Course"
+                      ]
+                    },
+                    "query": "",
+                    "sort_by": {
+                      "lastUpdatedOn": "desc"
+                    },
+                    "fields": [
+                      "name",
+                      "appIcon",
+                      "instructions",
+                      "description",
+                      "purpose",
+                      "mimeType",
+                      "gradeLevel",
+                      "identifier",
+                      "medium",
+                      "pkgVersion",
+                      "board",
+                      "subject",
+                      "resourceType",
+                      "primaryCategory",
+                      "languageMapV1",
+                      "contentType",
+                      "channel",
+                      "organisation",
+                      "trackable",
+                      "license",
+                      "posterImage",
+                      "idealScreenSize",
+                      "learningMode",
+                      "creatorLogo",
+                      "duration",
+                      "avgRating",
+                      "difficultyLevel"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "filters": [],
+          "request": {
+            "searchV6": {
+              "request": {
+                "filters": {
+                  "courseCategory": [
+                    "Course"
+                  ],
+                  "contentType": [
+                    "Course"
+                  ]
+                },
+                "query": "",
+                "sort_by": {
+                  "lastUpdatedOn": "desc"
+                },
+                "fields": [
+                  "name",
+                  "appIcon",
+                  "instructions",
+                  "description",
+                  "purpose",
+                  "mimeType",
+                  "gradeLevel",
+                  "identifier",
+                  "medium",
+                  "pkgVersion",
+                  "board",
+                  "subject",
+                  "resourceType",
+                  "primaryCategory",
+                  "languageMapV1",
+                  "contentType",
+                  "channel",
+                  "organisation",
+                  "trackable",
+                  "license",
+                  "posterImage",
+                  "idealScreenSize",
+                  "learningMode",
+                  "creatorLogo",
+                  "duration",
+                  "avgRating",
+                  "difficultyLevel"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "stripType": "withOutPils",
+      "stripVisable": "responsive",
+      "strips": [
+        {
+          "active": true,
+          "key": "forYou",
+          "logo": "school",
+          "title": "Economy and Public Finance",
+          "type": "forYou",
+          "disableTranslate": true,
+          "stripTitleLink": {
+            "link": "",
+            "icon": ""
+          },
+          "sliderConfig": {
+            "showNavs": true,
+            "showDots": true,
+            "maxWidgets": 12,
+            "showNavsSpacing": true
+          },
+          "stripBackground": "",
+          "titleDescription": "Economy and Public Finance",
+          "stripConfig": {
+            "cardSubType": "card-portrait-lib"
+          },
+          "viewMoreUrl": {
+            "path": "/app/seeAll/new",
+            "viewMoreText": "Show all",
+            "queryParams": {
+              "key": "recentlyAdded"
+            },
+            "loaderConfig": {
+              "cardSubType": "card-portrait-click-skeleton"
+            },
+            "stripConfig": {
+              "cardSubType": "card-portrait-click"
+            }
+          },
+          "loader": true,
+          "loaderConfig": {
+            "cardSubType": "card-portrait-lib-skeleton"
+          },
+          "tabs": [
+            {
+              "label": "Courses",
+              "value": "recentlyAdded",
+              "computeDataOnClick": false,
+              "computeDataOnClickKey": "",
+              "requestRequired": true,
+              "showTabDataCount": false,
+              "maxWidgets": 12,
+              "nodataMsg": "You will find recently added courses here.",
+              "request": {
+                "searchV6": {
+                  "request": {
+                    "filters": {
+                      "courseCategory": [
+                        "Course"
+                      ],
+                      "contentType": [
+                        "Course"
+                      ]
+                    },
+                    "query": "",
+                    "sort_by": {
+                      "lastUpdatedOn": "desc"
+                    },
+                    "fields": [
+                      "name",
+                      "appIcon",
+                      "instructions",
+                      "description",
+                      "purpose",
+                      "mimeType",
+                      "gradeLevel",
+                      "identifier",
+                      "medium",
+                      "pkgVersion",
+                      "board",
+                      "subject",
+                      "resourceType",
+                      "primaryCategory",
+                      "languageMapV1",
+                      "contentType",
+                      "channel",
+                      "organisation",
+                      "trackable",
+                      "license",
+                      "posterImage",
+                      "idealScreenSize",
+                      "learningMode",
+                      "creatorLogo",
+                      "duration",
+                      "avgRating",
+                      "difficultyLevel"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "filters": [],
+          "request": {
+            "searchV6": {
+              "request": {
+                "filters": {
+                  "courseCategory": [
+                    "Course"
+                  ],
+                  "contentType": [
+                    "Course"
+                  ]
+                },
+                "query": "",
+                "sort_by": {
+                  "lastUpdatedOn": "desc"
+                },
+                "fields": [
+                  "name",
+                  "appIcon",
+                  "instructions",
+                  "description",
+                  "purpose",
+                  "mimeType",
+                  "gradeLevel",
+                  "identifier",
+                  "medium",
+                  "pkgVersion",
+                  "board",
+                  "subject",
+                  "resourceType",
+                  "primaryCategory",
+                  "languageMapV1",
+                  "contentType",
+                  "channel",
+                  "organisation",
+                  "trackable",
+                  "license",
+                  "posterImage",
+                  "idealScreenSize",
+                  "learningMode",
+                  "creatorLogo",
+                  "duration",
+                  "avgRating",
+                  "difficultyLevel"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "stripType": "withOutPils",
+      "stripVisable": "responsive",
+      "strips": [
+        {
+          "active": true,
+          "key": "forYou",
+          "logo": "school",
+          "title": "Governance and Public Policy",
+          "type": "forYou",
+          "disableTranslate": true,
+          "stripTitleLink": {
+            "link": "",
+            "icon": ""
+          },
+          "sliderConfig": {
+            "showNavs": true,
+            "showDots": true,
+            "maxWidgets": 12,
+            "showNavsSpacing": true
+          },
+          "stripBackground": "",
+          "titleDescription": "Governance and Public Policy",
+          "stripConfig": {
+            "cardSubType": "card-portrait-lib"
+          },
+          "viewMoreUrl": {
+            "path": "/app/seeAll/new",
+            "viewMoreText": "Show all",
+            "queryParams": {
+              "key": "recentlyAdded"
+            },
+            "loaderConfig": {
+              "cardSubType": "card-portrait-click-skeleton"
+            },
+            "stripConfig": {
+              "cardSubType": "card-portrait-click"
+            }
+          },
+          "loader": true,
+          "loaderConfig": {
+            "cardSubType": "card-portrait-lib-skeleton"
+          },
+          "tabs": [
+            {
+              "label": "Courses",
+              "value": "recentlyAdded",
+              "computeDataOnClick": false,
+              "computeDataOnClickKey": "",
+              "requestRequired": true,
+              "showTabDataCount": false,
+              "maxWidgets": 12,
+              "nodataMsg": "You will find recently added courses here.",
+              "request": {
+                "searchV6": {
+                  "request": {
+                    "filters": {
+                      "courseCategory": [
+                        "Course"
+                      ],
+                      "contentType": [
+                        "Course"
+                      ]
+                    },
+                    "query": "",
+                    "sort_by": {
+                      "lastUpdatedOn": "desc"
+                    },
+                    "fields": [
+                      "name",
+                      "appIcon",
+                      "instructions",
+                      "description",
+                      "purpose",
+                      "mimeType",
+                      "gradeLevel",
+                      "identifier",
+                      "medium",
+                      "pkgVersion",
+                      "board",
+                      "subject",
+                      "resourceType",
+                      "primaryCategory",
+                      "languageMapV1",
+                      "contentType",
+                      "channel",
+                      "organisation",
+                      "trackable",
+                      "license",
+                      "posterImage",
+                      "idealScreenSize",
+                      "learningMode",
+                      "creatorLogo",
+                      "duration",
+                      "avgRating",
+                      "difficultyLevel"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "filters": [],
+          "request": {
+            "searchV6": {
+              "request": {
+                "filters": {
+                  "courseCategory": [
+                    "Course"
+                  ],
+                  "contentType": [
+                    "Course"
+                  ]
+                },
+                "query": "",
+                "sort_by": {
+                  "lastUpdatedOn": "desc"
+                },
+                "fields": [
+                  "name",
+                  "appIcon",
+                  "instructions",
+                  "description",
+                  "purpose",
+                  "mimeType",
+                  "gradeLevel",
+                  "identifier",
+                  "medium",
+                  "pkgVersion",
+                  "board",
+                  "subject",
+                  "resourceType",
+                  "primaryCategory",
+                  "languageMapV1",
+                  "contentType",
+                  "channel",
+                  "organisation",
+                  "trackable",
+                  "license",
+                  "posterImage",
+                  "idealScreenSize",
+                  "learningMode",
+                  "creatorLogo",
+                  "duration",
+                  "avgRating",
+                  "difficultyLevel"
+                ]
+              }
             }
           }
         }

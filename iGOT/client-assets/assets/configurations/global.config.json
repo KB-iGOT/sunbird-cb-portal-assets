@@ -38,7 +38,7 @@
                                 "layout": "default",
                                 "logo": "/assets/instances/eagle/app_logos/IIIDEM-logo.png",
                                 "redirectPath": "/page/custom-home/iiidem",
-                                "cdnContentHost": "https://iiidem-portal.qa.karmayogibharat.net",
+                                "cdnContentHost": "https://portal.mauritius.karmayogibharat.net/",
                                 "sitePath": "iiidem-portal.qa.karmayogibharat.net",
                                 "karmayogiBharatLink": "https://iiidem.qa.karmayogibharat.net",
                                 "features": {
@@ -58,9 +58,9 @@
                                 "logo": "/assets/instances/eagle/app_logos/mauritius.svg",
                                 "host_logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo_Horizontal.svg",
                                 "redirectPath": "/page/home",
-                                "cdnContentHost": "https://iiidem-portal.qa.karmayogibharat.net",
-                                "sitePath": "iiidem-portal.qa.karmayogibharat.net",
-                                "karmayogiBharatLink": "https://iiidem.qa.karmayogibharat.net",
+                                "cdnContentHost": "https://portal.mauritius.karmayogibharat.net/",
+                                "sitePath": "portal.mauritius.karmayogibharat.net",
+                                "karmayogiBharatLink": "https://portal.mauritius.karmayogibharat.net/",
                                 "homePageSectionOrder": [
                                     "slider",
                                     "strip"
@@ -85,7 +85,8 @@
                                         "profileLeaderBoard": false,
                                         "profileWeeklyClaps": false,
                                         "mandatoryProfilePopup": false,
-                                        "karmaPointStrip": false
+                                        "karmaPointStrip": false,
+                                        "myBadge": false
                                     },
                                     "toc": {
                                         "startDiscussion": false,
@@ -106,7 +107,15 @@
                                         "cios": false,
                                         "workflow": false,
                                         "userInsights": false,
-                                        "promotionalcontent": false
+                                        "promotionalcontent": false,
+                                        "bulkGetApplicationsById": false,
+                                        "courselistByuserid": false,
+                                        "contentpartnerSearch": false,
+                                        "searchEvent": false,
+                                        "searchResources": false,
+                                        "searchUsers": false,
+                                        "searchCommunity": false,
+                                        "insights": false
                                     }
                                 }
                             }
