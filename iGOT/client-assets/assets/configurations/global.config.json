@@ -70,6 +70,8 @@
                                         "amrit-gyaan-kosh": false
                                     },
                                     "home": {
+                                        "profileCompletionPercentage": false,
+                                        "profileGreetings": false,
                                         "discussion": false,
                                         "network": false,
                                         "events": false,
@@ -86,7 +88,8 @@
                                         "profileWeeklyClaps": false,
                                         "mandatoryProfilePopup": false,
                                         "karmaPointStrip": false,
-                                        "myBadge": false
+                                        "myBadge": false,
+                                        "footerWithHostLogo": true
                                     },
                                     "toc": {
                                         "startDiscussion": false,
@@ -116,6 +119,9 @@
                                         "searchUsers": false,
                                         "searchCommunity": false,
                                         "insights": false
+                                    },
+                                    "settings": {
+                                        "isMultiLangEnabled": false
                                     }
                                 }
                             }

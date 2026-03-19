@@ -192,62 +192,88 @@
     {
       "name": "generalSettings",
       "key": "Network Home",
-      "badges": { "enabled": true, "uri": "" },
+      "badges": {
+        "enabled": true,
+        "uri": ""
+      },
       "enabled": true,
       "routerLink": "/app/profile/settings"
     },
     {
       "name": "notifications",
       "key": "Network Home",
-      "badges": { "enabled": true, "uri": "" },
-      "enabled": true,
+      "badges": {
+        "enabled": true,
+        "uri": ""
+      },
+      "enabled": false,
       "routerLink": "/app/profile/notification"
     },
     {
       "name": "accountAndPassword",
       "key": "Network Home",
-      "badges": { "enabled": true, "uri": "" },
+      "badges": {
+        "enabled": true,
+        "uri": ""
+      },
       "enabled": true,
       "icon": null,
       "img": null,
-      "children": [{
+      "children": [
+        {
           "name": "resetPassword",
           "key": "Network Home",
-          "badges": { "enabled": true, "uri": "" },
+          "badges": {
+            "enabled": true,
+            "uri": ""
+          },
           "icon": "settings",
           "img": null,
           "enabled": true
-        }]
+        }
+      ]
     },
     {
       "name": "privacy",
       "key": "Network Home",
-      "badges": { "enabled": true, "uri": "" },
-      "enabled": true,
+      "badges": {
+        "enabled": true,
+        "uri": ""
+      },
+      "enabled": false,
       "routerLink": "/app/profile/privacy"
     },
     {
       "name": "getStartedTour",
       "key": "Network Home",
-      "badges": { "enabled": true, "uri": "" },
-      "enabled": true,
+      "badges": {
+        "enabled": true,
+        "uri": ""
+      },
+      "enabled": false,
       "img": "fusion-assets/images/play_circle.svg"
     },
     {
       "name": "profile",
       "key": "Network Home",
-      "badges": { "enabled": true, "uri": "" },
+      "badges": {
+        "enabled": true,
+        "uri": ""
+      },
       "icon": null,
       "img": null,
-      "enabled": true,
+      "enabled": false,
       "children": [
         {
           "name": "visibilityControl",
           "key": "Network Home",
-          "badges": { "enabled": true, "uri": "" },
+          "badges": {
+            "enabled": true,
+            "uri": ""
+          },
           "icon": "visibility",
           "img": null,
-          "enabled": true,
+          "enabled": false,
           "routerLink": "/app/profile/profile-visibility"
         }
       ]
