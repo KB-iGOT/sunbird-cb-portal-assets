@@ -933,7 +933,7 @@
     "mark": "निशान",
     "clearResponse": "स्पष्ट प्रतिक्रिया",
     "markForReviewNext": "समीक्षा और अगले के लिए चिह्नित करें",
-    "warningNoteForAssessmentSubmit": "क्या आप अंत में अपना परीक्षण प्रस्तुत करना चाहते हैं? टेस्ट जमा करने के बाद आपको शुरू से ही टेस्ट शुरू करना होगा।",
+    "warningNoteForAssessmentSubmit": "क्या आप वाकई टेस्ट सबमिट करना चाहते हैं?",
     "submitYes": "हां।",
     "submitNo": "नहीं।",
     "back": "पीछे।",
