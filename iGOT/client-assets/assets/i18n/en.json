@@ -2393,7 +2393,8 @@
         "overlayText2": "rank this month, which is",
         "overlayText3": "levels higher than your previous ranking.",
         "overlayText3WithSingular": "level higher than your previous ranking.",
-        "rank": "rank"
+        "rank": "rank",
+        "badgetooltip" : "Track the badges you have earned through course completion and learning achievements."
     },
     "hubsdesc": {
         "learnDesc": "Sharpen your skills with hundreds-of online courses.",
