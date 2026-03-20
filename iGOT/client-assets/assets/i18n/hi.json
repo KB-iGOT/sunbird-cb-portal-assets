@@ -382,7 +382,11 @@
     "associatedCertificates": "संबद्ध प्रमाणपत्र",
     "noCertificates": "कोई प्रमाण पत्र नहीं मिला!",
     "noCertificatesWithCompetency": "इस कॉम्पिटेंसी विषय से संबंधित कोई प्रमाण पत्र नहीं मिला",
-    "issuedOn": "को जारी हुआ"
+    "issuedOn": "को जारी हुआ",
+    "igotLearning": "iGOT सीखना",
+    "marketplace": "बाजार",
+    "selfDeclared": "स्वयं घोषित",
+    "ATI/CTIReported": "ATI/CTI रिपोर्ट किया गया"
   },
   "widgetCbpFilters": {
     "filters": "फ़िल्टर",
@@ -929,7 +933,7 @@
     "mark": "निशान",
     "clearResponse": "स्पष्ट प्रतिक्रिया",
     "markForReviewNext": "समीक्षा और अगले के लिए चिह्नित करें",
-    "warningNoteForAssessmentSubmit": "क्या आप अंत में अपना परीक्षण प्रस्तुत करना चाहते हैं? टेस्ट जमा करने के बाद आपको शुरू से ही टेस्ट शुरू करना होगा।",
+    "warningNoteForAssessmentSubmit": "क्या आप वाकई टेस्ट सबमिट करना चाहते हैं?",
     "submitYes": "हां।",
     "submitNo": "नहीं।",
     "back": "पीछे।",
@@ -953,7 +957,7 @@
     "pleaseContactSystemAdmin": "कृपया सिस्टम ऐड्मिन से संपर्क करें",
     "yourPerformanceSummary": "आपके प्रदर्शन का सारांश",
     "retakeAssessment": "आकलन दोबारा करें",
-    "myOverallPerformanceSummary": "मेरा समग्र प्रदर्शन सारांश",
+    "myPerformanceSummary": "मेरा प्रदर्शन सारांश",
     "mySectionwiseSummary": "मेरा खंडवार सारांश",
     "insights": "अंतर्दृष्टि",
     "reattemptTest": "पुनः परीक्षण का प्रयास करें",
@@ -970,7 +974,25 @@
     "viewAll": "सब देखें",
     "collapse": "पतन",
     "all": "सभी",
-    "unattempted": "कोशिश नहीं की"
+    "unattempted": "कोशिश नहीं की",
+    "minimumScoreToPass": "उत्तीर्ण होने के लिए न्यूनतम अंक:",
+    "sectionName": "खंड का नाम",
+    "result": "परिणाम",
+    "requiredScore": "आवश्यक अंक",
+    "viewDetails": "विवरण देखें",
+    "viewQuestions": "प्रश्न देखें",
+    "question": "प्रश्न",
+    "assessmentResult": "मूल्यांकन परिणाम",
+    "congratulations": "बधाई! आप उत्तीर्ण हुए",
+    "notPassed": "उत्तीर्ण नहीं हुए। आप परीक्षा का पुनः प्रयास कर सकते हैं",
+    "requiredToPass": "उत्तीर्ण होने के लिए आवश्यक:",
+    "allQuestions": "सभी प्रश्न",
+    "incorrect": "गलत",
+    "blank": "रिक्त",
+    "yourAnswer": "आपका उत्तर:",
+    "whatYouNeedToPass": "उत्तीर्ण होने के लिए आपको क्या चाहिए:",
+    "moreToPassThreshold": "उत्तीर्ण सीमा तक पहुँचने के लिए {{score}}% अधिक अंक प्राप्त करें",
+    "additionalMarks": "{{marks}} अतिरिक्त अंक सही करें"
   },
   "network": {
     "networkHome": "नेटवर्क होम",
@@ -1447,6 +1469,7 @@
     "growSection": "सीखें। नेटवर्क करें । अपने करियर के विकास को अगले स्तर पर ले जाएं।"
   },
   "home": {
+    "trendingOnIgot": "iGOT पर ट्रेंडिंग",
     "caseStudy": "केस स्टडीज",
     "caseStudies": "केस स्टडीज",
     "contents": "कंटेन्ट",
@@ -2743,6 +2766,7 @@
     "endYear": "समाप्ति वर्ष",
     "pleaseSelectEndYear": "कृपया एक समाप्ति वर्ष चुनें",
     "awards/Publications/OtherCertifications": "पुरस्कार/प्रकाशन/अन्य प्रमाणपत्र",
+    "noteForAwards": "30 मिनट के बाद अतिरिक्त उपलब्धियां लर्नर पासबुक में दिखाई देंगी",
     "title": "शीर्षक",
     "egExcelBeginner": "उदाहरण: एक्सेल प्रारंभिक",
     "pleaseEnterTitle": "कृपया एक शीर्षक दर्ज करें",
@@ -2813,8 +2837,9 @@
     "learningHoursShouldBeLessThan10000": "लर्निंग घंटे 10000 से कम होने चाहिए",
     "noDataFound": "कोई डेटा नहीं मिला",
     "startDateShouldNotEndDate": "प्रारंभ तिथि समाप्ति तिथि के बाद नहीं हो सकती",
-    "viewLearningPassbook": "लर्निंग पासबुक देखें",
+    "viewLearnerPassbook": "शिक्षार्थी पासबुक देखें",
     "learningProgress": "लर्निंग प्रगति",
+    "learnerPassbook": "शिक्षार्थी पासबुक",
     "learningProgressDescription": "एक ही व्यापक दृष्टिकोण में अपनी सीखने की यात्रा, प्रमाणित कौशल और व्यावसायिक विकास को ट्रैक करें।"
   },
   "NetworkLandingPage": {

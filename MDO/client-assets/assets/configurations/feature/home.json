@@ -217,7 +217,7 @@
                 "mdo_admin",
                 "mdo_leader"
               ]
-            }    
+            }
           ]
         },
         {
@@ -280,6 +280,23 @@
                 "mdo_admin",
                 "mdo_leader"
               ]
+            },
+            {
+              "name": "External Trainings",
+              "key": "external-trainings",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/external-trainings",
+              "requiredRoles": [
+                "admin",
+                "mdo_admin",
+                "mdo_leader"
+              ]
             }
           ]
         },
@@ -293,7 +310,7 @@
             "enabled": false,
             "uri": ""
           },
-          "enabled": false,
+          "enabled": true,
           "routerLink": "/app/home/peer-validation",
           "requiredRoles": [
             "mdo_admin",
