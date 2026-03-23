@@ -69,7 +69,7 @@
               "requiredRoles": ["SPV_ADMIN", "spv_admin"]
             },
             {
-              "name": "State Users",
+              "name": "Manage Users",
               "icon": "people",
               "isCustomIcon": false,
               "key": "users",
