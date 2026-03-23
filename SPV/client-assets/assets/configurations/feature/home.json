@@ -66,7 +66,22 @@
               },
               "enabled": true,
               "routerLink": "/app/home/users",
-              "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
+            },
+            {
+              "name": "State Users",
+              "icon": "people",
+              "isCustomIcon": false,
+              "key": "users",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/state-users",
+              "requiredRoles": ["STATE_ADMIN", "state_admin"]
             },
             {
               "name": "Roles and access",
