@@ -802,9 +802,13 @@
         "replay": "Replay",
         "submitTheTest": "Submit the test",
         "optional": "optional",
+        "instructionOneComprehensive": "I have carefully read the instructions and I am ready to take the assessment responsibly.",
         "instructionOne": "I have read and understood all the instructions. I understand that using unfair means of any sort for any advantage will lead to immediate disqualification. The decision of ",
         "instructionTwo": "iGOTkarmayogi.gov.in",
         "instructionThree": "  will be final in these matters.",
+        "instructionNew": "This assessment consists of",
+        "instructionNew1": " with a mix of easy, medium, and difficult levels, carrying varying marks. The minimum passing score is",
+        "instructionNew2": "and the assessment must be completed within",
         "passingCriteria": "Passing Criteria",
         "attemptsLeft": "Attempts Left"
     },
@@ -940,7 +944,7 @@
         "mark": "Mark",
         "clearResponse": "Clear Response",
         "markForReviewNext": "Mark for Review & next",
-        "warningNoteForAssessmentSubmit": "Do you want to submit your test finally. After submitting test, you will have to start the test from beginning.",
+        "warningNoteForAssessmentSubmit": "Are you sure you want to submit the test?",
         "submitYes": "Yes",
         "submitNo": "No",
         "back": "Back",
@@ -2389,7 +2393,8 @@
         "overlayText2": "rank this month, which is",
         "overlayText3": "levels higher than your previous ranking.",
         "overlayText3WithSingular": "level higher than your previous ranking.",
-        "rank": "rank"
+        "rank": "rank",
+        "badgetooltip" : "Track the badges you have earned through course completion and learning achievements."
     },
     "hubsdesc": {
         "learnDesc": "Sharpen your skills with hundreds-of online courses.",
