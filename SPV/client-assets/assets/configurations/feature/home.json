@@ -198,7 +198,7 @@
             "uri": ""
           },
           "enabled": true,
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"],
           "subMenu": [
             {
               "name": "All Request",
@@ -213,7 +213,7 @@
               },
               "enabled": true,
               "routerLink": "/app/home/all-request",
-              "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
             },
             {
               "name": "Sectors",
@@ -242,7 +242,7 @@
             "uri": ""
           },
           "enabled": true,
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"],
           "subMenu": [
             {
               "name": "KCM Mapping",
@@ -271,7 +271,7 @@
             "uri": ""
           },
           "enabled": true,
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"],
           "subMenu": [
             {
               "name": "All Surveys",
@@ -318,7 +318,7 @@
           },
           "enabled": true,
           "routerLink": "/app/home/requests/organisation",
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"]
         },
         {
           "name": "Domain Requests",
@@ -333,7 +333,7 @@
           },
           "enabled": true,
           "routerLink": "/app/home/requests/domain",
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"]
         },
         {
           "name": "Moderation",
@@ -363,7 +363,7 @@
           },
           "enabled": true,
           "routerLink": "/app/home/spv/peer-validation",
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"]
         }
       ]
     }
