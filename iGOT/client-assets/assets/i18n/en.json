@@ -2804,6 +2804,7 @@
         "viewLearnerPassbook": "View Learner Passbook",
         "learningProgress": "Learning Progress",
         "learnerPassbook": "Learner Passbook",
+        "learningHistory": "Learning History",
         "learningProgressDescription": "Track your learning journey, validated skills, and professional growth in one comprehensive view.",
         "learningObjective": "Learning Objective"
     },
@@ -2921,7 +2922,9 @@
         "goToCourse": "Go to Course",
         "keyTakeaways": "Key Takeaways",
         "numberOfAttendees": "Number of attendees",
-        "eventDuration": "Event Duration"
+        "eventDuration": "Event Duration",
+        "sadhanaSaptah": "Sadhana Saptah",
+        "samuhikCharcha-NLW2026": "Samuhik Charcha - NLW 2026"
     },
     "notificationV2Settings": {
         "email": "Email Notification",
