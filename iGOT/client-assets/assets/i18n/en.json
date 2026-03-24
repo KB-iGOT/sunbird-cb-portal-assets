@@ -2398,7 +2398,8 @@
         "overlayText2": "rank this month, which is",
         "overlayText3": "levels higher than your previous ranking.",
         "overlayText3WithSingular": "level higher than your previous ranking.",
-        "rank": "rank"
+        "rank": "rank",
+        "badgetooltip": "Track the badges you have earned through course completion and learning achievements."
     },
     "hubsdesc": {
         "learnDesc": "Sharpen your skills with hundreds-of online courses.",
@@ -2732,6 +2733,8 @@
         "title": "Title",
         "egExcelBeginner": "e.g. Excel beginner",
         "pleaseEnterTitle": "Please enter a title",
+        "titleTooShort": "Title must be at least 10 characters long",
+        "titleTooLong": "Title cannot be more than 70 characters long",
         "specialCharNotAllowedExcept()$-/": "Special characters are not allowed, except for: ( ) & - /",
         "specialCharNotAllowedExcept(),.": "Special characters are not allowed, except for: ( ) . ,",
         "issuingOrganisation": "Issuing Organisation",
@@ -2793,6 +2796,8 @@
         "trainingType": "Training Type",
         "trainingTypeIsRequired": "Training type is required",
         "issuedOrganisationIsRequired": "Issuing organisation is required",
+        "issuedOrganisationTooShort": "Issuing organisation must be at least 10 characters long",
+        "issuedOrganisationTooLong": "Issuing organisation cannot be more than 70 characters long",
         "deliveryMode": "Delivery mode",
         "pleaseEnterValidLearningHours": "Please enter a valid number",
         "learningHoursMustBeGreaterThanZero": "Learning hours must be greater than 0",
@@ -2802,7 +2807,8 @@
         "viewLearnerPassbook": "View Learner Passbook",
         "learningProgress": "Learning Progress",
         "learnerPassbook": "Learner Passbook",
-        "learningProgressDescription": "Track your learning journey, validated skills, and professional growth in one comprehensive view."
+        "learningProgressDescription": "Track your learning journey, validated skills, and professional growth in one comprehensive view.",
+        "learningObjective": "Learning Objective"
     },
     "NetworkLandingPage": {
         "exploreNetwork": "Explore Network",
