@@ -1031,7 +1031,9 @@
     "live": "જીવંત",
     "karmayogiSaptah": "કર્મયોગી સપ્તાહ",
     "search": "ઘટનાઓ શોધો...",
-    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ"
+    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
   },
   "eventDetailsRightCard": {
     "viewRecording": "રેકોર્ડિંગ જુઓ",
@@ -2039,7 +2041,9 @@
     "years": "વર્ષો",
     "resource": "સ્રોત ({{count}})",
     "resources": "સ્રોતો ({{count}})",
-    "externalContent": "બાહ્ય સામગ્રી ({{count}})"
+    "externalContent": "બાહ્ય સામગ્રી ({{count}})",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
@@ -2800,7 +2804,9 @@
     "pastEvents": "ભૂતકાળની ઘટનાઓ",
     "tomorrow": "કાલે",
     "today": "આજે",
-    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ"
+    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
   },
   "notificationV2Settings": {
     "email": "ઇમેઇલ સૂચના",
