@@ -284,22 +284,6 @@
           ]
         },
         {
-          "menuCategory": "Peer Validation",
-          "submenu": false,
-          "key": "peer-validation",
-          "fragment": false,
-          "render": true,
-          "badges": {
-            "enabled": false,
-            "uri": ""
-          },
-          "enabled": false,
-          "routerLink": "/app/home/peer-validation",
-          "requiredRoles": [
-          ],
-          "defaultExpanded": false
-        },
-        {
           "menuCategory": "Events",
           "submenu": false,
           "key": "events",
