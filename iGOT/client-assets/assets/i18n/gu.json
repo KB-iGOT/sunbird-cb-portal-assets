@@ -186,7 +186,8 @@
     "frequentlyAskedQuestions": "વારંવાર પૂછાતા પ્રશ્નો",
     "contactUs": "અમારો સંપર્ક કરો",
     "copyright": "કોપીરાઈટ",
-    "privacyPolicy": "ગોપનીયતા નીતિ"
+    "privacyPolicy": "ગોપનીયતા નીતિ",
+    "helpCenter": "મદદ કેન્દ્ર"
   },
   "platformrating": {
     "howLikelyRecommend": "તમે તમારા સાથીઓને આઇ. જી. ઓ. ટી. કર્મયોગીની ભલામણ કરી શકો છો?",
@@ -1835,7 +1836,8 @@
     "myLearning": "મારી શીખ",
     "viewProfile": "રૂપરેખા જુઓ",
     "learningHistory": "શીખવાનો ઇતિહાસ",
-    "tipsLearners": "શીખનારાઓ માટે ટીપ્સ"
+    "tipsLearners": "શીખનારાઓ માટે ટીપ્સ",
+    "helpCenter": "મદદ કેન્દ્ર"
   },
   "requestDialog": {
     "designationRequest": "હોદ્દો ઉમેરવાની વિનંતી",
