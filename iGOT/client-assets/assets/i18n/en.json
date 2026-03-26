@@ -1071,7 +1071,9 @@
         "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "moreKarmaPoints": "more KarmaPoints",
         "completedEvent": "You completed this event on",
-        "search": "Search events..."
+        "search": "Search events...",
+        "sadhanaSaptah": "Sadhana Saptah",
+        "samuhikCharcha-NLW2026": "Samuhik Charcha - NLW 2026"
     },
     "eventDetailsRightCard": {
         "viewRecording": "View recording",
@@ -2132,7 +2134,9 @@
         "externalContent": "External Content ({{count}})",
         "comprehensiveAssessmentProgram": "Comprehensive Assessment Program",
         "multilingualCourse": "Multilingual Course",
-        "learningPathway": "Learning Pathway"
+        "learningPathway": "Learning Pathway",
+        "sadhanaSaptah": "Sadhana Saptah",
+        "samuhikCharcha-NLW2026": "Samuhik Charcha - NLW 2026"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
@@ -2811,6 +2815,7 @@
         "viewLearnerPassbook": "View Learner Passbook",
         "learningProgress": "Learning Progress",
         "learnerPassbook": "Learner Passbook",
+        "learningHistory": "Learning History",
         "learningProgressDescription": "Track your learning journey, validated skills, and professional growth in one comprehensive view.",
         "learningObjective": "Learning Objective"
     },
@@ -2928,7 +2933,9 @@
         "goToCourse": "Go to Course",
         "keyTakeaways": "Key Takeaways",
         "numberOfAttendees": "Number of attendees",
-        "eventDuration": "Event Duration"
+        "eventDuration": "Event Duration",
+        "sadhanaSaptah": "Sadhana Saptah",
+        "samuhikCharcha-NLW2026": "Samuhik Charcha - NLW 2026"
     },
     "notificationV2Settings": {
         "email": "Email Notification",

@@ -1052,7 +1052,9 @@
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
     "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
     "completedEvent": "आपने यह ईवेंट पूरा लिया",
-    "search": "खोज इवेंट्स..."
+    "search": "खोज इवेंट्स...",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
   },
   "eventDetailsRightCard": {
     "viewRecording": "रिकॉर्डिंग देखें",
@@ -2082,7 +2084,9 @@
     "externalContent": "बाहरी सामग्री ({{count}})",
     "comprehensiveAssessmentProgram": "व्यापक मूल्यांकन कार्यक्रम",
     "multilingualCourse": "बहुभाषी पाठ्यक्रम",
-    "learningPathway": "लर्निंग पैथवे"
+    "learningPathway": "लर्निंग पैथवे",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
@@ -2847,6 +2851,7 @@
     "viewLearnerPassbook": "शिक्षार्थी पासबुक देखें",
     "learningProgress": "लर्निंग प्रगति",
     "learnerPassbook": "शिक्षार्थी पासबुक",
+    "learningHistory": "इतिहास सीखना",
     "learningProgressDescription": "एक ही व्यापक दृष्टिकोण में अपनी सीखने की यात्रा, प्रमाणित कौशल और व्यावसायिक विकास को ट्रैक करें।",
     "learningObjective": "सीखने का उद्देश्य"
   },
@@ -2963,7 +2968,9 @@
     "goToCourse": "कोर्स पर जाएं",
     "keyTakeaways": "मुख्य निष्कर्ष",
     "numberOfAttendees": "उपस्थित लोगों की संख्या",
-    "eventDuration": "घटना अवधि"
+    "eventDuration": "घटना अवधि",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
   },
   "notificationV2Settings": {
     "email": "ईमेल अधिसूचना",

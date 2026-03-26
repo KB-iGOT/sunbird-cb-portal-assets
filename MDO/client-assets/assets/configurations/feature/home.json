@@ -284,24 +284,6 @@
           ]
         },
         {
-          "menuCategory": "Peer Validation",
-          "submenu": false,
-          "key": "peer-validation",
-          "fragment": false,
-          "render": true,
-          "badges": {
-            "enabled": false,
-            "uri": ""
-          },
-          "enabled": true,
-          "routerLink": "/app/home/peer-validation",
-          "requiredRoles": [
-            "mdo_admin",
-            "mdo_leader"
-          ],
-          "defaultExpanded": false
-        },
-        {
           "menuCategory": "Events",
           "submenu": false,
           "key": "events",
