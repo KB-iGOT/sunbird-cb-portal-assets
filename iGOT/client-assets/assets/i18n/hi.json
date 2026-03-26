@@ -541,6 +541,7 @@
     "selfLearning": "स्वाध्याय",
     "completedCourse": "आपने यह कोर्स पूरा लिया",
     "completedProgram": "आपने इस कार्यक्रम को पूरा कर लिया",
+    "completedEvent": "आपने यह इवेंट पूरा किया",
     "completedAssessment": "आपने यह मूल्यांकन पूरा कर लिया है",
     "provider": "प्रोवाईडर",
     "objectives": "उद्देश्य",
@@ -1054,7 +1055,7 @@
     "completedEvent": "आपने यह ईवेंट पूरा लिया",
     "search": "खोज इवेंट्स...",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "eventDetailsRightCard": {
     "viewRecording": "रिकॉर्डिंग देखें",
@@ -2085,7 +2086,7 @@
     "multilingualCourse": "बहुभाषी पाठ्यक्रम",
     "learningPathway": "लर्निंग पैथवे",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",

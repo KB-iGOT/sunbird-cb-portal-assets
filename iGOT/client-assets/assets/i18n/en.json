@@ -541,6 +541,7 @@
         "mostTrending": "Most trending",
         "selfLearning": "Self learning",
         "completedCourse": "You completed this course on",
+        "completedEvent": "You completed this event on",
         "completedProgram": "You completed this program on",
         "completedAssessment": "You completed this assessment on",
         "completedOn": "You completed this",
@@ -1067,7 +1068,7 @@
         "completedEvent": "You completed this event on",
         "search": "Search events...",
         "sadhanaSaptah": "Sadhana Saptah",
-        "samuhikCharcha-NLW2026": "Samuhik Charcha - NLW 2026"
+        "samuhikCharcha-Nlw2026": "Samuhik Charcha - NLW 2026"
     },
     "eventDetailsRightCard": {
         "viewRecording": "View recording",
@@ -2129,7 +2130,7 @@
         "multilingualCourse": "Multilingual Course",
         "learningPathway": "Learning Pathway",
         "sadhanaSaptah": "Sadhana Saptah",
-        "samuhikCharcha-NLW2026": "Samuhik Charcha - NLW 2026"
+        "samuhikCharcha-Nlw2026": "Samuhik Charcha - NLW 2026"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",

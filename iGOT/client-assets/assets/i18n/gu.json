@@ -528,6 +528,7 @@
     "selfLearning": "સ્વ-શિક્ષણ",
     "completedCourse": "તમે આ અભ્યાસક્રમ પૂર્ણ કર્યો છે",
     "completedProgram": "તમે આ કાર્યક્રમ પૂર્ણ કર્યો",
+    "completedEvent": "તમે આ ઇવેન્ટ આ તારીખે પૂર્ણ કરી",
     "completedAssessment": "તમે આ મૂલ્યાંકન પૂર્ણ કર્યું",
     "provider": "પ્રદાતા",
     "objectives": "ઉદ્દેશો",
@@ -1033,7 +1034,7 @@
     "search": "ઘટનાઓ શોધો...",
     "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "eventDetailsRightCard": {
     "viewRecording": "રેકોર્ડિંગ જુઓ",
@@ -2043,7 +2044,7 @@
     "resources": "સ્રોતો ({{count}})",
     "externalContent": "બાહ્ય સામગ્રી ({{count}})",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
