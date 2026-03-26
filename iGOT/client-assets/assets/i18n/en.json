@@ -203,7 +203,8 @@
         "frequentlyAskedQuestions": "Frequently asked questions",
         "contactUs": "Contact Us",
         "copyright": "Copyright",
-        "privacyPolicy": "Privacy Policy"
+        "privacyPolicy": "Privacy Policy",
+        "helpCenter": "Help Center"
     },
     "platformrating": {
         "howLikelyRecommend": "How likely are you to recommend iGOT Karmayogi to your colleagues?",
@@ -1907,7 +1908,8 @@
         "viewProfile": "View Profile",
         "learningHistory": "Learning History",
         "tipsLearners": "Tips For Learners",
-        "igotKarmyogi": "iGOT Karmayogi"
+        "igotKarmyogi": "iGOT Karmayogi",
+        "helpCenter": "Help Center"
     },
     "requestDialog": {
         "designationRequest": "Request to add designation",

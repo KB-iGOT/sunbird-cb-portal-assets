@@ -98,7 +98,8 @@
                                         "assignment": false,
                                         "transcription": false,
                                         "karmaPoints": false,
-                                        "shareToc": false
+                                        "shareToc": false,
+                                        "badge": false
                                     },
                                     "player": {
                                         "subtitle": false,

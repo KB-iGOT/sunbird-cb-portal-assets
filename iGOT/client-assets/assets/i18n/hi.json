@@ -1862,7 +1862,8 @@
     "viewProfile": "प्रोफ़ाइल देखें",
     "learningHistory": "लर्निंग हिस्ट्री",
     "tipsLearners": "छात्रों के लिए सुझाव",
-    "igotKarmyogi": "आईगॉट कर्मयोगी"
+    "igotKarmyogi": "आईगॉट कर्मयोगी",
+    "helpCenter":"Help Center"
   },
   "requestDialog": {
     "designationRequest": "पदनाम जोड़ने का अनुरोध",
