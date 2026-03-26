@@ -197,7 +197,8 @@
     "frequentlyAskedQuestions": "अक्सर पूछे जाने वाले प्रश्न",
     "contactUs": "हमसे संपर्क करें",
     "copyright": "कॉपीराइट",
-    "privacyPolicy": "गोपनीयता नीति"
+    "privacyPolicy": "गोपनीयता नीति",
+    "helpCenter": "सहायता केंद्र"
   },
   "platformrating": {
     "howLikelyRecommend": "अपने सहयोगियों को आईगॉट कर्मयोगी के बारे में सुझाव देने की कितनी संभावना हैं?",
@@ -1864,7 +1865,8 @@
     "viewProfile": "प्रोफ़ाइल देखें",
     "learningHistory": "लर्निंग हिस्ट्री",
     "tipsLearners": "छात्रों के लिए सुझाव",
-    "igotKarmyogi": "आईगॉट कर्मयोगी"
+    "igotKarmyogi": "आईगॉट कर्मयोगी",
+    "helpCenter": "सहायता केंद्र"
   },
   "requestDialog": {
     "designationRequest": "पदनाम जोड़ने का अनुरोध",
