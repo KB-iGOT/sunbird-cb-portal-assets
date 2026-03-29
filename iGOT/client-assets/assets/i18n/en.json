@@ -199,7 +199,7 @@
         "contactUs": "Contact Us",
         "copyright": "Copyright",
         "privacyPolicy": "Privacy Policy",
-        "helpCenter": "Help Center"
+        "helpCenter": "Help Centre"
     },
     "platformrating": {
         "howLikelyRecommend": "How likely are you to recommend iGOT Karmayogi to your colleagues?",
@@ -1906,7 +1906,7 @@
         "learningHistory": "Learning History",
         "tipsLearners": "Tips For Learners",
         "igotKarmyogi": "iGOT Karmayogi",
-        "helpCenter": "Help Center"
+        "helpCenter": "Help Centre"
     },
     "requestDialog": {
         "designationRequest": "Request to add designation",
