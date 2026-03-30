@@ -186,7 +186,8 @@
     "frequentlyAskedQuestions": "વારંવાર પૂછાતા પ્રશ્નો",
     "contactUs": "અમારો સંપર્ક કરો",
     "copyright": "કોપીરાઈટ",
-    "privacyPolicy": "ગોપનીયતા નીતિ"
+    "privacyPolicy": "ગોપનીયતા નીતિ",
+    "helpCenter": "મદદ કેન્દ્ર"
   },
   "platformrating": {
     "howLikelyRecommend": "તમે તમારા સાથીઓને આઇ. જી. ઓ. ટી. કર્મયોગીની ભલામણ કરી શકો છો?",
@@ -528,6 +529,7 @@
     "selfLearning": "સ્વ-શિક્ષણ",
     "completedCourse": "તમે આ અભ્યાસક્રમ પૂર્ણ કર્યો છે",
     "completedProgram": "તમે આ કાર્યક્રમ પૂર્ણ કર્યો",
+    "completedEvent": "તમે આ ઇવેન્ટ આ તારીખે પૂર્ણ કરી",
     "completedAssessment": "તમે આ મૂલ્યાંકન પૂર્ણ કર્યું",
     "provider": "પ્રદાતા",
     "objectives": "ઉદ્દેશો",
@@ -1031,7 +1033,9 @@
     "live": "જીવંત",
     "karmayogiSaptah": "કર્મયોગી સપ્તાહ",
     "search": "ઘટનાઓ શોધો...",
-    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ"
+    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "eventDetailsRightCard": {
     "viewRecording": "રેકોર્ડિંગ જુઓ",
@@ -1833,7 +1837,8 @@
     "myLearning": "મારી શીખ",
     "viewProfile": "રૂપરેખા જુઓ",
     "learningHistory": "શીખવાનો ઇતિહાસ",
-    "tipsLearners": "શીખનારાઓ માટે ટીપ્સ"
+    "tipsLearners": "શીખનારાઓ માટે ટીપ્સ",
+    "helpCenter": "મદદ કેન્દ્ર"
   },
   "requestDialog": {
     "designationRequest": "હોદ્દો ઉમેરવાની વિનંતી",
@@ -2039,7 +2044,9 @@
     "years": "વર્ષો",
     "resource": "સ્રોત ({{count}})",
     "resources": "સ્રોતો ({{count}})",
-    "externalContent": "બાહ્ય સામગ્રી ({{count}})"
+    "externalContent": "બાહ્ય સામગ્રી ({{count}})",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
@@ -2623,14 +2630,18 @@
     "title": "શીર્ષક",
     "egExcelBeginner": "ઉદાહરણ: એક્સેલ પ્રારંભિક",
     "pleaseEnterTitle": "મહેરબાની કરીને શીર્ષક દાખલ કરો",
+    "titleTooShort": "શીર્ષક ઓછામાં ઓછા 10 અક્ષરો લાંબું હોવું જોઈએ",
+    "titleTooLong": "શીર્ષક 70 અક્ષરો કરતાં વધુ લાંબું ન હોઈ શકે",
     "specialCharNotAllowedExcept()$-/": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) & - /",
     "specialCharNotAllowedExcept(),.": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) . ,",
     "issuingOrganisation": "જારી કરનાર સંસ્થા",
     "specialCharNotAllowedExcept()$": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) &",
     "specialCharNotAllowedExcept()-": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) -",
+    "descriptionTooShort": "વર્ણન ઓછામાં ઓછા 250 અક્ષરો લાંબું હોવું જોઈએ",
     "specialCharNotAllowed": "વિશેષ અક્ષરો મંજૂર નથી.",
     "issueDate": "જારી કરવાની તારીખ",
     "pleaseSelectIssueDate": "મહેરબાની કરીને જારી કરવાની તારીખ પસંદ કરો",
+    "issueDateMustBeAfterEndDate": "જારી કરવાની તારીખ સમાપ્ત તારીખ પછી હોવી જોઈએ",
     "uploadFromSystem": "સિસ્ટમમાંથી અપલોડ કરો",
     "upload": "અપલોડ કરો",
     "dragFileToUpload": "અપલોડ કરવા માટે ફાઇલ ખેંચો",
@@ -2675,6 +2686,8 @@
     "trainingType": "પ્રશિક્ષણ પ્રકાર",
     "trainingTypeIsRequired": "પ્રશિક્ષણ પ્રકાર જરૂરી છે",
     "issuedOrganisationIsRequired": "જારી કરનાર સંસ્થા જરૂરી છે",
+    "issuedOrganisationTooShort": "જારી કરનાર સંસ્થા ઓછામાં ઓછા 10 અક્ષરો લાંબી હોવી જોઈએ",
+    "issuedOrganisationTooLong": "જારી કરનાર સંસ્થા 70 અક્ષરો કરતાં વધુ લાંબી ન હોઈ શકે",
     "deliveryMode": "ડિલિવરી મોડ",
     "pleaseEnterValidLearningHours": "કૃપા કરીને માન્ય સંખ્યા દાખલ કરો",
     "learningHoursMustBeGreaterThanZero": "શીખવાની કલાકો 0 કરતા વધુ હોવી જોઈએ",
@@ -2684,7 +2697,9 @@
     "viewLearnerPassbook": "લર્નર પાસબુક જુઓ",
     "learningProgress": "શીખવાની પ્રગતિ",
     "learnerPassbook": "લર્નર પાસબુક",
-    "learningProgressDescription": "તમારી શીખવાની યાત્રા, માન્ય કૌશલ્યો અને વ્યાવસાયિક વૃદ્ધિને એક વ્યાપક દૃશ્યમાં ટ્રૅક કરો."
+    "learningHistory": "ઇતિહાસ શીખવો",
+    "learningProgressDescription": "તમારી શીખવાની યાત્રા, માન્ય કૌશલ્યો અને વ્યાવસાયિક વૃદ્ધિને એક વ્યાપક દૃશ્યમાં ટ્રૅક કરો.",
+    "learningObjective": "શીખવાનો ઉદ્દેશ"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "નેટવર્ક શોધો",
@@ -2792,7 +2807,9 @@
     "pastEvents": "ભૂતકાળની ઘટનાઓ",
     "tomorrow": "કાલે",
     "today": "આજે",
-    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ"
+    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
   },
   "notificationV2Settings": {
     "email": "ઇમેઇલ સૂચના",

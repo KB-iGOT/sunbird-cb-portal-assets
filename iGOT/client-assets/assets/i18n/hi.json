@@ -197,7 +197,8 @@
     "frequentlyAskedQuestions": "अक्सर पूछे जाने वाले प्रश्न",
     "contactUs": "हमसे संपर्क करें",
     "copyright": "कॉपीराइट",
-    "privacyPolicy": "गोपनीयता नीति"
+    "privacyPolicy": "गोपनीयता नीति",
+    "helpCenter": "सहायता केंद्र"
   },
   "platformrating": {
     "howLikelyRecommend": "अपने सहयोगियों को आईगॉट कर्मयोगी के बारे में सुझाव देने की कितनी संभावना हैं?",
@@ -541,6 +542,7 @@
     "selfLearning": "स्वाध्याय",
     "completedCourse": "आपने यह कोर्स पूरा लिया",
     "completedProgram": "आपने इस कार्यक्रम को पूरा कर लिया",
+    "completedEvent": "आपने यह इवेंट पूरा किया",
     "completedAssessment": "आपने यह मूल्यांकन पूरा कर लिया है",
     "provider": "प्रोवाईडर",
     "objectives": "उद्देश्य",
@@ -1052,7 +1054,9 @@
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
     "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
     "completedEvent": "आपने यह ईवेंट पूरा लिया",
-    "search": "खोज इवेंट्स..."
+    "search": "खोज इवेंट्स...",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "eventDetailsRightCard": {
     "viewRecording": "रिकॉर्डिंग देखें",
@@ -1862,7 +1866,8 @@
     "viewProfile": "प्रोफ़ाइल देखें",
     "learningHistory": "लर्निंग हिस्ट्री",
     "tipsLearners": "छात्रों के लिए सुझाव",
-    "igotKarmyogi": "आईगॉट कर्मयोगी"
+    "igotKarmyogi": "आईगॉट कर्मयोगी",
+    "helpCenter": "सहायता केंद्र"
   },
   "requestDialog": {
     "designationRequest": "पदनाम जोड़ने का अनुरोध",
@@ -2081,7 +2086,9 @@
     "externalContent": "बाहरी सामग्री ({{count}})",
     "comprehensiveAssessmentProgram": "व्यापक मूल्यांकन कार्यक्रम",
     "multilingualCourse": "बहुभाषी पाठ्यक्रम",
-    "learningPathway": "लर्निंग पैथवे"
+    "learningPathway": "लर्निंग पैथवे",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
@@ -2770,14 +2777,18 @@
     "title": "शीर्षक",
     "egExcelBeginner": "उदाहरण: एक्सेल प्रारंभिक",
     "pleaseEnterTitle": "कृपया एक शीर्षक दर्ज करें",
+    "titleTooShort": "शीर्षक कम से कम 10 वर्ण लंबा होना चाहिए",
+    "titleTooLong": "शीर्षक 70 वर्णों से अधिक लंबा नहीं हो सकता",
     "specialCharNotAllowedExcept()$-/": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) & - /",
     "specialCharNotAllowedExcept(),.": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) . ,",
     "issuingOrganisation": "जारी करने वाला संगठन",
     "specialCharNotAllowedExcept()$": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) &",
     "specialCharNotAllowedExcept()-": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) -",
+    "descriptionTooShort": "विवरण कम से कम 250 वर्ण लंबा होना चाहिए",
     "specialCharNotAllowed": "विशेष वर्ण अनुमत नहीं हैं।",
     "issueDate": "जारी करने की तिथि",
     "pleaseSelectIssueDate": "कृपया एक जारी करने की तिथि चुनें",
+    "issueDateMustBeAfterEndDate": "जारी करने की तिथि समाप्ति तिथि के बाद होनी चाहिए",
     "uploadFromSystem": "सिस्टम से अपलोड करें",
     "upload": "अपलोड करें",
     "dragFileToUpload": "अपलोड करने के लिए फ़ाइल खींचें",
@@ -2831,6 +2842,8 @@
     "trainingType": "प्रशिक्षण प्रकार",
     "trainingTypeIsRequired": "प्रशिक्षण प्रकार आवश्यक है",
     "issuedOrganisationIsRequired": "जारी करने वाला संगठन आवश्यक है",
+    "issuedOrganisationTooShort": "जारी करने वाला संगठन कम से कम 10 वर्ण लंबा होना चाहिए",
+    "issuedOrganisationTooLong": "जारी करने वाला संगठन 70 वर्णों से अधिक लंबा नहीं हो सकता",
     "deliveryMode": "डिलीवरी मोड",
     "pleaseEnterValidLearningHours": "कृपया एक मान्य संख्या दर्ज करें",
     "learningHoursMustBeGreaterThanZero": "लर्निंग घंटे 0 से अधिक होने चाहिए",
@@ -2840,7 +2853,9 @@
     "viewLearnerPassbook": "शिक्षार्थी पासबुक देखें",
     "learningProgress": "लर्निंग प्रगति",
     "learnerPassbook": "शिक्षार्थी पासबुक",
-    "learningProgressDescription": "एक ही व्यापक दृष्टिकोण में अपनी सीखने की यात्रा, प्रमाणित कौशल और व्यावसायिक विकास को ट्रैक करें।"
+    "learningHistory": "इतिहास सीखना",
+    "learningProgressDescription": "एक ही व्यापक दृष्टिकोण में अपनी सीखने की यात्रा, प्रमाणित कौशल और व्यावसायिक विकास को ट्रैक करें।",
+    "learningObjective": "सीखने का उद्देश्य"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "नेटवर्क खोजें",
@@ -2955,7 +2970,9 @@
     "goToCourse": "कोर्स पर जाएं",
     "keyTakeaways": "मुख्य निष्कर्ष",
     "numberOfAttendees": "उपस्थित लोगों की संख्या",
-    "eventDuration": "घटना अवधि"
+    "eventDuration": "घटना अवधि",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
   },
   "notificationV2Settings": {
     "email": "ईमेल अधिसूचना",
