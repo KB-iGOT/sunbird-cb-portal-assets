@@ -101,7 +101,12 @@
         "partners": "Partners",
         "karmaTracks": "Karma Tracks",
         "theIgotMarketplace": "The iGOT Marketplace",
-        "igotClassroom": "iGOT Classroom"
+        "igotClassroom": "iGOT Classroom",
+        "technologyAndDataGovernance": "Technology and Data Governance",
+        "publicLeadership": "Public Leadership",
+        "environmentAndClimate": "Environment and Climate",
+        "economyAndPublicFinance": "Economy and Public Finance",
+        "governanceAndPublicPolicy": "Governance and Public Policy"
     },
     "appnavbar": {
         "searchforLearningContents": "Search for learning contents",
