@@ -2624,7 +2624,14 @@
     "notMyUseAccessRevoke": "आपकी पहुंच रद्द कर दी गई है क्योंकि आपका संगठन अब आपकी पहचान एक उपयोगकर्ता के रूप में नहीं करता है। पहुँच पुनः प्राप्त करने के लिए, कृपया \"स्थानांतरण अनुरोध\" जमा करें और सही संगठन का चयन करें।",
     "name": "नाम",
     "organisation": "ऑर्गनाईजेशन",
-    "presentOrganisation": "वर्तमान मंत्रालय/विभाग/राज्य/संघ राज्य क्षेत्र"
+    "presentOrganisation": "वर्तमान मंत्रालय/विभाग/राज्य/संघ राज्य क्षेत्र",
+    "st1": "ST-1",
+    "st2": "ST-2",
+    "rba": "RBA",
+    "alc": "ALC/IB",
+    "ews": "EWS(Economically Weaker Section)",
+    "physicallychallenged": "Physically Challenged Person",
+    "exservicemen": "Ex - Servicemen"
   },
   "NetworkV2Profile": {
     "mobileOTPSentFail": "दिए गए नंबर पर ओ. टी. पी. भेजने में असमर्थ, कृपया बाद में फिर से प्रयास करें",
