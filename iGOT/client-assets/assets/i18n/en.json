@@ -2581,7 +2581,14 @@
         "notMyUseAccessRevoke": "Your access has been revoked because your organization no longer identifies you as a user. To regain access, please submit a \"Transfer Request\" and choose the correct organization.",
         "name": "Name",
         "organisation": "Organisation",
-        "presentOrganisation": "Present Ministry/Department/State/UT"
+        "presentOrganisation": "Present Ministry/Department/State/UT",
+        "st1": "ST-1",
+        "st2": "ST-2",
+        "rba": "RBA",
+        "alc": "ALC/IB",
+        "ews": "EWS(Economically Weaker Section)",
+        "physicallychallenged": "Physically Challenged Person",
+        "exservicemen": "Ex - Servicemen"
     },
     "NetworkV2Profile": {
         "mobileOTPSentFail": "Unable to send OTP to given number, please try again later",
