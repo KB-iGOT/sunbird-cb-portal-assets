@@ -198,7 +198,8 @@
         "frequentlyAskedQuestions": "Frequently asked questions",
         "contactUs": "Contact Us",
         "copyright": "Copyright",
-        "privacyPolicy": "Privacy Policy"
+        "privacyPolicy": "Privacy Policy",
+        "helpCenter": "Help Centre"
     },
     "platformrating": {
         "howLikelyRecommend": "How likely are you to recommend iGOT Karmayogi to your colleagues?",
@@ -541,6 +542,7 @@
         "mostTrending": "Most trending",
         "selfLearning": "Self learning",
         "completedCourse": "You completed this course on",
+        "completedEvent": "You completed this event on",
         "completedProgram": "You completed this program on",
         "completedAssessment": "You completed this assessment on",
         "completedOn": "You completed this",
@@ -1065,7 +1067,9 @@
         "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "moreKarmaPoints": "more KarmaPoints",
         "completedEvent": "You completed this event on",
-        "search": "Search events..."
+        "search": "Search events...",
+        "sadhanaSaptah": "Sadhana Saptah",
+        "samuhikCharcha-Nlw2026": "Samuhik Charcha - NLW 2026"
     },
     "eventDetailsRightCard": {
         "viewRecording": "View recording",
@@ -1902,7 +1906,8 @@
         "viewProfile": "View Profile",
         "learningHistory": "Learning History",
         "tipsLearners": "Tips For Learners",
-        "igotKarmyogi": "iGOT Karmayogi"
+        "igotKarmyogi": "iGOT Karmayogi",
+        "helpCenter": "Help Centre"
     },
     "requestDialog": {
         "designationRequest": "Request to add designation",
@@ -2125,7 +2130,9 @@
         "externalContent": "External Content ({{count}})",
         "comprehensiveAssessmentProgram": "Comprehensive Assessment Program",
         "multilingualCourse": "Multilingual Course",
-        "learningPathway": "Learning Pathway"
+        "learningPathway": "Learning Pathway",
+        "sadhanaSaptah": "Sadhana Saptah",
+        "samuhikCharcha-Nlw2026": "Samuhik Charcha - NLW 2026"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
@@ -2574,7 +2581,14 @@
         "notMyUseAccessRevoke": "Your access has been revoked because your organization no longer identifies you as a user. To regain access, please submit a \"Transfer Request\" and choose the correct organization.",
         "name": "Name",
         "organisation": "Organisation",
-        "presentOrganisation": "Present Ministry/Department/State/UT"
+        "presentOrganisation": "Present Ministry/Department/State/UT",
+        "st1": "ST-1",
+        "st2": "ST-2",
+        "rba": "RBA",
+        "alc": "ALC/IB",
+        "ews": "EWS(Economically Weaker Section)",
+        "physicallychallenged": "Physically Challenged Person",
+        "exservicemen": "Ex - Servicemen"
     },
     "NetworkV2Profile": {
         "mobileOTPSentFail": "Unable to send OTP to given number, please try again later",
@@ -2736,8 +2750,10 @@
         "specialCharNotAllowedExcept()$": "Special characters are not allowed, except for: ( ) &",
         "specialCharNotAllowedExcept()-": "Special characters are not allowed, except for: ( ) -",
         "specialCharNotAllowed": "Special characters are not allowed",
+        "descriptionTooShort": "Description must be at least 250 characters long",
         "issueDate": "Issue Date",
         "pleaseSelectIssueDate": "Please select an issue date",
+        "issueDateMustBeAfterEndDate": "Issue date must be after end date",
         "uploadFromSystem": "Upload from System",
         "upload": "Upload",
         "dragFileToUpload": "Drag file to upload",
@@ -2802,6 +2818,7 @@
         "viewLearnerPassbook": "View Learner Passbook",
         "learningProgress": "Learning Progress",
         "learnerPassbook": "Learner Passbook",
+        "learningHistory": "Learning History",
         "learningProgressDescription": "Track your learning journey, validated skills, and professional growth in one comprehensive view.",
         "learningObjective": "Learning Objective"
     },
@@ -2919,7 +2936,9 @@
         "goToCourse": "Go to Course",
         "keyTakeaways": "Key Takeaways",
         "numberOfAttendees": "Number of attendees",
-        "eventDuration": "Event Duration"
+        "eventDuration": "Event Duration",
+        "sadhanaSaptah": "Sadhana Saptah",
+        "samuhikCharcha-NLW2026": "Samuhik Charcha - NLW 2026"
     },
     "notificationV2Settings": {
         "email": "Email Notification",

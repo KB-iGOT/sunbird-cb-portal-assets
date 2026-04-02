@@ -43,7 +43,7 @@
           "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
         },
         {
-          "icon": "people",
+          "icon": "supervisor_account",
           "isCustomIcon": false,
           "name": "Users",
           "badges": {
@@ -51,11 +51,70 @@
             "uri": ""
           },
           "enabled": true,
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "requiredRoles": ["STATE_ADMIN", "state_admin"],
+          "subMenu": [
+               {
+              "name": "All State Users",
+              "icon": "people_outline",
+              "isCustomIcon": false,
+              "key": "state-users",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/users",
+              "requiredRoles": ["STATE_ADMIN", "state_admin"]
+            },
+            {
+              "name": "Manage Users",
+              "icon": "person_add",
+              "isCustomIcon": false,
+              "key": "users",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/state-users",
+              "requiredRoles": ["STATE_ADMIN", "state_admin"]
+            },
+           
+            {
+              "name": "Roles and access",
+              "icon": "security",
+              "isCustomIcon": false,
+              "key": "roles-access",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/app/home/roles-access",
+              "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+            }
+          ]
+        },
+        {
+          "icon": "supervisor_account",
+          "isCustomIcon": false,
+          "name": "Users",
+          "badges": {
+            "enabled": false,
+            "uri": ""
+          },
+          "enabled": true,
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"],
           "subMenu": [
             {
               "name": "All SPV Users",
-              "icon": "people",
+              "icon": "people_outline",
               "isCustomIcon": false,
               "key": "users",
               "fragment": false,
@@ -66,11 +125,12 @@
               },
               "enabled": true,
               "routerLink": "/app/home/users",
-              "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
             },
+           
             {
               "name": "Roles and access",
-              "icon": "people",
+              "icon": "security",
               "isCustomIcon": false,
               "key": "roles-access",
               "fragment": false,
@@ -198,7 +258,7 @@
             "uri": ""
           },
           "enabled": true,
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"],
           "subMenu": [
             {
               "name": "All Request",
@@ -213,7 +273,7 @@
               },
               "enabled": true,
               "routerLink": "/app/home/all-request",
-              "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+              "requiredRoles": ["SPV_ADMIN", "spv_admin"]
             },
             {
               "name": "Sectors",
@@ -242,7 +302,7 @@
             "uri": ""
           },
           "enabled": true,
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"],
           "subMenu": [
             {
               "name": "KCM Mapping",
@@ -271,7 +331,7 @@
             "uri": ""
           },
           "enabled": true,
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"],
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"],
           "subMenu": [
             {
               "name": "All Surveys",
@@ -318,7 +378,7 @@
           },
           "enabled": true,
           "routerLink": "/app/home/requests/organisation",
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"]
         },
         {
           "name": "Domain Requests",
@@ -333,7 +393,7 @@
           },
           "enabled": true,
           "routerLink": "/app/home/requests/domain",
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"]
         },
         {
           "name": "Moderation",
@@ -363,7 +423,7 @@
           },
           "enabled": true,
           "routerLink": "/app/home/spv/peer-validation",
-          "requiredRoles": ["SPV_ADMIN", "STATE_ADMIN", "spv_admin", "state_admin"]
+          "requiredRoles": ["SPV_ADMIN", "spv_admin"]
         }
       ]
     }

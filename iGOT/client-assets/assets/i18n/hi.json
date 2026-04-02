@@ -197,7 +197,8 @@
     "frequentlyAskedQuestions": "अक्सर पूछे जाने वाले प्रश्न",
     "contactUs": "हमसे संपर्क करें",
     "copyright": "कॉपीराइट",
-    "privacyPolicy": "गोपनीयता नीति"
+    "privacyPolicy": "गोपनीयता नीति",
+    "helpCenter": "सहायता केंद्र"
   },
   "platformrating": {
     "howLikelyRecommend": "अपने सहयोगियों को आईगॉट कर्मयोगी के बारे में सुझाव देने की कितनी संभावना हैं?",
@@ -541,6 +542,7 @@
     "selfLearning": "स्वाध्याय",
     "completedCourse": "आपने यह कोर्स पूरा लिया",
     "completedProgram": "आपने इस कार्यक्रम को पूरा कर लिया",
+    "completedEvent": "आपने यह इवेंट पूरा किया",
     "completedAssessment": "आपने यह मूल्यांकन पूरा कर लिया है",
     "provider": "प्रोवाईडर",
     "objectives": "उद्देश्य",
@@ -1052,7 +1054,9 @@
     "karmayogiSaptah": "कर्मयोगी सप्ताह",
     "rajyaKarmayogiSaptah": "राज्य कर्मयोगी सप्ताह",
     "completedEvent": "आपने यह ईवेंट पूरा लिया",
-    "search": "खोज इवेंट्स..."
+    "search": "खोज इवेंट्स...",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "eventDetailsRightCard": {
     "viewRecording": "रिकॉर्डिंग देखें",
@@ -1862,7 +1866,8 @@
     "viewProfile": "प्रोफ़ाइल देखें",
     "learningHistory": "लर्निंग हिस्ट्री",
     "tipsLearners": "छात्रों के लिए सुझाव",
-    "igotKarmyogi": "आईगॉट कर्मयोगी"
+    "igotKarmyogi": "आईगॉट कर्मयोगी",
+    "helpCenter": "सहायता केंद्र"
   },
   "requestDialog": {
     "designationRequest": "पदनाम जोड़ने का अनुरोध",
@@ -2081,7 +2086,9 @@
     "externalContent": "बाहरी सामग्री ({{count}})",
     "comprehensiveAssessmentProgram": "व्यापक मूल्यांकन कार्यक्रम",
     "multilingualCourse": "बहुभाषी पाठ्यक्रम",
-    "learningPathway": "लर्निंग पैथवे"
+    "learningPathway": "लर्निंग पैथवे",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
@@ -2617,7 +2624,14 @@
     "notMyUseAccessRevoke": "आपकी पहुंच रद्द कर दी गई है क्योंकि आपका संगठन अब आपकी पहचान एक उपयोगकर्ता के रूप में नहीं करता है। पहुँच पुनः प्राप्त करने के लिए, कृपया \"स्थानांतरण अनुरोध\" जमा करें और सही संगठन का चयन करें।",
     "name": "नाम",
     "organisation": "ऑर्गनाईजेशन",
-    "presentOrganisation": "वर्तमान मंत्रालय/विभाग/राज्य/संघ राज्य क्षेत्र"
+    "presentOrganisation": "वर्तमान मंत्रालय/विभाग/राज्य/संघ राज्य क्षेत्र",
+    "st1": "ST-1",
+    "st2": "ST-2",
+    "rba": "RBA",
+    "alc": "ALC/IB",
+    "ews": "EWS(Economically Weaker Section)",
+    "physicallychallenged": "Physically Challenged Person",
+    "exservicemen": "Ex - Servicemen"
   },
   "NetworkV2Profile": {
     "mobileOTPSentFail": "दिए गए नंबर पर ओ. टी. पी. भेजने में असमर्थ, कृपया बाद में फिर से प्रयास करें",
@@ -2846,6 +2860,7 @@
     "viewLearnerPassbook": "शिक्षार्थी पासबुक देखें",
     "learningProgress": "लर्निंग प्रगति",
     "learnerPassbook": "शिक्षार्थी पासबुक",
+    "learningHistory": "इतिहास सीखना",
     "learningProgressDescription": "एक ही व्यापक दृष्टिकोण में अपनी सीखने की यात्रा, प्रमाणित कौशल और व्यावसायिक विकास को ट्रैक करें।",
     "learningObjective": "सीखने का उद्देश्य"
   },
@@ -2962,7 +2977,9 @@
     "goToCourse": "कोर्स पर जाएं",
     "keyTakeaways": "मुख्य निष्कर्ष",
     "numberOfAttendees": "उपस्थित लोगों की संख्या",
-    "eventDuration": "घटना अवधि"
+    "eventDuration": "घटना अवधि",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
   },
   "notificationV2Settings": {
     "email": "ईमेल अधिसूचना",
