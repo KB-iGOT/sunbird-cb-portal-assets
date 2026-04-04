@@ -2593,7 +2593,8 @@
         "alc": "ALC/IB",
         "ews": "EWS(Economically Weaker Section)",
         "physicallychallenged": "Physically Challenged Person",
-        "exservicemen": "Ex - Servicemen"
+        "exservicemen": "Ex - Servicemen",
+        "sectorCategory": "Thematic Areas"
     },
     "NetworkV2Profile": {
         "mobileOTPSentFail": "Unable to send OTP to given number, please try again later",
