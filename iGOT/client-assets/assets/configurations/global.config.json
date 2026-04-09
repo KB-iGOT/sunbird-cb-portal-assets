@@ -1,6 +1,6 @@
 {
     "globalConfig": {
         "mandatoryPopupDuration": 7200,
-        "showOldVersionOfLearnersPassbook": true
+        "showOldVersionOfLearnersPassbook": false
     }
 }
