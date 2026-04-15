@@ -421,7 +421,7 @@
             "enabled": false,
             "uri": ""
           },
-          "enabled": true,
+          "enabled": false,
           "routerLink": "/app/home/spv/peer-validation",
           "requiredRoles": ["SPV_ADMIN", "spv_admin"]
         }
