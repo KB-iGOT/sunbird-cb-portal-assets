@@ -2759,6 +2759,7 @@
         "dragFileToUpload": "Drag file to upload",
         "url": "URL",
         "pleaseGiveValidUrl": "Please give valid URL",
+        "requiredUrl": "URL is required",
         "describeAboutTheSkillsThatYouHaveGainedFromThisLearning": "Describe about the skills that you have gained from this learning",
         "civilServiceType": "Civil Service Type",
         "basicDetails": "Basic Details",
