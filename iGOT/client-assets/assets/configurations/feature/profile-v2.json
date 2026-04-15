@@ -1,4 +1,29 @@
 {
+    "nlwExperience": {
+    "banner": {
+      "enabled":true,
+      "displayImage": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1775989388033_image.png",
+      "profileDisplayImage":"https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1776073542323_sadhana-saptah.png",
+      "onClick": {
+        "action": "OPEN_POPUP",
+        "type": "API_DOCUMENT",
+        "api": {
+          "url": "/apis/public/v8/nlw/2026/cert/download/mobile",
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "body": {
+            "inputFormat": "svg",
+            "outputFormat": "svg"
+          },
+          "responseType": "blob",
+          "renderAs": "SVG",
+          "withCredentials": true
+        }
+      }
+    }
+  },
     "tabs": [
         {
             "name": "profileInfo",
