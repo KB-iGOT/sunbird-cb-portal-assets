@@ -2801,6 +2801,7 @@
     "dragFileToUpload": "अपलोड करने के लिए फ़ाइल खींचें",
     "url": "यूआरएल",
     "pleaseGiveValidUrl": "कृपया एक मान्य यूआरएल दें",
+    "requiredUrl": "यूआरएल आवश्यक है",
     "describeAboutTheSkillsThatYouHaveGainedFromThisLearning": "इस सीख से आपने जो कौशल प्राप्त किए हैं, उनके बारे में वर्णन करें",
     "civilServiceType": "सिविल सेवा का प्रकार",
     "basicDetails": "मूल विवरण",
