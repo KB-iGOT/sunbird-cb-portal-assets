@@ -2786,7 +2786,7 @@
     "pleaseEnterTitle": "कृपया एक शीर्षक दर्ज करें",
     "titleTooShort": "शीर्षक कम से कम 10 वर्ण लंबा होना चाहिए",
     "titleTooLong": "शीर्षक 70 वर्णों से अधिक लंबा नहीं हो सकता",
-    "allowedCharacter": "केवल (a-z/A-Z,0-9._-$/\\:[]''!&) वर्ण समर्थित हैं।",
+    "allowedCharacter": "केवल (a-z/A-Z,0-9._-$/:[]''!&) वर्ण समर्थित हैं।",
     "specialCharNotAllowedExcept()$-/": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) & - /",
     "specialCharNotAllowedExcept(),.": "विशेष वर्ण अनुमत नहीं हैं, सिवाय: ( ) . ,",
     "issuingOrganisation": "जारी करने वाला संगठन",
