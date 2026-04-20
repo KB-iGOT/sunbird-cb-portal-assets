@@ -2639,7 +2639,7 @@
     "pleaseEnterTitle": "મહેરબાની કરીને શીર્ષક દાખલ કરો",
     "titleTooShort": "શીર્ષક ઓછામાં ઓછા 10 અક્ષરો લાંબું હોવું જોઈએ",
     "titleTooLong": "શીર્ષક 70 અક્ષરો કરતાં વધુ લાંબું ન હોઈ શકે",
-    "allowedCharacter": "ફક્ત (a-z/A-Z,0-9._-$/\\:[]''!&) અક્ષરો જ સમર્થિત છે.",
+    "allowedCharacter": "ફક્ત (a-z/A-Z,0-9._-$/:[]''!&) અક્ષરો જ સમર્થિત છે.",
     "specialCharNotAllowedExcept()$-/": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) & - /",
     "specialCharNotAllowedExcept(),.": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) . ,",
     "issuingOrganisation": "જારી કરનાર સંસ્થા",

@@ -2744,7 +2744,7 @@
         "pleaseEnterTitle": "Please enter a title",
         "titleTooShort": "Title must be at least 10 characters long",
         "titleTooLong": "Title cannot be more than 70 characters long",
-        "allowedCharacter": "Only (a-z/A-Z,0-9._-$/\\:[]''!&) characters are supported.",
+        "allowedCharacter": "Only (a-z/A-Z,0-9._-$/:[]''!&) characters are supported.",
         "specialCharNotAllowedExcept()$-/": "Special characters are not allowed, except for: ( ) & - /",
         "specialCharNotAllowedExcept(),.": "Special characters are not allowed, except for: ( ) . ,",
         "issuingOrganisation": "Issuing Organisation",
