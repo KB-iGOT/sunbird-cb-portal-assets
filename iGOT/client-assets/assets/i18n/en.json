@@ -198,7 +198,8 @@
         "frequentlyAskedQuestions": "Frequently asked questions",
         "contactUs": "Contact Us",
         "copyright": "Copyright",
-        "privacyPolicy": "Privacy Policy"
+        "privacyPolicy": "Privacy Policy",
+        "helpCenter": "Help Centre"
     },
     "platformrating": {
         "howLikelyRecommend": "How likely are you to recommend iGOT Karmayogi to your colleagues?",
@@ -280,7 +281,10 @@
         "takeSurveyToUnlock": "Take survey to unlock",
         "iGOTSpecializationProgram": "iGOT Specialization",
         "retired": "Retired",
-        "newVersion": "New Version"
+        "newVersion": "New Version",
+        "externalCourseRetiredMessage": "This course is no longer being offered in its current form. We are updating our catalog to bring you improved learning options. Please choose another course with similar topics or browse recommended courses.",
+        "externalCourseProviderRetiredMessage": "Courses from this learning partner are temporarily not available on iGOT Karmayogi. Our team is updating partner content. In the meantime, you can continue your journey with courses from other partners.",
+        "inactive": "Inactive"
     },
     "allChannelsComponent": {
         "noChannelsFound": "No channels found!",
@@ -365,7 +369,9 @@
         "domain": "Domain",
         "viewMore": "View more",
         "viewLess": "View less",
-        "issued": "Issued on"
+        "issued": "Issued on",
+        "source": "Source",
+        "igot": "igot"
     },
     "competencyCardDetails": {
         "passbookList": "Passbook list",
@@ -378,7 +384,11 @@
         "associatedCertificates": "Associated Certificates",
         "noCertificates": "No Certificates found!",
         "noCertificatesWithCompetency": "No certificates found associated with this competency theme",
-        "issuedOn": "Issued on"
+        "issuedOn": "Issued on",
+        "igotLearning": "iGOT Learning",
+        "marketplace": "Marketplace",
+        "selfDeclared": "Self Declared",
+        "ATI/CTIReported": "ATI/CTI Reported"
     },
     "widgetCbpFilters": {
         "filters": "Filters",
@@ -434,7 +444,7 @@
         "sessions": "Sessions",
         "discussion": "Discussion",
         "discussions": "Discussions",
-        "summary": "Description",
+        "summary": "Summary",
         "description": "Description",
         "viewMore": "view more",
         "viewLess": "view less",
@@ -532,8 +542,11 @@
         "mostTrending": "Most trending",
         "selfLearning": "Self learning",
         "completedCourse": "You completed this course on",
+        "completedEvent": "You completed this event on",
         "completedProgram": "You completed this program on",
         "completedAssessment": "You completed this assessment on",
+        "completedOn": "You completed this",
+        "on": "on",
         "provider": "Provider",
         "objectives": "Objectives",
         "comments": "Comments",
@@ -696,6 +709,8 @@
         "practiceTests": "Practice Tests",
         "finalTest": "Final test",
         "finalTests": "Final Tests",
+        "preEnrollmentAssessment": "Preliminary Assessment",
+        "preEnrollmentAssessments": "Preliminary Assessments",
         "otherItem": "Other Item",
         "otherItems": "Other Items",
         "to": "to",
@@ -789,9 +804,13 @@
         "replay": "Replay",
         "submitTheTest": "Submit the test",
         "optional": "optional",
+        "instructionOneComprehensive": "I have carefully read the instructions and I am ready to take the assessment responsibly.",
         "instructionOne": "I have read and understood all the instructions. I understand that using unfair means of any sort for any advantage will lead to immediate disqualification. The decision of ",
         "instructionTwo": "iGOTkarmayogi.gov.in",
         "instructionThree": "  will be final in these matters.",
+        "instructionNew": "This assessment consists of",
+        "instructionNew1": " with a mix of easy, medium, and difficult levels, carrying varying marks. The minimum passing score is",
+        "instructionNew2": "and the assessment must be completed within",
         "passingCriteria": "Passing Criteria",
         "attemptsLeft": "Attempts Left"
     },
@@ -927,7 +946,7 @@
         "mark": "Mark",
         "clearResponse": "Clear Response",
         "markForReviewNext": "Mark for Review & next",
-        "warningNoteForAssessmentSubmit": "Do you want to submit your test finally. After submitting test, you will have to start the test from beginning.",
+        "warningNoteForAssessmentSubmit": "Are you sure you want to submit the test?",
         "submitYes": "Yes",
         "submitNo": "No",
         "back": "Back",
@@ -952,6 +971,7 @@
         "yourPerformanceSummary": "Your Performance Summary",
         "retakeAssessment": "Retake assessment",
         "myOverallPerformanceSummary": "My Overall performance summary",
+        "myPerformanceSummary": "My Performance Summary",
         "mySectionwiseSummary": "My Sectionwise summary",
         "insights": "Insights",
         "reattemptTest": "Reattempt Test",
@@ -968,7 +988,25 @@
         "viewAll": "View All",
         "collapse": "Collapse",
         "all": "All",
-        "unattempted": "Unattempted"
+        "unattempted": "Unattempted",
+        "minimumScoreToPass": "Minimum score to pass:",
+        "sectionName": "Section Name",
+        "result": "Result",
+        "requiredScore": "Required Score",
+        "viewDetails": "View Details",
+        "viewQuestions": "View Questions",
+        "question": "Question",
+        "assessmentResult": "Assessment Result",
+        "congratulations": "Congratulations! You have passed",
+        "notPassed": "Not passed. You may reattempt the exam",
+        "requiredToPass": "Required to pass:",
+        "allQuestions": "All Questions",
+        "incorrect": "Incorrect",
+        "blank": "Blank",
+        "yourAnswer": "Your Answer:",
+        "whatYouNeedToPass": "What you need to pass:",
+        "moreToPassThreshold": "score {{score}}% more to reach the passing threshold",
+        "additionalMarks": "Get {{marks}} additional marks correct"
     },
     "network": {
         "networkHome": "Network home",
@@ -1029,7 +1067,9 @@
         "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "moreKarmaPoints": "more KarmaPoints",
         "completedEvent": "You completed this event on",
-        "search": "Search events..."
+        "search": "Search events...",
+        "sadhanaSaptah": "Sadhana Saptah",
+        "samuhikCharcha-Nlw2026": "Samuhik Charcha - NLW 2026"
     },
     "eventDetailsRightCard": {
         "viewRecording": "View recording",
@@ -1407,7 +1447,9 @@
         "firstEnroll": "for your 1st course enrolment.",
         "firstEnrollTip": "Note: This is only applicable for your first enrolment.",
         "courseCompleteTip": "Every course completion automatically gets you 5 Karma Points.",
+        "lpCompleteTip": "Every learning pathway completion automatically gets you 25 Karma Points.",
         "byCompleting": "by completing this course.",
+        "byCompletingLP": "by completing this learning pathway.",
         "rateThis": ", rate this content!",
         "rateTip": "Your course rating serves as a valuable recommendation to Karmayogis, so go ahead and RATE.",
         "assessmentTip": "Here's 5 extra Karma Points for successfully completing all final assessments",
@@ -1451,6 +1493,7 @@
         "growSection": "Learn. Network. Take your career growth to the next level."
     },
     "home": {
+        "trendingOnIgot": "Trending on iGOT",
         "caseStudy": "Case Study",
         "caseStudies": "Case Studies",
         "contents": "Contents",
@@ -1464,6 +1507,7 @@
         "connect": "Connect",
         "connecting": "Connecting...",
         "noDataFound": "No data found!",
+        "lpNoDataFound": "Learning pathways will appear here once available.",
         "newRecommendation": "As of now there are no recommendations found for you.",
         "gotToDiscussHubs": "Go to discuss hub",
         "btnDiscuss": "Discuss",
@@ -1605,7 +1649,9 @@
         "needToComplete30Percent": "You need to complete 30% of the course to access Samuhik Charcha. Keep learning to unlock Samuhik Charcha events.",
         "forYou": "For you",
         "youWillFindIgotSpecializationProgramsHere.": "You will find iGOT Specialization programs here.",
-        "noevents": "Events will be available soon."
+        "noevents": "Events will be available soon.",
+        "learningPathway": "Learning Pathway",
+        "noMatchingCourses": "No matching courses"
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
@@ -1633,8 +1679,6 @@
         "slot1Info7": "Your morning mantra: Learn, grow and lead with iGOT!",
         "slot1Info8": "Join us for Karmayogi Talks every Wednesday at 9:30 AM at the Events Hub!",
         "slot1Info9": "Start fresh: Do Yoga at the Workplace and refresh your mind before work!",
-
-
         "slot2Info1": "Start your day with leadership courses, and energize your mind!",
         "slot2Info2": "Seize the day with the courses on teamwork!",
         "slot2Info3": "Be in charge of your digital safety; enroll in Cyber Security courses!",
@@ -1645,9 +1689,7 @@
         "slot2Info8": "Gain the skills for citizen-centric governance; take the ‘Introduction to Karmayogi Competency Model’ course!",
         "slot2Info9": "Know more about the Mission; enroll in the ‘Understanding Mission Karmayogi’ course now!",
         "slot2Info10": "Contribute to Viksit Bharat; enroll in the course now!",
-        "slot2Info11":  "Enroll in the ‘Drafting in Plain Language’ course for clearer drafting and communication.",
-
-
+        "slot2Info11": "Enroll in the ‘Drafting in Plain Language’ course for clearer drafting and communication.",
         "slot3Info1": "Liked the course? Rate it, and get Karma Points!",
         "slot3Info2": "Spend an hour a week learning and get a weekly clap!",
         "slot3Info3": "Binge-watch the Karmayogi Talks and sharpen your knowledge cells!",
@@ -1658,20 +1700,16 @@
         "slot3Info8": "Connect, learn and grow: Follow us on social media and stay updated!",
         "slot3Info9": "Liked a course, recommend it to your peers at iGOT!",
         "slot3Info10": "Lunchtime learning: Try a course on Nutrition and Wellness while you eat.",
-
-        
-        "slot4Info1":  "Lunch done, energy up! Dive into the AI courses and be tech-educated!",
+        "slot4Info1": "Lunch done, energy up! Dive into the AI courses and be tech-educated!",
         "slot4Info2": "Chai o'clock! Sip up, watch the latest ‘Karmayogi Talks’!",
-        "slot4Info3":  "Get, set, and go for non-stop learning with 3000+ courses!",
+        "slot4Info3": "Get, set, and go for non-stop learning with 3000+ courses!",
         "slot4Info4": "Top India-centric case studies await at ‘Amrit Gyaan Kosh’!",
         "slot4Info5": "Celebrate every learning milestone! Complete a course today!",
         "slot4Info6": "Enroll in the ‘ChatGPT and Generative AI Tools for Government Officials’ course on iGOT and apply AI tools in your routine work.",
-        "slot4Info7":  "Explore new interests: Try a course outside your role today!",
+        "slot4Info7": "Explore new interests: Try a course outside your role today!",
         "slot4Info8": "Enroll in the management and leadership courses on iGOT for effective teamwork!",
-        "slot4Info9":  "Plan your financial future; enroll in the ‘Personal Finance’ course!",
+        "slot4Info9": "Plan your financial future; enroll in the ‘Personal Finance’ course!",
         "slot4Info10": "Explore iGOT AI - your personal learning assistant!",
-
-        
         "slot5Info1": "Check your Ministry’s performance, at the MDO Wall of Fame!",
         "slot5Info2": "Check the courses trending in your department!",
         "slot5Info3": "Liked the course? Rate it, and get Karma Points!",
@@ -1681,7 +1719,6 @@
         "slot5Info7": "Be a Karmayogi star! Share your course certificate on LinkedIn.",
         "slot5Info8": "Learn on the go with the iGOT App!",
         "slot5Info9": "Wondering about your next course? Let iGOT AI guide your career learning.",
-
         "slot6Info1": "Check your Karma Points before bed!",
         "slot6Info2": "Inspire others! Share your certificate on LinkedIn.",
         "slot6Info3": "Connect, learn and grow: Follow us on social media and stay updated!",
@@ -1690,8 +1727,6 @@
         "slot6Info6": "Quiet hours = Perfect focus. Explore new courses at iGOT!",
         "slot6Info7": "Good night, sweet learning with iGOT!",
         "slot6Info8": "Wind down your day with a short, informative course.",
-
-        
         "slot1Greet": "Namaste",
         "slot2Greet": "Hey",
         "slot3Greet": "Had a good lunch",
@@ -1865,13 +1900,14 @@
     "profileDropdown": {
         "signOut": "Sign-out",
         "settings": "Settings",
-        "competencyPassbook": "Competency passbook",
+        "competencyPassbook": "Competency Passbook",
         "getStarted": "'Get Started' tour",
         "myLearning": "My Learning",
         "viewProfile": "View Profile",
         "learningHistory": "Learning History",
         "tipsLearners": "Tips For Learners",
-        "igotKarmyogi": "iGOT Karmayogi"
+        "igotKarmyogi": "iGOT Karmayogi",
+        "helpCenter": "Help Centre"
     },
     "requestDialog": {
         "designationRequest": "Request to add designation",
@@ -2033,7 +2069,9 @@
         "communities": "Communities ({{count}})",
         "seeAllResults": "See all the results",
         "iGOTSpecializationProgram": "iGOT Specialization",
-        "noEventScheduleYet": "No events scheduled yet"
+        "noEventScheduleYet": "No events scheduled yet",
+        "seeMore": "See More",
+        "seeLess": "See Less"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
@@ -2091,7 +2129,10 @@
         "resources": "Resources ({{count}})",
         "externalContent": "External Content ({{count}})",
         "comprehensiveAssessmentProgram": "Comprehensive Assessment Program",
-        "multilingualCourse": "Multilingual Course"
+        "multilingualCourse": "Multilingual Course",
+        "learningPathway": "Learning Pathway",
+        "sadhanaSaptah": "Sadhana Saptah",
+        "samuhikCharcha-Nlw2026": "Samuhik Charcha - NLW 2026"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
@@ -2359,7 +2400,8 @@
         "overlayText2": "rank this month, which is",
         "overlayText3": "levels higher than your previous ranking.",
         "overlayText3WithSingular": "level higher than your previous ranking.",
-        "rank": "rank"
+        "rank": "rank",
+        "badgetooltip": "Track the badges you have earned through course completion and learning achievements."
     },
     "hubsdesc": {
         "learnDesc": "Sharpen your skills with hundreds-of online courses.",
@@ -2539,7 +2581,14 @@
         "notMyUseAccessRevoke": "Your access has been revoked because your organization no longer identifies you as a user. To regain access, please submit a \"Transfer Request\" and choose the correct organization.",
         "name": "Name",
         "organisation": "Organisation",
-        "presentOrganisation": "Present Ministry/Department/State/UT"
+        "presentOrganisation": "Present Ministry/Department/State/UT",
+        "st1": "ST-1",
+        "st2": "ST-2",
+        "rba": "RBA",
+        "alc": "ALC/IB",
+        "ews": "EWS(Economically Weaker Section)",
+        "physicallychallenged": "Physically Challenged Person",
+        "exservicemen": "Ex - Servicemen"
     },
     "NetworkV2Profile": {
         "mobileOTPSentFail": "Unable to send OTP to given number, please try again later",
@@ -2689,22 +2738,29 @@
         "endYear": "End Year",
         "pleaseSelectEndYear": "Please select an end year",
         "awards/Publications/OtherCertifications": "Awards/Publications/Other Certifications",
+        "noteForAwards": "Added achievements will be reflected in the Learner Passbook after 30 minutes",
         "title": "Title",
         "egExcelBeginner": "e.g. Excel beginner",
         "pleaseEnterTitle": "Please enter a title",
+        "titleTooShort": "Title must be at least 10 characters long",
+        "titleTooLong": "Title cannot be more than 70 characters long",
+        "allowedCharacter": "Only (a-z/A-Z,0-9._-$/:[]''!&) characters are supported.",
         "specialCharNotAllowedExcept()$-/": "Special characters are not allowed, except for: ( ) & - /",
         "specialCharNotAllowedExcept(),.": "Special characters are not allowed, except for: ( ) . ,",
         "issuingOrganisation": "Issuing Organisation",
         "specialCharNotAllowedExcept()$": "Special characters are not allowed, except for: ( ) &",
         "specialCharNotAllowedExcept()-": "Special characters are not allowed, except for: ( ) -",
         "specialCharNotAllowed": "Special characters are not allowed",
+        "descriptionTooShort": "Description must be at least 250 characters long",
         "issueDate": "Issue Date",
         "pleaseSelectIssueDate": "Please select an issue date",
+        "issueDateMustBeAfterEndDate": "Issue date must be after end date",
         "uploadFromSystem": "Upload from System",
         "upload": "Upload",
         "dragFileToUpload": "Drag file to upload",
         "url": "URL",
         "pleaseGiveValidUrl": "Please give valid URL",
+        "requiredUrl": "URL is required",
         "describeAboutTheSkillsThatYouHaveGainedFromThisLearning": "Describe about the skills that you have gained from this learning",
         "civilServiceType": "Civil Service Type",
         "basicDetails": "Basic Details",
@@ -2748,7 +2804,25 @@
         "missingMsg": "Please complete the missing details by clicking",
         "confirmMsg": "If below details are correct, click",
         "otherwise": "Otherwise",
-        "click": "click"
+        "click": "click",
+        "learningHours": "Learning Hours",
+        "trainingType": "Training Type",
+        "trainingTypeIsRequired": "Training type is required",
+        "issuedOrganisationIsRequired": "Issuing organisation is required",
+        "issuedOrganisationTooShort": "Issuing organisation must be at least 10 characters long",
+        "issuedOrganisationTooLong": "Issuing organisation cannot be more than 70 characters long",
+        "deliveryMode": "Delivery mode",
+        "pleaseEnterValidLearningHours": "Please enter a valid number",
+        "learningHoursMustBeGreaterThanZero": "Learning hours must be greater than 0",
+        "learningHoursShouldBeLessThan100": "Learning hours should be less than 100",
+        "noDataFound": "No data found",
+        "startDateShouldNotEndDate": "Start date cannot be after end date",
+        "viewLearnerPassbook": "View Learner Passbook",
+        "learningProgress": "Learning Progress",
+        "learnerPassbook": "Learner Passbook",
+        "learningHistory": "Learning History",
+        "learningProgressDescription": "Track your learning journey, validated skills, and professional growth in one comprehensive view.",
+        "learningObjective": "Learning Objective"
     },
     "NetworkLandingPage": {
         "exploreNetwork": "Explore Network",
@@ -2864,7 +2938,9 @@
         "goToCourse": "Go to Course",
         "keyTakeaways": "Key Takeaways",
         "numberOfAttendees": "Number of attendees",
-        "eventDuration": "Event Duration"
+        "eventDuration": "Event Duration",
+        "sadhanaSaptah": "Sadhana Saptah",
+        "samuhikCharcha-NLW2026": "Samuhik Charcha - NLW 2026"
     },
     "notificationV2Settings": {
         "email": "Email Notification",

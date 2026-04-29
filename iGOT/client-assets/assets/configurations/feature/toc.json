@@ -334,7 +334,7 @@
       "contentImg": "assets/icons/learner-advisory/follow-suggestions.png"
     }
   ],
-  "ScormProgressThreshold": 40,
+  "ScormProgressThreshold": 5,
   "discussWidgetData": {
     "enrolledContent": true,
     "newCommentSection": {

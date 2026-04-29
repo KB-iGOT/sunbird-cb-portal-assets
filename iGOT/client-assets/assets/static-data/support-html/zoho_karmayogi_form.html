@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karmayogi Bharat — Support Request</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <script src='https://static.zohocdn.com/zohodeskstatic/app/js/jqueryandencoder.ef05974972bf3bca1b87.js'></script>
+  <style>
+    :root {
+      --navy: #0D1F4E;
+      --navy-2: #162660;
+      --navy-3: #1E3278;
+      --navy-mid: #2C4494;
+      --navy-bright: #3358B8;
+      --navy-soft: #E8EDF8;
+      --navy-softer: #F2F5FC;
+      --navy-border: #C4CFEA;
+      --gold: #C9A84C;
+      --gold-light: #F7F1E3;
+      --white: #FFFFFF;
+      --ink: #0D1F4E;
+      --ink-2: #2C3A6B;
+      --ink-3: #6B7BAA;
+      --ink-4: #b30a04;
+      --divider: #D6DDEF;
+      --radius: 8px;
+      --radius-lg: 14px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #EDF1FA;
+      color: var(--ink);
+      min-height: 100vh;
+      /* padding: 48px 20px 64px; */
+    }
+
+    /* ── Page wrapper ── */
+    .page-wrapper {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* ── Header ── */
+    .form-header {
+      background: var(--navy);
+      border-radius: 16px;
+      padding: 2rem 2.25rem 1.75rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .form-header::before {
+      content: '';
+      position: absolute;
+      top: -60px;
+      right: -60px;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .form-header::after {
+      content: '';
+      position: absolute;
+      bottom: -80px;
+      left: -40px;
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .header-inner {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .header-icon {
+      width: 54px;
+      height: 54px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .header-icon svg {
+      width: 26px;
+      height: 26px;
+    }
+
+    .header-text .eyebrow {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+
+    .header-text h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      font-weight: 500;
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+
+    .header-text p {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.55);
+      font-weight: 300;
+      line-height: 1.5;
+    }
+
+    .gold-rule {
+      height: 2px;
+      background: linear-gradient(90deg, var(--gold) 0%, transparent 100%);
+      width: 48px;
+      margin-top: 10px;
+      border-radius: 2px;
+    }
+
+    /* ── Form card ── */
+    .form-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--divider);
+      padding: 2.25rem 2rem;
+      box-shadow: 0 4px 32px rgba(13, 31, 78, 0.08);
+    }
+
+    /* ── Section head ── */
+    .section-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 1.25rem;
+    }
+
+    .section-num {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--navy);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .section-head h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 15px;
+      font-weight: 400;
+      color: var(--navy);
+      flex: 1;
+    }
+
+    .section-head-line {
+      flex: 1;
+      height: 1px;
+      background: var(--divider);
+    }
+
+    /* ── Form layout ── */
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-group:last-child {
+      margin-bottom: 0;
+    }
+
+    label.field-label {
+      display: block;
+      font-size: 11.5px;
+      font-weight: 500;
+      color: var(--ink-2);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    label.field-label .req {
+      color: #C0392B;
+      margin-left: 2px;
+    }
+
+    .form-card input[type='text'],
+    input[type='email'],
+    input[type='tel'],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1px solid var(--divider);
+      border-radius: var(--radius);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      color: var(--ink);
+      background: var(--navy-softer);
+      transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+      outline: none;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+
+    .form-card input[type='text']:focus,
+    input[type='email']:focus,
+    input[type='tel']:focus,
+    select:focus,
+    textarea:focus {
+      border-color: var(--navy-mid);
+      background: #fff;
+      box-shadow: 0 0 0 3px var(--navy-soft);
+    }
+
+    .form-card input::placeholder,
+    .form-card textarea::placeholder {
+      color: var(--ink-3);
+      font-weight: 300;
+    }
+
+    select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%232C3A6B' d='M5 6L0 0h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 13px center;
+      padding-right: 34px;
+      cursor: pointer;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 108px;
+      line-height: 1.65;
+    }
+
+    /* ── Toggle switch (AIS) ── */
+    .toggle-field {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 11px 16px;
+      background: var(--navy-softer);
+      border: 1px solid var(--divider);
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+
+    .toggle-field:hover {
+      border-color: var(--navy-mid);
+    }
+
+    .toggle-label-text {
+      font-size: 14px;
+      color: var(--ink);
+      flex: 1;
+    }
+
+    .toggle-switch {
+      position: relative;
+      width: 44px;
+      height: 24px;
+      flex-shrink: 0;
+    }
+
+    .toggle-switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+      position: absolute;
+    }
+
+    .toggle-track {
+      position: absolute;
+      inset: 0;
+      background: var(--divider);
+      border-radius: 12px;
+      transition: background 0.25s;
+      cursor: pointer;
+    }
+
+    .toggle-track::after {
+      content: '';
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      background: white;
+      border-radius: 50%;
+      top: 3px;
+      left: 3px;
+      transition: transform 0.25s;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .toggle-switch input:checked+.toggle-track {
+      background: var(--navy-bright);
+    }
+
+    .toggle-switch input:checked+.toggle-track::after {
+      transform: translateX(20px);
+    }
+
+    /* ── Radio buttons (Centre/State) ── */
+    .radio-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .radio-card {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 11px 14px;
+      border: 1px solid var(--divider);
+      border-radius: var(--radius);
+      background: var(--navy-softer);
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      font-size: 14px;
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      text-transform: none;
+    }
+
+    .radio-card:hover {
+      border-color: var(--navy-mid);
+      background: var(--navy-soft);
+    }
+
+    .radio-card.active {
+      border-color: var(--navy);
+      background: var(--navy-soft);
+      color: var(--navy);
+      font-weight: 500;
+    }
+
+    .radio-card input[type='radio'] {
+      width: 16px;
+      height: 16px;
+      min-width: 16px;
+      accent-color: var(--navy-bright);
+      background: transparent;
+      border: none;
+      padding: 0;
+      box-shadow: none;
+      cursor: pointer;
+    }
+
+    /* ── Conditional blocks ── */
+    .conditional-block {
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      transition: max-height 0.42s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, margin 0.3s;
+      margin-top: 0;
+    }
+
+    .conditional-block.visible {
+      max-height: 600px;
+      opacity: 1;
+      margin-top: 16px;
+    }
+
+    .conditional-inner {
+      padding: 20px;
+      background: var(--navy-softer);
+      border: 1px solid rgba(44, 68, 148, 0.18);
+      border-radius: var(--radius);
+    }
+
+    .conditional-inner .form-group:last-child {
+      margin-bottom: 0;
+    }
+
+    /* "Others" details block */
+    .others-block {
+      overflow: hidden;
+      max-height: 0;
+      opacity: 0;
+      transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.28s ease, margin 0.28s;
+      margin-top: 0;
+    }
+
+    .others-block.visible {
+      max-height: 120px;
+      opacity: 1;
+      margin-top: 16px;
+    }
+
+    /* ── Divider ── */
+    hr.divider {
+      border: none;
+      border-top: 1px solid var(--divider);
+      margin: 1.75rem 0;
+    }
+
+    /* ── Attachment zone ── */
+    .attachment-zone {
+      border: 1.5px dashed var(--navy-border);
+      border-radius: var(--radius);
+      padding: 22px 16px;
+      text-align: center;
+      background: var(--navy-softer);
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .attachment-zone:hover {
+      border-color: var(--navy-mid);
+      background: var(--navy-soft);
+    }
+
+    .attach-icon-wrap {
+      width: 40px;
+      height: 40px;
+      margin: 0 auto 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .attachment-zone .attach-label {
+      font-size: 13px;
+      color: var(--ink-2);
+    }
+
+    .attachment-zone .attach-label span {
+      color: var(--navy-mid);
+      font-weight: 500;
+    }
+
+    .attachment-zone .attach-hint {
+      font-size: 11px;
+      color: var(--ink-3);
+      margin-top: 4px;
+    }
+
+    #zsFileBrowseAttachments {
+      margin-top: 10px;
+      text-align: left;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .filenamecls {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--navy-soft);
+      border: 1px solid var(--navy-border);
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: var(--navy);
+    }
+
+    .filenamecls a {
+      color: var(--ink-3);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1;
+    }
+
+    /* ── Captcha ── */
+    .captcha-row {
+      display: flex;
+      align-items: flex-end;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .captcha-img-wrap {
+      flex-shrink: 0;
+      border: 1px solid var(--divider);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--navy);
+      min-width: 130px;
+      min-height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #zsCaptchaUrl {
+      display: block;
+      max-height: 46px;
+    }
+
+    .captcha-refresh {
+      font-size: 13px;
+      color: var(--navy-mid);
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 500;
+      white-space: nowrap;
+      padding: 10px 14px;
+      border: 1px solid var(--divider);
+      border-radius: var(--radius);
+      background: var(--navy-softer);
+      transition: background 0.2s, border-color 0.2s;
+      line-height: 1;
+      display: inline-block;
+    }
+
+    .captcha-refresh:hover {
+      background: var(--navy-soft);
+      border-color: var(--navy-mid);
+    }
+
+    .captcha-input-wrap {
+      flex: 1;
+      min-width: 130px;
+    }
+
+    /* ── Form actions ── */
+    .form-actions {
+      display: flex;
+      gap: 12px;
+      margin-top: 1.75rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--divider);
+    }
+
+    .btn-submit {
+      flex: 1;
+      padding: 13px 28px;
+      background: var(--navy);
+      color: white;
+      border: none;
+      border-radius: var(--radius);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    .btn-submit:hover {
+      background: var(--navy-bright);
+    }
+
+    .btn-submit:active {
+      transform: translateY(1px);
+    }
+
+    .btn-submit:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn-reset {
+      padding: 13px 22px;
+      background: transparent;
+      color: var(--ink-2);
+      border: 1px solid var(--divider);
+      border-radius: var(--radius);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
+    }
+
+    .btn-reset:hover {
+      border-color: var(--navy);
+      color: var(--navy);
+      background: var(--navy-softer);
+    }
+
+    /* ── Badge ── */
+    .badge {
+      display: inline-block;
+      background: var(--navy-soft);
+      color: var(--navy);
+      font-size: 10.5px;
+      padding: 2px 8px;
+      border-radius: 20px;
+      margin-left: 6px;
+      font-weight: 500;
+      vertical-align: middle;
+    }
+
+    /* ── Powered by ── */
+    .powered-by {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 11px;
+      color: #aaa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .powered-by a {
+      color: #aaa;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .powered-by img {
+      width: 14px;
+      height: 14px;
+    }
+
+    /* ── Subject prefix-locked input ── */
+    .subject-input-wrap {
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--divider);
+      border-radius: var(--radius);
+      background: var(--navy-softer);
+      overflow: hidden;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .subject-input-wrap:focus-within {
+      border-color: var(--navy-mid);
+      background: #fff;
+      box-shadow: 0 0 0 3px var(--navy-soft);
+    }
+
+    .subject-prefix {
+      padding: 6px 6px 7px 10px;
+      font-size: 14px;
+      color: var(--ink-2);
+      background: var(--navy-soft);
+      border-right: 1px solid var(--navy-border);
+      white-space: nowrap;
+      font-weight: 500;
+      user-select: none;
+      flex-shrink: 0;
+    }
+
+    .subject-input-wrap input[type='text'] {
+      border: none !important;
+      border-radius: 0 !important;
+      background: transparent !important;
+      box-shadow: none !important;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .subject-input-wrap input[type='text']:focus {
+      border: none !important;
+      box-shadow: none !important;
+      background: transparent !important;
+    }
+
+    /* Force all file inputs to remain hidden — attachment zone handles UI */
+    .form-card input[type='file'] {
+      display: none !important;
+      position: absolute !important;
+      width: 0 !important;
+      height: 0 !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 560px) {
+      .form-card {
+        padding: 1.5rem 1.25rem;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .header-text h1 {
+        font-size: 22px;
+      }
+
+      .radio-group {
+        flex-direction: column;
+      }
+
+      .captcha-row {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    /* ── Consent checkbox ── */
+    .consent-block {
+      margin-top: 1.5rem;
+      padding: 14px 16px;
+      background: var(--navy-softer);
+      border: 1px solid var(--divider);
+      border-radius: var(--radius);
+    }
+
+    .consent-label {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      cursor: pointer;
+      text-transform: none;
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--ink-2);
+      letter-spacing: 0;
+      margin-bottom: 0;
+    }
+
+    .consent-label input[type='checkbox'] {
+      position: absolute;
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .consent-check {
+      width: 20px;
+      height: 20px;
+      min-width: 20px;
+      border: 1.5px solid var(--navy-border);
+      border-radius: 5px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, border-color 0.2s;
+      margin-top: 1px;
+    }
+
+    .consent-check svg {
+      opacity: 0;
+      transition: opacity 0.15s;
+    }
+
+    .consent-label input[type='checkbox']:checked~.consent-check {
+      background: var(--navy);
+      border-color: var(--navy);
+    }
+
+    .consent-label input[type='checkbox']:checked~.consent-check svg {
+      opacity: 1;
+    }
+
+    .consent-text {
+      line-height: 1.55;
+      flex: 1;
+    }
+
+    .designation-inform {
+      font-size: 11.5px;
+      color: var(--ink-4);
+      margin-top: 4px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page-wrapper">
+
+    <!-- Header -->
+    <div class="form-header">
+      <div class="header-inner">
+        <div class="header-icon">
+          <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3" y="4" width="20" height="18" rx="3" stroke="white" stroke-width="1.7" />
+            <path d="M8 10h10M8 14h6M8 18h4" stroke="white" stroke-width="1.7" stroke-linecap="round" />
+          </svg>
+        </div>
+        <div class="header-text">
+          <div class="eyebrow">Karmayogi Bharat</div>
+          <h1>Submit a Support Request</h1>
+          <p>Fill in the details below and our team will get back to you shortly.</p>
+          <div class="gold-rule"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form card -->
+    <div class="form-card">
+      <form name='zsWebToCase_120349000138968626' id='zsWebToCase_120349000138968626'
+        action='https://desk.zoho.in/support/WebToCase' method='POST' onsubmit='return zsValidateMandatoryFields()'
+        enctype='multipart/form-data'>
+
+        <!-- Zoho hidden fields -->
+        <input type='hidden' name='xnQsjsdp' value='edbsnf7105b1962fe2f8eeb152d2e21200ea2' />
+        <input type='hidden' name='xmIwtLD'
+          value='edbsn9edad0d71644ef0ab3ba0b668cee6b609aaf5a09cf404d37a6cfca8a0a495535' />
+        <input type='hidden' name='xJdfEaS' value='' />
+        <input type='hidden' name='actionType' value='Q2FzZXM=' />
+        <input type='hidden' id='property(module)' value='Cases' />
+        <input type='hidden' name='returnURL' value='*' />
+        <!-- ── Consent ── -->
+
+        <!-- ── SECTION 1: Personal Details ── -->
+        <div class="section-head">
+          <div class="section-num">1</div>
+          <h2>Personal Details</h2>
+          <div class="section-head-line"></div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="field-label">Name <span class="req">*</span></label>
+            <input type='text' maxlength='120' name='Contact Name' placeholder="Full name" />
+          </div>
+          <div class="form-group">
+            <label class="field-label">Phone <span class="req">*</span></label>
+            <input type='text' maxlength='120' name='Phone' placeholder="+91 XXXXX XXXXX" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="field-label">iGot Email <span class="req">*</span></label>
+            <input type='text' maxlength='120' name='Email' placeholder="you@example.com" />
+          </div>
+          <div class="form-group">
+            <label class="field-label">Sparrow Email ID</label>
+            <input type='text' maxlength='120' name='Enter Sparrow Email ID' placeholder="SPARROW email if different" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="field-label">Designation</label>
+          <input type='text' maxlength='120' name='Designation' placeholder="Your current designation" />
+          <span class="designation-inform">Please update the designation if the current one is incorrect.</span>
+        </div>
+
+        <hr class="divider">
+
+        <!-- ── SECTION 2: Organisation ── -->
+        <div class="section-head">
+          <div class="section-num">2</div>
+          <h2>Organisation</h2>
+          <div class="section-head-line"></div>
+        </div>
+
+        <div class="form-group">
+          <label class="field-label">Centre / State <span class="req">*</span></label>
+          <div class="radio-group">
+            <label class="radio-card" id="btn-centre" for="CASECF21_centre">
+              <input type="radio" name="Centre / State" id="CASECF21_centre" value="Centre"
+                onchange="toggleCentreState(this)">
+              Centre
+            </label>
+            <label class="radio-card" id="btn-state" for="CASECF21_state">
+              <input type="radio" name="Centre / State" id="CASECF21_state" value="State"
+                onchange="toggleCentreState(this)">
+              State
+            </label>
+          </div>
+        </div>
+
+        <!-- Ministry/Org Conditional Block -->
+        <div class="conditional-block ministry-block" id="ministry-block">
+          <div class="conditional-inner">
+            <div class="form-group" style="margin-bottom:0">
+              <label class="field-label" id="ministry-label">Ministry / Department / Organization <span class="req">*</span></label>
+              <input type='text' maxlength='120' name='Ministry /State/ Department / Organization' id="ministry-input"
+                placeholder="Enter ministry, department or organization name" />
+            </div>
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- ── SECTION 3: Service Details ── -->
+        <div class="section-head">
+          <div class="section-num">3</div>
+          <h2>Service Details</h2>
+          <div class="section-head-line"></div>
+        </div>
+
+        <div class="form-group">
+          <label class="field-label">Are you from All India Services?</label>
+          <label class="toggle-field" for="ais-toggle">
+            <span class="toggle-label-text" id="ais-label-text">No</span>
+            <div class="toggle-switch">
+              <input type="checkbox" id="ais-toggle" onchange="toggleAIS(this)" />
+              <span class="toggle-track"></span>
+            </div>
+          </label>
+          <select name='Are you from All India Services' id='CASECF29' style='display:none'>
+            <option value='No' selected>No</option>
+            <option value='Yes'>Yes</option>
+          </select>
+        </div>
+
+        <!-- AIS Conditional Block -->
+        <div class="conditional-block" id="ais-block">
+          <div class="conditional-inner">
+            <div class="section-head" style="margin-bottom:1rem">
+              <div class="section-head-line" style="flex:none;width:0"></div>
+              <h2
+                style="font-size:13px;color:var(--ink-2);font-family:'DM Sans',sans-serif;font-weight:500;text-transform:uppercase;letter-spacing:.05em">
+                All India Services Info</h2>
+              <div class="section-head-line"></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="field-label">Service</label>
+                <select name='Service' id='CASECF24'>
+                  <option value=''>Select service…</option>
+                  <option value='Indian Administrative Service (IAS)'>Indian Administrative Service (IAS)</option>
+                  <option value='Indian Police Service (IPS)'>Indian Police Service (IPS)</option>
+                  <option value='Indian Forest Service (IFoS)'>Indian Forest Service (IFoS)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="field-label">Batch Year</label>
+                <select name='Batch' id='CASECF27'>
+                  <option value=''>Select batch year…</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group" style="margin-bottom:0">
+              <label class="field-label">Cadre</label>
+              <select name='Cadre' id='CASECF26'>
+                <option value=''>Select cadre…</option>
+                <option value='AGMUT (Arunachal Pradesh-Goa-Mizoram and Union Territories)'>AGMUT (AP-Goa-Mizoram &amp;
+                  UTs)</option>
+                <option value='Assam-Meghalaya'>Assam-Meghalaya</option>
+                <option value='Bihar'>Bihar</option>
+                <option value='Chhattisgarh'>Chhattisgarh</option>
+                <option value='Gujarat'>Gujarat</option>
+                <option value='Haryana'>Haryana</option>
+                <option value='Himachal Pradesh'>Himachal Pradesh</option>
+                <option value='Jammu and Kashmir'>Jammu and Kashmir</option>
+                <option value='Jharkhand'>Jharkhand</option>
+                <option value='Karnataka'>Karnataka</option>
+                <option value='Kerala'>Kerala</option>
+                <option value='Madhya Pradesh'>Madhya Pradesh</option>
+                <option value='Maharashtra'>Maharashtra</option>
+                <option value='Manipur-Tripura'>Manipur-Tripura</option>
+                <option value='Nagaland'>Nagaland</option>
+                <option value='Not Applicable'>Not Applicable</option>
+                <option value='Odisha'>Odisha</option>
+                <option value='Punjab'>Punjab</option>
+                <option value='Rajasthan'>Rajasthan</option>
+                <option value='Sikkim'>Sikkim</option>
+                <option value='Tamil Nadu'>Tamil Nadu</option>
+                <option value='Telangana'>Telangana</option>
+                <option value='Uttar Pradesh'>Uttar Pradesh</option>
+                <option value='Uttarakhand'>Uttarakhand</option>
+                <option value='West Bengal'>West Bengal</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <!-- ── SECTION 4: Issue Details ── -->
+        <div class="section-head">
+          <div class="section-num">4</div>
+          <h2>Issue Details</h2>
+          <div class="section-head-line"></div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="field-label">Issue Type <span class="req">*</span></label>
+            <select name='Issues related to Training Plan and Comprehensive' id='CASECF28'
+              onchange='handleIssueType(this)'>
+              <option value=''>Select issue type…</option>
+              <option value='APAR Training Plan not visible'>APAR Training Plan is not visible</option>
+              <option value='Issue on course completion'>Issue on course completion</option>
+              <option value='Certificate not generated'>Certificate is not generated</option>
+              <option value='Course completed but Comprehensive Assessment still locked'>Course completed but
+                Comprehensive Assessment is still locked</option>
+              <option value='Training plan data not appearing on SPARROW APAR'>Training plan data is not appearing on
+                SPARROW APAR</option>
+              <option value='Others'>Others</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="field-label">Subject <span class="req">*</span></label>
+            <div class="subject-input-wrap">
+              <span class="subject-prefix" id="subject-prefix-display">APAR/CA issue - </span>
+              <input type='text' maxlength='240' name='Subject' id='subject-input'
+                placeholder="Type your subject here" />
+            </div>
+          </div>
+        </div>
+
+        <!-- "Others" details field -->
+        <div class="others-block" id="others-block">
+          <div class="form-group" style="margin-bottom:0">
+            <label class="field-label">
+              Details
+              <span class="badge">Required for "Others"</span>
+            </label>
+            <input type='text' maxlength='120' name='Details' id='details-input'
+              placeholder="Describe your specific issue briefly" />
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-top:16px">
+          <label class="field-label">Description</label>
+          <textarea name='Description' maxlength='3000'
+            placeholder="Describe your issue in full detail — steps taken, error messages, what you expected vs what happened…"></textarea>
+        </div>
+
+        <hr class="divider">
+
+        <!-- ── SECTION 5: Attachments ── -->
+        <div class="section-head">
+          <div class="section-num">5</div>
+          <h2>Attachments</h2>
+          <div class="section-head-line"></div>
+        </div>
+
+        <div class="attachment-zone"
+          onclick="if(zsAttachmentFileBrowserIdsList.length>0){document.getElementById('zsattachment_'+zsAttachmentFileBrowserIdsList[0]).click()}">
+          <div class="attach-icon-wrap">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="9" width="28" height="22" rx="3.5" stroke="#2C4494" stroke-width="1.6" />
+              <path d="M18 28V17M18 17l-5 5M18 17l5 5" stroke="#2C4494" stroke-width="1.6" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M12 9V8a2 2 0 012-2h8a2 2 0 012 2v1" stroke="#2C4494" stroke-width="1.6" />
+            </svg>
+          </div>
+          <div class="attach-label"><span>Click to browse</span> or drag &amp; drop files here</div>
+          <div class="attach-hint">Only .jpg , .jpeg, .png , .svg , .doc, .pdf , .mp4 files are supported</div>
+          <div class="attach-hint">Up to 5 files · Max 20 MB each</div>
+        </div>
+
+        <input type='file' name='attachment_1' id='zsattachment_1'
+          style='display:none !important;position:absolute;width:0;height:0;opacity:0;pointer-events:none'
+          onchange='zsRenderBrowseFileAttachment(this.value, this)' />
+        <input type='file' name='attachment_2' id='zsattachment_2'
+          style='display:none !important;position:absolute;width:0;height:0;opacity:0;pointer-events:none'
+          onchange='zsRenderBrowseFileAttachment(this.value, this)' />
+        <input type='file' name='attachment_3' id='zsattachment_3'
+          style='display:none !important;position:absolute;width:0;height:0;opacity:0;pointer-events:none'
+          onchange='zsRenderBrowseFileAttachment(this.value, this)' />
+        <input type='file' name='attachment_4' id='zsattachment_4'
+          style='display:none !important;position:absolute;width:0;height:0;opacity:0;pointer-events:none'
+          onchange='zsRenderBrowseFileAttachment(this.value, this)' />
+        <input type='file' name='attachment_5' id='zsattachment_5'
+          style='display:none !important;position:absolute;width:0;height:0;opacity:0;pointer-events:none'
+          onchange='zsRenderBrowseFileAttachment(this.value, this)' />
+        <div id='zsFileBrowseAttachments'></div>
+
+        <hr class="divider">
+
+        <!-- ── SECTION 6: Verification / Captcha ── -->
+        <div class="section-head">
+          <div class="section-num">6</div>
+          <h2>Verification</h2>
+          <div class="section-head-line"></div>
+        </div>
+
+        <div class="form-group">
+          <div id='zsCaptchaLoading' style="font-size:13px;color:var(--ink-3);">Loading captcha…</div>
+          <div id='zsCaptcha' style='display:none'>
+            <div class="captcha-row">
+              <div class="captcha-img-wrap">
+                <img src='#' id='zsCaptchaUrl' name="zsCaptchaImage" alt="captcha">
+              </div>
+              <a href='javascript:;' class='captcha-refresh' onclick='zsRegenerateCaptcha()'>↻ New code</a>
+              <div class="captcha-input-wrap">
+                <label class="field-label">Enter captcha code</label>
+                <input type='text' name='zsWebFormCaptchaWord' placeholder="Type the code shown above" />
+              </div>
+            </div>
+          </div>
+          <input type='hidden' name='zsCaptchaSrc' value='' />
+        </div>
+
+        <!-- ── Consent ── -->
+        <div class="consent-block">
+          <label class="consent-label">
+            <input type='checkbox' name='Sharing the above details for query resolution on' id='consent-checkbox'
+              checked />
+            <span class="consent-check">
+              <svg width="11" height="9" viewBox="0 0 11 9" fill="none">
+                <path d="M1 4.5L4 7.5L10 1" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </span>
+            <span class="consent-text">I agree to share the above details for query resolution on the Karmayogi Bharat
+              platform.</span>
+          </label>
+        </div>
+
+        <!-- ── Actions ── -->
+        <div class="form-actions">
+          <button type='submit' id='zsSubmitButton_120349000138968626' class='btn-submit'>Submit Request →</button>
+          <button type='button' class='btn-reset' onclick="zsResetWebForm('120349000138968626')">Reset</button>
+        </div>
+
+      </form>
+    </div>
+
+    <div class="powered-by">
+      <span>powered by</span>
+      <a href="https://zoho.in/desk" target="_blank" rel="noopener noreferrer">
+        <img src='https://static.zohocdn.com/zohodeskstatic/app/images/portalLogo.de847024ebc0131731a3.png'
+          alt="Zoho" />
+        Zoho Desk
+      </a>
+    </div>
+
+  </div><!-- end .page-wrapper -->
+
+  <script>
+    /* ── Populate batch years ── */
+    (function () {
+      var sel = document.getElementById('CASECF27')
+      for (var y = 1960; y <= 2026; y++) {
+        if (y === 1961) continue
+        var opt = document.createElement('option')
+        opt.value = y; opt.text = y
+        sel.appendChild(opt)
+      }
+    })()
+
+    /* ── AIS Toggle ── */
+    function toggleAIS(cb) {
+      var block = document.getElementById('ais-block')
+      var label = document.getElementById('ais-label-text')
+      var hidden = document.getElementById('CASECF29')
+      if (cb.checked) {
+        block.classList.add('visible')
+        label.textContent = 'Yes'
+        hidden.value = 'Yes'
+      } else {
+        block.classList.remove('visible')
+        label.textContent = 'No'
+        hidden.value = 'No'
+      }
+    }
+
+    /* ── Centre / State Toggle ── */
+    function toggleCentreState(radio) {
+      var block = document.getElementById('ministry-block')
+      var lbl = document.getElementById('ministry-label')
+      var inp = document.getElementById('ministry-input')
+
+      block.classList.add('visible')
+
+      document.getElementById('btn-centre').classList.remove('active')
+      document.getElementById('btn-state').classList.remove('active')
+
+      if (radio.value === 'Centre') {
+        document.getElementById('btn-centre').classList.add('active')
+        lbl.textContent = 'Ministry / Department / Organization'
+        inp.placeholder = 'Enter ministry, department, or organization name'
+      } else {
+        document.getElementById('btn-state').classList.add('active')
+        lbl.textContent = 'State / Department / Organization'
+        inp.placeholder = 'Enter state, department or organization name'
+      }
+    }
+
+    /* ── "Others" details field ── */
+    var SUBJECT_PREFIX = 'APAR/CA issue - '
+
+    function handleIssueType(sel) {
+      var block = document.getElementById('others-block')
+      var subject = document.getElementById('subject-input')
+
+      if (sel.value === 'Others') {
+        block.classList.add('visible')
+      } else {
+        block.classList.remove('visible')
+      }
+
+      if (sel.value && sel.value !== '') {
+        var issueLabel = sel.options[sel.selectedIndex].text
+        subject.value = issueLabel
+      } else {
+        subject.value = ''
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var subject = document.getElementById('subject-input')
+      if (subject) { subject.value = '' }
+
+      /* On submit, prepend prefix to the subject value */
+      var form = document.forms['zsWebToCase_120349000138968626']
+      if (form) {
+        form.addEventListener('submit', function () {
+          var subj = document.getElementById('subject-input')
+          if (subj && !subj.value.startsWith(SUBJECT_PREFIX)) {
+            subj.value = SUBJECT_PREFIX + subj.value
+          }
+        }, true)
+      }
+
+      /* Prevent user from deleting the prefix if they manually type */
+      var subj = document.getElementById('subject-input')
+      if (subj) {
+        subj.addEventListener('keydown', function (e) {
+          /* No restrictions needed — prefix is in the span, not in the input */
+        })
+      }
+    })
+
+    /* ── Zoho: Captcha ── */
+    function zsShowCaptcha() {
+      document.getElementById('zsCaptchaLoading').style.display = 'none'
+      document.getElementById('zsCaptcha').style.display = 'block'
+    }
+
+    function zsRegenerateCaptcha() {
+      var xhr = new XMLHttpRequest()
+      xhr.open('GET', 'https://desk.zoho.in/support/GenerateCaptcha?action=getNewCaptcha&_=' + new Date().getTime(), true)
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          try {
+            var res = JSON.parse(xhr.responseText)
+            document.getElementById('zsCaptchaUrl').onload = zsShowCaptcha
+            document.getElementById('zsCaptchaUrl').src = res.captchaUrl
+            document.getElementsByName('xJdfEaS')[0].value = res.captchaDigest
+          } catch (e) { }
+        }
+      }
+      xhr.send()
+    }
+
+    /* ── Zoho: Attachments ── */
+    var zsAttachedAttachmentsCount = 0
+    var zsAllowedAttachmentLimit = 4
+    var zsAttachmentFileBrowserIdsList = [1, 2, 3, 4, 5]
+
+    var ZSEncoder = {
+      encodeForHTML: function (s) { return typeof s === 'string' ? jQuery.encoder.encodeForHTML(s) : s },
+      encodeForHTMLAttribute: function (s) { return typeof s === 'string' ? jQuery.encoder.encodeForHTMLAttribute(s) : s }
+    }
+
+    function zsRenderBrowseFileAttachment(val, el) {
+      if (!val) return
+      if (el.files && el.files[0].size / (1024 * 1024) > 20) {
+        el.value = ''; alert('Maximum allowed file size is 20MB.'); return
+      }
+      if (zsAttachedAttachmentsCount >= 5) return
+      var fname = val.indexOf('\\') > -1 ? val.split('\\').pop() : val
+      var ext = fname.split('.').pop().toLowerCase()
+      var blocked = ["exe", "bat", "cmd", "js", "vbs", "pif", "scr", "dll", "sys", "msi", "reg", "jar", "com"]
+      if (blocked.indexOf(ext) !== -1) { alert("File extension not supported."); return }
+      var curId = parseInt(jQuery(el).attr('id').split('_')[1])
+      var removeIdx = jQuery.inArray(curId, zsAttachmentFileBrowserIdsList)
+      zsAttachmentFileBrowserIdsList.splice(removeIdx, 1)
+      /* Removed: jQuery('#zsattachment_...').show() — file inputs must always stay hidden */
+      jQuery('#zsFileBrowseAttachments').append(
+        '<div class="filenamecls" id="file_' + curId + '">' +
+        ZSEncoder.encodeForHTML(fname) +
+        '<a href="javascript:;" class="zsfilebrowseAttachment" id="fileclose_' + curId + '">×</a></div>'
+      )
+      zsAttachedAttachmentsCount++
+    }
+
+    /* Patch attachment-zone to always pick the next available hidden slot */
+    document.addEventListener('DOMContentLoaded', function () {
+      var zone = document.querySelector('.attachment-zone')
+      if (zone) {
+        zone.onclick = function () {
+          if (zsAttachmentFileBrowserIdsList.length > 0) {
+            document.getElementById('zsattachment_' + zsAttachmentFileBrowserIdsList[0]).click()
+          }
+        }
+      }
+    })
+
+    jQuery(document).on('click', '.zsfilebrowseAttachment', function () {
+      var id = jQuery(this).attr('id').split('_')[1]
+      jQuery('#zsattachment_' + id).val('').replaceWith(jQuery('#zsattachment_' + id).clone())
+      jQuery(this).parent().remove()
+      zsAttachedAttachmentsCount--
+      zsAttachmentFileBrowserIdsList.push(parseInt(id))
+      zsAttachmentFileBrowserIdsList.sort(function (a, b) { return a - b })
+    })
+
+    /* ── Zoho: Validation ── */
+    var zsWebFormMandatoryFields = ["Contact Name", "Email", "Phone", "Subject"]
+    var zsFieldsDisplayLabelArray = ["Name", "Email", "Phone", "Subject"]
+
+    function trimBoth(s) { return jQuery.trim(s) }
+
+    function reformatAllDateFields() {
+      document.querySelectorAll('.dob-field').forEach(function (f) {
+        if (f.value && f.value.includes('-')) {
+          var p = f.value.split('-')
+          if (p.length === 3) { f.type = 'text'; f.value = p[2] + '/' + p[1] + '/' + p[0] }
+        }
+      })
+    }
+
+    function zsValidateMandatoryFields() {
+      /* Prepend prefix to subject before validation */
+      var subjEl = document.getElementById('subject-input')
+      if (subjEl && !subjEl.value.startsWith(SUBJECT_PREFIX)) {
+        subjEl.value = SUBJECT_PREFIX + subjEl.value
+      }
+
+      /* Validate Centre / State selection */
+      var centreRadio = document.getElementById('CASECF21_centre')
+      var stateRadio = document.getElementById('CASECF21_state')
+      if (!centreRadio.checked && !stateRadio.checked) {
+        alert('Please select Centre or State')
+        return false
+      }
+
+      /* Validate Ministry / Department / Organization when visible */
+      var ministryBlock = document.getElementById('ministry-block')
+      if (ministryBlock && ministryBlock.classList.contains('visible')) {
+        var ministryInput = document.getElementById('ministry-input')
+        if (ministryInput && trimBoth(ministryInput.value).length === 0) {
+          alert('Please enter Ministry / Department / Organization')
+          ministryInput.focus()
+          return false
+        }
+      }
+
+      for (var i = 0; i < zsWebFormMandatoryFields.length; i++) {
+        var field = document.forms['zsWebToCase_120349000138968626'][zsWebFormMandatoryFields[i]]
+        if (!field) continue
+        if (trimBoth(field.value).length === 0) {
+          alert(zsFieldsDisplayLabelArray[i] + ' cannot be empty')
+          field.focus(); return false
+        }
+        if (field.name === 'Email') {
+          if (!/^([\w_][\w\-_.+'&]*)@(?=.{4,256}$)(([\w]+)([\-_]*[\w])*[\.])+[a-zA-Z]{2,22}$/.test(field.value)) {
+            alert('Enter a valid email address'); field.focus(); return false
+          }
+        }
+
+
+      }
+
+
+      var captcha = document.forms['zsWebToCase_120349000138968626']['zsWebFormCaptchaWord']
+      if (!captcha || trimBoth(captcha.value).length === 0) {
+        alert('Please enter the captcha code.')
+        if (captcha) captcha.focus()
+        return false
+      }
+      reformatAllDateFields()
+      document.getElementById('zsSubmitButton_120349000138968626').setAttribute('disabled', 'disabled')
+      return true
+    }
+
+    function zsResetWebForm(id) {
+      document.forms['zsWebToCase_' + id].reset()
+      document.getElementById('zsSubmitButton_120349000138968626').removeAttribute('disabled')
+      zsAttachedAttachmentsCount = 0
+      zsAttachmentFileBrowserIdsList = [1, 2, 3, 4, 5]
+      jQuery('#zsFileBrowseAttachments').html('')
+      document.getElementById('ais-block').classList.remove('visible')
+      document.getElementById('ais-toggle').checked = false
+      document.getElementById('ais-label-text').textContent = 'No'
+      document.getElementById('CASECF29').value = 'No'
+      document.getElementById('ministry-block').classList.remove('visible')
+      document.getElementById('btn-centre').classList.remove('active')
+      document.getElementById('btn-state').classList.remove('active')
+      document.getElementById('others-block').classList.remove('visible')
+      var subj = document.getElementById('subject-input')
+      if (subj) { subj.value = ''; subj.placeholder = 'Type your subject here' }
+      var consent = document.getElementById('consent-checkbox')
+      if (consent) consent.checked = true
+    }
+
+    /* ── Init ── */
+    document.addEventListener('readystatechange', function () {
+      if (document.readyState === 'complete') {
+        zsRegenerateCaptcha()
+        document.getElementById('zsSubmitButton_120349000138968626').removeAttribute('disabled')
+      }
+    })
+
+    window.addEventListener('pageshow', function () {
+      var btn = document.getElementById('zsSubmitButton_120349000138968626')
+      if (btn) btn.removeAttribute('disabled')
+      var cap = document.forms['zsWebToCase_120349000138968626']['zsWebFormCaptchaWord']
+      if (cap && window.zsRegenerateCaptcha && cap.value) {
+        cap.value = ''; zsRegenerateCaptcha()
+      }
+    });
+  </script>
+</body>
+
+</html>

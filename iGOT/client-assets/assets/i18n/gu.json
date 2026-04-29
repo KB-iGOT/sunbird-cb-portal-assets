@@ -186,7 +186,8 @@
     "frequentlyAskedQuestions": "વારંવાર પૂછાતા પ્રશ્નો",
     "contactUs": "અમારો સંપર્ક કરો",
     "copyright": "કોપીરાઈટ",
-    "privacyPolicy": "ગોપનીયતા નીતિ"
+    "privacyPolicy": "ગોપનીયતા નીતિ",
+    "helpCenter": "મદદ કેન્દ્ર"
   },
   "platformrating": {
     "howLikelyRecommend": "તમે તમારા સાથીઓને આઇ. જી. ઓ. ટી. કર્મયોગીની ભલામણ કરી શકો છો?",
@@ -267,7 +268,10 @@
     "takeSurveyToUnlock": "સર્વેને અનલૉક કરવા માટે લો",
     "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન",
     "retired": "નિવૃત્ત",
-    "newVersion": "નવું સંસ્કરણ"
+    "newVersion": "નવું સંસ્કરણ",
+    "externalCourseRetiredMessage": "આ કોર્સ હવે તેના વર્તમાન સ્વરૂપમાં ઉપલબ્ધ નથી. અમે તમને વધુ ઉત્તમ શીખવાની વિકલ્પો આપવા માટે અમારી કોર્સ સૂચિને અપડેટ કરી રહ્યા છીએ. કૃપા કરીને સમાન વિષયો ધરાવતા અન્ય કોર્સ પસંદ કરો અથવા ભલામણ કરેલા કોર્સ જુઓ.",
+    "externalCourseProviderRetiredMessage": "આ લર્નિંગ પાર્ટનરનાં કોર્સ હાલ iGOT કર્મયોગી પર ઉપલબ્ધ નથી. અમારી ટીમ પાર્ટનરની સામગ્રીને અપડેટ કરી રહી છે. તે દરમ્યાન, તમે અન્ય પાર્ટનરના કોર્સ સાથે તમારી શીખવાની મુસાફરી ચાલુ રાખી શકો છો.",
+    "inactive": "નિષ્ક્રિય"
   },
   "allChannelsComponent": {
     "noChannelsFound": "કોઈ ચેનલો મળી નથી!",
@@ -352,7 +356,9 @@
     "domain": "ડોમેન",
     "viewMore": "વધુ જુઓ",
     "viewLess": "ઓછું જુઓ",
-    "issued": "પર જારી કરાયેલ"
+    "issued": "પર જારી કરાયેલ",
+    "source": "સ્રોત",
+    "igot": "iGOT"
   },
   "competencyCardDetails": {
     "passbookList": "પાસબુક યાદી",
@@ -365,7 +371,11 @@
     "associatedCertificates": "સંલગ્ન પ્રમાણપત્રો",
     "noCertificates": "કોઈ પ્રમાણપત્રો મળ્યા નથી!",
     "noCertificatesWithCompetency": "આ યોગ્યતા વિષય સાથે સંબંધિત કોઈ પ્રમાણપત્રો મળ્યાં નથી",
-    "issuedOn": "પર જારી કરાયેલ"
+    "issuedOn": "પર જારી કરાયેલ",
+    "igotLearning": "iGOT શીખવું",
+    "marketplace": "બજાર",
+    "selfDeclared": "સ્વયં ઘોષિત",
+    "ATI/CTIReported": "ATI/CTI રિપોર્ટેડ"
   },
   "widgetCbpFilters": {
     "filters": "ફિલ્ટર્સ",
@@ -420,7 +430,7 @@
     "content": "સામગ્રી",
     "sessions": "સત્રો",
     "discussion": "ચર્ચા",
-    "summary": "વર્ણન",
+    "summary": "સારાંશ",
     "description": "વર્ણન",
     "viewMore": "વધુ જુઓ",
     "viewLess": "ઓછું જુઓ",
@@ -519,6 +529,7 @@
     "selfLearning": "સ્વ-શિક્ષણ",
     "completedCourse": "તમે આ અભ્યાસક્રમ પૂર્ણ કર્યો છે",
     "completedProgram": "તમે આ કાર્યક્રમ પૂર્ણ કર્યો",
+    "completedEvent": "તમે આ ઇવેન્ટ આ તારીખે પૂર્ણ કરી",
     "completedAssessment": "તમે આ મૂલ્યાંકન પૂર્ણ કર્યું",
     "provider": "પ્રદાતા",
     "objectives": "ઉદ્દેશો",
@@ -908,7 +919,7 @@
     "mark": "માર્ક",
     "clearResponse": "સ્પષ્ટ પ્રતિસાદ",
     "markForReviewNext": "સમીક્ષા અને આગામી માટે ચિહ્નિત કરો",
-    "warningNoteForAssessmentSubmit": "શું તમે આખરે તમારી પરીક્ષા સબમિટ કરવા માંગો છો? પરીક્ષા સબમિટ કર્યા પછી તમારે શરૂઆતથી જ પરીક્ષા શરૂ કરવી પડશે.",
+    "warningNoteForAssessmentSubmit": "શું તમે ખરેખર ટેસ્ટ સબમિટ કરવા માંગો છો?",
     "submitYes": "હા.",
     "submitNo": "ના.",
     "back": "પાછા",
@@ -932,7 +943,7 @@
     "pleaseContactSystemAdmin": "મહેરબાની કરીને સિસ્ટમ સંચાલકનો સંપર્ક કરો",
     "yourPerformanceSummary": "તમારા પ્રદર્શનનો સારાંશ",
     "retakeAssessment": "ફરીથી મૂલ્યાંકન કરો",
-    "myOverallPerformanceSummary": "મારો એકંદર પ્રદર્શન સારાંશ",
+    "myPerformanceSummary": "મારો પ્રદર્શન સારાંશ",
     "mySectionwiseSummary": "મારો વિભાગવાર સારાંશ",
     "insights": "આંતરદૃષ્ટિ",
     "reattemptTest": "પરીક્ષણનો ફરીથી પ્રયાસ કરો",
@@ -949,7 +960,25 @@
     "viewAll": "બધા જુઓ",
     "collapse": "પતન",
     "all": "બધા",
-    "unattempted": "પ્રયાસ કર્યો નથી."
+    "unattempted": "પ્રયાસ કર્યો નથી.",
+    "minimumScoreToPass": "પાસ થવા માટે ન્યૂનતમ સ્કોર:",
+    "sectionName": "વિભાગનું નામ",
+    "result": "પરિણામ",
+    "requiredScore": "જરૂરી સ્કોર",
+    "viewDetails": "વિગતો જુઓ",
+    "viewQuestions": "પ્રશ્નો જુઓ",
+    "question": "પ્રશ્ન",
+    "assessmentResult": "મૂલ્યાંકન પરિણામ",
+    "congratulations": "અભિનંદન! તમે પાસ થયા છો",
+    "notPassed": "પાસ થયા નથી. તમે પરીક્ષાનો ફરીથી પ્રયાસ કરી શકો છો",
+    "requiredToPass": "પાસ થવા માટે આવશ્યક:",
+    "allQuestions": "બધા પ્રશ્નો",
+    "incorrect": "ખોટું",
+    "blank": "ખાલી",
+    "yourAnswer": "તમારો જવાબ:",
+    "whatYouNeedToPass": "પાસ થવા માટે તમારે શું જોઈએ:",
+    "moreToPassThreshold": "પાસિંગ થ્રેશોલ્ડ સુધી પહોંચવા માટે {{score}}% વધુ સ્કોર કરો",
+    "additionalMarks": "{{marks}} વધારાના માર્ક્સ સાચા મેળવો"
   },
   "network": {
     "networkHome": "નેટવર્ક ઘર",
@@ -1004,7 +1033,9 @@
     "live": "જીવંત",
     "karmayogiSaptah": "કર્મયોગી સપ્તાહ",
     "search": "ઘટનાઓ શોધો...",
-    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ"
+    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "eventDetailsRightCard": {
     "viewRecording": "રેકોર્ડિંગ જુઓ",
@@ -1551,7 +1582,8 @@
     "thereAreNoEvents": "ત્યાં કોઈ ઇવેન્ટ્સ નથી",
     "youWillSeeAllTheContentsThatIsAparMarked": "તમે તમામ એ સામગ્રી જુઓ છો જે APAR તરીકે ચિહ્નિત છે.",
     "forYou": "તમારા માટે",
-    "youWillFindIgotSpecializationProgramsHere.": "તમને અહીં iGOT સ્પેશિયલાઇઝેશન પ્રોગ્રામ્સ મળશે."
+    "youWillFindIgotSpecializationProgramsHere.": "તમને અહીં iGOT સ્પેશિયલાઇઝેશન પ્રોગ્રામ્સ મળશે.",
+    "noMatchingCourses": "કોઈ સુસંગત અભ્યાસક્રમ નથી"
   },
   "homeotherportals": {
     "otherPortals": "તમારી પાસે ઍક્સેસ હોય તેવા અન્ય પોર્ટલ",
@@ -1805,7 +1837,8 @@
     "myLearning": "મારી શીખ",
     "viewProfile": "રૂપરેખા જુઓ",
     "learningHistory": "શીખવાનો ઇતિહાસ",
-    "tipsLearners": "શીખનારાઓ માટે ટીપ્સ"
+    "tipsLearners": "શીખનારાઓ માટે ટીપ્સ",
+    "helpCenter": "મદદ કેન્દ્ર"
   },
   "requestDialog": {
     "designationRequest": "હોદ્દો ઉમેરવાની વિનંતી",
@@ -1956,7 +1989,9 @@
     "communities": "સમુદાયો ({{count}})",
     "seeAllResults": "બધા પરિણામો જુઓ",
     "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન",
-    "noEventScheduleYet": "હજી સુધી કોઈ ઇવેન્ટ્સ શેડ્યૂલ નથી"
+    "noEventScheduleYet": "હજી સુધી કોઈ ઇવેન્ટ્સ શેડ્યૂલ નથી",
+    "seeMore": "વધુ જુઓ",
+    "seeLess": "ઓછું જુઓ"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",
@@ -2009,7 +2044,9 @@
     "years": "વર્ષો",
     "resource": "સ્રોત ({{count}})",
     "resources": "સ્રોતો ({{count}})",
-    "externalContent": "બાહ્ય સામગ્રી ({{count}})"
+    "externalContent": "બાહ્ય સામગ્રી ({{count}})",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
@@ -2440,7 +2477,14 @@
     "emailApprovedPopupSubmsg": "જો તમે ઇમેઇલ આઈડી બદલી શકતા નથી, તો મહેરબાની કરીને એમ. ડી. ઓ. એડમિનનો સંપર્ક કરો.",
     "notMyUseAccessRevoke": "તમારી ઍક્સેસ રદ કરવામાં આવી છે કારણ કે તમારી સંસ્થા હવે તમને વપરાશકર્તા તરીકે ઓળખતી નથી. ઍક્સેસ ફરીથી મેળવવા માટે, મહેરબાની કરીને \"ટ્રાન્સફર વિનંતી\" સબમિટ કરો અને યોગ્ય સંસ્થા પસંદ કરો.",
     "name": "નામ",
-    "organisation": "સંસ્થાનું"
+    "organisation": "સંસ્થાનું",
+    "st1": "ST-1",
+    "st2": "ST-2",
+    "rba": "RBA",
+    "alc": "ALC/IB",
+    "ews": "EWS(Economically Weaker Section)",
+    "physicallychallenged": "Physically Challenged Person",
+    "exservicemen": "Ex - Servicemen"
   },
   "NetworkV2Profile": {
     "mobileOTPSentFail": "આપેલ નંબર પર ઓ. ટી. પી. મોકલવામાં અસમર્થ, મહેરબાની કરીને પછીથી ફરી પ્રયાસ કરો",
@@ -2589,22 +2633,29 @@
     "endYear": "સમાપ્ત વર્ષ",
     "pleaseSelectEndYear": "મહેરબાની કરીને સમાપ્ત વર્ષ પસંદ કરો",
     "awards/Publications/OtherCertifications": "એવોર્ડ્સ/પ્રકાશનો/અન્ય પ્રમાણપત્રો",
+    "noteForAwards": "30 મિનિટ પછી લર્નર પાસબુકમાં વધારાની સિદ્ધિઓ પ્રતિબિંબિત થશે",
     "title": "શીર્ષક",
     "egExcelBeginner": "ઉદાહરણ: એક્સેલ પ્રારંભિક",
     "pleaseEnterTitle": "મહેરબાની કરીને શીર્ષક દાખલ કરો",
+    "titleTooShort": "શીર્ષક ઓછામાં ઓછા 10 અક્ષરો લાંબું હોવું જોઈએ",
+    "titleTooLong": "શીર્ષક 70 અક્ષરો કરતાં વધુ લાંબું ન હોઈ શકે",
+    "allowedCharacter": "ફક્ત (a-z/A-Z,0-9._-$/:[]''!&) અક્ષરો જ સમર્થિત છે.",
     "specialCharNotAllowedExcept()$-/": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) & - /",
     "specialCharNotAllowedExcept(),.": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) . ,",
     "issuingOrganisation": "જારી કરનાર સંસ્થા",
     "specialCharNotAllowedExcept()$": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) &",
     "specialCharNotAllowedExcept()-": "વિશેષ અક્ષરો મંજૂર નથી, સિવાય: ( ) -",
+    "descriptionTooShort": "વર્ણન ઓછામાં ઓછા 250 અક્ષરો લાંબું હોવું જોઈએ",
     "specialCharNotAllowed": "વિશેષ અક્ષરો મંજૂર નથી.",
     "issueDate": "જારી કરવાની તારીખ",
     "pleaseSelectIssueDate": "મહેરબાની કરીને જારી કરવાની તારીખ પસંદ કરો",
+    "issueDateMustBeAfterEndDate": "જારી કરવાની તારીખ સમાપ્ત તારીખ પછી હોવી જોઈએ",
     "uploadFromSystem": "સિસ્ટમમાંથી અપલોડ કરો",
     "upload": "અપલોડ કરો",
     "dragFileToUpload": "અપલોડ કરવા માટે ફાઇલ ખેંચો",
     "url": "URL",
     "pleaseGiveValidUrl": "મહેરબાની કરીને માન્ય URL આપો",
+    "requiredUrl": "URL જરૂરી છે",
     "describeAboutTheSkillsThatYouHaveGainedFromThisLearning": "આ શીખવાથી તમે જે કુશળતાઓ મેળવી છે તે વિશે વર્ણન કરો",
     "civilServiceType": "સિવિલ સેવા પ્રકાર",
     "basicDetails": "મૂળ વિગતો",
@@ -2639,7 +2690,25 @@
     "areYouSureYouWantToUnblockThisUser": "શું તમે ખરેખર આ યુઝરને અનલૉક કરવા માંગો છો?",
     "areYouSureYouWantToBlockThisConnection": "શું તમે ખરેખર આ કનેક્શનને બ્લોક કરવા માંગો છો?",
     "centralDeputation": "કેન્દ્રીય પ્રતિનિયુક્તિ",
-    "thisProfileIsLocked": "આ પ્રોફાઇલ લોક કરવામાં આવી છે"
+    "thisProfileIsLocked": "આ પ્રોફાઇલ લોક કરવામાં આવી છે",
+    "learningHours": "શીખવાની કલાકો",
+    "trainingType": "પ્રશિક્ષણ પ્રકાર",
+    "trainingTypeIsRequired": "પ્રશિક્ષણ પ્રકાર જરૂરી છે",
+    "issuedOrganisationIsRequired": "જારી કરનાર સંસ્થા જરૂરી છે",
+    "issuedOrganisationTooShort": "જારી કરનાર સંસ્થા ઓછામાં ઓછા 10 અક્ષરો લાંબી હોવી જોઈએ",
+    "issuedOrganisationTooLong": "જારી કરનાર સંસ્થા 70 અક્ષરો કરતાં વધુ લાંબી ન હોઈ શકે",
+    "deliveryMode": "ડિલિવરી મોડ",
+    "pleaseEnterValidLearningHours": "કૃપા કરીને માન્ય સંખ્યા દાખલ કરો",
+    "learningHoursMustBeGreaterThanZero": "શીખવાની કલાકો 0 કરતા વધુ હોવી જોઈએ",
+    "learningHoursShouldBeLessThan100": "શીખવાની કલાકો 100 કરતા ઓછા હોવા જોઈએ",
+    "noDataFound": "કોઈ ડેટા મળ્યો નથી",
+    "startDateShouldNotEndDate": "શરૂઆતની તારીખ અંતિમ તારીખ પછી ન હોઈ શકે",
+    "viewLearnerPassbook": "લર્નર પાસબુક જુઓ",
+    "learningProgress": "શીખવાની પ્રગતિ",
+    "learnerPassbook": "લર્નર પાસબુક",
+    "learningHistory": "ઇતિહાસ શીખવો",
+    "learningProgressDescription": "તમારી શીખવાની યાત્રા, માન્ય કૌશલ્યો અને વ્યાવસાયિક વૃદ્ધિને એક વ્યાપક દૃશ્યમાં ટ્રૅક કરો.",
+    "learningObjective": "શીખવાનો ઉદ્દેશ"
   },
   "NetworkLandingPage": {
     "exploreNetwork": "નેટવર્ક શોધો",
@@ -2747,7 +2816,9 @@
     "pastEvents": "ભૂતકાળની ઘટનાઓ",
     "tomorrow": "કાલે",
     "today": "આજે",
-    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ"
+    "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
+    "sadhanaSaptah": "साधना सप्ताह",
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
   },
   "notificationV2Settings": {
     "email": "ઇમેઇલ સૂચના",
