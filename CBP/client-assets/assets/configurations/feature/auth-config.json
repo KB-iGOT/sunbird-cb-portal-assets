@@ -804,6 +804,26 @@
               ]
             },
             {
+              "name": "AssessAI Access Requests",
+              "key": "AssessAI",
+              "iconName": "check_circle",
+              "fragment": false,
+              "render": true,
+              "badges": {
+                "enabled": false,
+                "uri": ""
+              },
+              "enabled": true,
+              "routerLink": "/author/cbp/assessai-access-requests",
+              "requiredRoles": [
+                "cbp_admin",
+                "content_reviewer",
+                "content_publisher",
+                "content_creator",
+                "spv_publisher"
+              ]
+            },
+            {
               "name": "How Tos",
               "key": "how-tos",
               "iconName": "video_library",
@@ -856,7 +876,7 @@
               ]
             }
           ]
-        }, 
+        },
         {
           "menuCategory": "Content Management",
           "requiredRoles": [
