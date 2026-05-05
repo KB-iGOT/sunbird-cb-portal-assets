@@ -239,7 +239,7 @@
       "badges": { "enabled": true, "uri": "" },
       "icon": null,
       "img": null,
-      "enabled": true,
+      "enabled": false,
       "children": [
         {
           "name": "visibilityControl",
