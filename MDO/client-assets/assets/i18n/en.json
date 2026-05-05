@@ -2037,7 +2037,23 @@
         "iGOTSpecializationProgram": "iGOT Specialization",
         "noEventScheduleYet": "No events scheduled yet",
         "seeMore": "See More",
-        "seeLess": "See Less"
+        "seeLess": "See Less",
+        "designations": "Designations ({{count}})",
+        "importedOn": "Imported on",
+        "startImportingDesignation": "Start importing designations",
+        "goToUserManagement": "Go to User Management",
+        "users": "Users ({{count}})",
+        "verificationStatus": "Verification Status",
+        "groups": "Groups",
+        "roles": "Roles",
+        "onBoardingDateRange": "Onboarding date range",
+        "goToDashboard": "Go to Dashboard",
+        "trainingPlans": "Training Plans ({{count}})",
+        "planType": "Plan Type",
+        "createdOn": "Created on",
+        "timeline": "Timeline",
+        "eventStatus":"Event Status",
+        "eventDate": "Event Date"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
@@ -2096,7 +2112,10 @@
         "externalContent": "External Content ({{count}})",
         "comprehensiveAssessmentProgram": "Comprehensive Assessment Program",
         "multilingualCourse": "Multilingual Course",
-        "learningPathway": "Learning Pathway"
+        "learningPathway": "Learning Pathway",
+        "eventStatus":"Event Status",
+        "eventDate": "Event Date",
+        "createdOn":"Created on"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
