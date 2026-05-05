@@ -1038,7 +1038,8 @@
         "rajyaKarmayogiSpatah": "Rajya Karmayogi Saptah",
         "moreKarmaPoints": "more KarmaPoints",
         "completedEvent": "You completed this event on",
-        "search": "Search events..."
+        "search": "Search events...",
+        "sadhanaSaptah": "Sadhana Saptah"
     },
     "eventDetailsRightCard": {
         "viewRecording": "View recording",
