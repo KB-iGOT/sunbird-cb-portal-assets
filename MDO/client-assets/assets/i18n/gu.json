@@ -1964,7 +1964,23 @@
     "iGOTSpecializationProgram": "iGOT સ્પેશિયલાઇઝેશન",
     "noEventScheduleYet": "હજી સુધી કોઈ ઇવેન્ટ્સ શેડ્યૂલ નથી",
     "seeMore": "વધુ જુઓ",
-    "seeLess": "ઓછું જુઓ"
+    "seeLess": "ઓછું જુઓ",
+    "designations": "હોદ્દાઓ ({{count}})",
+    "importedOn": "આયાત કર્યું",
+    "startImportingDesignation": "હોદ્દાઓ આયાત કરવાનું શરૂ કરો",
+    "goToUserManagement": "વપરાશકર્તા વ્યવસ્થાપન પર જાઓ",
+    "users": "વપરાશકર્તાઓ ({{count}})",
+    "verificationStatus": "ચકાસણી સ્થિતિ",
+    "groups": "જૂથો",
+    "roles": "ભૂમિકાઓ",
+    "onBoardingDateRange": "ઓનબોર્ડિંગ તારીખ શ્રેણી",
+    "goToDashboard": "ડૅશબોર્ડ પર જાઓ",
+    "trainingPlans": "તાલીમ યોજનાઓ ({{count}})",
+    "planType": "યોજના પ્રકાર",
+    "createdOn": "બનાવ્યું",
+    "timeline": "સમયરેખા",
+    "eventStatus": "ઇવેન્ટ સ્થિતિ",
+    "eventDate": "ઇવેન્ટ તારીખ"
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",
@@ -2017,7 +2033,11 @@
     "years": "વર્ષો",
     "resource": "સ્રોત ({{count}})",
     "resources": "સ્રોતો ({{count}})",
-    "externalContent": "બાહ્ય સામગ્રી ({{count}})"
+    "externalContent": "બાહ્ય સામગ્રી ({{count}})",
+    "learningPathway": "લર્નિંગ પાથવે",
+    "eventStatus": "ઇવેન્ટ સ્થિતિ",
+    "eventDate": "ઇવેન્ટ તારીખ",
+    "createdOn": "બનાવ્યું"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",

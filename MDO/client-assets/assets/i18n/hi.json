@@ -2000,7 +2000,23 @@
     "iGOTSpecializationProgram": "iGOT विशेषज्ञता",
     "noEventScheduleYet": "अभी तक कोई कार्यक्रम निर्धारित नहीं है",
     "seeMore": "और देखें",
-    "seeLess": "कम देखें"
+    "seeLess": "कम देखें",
+    "designations": "पदनाम ({{count}})",
+    "importedOn": "आयात किया",
+    "startImportingDesignation": "पदनाम आयात करना शुरू करें",
+    "goToUserManagement": "उपयोगकर्ता प्रबंधन पर जाएं",
+    "users": "उपयोगकर्ता ({{count}})",
+    "verificationStatus": "सत्यापन स्थिति",
+    "groups": "समूह",
+    "roles": "भूमिकाएँ",
+    "onBoardingDateRange": "ऑनबोर्डिंग तिथि सीमा",
+    "goToDashboard": "डैशबोर्ड पर जाएं",
+    "trainingPlans": "प्रशिक्षण योजनाएँ ({{count}})",
+    "planType": "योजना प्रकार",
+    "createdOn": "बनाया गया",
+    "timeline": "समयरेखा",
+    "eventStatus": "कार्यक्रम स्थिति",
+    "eventDate": "कार्यक्रम की तारीख"
   },
   "searchfilters": {
     "caseStudy": "केस स्टडीज",
@@ -2058,7 +2074,10 @@
     "externalContent": "बाहरी सामग्री ({{count}})",
     "comprehensiveAssessmentProgram": "व्यापक मूल्यांकन कार्यक्रम",
     "multilingualCourse": "बहुभाषी पाठ्यक्रम",
-    "learningPathway": "लर्निंग पैथवे"
+    "learningPathway": "लर्निंग पैथवे",
+    "eventStatus": "कार्यक्रम स्थिति",
+    "eventDate": "कार्यक्रम की तारीख",
+    "createdOn": "बनाया गया"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
