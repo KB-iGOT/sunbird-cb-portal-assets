@@ -861,6 +861,7 @@
     "certificatedialog": {
         "downloadCertificate": "Download Certificate",
         "download": "Download",
+        "loading": "Loading...",
         "pdf": "PDF",
         "png": "PNG",
         "svg": "SVG"
