@@ -2703,6 +2703,7 @@
     "learningHoursShouldBeLessThan100": "શીખવાની કલાકો 100 કરતા ઓછા હોવા જોઈએ",
     "pleaseEnterValidLearningMinutes": "કૃપા કરીને 0 થી 59 વચ્ચે માન્ય સંખ્યા દાખલ કરો",
     "learningMinutesShouldBeLessThan60": "શીખવાની મિનિટ 60 કરતા ઓછા હોવા જોઈએ",
+    "validMinutes": "જ્યારે શીખવાની કલાકો 100 હોય, ત્યારે શીખવાની મિનિટ 0 હોવી જોઈએ",
     "noDataFound": "કોઈ ડેટા મળ્યો નથી",
     "startDateShouldNotEndDate": "શરૂઆતની તારીખ અંતિમ તારીખ પછી ન હોઈ શકે",
     "viewLearnerPassbook": "લર્નર પાસબુક જુઓ",

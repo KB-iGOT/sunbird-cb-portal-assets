@@ -2818,6 +2818,7 @@
         "learningHoursShouldBeLessThan100": "Learning hours should be less than 100",
         "pleaseEnterValidLearningMinutes": "Please enter a valid number between 0 and 59",
         "learningMinutesShouldBeLessThan60": "Learning minutes should be less than 60",
+        "validMinutes": "Learning minutes must be 0 when learning hours is 100",
         "noDataFound": "No data found",
         "startDateShouldNotEndDate": "Start date cannot be after end date",
         "viewLearnerPassbook": "View Learner Passbook",
