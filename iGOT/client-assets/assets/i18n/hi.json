@@ -2857,6 +2857,8 @@
     "pleaseEnterValidLearningHours": "कृपया एक मान्य संख्या दर्ज करें",
     "learningHoursMustBeGreaterThanZero": "लर्निंग घंटे 0 से अधिक होने चाहिए",
     "learningHoursShouldBeLessThan100": "लर्निंग घंटे 100 से कम होने चाहिए",
+    "pleaseEnterValidLearningMinutes": "कृपया 0 से 59 के बीच एक मान्य संख्या दर्ज करें",
+    "learningMinutesShouldBeLessThan60": "लर्निंग मिनट 60 से कम होने चाहिए",
     "noDataFound": "कोई डेटा नहीं मिला",
     "startDateShouldNotEndDate": "प्रारंभ तिथि समाप्ति तिथि के बाद नहीं हो सकती",
     "viewLearnerPassbook": "शिक्षार्थी पासबुक देखें",
