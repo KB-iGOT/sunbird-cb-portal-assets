@@ -2806,7 +2806,7 @@
         "confirmMsg": "If below details are correct, click",
         "otherwise": "Otherwise",
         "click": "click",
-        "learningHours": "Learning Hours",
+        "learningDuration": "Learning Duration",
         "trainingType": "Training Type",
         "trainingTypeIsRequired": "Training type is required",
         "issuedOrganisationIsRequired": "Issuing organisation is required",
