@@ -2807,6 +2807,7 @@
         "otherwise": "Otherwise",
         "click": "click",
         "learningDuration": "Learning Duration",
+        "learningHours": "Learning hours",
         "trainingType": "Training Type",
         "trainingTypeIsRequired": "Training type is required",
         "issuedOrganisationIsRequired": "Issuing organisation is required",
