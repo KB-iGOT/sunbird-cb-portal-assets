@@ -2848,6 +2848,7 @@
     "otherwise": "ओथरवाइज",
     "click": "क्लिक",
     "learningDuration": "लर्निंग अवधि",
+    "learningHours": "सीखने के घंटे",
     "trainingType": "प्रशिक्षण प्रकार",
     "trainingTypeIsRequired": "प्रशिक्षण प्रकार आवश्यक है",
     "issuedOrganisationIsRequired": "जारी करने वाला संगठन आवश्यक है",
