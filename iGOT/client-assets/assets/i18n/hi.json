@@ -2847,7 +2847,7 @@
     "confirmMsg": "आईएफ बेलो डिटेल्स अरे करेक्ट, क्लिक",
     "otherwise": "ओथरवाइज",
     "click": "क्लिक",
-    "learningHours": "लर्निंग घंटे",
+    "learningDuration": "लर्निंग अवधि",
     "trainingType": "प्रशिक्षण प्रकार",
     "trainingTypeIsRequired": "प्रशिक्षण प्रकार आवश्यक है",
     "issuedOrganisationIsRequired": "जारी करने वाला संगठन आवश्यक है",
