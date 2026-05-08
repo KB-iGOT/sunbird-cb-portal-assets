@@ -2856,7 +2856,7 @@
     "deliveryMode": "डिलीवरी मोड",
     "pleaseEnterValidLearningHours": "कृपया एक मान्य संख्या दर्ज करें",
     "learningHoursMustBeGreaterThanZero": "लर्निंग घंटे 0 से अधिक होने चाहिए",
-    "learningHoursShouldBeLessThan100": "लर्निंग घंटे 100 से कम होने चाहिए",
+    "learningHoursShouldBeLessThan100": "अधिकतम अनुमत अवधि 100 घंटे है",
     "pleaseEnterValidLearningMinutes": "कृपया 0 से 59 के बीच एक मान्य संख्या दर्ज करें",
     "learningMinutesShouldBeLessThan60": "लर्निंग मिनट 60 से कम होने चाहिए",
     "validMinutes": "जब लर्निंग घंटे 100 हों, तो लर्निंग मिनट 0 होना चाहिए",
