@@ -2815,7 +2815,7 @@
         "deliveryMode": "Delivery mode",
         "pleaseEnterValidLearningHours": "Please enter a valid number",
         "learningHoursMustBeGreaterThanZero": "Learning hours must be greater than 0",
-        "learningHoursShouldBeLessThan100": "Learning hours should be less than 100",
+        "learningHoursShouldBeLessThan100": "Maximum allowed duration is 100 hours",
         "pleaseEnterValidLearningMinutes": "Please enter a valid number between 0 and 59",
         "learningMinutesShouldBeLessThan60": "Learning minutes should be less than 60",
         "validMinutes": "Learning minutes must be 0 when learning hours is 100",
