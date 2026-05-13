@@ -1,7 +1,6 @@
 {
   "features": {
     "feature_FAQs": {
-      "accessKey": "?",
       "icon": "chat",
       "iconType": "mat-icon",
       "id": "feature_FAQs",
@@ -23,7 +22,6 @@
       "shortName": "Help"
     },
     "feature_admin": {
-      "accessKey": "",
       "icon": "supervisor_account",
       "iconType": "mat-icon",
       "id": "feature_admin",
@@ -43,7 +41,6 @@
       "url": "/admin/tenant"
     },
     "feature_Terms&Condition": {
-      "accessKey": "*",
       "icon": "description",
       "iconType": "mat-icon",
       "id": "feature_Terms&Condition",
@@ -68,7 +65,6 @@
       "shortName": "T & C"
     },
     "feature_aboutUs": {
-      "accessKey": "K",
       "icon": "info",
       "iconType": "mat-icon",
       "id": "feature_aboutUs",
@@ -87,7 +83,6 @@
       "shortName": "About"
     },
     "feature_discuss": {
-      "accessKey": "D",
       "icon": "forum",
       "iconType": "mat-icon",
       "id": "feature_discuss",
@@ -108,7 +103,6 @@
       "shortName": "Discuss"
     },
     "feature_learn": {
-      "accessKey": "L",
       "icon": "school",
       "iconType": "mat-icon",
       "id": "feature_learn",
@@ -127,7 +121,6 @@
       "shortName": "Learn"
     },
     "feature_network": {
-      "accessKey": "N",
       "icon": "group",
       "iconType": "mat-icon",
       "id": "feature_network",
@@ -146,7 +139,6 @@
       "shortName": "Network"
     },
     "feature_dashboard_v2": {
-      "accessKey": "D",
       "icon": "bar_chart",
       "iconType": "mat-icon",
       "id": "feature_dashboard_v2",
@@ -165,7 +157,6 @@
       "shortName": "Home"
     },
     "feature_goals": {
-      "accessKey": "",
       "icon": "track_changes",
       "iconType": "mat-icon",
       "id": "feature_goals",
@@ -185,7 +176,6 @@
       "shortName": "Goals"
     },
     "feature_home": {
-      "accessKey": "",
       "icon": "home",
       "iconType": "mat-icon",
       "id": "feature_home",
@@ -204,7 +194,6 @@
       "shortName": "Home"
     },
     "feature_mydashboard": {
-      "accessKey": "",
       "icon": "bar_chart",
       "iconType": "mat-icon",
       "id": "feature_mydashboard",
@@ -222,7 +211,6 @@
       "shortName": "MyDashboard"
     },
     "feature_badges": {
-      "accessKey": "",
       "icon": "stars",
       "iconType": "mat-icon",
       "id": "feature_badges",
@@ -241,7 +229,6 @@
       "shortName": "Badges"
     },
     "feature_catalog": {
-      "accessKey": "",
       "icon": "explore",
       "iconType": "mat-icon",
       "id": "feature_catalog",
@@ -264,7 +251,6 @@
       "shortName": "Explore"
     },
     "feature_authoring": {
-      "accessKey": "",
       "icon": "account_box",
       "iconType": "mat-icon",
       "id": "feature_authoring",
@@ -281,7 +267,6 @@
       "url": "/author/home"
     },
     "feature_cbp": {
-      "accessKey": "",
       "icon": "/assets/icons/CBP_portal.svg",
       "iconType": "mat-icon",
       "id": "feature_cbp",
@@ -309,7 +294,6 @@
       "url": "https://cbp.igot-dev.in/author/cbp"
     },
     "feature_cbc": {
-      "accessKey": "",
       "icon": "/assets/icons/CBC_portal.svg",
       "iconType": "mat-icon",
       "id": "feature_cbc",
@@ -332,7 +316,6 @@
       "url": "https://cbc.igot-dev.in/app/home"
     },
     "feature_mdo": {
-      "accessKey": "",
       "icon": "/assets/icons/MDO_portal.svg",
       "iconType": "mat-icon",
       "id": "feature_mdo",
@@ -356,7 +339,6 @@
       "url": "https://mdo.igot-dev.in/app/home"
     },
     "feature_spv": {
-      "accessKey": "",
       "icon": "/assets/icons/SPV_portal.svg",
       "iconType": "mat-icon",
       "id": "feature_spv",
@@ -378,7 +360,6 @@
       "url": "https://spv.igot-dev.in/app/home"
     },
     "feature_create": {
-      "accessKey": "",
       "icon": "create",
       "iconType": "mat-icon",
       "id": "feature_create",
@@ -396,7 +377,6 @@
       "url": "/author/confirmation"
     },
     "feature_feedback": {
-      "accessKey": "#",
       "description": "Like us? Have some suggestions? Want to report a bug?",
       "icon": "feedback",
       "iconType": "mat-icon",
@@ -420,7 +400,6 @@
       "shortName": "Feedback"
     },
     "feature_interests": {
-      "accessKey": "W",
       "icon": "tag_faces",
       "iconType": "mat-icon",
       "id": "feature_interests",
@@ -439,7 +418,6 @@
       "shortName": "Interests"
     },
     "feature_learningAnalytics": {
-      "accessKey": "",
       "icon": "bar_chart",
       "iconType": "mat-icon",
       "id": "feature_learningAnalytics",
@@ -458,7 +436,6 @@
       "shortName": "Analytics"
     },
     "feature_notification": {
-      "accessKey": "N",
       "icon": "notifications",
       "iconType": "mat-icon",
       "id": "feature_notification",
@@ -478,7 +455,6 @@
       "badgeEndpoint": ""
     },
     "feature_playlist": {
-      "accessKey": "P",
       "description": "Create and learn from playlists. Share with your friends too.",
       "icon": "playlist_play",
       "iconType": "mat-icon",
@@ -498,7 +474,6 @@
       "shortName": "Playlists"
     },
     "feature_profile": {
-      "accessKey": "U",
       "icon": "account_circle",
       "iconType": "mat-icon",
       "id": "feature_profile",
@@ -519,7 +494,6 @@
       "shortName": "Profile"
     },
     "feature_profile_update": {
-      "accessKey": "U",
       "icon": "create",
       "iconType": "mat-icon",
       "id": "feature_profile_update",
@@ -538,7 +512,6 @@
       "shortName": "Profile Update"
     },
     "feature_account": {
-      "accessKey": "U",
       "icon": "account_circle",
       "iconType": "mat-icon",
       "id": "feature_account",
@@ -559,7 +532,6 @@
       "shortName": "Account"
     },
     "feature_publish": {
-      "accessKey": "",
       "icon": "publish",
       "iconType": "mat-icon",
       "id": "feature_publish",
@@ -581,7 +553,6 @@
       "url": "/author/my-content?status=publish"
     },
     "feature_review": {
-      "accessKey": "",
       "icon": "rate_review",
       "iconType": "mat-icon",
       "id": "feature_review",
@@ -603,7 +574,6 @@
       "url": "/author/my-content?status=review"
     },
     "feature_search": {
-      "accessKey": "",
       "icon": "search",
       "iconType": "mat-icon",
       "id": "feature_search",
@@ -623,7 +593,6 @@
       "shortName": "Search"
     },
     "feature_settings": {
-      "accessKey": "I",
       "icon": "settings",
       "iconType": "mat-icon",
       "id": "feature_settings",
@@ -642,7 +611,6 @@
       "shortName": "Settings"
     },
     "feature_program_coordinator": {
-      "accessKey": "",
       "icon": "/assets/icons/CBP_portal.svg",
       "iconType": "mat-icon",
       "id": "feature_program_coordinator",
@@ -682,16 +650,8 @@
         "feature_profile",
         "feature_profile_update"
       ],
-      "icon": "",
-      "iconType": "none",
       "id": "group_me",
-      "keywords": [
-        "Me",
-        "profile",
-        "Dashboard"
-      ],
       "name": "Activity",
-      "toolTip": "Activity",
       "hasRole": []
     },
     {
@@ -701,14 +661,8 @@
         "feature_publish",
         "feature_review"
       ],
-      "icon": "",
-      "iconType": "none",
       "id": "group_contribution",
-      "keywords": [
-        "contribution"
-      ],
       "name": "Contribution",
-      "toolTip": "Contribution",
       "hasRole": [
         "content_creator",
         "channel-creator",
@@ -725,14 +679,8 @@
       "featureIds": [
         "feature_admin"
       ],
-      "icon": "",
-      "iconType": "none",
       "id": "group_admin",
-      "keywords": [
-        "admin"
-      ],
       "name": "Admin",
-      "toolTip": "Admin",
       "hasRole": [
         "admin"
       ]
@@ -747,25 +695,8 @@
         "feature_frac",
         "feature_program_coordinator"
       ],
-      "icon": "",
-      "iconType": "none",
       "id": "portal_admin",
-      "keywords": [
-        "admin"
-      ],
       "name": "Portals",
-      "toolTip": "Portals",
-      "permission": [
-        "editor",
-        "admin",
-        "content_publisher",
-        "content_creator",
-        "content-creator",
-        "content_reviewer",
-        "cbp_admin",
-        "spv_publisher",
-        "program_coordinator"      
-      ],
       "hasRole": [
         "public",
         "admin",
@@ -789,30 +720,16 @@
         "feature_mobileApps",
         "feature_quickTour"
       ],
-      "icon": "",
-      "iconType": "none",
       "id": "group_information",
-      "keywords": [
-        "info",
-        "information hub",
-        "info hub"
-      ],
       "name": "Info Hub",
-      "toolTip": "Information Hub",
       "hasRole": []
     },
     {
       "featureIds": [
         "feature_settings"
       ],
-      "icon": "",
-      "iconType": "none",
       "id": "group_account",
-      "keywords": [
-        "settings"
-      ],
       "name": "Settings",
-      "toolTip": "Settings",
       "hasRole": []
     }
   ]
