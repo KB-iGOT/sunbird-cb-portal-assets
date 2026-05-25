@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="iGOT Karmayogi Design System — Complete CSS tokens, color palettes, typography, spacing, and component reference for developers."/>
+<title>iGOT Karmayogi — Design System Reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Lato:wght@300;400;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+  :root, [data-theme="light"] {
+    --color-primary-50: #E8EDF6;
+    --color-primary-100: #B8C8E2;
+    --color-primary-200: #96ADD4;
+    --color-primary-300: #6687C0;
+    --color-primary-400: #4970B4;
+    --color-primary-500: #1B4CA1;
+    --color-primary-600: #194593;
+    --color-primary-700: #133672;
+    --color-primary-800: #0F2A59;
+    --color-primary-900: #0B2044;
+    --color-secondary-50: #FEF5EA;
+    --color-secondary-100: #FBDEBF;
+    --color-secondary-300: #F7B974;
+    --color-secondary-500: #F3962F;
+    --color-secondary-700: #AD6B21;
+    --color-secondary-900: #663F14;
+    --color-tertiary-50: #E8E9EB;
+    --color-tertiary-300: #666A76;
+    --color-tertiary-500: #1B2133;
+    --color-tertiary-700: #131724;
+    --color-tertiary-900: #0B0E15;
+    --color-error-red-500: #D13924;
+    --color-success-green-500: #1D8923;
+    --color-warning-yellow-500: #E99E38;
+    --color-info-blue-500: #0A5396;
+    --color-accents-red: #FF383C;
+    --color-accents-orange: #FF8D28;
+    --color-accents-yellow: #FFCC00;
+    --color-accents-green: #34C759;
+    --color-accents-mint: #00C8B3;
+    --color-accents-teal: #00C3D0;
+    --color-accents-cyan: #00C0E8;
+    --color-accents-blue: #0088FF;
+    --color-accents-indigo: #6155F5;
+    --color-accents-purple: #CB30E0;
+    --color-accents-pink: #FF2D55;
+    --color-accents-brown: #AC7F5E;
+    --surface-primary: #FFFFFF;
+    --surface-secondary: #EFF3F9;
+    --surface-tertiary: #F5F5F5;
+    --surface-inverse: #1B2133;
+    --environment-application-backgrounds-system-background-1: #FFFFFF;
+    --environment-application-backgrounds-card-background: #FFFFFF;
+    --environment-application-backgrounds-other-background: #1B4CA1;
+    --text-bandw-black-display: rgba(0,0,0,0.96);
+    --text-bandw-black-heading: rgba(0,0,0,0.96);
+    --text-bandw-black-title: rgba(0,0,0,0.88);
+    --text-bandw-black-sub-heading: rgba(0,0,0,0.80);
+    --text-bandw-black-body: rgba(0,0,0,0.80);
+    --text-bandw-black-captions: rgba(0,0,0,0.72);
+    --text-bandw-black-lables: rgba(0,0,0,0.72);
+    --text-bandw-black-fine-print: rgba(0,0,0,0.72);
+    --text-system-text-disabled: rgba(0,0,0,0.48);
+    --text-system-text-success: #1D8923;
+    --text-system-text-error: #D13924;
+    --text-system-text-warning: #E99E38;
+    --environment-button-primary-filled-primary: #1B4CA1;
+    --environment-button-primary-filled-primary-hover: #133672;
+    --environment-button-primary-filled-primary-disabled: rgba(27,76,161,0.48);
+    --environment-button-secondary-filled-secondary: #F3962F;
+    --environment-button-secondary-filled-secondary-hover: #AD6B21;
+    --text-button-text-primary-white: #FFFFFF;
+    --text-button-text-link: #1B4CA1;
+    --border-default: rgba(0,0,0,0.08);
+    --border-strong: rgba(0,0,0,0.16);
+    --border-focus: #1B4CA1;
+    --environment-border-and-divider-default-1: rgba(0,0,0,0.16);
+    --environment-border-and-divider-focused: #0B2044;
+    --environment-border-and-divider-disable: rgba(0,0,0,0.24);
+    --environment-icon-overall-primary-bandw: #000000;
+    --environment-icon-overall-secondary-bandw: rgba(0,0,0,0.72);
+    --environment-icon-permanent-permanent-blue-icon: #1B4CA1;
+    --environment-icon-system-success: #1D8923;
+    --environment-icon-system-error: #D13924;
+    /* Status color opacity variants */
+    --color-error-red-o-16: rgba(209,57,36,0.16);
+    --color-error-red-o-24: rgba(209,57,36,0.24);
+    --color-error-red-o-32: rgba(209,57,36,0.32);
+    --color-error-red-o-40: rgba(209,57,36,0.40);
+    --color-error-red-o-48: rgba(209,57,36,0.48);
+    --color-success-green-o-16: rgba(29,137,35,0.16);
+    --color-success-green-o-24: rgba(29,137,35,0.24);
+    --color-success-green-o-32: rgba(29,137,35,0.32);
+    --color-success-green-o-40: rgba(29,137,35,0.40);
+    --color-success-green-o-48: rgba(29,137,35,0.48);
+    --color-warning-yellow-o-16: rgba(233,158,56,0.16);
+    --color-warning-yellow-o-24: rgba(233,158,56,0.24);
+    --color-warning-yellow-o-32: rgba(233,158,56,0.32);
+    --color-warning-yellow-o-40: rgba(233,158,56,0.40);
+    --color-warning-yellow-o-48: rgba(233,158,56,0.48);
+    --color-info-blue-o-16: rgba(10,83,150,0.16);
+    --color-info-blue-o-24: rgba(10,83,150,0.24);
+    --color-info-blue-o-32: rgba(10,83,150,0.32);
+    --color-info-blue-o-40: rgba(10,83,150,0.40);
+    --color-info-blue-o-48: rgba(10,83,150,0.48);
+    /* Black/White/Primary opacity tokens */
+    --color-black-opacity-8: rgba(0,0,0,0.08);
+    --color-black-opacity-16: rgba(0,0,0,0.16);
+    --color-black-opacity-24: rgba(0,0,0,0.24);
+    --color-black-opacity-32: rgba(0,0,0,0.32);
+    --color-black-opacity-40: rgba(0,0,0,0.40);
+    --color-black-opacity-48: rgba(0,0,0,0.48);
+    --color-black-opacity-64: rgba(0,0,0,0.64);
+    --color-black-opacity-80: rgba(0,0,0,0.80);
+    --color-black-opacity-96: rgba(0,0,0,0.96);
+    --color-white-white-o-8: rgba(255,255,255,0.08);
+    --color-white-white-o-16: rgba(255,255,255,0.16);
+    --color-white-white-o-24: rgba(255,255,255,0.24);
+    --color-white-white-o-32: rgba(255,255,255,0.32);
+    --color-white-white-o-40: rgba(255,255,255,0.40);
+    --color-white-white-o-48: rgba(255,255,255,0.48);
+    --color-white-white-o-64: rgba(255,255,255,0.64);
+    --color-white-white-o-80: rgba(255,255,255,0.80);
+    --color-white-white-o-96: rgba(255,255,255,0.96);
+    --color-primary-o-8: rgba(27,76,161,0.08);
+    --color-primary-o-16: rgba(27,76,161,0.16);
+    --color-primary-o-24: rgba(27,76,161,0.24);
+    --color-primary-o-32: rgba(27,76,161,0.32);
+    --color-primary-o-40: rgba(27,76,161,0.40);
+    --color-primary-o-48: rgba(27,76,161,0.48);
+    --color-primary-o-64: rgba(27,76,161,0.64);
+    --color-primary-o-80: rgba(27,76,161,0.80);
+    --color-primary-o-96: rgba(27,76,161,0.96);
+    /* Fills (Theme-Aware) */
+    --environment-all-fills-primary-primary-50-900: #E8EDF6;
+    --environment-all-fills-primary-primary-500-400: #1B4CA1;
+    --environment-cards-overall-cards-primary: #E8EDF6;
+    --environment-all-fills-overlay-backdrop: rgba(0,0,0,0.32);
+    /* Grid System */
+    --grid-grid-column: 12;
+    --grid-grid-gutter: 16px;
+    --grid-grid-margin-landr: 16px;
+    --font-family-primary: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-family-heading: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-family-mono: 'Fira Code', Menlo, Monaco, Consolas, monospace;
+    --font-size-display-1: 48px;
+    --font-size-display-2: 40px;
+    --font-size-heading-1: 32px;
+    --font-size-heading-2: 28px;
+    --font-size-title-1: 24px;
+    --font-size-title-2: 20px;
+    --font-size-sub-heading-1: 18px;
+    --font-size-sub-heading-2: 16px;
+    --font-size-body-1: 16px;
+    --font-size-body-2: 14px;
+    --font-size-button-1: 16px;
+    --font-size-button-2: 14px;
+    --font-size-caption-1: 12px;
+    --font-size-label-1: 12px;
+    --font-size-fine-print-1: 12px;
+    --space-0: 0px; --space-2: 2px; --space-4: 4px; --space-8: 8px;
+    --space-12: 12px; --space-16: 16px; --space-20: 20px; --space-24: 24px;
+    --space-32: 32px; --space-40: 40px; --space-48: 48px; --space-64: 64px; --space-128: 128px;
+    --padding-no-padding: 0px; --padding-xs-padding: 4px; --padding-s-padding: 8px;
+    --padding-m-padding: 12px; --padding-l-padding: 16px; --padding-xl-padding: 20px;
+    --padding-xxl-padding: 24px; --padding-xxxl-padding: 32px;
+    --gap-no-gap: 0px; --gap-xs-gap: 4px; --gap-s-gap: 8px; --gap-m-gap: 12px;
+    --gap-l-gap: 16px; --gap-xl-gap: 20px; --gap-xxl-gap: 24px; --gap-xxxl-gap: 32px;
+    --radius-4: 4px; --radius-8: 8px; --radius-12: 12px; --radius-16: 16px; --radius-999: 999px;
+    --stroke-1: 1px; --stroke-2: 2px;
+    --icon-sm: 16px; --icon-md: 20px; --icon-lg: 24px; --icon-xl: 32px; --icon-xxl: 40px;
+    /* Permanent text tokens */
+    --text-permanent-black-display: rgba(0,0,0,0.96);
+    --text-permanent-black-heading: rgba(0,0,0,0.96);
+    --text-permanent-black-body: rgba(0,0,0,0.80);
+    --text-permanent-white-display: rgba(255,255,255,0.96);
+    --text-permanent-white-heading: rgba(255,255,255,0.96);
+    --text-permanent-white-body: rgba(255,255,255,0.80);
+    /* page chrome */
+    --page-bg: #EFF3F9;
+    --sidebar-bg: #FFFFFF;
+    --card-bg: #FFFFFF;
+    --text-main: rgba(0,0,0,0.88);
+    --text-sub: rgba(0,0,0,0.60);
+    --divider: rgba(0,0,0,0.08);
+    --tag-bg: #E8EDF6;
+    --tag-text: #1B4CA1;
+    --code-bg: #F5F7FA;
+    --code-border: rgba(0,0,0,0.08);
+    --copy-btn-bg: #1B4CA1;
+    --copy-btn-text: #fff;
+    --copy-btn-success: #1D8923;
+    --shadow: 0 2px 12px rgba(27,76,161,0.07);
+    --shadow-hover: 0 6px 24px rgba(27,76,161,0.13);
+  }
+  [data-theme="dark"] {
+    --surface-primary: #1B2133;
+    --surface-secondary: #252D3F;
+    --surface-tertiary: #333D4C;
+    --surface-inverse: #FFFFFF;
+    --environment-application-backgrounds-system-background-1: #0B2044;
+    --environment-application-backgrounds-card-background: #133672;
+    --environment-application-backgrounds-other-background: #133672;
+    --environment-button-primary-filled-primary: #FFFFFF;
+    --environment-button-primary-filled-primary-hover: #FFFFFF;
+    --environment-button-primary-filled-primary-disabled: rgba(255,255,255,0.48);
+    --environment-button-secondary-filled-secondary: #F3962F;
+    --environment-button-secondary-filled-secondary-hover: #AD6B21;
+    --text-button-text-primary-white: #1B4CA1;
+    --text-button-text-link: #FFFFFF;
+    --border-default: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.16);
+    --border-focus: #6687C0;
+    --environment-border-and-divider-default-1: rgba(255,255,255,0.24);
+    --environment-border-and-divider-focused: #B8C8E2;
+    --environment-border-and-divider-disable: rgba(255,255,255,0.08);
+    --environment-icon-overall-primary-bandw: #FFFFFF;
+    --environment-icon-overall-secondary-bandw: rgba(255,255,255,0.72);
+    --text-bandw-black-display: rgba(255,255,255,0.96);
+    --text-bandw-black-heading: rgba(255,255,255,0.96);
+    --text-bandw-black-title: rgba(255,255,255,0.88);
+    --text-bandw-black-sub-heading: rgba(255,255,255,0.80);
+    --text-bandw-black-body: rgba(255,255,255,0.80);
+    --text-bandw-black-captions: rgba(255,255,255,0.72);
+    --text-bandw-black-lables: rgba(255,255,255,0.72);
+    --text-bandw-black-fine-print: rgba(255,255,255,0.72);
+    --text-system-text-disabled: rgba(255,255,255,0.48);
+    /* Dark fills */
+    --environment-all-fills-primary-primary-50-900: #0B2044;
+    --environment-all-fills-primary-primary-500-400: #4970B4;
+    --environment-cards-overall-cards-primary: #0F121C;
+    /* Dark grid */
+    --grid-grid-column: 12;
+    --grid-grid-gutter: 16px;
+    --grid-grid-margin-landr: 16px;
+    --page-bg: #0F1624;
+    --sidebar-bg: #151D2E;
+    --card-bg: #1B2540;
+    --text-main: rgba(255,255,255,0.90);
+    --text-sub: rgba(255,255,255,0.55);
+    --divider: rgba(255,255,255,0.08);
+    --tag-bg: rgba(27,76,161,0.3);
+    --tag-text: #96ADD4;
+    --code-bg: #0F1624;
+    --code-border: rgba(255,255,255,0.10);
+    --copy-btn-bg: #4970B4;
+    --copy-btn-text: #fff;
+    --shadow: 0 2px 12px rgba(0,0,0,0.3);
+    --shadow-hover: 0 6px 24px rgba(0,0,0,0.45);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font-family-primary);
+    background: var(--page-bg);
+    color: var(--text-main);
+    min-height: 100vh;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  /* Layout */
+  .layout { display: flex; min-height: 100vh; }
+
+  /* Sidebar */
+  .sidebar {
+    width: 260px;
+    flex-shrink: 0;
+    background: var(--sidebar-bg);
+    border-right: 1px solid var(--divider);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    transition: background 0.3s;
+    box-shadow: var(--shadow);
+  }
+  .sidebar-logo {
+    padding: 24px 20px 16px;
+    border-bottom: 1px solid var(--divider);
+  }
+  .sidebar-logo .brand {
+    font-family: var(--font-family-heading);
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    color: var(--color-primary-500);
+    text-transform: uppercase;
+  }
+  .sidebar-logo .sub {
+    font-size: 11px;
+    color: var(--text-sub);
+    margin-top: 2px;
+    font-weight: 400;
+  }
+  .sidebar-nav { flex: 1; padding: 12px 0; }
+  .nav-section-label {
+    font-family: var(--font-family-heading);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-sub);
+    padding: 10px 20px 4px;
+  }
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-sub);
+    text-decoration: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.15s;
+    border-left: 2px solid transparent;
+  }
+  .nav-link:hover { color: var(--color-primary-500); background: var(--tag-bg); }
+  .nav-link.active { color: var(--color-primary-500); border-left-color: var(--color-primary-500); background: var(--tag-bg); font-weight: 600; }
+
+  /* Main content */
+  .main { flex: 1; min-width: 0; padding: 40px; max-width: 1100px; }
+
+  /* Header */
+  .page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    gap: 16px;
+    position: sticky;
+    top: 0;
+    background: var(--page-bg);
+    z-index: 100;
+    padding: 20px 0;
+    margin-top: -40px;
+    border-bottom: 1px solid var(--divider);
+  }
+  .page-header-text h1 {
+    font-family: var(--font-family-heading);
+    font-size: 34px;
+    font-weight: 800;
+    color: var(--color-primary-500);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+  .page-header-text p {
+    font-size: 15px;
+    color: var(--text-sub);
+    margin-top: 6px;
+  }
+  .header-controls { display: flex; gap: 10px; align-items: center; flex-shrink: 0; }
+  .theme-toggle {
+    background: var(--card-bg);
+    border: 1px solid var(--divider);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-family: var(--font-family-primary);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-main);
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .theme-toggle:hover { border-color: var(--color-primary-500); color: var(--color-primary-500); }
+
+  /* Section */
+  .section { margin-bottom: 64px; scroll-margin-top: 32px; }
+  .section-header { margin-bottom: 20px; }
+  .section-header h2 {
+    font-family: var(--font-family-heading);
+    font-size: 20px; font-weight: 700;
+    color: var(--text-main);
+    display: flex; align-items: center; gap: 10px;
+  }
+  .section-num {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 26px; height: 26px;
+    background: var(--color-primary-500);
+    color: #fff;
+    border-radius: 6px;
+    font-size: 11px; font-weight: 800;
+    font-family: var(--font-family-heading);
+    flex-shrink: 0;
+  }
+  .section-desc { font-size: 13px; color: var(--text-sub); margin-top: 4px; }
+
+  /* Cards */
+  .card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid var(--divider);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.2s;
+  }
+
+  /* Color grid */
+  .color-group { margin-bottom: 24px; }
+  .color-group-label {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--text-sub); margin-bottom: 10px;
+  }
+  .color-swatches { display: flex; gap: 8px; flex-wrap: wrap; }
+  .swatch {
+    flex: 0 0 auto;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--divider);
+    background: var(--card-bg);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .swatch:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); }
+  .swatch-color { height: 56px; width: 100%; transition: filter 0.2s; position: relative; }
+  .swatch-color::after { content: attr(data-label); position: absolute; bottom: 4px; right: 6px; font-size: 9px; font-weight: 700; opacity: 0.7; }
+  .swatch-color.light-text::after { color: #fff; }
+  .swatch-color.dark-text::after { color: #000; }
+  .swatch-info { padding: 6px 8px; }
+  .swatch-name { font-size: 10px; font-weight: 600; color: var(--text-sub); display: block; margin-bottom: 1px; }
+  .swatch-hex { font-family: var(--font-family-mono); font-size: 10px; color: var(--text-main); font-weight: 500; }
+
+  .accent-swatches { display: flex; gap: 8px; flex-wrap: wrap; }
+  .accent-swatch {
+    display: flex; align-items: center; gap: 8px;
+    background: var(--card-bg);
+    border: 1px solid var(--divider);
+    border-radius: 8px; padding: 8px 12px;
+    cursor: pointer; transition: all 0.15s; min-width: 180px;
+  }
+  .accent-swatch:hover { border-color: var(--color-primary-300); box-shadow: var(--shadow-hover); }
+  .accent-dot { width: 28px; height: 28px; border-radius: 8px; flex-shrink: 0; }
+  .accent-label { font-size: 12px; }
+  .accent-label .aname { font-weight: 600; color: var(--text-main); display: block; }
+  .accent-label .ahex { font-family: var(--font-family-mono); font-size: 10px; color: var(--text-sub); }
+
+  /* Responsive table wrapper */
+  .table-responsive-wrapper {
+    width: 100%; overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive-wrapper .token-table { min-width: 600px; }
+
+  /* Token table */
+  .token-table { width: 100%; border-collapse: collapse; }
+  .token-table th {
+    background: var(--page-bg);
+    font-family: var(--font-family-heading);
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--text-sub); padding: 10px 16px;
+    text-align: left; border-bottom: 1px solid var(--divider);
+  }
+  .token-table td { padding: 10px 16px; border-bottom: 1px solid var(--divider); vertical-align: middle; font-size: 13px; }
+  .token-table tr:last-child td { border-bottom: none; }
+  .token-table tr:hover td { background: var(--page-bg); }
+  .token-name {
+    font-family: var(--font-family-mono); font-size: 12px;
+    color: var(--color-primary-500); font-weight: 500;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .token-value { color: var(--text-sub); font-size: 12px; }
+  .token-preview { width: 28px; height: 28px; border-radius: 6px; border: 1px solid var(--divider); display: inline-block; flex-shrink: 0; }
+  .copy-inline {
+    opacity: 0; font-size: 10px; padding: 2px 7px; border-radius: 4px;
+    background: var(--tag-bg); color: var(--tag-text);
+    border: none; cursor: pointer; font-family: var(--font-family-mono);
+    font-weight: 600; transition: opacity 0.15s;
+  }
+  .token-table tr:hover .copy-inline { opacity: 1; }
+  .copy-inline:active { background: var(--color-primary-500); color: #fff; }
+
+  /* Code block */
+  .code-block {
+    background: var(--code-bg);
+    border: 1px solid var(--code-border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 16px;
+  }
+  .code-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 8px 14px;
+    background: var(--divider);
+    border-bottom: 1px solid var(--code-border);
+  }
+  .code-lang { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; color: var(--text-sub); text-transform: uppercase; }
+  .copy-btn {
+    display: flex; align-items: center; gap: 5px;
+    background: var(--copy-btn-bg); color: var(--copy-btn-text);
+    border: none; border-radius: 5px; padding: 4px 11px;
+    font-size: 11px; font-weight: 700; font-family: var(--font-family-primary);
+    cursor: pointer; transition: all 0.2s; letter-spacing: 0.03em;
+  }
+  .copy-btn:hover { opacity: 0.85; }
+  .copy-btn.copied { background: var(--copy-btn-success); }
+  pre {
+    padding: 16px;
+    overflow-x: auto;
+    font-family: var(--font-family-mono);
+    font-size: 12.5px;
+    line-height: 1.7;
+    color: var(--text-main);
+    white-space: pre;
+  }
+
+  /* Typography preview */
+  .type-preview { padding: 20px; }
+  .type-row {
+    display: flex; align-items: baseline; gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--divider);
+    flex-wrap: wrap;
+  }
+  .type-row:last-child { border-bottom: none; }
+  .type-meta { flex-shrink: 0; width: 200px; min-width: 0; }
+  .type-var { font-family: var(--font-family-mono); font-size: 10.5px; color: var(--color-primary-500); display: block; margin-bottom: 2px; word-break: break-all; }
+  .type-size { font-size: 11px; color: var(--text-sub); }
+  .type-sample { font-family: var(--font-family-heading); color: var(--text-main); font-weight: 700; }
+
+  /* Spacing preview */
+  .space-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; padding: 20px; }
+  .space-item { display: flex; flex-direction: column; gap: 8px; cursor: pointer; }
+  .space-bar-wrap { height: 32px; display: flex; align-items: center; }
+  .space-bar { background: var(--color-primary-200); border-radius: 4px; height: 20px; min-width: 2px; }
+  .space-label .svar { font-family: var(--font-family-mono); font-size: 10px; color: var(--color-primary-500); display: block; }
+  .space-label .sval { font-size: 11px; color: var(--text-sub); }
+
+  /* Radius preview */
+  .radius-row { display: flex; flex-wrap: wrap; gap: 16px; padding: 20px; }
+  .radius-item { display: flex; flex-direction: column; align-items: center; gap: 8px; cursor: pointer; }
+  .radius-box { width: 64px; height: 64px; background: var(--color-primary-100); border: 2px solid var(--color-primary-300); }
+  .radius-meta .rvar { font-family: var(--font-family-mono); font-size: 9.5px; color: var(--color-primary-500); display: block; text-align: center; }
+  .radius-meta .rval { font-size: 11px; color: var(--text-sub); display: block; text-align: center; }
+
+  /* Status badges */
+  .status-row { display: flex; flex-wrap: wrap; gap: 10px; padding: 20px; }
+  .status-badge {
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 14px; border-radius: 8px;
+    font-size: 13px; font-weight: 600;
+    cursor: pointer; transition: opacity 0.15s;
+  }
+  .status-badge:hover { opacity: 0.85; }
+  .status-dot { width: 8px; height: 8px; border-radius: 50%; }
+
+  /* Toast */
+  .toast {
+    position: fixed; bottom: 28px; right: 28px;
+    background: var(--color-primary-800); color: #fff;
+    padding: 10px 18px; border-radius: 8px;
+    font-size: 13px; font-weight: 600;
+    font-family: var(--font-family-primary);
+    opacity: 0; transform: translateY(10px);
+    transition: all 0.25s; pointer-events: none; z-index: 9999;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .toast.show { opacity: 1; transform: translateY(0); }
+
+  /* Font families card */
+  .font-card { padding: 20px; display: flex; flex-direction: column; gap: 16px; }
+  .font-item {
+    display: flex; align-items: center; gap: 16px;
+    padding: 14px 16px; border-radius: 10px;
+    background: var(--page-bg); cursor: pointer;
+    border: 1px solid var(--divider); transition: all 0.15s;
+  }
+  .font-item:hover { border-color: var(--color-primary-300); }
+  .font-sample { font-size: 20px; flex: 1; color: var(--text-main); }
+  .font-meta .fvar { font-family: var(--font-family-mono); font-size: 10.5px; color: var(--color-primary-500); display: block; }
+  .font-meta .fname { font-size: 11px; color: var(--text-sub); }
+
+  /* Grid viz */
+  .grid-viz { padding: 20px; }
+  .grid-demo { display: flex; gap: 4px; margin-bottom: 8px; }
+  .grid-col { background: var(--color-primary-100); border-radius: 4px; height: 32px; flex: 1; border: 1px solid var(--color-primary-200); }
+  .grid-label { font-size: 11px; color: var(--text-sub); font-weight: 600; margin-bottom: 10px; font-family: var(--font-family-heading); }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--color-primary-200); border-radius: 99px; }
+
+  /* Mobile hamburger */
+  .mobile-menu-btn {
+    display: none; position: fixed; top: 12px; left: 12px; z-index: 1001;
+    background: var(--card-bg); border: 1px solid var(--divider); border-radius: 8px;
+    padding: 8px 10px; cursor: pointer; box-shadow: var(--shadow);
+    font-size: 18px; line-height: 1;
+  }
+  .sidebar-overlay {
+    display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.4);
+    z-index: 999; opacity: 0; transition: opacity 0.3s;
+  }
+  .sidebar-overlay.show { display: block; opacity: 1; }
+
+  /* Search input */
+  .search-box {
+    padding: 8px 16px 12px;
+  }
+  .search-input {
+    width: 100%; padding: 7px 10px; border-radius: 6px;
+    border: 1px solid var(--divider); background: var(--page-bg);
+    font-family: var(--font-family-primary); font-size: 12px;
+    color: var(--text-main); outline: none; transition: border-color 0.2s;
+  }
+  .search-input:focus { border-color: var(--color-primary-500); }
+  .search-input::placeholder { color: var(--text-sub); }
+
+  /* Tablet breakpoint */
+  @media (max-width: 1023px) and (min-width: 426px) {
+    :root, [data-theme="light"], [data-theme="dark"] {
+      --font-size-display-1: 36px;
+      --font-size-display-2: 30px;
+      --font-size-heading-1: 28px;
+      --font-size-heading-2: 24px;
+      --font-size-title-1: 20px;
+      --font-size-title-2: 16px;
+      --font-size-sub-heading-1: 16px;
+      --font-size-sub-heading-2: 14px;
+      --grid-grid-column: 6;
+      --grid-grid-gutter: 16px;
+      --grid-grid-margin-landr: 16px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .mobile-menu-btn { display: block; }
+    .sidebar { position: fixed; left: -280px; z-index: 1000; transition: left 0.3s; }
+    .sidebar.open { left: 0; }
+    .main { padding: 16px; padding-top: 56px; }
+    .page-header { flex-direction: column; align-items: flex-start; margin-top: -16px; padding: 12px 0; margin-bottom: 24px; gap: 8px; }
+    .page-header-text h1 { font-size: 24px; }
+    .section { margin-bottom: 40px; }
+    .section-header h2 { font-size: 17px; }
+    .color-swatches { gap: 6px; }
+    .swatch { width: 72px; }
+    .swatch-color { height: 44px; }
+    .accent-swatches { gap: 6px; }
+    .accent-swatch { min-width: 140px; padding: 6px 10px; }
+    .type-row { flex-direction: column; gap: 6px; }
+    .type-meta { width: 100%; }
+    .type-sample { font-size: clamp(14px, 4vw, 48px) !important; }
+    .font-item { flex-direction: column; align-items: flex-start; gap: 8px; }
+    .font-sample { font-size: 16px !important; }
+    .space-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 8px; padding: 12px; }
+    .radius-row { gap: 10px; padding: 12px; }
+    .radius-box { width: 48px; height: 48px; }
+    .token-table td { padding: 8px 10px; font-size: 12px; }
+    .token-table th { padding: 8px 10px; font-size: 10px; }
+    .token-name { font-size: 10.5px; word-break: break-all; }
+    .code-block pre { font-size: 11px; padding: 12px; }
+    .grid-viz { padding: 12px; }
+    .status-row { flex-direction: column; gap: 8px; }
+  }
+
+  /* Mobile breakpoint */
+  @media (max-width: 425px) {
+    :root {
+      --font-size-display-1: 30px;
+      --font-size-display-2: 28px;
+      --font-size-heading-1: 24px;
+      --font-size-heading-2: 20px;
+      --font-size-title-1: 18px;
+      --font-size-title-2: 16px;
+      --font-size-sub-heading-1: 16px;
+      --font-size-sub-heading-2: 14px;
+      --grid-grid-column: 4;
+      --grid-grid-gutter: 20px;
+      --grid-grid-margin-landr: 20px;
+    }
+    .main { padding: 12px; padding-top: 52px; }
+    .page-header { margin-top: -12px; padding: 10px 0; margin-bottom: 20px; }
+    .page-header-text h1 { font-size: 20px; }
+    .swatch { width: 64px; }
+    .swatch-color { height: 38px; }
+    .swatch-info { padding: 4px 6px; }
+    .swatch-name { font-size: 9px; }
+    .swatch-hex { font-size: 9px; }
+    .accent-swatch { min-width: 100%; }
+    .code-block pre { font-size: 10px; padding: 10px; overflow-x: auto; }
+  }
+</style>
+</head>
+<body>
+<button class="mobile-menu-btn" id="mobileMenuBtn" onclick="toggleMobileMenu()" aria-label="Open navigation">☰</button>
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleMobileMenu()"></div>
+<div class="layout">
+
+<!-- Sidebar -->
+<aside class="sidebar">
+  <div class="sidebar-logo">
+    <div class="brand">iGOT Karmayogi</div>
+    <div class="sub">Design System v1.0</div>
+  </div>
+  <div class="search-box">
+    <input type="text" class="search-input" id="navSearch" placeholder="Search sections…" oninput="filterNav(this.value)" />
+  </div>
+  <nav class="sidebar-nav">
+    <div class="nav-section-label">Colors</div>
+    <a class="nav-link active" data-target="primary" onclick="scrollToSection('primary')">● Primary</a>
+    <a class="nav-link" data-target="secondary" onclick="scrollToSection('secondary')">● Secondary (Orange)</a>
+    <a class="nav-link" data-target="tertiary" onclick="scrollToSection('tertiary')">● Tertiary (Navy)</a>
+    <a class="nav-link" data-target="status" onclick="scrollToSection('status')">● Status Colors</a>
+    <a class="nav-link" data-target="accents" onclick="scrollToSection('accents')">● Accents</a>
+    <a class="nav-link" data-target="surfaces" onclick="scrollToSection('surfaces')">● Surfaces & Backgrounds</a>
+    <a class="nav-link" data-target="text-colors" onclick="scrollToSection('text-colors')">● Text Colors</a>
+    <a class="nav-link" data-target="buttons" onclick="scrollToSection('buttons')">● Button Colors</a>
+    <a class="nav-link" data-target="borders" onclick="scrollToSection('borders')">● Borders</a>
+    <a class="nav-link" data-target="icons" onclick="scrollToSection('icons')">● Icon Colors</a>
+    <div class="nav-section-label">Typography</div>
+    <a class="nav-link" data-target="fonts" onclick="scrollToSection('fonts')">● Font Families</a>
+    <a class="nav-link" data-target="font-sizes" onclick="scrollToSection('font-sizes')">● Font Sizes</a>
+    <div class="nav-section-label">Spacing</div>
+    <a class="nav-link" data-target="spacing" onclick="scrollToSection('spacing')">● Space Scale</a>
+    <a class="nav-link" data-target="padding" onclick="scrollToSection('padding')">● Padding</a>
+    <a class="nav-link" data-target="gap" onclick="scrollToSection('gap')">● Gap</a>
+    <div class="nav-section-label">Components</div>
+    <a class="nav-link" data-target="radius" onclick="scrollToSection('radius')">● Border Radius</a>
+    <a class="nav-link" data-target="stroke" onclick="scrollToSection('stroke')">● Stroke</a>
+    <a class="nav-link" data-target="icon-sizes" onclick="scrollToSection('icon-sizes')">● Icon Sizes</a>
+    <a class="nav-link" data-target="grid" onclick="scrollToSection('grid')">● Grid System</a>
+    <a class="nav-link" data-target="fills" onclick="scrollToSection('fills')">● Fills</a>
+    <a class="nav-link" data-target="opacity" onclick="scrollToSection('opacity')">● Opacity Variants</a>
+    <a class="nav-link" data-target="accessibility" onclick="scrollToSection('accessibility')">● Accessibility</a>
+    <a class="nav-link" data-target="quickstart" onclick="scrollToSection('quickstart')">● Quick Start</a>
+    <div class="nav-section-label">Switch Reference</div>
+    <a class="nav-link" href="igotkarmayogi-theme-utilities.html" style="color: var(--color-secondary-500); font-weight: 700;">➜ Theme Utility Classes</a>
+  </nav>
+</aside>
+
+<!-- Main -->
+<main class="main">
+  <div class="page-header">
+    <div class="page-header-text">
+      <h1>Design System</h1>
+      <p>CSS variables & tokens — click any token to copy it to your clipboard</p>
+    </div>
+    <div class="header-controls">
+      <button class="theme-toggle" onclick="toggleTheme()" id="themeBtn">🌙 Dark</button>
+    </div>
+  </div>
+
+  <!-- PRIMARY COLORS -->
+  <section class="section" id="primary">
+    <div class="section-header">
+      <h2><span class="section-num">1</span> Primary Colors</h2>
+      <p class="section-desc">Blue — main brand color scale</p>
+    </div>
+    <div class="card">
+      <div style="padding:20px">
+        <div class="color-swatches" id="primary-swatches"></div>
+      </div>
+      <div class="code-block" style="margin:0 20px 20px;margin-top:0">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.element { color: var(--color-primary-500); }
+.element { background: var(--color-primary-50); }
+.element { border-color: var(--color-primary-300); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECONDARY -->
+  <section class="section" id="secondary">
+    <div class="section-header">
+      <h2><span class="section-num">2</span> Secondary Colors</h2>
+      <p class="section-desc">Orange — accent & CTA color scale</p>
+    </div>
+    <div class="card">
+      <div style="padding:20px">
+        <div class="color-swatches" id="secondary-swatches"></div>
+      </div>
+      <div class="code-block" style="margin:0 20px 20px;margin-top:0">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.btn-secondary { background: var(--color-secondary-500); }
+.btn-secondary:hover { background: var(--color-secondary-700); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- TERTIARY -->
+  <section class="section" id="tertiary">
+    <div class="section-header">
+      <h2><span class="section-num">3</span> Tertiary Colors</h2>
+      <p class="section-desc">Dark Navy — neutral & dark scale</p>
+    </div>
+    <div class="card">
+      <div style="padding:20px">
+        <div class="color-swatches" id="tertiary-swatches"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATUS -->
+  <section class="section" id="status">
+    <div class="section-header">
+      <h2><span class="section-num">4</span> Status / System Colors</h2>
+      <p class="section-desc">Semantic colors for feedback states</p>
+    </div>
+    <div class="card">
+      <div class="status-row">
+        <div class="status-badge" style="background:rgba(209,57,36,0.12);color:#D13924" onclick="copyToken('--color-error-red-500')">
+          <span class="status-dot" style="background:#D13924"></span>Error — <code style="font-size:11px">--color-error-red-500</code>
+        </div>
+        <div class="status-badge" style="background:rgba(29,137,35,0.12);color:#1D8923" onclick="copyToken('--color-success-green-500')">
+          <span class="status-dot" style="background:#1D8923"></span>Success — <code style="font-size:11px">--color-success-green-500</code>
+        </div>
+        <div class="status-badge" style="background:rgba(233,158,56,0.12);color:#E99E38" onclick="copyToken('--color-warning-yellow-500')">
+          <span class="status-dot" style="background:#E99E38"></span>Warning — <code style="font-size:11px">--color-warning-yellow-500</code>
+        </div>
+        <div class="status-badge" style="background:rgba(10,83,150,0.12);color:#0A5396" onclick="copyToken('--color-info-blue-500')">
+          <span class="status-dot" style="background:#0A5396"></span>Info — <code style="font-size:11px">--color-info-blue-500</code>
+        </div>
+      </div>
+      <div class="code-block" style="margin:0 20px 20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.error  { color: var(--color-error-red-500);      }
+.success{ color: var(--color-success-green-500);  }
+.warning{ color: var(--color-warning-yellow-500); }
+.info   { color: var(--color-info-blue-500);      }
+
+/* With opacity variants: -o-16, -o-24, -o-32, -o-40, -o-48 */
+.error-bg { background: var(--color-error-red-o-16); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCENTS -->
+  <section class="section" id="accents">
+    <div class="section-header">
+      <h2><span class="section-num">5</span> Accent Colors</h2>
+      <p class="section-desc">Vibrant accent palette for tags, indicators, highlights</p>
+    </div>
+    <div class="card">
+      <div style="padding:20px">
+        <div class="accent-swatches" id="accent-swatches"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SURFACES -->
+  <section class="section" id="surfaces">
+    <div class="section-header">
+      <h2><span class="section-num">6</span> Surfaces & Backgrounds</h2>
+      <p class="section-desc">Theme-aware — automatically adapt in light/dark mode</p>
+    </div>
+    <div class="card">
+      <div class="table-responsive-wrapper"><table class="token-table" id="surface-table"></table></div>
+      <div class="code-block" style="margin:20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.page    { background-color: var(--surface-primary); }
+.sidebar { background-color: var(--surface-secondary); }
+.card    { background-color: var(--environment-application-backgrounds-card-background); }
+.hero    { background-color: var(--environment-application-backgrounds-other-background); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEXT COLORS -->
+  <section class="section" id="text-colors">
+    <div class="section-header">
+      <h2><span class="section-num">7</span> Text Colors</h2>
+      <p class="section-desc">Theme-aware text variables with semantic hierarchy</p>
+    </div>
+    <div class="card">
+      <div class="table-responsive-wrapper"><table class="token-table" id="text-table"></table></div>
+      <div class="code-block" style="margin:20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>h1       { color: var(--text-bandw-black-heading); }
+p        { color: var(--text-bandw-black-body); }
+.caption { color: var(--text-bandw-black-captions); }
+:disabled{ color: var(--text-system-text-disabled); }
+.success { color: var(--text-system-text-success); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUTTON COLORS -->
+  <section class="section" id="buttons">
+    <div class="section-header">
+      <h2><span class="section-num">8</span> Button Colors</h2>
+      <p class="section-desc">Theme-aware button color tokens</p>
+    </div>
+    <div class="card">
+      <div class="table-responsive-wrapper"><table class="token-table" id="button-table"></table></div>
+      <div class="code-block" style="margin:20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.btn-primary {
+  background: var(--environment-button-primary-filled-primary);
+  color: var(--text-button-text-primary-white);
+}
+.btn-primary:hover    { background: var(--environment-button-primary-filled-primary-hover); }
+.btn-primary:disabled { background: var(--environment-button-primary-filled-primary-disabled); }
+.btn-secondary {
+  background: var(--environment-button-secondary-filled-secondary);
+}
+.btn-secondary:hover { background: var(--environment-button-secondary-filled-secondary-hover); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- BORDERS -->
+  <section class="section" id="borders">
+    <div class="section-header">
+      <h2><span class="section-num">9</span> Border & Divider</h2>
+      <p class="section-desc">Theme-aware border tokens</p>
+    </div>
+    <div class="card">
+      <div class="table-responsive-wrapper"><table class="token-table" id="border-table"></table></div>
+      <div class="code-block" style="margin:20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.card  { border: var(--stroke-1) solid var(--border-default); }
+.panel { border: var(--stroke-1) solid var(--border-strong); }
+input:focus { border-color: var(--border-focus); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ICON COLORS -->
+  <section class="section" id="icons">
+    <div class="section-header">
+      <h2><span class="section-num">10</span> Icon Colors</h2>
+      <p class="section-desc">Theme-aware icon color tokens</p>
+    </div>
+    <div class="card">
+      <div class="table-responsive-wrapper"><table class="token-table" id="icon-color-table"></table></div>
+      <div class="code-block" style="margin:20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.icon          { color: var(--environment-icon-overall-primary-bandw); }
+.icon-secondary{ color: var(--environment-icon-overall-secondary-bandw); }
+.icon-brand    { color: var(--environment-icon-permanent-permanent-blue-icon); }
+.icon-success  { color: var(--environment-icon-system-success); }
+.icon-error    { color: var(--environment-icon-system-error); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- FONT FAMILIES -->
+  <section class="section" id="fonts">
+    <div class="section-header">
+      <h2><span class="section-num">11</span> Font Families</h2>
+      <p class="section-desc">Click a font to copy its variable</p>
+    </div>
+    <div class="card">
+      <div class="font-card">
+        <div class="font-item" onclick="copyToken('--font-family-primary')">
+          <div class="font-sample" style="font-family:'Lato',sans-serif;font-weight:400">The quick brown fox — Lato Regular 400</div>
+          <div class="font-meta">
+            <span class="fvar">--font-family-primary</span>
+            <span class="fname">'Lato' — Body text</span>
+          </div>
+        </div>
+        <div class="font-item" onclick="copyToken('--font-family-heading')">
+          <div class="font-sample" style="font-family:'Montserrat',sans-serif;font-weight:700">The quick brown fox — Montserrat 700</div>
+          <div class="font-meta">
+            <span class="fvar">--font-family-heading</span>
+            <span class="fname">'Montserrat' — Headings</span>
+          </div>
+        </div>
+        <div class="font-item" onclick="copyToken('--font-family-mono')">
+          <div class="font-sample" style="font-family:'Fira Code',monospace;font-size:16px">const x = "Fira Code 400";</div>
+          <div class="font-meta">
+            <span class="fvar">--font-family-mono</span>
+            <span class="fname">'Fira Code' — Code</span>
+          </div>
+        </div>
+      </div>
+      <div class="code-block" style="margin:0 20px 20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>body { font-family: var(--font-family-primary); }
+h1, h2, h3 { font-family: var(--font-family-heading); }
+code { font-family: var(--font-family-mono); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- FONT SIZES -->
+  <section class="section" id="font-sizes">
+    <div class="section-header">
+      <h2><span class="section-num">12</span> Font Sizes</h2>
+      <p class="section-desc">Responsive type scale — desktop / tablet / mobile</p>
+    </div>
+    <div class="card">
+      <div class="type-preview" id="type-preview"></div>
+      <div class="code-block" style="margin:0 20px 20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>h1      { font-size: var(--font-size-heading-1); }  /* 32 / 28 / 24px */
+h2      { font-size: var(--font-size-heading-2); }  /* 28 / 24 / 20px */
+.title  { font-size: var(--font-size-title-1); }   /* 24 / 20 / 18px */
+p       { font-size: var(--font-size-body-1); }    /* 16 / 16 / 16px */
+.small  { font-size: var(--font-size-caption-1); } /* 12 / 12 / 12px */</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPACING -->
+  <section class="section" id="spacing">
+    <div class="section-header">
+      <h2><span class="section-num">13</span> Spacing Scale</h2>
+      <p class="section-desc">Click any bar to copy the token</p>
+    </div>
+    <div class="card">
+      <div class="space-grid" id="space-grid"></div>
+      <div class="code-block" style="margin:0 20px 20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.section { margin-bottom: var(--space-24); }
+.card    { padding: var(--space-16); }
+.list > * + * { margin-top: var(--space-8); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- PADDING -->
+  <section class="section" id="padding">
+    <div class="section-header">
+      <h2><span class="section-num">14</span> Padding Tokens</h2>
+    </div>
+    <div class="card">
+      <div class="table-responsive-wrapper"><table class="token-table" id="padding-table"></table></div>
+      <div class="code-block" style="margin:20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.card { padding: var(--padding-l-padding); }
+.chip { padding: var(--padding-xs-padding) var(--padding-s-padding); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- GAP -->
+  <section class="section" id="gap">
+    <div class="section-header">
+      <h2><span class="section-num">15</span> Gap Tokens</h2>
+    </div>
+    <div class="card">
+      <div class="table-responsive-wrapper"><table class="token-table" id="gap-table"></table></div>
+      <div class="code-block" style="margin:20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.flex-row { display: flex; gap: var(--gap-m-gap); }
+.grid     { display: grid; gap: var(--gap-l-gap); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- RADIUS -->
+  <section class="section" id="radius">
+    <div class="section-header">
+      <h2><span class="section-num">16</span> Border Radius</h2>
+      <p class="section-desc">Click a shape to copy the token</p>
+    </div>
+    <div class="card">
+      <div class="radius-row" id="radius-row"></div>
+      <div class="code-block" style="margin:0 20px 20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.input  { border-radius: var(--radius-8); }
+.card   { border-radius: var(--radius-12); }
+.chip   { border-radius: var(--radius-999); }
+.avatar { border-radius: var(--radius-999); }</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- STROKE -->
+  <section class="section" id="stroke">
+    <div class="section-header">
+      <h2><span class="section-num">17</span> Stroke / Border Width</h2>
+    </div>
+    <div class="card">
+      <div class="table-responsive-wrapper">
+      <table class="token-table">
+        <thead><tr><th>Variable</th><th>Value</th><th>Usage</th></tr></thead>
+        <tbody>
+          <tr onclick="copyToken('--stroke-1')"><td><div class="token-name">--stroke-1 <button class="copy-inline">copy</button></div></td><td class="token-value">1px</td><td><span style="display:inline-block;height:1px;width:60px;background:var(--color-primary-500);vertical-align:middle"></span></td></tr>
+          <tr onclick="copyToken('--stroke-2')"><td><div class="token-name">--stroke-2 <button class="copy-inline">copy</button></div></td><td class="token-value">2px</td><td><span style="display:inline-block;height:2px;width:60px;background:var(--color-primary-500);vertical-align:middle"></span></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ICON SIZES -->
+  <section class="section" id="icon-sizes">
+    <div class="section-header">
+      <h2><span class="section-num">18</span> Icon Sizes</h2>
+    </div>
+    <div class="card">
+      <div class="table-responsive-wrapper"><table class="token-table" id="icon-size-table"></table></div>
+      <div class="code-block" style="margin:20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.icon-sm { width: var(--icon-sm); height: var(--icon-sm); } /* 16px */
+.icon-md { width: var(--icon-md); height: var(--icon-md); } /* 20px */
+mat-icon { font-size: var(--icon-lg); }                     /* 24px */</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- GRID -->
+  <section class="section" id="grid">
+    <div class="section-header">
+      <h2><span class="section-num">19</span> Grid System</h2>
+      <p class="section-desc">Responsive column grid — 4 / 6 / 12 columns</p>
+    </div>
+    <div class="card">
+      <div class="grid-viz">
+        <div class="grid-label">Desktop — 12 columns</div>
+        <div class="grid-demo" id="grid-desktop"></div>
+        <div class="grid-label" style="margin-top:14px">Tablet — 6 columns</div>
+        <div class="grid-demo" id="grid-tablet"></div>
+        <div class="grid-label" style="margin-top:14px">Mobile — 4 columns</div>
+        <div class="grid-demo" id="grid-mobile"></div>
+      </div>
+      <div class="code-block" style="margin:0 20px 20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.container {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-grid-column), 1fr);
+  gap: var(--grid-grid-gutter);
+  padding-inline: var(--grid-grid-margin-landr);
+}
+/* Desktop: 12col / 16px gutter / 16px margin */
+/* Tablet:   6col / 16px gutter / 16px margin */
+/* Mobile:   4col / 20px gutter / 20px margin */</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILLS -->
+  <section class="section" id="fills">
+    <div class="section-header">
+      <h2><span class="section-num">20</span> Fills (Theme-Aware)</h2>
+      <p class="section-desc">Environment fill tokens that flip between light/dark automatically</p>
+    </div>
+    <div class="card">
+      <div class="code-block" style="margin:20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>/* Primary fills — flip shades between themes */
+background: var(--environment-all-fills-primary-primary-50-900);  /* Light: #E8EDF6, Dark: #0B2044 */
+background: var(--environment-all-fills-primary-primary-500-400); /* Light: #1B4CA1, Dark: #4970B4 */
+
+/* Cards */
+background: var(--environment-cards-overall-cards-primary);       /* Light: #E8EDF6, Dark: #0F121C */
+
+/* Overlay */
+background: var(--environment-all-fills-overlay-backdrop);        /* rgba(0,0,0,0.32) */</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPACITY VARIANTS -->
+  <section class="section" id="opacity">
+    <div class="section-header">
+      <h2><span class="section-num">21</span> Black & White with Opacity</h2>
+      <p class="section-desc">Opacity utility tokens for backgrounds and overlays</p>
+    </div>
+    <div class="card">
+      <div style="padding:20px">
+        <div class="color-group">
+          <div class="color-group-label">Black Opacity</div>
+          <div class="color-swatches" id="black-opacity-swatches"></div>
+        </div>
+        <div class="color-group">
+          <div class="color-group-label">White Opacity</div>
+          <div class="color-swatches" id="white-opacity-swatches"></div>
+        </div>
+        <div class="color-group">
+          <div class="color-group-label">Primary Opacity</div>
+          <div class="color-swatches" id="primary-opacity-swatches"></div>
+        </div>
+      </div>
+      <div class="code-block" style="margin:0 20px 20px">
+        <div class="code-header"><span class="code-lang">CSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>/* Black with opacity */
+.overlay { background: var(--color-black-opacity-16); }  /* rgba(0,0,0,0.16) */
+.scrim   { background: var(--color-black-opacity-48); }  /* rgba(0,0,0,0.48) */
+
+/* White with opacity */
+.glass   { background: var(--color-white-white-o-16); }  /* rgba(255,255,255,0.16) */
+
+/* Primary with opacity */
+.tint    { background: var(--color-primary-o-16); }      /* rgba(27,76,161,0.16) */</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCESSIBILITY -->
+  <section class="section" id="accessibility">
+    <div class="section-header">
+      <h2><span class="section-num">22</span> Font Size Accessibility</h2>
+      <p class="section-desc">Header A−/A+ controls that apply body typography classes</p>
+    </div>
+    <div class="card">
+      <div class="table-responsive-wrapper">
+      <table class="token-table">
+        <thead><tr><th>CSS Class</th><th>Base Size</th><th>Usage</th></tr></thead>
+        <tbody>
+          <tr onclick="copyToken('x-small-typography')"><td><div class="token-name">x-small-typography <button class="copy-inline">copy</button></div></td><td class="token-value">10px</td><td class="token-value">Extra small text</td></tr>
+          <tr onclick="copyToken('small-typography')"><td><div class="token-name">small-typography <button class="copy-inline">copy</button></div></td><td class="token-value">12px</td><td class="token-value">Small text</td></tr>
+          <tr onclick="copyToken('normal-typography')"><td><div class="token-name">normal-typography <button class="copy-inline">copy</button></div></td><td class="token-value">14px</td><td class="token-value">Default (normal)</td></tr>
+          <tr onclick="copyToken('large-typography')"><td><div class="token-name">large-typography <button class="copy-inline">copy</button></div></td><td class="token-value">16px</td><td class="token-value">Large text</td></tr>
+          <tr onclick="copyToken('x-large-typography')"><td><div class="token-name">x-large-typography <button class="copy-inline">copy</button></div></td><td class="token-value">18px</td><td class="token-value">Extra large text</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <div class="code-block" style="margin:20px">
+        <div class="code-header"><span class="code-lang">Info</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>/* Applied to <body> by BtnSettingsService */
+/* Stored in localStorage('setting') */
+
+/* Example: */
+<body class="normal-typography">
+
+/* User toggles A-/A+ in header to switch between:
+   x-small-typography | small-typography | normal-typography
+   large-typography   | x-large-typography */</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK START -->
+  <section class="section" id="quickstart">
+    <div class="section-header">
+      <h2><span class="section-num">✦</span> Quick Start — Card Example</h2>
+      <p class="section-desc">A complete card component using system tokens</p>
+    </div>
+    <div class="card">
+      <!-- Live preview -->
+      <div style="padding:24px;border-bottom:1px solid var(--divider)">
+        <div style="background:var(--environment-application-backgrounds-card-background);border:1px solid var(--border-default);border-radius:var(--radius-8);padding:var(--padding-l-padding);max-width:320px;box-shadow:0 2px 12px rgba(27,76,161,0.08)">
+          <h3 style="font-family:var(--font-family-heading);font-size:var(--font-size-title-2);color:var(--text-bandw-black-heading);margin-bottom:var(--space-8);font-weight:700">Card Title</h3>
+          <p style="font-family:var(--font-family-primary);font-size:var(--font-size-body-2);color:var(--text-bandw-black-body);margin-bottom:var(--space-16);line-height:1.5">This card uses real iGOT design tokens and adapts automatically to the current theme.</p>
+          <div style="display:flex;gap:var(--gap-s-gap)">
+            <button style="background:var(--environment-button-primary-filled-primary);color:var(--text-button-text-primary-white);border:none;border-radius:var(--radius-4);padding:var(--padding-s-padding) var(--padding-l-padding);font-family:var(--font-family-primary);font-size:var(--font-size-button-2);font-weight:700;cursor:pointer">Primary</button>
+            <button style="background:var(--environment-button-secondary-filled-secondary);color:#fff;border:none;border-radius:var(--radius-4);padding:var(--padding-s-padding) var(--padding-l-padding);font-family:var(--font-family-primary);font-size:var(--font-size-button-2);font-weight:700;cursor:pointer">Secondary</button>
+          </div>
+        </div>
+      </div>
+      <div class="code-block" style="margin:20px">
+        <div class="code-header"><span class="code-lang">SCSS</span><button class="copy-btn" onclick="copyCode(this)">Copy</button></div>
+        <pre>.my-card {
+  background-color: var(--environment-application-backgrounds-card-background);
+  border: var(--stroke-1) solid var(--border-default);
+  border-radius: var(--radius-8);
+  padding: var(--padding-l-padding);
+
+  h3 {
+    font-family: var(--font-family-heading);
+    font-size: var(--font-size-title-2);
+    color: var(--text-bandw-black-heading);
+    margin-bottom: var(--space-8);
+  }
+
+  p {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body-1);
+    color: var(--text-bandw-black-body);
+  }
+
+  .btn-primary {
+    background-color: var(--environment-button-primary-filled-primary);
+    color: var(--text-button-text-primary-white);
+    border-radius: var(--radius-4);
+    padding: var(--padding-s-padding) var(--padding-l-padding);
+
+    &:hover    { background-color: var(--environment-button-primary-filled-primary-hover); }
+    &:disabled { background-color: var(--environment-button-primary-filled-primary-disabled); }
+  }
+}</pre>
+      </div>
+    </div>
+  </section>
+
+</main>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast">✓ Copied to clipboard</div>
+
+<script>
+// ── Data ──────────────────────────────────────────────────────────────────
+const primaryColors = [
+  {var:'--color-primary-50', hex:'#E8EDF6', label:'50'},
+  {var:'--color-primary-100', hex:'#B8C8E2', label:'100'},
+  {var:'--color-primary-200', hex:'#96ADD4', label:'200'},
+  {var:'--color-primary-300', hex:'#6687C0', label:'300'},
+  {var:'--color-primary-400', hex:'#4970B4', label:'400'},
+  {var:'--color-primary-500', hex:'#1B4CA1', label:'500'},
+  {var:'--color-primary-600', hex:'#194593', label:'600'},
+  {var:'--color-primary-700', hex:'#133672', label:'700'},
+  {var:'--color-primary-800', hex:'#0F2A59', label:'800'},
+  {var:'--color-primary-900', hex:'#0B2044', label:'900'},
+];
+const secondaryColors = [
+  {var:'--color-secondary-50', hex:'#FEF5EA', label:'50'},
+  {var:'--color-secondary-100', hex:'#FBDEBF', label:'100'},
+  {var:'--color-secondary-300', hex:'#F7B974', label:'300'},
+  {var:'--color-secondary-500', hex:'#F3962F', label:'500'},
+  {var:'--color-secondary-700', hex:'#AD6B21', label:'700'},
+  {var:'--color-secondary-900', hex:'#663F14', label:'900'},
+];
+const tertiaryColors = [
+  {var:'--color-tertiary-50', hex:'#E8E9EB', label:'50'},
+  {var:'--color-tertiary-300', hex:'#666A76', label:'300'},
+  {var:'--color-tertiary-500', hex:'#1B2133', label:'500'},
+  {var:'--color-tertiary-700', hex:'#131724', label:'700'},
+  {var:'--color-tertiary-900', hex:'#0B0E15', label:'900'},
+];
+const accentColors = [
+  {var:'--color-accents-red', hex:'#FF383C', label:'Red'},
+  {var:'--color-accents-orange', hex:'#FF8D28', label:'Orange'},
+  {var:'--color-accents-yellow', hex:'#FFCC00', label:'Yellow'},
+  {var:'--color-accents-green', hex:'#34C759', label:'Green'},
+  {var:'--color-accents-mint', hex:'#00C8B3', label:'Mint'},
+  {var:'--color-accents-teal', hex:'#00C3D0', label:'Teal'},
+  {var:'--color-accents-cyan', hex:'#00C0E8', label:'Cyan'},
+  {var:'--color-accents-blue', hex:'#0088FF', label:'Blue'},
+  {var:'--color-accents-indigo', hex:'#6155F5', label:'Indigo'},
+  {var:'--color-accents-purple', hex:'#CB30E0', label:'Purple'},
+  {var:'--color-accents-pink', hex:'#FF2D55', label:'Pink'},
+  {var:'--color-accents-brown', hex:'#AC7F5E', label:'Brown'},
+];
+const surfaceTokens = [
+  {var:'--surface-primary', light:'#FFFFFF', dark:'#1B2133', usage:'Main page background'},
+  {var:'--surface-secondary', light:'#EFF3F9', dark:'#252D3F', usage:'Sidebar, panels'},
+  {var:'--surface-tertiary', light:'#F5F5F5', dark:'#333D4C', usage:'Tertiary areas'},
+  {var:'--surface-inverse', light:'#1B2133', dark:'#FFFFFF', usage:'Inverted surfaces'},
+  {var:'--environment-application-backgrounds-system-background-1', light:'#FFFFFF', dark:'#0B2044', usage:'System background'},
+  {var:'--environment-application-backgrounds-card-background', light:'#FFFFFF', dark:'#133672', usage:'Cards'},
+  {var:'--environment-application-backgrounds-other-background', light:'#1B4CA1', dark:'#133672', usage:'Hero / accented areas'},
+];
+const textTokens = [
+  {var:'--text-bandw-black-display', light:'rgba(0,0,0,0.96)', dark:'rgba(255,255,255,0.96)', usage:'Display text'},
+  {var:'--text-bandw-black-heading', light:'rgba(0,0,0,0.96)', dark:'rgba(255,255,255,0.96)', usage:'Headings'},
+  {var:'--text-bandw-black-title', light:'rgba(0,0,0,0.88)', dark:'rgba(255,255,255,0.88)', usage:'Titles'},
+  {var:'--text-bandw-black-sub-heading', light:'rgba(0,0,0,0.80)', dark:'rgba(255,255,255,0.80)', usage:'Subheadings'},
+  {var:'--text-bandw-black-body', light:'rgba(0,0,0,0.80)', dark:'rgba(255,255,255,0.80)', usage:'Body text'},
+  {var:'--text-bandw-black-captions', light:'rgba(0,0,0,0.72)', dark:'rgba(255,255,255,0.72)', usage:'Captions'},
+  {var:'--text-bandw-black-lables', light:'rgba(0,0,0,0.72)', dark:'rgba(255,255,255,0.72)', usage:'Labels'},
+  {var:'--text-bandw-black-fine-print', light:'rgba(0,0,0,0.72)', dark:'rgba(255,255,255,0.72)', usage:'Fine print'},
+  {var:'--text-system-text-disabled', light:'rgba(0,0,0,0.48)', dark:'rgba(255,255,255,0.48)', usage:'Disabled'},
+  {var:'--text-system-text-success', light:'#1D8923', dark:'#1D8923', usage:'Success text'},
+  {var:'--text-system-text-error', light:'#D13924', dark:'#D13924', usage:'Error text'},
+  {var:'--text-system-text-warning', light:'#E99E38', dark:'#E99E38', usage:'Warning text'},
+];
+const buttonTokens = [
+  {var:'--environment-button-primary-filled-primary', light:'#1B4CA1', dark:'#FFFFFF', usage:'Primary button bg'},
+  {var:'--environment-button-primary-filled-primary-hover', light:'#133672', dark:'#FFFFFF', usage:'Primary hover'},
+  {var:'--environment-button-primary-filled-primary-disabled', light:'rgba(27,76,161,0.48)', dark:'rgba(255,255,255,0.48)', usage:'Primary disabled'},
+  {var:'--environment-button-secondary-filled-secondary', light:'#F3962F', dark:'#F3962F', usage:'Secondary button bg'},
+  {var:'--environment-button-secondary-filled-secondary-hover', light:'#AD6B21', dark:'#AD6B21', usage:'Secondary hover'},
+  {var:'--text-button-text-primary-white', light:'#FFFFFF', dark:'#1B4CA1', usage:'Primary button text'},
+  {var:'--text-button-text-link', light:'#1B4CA1', dark:'#FFFFFF', usage:'Link button text'},
+];
+const borderTokens = [
+  {var:'--border-default', light:'rgba(0,0,0,0.08)', dark:'rgba(255,255,255,0.08)', usage:'Default borders'},
+  {var:'--border-strong', light:'rgba(0,0,0,0.16)', dark:'rgba(255,255,255,0.16)', usage:'Prominent borders'},
+  {var:'--border-focus', light:'#1B4CA1', dark:'#6687C0', usage:'Focus state'},
+  {var:'--environment-border-and-divider-default-1', light:'rgba(0,0,0,0.16)', dark:'rgba(255,255,255,0.24)', usage:'Dividers'},
+  {var:'--environment-border-and-divider-focused', light:'#0B2044', dark:'#B8C8E2', usage:'Focused dividers'},
+  {var:'--environment-border-and-divider-disable', light:'rgba(0,0,0,0.24)', dark:'rgba(255,255,255,0.08)', usage:'Disabled borders'},
+];
+const iconColorTokens = [
+  {var:'--environment-icon-overall-primary-bandw', light:'#000000', dark:'#FFFFFF', usage:'Primary icons'},
+  {var:'--environment-icon-overall-secondary-bandw', light:'rgba(0,0,0,0.72)', dark:'rgba(255,255,255,0.72)', usage:'Secondary icons'},
+  {var:'--environment-icon-permanent-permanent-blue-icon', light:'#1B4CA1', dark:'#1B4CA1', usage:'Brand icons'},
+  {var:'--environment-icon-system-success', light:'#1D8923', dark:'#1D8923', usage:'Success icons'},
+  {var:'--environment-icon-system-error', light:'#D13924', dark:'#D13924', usage:'Error icons'},
+];
+const typeSizes = [
+  {var:'--font-size-display-1', label:'Display 1', d:'48px', t:'36px', m:'30px'},
+  {var:'--font-size-display-2', label:'Display 2', d:'40px', t:'30px', m:'28px'},
+  {var:'--font-size-heading-1', label:'Heading 1', d:'32px', t:'28px', m:'24px'},
+  {var:'--font-size-heading-2', label:'Heading 2', d:'28px', t:'24px', m:'20px'},
+  {var:'--font-size-title-1', label:'Title 1', d:'24px', t:'20px', m:'18px'},
+  {var:'--font-size-title-2', label:'Title 2', d:'20px', t:'16px', m:'16px'},
+  {var:'--font-size-sub-heading-1', label:'Sub Heading 1', d:'18px', t:'16px', m:'16px'},
+  {var:'--font-size-sub-heading-2', label:'Sub Heading 2', d:'16px', t:'14px', m:'14px'},
+  {var:'--font-size-body-1', label:'Body 1', d:'16px', t:'16px', m:'16px'},
+  {var:'--font-size-body-2', label:'Body 2', d:'14px', t:'14px', m:'14px'},
+  {var:'--font-size-button-1', label:'Button 1', d:'16px', t:'16px', m:'16px'},
+  {var:'--font-size-button-2', label:'Button 2', d:'14px', t:'14px', m:'14px'},
+  {var:'--font-size-caption-1', label:'Caption 1', d:'12px', t:'12px', m:'12px'},
+  {var:'--font-size-label-1', label:'Label 1', d:'12px', t:'12px', m:'12px'},
+  {var:'--font-size-fine-print-1', label:'Fine Print', d:'12px', t:'12px', m:'12px'},
+];
+const spacingTokens = [
+  {var:'--space-0', val:'0px'},{var:'--space-2', val:'2px'},{var:'--space-4', val:'4px'},
+  {var:'--space-8', val:'8px'},{var:'--space-12', val:'12px'},{var:'--space-16', val:'16px'},
+  {var:'--space-20', val:'20px'},{var:'--space-24', val:'24px'},{var:'--space-32', val:'32px'},
+  {var:'--space-40', val:'40px'},{var:'--space-48', val:'48px'},{var:'--space-64', val:'64px'},
+  {var:'--space-128', val:'128px'},
+];
+const paddingTokens = [
+  {var:'--padding-no-padding', val:'0px', label:'None'},
+  {var:'--padding-xs-padding', val:'4px', label:'XS'},
+  {var:'--padding-s-padding', val:'8px', label:'S'},
+  {var:'--padding-m-padding', val:'12px', label:'M'},
+  {var:'--padding-l-padding', val:'16px', label:'L'},
+  {var:'--padding-xl-padding', val:'20px', label:'XL'},
+  {var:'--padding-xxl-padding', val:'24px', label:'XXL'},
+  {var:'--padding-xxxl-padding', val:'32px', label:'XXXL'},
+];
+const gapTokens = [
+  {var:'--gap-no-gap', val:'0px', label:'None'},
+  {var:'--gap-xs-gap', val:'4px', label:'XS'},
+  {var:'--gap-s-gap', val:'8px', label:'S'},
+  {var:'--gap-m-gap', val:'12px', label:'M'},
+  {var:'--gap-l-gap', val:'16px', label:'L'},
+  {var:'--gap-xl-gap', val:'20px', label:'XL'},
+  {var:'--gap-xxl-gap', val:'24px', label:'XXL'},
+  {var:'--gap-xxxl-gap', val:'32px', label:'XXXL'},
+];
+const radiusTokens = [
+  {var:'--radius-4', val:'4px', label:'r-4'},
+  {var:'--radius-8', val:'8px', label:'r-8'},
+  {var:'--radius-12', val:'12px', label:'r-12'},
+  {var:'--radius-16', val:'16px', label:'r-16'},
+  {var:'--radius-999', val:'999px', label:'Pill'},
+];
+const iconSizeTokens = [
+  {var:'--icon-sm', val:'16px', label:'SM', usage:'Inline small icons'},
+  {var:'--icon-md', val:'20px', label:'MD', usage:'Default icons'},
+  {var:'--icon-lg', val:'24px', label:'LG', usage:'Standard mat-icon'},
+  {var:'--icon-xl', val:'32px', label:'XL', usage:'Featured icons'},
+  {var:'--icon-xxl', val:'40px', label:'XXL', usage:'Hero icons'},
+];
+
+// ── Render helpers ────────────────────────────────────────────────────────
+function isLightColor(hex) {
+  const c = hex.replace('#','');
+  const r = parseInt(c.substring(0,2),16), g = parseInt(c.substring(2,4),16), b = parseInt(c.substring(4,6),16);
+  return (r*299 + g*587 + b*114) / 1000 > 140;
+}
+function renderSwatches(data, containerId) {
+  const c = document.getElementById(containerId);
+  c.innerHTML = data.map(s => {
+    const txtClass = isLightColor(s.hex) ? 'dark-text' : 'light-text';
+    return `
+    <div class="swatch" onclick="copyToken('${s.var}')">
+      <div class="swatch-color ${txtClass}" style="background:${s.hex}" data-label="${s.label}"></div>
+      <div class="swatch-info">
+        <span class="swatch-name">${s.label}</span>
+        <span class="swatch-hex">${s.hex}</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderAccents(data, containerId) {
+  const c = document.getElementById(containerId);
+  c.innerHTML = data.map(a => `
+    <div class="accent-swatch" onclick="copyToken('${a.var}')">
+      <div class="accent-dot" style="background:${a.hex}"></div>
+      <div class="accent-label">
+        <span class="aname">${a.label}</span>
+        <span class="ahex">${a.hex}</span>
+      </div>
+    </div>`).join('');
+}
+
+function renderThemeTable(data, tableId) {
+  const t = document.getElementById(tableId);
+  t.innerHTML = `
+    <thead><tr><th>Variable</th><th>Light</th><th>Dark</th><th>Usage</th></tr></thead>
+    <tbody>${data.map(r => `
+      <tr onclick="copyToken('${r.var}')">
+        <td><div class="token-name">${r.var} <button class="copy-inline">copy</button></div></td>
+        <td><div style="display:flex;align-items:center;gap:6px"><span class="token-preview" style="background:${r.light}"></span><span class="token-value">${r.light}</span></div></td>
+        <td><div style="display:flex;align-items:center;gap:6px"><span class="token-preview" style="background:${r.dark}"></span><span class="token-value">${r.dark}</span></div></td>
+        <td class="token-value">${r.usage||''}</td>
+      </tr>`).join('')}
+    </tbody>`;
+}
+
+function renderSimpleTable(data, tableId, cols) {
+  const t = document.getElementById(tableId);
+  const headers = cols.map(c => `<th>${c.label}</th>`).join('');
+  const rows = data.map(r => `
+    <tr onclick="copyToken('${r.var}')">
+      ${cols.map(c => `<td>${c.render ? c.render(r) : r[c.key]||''}</td>`).join('')}
+    </tr>`).join('');
+  t.innerHTML = `<thead><tr>${headers}</tr></thead><tbody>${rows}</tbody>`;
+}
+
+function renderTypePreview(data, containerId) {
+  const c = document.getElementById(containerId);
+  c.innerHTML = data.map(s => `
+    <div class="type-row" onclick="copyToken('${s.var}')" style="cursor:pointer">
+      <div class="type-meta">
+        <span class="type-var">${s.var}</span>
+        <span class="type-size">Desktop: ${s.d} / Tab: ${s.t} / Mob: ${s.m}</span>
+      </div>
+      <div class="type-sample" style="font-size:${s.d}">${s.label}</div>
+    </div>`).join('');
+}
+
+function renderSpaceGrid(data, containerId) {
+  const c = document.getElementById(containerId);
+  const max = 128;
+  c.innerHTML = data.map(s => {
+    const px = parseInt(s.val)||0;
+    const w = Math.min(px/max*100, 100);
+    return `<div class="space-item" onclick="copyToken('${s.var}')">
+      <div class="space-bar-wrap"><div class="space-bar" style="width:${Math.max(w,2)}%"></div></div>
+      <div class="space-label">
+        <span class="svar">${s.var}</span>
+        <span class="sval">${s.val}</span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderRadius(data, containerId) {
+  const c = document.getElementById(containerId);
+  c.innerHTML = data.map(r => `
+    <div class="radius-item" onclick="copyToken('${r.var}')">
+      <div class="radius-box" style="border-radius:${r.val}"></div>
+      <div class="radius-meta">
+        <span class="rvar">${r.var}</span>
+        <span class="rval">${r.val}</span>
+      </div>
+    </div>`).join('');
+}
+
+function renderGrid(cols, id) {
+  const c = document.getElementById(id);
+  c.innerHTML = Array(cols).fill('<div class="grid-col"></div>').join('');
+}
+
+// ── Copy ──────────────────────────────────────────────────────────────────
+function copyToken(token) {
+  navigator.clipboard.writeText(`var(${token})`).then(() => showToast(`var(${token})`));
+}
+function copyCode(btn) {
+  const pre = btn.closest('.code-block').querySelector('pre');
+  navigator.clipboard.writeText(pre.textContent).then(() => {
+    btn.textContent = '✓ Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+let toastTimer;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = '✓ Copied: ' + msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+// ── Theme ─────────────────────────────────────────────────────────────────
+function toggleTheme() {
+  const html = document.documentElement;
+  const isDark = html.getAttribute('data-theme') === 'dark';
+  html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+  document.getElementById('themeBtn').textContent = isDark ? '🌙 Dark' : '☀️ Light';
+}
+
+// ── Nav scroll ────────────────────────────────────────────────────────────
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({behavior:'smooth'});
+  document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+  const link = document.querySelector(`.nav-link[data-target="${id}"]`);
+  if (link) link.classList.add('active');
+  // Close mobile menu if open
+  const sidebar = document.querySelector('.sidebar');
+  if (sidebar.classList.contains('open')) toggleMobileMenu();
+}
+
+// ── Mobile menu ─────────────────────────────────────────────────────────
+function toggleMobileMenu() {
+  document.querySelector('.sidebar').classList.toggle('open');
+  document.getElementById('sidebarOverlay').classList.toggle('show');
+}
+
+// ── Nav search/filter ───────────────────────────────────────────────────
+function filterNav(query) {
+  const q = query.toLowerCase();
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.style.display = link.textContent.toLowerCase().includes(q) ? '' : 'none';
+  });
+}
+
+// ── Scroll spy ──────────────────────────────────────────────────────────
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const id = entry.target.id;
+      document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+      const link = document.querySelector(`.nav-link[data-target="${id}"]`);
+      if (link) link.classList.add('active');
+    }
+  });
+}, {rootMargin: '-20% 0px -70% 0px'});
+document.querySelectorAll('.section').forEach(sec => observer.observe(sec));
+
+// ── Init ──────────────────────────────────────────────────────────────────
+renderSwatches(primaryColors, 'primary-swatches');
+renderSwatches(secondaryColors, 'secondary-swatches');
+renderSwatches(tertiaryColors, 'tertiary-swatches');
+renderAccents(accentColors, 'accent-swatches');
+renderThemeTable(surfaceTokens, 'surface-table');
+renderThemeTable(textTokens, 'text-table');
+renderThemeTable(buttonTokens, 'button-table');
+renderThemeTable(borderTokens, 'border-table');
+renderThemeTable(iconColorTokens, 'icon-color-table');
+renderTypePreview(typeSizes, 'type-preview');
+renderSpaceGrid(spacingTokens, 'space-grid');
+renderSimpleTable(paddingTokens, 'padding-table', [
+  {label:'Variable', key:'var', render: r => `<div class="token-name">${r.var} <button class="copy-inline">copy</button></div>`},
+  {label:'Label', key:'label'},
+  {label:'Value', key:'val', render: r => `<span class="token-value">${r.val}</span>`},
+  {label:'Preview', render: r => `<span style="display:inline-block;width:${r.val};min-width:4px;height:12px;background:var(--color-primary-300);border-radius:2px"></span>`},
+]);
+renderSimpleTable(gapTokens, 'gap-table', [
+  {label:'Variable', key:'var', render: r => `<div class="token-name">${r.var} <button class="copy-inline">copy</button></div>`},
+  {label:'Label', key:'label'},
+  {label:'Value', key:'val', render: r => `<span class="token-value">${r.val}</span>`},
+  {label:'Preview', render: r => `<span style="display:inline-block;width:${r.val};min-width:4px;height:12px;background:var(--color-secondary-500);border-radius:2px"></span>`},
+]);
+renderRadius(radiusTokens, 'radius-row');
+renderSimpleTable(iconSizeTokens, 'icon-size-table', [
+  {label:'Variable', render: r => `<div class="token-name">${r.var} <button class="copy-inline">copy</button></div>`},
+  {label:'Value', render: r => `<span class="token-value">${r.val}</span>`},
+  {label:'Usage', key:'usage', render: r => `<span class="token-value">${r.usage}</span>`},
+  {label:'Preview', render: r => `<span style="display:inline-flex;width:${r.val};height:${r.val};background:var(--color-primary-500);border-radius:4px"></span>`},
+]);
+renderGrid(12, 'grid-desktop');
+renderGrid(6, 'grid-tablet');
+renderGrid(4, 'grid-mobile');
+
+// Opacity swatches for section 21
+const opacitySteps = [8,16,24,32,40,48,64,80,96];
+function renderOpacitySwatches(prefix, baseR, baseG, baseB, containerId) {
+  const c = document.getElementById(containerId);
+  if (!c) return;
+  c.innerHTML = opacitySteps.map(o => {
+    const a = (o/100).toFixed(2);
+    const bg = `rgba(${baseR},${baseG},${baseB},${a})`;
+    const isLight = (baseR*299+baseG*587+baseB*114)/1000 > 140;
+    const txtClass = (o < 40 && !isLight) || (o < 40 && isLight) ? 'dark-text' : (isLight ? 'dark-text' : 'light-text');
+    return `<div class="swatch" onclick="copyToken('${prefix}${o}')" style="width:80px">
+      <div class="swatch-color" style="background:${bg};" data-label="${o}"></div>
+      <div class="swatch-info"><span class="swatch-name">o-${o}</span><span class="swatch-hex">${a}</span></div>
+    </div>`;
+  }).join('');
+}
+renderOpacitySwatches('--color-black-opacity-', 0,0,0, 'black-opacity-swatches');
+renderOpacitySwatches('--color-white-white-o-', 255,255,255, 'white-opacity-swatches');
+renderOpacitySwatches('--color-primary-o-', 27,76,161, 'primary-opacity-swatches');
+</script>
+</body>
+</html>
