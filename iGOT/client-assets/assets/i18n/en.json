@@ -2528,6 +2528,7 @@
         "requestSent": "Request sent successfully!",
         "transferRequestSent": "Transfer request sent successfully!",
         "transferRequestFailed": "Unable to do transfer request, please try again later!",
+        "transferRequestFailedNew": "The selected organization is already associated with your account.",
         "withdrawRequestSuccess": "Your request has been withdrawn successfully",
         "unableWithdrawRequest": "Unable to withdraw request, please try again later!",
         "userNameUpdated": "User name updated successfully!",
