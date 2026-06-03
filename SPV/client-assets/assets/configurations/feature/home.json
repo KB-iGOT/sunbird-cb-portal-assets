@@ -520,7 +520,7 @@
           ]
         },
         {
-          "name": "Designation Approval Requests",
+          "name": "Designation request (AI CBP Tool)",
           "icon": "person_check",
           "isCustomIcon": true,
           "key": "designation-approval",
