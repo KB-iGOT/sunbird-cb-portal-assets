@@ -1,0 +1,66 @@
+{
+  "type": "external",
+  "layout": "tenant-layout-v1",
+
+  "app": {
+    "name": "iGOT Karmayogi",
+    "theme": "default",
+    "cdnHost": "",
+    "defaultRoute": "/page/home"
+  },
+
+  "components": {
+    "header": {
+      "enabled": true,
+      "variant": "primary",
+      "logo": "",
+      "hostLogo": "",
+      "search": true,
+      "language": true,
+      "profile": true,
+      "notification": true,
+      "downloadApp": true
+    },
+    "secondaryHeader": {
+      "enabled": true,
+      "menus": [
+        "learn",
+        "discuss",
+        "amritGyanKosh",
+        "janKarmayogi",
+        "network",
+        "events"
+      ]
+    },
+    "marquee": {
+      "enabled": true,
+      "api": "/api/marquee"
+    },
+    "footer": {
+      "enabled": true,
+      "showHostLogo": true,
+      "sections": [
+        "hubs",
+        "relatedLinks",
+        "support",
+        "aboutUs"
+      ],
+      "socialLinks": true,
+      "downloadApp": true
+    }
+  },
+
+  "features": {
+    "home": {},
+    "toc": {},
+    "player": {},
+    "services": {},
+    "explore": {}
+  },
+
+  "featureFlags": {
+    "multiLanguage": false,
+    "chatbot": false,
+    "tour": false
+  }
+}
