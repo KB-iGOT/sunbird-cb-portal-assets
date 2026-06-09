@@ -1,0 +1,136 @@
+{
+  "type": "external",
+  "layout": "tenant-layout-v1",
+
+  "app": {
+    "name": "iGOT Karmayogi",
+    "theme": "default",
+    "cdnHost": "",
+    "defaultRoute": "/page/home"
+  },
+
+  "components": {
+    "header": {
+      "enabled": true,
+      "search": true,
+      "language": true,
+      "profile": true,
+      "notification": true,
+      "downloadApp": true
+    },
+    "secondaryHeader": {
+      "enabled": true,
+      "exploreContent": true,
+      "more": {
+        "enabled": false,
+        "doMore": true,
+        "settings": true,
+        "discoverMentors": true,
+        "quickLinks": true,
+        "comingSoon": true,
+        "career": true,
+        "competency": true
+      },
+      "menus": {
+        "learn": false,
+        "discuss": false,
+        "amritGyaanKosh": false,
+        "janKarmayogi": false,
+        "network": false,
+        "events": false
+      }
+    },
+    "marquee": {
+      "enabled": true,
+      "api": "/api/marquee"
+    },
+    "footer": {
+      "enabled": true,
+      "showLinks": true,
+      "showHostLogo": true,
+      "showCopyright": true,
+      "sections": {
+        "hubs": {
+          "enabled": true,
+          "links": {
+            "learn": false,
+            "discuss": true,
+            "amritGyaanKosh": true,
+            "janKarmayogi": true,
+            "network": true,
+            "events": true
+          }
+        },
+        "relatedLinks": {
+          "enabled": true
+        },
+        "support": {
+          "enabled": true,
+          "links": {
+            "helpCentre": false,
+            "contactUs": true,
+            "privacyPolicy": true
+          }
+        },
+        "aboutUs": {
+          "enabled": true,
+          "links": {
+            "karmayogiBharat": true
+          }
+        }
+      },
+      "socialLinks": false,
+      "downloadApp": true
+    },
+    "bottomNav": {
+      "enabled": true
+    },
+    "searchCategories": {
+    "enabled": true,
+    "courses": false,
+    "events": true,
+    "peoples": true,
+    "external-contents": true,
+    "communities": true,
+    "resources": true,
+    "all": false
+  }
+  },
+
+  "features": {
+    "home": {},
+    "toc": {},
+    "player": {},
+    "services": {},
+    "explore": {}
+  },
+
+  "featureFlags": {
+    "multiLanguage": false,
+    "notification": true,
+    "downloadApp": true,
+    "chatbot": false,
+    "tour": false
+  },
+
+  
+
+  "routes": {
+    "home": true,
+    "login": true,
+    "search": false,
+    "globalsearch": true,
+    "profile": true,
+    "profile-v2": true,
+    "profile-v3": true,
+    "discussion-v2": false,
+    "network-v2": true,
+    "event": true,
+    "knowledge-resource": true,
+    "amrit-gyaan-kosh": false,
+    "jan-karmayogi": true,
+    "mandatory-course": true,
+    "organization": true,
+    "taxonomy": true
+  }
+}
