@@ -85,6 +85,19 @@
     "bottomNav": {
       "enabled": true
     },
+    "profileMenu": {
+      "enabled": true,
+      "viewProfile": true,
+      "igotKarmayogi": true,
+      "getStarted": false,
+      "tipsForLearners": true,
+      "myLearning": true,
+      "learnerPassbook": true,
+      "peerValidation": false,
+      "settings": true,
+      "helpCentre": false,
+      "signOut": true
+    },
     "searchCategories": {
     "enabled": true,
     "courses": false,
