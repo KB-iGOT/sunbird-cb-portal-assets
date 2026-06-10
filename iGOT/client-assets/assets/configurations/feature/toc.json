@@ -1,151 +1,4 @@
 {
-  "subtitleOnBanners": true,
-  "showDescription": true,
-  "banners": [],
-  "atAGlance": {
-    "lastUpdatedOn": {
-      "displayName": "Last updated on",
-      "enabled": true
-    },
-    "expiryDate": {
-      "displayName": "Expiry date",
-      "enabled": true
-    },
-    "learningMode": {
-      "displayName": "Learning mode",
-      "enabled": true
-    },
-    "region": {
-      "displayName": "Region",
-      "enabled": true
-    },
-    "license": {
-      "displayName": "License",
-      "enabled": true
-    },
-    "locale": {
-      "displayName": "Locale",
-      "enabled": true
-    },
-    "hasTranslations": {
-      "displayName": "Has translations",
-      "enabled": true
-    },
-    "keywords": {
-      "displayName": "Keywords",
-      "enabled": true
-    },
-    "curatedInKB": {
-      "displayName": "Size",
-      "enabled": true
-    },
-    "displayContentType": {
-      "displayName": "Content type",
-      "enabled": true
-    },
-    "complexityLevel": {
-      "displayName": "Complexity level",
-      "enabled": true
-    },
-    "duration": {
-      "displayName": "Duration",
-      "enabled": true
-    },
-    "cost": {
-      "displayName": "Cost",
-      "enabled": true
-    },
-    "viewCount": {
-      "displayName": "View count",
-      "enabled": true
-    },
-    "sourceShortName": {
-      "displayName": "Source name",
-      "enabled": true
-    },
-    "source": {
-      "displayName": "Source name",
-      "enabled": true
-    },
-    "structure": {
-      "displayName": "Structure",
-      "enabled": true
-    },
-    "competencies": {
-      "displayName": "Competencies",
-      "enabled": true
-    },
-    "batchDate": {
-      "displayName": "Batch date",
-      "enabled": true
-    },
-    "batchDuration": {
-      "displayName": "Batch duration",
-      "enabled": true
-    },
-    "contentType": {
-      "displayName": "Content type",
-      "enabled": true
-    },
-    "batchSize": {
-      "displayName": "Batch size",
-      "enabled": true
-    },
-    "enrolled": {
-      "displayName": "Enrolled",
-      "enabled": true
-    }
-    ,
-    "rejected": {
-      "displayName": "Rejected",
-      "enabled": true
-    }
-    ,
-    "totalApplied": {
-      "displayName": "Total applied",
-      "enabled": true
-    }
-  },
-  "overview": {
-    "description": {
-      "displayName": "summary",
-      "enabled": true
-    },
-    "body": {
-      "displayName": "description",
-      "enabled": true
-    },
-    "learningObjective": {
-      "displayName": "Learning objective",
-      "enabled": true
-    },
-    "registrationInstructions": {
-      "displayName": "Registration instructions",
-      "enabled": true
-    },
-    "studyMaterials": {
-      "displayName": "Study materials",
-      "enabled": true
-    },
-    "skills": {
-      "displayName": "Skills",
-      "enabled": true
-    },
-    "preRequisites": {
-      "displayName": "Pre-Requisites",
-      "enabled": true
-    },
-    "topics": {
-      "displayName": "Topics",
-      "enabled": false
-    }
-  },
-  "analytics": {
-    "enabled": true,
-    "available": true,
-    "courseAnalyticsClient": true,
-    "courseAnalytics": false
-  },
   "BatchEnrollL1Msg": "Your enrollment request is being reviewed. You will be notified when it is approved.",
   "BatchEnrollL2Msg": "We are now reviewing your request. You will be notified when it is approved.",
   "BatchEnrollDelayMsg": "Are you still waiting for the approval?",
@@ -339,7 +192,7 @@
     "enrolledContent": true,
     "newCommentSection": {
       "show": true,
-      "showTopInfo": false,
+      "showTopInfo": true,
       "commentTreeData": {
         "isFirstComment": true,
         "commentTreeId": "",
@@ -367,7 +220,7 @@
         "icon": "send"
       },
       "styles": {
-        "background-color": "#fff", 
+        "background-color": "#fff",
         "border": "1px solid rgba(0, 0, 0, 0.08)"
       }
     },
@@ -393,7 +246,7 @@
           "show": true,
           "showCount": true,
           "icon": "comment",
-          "iconDisplay": false
+          "iconDisplay": true
         },
         "flagComment": {
           "show": true
@@ -401,12 +254,12 @@
       },
       "repliesSection": {
         "show": true,
-        "indented": false,
+        "indented": true,
         "newCommentReply": {
           "show": true,
-          "showTopInfo": false,
+          "showTopInfo": true,
           "commentTreeData": {
-            "isFirstComment": false,
+            "isFirstComment": true,
             "commentTreeId": "",
             "hierarchyPath": [],
             "entityType": "COURSE",
@@ -432,7 +285,7 @@
             "icon": "send"
           },
           "styles": {
-            "background-color": "#1B4CA10D", 
+            "background-color": "#1B4CA10D",
             "border": "none"
           }
         },
@@ -456,7 +309,7 @@
             },
             "comments": {
               "show": true,
-              "showCount": false,
+              "showCount": true,
               "icon": "chat_bubble",
               "iconDisplay": true
             },
@@ -465,13 +318,13 @@
             }
           },
           "repliesSection": {
-            "show": false
+            "show": true
           },
           "newCommentReply": {
             "show": true,
-            "showTopInfo": false,
+            "showTopInfo": true,
             "commentTreeData": {
-              "isFirstComment": false,
+              "isFirstComment": true,
               "commentTreeId": "",
               "hierarchyPath": [],
               "entityType": "COURSE",
@@ -497,7 +350,7 @@
               "icon": "send"
             },
             "styles": {
-              "background-color": "#1B4CA10D", 
+              "background-color": "#1B4CA10D",
               "border": "none"
             }
           }
@@ -509,7 +362,107 @@
     }
   },
   "commentsTab": true,
-  "samuhikCharchaTab": true,
+
+  "uiVisibility": {
+    "banner": {
+      "visible": true,
+      "courseBadge": true,
+      "iGOTSpecialization": true,
+      "difficultyLevel": true,
+      "certificateBadge": true,
+      "dueDate": true,
+      "newVersionChip": true,
+      "shareButton": true,
+      "heading": true,
+      "byDepartment": true,
+      "ratingChip": true,
+      "additionalTags": true,
+      "lastUpdatedDate": true,
+      "languageChips": true
+    },
+    "rightPanel": {
+      "visible": true,
+      "posterImage": true,
+      "shareButton": true,
+      "enrollButton": true,
+      "karmaPoints": true,
+      "kpiValues": {
+        "visible": true,
+        "duration": true,
+        "courses": true,
+        "modules": true,
+        "videos": true,
+        "offlineSessions": true,
+        "pdfs": true,
+        "audios": true,
+        "webPages": true,
+        "interactiveContent": true,
+        "preEnrollmentAssessment": true,
+        "finalTest": true,
+        "practiceTest": true,
+        "otherItems": true,
+        "freeOrPaid": true,
+        "learningMode": true,
+        "license": true,
+        "languages": true
+      },
+      "authors": true,
+      "creators": true,
+      "provider": true,
+      "learnerAdvisory": {
+        "visible": true,
+        "title": true,
+        "readMoreLink": true,
+        "icon": true,
+        "tipText": true
+      }
+    },
+    "tabs": {
+      "visible": false,
+      "aboutTab": true,
+      "contentTab": true,
+      "discussionTab": true,
+      "teachersNoteTab": true,
+      "referenceNoteTab": true
+    },
+    "about": {
+      "visible": true,
+      "retirementWarning": true,
+      "certificate": true,
+      "batchInfo": true,
+      "kpiValues": true,
+      "description": true,
+      "learningOutcome": true,
+      "competencies": true,
+      "tags": {
+        "visible": true,
+        "title": true,
+        "keywords": true,
+        "searchTags": true,
+        "viewMoreLink": true
+      },
+      "sectors": true,
+      "authorsAndCurators": true,
+      "provider": true,
+      "ratingsAndReviews": {
+        "visible": true,
+        "ratingSummary": true,
+        "topReviews": {
+          "visible": true,
+          "title": true,
+          "showAllLink": true,
+          "reviewCards": true,
+          "noReviewsMessage": true
+        }
+      }
+    },
+    "mobileFooter": {
+      "visible": true,
+      "enrollButton": true,
+      "learnerAdvisory": true
+    }
+  },
+
   "dynamicCertificateGeneration": {
     "allows": [
       "Invite-Only Program",
