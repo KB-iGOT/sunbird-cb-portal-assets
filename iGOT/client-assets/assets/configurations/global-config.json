@@ -15,8 +15,8 @@
       "search": true,
       "language": true,
       "profile": true,
-      "notification": true,
-      "downloadApp": true
+      "notification": false,
+      "downloadApp": false
     },
     "secondaryHeader": {
       "enabled": true,
@@ -41,7 +41,7 @@
       }
     },
     "marquee": {
-      "enabled": true,
+      "enabled": false,
       "api": "/api/marquee"
     },
     "footer": {
@@ -90,7 +90,7 @@
       "viewProfile": true,
       "igotKarmayogi": true,
       "getStarted": false,
-      "tipsForLearners": true,
+      "tipsForLearners": false,
       "myLearning": true,
       "learnerPassbook": true,
       "peerValidation": false,
@@ -115,7 +115,35 @@
     "toc": {},
     "player": {},
     "services": {},
-    "explore": {}
+    "explore": {},
+    "volunteerSearch": {
+      "enabled": true
+    }
+  },
+
+  "apis": {
+    "user": {
+      "profile": "/apis/proxies/v8/api/user/v2/read",
+      "enrollment": "/apis/proxies/v8/learner/course/v4/user/enrollment/list",
+      "firstLogin": "/apis/proxies/v8/login/entry"
+    },
+    "search": {
+      "searchV6": "/apis/proxies/v8/sunbirdigot/search",
+      "searchV4": "/apis/proxies/v8/sunbirdigot/v4/search",
+      "volunteerSearch": "/apis/proxies/v8/sunbirdigot/v4/search",
+      "externalContent": "/apis/proxies/v8/cios/v1/search/content",
+      "people": "/apis/proxies/v8/user/v5/public/search",
+      "community": "/apis/proxies/v8/community/v1/search",
+      "nlp": "/apis/proxies/v8/nlp/search",
+      "recentCreate": "/apis/proxies/v8/search/v1/recent/create",
+      "recentRead": "/apis/proxies/v8/search/v1/recent/read",
+      "recentDelete": "/apis/proxies/v8/search/v1/recent/delete"
+    },
+    "content": {
+      "explore": "/api/course/v1/explore",
+      "microCredentials": "/apis/proxies/v8/promotionalcontent/v1/assignedto/users",
+      "applicationsById": "/apis/proxies/v8/forms/v2/bulkGetApplicationsById"
+    }
   },
 
   "featureFlags": {
