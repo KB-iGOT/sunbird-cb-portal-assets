@@ -1,4 +1,189 @@
 {
+  "playerUiConfig": {
+    "progress": true,
+    "rating": true,
+    "share": true
+  },
+  "apiConfig": {
+    "extendedContentRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/extended/content/v1/read"
+    },
+    "getServerDate": {
+      "enabled": true,
+      "url": "/apis/public/v8/systemDate"
+    },
+    "enrollmentData": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/learner/course/v4/user/enrollment/details"
+    },
+    "totalKarmaPoints": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/totalkarmapoints"
+    },
+    "hierarchy": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/course/v1/hierarchy"
+    },
+    "ratingRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/ratings/v1/read"
+    },
+    "overallRating": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/ratings/v1/summary"
+    },
+    "commentTreeGet": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/commentTree/v1/get"
+    },
+    "commentSearch": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/comment/v3/search"
+    },
+    "likedComments": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/comment/v1/likedComments"
+    },
+    "contentEnroll": {
+      "enabled": true,
+      "url": "/apis/protected/v8/cohorts/user/autoenrollment"
+    },
+    "contentProgress": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/read/content-progres"
+    },
+    "addFirstComment": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/comment/v1/addFirst"
+    },
+    "addNewComment": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/comment/v1/addNew"
+    },
+    "courseCompletionSurvey": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/forms/v2/getFormById"
+    },
+    "submitCompletionSurvey": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/forms/v2/saveFormSubmit"
+    },
+    "shareContent": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/v1/content/recommend"
+    }
+  },
+  "playerApiConfig": {
+    "assessmentSubmitV2": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v2"
+    },
+    "assessmentSubmitV3": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v3"
+    },
+    "assessmentSubmitV4": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v4"
+    },
+    "assessmentSubmitV5": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v5"
+    },
+    "assessmentResultV4": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/v4/result"
+    },
+    "assessmentResultV5": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/v5/result"
+    },
+    "questionPaperSectionsV4": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/assessment/read"
+    },
+    "questionPaperQuestionsV4": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/question/read"
+    },
+    "questionPaperSections": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/assessment/v5/read"
+    },
+    "questionPaperQuestions": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/question/v5/read"
+    },
+    "saveAndNextQuestion": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/assessment/save"
+    },
+    "canAttempt": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/retake"
+    },
+    "canAttemptV5": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/v5/retake"
+    },
+    "assessmentSubmitV6": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v6"
+    },
+    "assessmentSubmitV7": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v7"
+    },
+    "assessmentResultV7": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/v7/result"
+    },
+    "canAttemptV7": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/v7/retake"
+    },
+    "publicAssessmentSubmit": {
+      "enabled": true,
+      "url": "api/public/assessment/v5/assessment/submit"
+    },
+    "publicAssessmentResult": {
+      "enabled": true,
+      "url": "api/public/assessment/v5/result"
+    },
+    "publicAssessmentV4Submit": {
+      "enabled": true,
+      "url": "api/public/assessment/v4/assessment/submit"
+    },
+    "hierarchyRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/course/v1/hierarchy"
+    },
+    "extendedContentRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/extended/content/v1/read"
+    },
+    "resourceRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/content/v2/read"
+    },
+    "contentProgressRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/read/content-progres"
+    },
+    "contentOverallRating": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/ratings/v1/summary"
+    },
+    "contentProgressUpdate": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/content-progres"
+    },
+    "userRating": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/ratings/v1/read"
+    }
+    },
   "BatchEnrollL1Msg": "Your enrollment request is being reviewed. You will be notified when it is approved.",
   "BatchEnrollL2Msg": "We are now reviewing your request. You will be notified when it is approved.",
   "BatchEnrollDelayMsg": "Are you still waiting for the approval?",
@@ -382,10 +567,14 @@
     },
     "rightPanel": {
       "visible": true,
+      "heading": true,
+      "byDepartment": true,
       "posterImage": true,
       "shareButton": true,
       "enrollButton": true,
       "karmaPoints": true,
+      "progress": true,
+      "starRating": true,
       "kpiValues": {
         "visible": true,
         "duration": true,
@@ -418,7 +607,7 @@
       }
     },
     "tabs": {
-      "visible": false,
+      "visible": true,
       "aboutTab": true,
       "contentTab": true,
       "discussionTab": true,
@@ -455,6 +644,20 @@
           "noReviewsMessage": true
         }
       }
+    },
+    "discussion": {
+      "visible": true,
+      "promptIcon": true,
+      "promptText": true,
+      "inputBox": true,
+      "avatar": true,
+      "userName": true,
+      "verifiedBadge": true,
+      "designation": true,
+      "timestamp": true,
+      "commentText": true,
+      "likeButton": true,
+      "replyButton": false
     },
     "mobileFooter": {
       "visible": true,
