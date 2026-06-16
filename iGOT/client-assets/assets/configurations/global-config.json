@@ -123,26 +123,130 @@
 
   "apis": {
     "user": {
-      "profile": "/apis/proxies/v8/api/user/v2/read",
-      "enrollment": "/apis/proxies/v8/learner/course/v4/user/enrollment/list",
-      "firstLogin": "/apis/proxies/v8/login/entry"
+      "profile": {
+        "url": "/apis/proxies/v8/api/user/v2/read",
+        "enabled": true
+      },
+      "enrollment": {
+        "url": "/apis/proxies/v8/learner/course/v4/user/enrollment/list",
+        "enabled": true
+      },
+      "firstLogin": {
+        "url": "/apis/proxies/v8/login/entry",
+        "enabled": true
+      },
+      "createUser": {
+        "url": "/apis/proxies/v8/discussion/user/v1/create",
+        "enabled": true
+      },
+      "feedStatus": {
+        "url": "/apis/proxies/v8/user/v1/feed",
+        "enabled": true
+      },
+      "insights": {
+        "url": "/apis/proxies/v8/read/user/insights",
+        "enabled": true
+      },
+      "eventEnroll": {
+        "url": "/apis/proxies/v8/user/events/enroll/summary",
+        "enabled": true
+      }
+    },
+    "discussion": {
+      "userDiscussions": {
+        "url": "/apis/proxies/v8/discussion/user",
+        "enabled": true
+      },
+      "trending": {
+        "url": "/apis/proxies/v8/discussion/popular",
+        "enabled": true
+      }
+    },
+    "connections": {
+      "recommendedUsers": {
+        "url": "/apis/proxies/v8/connections/v3/connections/recommended",
+        "enabled": true
+      },
+      "addConnection": {
+        "url": "/apis/protected/v8/connections/v2/add/connection",
+        "enabled": true
+      },
+      "updateConnection": {
+        "url": "/apis/protected/v8/connections/v2/update/connection",
+        "enabled": true
+      },
+      "requestsReceived": {
+        "url": "/apis/protected/v8/connections/v2/connections/requests/received",
+        "enabled": true
+      }
+    },
+    "assessment": {
+      "wheebox": {
+        "url": "/apis/proxies/v8/wheebox/read",
+        "enabled": true
+      }
+    },
+    "leaderboard": {
+      "learnerLeaderboard": {
+        "url": "/apis/proxies/v8/halloffame/learnerleaderboard",
+        "enabled": true
+      }
     },
     "search": {
-      "searchV6": "/apis/proxies/v8/sunbirdigot/search",
-      "searchV4": "/apis/proxies/v8/sunbirdigot/v4/search",
-      "volunteerSearch": "/apis/proxies/v8/sunbirdigot/v4/search",
-      "externalContent": "/apis/proxies/v8/cios/v1/search/content",
-      "people": "/apis/proxies/v8/user/v5/public/search",
-      "community": "/apis/proxies/v8/community/v1/search",
-      "nlp": "/apis/proxies/v8/nlp/search",
-      "recentCreate": "/apis/proxies/v8/search/v1/recent/create",
-      "recentRead": "/apis/proxies/v8/search/v1/recent/read",
-      "recentDelete": "/apis/proxies/v8/search/v1/recent/delete"
+      "searchV6": {
+        "url": "/apis/proxies/v8/sunbirdigot/search",
+        "enabled": true
+      },
+      "searchV4": {
+        "url": "/apis/proxies/v8/sunbirdigot/v4/search",
+        "enabled": true
+      },
+      "volunteerSearch": {
+        "url": "/apis/proxies/v8/sunbirdigot/v4/search",
+        "enabled": true
+      },
+      "externalContent": {
+        "url": "/apis/proxies/v8/cios/v1/search/content",
+        "enabled": true
+      },
+      "people": {
+        "url": "/apis/proxies/v8/user/v5/public/search",
+        "enabled": true
+      },
+      "community": {
+        "url": "/apis/proxies/v8/community/v1/search",
+        "enabled": true
+      },
+      "nlp": {
+        "url": "/apis/proxies/v8/nlp/search",
+        "enabled": true
+      },
+      "recentCreate": {
+        "url": "/apis/proxies/v8/search/v1/recent/create",
+        "enabled": true
+      },
+      "recentRead": {
+        "url": "/apis/proxies/v8/search/v1/recent/read",
+        "enabled": true
+      },
+      "recentDelete": {
+        "url": "/apis/proxies/v8/search/v1/recent/delete",
+        "enabled": true
+      }
     },
     "content": {
-      "explore": "/api/course/v1/explore",
-      "microCredentials": "/apis/proxies/v8/promotionalcontent/v1/assignedto/users",
-      "applicationsById": "/apis/proxies/v8/forms/v2/bulkGetApplicationsById"
+      "explore": {
+        "url": "/api/course/v1/explore",
+        "enabled": true
+      },
+      "microCredentials": {
+        "url": "/apis/proxies/v8/promotionalcontent/v1/assignedto/users",
+        "enabled": true
+      },
+      "applicationsById": {
+        "url": "/apis/proxies/v8/forms/v2/bulkGetApplicationsById",
+        "enabled": true
+      }
     }
   },
 
