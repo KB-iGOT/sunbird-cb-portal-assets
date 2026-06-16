@@ -1,29 +1,29 @@
 {
     "nlwExperience": {
-    "banner": {
-      "enabled":true,
-      "displayImage": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1775989388033_image.png",
-      "profileDisplayImage":"https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1776073542323_sadhana-saptah.png",
-      "onClick": {
-        "action": "OPEN_POPUP",
-        "type": "API_DOCUMENT",
-        "api": {
-          "url": "/apis/public/v8/nlw/2026/cert/download/mobile",
-          "method": "POST",
-          "headers": {
-            "Content-Type": "application/json"
-          },
-          "body": {
-            "inputFormat": "svg",
-            "outputFormat": "svg"
-          },
-          "responseType": "blob",
-          "renderAs": "SVG",
-          "withCredentials": true
+        "banner": {
+            "enabled": true,
+            "displayImage": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1775989388033_image.png",
+            "profileDisplayImage": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1776073542323_sadhana-saptah.png",
+            "onClick": {
+                "action": "OPEN_POPUP",
+                "type": "API_DOCUMENT",
+                "api": {
+                    "url": "/apis/public/v8/nlw/2026/cert/download/mobile",
+                    "method": "POST",
+                    "headers": {
+                        "Content-Type": "application/json"
+                    },
+                    "body": {
+                        "inputFormat": "svg",
+                        "outputFormat": "svg"
+                    },
+                    "responseType": "blob",
+                    "renderAs": "SVG",
+                    "withCredentials": true
+                }
+            }
         }
-      }
-    }
-  },
+    },
     "tabs": [
         {
             "name": "profileInfo",
@@ -184,67 +184,747 @@
         }
     ],
     "banner": {},
-    "profileCard":{
-      "enableCard": true,
-      "displayOnlyStats": true,
-      "profileStats": [
-        {
-            "icon":"/assets/icons/home/video-play.svg",
-            "label":"In progress",
-            "enable": true,
-            "key": "inProgress",
-            "value": 0 
-        },
-        {
-            "icon":"/assets/icons/home/certificate.svg",
-            "label":"Certificate",
-            "enable": true,
-            "key": "certificate",
-            "value": 0 
-        },
-        {
-            "icon":"/assets/icons/home/time.svg",
-            "label":"Learning hours",
-            "enable": true,
-            "key": "learningHours",
-            "value": 0 
-        },
-        {
-            "icon":"/assets/icons/home/inProgress.svg",
-            "label":"In progress",
-            "enable": false,
-            "key": "inProgress",
-            "value": 0 
-        }
-      ]
+    "profileCard": {
+        "enableCard": true,
+        "displayOnlyStats": true,
+        "profileStats": [
+            {
+                "icon": "/assets/icons/home/video-play.svg",
+                "label": "In progress",
+                "enable": true,
+                "key": "inProgress",
+                "value": 0
+            },
+            {
+                "icon": "/assets/icons/home/certificate.svg",
+                "label": "Certificate",
+                "enable": true,
+                "key": "certificate",
+                "value": 0
+            },
+            {
+                "icon": "/assets/icons/home/time.svg",
+                "label": "Learning hours",
+                "enable": true,
+                "key": "learningHours",
+                "value": 0
+            },
+            {
+                "icon": "/assets/icons/home/inProgress.svg",
+                "label": "In progress",
+                "enable": false,
+                "key": "inProgress",
+                "value": 0
+            }
+        ]
     },
     "weeklyClaps": {
         "enableCard": true,
         "weekList": [
-        {
-        "label":"W1",
-        "enable": true,
-        "key": "w1",
-        "activeWeek": false
+            {
+                "label": "W1",
+                "enable": true,
+                "key": "w1",
+                "activeWeek": false
+            },
+            {
+                "label": "W2",
+                "enable": true,
+                "key": "w2",
+                "activeWeek": false
+            },
+            {
+                "label": "W3",
+                "enable": true,
+                "key": "w3",
+                "activeWeek": false
+            },
+            {
+                "label": "W4",
+                "enable": true,
+                "key": "w4",
+                "activeWeek": true
+            }
+        ]
+    },
+    "profileConfig": {
+          "banner": {
+            "enabled": true,
+            "defaultBannerUrl": "",
+            "editable": true
+          },
+          "userDetails": {
+            "enabled": true,
+            "profileImage": {
+              "enabled": true
+            },
+            "progress": {
+              "enabled": true
+            },
+            "designationOrganization": {
+              "enabled": true
+            },
+            "menuButtonsEnabled": true,
+            "insideMenuButtons": {
+              "editProfile": {
+                "enabled": true,
+                "editObjectKey": "editProfilePopup"
+              },
+              "transferRequest": {
+                "enabled": true
+              },
+              "settings": {
+                "enabled": true
+              }
+            }
+          },
+          "notMyUserWarning": {
+            "enabled": true
+          },
+          "userStats": {
+            "enabled": true,
+            "karmaPoints": {
+              "enabled": true,
+              "viewAllEnabled": true
+            },
+            "certificateCount": {
+              "enabled": true,
+              "viewAllEnabled": true
+            },
+            "myBadges": {
+              "enabled": true,
+              "viewAllEnabled": true
+            },
+            "postCount": {
+              "enabled": true,
+              "viewAllEnabled": true
+            }
+          },
+          "aboutMe": {
+            "enabled": true,
+            "editable": true
+          },
+          "basicDetails": {
+            "enabled": true,
+            "primaryDetails": {
+              "enabled": true,
+              "editable": true,
+              "editObjectKey": "primaryDetailsEdit",
+              "fields": {
+                "group": {
+                  "key": "group",
+                  "enabled": true
+                },
+                "designation": {
+                  "key": "designation",
+                  "enabled": true
+                }
+              }
+            },
+            "otherDetails": {
+              "enabled": true,
+              "editable": true,
+              "editObjectKey": "otherDetailsEdit",
+              "fields": {
+                "employeeId": {
+                  "key": "employeeId",
+                  "enabled": true
+                },
+                "email": {
+                  "key": "email",
+                  "enabled": true
+                },
+                "mobileNumber": {
+                  "key": "mobileNumber",
+                  "enabled": true
+                },
+                "gender": {
+                  "key": "gender",
+                  "enabled": true
+                },
+                "dateOfBirth": {
+                  "key": "dateOfBirth",
+                  "enabled": true
+                },
+                "motherTongue": {
+                  "key": "motherTongue",
+                  "enabled": true
+                },
+                "category": {
+                  "key": "category",
+                  "enabled": true
+                },
+                "officePinCode": {
+                  "key": "officePinCode",
+                  "enabled": true
+                },
+                "ehrmsId": {
+                  "key": "ehrmsId",
+                  "enabled": true
+                },
+                "dateOfRetirement": {
+                  "key": "dateOfRetirement",
+                  "enabled": true
+                },
+                "governmentService": {
+                  "key": "governmentService",
+                  "enabled": true
+                },
+                "civilServiceType": {
+                  "key": "civilServiceType",
+                  "enabled": true
+                },
+                "services": {
+                  "key": "services",
+                  "enabled": true
+                },
+                "cadre": {
+                  "key": "cadre",
+                  "enabled": true
+                },
+                "batch": {
+                  "key": "batch",
+                  "enabled": true
+                },
+                "cadreControllingAuthority": {
+                  "key": "cadreControllingAuthority",
+                  "enabled": true
+                },
+                "centralDeputation": {
+                  "key": "centralDeputation",
+                  "enabled": true
+                }
+              }
+            },
+            "learningProgress": {
+              "enabled": true,
+              "viewLearnerPassbookEnabled": true
+            }
+          },
+          "organisationSpecificDetails": {
+            "enabled": true,
+            "editable": true,
+            "editObjectKey": "organisationSpecificDetailsEdit",
+            "fields": {
+              "aadhaar_number": {
+                "key": "aadhaar_number",
+                "enabled": true
+              },
+              "sector_one": {
+                "key": "sector_one",
+                "enabled": true
+              },
+              "frontier_one": {
+                "key": "frontier_one",
+                "enabled": true
+              },
+              "command_hq_one": {
+                "key": "command_hq_one",
+                "enabled": true
+              },
+              "force_hq_value": {
+                "key": "force_hq_value",
+                "enabled": true
+              },
+              "sector3": {
+                "key": "sector3",
+                "enabled": true
+              },
+              "frontier3": {
+                "key": "frontier3",
+                "enabled": true
+              },
+              "force_hq_one": {
+                "key": "force_hq_one",
+                "enabled": true
+              }
+            }
+          },
+          "serviceHistory": {
+            "enabled": true,
+            "canAdd": true,
+            "editable": true,
+            "editObjectKey": "serviceHistoryEdit"
+          },
+          "competencies": {
+            "enabled": true
+          },
+          "educationalQualifications": {
+            "enabled": true,
+            "editable": true,
+            "canAdd": true,
+            "editObjectKey": "educationalQualificationsEdit"
+          },
+          "achievements": {
+            "enabled": true,
+            "viewLearnerPassbookEnabled": true,
+            "editable": true,
+            "canAdd": true,
+            "editObjectKey": "achievementsEdit"
+          },
+          "rightSection": {
+            "enabled": true,
+            "peopleSuggestions": {
+              "enabled": true
+            },
+            "recommendedCommunities": {
+              "enabled": true
+            }
+          }
         },
-        {
-            "label":"W2",
-            "enable": true,
-            "key": "w2",
-            "activeWeek": false
+    "profileEditConfigs": {
+        "editProfilePopup": {
+            "profilePicture": {
+                "enabled": true,
+                "editable": true
+            },
+            "name": {
+                "enabled": true,
+                "editable": true
+            },
+            "district": {
+                "enabled": true,
+                "editable": true
+            }
         },
-        {
-            "label":"W3",
-            "enable": true,
-            "key": "w3",
-            "activeWeek": false
+        "primaryDetailsEdit": {
+            "group": {
+                "enabled": true,
+                "editable": true
+            },
+            "designation": {
+                "enabled": true,
+                "editable": true
+            }
         },
-        {
-            "label":"W4",
-            "enable": true,
-            "key": "w4",
-            "activeWeek": true
+        "otherDetailsEdit": {
+            "employeeId": {
+                "enabled": true,
+                "editable": true
+            },
+            "email": {
+                "enabled": true,
+                "editable": true
+            },
+            "mobileNumber": {
+                "enabled": true,
+                "editable": true
+            },
+            "gender": {
+                "enabled": true,
+                "editable": true
+            },
+            "dateOfBirth": {
+                "enabled": true,
+                "editable": true
+            },
+            "motherTongue": {
+                "enabled": true,
+                "editable": true
+            },
+            "category": {
+                "enabled": true,
+                "editable": true
+            },
+            "officePinCode": {
+                "enabled": true,
+                "editable": true
+            },
+            "ehrmsId": {
+                "enabled": true,
+                "editable": true
+            },
+            "dateOfRetirement": {
+                "enabled": true,
+                "editable": true
+            },
+            "governmentService": {
+                "enabled": true,
+                "editable": true
+            },
+            "civilServiceType": {
+                "enabled": true,
+                "editable": true
+            },
+            "services": {
+                "enabled": true,
+                "editable": true
+            },
+            "cadre": {
+                "enabled": true,
+                "editable": true
+            },
+            "batch": {
+                "enabled": true,
+                "editable": true
+            },
+            "cadreControllingAuthority": {
+                "enabled": true,
+                "editable": true
+            },
+            "centralDeputation": {
+                "enabled": true,
+                "editable": true
+            }
+        },
+        "organisationSpecificDetailsEdit": {
+            "aadhaarNumber": {
+                "enabled": true,
+                "editable": true
+            },
+            "sectorOne": {
+                "enabled": true,
+                "editable": true
+            },
+            "frontierOne": {
+                "enabled": true,
+                "editable": true
+            },
+            "command": {
+                "enabled": true,
+                "editable": true
+            },
+            "forceHq": {
+                "enabled": true,
+                "editable": true
+            },
+            "frontierThree": {
+                "enabled": true,
+                "editable": true
+            }
+        },
+        "serviceHistoryEdit": {
+            "isDynamicDialog": true,
+            "fields": [{
+                "type": "organisation-select",
+                "key": "orgName",
+                "label": "Organisation",
+                "placeholder": "Select Organisation/Ministry",
+                "searchPlaceholder": "Search Organisation/Ministry",
+                "required": true,
+                "valuePath": "orgName",
+                "canUpdate": false,
+                "errorMessages": {
+                    "required": "Please select an organisation."
+                }
+            }, {
+                "type": "designation-select",
+                "key": "designation",
+                "label": "Designation",
+                "placeholder": "Select Designation",
+                "searchPlaceholder": "Search Designation",
+                "required": true,
+                "valuePath": "designation",
+                "canUpdate": false,
+                "dependencyField": "orgName",
+                "errorMessages": {
+                    "required": "Please select a designation."
+                }
+            }, {
+                "type": "select",
+                "key": "orgState",
+                "label": "State",
+                "placeholder": "Select State",
+                "valuePath": "orgState",
+                "row": "stateDistrictRow",
+                "optionsSource": "states"
+            },
+                {
+                "type": "select",
+                "key": "orgDistrict",
+                "label": "District",
+                "placeholder": "Select District",
+                "valuePath": "orgDistrict",
+                "row": "stateDistrictRow",
+                "optionsSource": "districts",
+                "dependencyField": "orgState"
+                },
+                {
+                "type": "date",
+                "key": "startDate",
+                "label": "Start Date",
+                "placeholder": "Select Date",
+                "valuePath": "startDate",
+                "row": "dateRow"
+                },
+                {
+                "type": "date",
+                "key": "endDate",
+                "label": "End Date",
+                "placeholder": "Select Date",
+                "valuePath": "endDate",
+                "row": "dateRow",
+                "disableDependency": {
+                        "key": "currentlyWorking",
+                        "value": true
+                    }
+                },
+                {
+                "type": "checkbox",
+                "key": "currentlyWorking",
+                "label": "Currently Working",
+                "defaultValue": false,
+                "valuePath": "currentlyWorking"
+                },
+                {
+                "type": "textarea",
+                "key": "description",
+                "label": "Description",
+                "placeholder": "Add your description",
+                "maxLength": 1000,
+                "valuePath": "description"
+                }
+            ]
+        },
+        "educationalQualificationsEdit": {
+            "isDynamicDialog": true,
+            "fields": [
+                {
+                "type": "degree-select",
+                "key": "degree",
+                "label": "Degree",
+                "placeholder": "Select Degree",
+                "required": true,
+                "valuePath": "degree",
+                "searchPlaceholder": "Search degree...",
+                "row": "row1"
+                },
+                {
+                "type": "text",
+                "key": "otherDegree",
+                "label": "Other Degree",
+                "placeholder": "Enter your degree",
+                "maxLength": 80,
+                "pattern": "^[a-zA-Z0-9\\s(),.&/]*$",
+                "conditionalOn": {
+                    "key": "degree",
+                    "value": "Other",
+                    "operator": "==="
+                },
+                "row": "row1"
+                },
+                {
+                "type": "text",
+                "key": "fieldOfStudy",
+                "label": "Field of Study",
+                "placeholder": "Enter your specialization(e.g., IT, Civil)",
+                "required": true,
+                "maxLength": 250,
+                "pattern": "^[a-zA-Z0-9\\s.,'-]*$",
+                "row": "row2"
+                },
+                {
+                "type": "institution-select",
+                "key": "institutionName",
+                "label": "Institute Name",
+                "placeholder": "Please select an institute name",
+                "required": true,
+                "valuePath": "institutionName",
+                "searchPlaceholder": "Search institute...",
+                "row": "row3"
+                },
+                {
+                "type": "text",
+                "key": "otherInstituteName",
+                "label": "Other Institute Name",
+                "placeholder": "Enter institute name",
+                "maxLength": 125,
+                "pattern": "^[a-zA-Z0-9\\s(),.&/]*$",
+                "conditionalOn": {
+                    "key": "institutionName",
+                    "value": "Other",
+                    "operator": "==="
+                },
+                "row": "row3"
+                },
+                {
+                "type": "year-select",
+                "key": "startYear",
+                "label": "Start Year",
+                "placeholder": "Select Year",
+                "required": true,
+                "valuePath": "startYear",
+                "yearFrom": 1900,
+                "row": "row4"
+                },
+                {
+                "type": "year-select",
+                "key": "endYear",
+                "label": "End Year",
+                "placeholder": "Select Year",
+                "required": true,
+                "valuePath": "endYear",
+                "yearFrom": 1900,
+                "row": "row4"
+                }
+            ]
+        },
+        "achievementsEdit": {
+            "isDynamicDialog": true,
+            "fields": [
+                {
+                    "type": "info-text",
+                    "key": "_note",
+                    "text": "Added achievements will be reflected in the Learner Passbook after 30 minutes"
+                },
+                {
+                    "type": "text",
+                    "key": "title",
+                    "label": "Title",
+                    "placeholder": "e.g. Excel beginner",
+                    "required": true,
+                    "maxLength": 70,
+                    "minLength": 10,
+                    "valuePath": "contextData.title",
+                    "errorMessages": {
+                        "required": "Please enter a title.",
+                        "minlength": "Title must be at least 10 characters.",
+                        "maxlength": "Title cannot exceed 70 characters.",
+                        "pattern": "Allowed characters: letters, numbers and .,_-$/:[]()\\'  !&"
+                    }
+                },
+                {
+                    "type": "text",
+                    "key": "issuedOrganisation",
+                    "label": "Issuing Organisation",
+                    "placeholder": "e.g. Microsoft",
+                    "required": true,
+                    "maxLength": 70,
+                    "valuePath": "contextData.issuedOrganisation",
+                    "errorMessages": {
+                        "required": "Issuing organisation is required.",
+                        "maxlength": "Issuing organisation cannot exceed 70 characters."
+                    }
+                },
+                {
+                    "type": "date",
+                    "key": "startDate",
+                    "label": "Start Date",
+                    "placeholder": "Start Date",
+                    "valuePath": "contextData.startDate",
+                    "maxDate": "new Date()",
+                    "readonly": true,
+                    "row": "achievementDateRow"
+                },
+                {
+                    "type": "date",
+                    "key": "endDate",
+                    "label": "End Date",
+                    "placeholder": "Select Date",
+                    "valuePath": "contextData.endDate",
+                    "maxDate": "new Date()",
+                    "readonly": true,
+                    "row": "achievementDateRow"
+                },
+                {
+                    "type": "date",
+                    "key": "issuedDate",
+                    "label": "Issue Date",
+                    "placeholder": "Select Date",
+                    "required": true,
+                    "valuePath": "contextData.issuedDate",
+                    "maxDate": "new Date()",
+                    "readonly": true,
+                    "row": "issuedTrainingRow",
+                    "errorMessages": {
+                        "required": "Please select an issue date."
+                    }
+                },
+                {
+                    "type": "select",
+                    "key": "trainingType",
+                    "label": "Training Type",
+                    "placeholder": "Select training type",
+                    "required": true,
+                    "valuePath": "contextData.trainingType",
+                    "row": "issuedTrainingRow",
+                    "options": [
+                        {
+                            "label": "Domestic Training",
+                            "value": "Domestic Training"
+                        },
+                        {
+                            "label": "Foreign Training",
+                            "value": "Foreign Training"
+                        },
+                        {
+                            "label": "In Service Training",
+                            "value": "In Service Training"
+                        },
+                        {
+                            "label": "Mid-Career Training",
+                            "value": "Mid-Career Training"
+                        },
+                        {
+                            "label": "Other Training",
+                            "value": "Other Training"
+                        }
+                    ],
+                    "errorMessages": {
+                        "required": "Training type is required."
+                    }
+                },
+                {
+                    "type": "select",
+                    "key": "deliveryMode",
+                    "label": "Delivery mode",
+                    "placeholder": "Select delivery mode",
+                    "valuePath": "contextData.deliveryMode",
+                    "row": "deliveryLearningRow",
+                    "options": [
+                        {
+                            "label": "Online",
+                            "value": "Online"
+                        },
+                        {
+                            "label": "Offline",
+                            "value": "Offline"
+                        },
+                        {
+                            "label": "Hybrid",
+                            "value": "Hybrid"
+                        }
+                    ]
+                },
+                {
+                    "type": "duration",
+                    "key": "learningTime",
+                    "label": "Learning Hours (hh:mm)",
+                    "valuePath": "contextData.learningTime",
+                    "row": "deliveryLearningRow"
+                },
+                {
+                    "type": "image",
+                    "key": "uploadedDocument",
+                    "label": "Upload",
+                    "required": true,
+                    "infoText": "PNG, JPG, JPEG and PDF files are supported (maximum size: 5MB).",
+                    "accept": ".png,.jpg,.jpeg,.pdf",
+                    "maxSizeMB": 5,
+                    "valuePath": "contextData.documentUrl"
+                },
+                {
+                    "type": "url",
+                    "key": "url",
+                    "label": "URL",
+                    "placeholder": "e.g. https://www.example.com",
+                    "required": true,
+                    "infoText": "You may provide the link for the achievement.",
+                    "valuePath": "contextData.url",
+                    "errorMessages": {
+                        "required": "URL is required.",
+                        "pattern": "Please enter a valid URL."
+                    }
+                },
+                {
+                    "type": "textarea",
+                    "key": "description",
+                    "label": "Learning Objective",
+                    "placeholder": "Describe about the skills that you have gained from this learning",
+                    "maxLength": 500,
+                    "valuePath": "contextData.description"
+                }
+            ]
         }
-    ]
     }
 }
