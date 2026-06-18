@@ -1,151 +1,189 @@
 {
-  "subtitleOnBanners": true,
-  "showDescription": true,
-  "banners": [],
-  "atAGlance": {
-    "lastUpdatedOn": {
-      "displayName": "Last updated on",
-      "enabled": true
+  "playerUiConfig": {
+    "progress": true,
+    "rating": true,
+    "share": true
+  },
+  "apiConfig": {
+    "extendedContentRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/extended/content/v1/read"
     },
-    "expiryDate": {
-      "displayName": "Expiry date",
-      "enabled": true
+    "getServerDate": {
+      "enabled": true,
+      "url": "/apis/public/v8/systemDate"
     },
-    "learningMode": {
-      "displayName": "Learning mode",
-      "enabled": true
+    "enrollmentData": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/learner/course/v4/user/enrollment/details"
     },
-    "region": {
-      "displayName": "Region",
-      "enabled": true
+    "totalKarmaPoints": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/totalkarmapoints"
     },
-    "license": {
-      "displayName": "License",
-      "enabled": true
+    "hierarchy": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/course/v1/hierarchy"
     },
-    "locale": {
-      "displayName": "Locale",
-      "enabled": true
+    "ratingRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/ratings/v1/read"
     },
-    "hasTranslations": {
-      "displayName": "Has translations",
-      "enabled": true
+    "overallRating": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/ratings/v1/summary"
     },
-    "keywords": {
-      "displayName": "Keywords",
-      "enabled": true
+    "commentTreeGet": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/commentTree/v1/get"
     },
-    "curatedInKB": {
-      "displayName": "Size",
-      "enabled": true
+    "commentSearch": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/comment/v3/search"
     },
-    "displayContentType": {
-      "displayName": "Content type",
-      "enabled": true
+    "likedComments": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/comment/v1/likedComments"
     },
-    "complexityLevel": {
-      "displayName": "Complexity level",
-      "enabled": true
+    "contentEnroll": {
+      "enabled": true,
+      "url": "/apis/protected/v8/cohorts/user/autoenrollment"
     },
-    "duration": {
-      "displayName": "Duration",
-      "enabled": true
+    "contentProgress": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/read/content-progres"
     },
-    "cost": {
-      "displayName": "Cost",
-      "enabled": true
+    "addFirstComment": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/comment/v1/addFirst"
     },
-    "viewCount": {
-      "displayName": "View count",
-      "enabled": true
+    "addNewComment": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/comment/v1/addNew"
     },
-    "sourceShortName": {
-      "displayName": "Source name",
-      "enabled": true
+    "courseCompletionSurvey": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/forms/v2/getFormById"
     },
-    "source": {
-      "displayName": "Source name",
-      "enabled": true
+    "submitCompletionSurvey": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/forms/v2/saveFormSubmit"
     },
-    "structure": {
-      "displayName": "Structure",
-      "enabled": true
-    },
-    "competencies": {
-      "displayName": "Competencies",
-      "enabled": true
-    },
-    "batchDate": {
-      "displayName": "Batch date",
-      "enabled": true
-    },
-    "batchDuration": {
-      "displayName": "Batch duration",
-      "enabled": true
-    },
-    "contentType": {
-      "displayName": "Content type",
-      "enabled": true
-    },
-    "batchSize": {
-      "displayName": "Batch size",
-      "enabled": true
-    },
-    "enrolled": {
-      "displayName": "Enrolled",
-      "enabled": true
-    }
-    ,
-    "rejected": {
-      "displayName": "Rejected",
-      "enabled": true
-    }
-    ,
-    "totalApplied": {
-      "displayName": "Total applied",
-      "enabled": true
+    "shareContent": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/v1/content/recommend"
     }
   },
-  "overview": {
-    "description": {
-      "displayName": "summary",
-      "enabled": true
+  "playerApiConfig": {
+    "assessmentSubmitV2": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v2"
     },
-    "body": {
-      "displayName": "description",
-      "enabled": true
+    "assessmentSubmitV3": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v3"
     },
-    "learningObjective": {
-      "displayName": "Learning objective",
-      "enabled": true
+    "assessmentSubmitV4": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v4"
     },
-    "registrationInstructions": {
-      "displayName": "Registration instructions",
-      "enabled": true
+    "assessmentSubmitV5": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v5"
     },
-    "studyMaterials": {
-      "displayName": "Study materials",
-      "enabled": true
+    "assessmentResultV4": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/v4/result"
     },
-    "skills": {
-      "displayName": "Skills",
-      "enabled": true
+    "assessmentResultV5": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/v5/result"
     },
-    "preRequisites": {
-      "displayName": "Pre-Requisites",
-      "enabled": true
+    "questionPaperSectionsV4": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/assessment/read"
     },
-    "topics": {
-      "displayName": "Topics",
-      "enabled": false
+    "questionPaperQuestionsV4": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/question/read"
+    },
+    "questionPaperSections": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/assessment/v5/read"
+    },
+    "questionPaperQuestions": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/question/v5/read"
+    },
+    "saveAndNextQuestion": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/assessment/save"
+    },
+    "canAttempt": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/retake"
+    },
+    "canAttemptV5": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/v5/retake"
+    },
+    "assessmentSubmitV6": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v6"
+    },
+    "assessmentSubmitV7": {
+      "enabled": true,
+      "url": "/apis/protected/v8/user/evaluate/assessment/submit/v7"
+    },
+    "assessmentResultV7": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/v7/result"
+    },
+    "canAttemptV7": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/user/assessment/v7/retake"
+    },
+    "publicAssessmentSubmit": {
+      "enabled": true,
+      "url": "api/public/assessment/v5/assessment/submit"
+    },
+    "publicAssessmentResult": {
+      "enabled": true,
+      "url": "api/public/assessment/v5/result"
+    },
+    "publicAssessmentV4Submit": {
+      "enabled": true,
+      "url": "api/public/assessment/v4/assessment/submit"
+    },
+    "hierarchyRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/course/v1/hierarchy"
+    },
+    "extendedContentRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/extended/content/v1/read"
+    },
+    "resourceRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/content/v2/read"
+    },
+    "contentProgressRead": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/read/content-progres"
+    },
+    "contentOverallRating": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/ratings/v1/summary"
+    },
+    "contentProgressUpdate": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/content-progres"
+    },
+    "userRating": {
+      "enabled": true,
+      "url": "/apis/proxies/v8/ratings/v1/read"
     }
-  },
-  "analytics": {
-    "enabled": true,
-    "available": true,
-    "courseAnalyticsClient": true,
-    "courseAnalytics": false
-  },
+    },
   "BatchEnrollL1Msg": "Your enrollment request is being reviewed. You will be notified when it is approved.",
   "BatchEnrollL2Msg": "We are now reviewing your request. You will be notified when it is approved.",
   "BatchEnrollDelayMsg": "Are you still waiting for the approval?",
@@ -339,7 +377,7 @@
     "enrolledContent": true,
     "newCommentSection": {
       "show": true,
-      "showTopInfo": false,
+      "showTopInfo": true,
       "commentTreeData": {
         "isFirstComment": true,
         "commentTreeId": "",
@@ -367,7 +405,7 @@
         "icon": "send"
       },
       "styles": {
-        "background-color": "#fff", 
+        "background-color": "#fff",
         "border": "1px solid rgba(0, 0, 0, 0.08)"
       }
     },
@@ -393,7 +431,7 @@
           "show": true,
           "showCount": true,
           "icon": "comment",
-          "iconDisplay": false
+          "iconDisplay": true
         },
         "flagComment": {
           "show": true
@@ -401,12 +439,12 @@
       },
       "repliesSection": {
         "show": true,
-        "indented": false,
+        "indented": true,
         "newCommentReply": {
           "show": true,
-          "showTopInfo": false,
+          "showTopInfo": true,
           "commentTreeData": {
-            "isFirstComment": false,
+            "isFirstComment": true,
             "commentTreeId": "",
             "hierarchyPath": [],
             "entityType": "COURSE",
@@ -432,7 +470,7 @@
             "icon": "send"
           },
           "styles": {
-            "background-color": "#1B4CA10D", 
+            "background-color": "#1B4CA10D",
             "border": "none"
           }
         },
@@ -456,7 +494,7 @@
             },
             "comments": {
               "show": true,
-              "showCount": false,
+              "showCount": true,
               "icon": "chat_bubble",
               "iconDisplay": true
             },
@@ -465,13 +503,13 @@
             }
           },
           "repliesSection": {
-            "show": false
+            "show": true
           },
           "newCommentReply": {
             "show": true,
-            "showTopInfo": false,
+            "showTopInfo": true,
             "commentTreeData": {
-              "isFirstComment": false,
+              "isFirstComment": true,
               "commentTreeId": "",
               "hierarchyPath": [],
               "entityType": "COURSE",
@@ -497,7 +535,7 @@
               "icon": "send"
             },
             "styles": {
-              "background-color": "#1B4CA10D", 
+              "background-color": "#1B4CA10D",
               "border": "none"
             }
           }
@@ -509,7 +547,125 @@
     }
   },
   "commentsTab": true,
-  "samuhikCharchaTab": true,
+
+  "uiVisibility": {
+    "banner": {
+      "visible": true,
+      "courseBadge": true,
+      "iGOTSpecialization": true,
+      "difficultyLevel": true,
+      "certificateBadge": true,
+      "dueDate": true,
+      "newVersionChip": true,
+      "shareButton": true,
+      "heading": true,
+      "byDepartment": true,
+      "ratingChip": true,
+      "additionalTags": true,
+      "lastUpdatedDate": true,
+      "languageChips": true
+    },
+    "rightPanel": {
+      "visible": true,
+      "heading": true,
+      "byDepartment": true,
+      "posterImage": true,
+      "shareButton": true,
+      "enrollButton": true,
+      "karmaPoints": true,
+      "progress": true,
+      "starRating": true,
+      "kpiValues": {
+        "visible": true,
+        "duration": true,
+        "courses": true,
+        "modules": true,
+        "videos": true,
+        "offlineSessions": true,
+        "pdfs": true,
+        "audios": true,
+        "webPages": true,
+        "interactiveContent": true,
+        "preEnrollmentAssessment": true,
+        "finalTest": true,
+        "practiceTest": true,
+        "otherItems": true,
+        "freeOrPaid": true,
+        "learningMode": true,
+        "license": true,
+        "languages": true
+      },
+      "authors": true,
+      "creators": true,
+      "provider": true,
+      "learnerAdvisory": {
+        "visible": true,
+        "title": true,
+        "readMoreLink": true,
+        "icon": true,
+        "tipText": true
+      }
+    },
+    "tabs": {
+      "visible": true,
+      "aboutTab": true,
+      "contentTab": true,
+      "discussionTab": true,
+      "teachersNoteTab": true,
+      "referenceNoteTab": true
+    },
+    "about": {
+      "visible": true,
+      "retirementWarning": true,
+      "certificate": true,
+      "batchInfo": true,
+      "kpiValues": true,
+      "description": true,
+      "learningOutcome": true,
+      "competencies": true,
+      "tags": {
+        "visible": true,
+        "title": true,
+        "keywords": true,
+        "searchTags": true,
+        "viewMoreLink": true
+      },
+      "sectors": true,
+      "authorsAndCurators": true,
+      "provider": true,
+      "ratingsAndReviews": {
+        "visible": true,
+        "ratingSummary": true,
+        "topReviews": {
+          "visible": true,
+          "title": true,
+          "showAllLink": true,
+          "reviewCards": true,
+          "noReviewsMessage": true
+        }
+      }
+    },
+    "discussion": {
+      "visible": true,
+      "promptIcon": true,
+      "promptText": true,
+      "inputBox": true,
+      "avatar": true,
+      "userName": true,
+      "verifiedBadge": true,
+      "designation": true,
+      "timestamp": true,
+      "commentText": true,
+      "likeButton": true,
+      "replyButton": false
+    },
+    "mobileFooter": {
+      "visible": true,
+      "enrollButton": true,
+      "learnerAdvisory": true
+    }
+  },
+
   "dynamicCertificateGeneration": {
     "allows": [
       "Invite-Only Program",
