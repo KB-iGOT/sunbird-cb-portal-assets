@@ -248,230 +248,230 @@
         ]
     },
     "profileConfig": {
-          "banner": {
+        "banner": {
             "enabled": true,
             "defaultBannerUrl": "",
             "editable": true
-          },
-          "userDetails": {
+        },
+        "userDetails": {
             "enabled": true,
             "profileImage": {
-              "enabled": true
+                "enabled": true
             },
             "progress": {
-              "enabled": true
+                "enabled": true
             },
             "designationOrganization": {
-              "enabled": true
+                "enabled": true
             },
             "menuButtonsEnabled": true,
             "insideMenuButtons": {
-              "editProfile": {
-                "enabled": true,
-                "editObjectKey": "editProfilePopup"
-              },
-              "transferRequest": {
-                "enabled": true
-              },
-              "settings": {
-                "enabled": true
-              }
+                "editProfile": {
+                    "enabled": true,
+                    "editObjectKey": "editProfilePopup"
+                },
+                "transferRequest": {
+                    "enabled": true
+                },
+                "settings": {
+                    "enabled": true
+                }
             }
-          },
-          "notMyUserWarning": {
+        },
+        "notMyUserWarning": {
             "enabled": true
-          },
-          "userStats": {
+        },
+        "userStats": {
             "enabled": true,
             "karmaPoints": {
-              "enabled": true,
-              "viewAllEnabled": true
+                "enabled": true,
+                "viewAllEnabled": true
             },
             "certificateCount": {
-              "enabled": true,
-              "viewAllEnabled": true
+                "enabled": true,
+                "viewAllEnabled": true
             },
             "myBadges": {
-              "enabled": true,
-              "viewAllEnabled": true
+                "enabled": true,
+                "viewAllEnabled": true
             },
             "postCount": {
-              "enabled": true,
-              "viewAllEnabled": true
+                "enabled": true,
+                "viewAllEnabled": true
             }
-          },
-          "aboutMe": {
+        },
+        "aboutMe": {
             "enabled": true,
             "editable": true
-          },
-          "basicDetails": {
+        },
+        "basicDetails": {
             "enabled": true,
             "primaryDetails": {
-              "enabled": true,
-              "editable": true,
-              "editObjectKey": "primaryDetailsEdit",
-              "fields": {
-                "group": {
-                  "key": "group",
-                  "enabled": true
-                },
-                "designation": {
-                  "key": "designation",
-                  "enabled": true
+                "enabled": true,
+                "editable": true,
+                "editObjectKey": "primaryDetailsEdit",
+                "fields": {
+                    "group": {
+                        "key": "group",
+                        "enabled": true
+                    },
+                    "designation": {
+                        "key": "designation",
+                        "enabled": true
+                    }
                 }
-              }
             },
             "otherDetails": {
-              "enabled": true,
-              "editable": true,
-              "editObjectKey": "otherDetailsEdit",
-              "fields": {
-                "employeeId": {
-                  "key": "employeeId",
-                  "enabled": true
-                },
-                "email": {
-                  "key": "email",
-                  "enabled": true
-                },
-                "mobileNumber": {
-                  "key": "mobileNumber",
-                  "enabled": true
-                },
-                "gender": {
-                  "key": "gender",
-                  "enabled": true
-                },
-                "dateOfBirth": {
-                  "key": "dateOfBirth",
-                  "enabled": true
-                },
-                "motherTongue": {
-                  "key": "motherTongue",
-                  "enabled": true
-                },
-                "category": {
-                  "key": "category",
-                  "enabled": true
-                },
-                "officePinCode": {
-                  "key": "officePinCode",
-                  "enabled": true
-                },
-                "ehrmsId": {
-                  "key": "ehrmsId",
-                  "enabled": true
-                },
-                "dateOfRetirement": {
-                  "key": "dateOfRetirement",
-                  "enabled": true
-                },
-                "governmentService": {
-                  "key": "governmentService",
-                  "enabled": true
-                },
-                "civilServiceType": {
-                  "key": "civilServiceType",
-                  "enabled": true
-                },
-                "services": {
-                  "key": "services",
-                  "enabled": true
-                },
-                "cadre": {
-                  "key": "cadre",
-                  "enabled": true
-                },
-                "batch": {
-                  "key": "batch",
-                  "enabled": true
-                },
-                "cadreControllingAuthority": {
-                  "key": "cadreControllingAuthority",
-                  "enabled": true
-                },
-                "centralDeputation": {
-                  "key": "centralDeputation",
-                  "enabled": true
+                "enabled": true,
+                "editable": true,
+                "editObjectKey": "otherDetailsEdit",
+                "fields": {
+                    "employeeId": {
+                        "key": "employeeId",
+                        "enabled": true
+                    },
+                    "email": {
+                        "key": "email",
+                        "enabled": true
+                    },
+                    "mobileNumber": {
+                        "key": "mobileNumber",
+                        "enabled": true
+                    },
+                    "gender": {
+                        "key": "gender",
+                        "enabled": true
+                    },
+                    "dateOfBirth": {
+                        "key": "dateOfBirth",
+                        "enabled": true
+                    },
+                    "motherTongue": {
+                        "key": "motherTongue",
+                        "enabled": true
+                    },
+                    "category": {
+                        "key": "category",
+                        "enabled": true
+                    },
+                    "officePinCode": {
+                        "key": "officePinCode",
+                        "enabled": true
+                    },
+                    "ehrmsId": {
+                        "key": "ehrmsId",
+                        "enabled": true
+                    },
+                    "dateOfRetirement": {
+                        "key": "dateOfRetirement",
+                        "enabled": true
+                    },
+                    "governmentService": {
+                        "key": "governmentService",
+                        "enabled": true
+                    },
+                    "civilServiceType": {
+                        "key": "civilServiceType",
+                        "enabled": true
+                    },
+                    "services": {
+                        "key": "services",
+                        "enabled": true
+                    },
+                    "cadre": {
+                        "key": "cadre",
+                        "enabled": true
+                    },
+                    "batch": {
+                        "key": "batch",
+                        "enabled": true
+                    },
+                    "cadreControllingAuthority": {
+                        "key": "cadreControllingAuthority",
+                        "enabled": true
+                    },
+                    "centralDeputation": {
+                        "key": "centralDeputation",
+                        "enabled": true
+                    }
                 }
-              }
             },
             "learningProgress": {
-              "enabled": true,
-              "viewLearnerPassbookEnabled": true
+                "enabled": true,
+                "viewLearnerPassbookEnabled": true
             }
-          },
-          "organisationSpecificDetails": {
+        },
+        "organisationSpecificDetails": {
             "enabled": true,
             "editable": true,
             "editObjectKey": "organisationSpecificDetailsEdit",
             "fields": {
-              "aadhaar_number": {
-                "key": "aadhaar_number",
-                "enabled": true
-              },
-              "sector_one": {
-                "key": "sector_one",
-                "enabled": true
-              },
-              "frontier_one": {
-                "key": "frontier_one",
-                "enabled": true
-              },
-              "command_hq_one": {
-                "key": "command_hq_one",
-                "enabled": true
-              },
-              "force_hq_value": {
-                "key": "force_hq_value",
-                "enabled": true
-              },
-              "sector3": {
-                "key": "sector3",
-                "enabled": true
-              },
-              "frontier3": {
-                "key": "frontier3",
-                "enabled": true
-              },
-              "force_hq_one": {
-                "key": "force_hq_one",
-                "enabled": true
-              }
+                "aadhaar_number": {
+                    "key": "aadhaar_number",
+                    "enabled": true
+                },
+                "sector_one": {
+                    "key": "sector_one",
+                    "enabled": true
+                },
+                "frontier_one": {
+                    "key": "frontier_one",
+                    "enabled": true
+                },
+                "command_hq_one": {
+                    "key": "command_hq_one",
+                    "enabled": true
+                },
+                "force_hq_value": {
+                    "key": "force_hq_value",
+                    "enabled": true
+                },
+                "sector3": {
+                    "key": "sector3",
+                    "enabled": true
+                },
+                "frontier3": {
+                    "key": "frontier3",
+                    "enabled": true
+                },
+                "force_hq_one": {
+                    "key": "force_hq_one",
+                    "enabled": true
+                }
             }
-          },
-          "serviceHistory": {
+        },
+        "serviceHistory": {
             "enabled": true,
             "canAdd": true,
             "editable": true,
             "editObjectKey": "serviceHistoryEdit"
-          },
-          "competencies": {
+        },
+        "competencies": {
             "enabled": true
-          },
-          "educationalQualifications": {
+        },
+        "educationalQualifications": {
             "enabled": true,
             "editable": true,
             "canAdd": true,
             "editObjectKey": "educationalQualificationsEdit"
-          },
-          "achievements": {
+        },
+        "achievements": {
             "enabled": true,
             "viewLearnerPassbookEnabled": true,
             "editable": true,
             "canAdd": true,
             "editObjectKey": "achievementsEdit"
-          },
-          "rightSection": {
+        },
+        "rightSection": {
             "enabled": true,
             "peopleSuggestions": {
-              "enabled": true
+                "enabled": true
             },
             "recommendedCommunities": {
-              "enabled": true
+                "enabled": true
             }
-          }
-        },
+        }
+    },
     "profileEditConfigs": {
         "editProfilePopup": {
             "profilePicture": {
@@ -498,74 +498,87 @@
             }
         },
         "otherDetailsEdit": {
-            "employeeId": {
-                "enabled": true,
-                "editable": true
-            },
-            "email": {
-                "enabled": true,
-                "editable": true
-            },
-            "mobileNumber": {
-                "enabled": true,
-                "editable": true
-            },
-            "gender": {
-                "enabled": true,
-                "editable": true
-            },
-            "dateOfBirth": {
-                "enabled": true,
-                "editable": true
-            },
-            "motherTongue": {
-                "enabled": true,
-                "editable": true
-            },
-            "category": {
-                "enabled": true,
-                "editable": true
-            },
-            "officePinCode": {
-                "enabled": true,
-                "editable": true
-            },
-            "ehrmsId": {
-                "enabled": true,
-                "editable": true
-            },
-            "dateOfRetirement": {
-                "enabled": true,
-                "editable": true
-            },
-            "governmentService": {
-                "enabled": true,
-                "editable": true
-            },
-            "civilServiceType": {
-                "enabled": true,
-                "editable": true
-            },
-            "services": {
-                "enabled": true,
-                "editable": true
-            },
-            "cadre": {
-                "enabled": true,
-                "editable": true
-            },
-            "batch": {
-                "enabled": true,
-                "editable": true
-            },
-            "cadreControllingAuthority": {
-                "enabled": true,
-                "editable": true
-            },
-            "centralDeputation": {
-                "enabled": true,
-                "editable": true
-            }
+            "isDynamicDialog": false,
+            "fields": [
+                {
+                    "type": "text",
+                    "key": "primaryEmail",
+                    "label": "Email",
+                    "placeholder": "Enter Email",
+                    "required": false,
+                    "valuePath": "primaryEmail",
+                    "row": "employeeEmailRow",
+                    "pattern": "^[a-zA-Z0-9]+[a-zA-Z0-9._-]*[a-zA-Z0-9]+@[a-zA-Z0-9]+([-a-zA-Z0-9]*[a-zA-Z0-9]+)?(\\.[a-zA-Z0-9-]+)*\\.[a-zA-Z]{2,4}$",
+                    "errorMessages": {
+                        "pattern": "Please enter a valid email address."
+                    }
+                },
+                {
+                    "type": "select",
+                    "key": "gender",
+                    "label": "Gender",
+                    "placeholder": "Select Gender",
+                    "required": false,
+                    "valuePath": "gender",
+                    "row": "genderDobRow",
+                    "optionsSource": "eUserGender"
+                },
+                {
+                    "type": "date",
+                    "key": "dob",
+                    "label": "Date of Birth",
+                    "placeholder": "Select Date",
+                    "valuePath": "dob",
+                    "maxDate": "new Date()",
+                    "readonly": true,
+                    "row": "genderDobRow"
+                },
+                {
+                    "type": "select",
+                    "key": "category",
+                    "label": "Category",
+                    "placeholder": "Select Category",
+                    "valuePath": "category",
+                    "row": "categoryPinRow",
+                    "optionsSource": "eCategory"
+                },
+                {
+                    "type": "text",
+                    "key": "pinCode",
+                    "label": "Office Pin Code",
+                    "placeholder": "Enter Office Pin Code",
+                    "valuePath": "pinCode",
+                    "maxLength": 6,
+                    "pattern": "^[0-9]{6}$",
+                    "row": "categoryPinRow",
+                    "errorMessages": {
+                        "pattern": "Please enter a valid 6-digit pin code."
+                    }
+                },
+                {
+                    "type": "mobile",
+                    "key": "mobile",
+                    "label": "Mobile Number",
+                    "placeholder": "Enter Mobile Number",
+                    "valuePath": "mobile",
+                    "prefix": "+91",
+                    "maxLength": 10,
+                    "pattern": "^[0-9]{10}$",
+                    "row": "mobileTongueRow",
+                    "errorMessages": {
+                        "pattern": "Please enter a valid 10-digit mobile number."
+                    }
+                },
+                {
+                    "type": "searchable-select",
+                    "key": "domicileMedium",
+                    "label": "NetworkV2Profile.motherTongue",
+                    "placeholder": "Select Mother Tongue",
+                    "valuePath": "domicileMedium",
+                    "row": "mobileTongueRow",
+                    "optionsSource": "languages"
+                }
+            ]
         },
         "organisationSpecificDetailsEdit": {
             "aadhaarNumber": {
@@ -594,85 +607,88 @@
             }
         },
         "serviceHistoryEdit": {
-            "isDynamicDialog": true,
-            "fields": [{
-                "type": "organisation-select",
-                "key": "orgName",
-                "label": "Organisation",
-                "placeholder": "Select Organisation/Ministry",
-                "searchPlaceholder": "Search Organisation/Ministry",
-                "required": true,
-                "valuePath": "orgName",
-                "canUpdate": false,
-                "errorMessages": {
-                    "required": "Please select an organisation."
-                }
-            }, {
-                "type": "designation-select",
-                "key": "designation",
-                "label": "Designation",
-                "placeholder": "Select Designation",
-                "searchPlaceholder": "Search Designation",
-                "required": true,
-                "valuePath": "designation",
-                "canUpdate": false,
-                "dependencyField": "orgName",
-                "errorMessages": {
-                    "required": "Please select a designation."
-                }
-            }, {
-                "type": "select",
-                "key": "orgState",
-                "label": "State",
-                "placeholder": "Select State",
-                "valuePath": "orgState",
-                "row": "stateDistrictRow",
-                "optionsSource": "states"
-            },
+            "isDynamicDialog": false,
+            "fields": [
                 {
-                "type": "select",
-                "key": "orgDistrict",
-                "label": "District",
-                "placeholder": "Select District",
-                "valuePath": "orgDistrict",
-                "row": "stateDistrictRow",
-                "optionsSource": "districts",
-                "dependencyField": "orgState"
+                    "type": "organisation-select",
+                    "key": "orgName",
+                    "label": "Organisation",
+                    "placeholder": "Select Organisation/Ministry",
+                    "searchPlaceholder": "Search Organisation/Ministry",
+                    "required": true,
+                    "valuePath": "orgName",
+                    "canUpdate": false,
+                    "errorMessages": {
+                        "required": "Please select an organisation."
+                    }
                 },
                 {
-                "type": "date",
-                "key": "startDate",
-                "label": "Start Date",
-                "placeholder": "Select Date",
-                "valuePath": "startDate",
-                "row": "dateRow"
+                    "type": "designation-select",
+                    "key": "designation",
+                    "label": "Designation",
+                    "placeholder": "Select Designation",
+                    "searchPlaceholder": "Search Designation",
+                    "required": true,
+                    "valuePath": "designation",
+                    "canUpdate": false,
+                    "dependencyField": "orgName",
+                    "errorMessages": {
+                        "required": "Please select a designation."
+                    }
                 },
                 {
-                "type": "date",
-                "key": "endDate",
-                "label": "End Date",
-                "placeholder": "Select Date",
-                "valuePath": "endDate",
-                "row": "dateRow",
-                "disableDependency": {
+                    "type": "select",
+                    "key": "orgState",
+                    "label": "State",
+                    "placeholder": "Select State",
+                    "valuePath": "orgState",
+                    "row": "stateDistrictRow",
+                    "optionsSource": "states"
+                },
+                {
+                    "type": "select",
+                    "key": "orgDistrict",
+                    "label": "District",
+                    "placeholder": "Select District",
+                    "valuePath": "orgDistrict",
+                    "row": "stateDistrictRow",
+                    "optionsSource": "districts",
+                    "dependencyField": "orgState"
+                },
+                {
+                    "type": "date",
+                    "key": "startDate",
+                    "label": "Start Date",
+                    "placeholder": "Select Date",
+                    "valuePath": "startDate",
+                    "row": "dateRow"
+                },
+                {
+                    "type": "date",
+                    "key": "endDate",
+                    "label": "End Date",
+                    "placeholder": "Select Date",
+                    "valuePath": "endDate",
+                    "row": "dateRow",
+                    "disableDependency": {
                         "key": "currentlyWorking",
                         "value": true
                     }
                 },
                 {
-                "type": "checkbox",
-                "key": "currentlyWorking",
-                "label": "Currently Working",
-                "defaultValue": false,
-                "valuePath": "currentlyWorking"
+                    "type": "checkbox",
+                    "key": "currentlyWorking",
+                    "label": "Currently Working",
+                    "defaultValue": false,
+                    "valuePath": "currentlyWorking"
                 },
                 {
-                "type": "textarea",
-                "key": "description",
-                "label": "Description",
-                "placeholder": "Add your description",
-                "maxLength": 1000,
-                "valuePath": "description"
+                    "type": "textarea",
+                    "key": "description",
+                    "label": "Description",
+                    "placeholder": "Add your description",
+                    "maxLength": 1000,
+                    "valuePath": "description"
                 }
             ]
         },
@@ -680,82 +696,82 @@
             "isDynamicDialog": true,
             "fields": [
                 {
-                "type": "degree-select",
-                "key": "degree",
-                "label": "Degree",
-                "placeholder": "Select Degree",
-                "required": true,
-                "valuePath": "degree",
-                "searchPlaceholder": "Search degree...",
-                "row": "row1"
-                },
-                {
-                "type": "text",
-                "key": "otherDegree",
-                "label": "Other Degree",
-                "placeholder": "Enter your degree",
-                "maxLength": 80,
-                "pattern": "^[a-zA-Z0-9\\s(),.&/]*$",
-                "conditionalOn": {
+                    "type": "degree-select",
                     "key": "degree",
-                    "value": "Other",
-                    "operator": "==="
-                },
-                "row": "row1"
-                },
-                {
-                "type": "text",
-                "key": "fieldOfStudy",
-                "label": "Field of Study",
-                "placeholder": "Enter your specialization(e.g., IT, Civil)",
-                "required": true,
-                "maxLength": 250,
-                "pattern": "^[a-zA-Z0-9\\s.,'-]*$",
-                "row": "row2"
+                    "label": "Degree",
+                    "placeholder": "Select Degree",
+                    "required": true,
+                    "valuePath": "degree",
+                    "searchPlaceholder": "Search degree...",
+                    "row": "row1"
                 },
                 {
-                "type": "institution-select",
-                "key": "institutionName",
-                "label": "Institute Name",
-                "placeholder": "Please select an institute name",
-                "required": true,
-                "valuePath": "institutionName",
-                "searchPlaceholder": "Search institute...",
-                "row": "row3"
+                    "type": "text",
+                    "key": "otherDegree",
+                    "label": "Other Degree",
+                    "placeholder": "Enter your degree",
+                    "maxLength": 80,
+                    "pattern": "^[a-zA-Z0-9\\s(),.&/]*$",
+                    "conditionalOn": {
+                        "key": "degree",
+                        "value": "Other",
+                        "operator": "==="
+                    },
+                    "row": "row1"
                 },
                 {
-                "type": "text",
-                "key": "otherInstituteName",
-                "label": "Other Institute Name",
-                "placeholder": "Enter institute name",
-                "maxLength": 125,
-                "pattern": "^[a-zA-Z0-9\\s(),.&/]*$",
-                "conditionalOn": {
+                    "type": "text",
+                    "key": "fieldOfStudy",
+                    "label": "Field of Study",
+                    "placeholder": "Enter your specialization(e.g., IT, Civil)",
+                    "required": true,
+                    "maxLength": 250,
+                    "pattern": "^[a-zA-Z0-9\\s.,'-]*$",
+                    "row": "row2"
+                },
+                {
+                    "type": "institution-select",
                     "key": "institutionName",
-                    "value": "Other",
-                    "operator": "==="
-                },
-                "row": "row3"
-                },
-                {
-                "type": "year-select",
-                "key": "startYear",
-                "label": "Start Year",
-                "placeholder": "Select Year",
-                "required": true,
-                "valuePath": "startYear",
-                "yearFrom": 1900,
-                "row": "row4"
+                    "label": "Institute Name",
+                    "placeholder": "Please select an institute name",
+                    "required": true,
+                    "valuePath": "institutionName",
+                    "searchPlaceholder": "Search institute...",
+                    "row": "row3"
                 },
                 {
-                "type": "year-select",
-                "key": "endYear",
-                "label": "End Year",
-                "placeholder": "Select Year",
-                "required": true,
-                "valuePath": "endYear",
-                "yearFrom": 1900,
-                "row": "row4"
+                    "type": "text",
+                    "key": "otherInstituteName",
+                    "label": "Other Institute Name",
+                    "placeholder": "Enter institute name",
+                    "maxLength": 125,
+                    "pattern": "^[a-zA-Z0-9\\s(),.&/]*$",
+                    "conditionalOn": {
+                        "key": "institutionName",
+                        "value": "Other",
+                        "operator": "==="
+                    },
+                    "row": "row3"
+                },
+                {
+                    "type": "year-select",
+                    "key": "startYear",
+                    "label": "Start Year",
+                    "placeholder": "Select Year",
+                    "required": true,
+                    "valuePath": "startYear",
+                    "yearFrom": 1900,
+                    "row": "row4"
+                },
+                {
+                    "type": "year-select",
+                    "key": "endYear",
+                    "label": "End Year",
+                    "placeholder": "Select Year",
+                    "required": true,
+                    "valuePath": "endYear",
+                    "yearFrom": 1900,
+                    "row": "row4"
                 }
             ]
         },
@@ -803,8 +819,12 @@
                     "placeholder": "Start Date",
                     "valuePath": "contextData.startDate",
                     "maxDate": "new Date()",
+                    "dateDependencySmallerValidator": "endDate",
                     "readonly": true,
-                    "row": "achievementDateRow"
+                    "row": "achievementDateRow",
+                    "errorMessages": {
+                        "dateGreaterThanGivenDate": "Start date cannot be after end date."
+                    }
                 },
                 {
                     "type": "date",
@@ -813,8 +833,12 @@
                     "placeholder": "Select Date",
                     "valuePath": "contextData.endDate",
                     "maxDate": "new Date()",
+                    "dateDependencyGreaterValidator": "startDate",
                     "readonly": true,
-                    "row": "achievementDateRow"
+                    "row": "achievementDateRow",
+                    "errorMessages": {
+                        "dateGreaterThanGivenDate": "End date cannot be before start date."
+                    }
                 },
                 {
                     "type": "date",
@@ -825,9 +849,11 @@
                     "valuePath": "contextData.issuedDate",
                     "maxDate": "new Date()",
                     "readonly": true,
+                    "dateDependencySmallerValidator": "endDate",
                     "row": "issuedTrainingRow",
                     "errorMessages": {
-                        "required": "Please select an issue date."
+                        "required": "Please select an issue date.",
+                        "dateGreaterThanGivenDate": "Issue date cannot be before end date."
                     }
                 },
                 {
@@ -925,6 +951,176 @@
                     "valuePath": "contextData.description"
                 }
             ]
+        }
+    },
+    "apiConfig": {
+        "profileV1Basic": {
+            "url": "/apis/proxies/v8/user/profile/v1/basic",
+            "enabled": true
+        },
+        "communityV1Popular": {
+            "url": "/apis/proxies/v8/community/v1/popular",
+            "enabled": true
+        },
+        "achievementList": {
+            "url": "/apis/proxies/v8/learner/achievement/list",
+            "enabled": true
+        },
+        "profileV1Extended": {
+            "url": "/apis/proxies/v8/user/profile/v1/extended/",
+            "enabled": true
+        },
+        "userWFApplicationFieldsSearch": {
+            "url": "/apis/proxies/v8/workflow/v2/userWFApplicationFieldsSearch",
+            "enabled": true
+        },
+        "userV1Groups": {
+            "url": "api/user/v1/groups",
+            "enabled": true
+        },
+        "userInsights": {
+            "url": "apis/proxies/v8/read/user/insights",
+            "enabled": true
+        },
+        "userV1ExtPatch": {
+            "url": "/apis/proxies/v8/user/v1/extPatch",
+            "enabled": true
+        },
+        "profilePhotoUploadProfileBanner": {
+            "url": "apis/proxies/v8/storage/profilePhotoUpload/profileBanner",
+            "enabled": true
+        },
+        "profilePhotoUploadProfileImage": {
+            "url": "apis/proxies/v8/storage/profilePhotoUpload/profileImage",
+            "enabled": true
+        },
+        "extendedProfileListStates": {
+            "url": "apis/proxies/v8/extendedprofile/list/states",
+            "enabled": true
+        },
+        "userV1Search": {
+            "url": "/apis/proxies/v8/user/v1/search",
+            "enabled": true
+        },
+        "extendedProfileListDistricts": {
+            "url": "apis/proxies/v8/extendedprofile/list/districts",
+            "enabled": true
+        },
+        "profileV1ExtendedUpdate": {
+            "url": "apis/proxies/v8/user/profile/v1/extended/update",
+            "enabled": true
+        },
+        "userV3ExtPatch": {
+            "url": "/apis/proxies/v8/user/v3/extPatch",
+            "enabled": true
+        },
+        "workflowHandlerTransition": {
+            "url": "/apis/protected/v8/workflowhandler/transition",
+            "enabled": true
+        },
+        "orgV1Read": {
+            "url": "/api/org/v1/read",
+            "enabled": true
+        },
+        "hierarchyMinistrySearch": {
+            "url": "/apis/public/v8/org/hierarchy/ministry/search",
+            "enabled": true
+        },
+        "hierarchySearch": {
+            "url": "apis/public/v8/org/hierarchy/search",
+            "enabled": true
+        },
+        "v8DesignationSearch": {
+            "url": "/apis/proxies/v8/designation/search",
+            "enabled": true
+        },
+        "sunbirdigotV4Search": {
+            "url": "/apis/proxies/v8/sunbirdigot/v4/search",
+            "enabled": true
+        },
+        "hierarchyStateSearch": {
+            "url": "/apis/public/v8/org/hierarchy/state/search",
+            "enabled": true
+        },
+        "cadreConfig": {
+            "url": "/apis/proxies/v8/data/v2/system/settings/get/cadreConfig",
+            "enabled": true
+        },
+        "profileRegistryGetMasterLanguages": {
+            "url": "/apis/protected/v8/user/profileRegistry/getMasterLanguages",
+            "enabled": true
+        },
+        "userV5PublicSearch": {
+            "url": "/apis/proxies/v8/user/v5/public/search",
+            "enabled": true
+        },
+        "approvedDomains": {
+            "url": "/apis/proxies/v8/user/v1/email/approvedDomains",
+            "enabled": true
+        },
+        "otpV3Generate": {
+            "url": "/apis/proxies/v8/otp/v3/generate",
+            "enabled": true
+        },
+        "otpV4Verify": {
+            "url": "/apis/proxies/v8/otp/v4/verify",
+            "enabled": true
+        },
+        "otpV1Generate": {
+            "url": "/apis/proxies/v8/otp/v1/generate",
+            "enabled": true
+        },
+        "customFieldsV1Search": {
+            "url": "apis/proxies/v8/customFields/v1/search",
+            "enabled": true
+        },
+        "updateAdditionalFields": {
+            "url": "apis/proxies/v8/user/profile/v1/update/additionalFields",
+            "enabled": true
+        },
+        "profileV1GetAdditionalFields": {
+            "url": "apis/proxies/v8/user/profile/v1/getAdditionalFields",
+            "enabled": true
+        },
+        "orgV1Search": {
+            "url": "apis/proxies/v8/org/v1/search",
+            "enabled": true
+        },
+        "achievementDelete": {
+            "url": "apis/proxies/v8/learner/achievement/delete",
+            "enabled": true
+        },
+        "masterdataV1Search": {
+            "url": "apis/proxies/v8/masterdata/v1/search",
+            "enabled": true
+        },
+        "frameworkV1ReadKcmfinalFw": {
+            "url": "apis/proxies/v8/framework/v1/read/kcmfinal_fw",
+            "enabled": true
+        },
+        "profilePhotoUploadUserAchievements": {
+            "url": "apis/proxies/v8/storage/apis/proxies/v8/storage/profilePhotoUpload/userAchievements",
+            "enabled": true
+        },
+        "achievementCreate": {
+            "url": "apis/proxies/v8/learner/achievement/create",
+            "enabled": true
+        },
+        "achievementUpdate": {
+            "url": "/apis/proxies/v8/learner/achievement/update",
+            "enabled": true
+        },
+        "updateDegree": {
+            "url": "apis/proxies/v8/masterdata/update/degree",
+            "enabled": true
+        },
+        "updateInstitution": {
+            "url": "apis/proxies/v8/masterdata/update/institution",
+            "enabled": true
+        },
+        "connectionsV1ProfileRelationship": {
+            "url": "apis/proxies/v8/connections/v1/profile/relationship",
+            "enabled": true
         }
     }
 }
