@@ -1653,7 +1653,7 @@
         "noevents": "Events will be available soon.",
         "learningPathway": "Learning Pathway",
         "noMatchingCourses": "No matching courses",
-        "youwillFindProviderCourseHere.": "You will find Provider Course Here."
+        "youWillFindProviderCourseHere.": "You will find Provider Course Here."
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
