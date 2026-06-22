@@ -2774,6 +2774,7 @@
         "viewCommunity": "View Community",
         "certificate": "Certificate",
         "endDataCannotBeBeforeStartDate": "End date cannot be before start date.",
+        "issueDateCannotBeBeforeEndDate": "Issue date cannot be before end date.",
         "pleaseEnterValidDate": "Please enter a valid date.",
         "searchDegrees": "Search Degrees",
         "somethingWentWrongPleaseTryAgain": "Something went wrong please try again",
