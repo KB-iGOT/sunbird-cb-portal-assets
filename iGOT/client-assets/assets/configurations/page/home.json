@@ -1641,7 +1641,7 @@
     ]
   },
   "clientList": {
-    "enabled": true,
+    "enabled": false,
     "data": [
     {
       "orgId": "01355681440917913657",

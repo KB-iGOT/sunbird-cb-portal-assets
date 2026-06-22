@@ -18,6 +18,17 @@
       "notification": false,
       "downloadApp": false
     },
+     "settingsMenu": {
+      "enabled": true,
+      "generalSettings": true,
+      "notifications": true,
+      "accountAndPassword": true,
+      "resetPassword": true,
+      "privacy": true,
+      "getStartedTour": false,
+      "profile": false,
+      "visibilityControl": true
+    },
     "secondaryHeader": {
       "enabled": true,
       "exploreContent": true,
@@ -41,8 +52,7 @@
       }
     },
     "marquee": {
-      "enabled": false,
-      "api": "/api/marquee"
+      "enabled": false
     },
     "footer": {
       "enabled": true,
@@ -107,7 +117,28 @@
     "communities": true,
     "resources": true,
     "all": false
-  }
+  },
+    "cards": {
+      "posterImage": true,
+      "language": true,
+      "duration": true,
+      "ca": true,
+      "newBadge": true,
+      "igotSpecialization": true,
+      "contentType": true,
+      "difficultyLevel": false,
+      "downloadCertificate": true,
+      "inProgress": true,
+      "completed": true,
+      "overdue": true,
+      "upcoming": true,
+      "organisation": true,
+      "creatorLogo": true,
+      "multiLingual": true,
+      "rating": false,
+      "mostEnrolled": true,
+      "igotBadge": true
+    }
   },
 
   "features": {
@@ -246,8 +277,20 @@
       "applicationsById": {
         "url": "/apis/proxies/v8/forms/v2/bulkGetApplicationsById",
         "enabled": true
+      },
+      "dictionary": {
+        "url": "/apis/proxies/v8/content/v5/dictionary",
+        "enabled": true
+      },
+      "read": {
+        "url": "/apis/proxies/v8/content/v2/read",
+        "enabled": true
       }
     }
+  },
+
+  "apicache": {
+    "dictionaryTime": 300
   },
 
   "featureFlags": {
