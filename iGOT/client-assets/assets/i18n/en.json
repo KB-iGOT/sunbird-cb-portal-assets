@@ -2742,6 +2742,7 @@
         "noteForAwards": "Added achievements will be reflected in the Learner Passbook after 30 minutes",
         "title": "Title",
         "egExcelBeginner": "e.g. Excel beginner",
+        "egMicrosoft": "e.g. Microsoft",
         "pleaseEnterTitle": "Please enter a title",
         "titleTooShort": "Title must be at least 10 characters long",
         "titleTooLong": "Title cannot be more than 70 characters long",
@@ -2824,7 +2825,9 @@
         "learnerPassbook": "Learner Passbook",
         "learningHistory": "Learning History",
         "learningProgressDescription": "Track your learning journey, validated skills, and professional growth in one comprehensive view.",
-        "learningObjective": "Learning Objective"
+        "learningObjective": "Learning Objective",
+        "selectTrainingType": "Select training type",
+        "selectDeliveryMode": "Select delivery mode"
     },
     "NetworkLandingPage": {
         "exploreNetwork": "Explore Network",

@@ -311,12 +311,20 @@
                 "editable": true,
                 "editObjectKey": "primaryDetailsEdit",
                 "fields": {
+                    "editTransferRequest": {
+                        "key": "editTransferRequest",
+                        "enabled": true
+                    },
                     "group": {
                         "key": "group",
                         "enabled": true
                     },
                     "designation": {
                         "key": "designation",
+                        "enabled": true
+                    },
+                    "approvalStatus": {
+                        "key": "approvalStatus",
                         "enabled": true
                     }
                 }
@@ -498,25 +506,28 @@
             }
         },
         "otherDetailsEdit": {
-            "isDynamicDialog": false,
+            "isDynamicDialog": true,
             "fields": [
                 {
-                    "type": "text",
+                    "type": "email",
                     "key": "primaryEmail",
-                    "label": "Email",
+                    "label": "NetworkV2Profile.email",
                     "placeholder": "Enter Email",
                     "required": false,
                     "valuePath": "primaryEmail",
                     "row": "employeeEmailRow",
                     "pattern": "^[a-zA-Z0-9]+[a-zA-Z0-9._-]*[a-zA-Z0-9]+@[a-zA-Z0-9]+([-a-zA-Z0-9]*[a-zA-Z0-9]+)?(\\.[a-zA-Z0-9-]+)*\\.[a-zA-Z]{2,4}$",
                     "errorMessages": {
-                        "pattern": "Please enter a valid email address."
-                    }
+                        "pattern": "NetworkV2Profile.invalidEmail"
+                    },
+                    "addOTPverification": true,
+                    "addValueChangeListener": true,
+                    "valueChangeKey": "primaryEmail"
                 },
                 {
                     "type": "select",
                     "key": "gender",
-                    "label": "Gender",
+                    "label": "NetworkV2Profile.gender",
                     "placeholder": "Select Gender",
                     "required": false,
                     "valuePath": "gender",
@@ -526,7 +537,7 @@
                 {
                     "type": "date",
                     "key": "dob",
-                    "label": "Date of Birth",
+                    "label": "NetworkV2Profile.dob",
                     "placeholder": "Select Date",
                     "valuePath": "dob",
                     "maxDate": "new Date()",
@@ -536,7 +547,7 @@
                 {
                     "type": "select",
                     "key": "category",
-                    "label": "Category",
+                    "label": "NetworkV2Profile.category",
                     "placeholder": "Select Category",
                     "valuePath": "category",
                     "row": "categoryPinRow",
@@ -545,8 +556,8 @@
                 {
                     "type": "text",
                     "key": "pinCode",
-                    "label": "Office Pin Code",
-                    "placeholder": "Enter Office Pin Code",
+                    "label": "NetworkV2Profile.officePinCode",
+                    "placeholder": "",
                     "valuePath": "pinCode",
                     "maxLength": 6,
                     "pattern": "^[0-9]{6}$",
@@ -558,7 +569,7 @@
                 {
                     "type": "mobile",
                     "key": "mobile",
-                    "label": "Mobile Number",
+                    "label": "NetworkV2Profile.mobileNumber",
                     "placeholder": "Enter Mobile Number",
                     "valuePath": "mobile",
                     "prefix": "+91",
@@ -566,8 +577,11 @@
                     "pattern": "^[0-9]{10}$",
                     "row": "mobileTongueRow",
                     "errorMessages": {
-                        "pattern": "Please enter a valid 10-digit mobile number."
-                    }
+                        "pattern": "NetworkV2Profile.pleaseEnterValidMobileNumber"
+                    },
+                    "addOTPverification": true,
+                    "addValueChangeListener": true,
+                    "valueChangeKey": "primaryMobile"
                 },
                 {
                     "type": "searchable-select",
@@ -612,9 +626,9 @@
                 {
                     "type": "organisation-select",
                     "key": "orgName",
-                    "label": "Organisation",
-                    "placeholder": "Select Organisation/Ministry",
-                    "searchPlaceholder": "Search Organisation/Ministry",
+                    "label": "NetworkV2Profile.organisation",
+                    "placeholder": "NetworkV2Profile.selectOrganisationMinistry",
+                    "searchPlaceholder": "NetworkV2Profile.searchOrganisationMinistry",
                     "required": true,
                     "valuePath": "orgName",
                     "canUpdate": false,
@@ -625,22 +639,22 @@
                 {
                     "type": "designation-select",
                     "key": "designation",
-                    "label": "Designation",
-                    "placeholder": "Select Designation",
-                    "searchPlaceholder": "Search Designation",
+                    "label": "NetworkV2Profile.designation",
+                    "placeholder": "NetworkV2Profile.selectDesignation",
+                    "searchPlaceholder": "NetworkV2Profile.searchDesignation",
                     "required": true,
                     "valuePath": "designation",
                     "canUpdate": false,
                     "dependencyField": "orgName",
                     "errorMessages": {
-                        "required": "Please select a designation."
+                        "required": "NetworkV2Profile.pleaseSelectDesignation"
                     }
                 },
                 {
                     "type": "select",
                     "key": "orgState",
-                    "label": "State",
-                    "placeholder": "Select State",
+                    "label": "NetworkV2Profile.state",
+                    "placeholder": "NetworkV2Profile.selectState",
                     "valuePath": "orgState",
                     "row": "stateDistrictRow",
                     "optionsSource": "states"
@@ -648,8 +662,8 @@
                 {
                     "type": "select",
                     "key": "orgDistrict",
-                    "label": "District",
-                    "placeholder": "Select District",
+                    "label": "NetworkV2Profile.district",
+                    "placeholder": "NetworkV2Profile.selectDistrict",
                     "valuePath": "orgDistrict",
                     "row": "stateDistrictRow",
                     "optionsSource": "districts",
@@ -658,16 +672,16 @@
                 {
                     "type": "date",
                     "key": "startDate",
-                    "label": "Start Date",
-                    "placeholder": "Select Date",
+                    "label": "NetworkV2Profile.startDate",
+                    "placeholder": "NetworkV2Profile.selectDate",
                     "valuePath": "startDate",
                     "row": "dateRow"
                 },
                 {
                     "type": "date",
                     "key": "endDate",
-                    "label": "End Date",
-                    "placeholder": "Select Date",
+                    "label": "NetworkV2Profile.endDate",
+                    "placeholder": "NetworkV2Profile.selectDate",
                     "valuePath": "endDate",
                     "row": "dateRow",
                     "disableDependency": {
@@ -678,15 +692,15 @@
                 {
                     "type": "checkbox",
                     "key": "currentlyWorking",
-                    "label": "Currently Working",
+                    "label": "NetworkV2Profile.currentlyWorking",
                     "defaultValue": false,
                     "valuePath": "currentlyWorking"
                 },
                 {
                     "type": "textarea",
                     "key": "description",
-                    "label": "Description",
-                    "placeholder": "Add your description",
+                    "label": "NetworkV2Profile.description",
+                    "placeholder": "NetworkV2Profile.addYourDescription",
                     "maxLength": 1000,
                     "valuePath": "description"
                 }
@@ -698,80 +712,100 @@
                 {
                     "type": "degree-select",
                     "key": "degree",
-                    "label": "Degree",
-                    "placeholder": "Select Degree",
+                    "label": "NetworkV2Profile.degree",
+                    "placeholder": "NetworkV2Profile.selectDegree",
                     "required": true,
                     "valuePath": "degree",
-                    "searchPlaceholder": "Search degree...",
+                    "searchPlaceholder": "NetworkV2Profile.searchDegrees",
                     "row": "row1"
                 },
                 {
                     "type": "text",
                     "key": "otherDegree",
-                    "label": "Other Degree",
-                    "placeholder": "Enter your degree",
+                    "label": "NetworkV2Profile.degreeName",
+                    "placeholder": "NetworkV2Profile.pleaseEnterYourDegreeName",
                     "maxLength": 80,
+                    "required": true,
                     "pattern": "^[a-zA-Z0-9\\s(),.&/]*$",
                     "conditionalOn": {
                         "key": "degree",
                         "value": "Other",
                         "operator": "==="
                     },
-                    "row": "row1"
+                    "row": "row1",
+                    "errorMessages": {
+                        "required": "NetworkV2Profile.pleaseEnterYourDegreeName",
+                        "pattern": "NetworkV2Profile.specialCharNotAllowedInThisField"
+                    }
                 },
                 {
                     "type": "text",
                     "key": "fieldOfStudy",
-                    "label": "Field of Study",
-                    "placeholder": "Enter your specialization(e.g., IT, Civil)",
+                    "label": "NetworkV2Profile.fieldOfStudy",
+                    "placeholder": "NetworkV2Profile.enterYourSpecialization",
                     "required": true,
                     "maxLength": 250,
                     "pattern": "^[a-zA-Z0-9\\s.,'-]*$",
-                    "row": "row2"
+                    "row": "row2",
+                    "errorMessages": {
+                        "required": "NetworkV2Profile.pleaseEnterFieldOfStudy",
+                        "pattern": "NetworkV2Profile.specialCharNotAllowedInThisField"
+                    }
                 },
                 {
                     "type": "institution-select",
                     "key": "institutionName",
-                    "label": "Institute Name",
-                    "placeholder": "Please select an institute name",
+                    "label": "NetworkV2Profile.instituteName",
+                    "placeholder": "NetworkV2Profile.pleaseSelectInstituteName",
                     "required": true,
                     "valuePath": "institutionName",
-                    "searchPlaceholder": "Search institute...",
+                    "searchPlaceholder": "NetworkV2Profile.searchInstitute",
                     "row": "row3"
                 },
                 {
                     "type": "text",
                     "key": "otherInstituteName",
-                    "label": "Other Institute Name",
-                    "placeholder": "Enter institute name",
+                    "label": "NetworkV2Profile.otherInstituteName",
+                    "placeholder": "NetworkV2Profile.enterYourInstituteName",
                     "maxLength": 125,
                     "pattern": "^[a-zA-Z0-9\\s(),.&/]*$",
+                    "required": true,
                     "conditionalOn": {
                         "key": "institutionName",
                         "value": "Other",
                         "operator": "==="
                     },
-                    "row": "row3"
+                    "row": "row3",
+                    "errorMessages": {
+                        "required": "NetworkV2Profile.pleaseEnterInstituteName",
+                        "pattern": "NetworkV2Profile.specialCharNotAllowedInThisField"
+                    }
                 },
                 {
                     "type": "year-select",
                     "key": "startYear",
-                    "label": "Start Year",
-                    "placeholder": "Select Year",
+                    "label": "NetworkV2Profile.startYear",
+                    "placeholder": "NetworkV2Profile.selectYear",
                     "required": true,
                     "valuePath": "startYear",
                     "yearFrom": 1900,
-                    "row": "row4"
+                    "row": "row4",
+                    "errorMessages": {
+                        "required": "NetworkV2Profile.pleaseSelectStartYear"
+                    }
                 },
                 {
                     "type": "year-select",
                     "key": "endYear",
-                    "label": "End Year",
-                    "placeholder": "Select Year",
+                    "label": "NetworkV2Profile.endYear",
+                    "placeholder": "NetworkV2Profile.selectYear",
                     "required": true,
                     "valuePath": "endYear",
                     "yearFrom": 1900,
-                    "row": "row4"
+                    "row": "row4",
+                    "errorMessages": {
+                        "required": "NetworkV2Profile.pleaseSelectEndYear"
+                    }
                 }
             ]
         },
@@ -781,70 +815,70 @@
                 {
                     "type": "info-text",
                     "key": "_note",
-                    "text": "Added achievements will be reflected in the Learner Passbook after 30 minutes"
+                    "text": "NetworkV2Profile.noteForAwards"
                 },
                 {
                     "type": "text",
                     "key": "title",
-                    "label": "Title",
-                    "placeholder": "e.g. Excel beginner",
+                    "label": "NetworkV2Profile.title",
+                    "placeholder": "NetworkV2Profile.egExcelBeginner",
                     "required": true,
                     "maxLength": 70,
                     "minLength": 10,
                     "valuePath": "contextData.title",
                     "errorMessages": {
-                        "required": "Please enter a title.",
-                        "minlength": "Title must be at least 10 characters.",
-                        "maxlength": "Title cannot exceed 70 characters.",
-                        "pattern": "Allowed characters: letters, numbers and .,_-$/:[]()\\'  !&"
+                        "required": "NetworkV2Profile.pleaseEnterTitle",
+                        "minlength": "NetworkV2Profile.titleTooShort",
+                        "maxlength": "NetworkV2Profile.titleTooLong",
+                        "pattern": "NetworkV2Profile.allowedCharacter"
                     }
                 },
                 {
                     "type": "text",
                     "key": "issuedOrganisation",
-                    "label": "Issuing Organisation",
-                    "placeholder": "e.g. Microsoft",
+                    "label": "NetworkV2Profile.issuingOrganisation",
+                    "placeholder": "NetworkV2Profile.egMicrosoft",
                     "required": true,
                     "maxLength": 70,
                     "valuePath": "contextData.issuedOrganisation",
                     "errorMessages": {
-                        "required": "Issuing organisation is required.",
-                        "maxlength": "Issuing organisation cannot exceed 70 characters."
+                        "required": "NetworkV2Profile.issuedOrganisationIsRequired",
+                        "maxlength": "NetworkV2Profile.issuedOrganisationTooLong"
                     }
                 },
                 {
                     "type": "date",
                     "key": "startDate",
-                    "label": "Start Date",
-                    "placeholder": "Start Date",
+                    "label": "NetworkV2Profile.startDate",
+                    "placeholder": "NetworkV2Profile.startDate",
                     "valuePath": "contextData.startDate",
                     "maxDate": "new Date()",
                     "dateDependencySmallerValidator": "endDate",
                     "readonly": true,
                     "row": "achievementDateRow",
                     "errorMessages": {
-                        "dateGreaterThanGivenDate": "Start date cannot be after end date."
+                        "dateGreaterThanGivenDate": "NetworkV2Profile.startDateShouldNotEndDate"
                     }
                 },
                 {
                     "type": "date",
                     "key": "endDate",
-                    "label": "End Date",
-                    "placeholder": "Select Date",
+                    "label": "NetworkV2Profile.endDate",
+                    "placeholder": "NetworkV2Profile.selectDate",
                     "valuePath": "contextData.endDate",
                     "maxDate": "new Date()",
                     "dateDependencyGreaterValidator": "startDate",
                     "readonly": true,
                     "row": "achievementDateRow",
                     "errorMessages": {
-                        "dateGreaterThanGivenDate": "End date cannot be before start date."
+                        "dateGreaterThanGivenDate": "NetworkV2Profile.endDataCannotBeBeforeStartDate"
                     }
                 },
                 {
                     "type": "date",
                     "key": "issuedDate",
-                    "label": "Issue Date",
-                    "placeholder": "Select Date",
+                    "label": "NetworkV2Profile.issueDate",
+                    "placeholder": "NetworkV2Profile.selectDate",
                     "required": true,
                     "valuePath": "contextData.issuedDate",
                     "maxDate": "new Date()",
@@ -852,15 +886,15 @@
                     "dateDependencySmallerValidator": "endDate",
                     "row": "issuedTrainingRow",
                     "errorMessages": {
-                        "required": "Please select an issue date.",
-                        "dateGreaterThanGivenDate": "Issue date cannot be before end date."
+                        "required": "NetworkV2Profile.pleaseSelectIssueDate",
+                        "dateGreaterThanGivenDate": "NetworkV2Profile.issueDateMustBeAfterEndDate"
                     }
                 },
                 {
                     "type": "select",
                     "key": "trainingType",
-                    "label": "Training Type",
-                    "placeholder": "Select training type",
+                    "label": "NetworkV2Profile.trainingType",
+                    "placeholder": "NetworkV2Profile.selectTrainingType",
                     "required": true,
                     "valuePath": "contextData.trainingType",
                     "row": "issuedTrainingRow",
@@ -887,14 +921,14 @@
                         }
                     ],
                     "errorMessages": {
-                        "required": "Training type is required."
+                        "required": "NetworkV2Profile.trainingTypeIsRequired"
                     }
                 },
                 {
                     "type": "select",
                     "key": "deliveryMode",
-                    "label": "Delivery mode",
-                    "placeholder": "Select delivery mode",
+                    "label": "NetworkV2Profile.deliveryMode",
+                    "placeholder": "NetworkV2Profile.selectDeliveryMode",
                     "valuePath": "contextData.deliveryMode",
                     "row": "deliveryLearningRow",
                     "options": [
@@ -915,14 +949,14 @@
                 {
                     "type": "duration",
                     "key": "learningTime",
-                    "label": "Learning Hours (hh:mm)",
+                    "label": "NetworkV2Profile.learningHours",
                     "valuePath": "contextData.learningTime",
                     "row": "deliveryLearningRow"
                 },
                 {
                     "type": "image",
                     "key": "uploadedDocument",
-                    "label": "Upload",
+                    "label": "NetworkV2Profile.upload",
                     "required": true,
                     "infoText": "PNG, JPG, JPEG and PDF files are supported (maximum size: 5MB).",
                     "accept": ".png,.jpg,.jpeg,.pdf",
@@ -932,21 +966,21 @@
                 {
                     "type": "url",
                     "key": "url",
-                    "label": "URL",
+                    "label": "NetworkV2Profile.url",
                     "placeholder": "e.g. https://www.example.com",
                     "required": true,
                     "infoText": "You may provide the link for the achievement.",
                     "valuePath": "contextData.url",
                     "errorMessages": {
-                        "required": "URL is required.",
-                        "pattern": "Please enter a valid URL."
+                        "required": "NetworkV2Profile.requiredUrl",
+                        "pattern": "NetworkV2Profile.pleaseGiveValidUrl"
                     }
                 },
                 {
                     "type": "textarea",
                     "key": "description",
-                    "label": "Learning Objective",
-                    "placeholder": "Describe about the skills that you have gained from this learning",
+                    "label": "NetworkV2Profile.learningObjective",
+                    "placeholder": "NetworkV2Profile.describeAboutTheSkillsThatYouHaveGainedFromThisLearning",
                     "maxLength": 500,
                     "valuePath": "contextData.description"
                 }
