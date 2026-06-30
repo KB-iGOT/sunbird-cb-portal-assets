@@ -3005,5 +3005,30 @@
     "overlayHeading": "Your dedication to learning is impressive!",
     "overlayHint": "Tap anywhere or press Escape to dismiss",
     "tooltipText": "The learner leaderboard is calculated based on the Karma Points earned in a month and updated on the 1st of every month."
+  },
+  "leftNavBar": {
+    "home": "Home",
+    "exploreContent": "Explore Content",
+    "learnerPassbook": "Learner Passbook",
+    "igotCommunity": "iGOT Community",
+    "events": "Events",
+    "peerValidation": "Peer Validation",
+    "viewMore": "View More",
+    "myAchievements": "My Achievements",
+    "youreNowStandingAt": "You’re now standing at",
+    "learningHours": "Learning hours",
+    "yourEarned": "Your Earned",
+    "viewAllAchievements": "View all achievements",
+    "quickActions": "Quick Actions",
+    "helpCentre": "Help Centre",
+    "needHelp": "Need help? You’re in the right place.",
+    "otherPortals": "Other Portals",
+    "mdoPortal": "MDO Portal",
+    "manageUsersTrainingApprovals": "Manage users, training and approvals.",
+    "contentPortal": "Content Portal",
+    "createPublishManageContent": "Create, publish and manage content",
+    "spvPortal": "SPV Portal",
+    "manageMdosUsersCompetency": "Manage MDOs, users and competency",
+    "downloadApp": "Download App"
   }
 }

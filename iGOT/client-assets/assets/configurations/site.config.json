@@ -267,204 +267,167 @@
     }
   },
   "primaryNavBarConfig": {
-    "mediumScreen": {
-      "left": [],
-      "right": [
-        {
-          "type": "karmapointtext",
-          "config": {
-            "actionBtnId": "feature_mydashboard",
-            "toolTip": "Karma points",
-            "className": "fixtopMargin",
-            "config": {
-              "actionBtnId": "feature_home",
-              "type": "card-mini",
-              "hideTitle": true
-            }
-          }
-        },
-        {
-          "type": "downloadButton",
-          "config": {
-            "actionBtnId": "feature_home",
-            "toolTip": "Home",
-            "className": "fixtopMargin",
-            "config": {
-              "actionBtnId": "feature_home",
-              "type": "card-mini",
-              "hideTitle": true
-            }
-          }
-        },
-        {
-          "type": "fontButton",
-          "config": {
-            "actionBtnId": "feature_mydashboard",
-            "toolTip": "My Dashboard",
-            "className": "fixtopMargin",
-            "config": {
-              "actionBtnId": "feature_mydashboard",
-              "type": "card-mini",
-              "hideTitle": true
-            }
-          }
-        },
-        {
-          "type": "langSelect",
-          "config": {
-            "actionBtnId": "feature_langselect",
-            "toolTip": "Language",
-            "className": "fixtopMargin",
+      "mediumScreen": {
+        "left": [],
+        "right": [
+          {
+            "type": "langSelect",
             "config": {
               "actionBtnId": "feature_langselect",
-              "type": "card-mini",
-              "hideTitle": true
+              "toolTip": "Language",
+              "className": "fixtopMargin",
+              "config": {
+                "actionBtnId": "feature_langselect",
+                "type": "card-mini",
+                "hideTitle": true
+              }
             }
-          }
-        },
-        {
-          "type": "notificationBell",
-          "config": {
-            "actionBtnId": "feature_notification",
-            "toolTip": "Notification",
-            "className": "fixtopMargin",
-            "config": {
-              "actionBtnId": "feature_notification",
-              "type": "card-mini",
-              "hideTitle": true
-            }
-          }
-        },
-        {
-          "type": "helpButton",
-          "config": {
-            "actionBtnId": "feature_mydashboard",
-            "toolTip": "My Dashboard",
-            "className": "fixtopMargin",
+          },
+          {
+            "type": "themeToggle"
+          },
+          {
+            "type": "fontButton",
             "config": {
               "actionBtnId": "feature_mydashboard",
-              "type": "card-mini",
-              "hideTitle": true
+              "toolTip": "My Dashboard",
+              "className": "fixtopMargin",
+              "config": {
+                "actionBtnId": "feature_mydashboard",
+                "type": "card-mini",
+                "hideTitle": true
+              }
+            }
+          },
+          {
+            "type": "notificationBell",
+            "config": {
+              "actionBtnId": "feature_notification",
+              "toolTip": "Notification",
+              "className": "fixtopMargin",
+              "config": {
+                "actionBtnId": "feature_notification",
+                "type": "card-mini",
+                "hideTitle": true
+              }
+            }
+          },
+          {
+            "type": "widgetButton",
+            "config": {
+              "widgetType": "actionButton",
+              "widgetSubType": "actionButtonProfile",
+              "widgetData": {
+                "disableViewProfile": true,
+                "disableAllFeatures": true,
+                "disableSettings": true,
+                "removeClass": true
+              }
             }
           }
-        },
-        {
-          "type": "widgetButton",
-          "config": {
-            "widgetType": "actionButton",
-            "widgetSubType": "actionButtonProfile",
-            "widgetData": {
-              "disableViewProfile": true,
-              "disableAllFeatures": true,
-              "disableSettings": true,
-              "removeClass": true
-            },
-            "hideTitle": true
+        ]
+      },
+      "smallScreen": {
+        "left": [
+          {
+            "type": "featureButton",
+            "config": {
+              "actionBtnId": "feature_catalog",
+              "config": {
+                "type": "card-mini"
+              }
+            }
+          },
+          {
+            "type": "featureButton",
+            "config": {
+              "actionBtnId": "feature_profile",
+              "config": {
+                "type": "card-mini"
+              }
+            }
           }
-        }
-      ]
+        ],
+        "right": [
+          {
+            "type": "featureButton",
+            "config": {
+              "actionBtnId": "feature_search",
+              "config": {
+                "type": "card-mini"
+              }
+            }
+          }
+        ],
+        "all": [
+          {
+            "type": "iconButton",
+            "config": {
+              "icon": "home",
+              "path": "/page/home",
+              "label": "home"
+            }
+          },
+          {
+            "type": "explorerButton",
+            "config": {
+              "icon": "explorer",
+              "path": "/page/learn",
+              "label": "explore"
+            }
+          },
+          {
+            "type": "iconButton",
+            "config": {
+              "icon": "search",
+              "path": "/app/search/home",
+              "label": "search"
+            }
+          },
+          {
+            "type": "iconButton",
+            "config": {
+              "key": "continueLearning",
+              "icon": "learn",
+              "path": "/app/seeAll",
+              "label": "my learnings"
+            }
+          }
+        ]
+      },
+      "secondary": {
+        "left": [
+          {
+            "type": "featureButton",
+            "config": {
+              "actionBtnId": "feature_home",
+              "config": {
+                "type": "mat-button"
+              }
+            }
+          },
+          {
+            "type": "featureButton",
+            "config": {
+              "actionBtnId": "feature_goals",
+              "config": {
+                "type": "mat-button"
+              }
+            }
+          },
+          {
+            "type": "featureButton",
+            "config": {
+              "actionBtnId": "feature_account",
+              "config": {
+                "type": "mat-button"
+              }
+            }
+          }
+        ],
+        "right": []
+      }
     },
-    "smallScreen": {
-      "left": [
-        {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_catalog",
-            "config": {
-              "type": "card-mini"
-            }
-          }
-        },
-        {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_profile",
-            "config": {
-              "type": "card-mini"
-            }
-          }
-        }
-      ],
-      "right": [
-        {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_search",
-            "config": {
-              "type": "card-mini"
-            }
-          }
-        }
-      ],
-      "all": [
-        {
-          "type": "iconButton",
-          "config": {
-            "icon": "home",
-            "path": "/page/home",
-            "label": "home"
-          }
-        },
-        {
-          "type": "explorerButton",
-          "config": {
-            "icon": "explorer",
-            "path": "/page/learn",
-            "label": "explore"
-          }
-        },
-        {
-          "type": "iconButton",
-          "config": {
-            "icon": "search",
-            "path": "/app/search/home",
-            "label": "search"
-          }
-        },
-        {
-          "type": "iconButton",
-          "config": {
-            "key": "continueLearning",
-            "icon": "learn",
-            "path": "/app/seeAll",
-            "label": "my learnings"
-          }
-        }
-      ]
-    },
-    "secondary": {
-      "left": [
-        {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_home",
-            "config": {
-              "type": "mat-button"
-            }
-          }
-        },
-        {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_goals",
-            "config": {
-              "type": "mat-button"
-            }
-          }
-        },
-        {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_account",
-            "config": {
-              "type": "mat-button"
-            }
-          }
-        }
-      ],
-      "right": []
-    }
-  },
   "hubs": [
     {
       "path": "/page/learn",
