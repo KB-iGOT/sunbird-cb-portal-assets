@@ -1,0 +1,376 @@
+{
+"homeSection": [
+    {
+      "sectionKey": "aparCourses",
+      "header": "",
+      "translateHeader": true,
+      "visibilityMode": "visible",
+      "displayType": "pills",
+      "defaultPillKey": "apar",
+      "pills": [
+        {
+          "pillKey": "apar",
+          "pillLabel": "APAR",
+          "pillDescription": ["Annual Performance", "Appraisal Report"],
+          "pillImageUrl": "/assets/icons/home-v2/business.svg",
+          "translateLabel": true,
+          "visibilityMode": "visible",
+          "contentConfig": {
+            "apiDetailsKey": "aparApi",
+            "cardType": "courseCard",
+            "maxCardsToShow": 12,
+            "cardClickDetails": {
+              "courseCategory": "Course"
+            },
+            "viewMoreUrl": {
+              "path": "/page/cbp",
+              "queryParams": {
+                "key": "cbpPlan"
+              }
+            },
+            "showViewAll": true
+          }
+        },
+        {
+          "pillKey": "caProgram",
+          "pillLabel": "C.A. Program",
+          "pillDescription": ["Capacity Building & Skill Development"],
+          "pillImageUrl": "",
+          "translateLabel": true,
+          "visibilityMode": "visible",
+          "contentConfig": {
+            "apiDetailsKey": "caProgramApi",
+            "cardType": "courseCard",
+            "maxCardsToShow": 12,
+            "cardClickDetails": {
+              "courseCategory": "Course"
+            },
+            "viewMoreUrl": {
+              "path": "/app/apar/ca-program"
+            },
+            "showViewAll": true
+          }
+        },
+        {
+          "pillKey": "trainingPlan",
+          "pillLabel": "Training Plan",
+          "pillDescription": ["Structured Training & Goal Alignment"],
+          "pillImageUrl": "",
+          "translateLabel": true,
+          "visibilityMode": "visible",
+          "contentConfig": {
+            "apiDetailsKey": "trainingPlanApi",
+            "cardType": "courseCard",
+            "maxCardsToShow": 12,
+            "cardClickDetails": {
+              "courseCategory": "Course"
+            },
+            "viewMoreUrl": {
+              "path": "/page/cbp",
+              "queryParams": {
+                "key": "cbpPlan",
+                "pillSelected": "all",
+                "tabSelected": "myIgotPlans"
+              }
+            },
+            "showViewAll": true
+          }
+        },
+        {
+          "pillKey": "learningPath",
+          "pillLabel": "Learning Path",
+          "pillDescription": ["Personalized Learning Journeys"],
+          "pillImageUrl": "",
+          "translateLabel": true,
+          "visibilityMode": "visible",
+          "contentConfig": {
+            "apiDetailsKey": "learningPathApi",
+            "cardType": "courseCard",
+            "maxCardsToShow": 4,
+            "cardClickDetails": {
+              "courseCategory": "Course"
+            },
+            "viewMoreUrl": {
+              "path": "/app/globalsearch",
+              "queryParams": {
+                "tab": "explore-content",
+                "filtersPanel": "show",
+                "category": "courses"
+              },
+              "f": {
+                "primaryCategory": [
+                  "learning pathway"
+                ],
+                "contentType": [
+                  "learning pathway"
+                ]
+              }
+            },
+            "showViewAll": true
+          }
+        },
+        {
+          "pillKey": "standaloneAssessment",
+          "pillLabel": "Standalone Assessment",
+          "pillDescription": ["Assess, Analyze & Improve"],
+          "pillImageUrl": "",
+          "translateLabel": true,
+          "visibilityMode": "visible",
+          "contentConfig": {
+            "apiDetailsKey": "standaloneApi",
+            "cardType": "courseCard",
+            "maxCardsToShow": 4,
+            "cardClickDetails": {
+              "courseCategory": "Course"
+            },
+            "viewAllUrl": "/app/apar/standalone-assessment",
+            "showViewAll": true
+          }
+        },
+        {
+          "pillKey": "moderatedContent",
+          "pillLabel": "Moderated Content",
+          "pillDescription": ["Restricted Access Learning Resources"],
+          "pillImageUrl": "",
+          "translateLabel": true,
+          "visibilityMode": "visible",
+          "contentConfig": {
+            "apiDetailsKey": "aparModeratedApi",
+            "cardType": "courseCard",
+            "maxCardsToShow": 4,
+            "cardClickDetails": {
+              "courseCategory": "Course"
+            },
+            "viewMoreUrl": {
+              "path": "/app/globalsearch",
+              "queryParams": {
+                "tab": "Learn",
+                "q": "",
+                "p": "Trending",
+                "f": "{\"primaryCategory\": [\"Moderated Course\",\"Moderated Program\",\"Moderated Assessment\"], \"contentType\": [\"Moderated Courses\"]}"
+              }
+            },
+            "showViewAll": true
+          }
+        }
+      ]
+    },
+    {
+      "sectionKey": "spotlight",
+      "header": "home.inSpotlight",
+      "translateHeader": true,
+      "visibilityMode": "visible",
+      "displayType": "spotlight",
+      "spotlightConfig": [
+        {
+          "iconUrl": "/assets/icons/home-v2/shopping-bag.svg",
+          "label": "iGOT Marketplace",
+          "redirectionUrl": "/app/seeAll?key=karmaTracks&tabSelected=Providers"
+        },
+        {
+          "iconUrl": "/assets/icons/home-v2/books.svg",
+          "label": "iGOT Specialisations",
+          "redirectionUrl": "/app/seeAll/new?key=forYou&tabSelected=igotSpecializations&pillSelected=programs"
+        },
+        {
+          "iconUrl": "/assets/icons/home-v2/Frame.svg",
+          "label": "MDO Channel",
+          "redirectionUrl": "/app/learn/mdo-channels/all-channels"
+        },
+        {
+          "iconUrl": "/assets/icons/home-v2/Group.svg",
+          "label": "Amrit Gyaan Kosh",
+          "redirectionUrl": "app/amrit-gyaan-kosh/all"
+        }
+      ]
+    },
+    {
+      "sectionKey": "trendingCourses",
+      "header": "Trending on iGOT",
+      "translateHeader": true,
+      "visibilityMode": "visible",
+      "displayType": "cards",
+      "isCollapsible": true,
+      "contentConfig": {
+        "apiDetailsKey": "trendingOnIGOTApi",
+        "cardType": "courseCard",
+        "maxCardsToShow": 12,
+        "cardClickDetails": {
+          "courseCategory": "Course"
+        },
+        "viewMoreUrl": {
+          "path": "/app/seeAll/new",
+          "viewMoreText": "Show all",
+          "queryParams": {
+            "key": "forYou",
+            "tabSelected": "trendingAcrossDepartment",
+            "pillSelected": "courses"
+          }
+        },
+        "showViewAll": true
+      }
+    },
+    {
+      "sectionKey": "featuredAiCourses",
+      "header": "Featured AI Courses",
+      "translateHeader": true,
+      "visibilityMode": "visible",
+      "displayType": "cards",
+      "isCollapsible": true,
+      "badge": {
+        "label": "AI - powered",
+        "type": "highlight"
+      },
+      "contentConfig": {
+        "apiDetailsKey": "featuredAiCoursesApi",
+        "cardType": "courseCard",
+        "maxCardsToShow": 12,
+        "cardClickDetails": {
+          "courseCategory": "Course"
+        },
+        "viewMoreUrl": {
+          "path": "/app/globalsearch",
+          "viewMoreText": "Show all",
+          "queryParams": {
+            "tab": "explore-content",
+            "filtersPanel": "show",
+            "category": "courses"
+          },
+          "f": {
+            "primaryCategory": [
+              "learning pathway"
+            ],
+            "contentType": [
+              "learning pathway"
+            ]
+          }
+        },
+        "showViewAll": true
+      }
+    },
+    {
+      "sectionKey": "thirtyMinutesOrLess",
+      "header": "30 Minutes or Less",
+      "translateHeader": true,
+      "visibilityMode": "visible",
+      "displayType": "cards",
+      "isCollapsible": true,
+      "contentConfig": {
+        "apiDetailsKey": "thirtyMinutesOrLessApi",
+        "cardType": "courseCard",
+        "maxCardsToShow": 4,
+        "cardClickDetails": {
+          "courseCategory": "Course"
+        },
+        "viewMoreUrl": {
+          "path": "/app/seeAll",
+          "viewMoreText": "Show all",
+          "queryParams": {
+            "key": "learnUnder30Min"
+          }
+        },
+        "showViewAll": true
+      }
+    }
+  ],
+"sliderData": [
+    {
+      "active": true,
+      "banners": {
+        "l": "assets/instances/eagle/banners/orgs/new-banner/10/l.jpg",
+        "m": "assets/instances/eagle/banners/orgs/new-banner/10/m.jpg",
+        "s": "assets/instances/eagle/banners/orgs/new-banner/10/s.jpg",
+        "xl": "assets/instances/eagle/banners/orgs/new-banner/10/l.jpg",
+        "xs": "assets/instances/eagle/banners/orgs/new-banner/10/s.jpg",
+        "xxl": "assets/instances/eagle/banners/orgs/new-banner/10/l.jpg"
+      },
+      "redirectUrl": "/app/globalsearch",
+      "openInNewTab": false,
+      "queryParams": {
+        "tab": "Learn",
+        "q": "Salesforce",
+        "lang": "en",
+        "f": "{}"
+      },
+      "title": ""
+    },
+    {
+      "active": true,
+      "banners": {
+        "l": "assets/instances/eagle/banners/orgs/new-banner/1/lg.jpg",
+        "m": "assets/instances/eagle/banners/orgs/new-banner/1/m.png",
+        "s": "assets/instances/eagle/banners/orgs/new-banner/1/s.png",
+        "xl": "assets/instances/eagle/banners/orgs/new-banner/1/lg.jpg",
+        "xs": "assets/instances/eagle/banners/orgs/new-banner/1/s.png",
+        "xxl": "assets/instances/eagle/banners/orgs/new-banner/1/lg.jpg"
+      },
+      "redirectUrl": "/app/globalsearch",
+      "openInNewTab": false,
+      "queryParams": {
+        "tab": "Learn",
+        "q": "Salesforce",
+        "lang": "en",
+        "f": "{}"
+      },
+      "title": ""
+    },
+    {
+      "active": true,
+      "banners": {
+        "l": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
+        "m": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
+        "s": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
+        "xl": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
+        "xs": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
+        "xxl": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg"
+      },
+      "redirectUrl": "https://ncrb.gov.in/uploads/SankalanPortal/Index.html",
+      "openInNewTab": true,
+      "queryParams": {
+        "tab": "Learn",
+        "q": "Salesforce",
+        "lang": "en",
+        "f": "{}"
+      },
+      "title": ""
+    },
+    {
+      "active": true,
+      "banners": {
+        "l": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
+        "m": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
+        "s": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
+        "xl": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
+        "xs": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
+        "xxl": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg"
+      },
+      "redirectUrl": "",
+      "queryParams": {
+        "tab": "Learn",
+        "q": "Salesforce",
+        "lang": "en",
+        "f": "{}"
+      },
+      "title": ""
+    },
+    {
+      "active": true,
+      "banners": {
+        "l": "assets/instances/eagle/banners/orgs/new-banner/2/lg.jpg",
+        "m": "assets/instances/eagle/banners/orgs/new-banner/2/m.png",
+        "s": "assets/instances/eagle/banners/orgs/new-banner/2/s.png",
+        "xl": "assets/instances/eagle/banners/orgs/new-banner/2/lg.jpg",
+        "xs": "assets/instances/eagle/banners/orgs/new-banner/2/s.png",
+        "xxl": "assets/instances/eagle/banners/orgs/new-banner/2/lg.jpg"
+      },
+      "redirectUrl": "/app/globalsearch",
+      "queryParams": {
+        "tab": "Learn",
+        "q": "Salesforce",
+        "lang": "en",
+        "f": "{}"
+      },
+      "title": ""
+    }
+  ]
+}
