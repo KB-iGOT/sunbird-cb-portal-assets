@@ -187,7 +187,8 @@
                 "description": "Manage users, training and approvals.",
                 "navUrl": "https://mdo.qa.karmayogibharat.net/",
                 "disableTranslate": true,
-                "enabled": true
+                "enabled": true,
+                "rolesCanAccess": ["MDO_ADMIN", "WAT_MEMBER", "MDO_LEADER", "COMMUNITY_MODERATOR"]
               },
               {
                 "code": "content_portal",
@@ -197,7 +198,8 @@
                 "description": "Create, publish and manage content",
                 "navUrl": "https://cbp.qa.karmayogibharat.net/",
                 "disableTranslate": true,
-                "enabled": true
+                "enabled": true,
+                "rolesCanAccess": ["CBP_ADMIN","CONTENT_CREATOR","CONTENT_REVIEWER","CONTENT_PUBLISHER","PROGRAM_COORDINATOR","SPV_PUBLISHER","PROGRAM_INSTRUCTOR","AI_ASSESSMENT_CREATOR"]
               },
               {
                 "code": "spv_portal",
@@ -207,7 +209,8 @@
                 "description": "Manage MDOs, users and competency",
                 "navUrl": "https://spv.qa.karmayogibharat.net/",
                 "disableTranslate": true,
-                "enabled": true
+                "enabled": true,
+                "rolesCanAccess": ["SPV_ADMIN","STATE_ADMIN","DASHBOARD_ADMIN"]
               }
             ]
           }
