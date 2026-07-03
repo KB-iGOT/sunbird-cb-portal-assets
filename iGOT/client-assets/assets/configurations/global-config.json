@@ -181,6 +181,22 @@
       "eventEnroll": {
         "url": "/apis/proxies/v8/user/events/enroll/summary",
         "enabled": true
+      },
+      "userEnrollmentSummary": {
+        "url": "/apis/proxies/v8/learner/course/v4/user/enrollment/summary",
+        "enabled": true
+      },
+      "enrollmentDetails": {
+        "url": "/apis/proxies/v8/learner/course/v4/user/enrollment/details",
+        "enabled": true
+      },
+      "externalEnrollment": {
+        "url": "/apis/proxies/v8/cios-enroll/v1/courselist/byuserid",
+        "enabled": true
+      },
+      "eventsEnrollmentList": {
+        "url": "/apis/proxies/v8/user/events/list",
+        "enabled": true
       }
     },
     "discussion": {
