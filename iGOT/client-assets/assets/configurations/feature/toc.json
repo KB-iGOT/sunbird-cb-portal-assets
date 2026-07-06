@@ -183,11 +183,11 @@
       "enabled": true,
       "url": "/apis/proxies/v8/ratings/v1/read"
     }
-    },
+  },
   "BatchEnrollL1Msg": "Your enrollment request is being reviewed. You will be notified when it is approved.",
   "BatchEnrollL2Msg": "We are now reviewing your request. You will be notified when it is approved.",
   "BatchEnrollDelayMsg": "Are you still waiting for the approval?",
-  "BatchEnrollApprovedMsg":"Your enrollment is now approved.",
+  "BatchEnrollApprovedMsg": "Your enrollment is now approved.",
   "BatchEnrollRejectedMsg": "Your enrollment request for the selected batch has been rejected.",
   "BatchEnrollRemoveMsg": "Your enrollment request for the selected batch has been removed.",
   "BatchEnrollSupportMsg": "For help, write to us at ",
@@ -305,70 +305,70 @@
       "toolTipText": "completeTip"
     }
   ],
-  "learnerAdvisory":  [
+  "learnerAdvisory": [
     {
       "id": 1,
-      "content" : "Watch content at a speed that ensures understanding and retention.",
+      "content": "Watch content at a speed that ensures understanding and retention.",
       "contentImg": "assets/icons/learner-advisory/watch-speed.png"
     },
     {
       "id": 2,
-      "content" : "Avoid fast-forwarding and speeding through.",
+      "content": "Avoid fast-forwarding and speeding through.",
       "contentImg": "assets/icons/learner-advisory/avoid-fast-forwarding.png"
     },
     {
       "id": 3,
-      "content" : "Follow the sequence of content as presented.",
+      "content": "Follow the sequence of content as presented.",
       "contentImg": "assets/icons/learner-advisory/follow-sequence.png"
     },
     {
       "id": 4,
-      "content" : "Take one course at a time instead of consuming multiple courses across multiple devices.",
+      "content": "Take one course at a time instead of consuming multiple courses across multiple devices.",
       "contentImg": "assets/icons/learner-advisory/one-course-at-a-time.png"
     },
     {
       "id": 5,
-      "content" : "Participate in discussions at the Discussion Forum regularly.",
+      "content": "Participate in discussions at the Discussion Forum regularly.",
       "contentImg": "assets/icons/learner-advisory/participate-discussions.png"
     },
     {
       "id": 6,
-      "content" : "Don't rush through assessments without understanding, reflecting.",
+      "content": "Don't rush through assessments without understanding, reflecting.",
       "contentImg": "assets/icons/learner-advisory/dont-rush-assessments.png"
     },
     {
       "id": 7,
-      "content" : "Use supplementary resources and readings.",
+      "content": "Use supplementary resources and readings.",
       "contentImg": "assets/icons/learner-advisory/use-supplementary-resources.png"
     },
     {
       "id": 8,
-      "content" : "Minimize distractions during study sessions.",
+      "content": "Minimize distractions during study sessions.",
       "contentImg": "assets/icons/learner-advisory/minimize-distractions.png"
     },
     {
       "id": 9,
-      "content" : "Seek clarification and assistance when needed.",
+      "content": "Seek clarification and assistance when needed.",
       "contentImg": "assets/icons/learner-advisory/seek-clarification.png"
     },
     {
       "id": 10,
-      "content" : "Allocate dedicated time for learning activities.",
+      "content": "Allocate dedicated time for learning activities.",
       "contentImg": "assets/icons/learner-advisory/allocate-time.png"
     },
     {
       "id": 11,
-      "content" : "Use the new section Gyaan Karmayogi regularly, to go over case studies and other learning material.",
+      "content": "Use the new section Gyaan Karmayogi regularly, to go over case studies and other learning material.",
       "contentImg": "assets/icons/learner-advisory/use-gyaan-karmayogi.png"
     },
     {
       "id": 12,
-      "content" : "Update your profile regularly if required.",
+      "content": "Update your profile regularly if required.",
       "contentImg": "assets/icons/learner-advisory/update-profile.png"
     },
     {
       "id": 13,
-      "content" : "Follow suggestions at My iGOT.",
+      "content": "Follow suggestions at My iGOT.",
       "contentImg": "assets/icons/learner-advisory/follow-suggestions.png"
     }
   ],
@@ -418,7 +418,7 @@
         "successMsg": "Reported successfully! Thank you for reporting.",
         "errorMsg": "Something went wrong! please try reporting again later.",
         "showToolTip": true,
-        "toolTipText":"Report this comment"
+        "toolTipText": "Report this comment"
       },
       "actions": {
         "like": {
@@ -483,7 +483,7 @@
             "successMsg": "Reported successfully! Thank you for reporting.",
             "errorMsg": "Something went wrong! please try reporting again later.",
             "showToolTip": true,
-            "toolTipText":"Report this comment"
+            "toolTipText": "Report this comment"
           },
           "actions": {
             "like": {
@@ -547,7 +547,6 @@
     }
   },
   "commentsTab": true,
-
   "uiVisibility": {
     "banner": {
       "visible": true,
@@ -665,7 +664,6 @@
       "learnerAdvisory": true
     }
   },
-
   "dynamicCertificateGeneration": {
     "allows": [
       "Invite-Only Program",
@@ -677,6 +675,15 @@
       "Invite-Only Assessment",
       "Comprehensive Assessment Program",
       "Pre Enrolment Assessment"
+    ]
+  },
+  "unEnrollContent": {
+    "feedbackReasons": [
+      "Content is not relevant to my role",
+      "Course is too difficult / too easy",
+      "Not enough time to complete",
+      "Poor content quality",
+      "Enrolled by mistake"
     ]
   }
 }
