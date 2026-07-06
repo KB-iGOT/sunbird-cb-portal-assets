@@ -22,7 +22,7 @@
             "iconName": "",
             "iconUrl": "home",
             "label": "Home",
-            "navUrl": "/page/home-v2/v2",
+            "navUrl": "/page/home/v2",
             "disableTranslate": true,
             "enabled": true,
             "subType": "PageMenu"
@@ -159,15 +159,16 @@
         "enabled": true,
         "items": [
           {
-            "code": "help_centre",
+            "code": "help-centre",
             "hasChildren": false,
             "iconName": "",
             "iconUrl": "unknown_document",
             "title": "Help Centre",
             "description": "Need help? You're in the right place.",
-            "navUrl": "/help",
+            "navUrl": "/igot/help-centre",
             "disableTranslate": true,
-            "enabled": true
+            "enabled": true,
+            "subType": "page-menu"
           },
           {
             "code": "other_portals",
@@ -180,7 +181,7 @@
             "disableTranslate": true,
             "children": [
               {
-                "code": "mdo_portal",
+                "code": "mdo-portal",
                 "iconName": "groups_2",
                 "iconUrl": "",
                 "title": "MDO Portal",
@@ -188,10 +189,11 @@
                 "navUrl": "https://mdo.qa.karmayogibharat.net/",
                 "disableTranslate": true,
                 "enabled": true,
-                "rolesCanAccess": ["MDO_ADMIN", "WAT_MEMBER", "MDO_LEADER", "COMMUNITY_MODERATOR"]
+                "rolesCanAccess": ["MDO_ADMIN", "WAT_MEMBER", "MDO_LEADER", "COMMUNITY_MODERATOR"],
+                "subType": "page-menu"
               },
               {
-                "code": "content_portal",
+                "code": "content-portal",
                 "iconName": "",
                 "iconUrl": "video",
                 "title": "Content Portal",
@@ -199,10 +201,11 @@
                 "navUrl": "https://cbp.qa.karmayogibharat.net/",
                 "disableTranslate": true,
                 "enabled": true,
-                "rolesCanAccess": ["CBP_ADMIN","CONTENT_CREATOR","CONTENT_REVIEWER","CONTENT_PUBLISHER","PROGRAM_COORDINATOR","SPV_PUBLISHER","PROGRAM_INSTRUCTOR","AI_ASSESSMENT_CREATOR"]
+                "rolesCanAccess": ["CBP_ADMIN","CONTENT_CREATOR","CONTENT_REVIEWER","CONTENT_PUBLISHER","PROGRAM_COORDINATOR","SPV_PUBLISHER","PROGRAM_INSTRUCTOR","AI_ASSESSMENT_CREATOR"],
+                "subType": "page-menu"
               },
               {
-                "code": "spv_portal",
+                "code": "spv-portal",
                 "iconName": "settings_account_box",
                 "iconUrl": "",
                 "title": "SPV Portal",
@@ -210,7 +213,8 @@
                 "navUrl": "https://spv.qa.karmayogibharat.net/",
                 "disableTranslate": true,
                 "enabled": true,
-                "rolesCanAccess": ["SPV_ADMIN","STATE_ADMIN","DASHBOARD_ADMIN"]
+                "rolesCanAccess": ["SPV_ADMIN","STATE_ADMIN","DASHBOARD_ADMIN"],
+                "subType": "page-menu"
               }
             ]
           }
