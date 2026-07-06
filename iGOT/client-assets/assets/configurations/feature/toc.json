@@ -678,5 +678,14 @@
       "Comprehensive Assessment Program",
       "Pre Enrolment Assessment"
     ]
+  },
+  "unEnrollContent": {
+    "feedbackReasons": [
+      "Content is not relevant to my role",
+      "Course is too difficult / too easy",
+      "Not enough time to complete",
+      "Poor content quality",
+      "Enrolled by mistake"
+    ]
   }
 }
