@@ -321,7 +321,8 @@
                 "disableViewProfile": true,
                 "disableAllFeatures": true,
                 "disableSettings": true,
-                "removeClass": true
+                "removeClass": true,
+                "showProgress": true
               }
             }
           }
