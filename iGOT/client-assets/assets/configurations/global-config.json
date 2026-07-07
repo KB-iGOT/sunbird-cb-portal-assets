@@ -1,0 +1,340 @@
+{
+  "type": "external",
+  "layout": "tenant-layout-v1",
+
+  "app": {
+    "name": "iGOT Karmayogi",
+    "theme": "default",
+    "cdnHost": "",
+    "defaultRoute": "/page/home"
+  },
+
+  "components": {
+    "header": {
+      "enabled": true,
+      "search": true,
+      "language": true,
+      "profile": true,
+      "notification": false,
+      "downloadApp": false
+    },
+     "settingsMenu": {
+      "enabled": true,
+      "generalSettings": true,
+      "notifications": true,
+      "accountAndPassword": true,
+      "resetPassword": true,
+      "privacy": true,
+      "getStartedTour": false,
+      "profile": false,
+      "visibilityControl": true
+    },
+    "secondaryHeader": {
+      "enabled": true,
+      "exploreContent": true,
+      "more": {
+        "enabled": false,
+        "doMore": true,
+        "settings": true,
+        "discoverMentors": true,
+        "quickLinks": true,
+        "comingSoon": true,
+        "career": true,
+        "competency": true
+      },
+      "menus": {
+        "learn": false,
+        "discuss": false,
+        "amritGyaanKosh": false,
+        "janKarmayogi": false,
+        "network": false,
+        "events": false
+      }
+    },
+    "marquee": {
+      "enabled": false
+    },
+    "footer": {
+      "enabled": true,
+      "showLinks": true,
+      "showHostLogo": true,
+      "showCopyright": true,
+      "sections": {
+        "hubs": {
+          "enabled": true,
+          "links": {
+            "learn": false,
+            "discuss": true,
+            "amritGyaanKosh": true,
+            "janKarmayogi": true,
+            "network": true,
+            "events": true
+          }
+        },
+        "relatedLinks": {
+          "enabled": true
+        },
+        "support": {
+          "enabled": true,
+          "links": {
+            "helpCentre": false,
+            "contactUs": true,
+            "privacyPolicy": true
+          }
+        },
+        "aboutUs": {
+          "enabled": true,
+          "links": {
+            "karmayogiBharat": true
+          }
+        }
+      },
+      "socialLinks": false,
+      "downloadApp": true
+    },
+    "bottomNav": {
+      "enabled": true
+    },
+    "profileMenu": {
+      "enabled": true,
+      "viewProfile": true,
+      "igotKarmayogi": true,
+      "getStarted": false,
+      "tipsForLearners": false,
+      "myLearning": true,
+      "learnerPassbook": true,
+      "peerValidation": false,
+      "settings": true,
+      "helpCentre": false,
+      "signOut": true
+    },
+    "searchCategories": {
+    "enabled": true,
+    "courses": false,
+    "events": true,
+    "peoples": true,
+    "external-contents": true,
+    "communities": true,
+    "resources": true,
+    "all": false
+  },
+    "cards": {
+      "posterImage": true,
+      "language": true,
+      "duration": true,
+      "ca": true,
+      "newBadge": true,
+      "igotSpecialization": true,
+      "contentType": true,
+      "difficultyLevel": false,
+      "downloadCertificate": true,
+      "inProgress": true,
+      "completed": true,
+      "overdue": true,
+      "upcoming": true,
+      "organisation": true,
+      "creatorLogo": true,
+      "multiLingual": true,
+      "rating": false,
+      "mostEnrolled": true,
+      "igotBadge": true
+    }
+  },
+
+  "features": {
+    "home": {},
+    "toc": {},
+    "player": {},
+    "services": {},
+    "explore": {},
+    "volunteerSearch": {
+      "enabled": true
+    }
+  },
+
+  "apis": {
+    "user": {
+      "profile": {
+        "url": "/apis/proxies/v8/api/user/v2/read",
+        "enabled": true
+      },
+      "enrollment": {
+        "url": "/apis/proxies/v8/learner/course/v4/user/enrollment/list",
+        "enabled": true
+      },
+      "firstLogin": {
+        "url": "/apis/proxies/v8/login/entry",
+        "enabled": true
+      },
+      "createUser": {
+        "url": "/apis/proxies/v8/discussion/user/v1/create",
+        "enabled": true
+      },
+      "feedStatus": {
+        "url": "/apis/proxies/v8/user/v1/feed",
+        "enabled": true
+      },
+      "insights": {
+        "url": "/apis/proxies/v8/read/user/insights",
+        "enabled": true
+      },
+      "eventEnroll": {
+        "url": "/apis/proxies/v8/user/events/enroll/summary",
+        "enabled": true
+      },
+      "userEnrollmentSummary": {
+        "url": "/apis/proxies/v8/learner/course/v4/user/enrollment/summary",
+        "enabled": true
+      },
+      "enrollmentDetails": {
+        "url": "/apis/proxies/v8/learner/course/v4/user/enrollment/details",
+        "enabled": true
+      },
+      "externalEnrollment": {
+        "url": "/apis/proxies/v8/cios-enroll/v1/courselist/byuserid",
+        "enabled": true
+      },
+      "eventsEnrollmentList": {
+        "url": "/apis/proxies/v8/user/events/list",
+        "enabled": true
+      }
+    },
+    "discussion": {
+      "userDiscussions": {
+        "url": "/apis/proxies/v8/discussion/user",
+        "enabled": true
+      },
+      "trending": {
+        "url": "/apis/proxies/v8/discussion/popular",
+        "enabled": true
+      }
+    },
+    "connections": {
+      "recommendedUsers": {
+        "url": "/apis/proxies/v8/connections/v3/connections/recommended",
+        "enabled": true
+      },
+      "addConnection": {
+        "url": "/apis/protected/v8/connections/v2/add/connection",
+        "enabled": true
+      },
+      "updateConnection": {
+        "url": "/apis/protected/v8/connections/v2/update/connection",
+        "enabled": true
+      },
+      "requestsReceived": {
+        "url": "/apis/protected/v8/connections/v2/connections/requests/received",
+        "enabled": true
+      }
+    },
+    "assessment": {
+      "wheebox": {
+        "url": "/apis/proxies/v8/wheebox/read",
+        "enabled": true
+      }
+    },
+    "leaderboard": {
+      "learnerLeaderboard": {
+        "url": "/apis/proxies/v8/halloffame/learnerleaderboard",
+        "enabled": true
+      }
+    },
+    "search": {
+      "searchV6": {
+        "url": "/apis/proxies/v8/sunbirdigot/search",
+        "enabled": true
+      },
+      "searchV4": {
+        "url": "/apis/proxies/v8/sunbirdigot/v4/search",
+        "enabled": true
+      },
+      "volunteerSearch": {
+        "url": "/apis/proxies/v8/sunbirdigot/v4/search",
+        "enabled": true
+      },
+      "externalContent": {
+        "url": "/apis/proxies/v8/cios/v1/search/content",
+        "enabled": true
+      },
+      "people": {
+        "url": "/apis/proxies/v8/user/v5/public/search",
+        "enabled": true
+      },
+      "community": {
+        "url": "/apis/proxies/v8/community/v1/search",
+        "enabled": true
+      },
+      "nlp": {
+        "url": "/apis/proxies/v8/nlp/search",
+        "enabled": true
+      },
+      "recentCreate": {
+        "url": "/apis/proxies/v8/search/v1/recent/create",
+        "enabled": true
+      },
+      "recentRead": {
+        "url": "/apis/proxies/v8/search/v1/recent/read",
+        "enabled": true
+      },
+      "recentDelete": {
+        "url": "/apis/proxies/v8/search/v1/recent/delete",
+        "enabled": true
+      }
+    },
+    "content": {
+      "explore": {
+        "url": "/api/course/v1/explore",
+        "enabled": true
+      },
+      "microCredentials": {
+        "url": "/apis/proxies/v8/promotionalcontent/v1/assignedto/users",
+        "enabled": true
+      },
+      "applicationsById": {
+        "url": "/apis/proxies/v8/forms/v2/bulkGetApplicationsById",
+        "enabled": true
+      },
+      "dictionary": {
+        "url": "/apis/proxies/v8/content/v5/dictionary",
+        "enabled": true
+      },
+      "read": {
+        "url": "/apis/proxies/v8/content/v2/read",
+        "enabled": true
+      }
+    }
+  },
+
+  "apicache": {
+    "dictionaryTime": 300
+  },
+
+  "featureFlags": {
+    "multiLanguage": false,
+    "notification": true,
+    "downloadApp": true,
+    "chatbot": false,
+    "tour": false
+  },
+
+  
+
+  "routes": {
+    "home": true,
+    "login": true,
+    "search": false,
+    "globalsearch": true,
+    "profile": true,
+    "profile-v2": true,
+    "profile-v3": true,
+    "discussion-v2": false,
+    "network-v2": true,
+    "event": true,
+    "knowledge-resource": true,
+    "amrit-gyaan-kosh": false,
+    "jan-karmayogi": true,
+    "mandatory-course": true,
+    "organization": true,
+    "taxonomy": true
+  }
+}

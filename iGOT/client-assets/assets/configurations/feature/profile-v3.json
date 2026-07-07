@@ -1,66 +1,66 @@
 {
-  "tabs": [
-    {
-      "name": "welcome",
-      "key": "welcome",
-      "enabled": true,
-      "check": false,
-      "routerLink": "/app/setup/welcome",
-      "description": "welcomeDescription",
-      "largeDesc": [],
-      "step": 1,
-      "allowSkip": true
-    },
-    {
-      "name": "roleAndActivities",
-      "key": "userRoles",
-      "enabled": true,
-      "check": false,
-      "routerLink": "/app/setup/roles",
-      "description": "roleAndActivitiesDescription",
-      "step": 2,
-      "allowSkip": true
-    },
-    {
-      "name": "topics",
-      "key": "systemTopics",
-      "enabled": true,
-      "check": false,
-      "routerLink": "/app/setup/topics",
-      "description": "topicsDescription",
-      "step": 3,
-      "allowSkip": true
-    },
-    {
-      "name": "currentCompetencies",
-      "key": "competencies",
-      "enabled": true,
-      "check": false,
-      "routerLink": "/app/setup/current-competencies",
-      "description": "currentCompetenciesDescription",
-      "step": 4,
-      "allowSkip": true
-    },
-    {
-      "name": "desiredCompetencies",
-      "key": "desiredCompetencies",
-      "enabled": true,
-      "check": false,
-      "routerLink": "/app/setup/desired-competencies",
-      "description": "desiredCompetenciesDescription",
-      "step": 5,
-      "allowSkip": true
-    },
-    {
-      "name": "platformWalkthrough",
-      "key": "platformWalkthrough ",
-      "enabled": true,
-      "check": false,
-      "routerLink": "/app/setup/platform-walkthrough",
-      "description": "platformWalkthroughDescription",
-      "step": 6,
-      "allowSkip": true
-    }
-  ],
-  "banner": {}
+    "tabs": [
+        {
+            "name": "welcome",
+            "key": "welcome",
+            "enabled": true,
+            "check": false,
+            "routerLink": "/app/setup/welcome",
+            "description": "welcomeDescription",
+            "largeDesc": [],
+            "step": 1,
+            "allowSkip": true
+        },
+        {
+            "name": "roleAndActivities",
+            "key": "userRoles",
+            "enabled": true,
+            "check": false,
+            "routerLink": "/app/setup/roles",
+            "description": "roleAndActivitiesDescription",
+            "step": 2,
+            "allowSkip": true
+        },
+        {
+            "name": "topics",
+            "key": "systemTopics",
+            "enabled": true,
+            "check": false,
+            "routerLink": "/app/setup/topics",
+            "description": "topicsDescription",
+            "step": 3,
+            "allowSkip": true
+        },
+        {
+            "name": "currentCompetencies",
+            "key": "competencies",
+            "enabled": true,
+            "check": false,
+            "routerLink": "/app/setup/current-competencies",
+            "description": "currentCompetenciesDescription",
+            "step": 4,
+            "allowSkip": true
+        },
+        {
+            "name": "desiredCompetencies",
+            "key": "desiredCompetencies",
+            "enabled": true,
+            "check": false,
+            "routerLink": "/app/setup/desired-competencies",
+            "description": "desiredCompetenciesDescription",
+            "step": 5,
+            "allowSkip": true
+        },
+        {
+            "name": "platformWalkthrough",
+            "key": "platformWalkthrough ",
+            "enabled": true,
+            "check": false,
+            "routerLink": "/app/setup/platform-walkthrough",
+            "description": "platformWalkthroughDescription",
+            "step": 6,
+            "allowSkip": true
+        }
+    ],
+    "banner": {}
 }
