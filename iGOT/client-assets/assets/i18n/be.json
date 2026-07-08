@@ -230,7 +230,10 @@
     "start": "শুরু করুন।",
     "viewCertificate": "শংসাপত্র দেখুন",
     "overDue": "বকেয়া শেষ।",
-    "deadline": "সময়সীমা"
+    "deadline": "সময়সীমা",
+    "mostPopular": "সর্বাধিক জনপ্রিয়",
+    "availableInLanguages": "{{count}} ভাষায় উপলব্ধ",
+    "completed": "সম্পন্ন হয়েছে"
   },
   "allproviderscomponent": {
     "popularProviders": "জনপ্রিয় সরবরাহকারী",
@@ -555,7 +558,7 @@
     "start": "শুরু করুন।",
     "startAgain": "আবার শুরু করুন।",
     "takeAssessment": "মূল্যায়ন করুন",
-     "preEnroll": "প্রাক-নথিভুক্তির প্রয়োজনীয়তা",
+    "preEnroll": "প্রাক-নথিভুক্তির প্রয়োজনীয়তা",
     "preEnrollDone": "প্ৰাক নামভৰ্তিৰ প্ৰয়োজনীয়তা সম্পূৰ্ণ কৰা হৈছে",
     "enroll": "নাম নথিভুক্ত করুন",
     "youAreNotInvited": "এই কর্মসূচিতে আপনাকে আমন্ত্রণ জানানো হয়নি।",
@@ -1335,7 +1338,14 @@
     "today'sEvents": "আজকের ঘটনাবলী",
     "youDon’tHaveAnyNewCourseInProgress.": "আপনার কোনও নতুন কোর্স চলছে না।",
     "youWillSeeAllTheContentForWhichTheDueDateIsWithin30Days.": "আপনি 30 দিনের মধ্যে নির্ধারিত তারিখের সমস্ত বিষয়বস্তু দেখতে পাবেন।",
-    "youWillSeeAllTheContentForWhichTheDueDateHasPassedHere.": "আপনি এখানে সমস্ত বিষয়বস্তু দেখতে পাবেন যার জন্য নির্ধারিত তারিখটি পেরিয়ে গেছে।"
+    "youWillSeeAllTheContentForWhichTheDueDateHasPassedHere.": "আপনি এখানে সমস্ত বিষয়বস্তু দেখতে পাবেন যার জন্য নির্ধারিত তারিখটি পেরিয়ে গেছে।",
+    "inSpotlight": "স্পটলাইটে",
+    "spotlightCards": {
+      "iGOTMarketplace": "iGOT মার্কেটপ্লেস",
+      "iGOTSpecialisations": "iGOT বিশেষায়িতকরণ",
+      "amritGyaanKosh": "অমৃত জ্ঞান কোষ",
+      "mdoChannel": "MDO চ্যানেল"
+    }
   },
   "homeotherportals": {
     "otherPortals": "অন্যান্য পোর্টালগুলিতে আপনার প্রবেশাধিকার রয়েছে",
@@ -1351,7 +1361,7 @@
     "certificate": "শংসাপত্র",
     "learningHours": "শেখার সময়",
     "ShowMyActivities": "আমার কার্যকলাপগুলি দেখান",
-    "karmaPoints":"কর্ম পয়েন্ট"
+    "karmaPoints": "কর্ম পয়েন্ট"
   },
   "profileNudge": {
     "slot1Info1": "জেগে উঠুন এবং উজ্জ্বল হোন, জ্ঞানের মাত্রা দিয়ে আপনার দিন শুরু করুন।",
@@ -1627,7 +1637,6 @@
     "selectDesignationErrorMsg": "অনুগ্রহ করে একটি পদবী নির্বাচন করুন",
     "designationNotFound": "পদবী পাওয়া যায়নি। অনুগ্রহ করে আপনার সংশ্লিষ্ট MDO প্রশাসকের সাথে যোগাযোগ করুন ক্লিক করে",
     "here": "এখানে।"
-    
   },
   "publicrequest": {
     "requestTo": "যোগ করার অনুরোধ",
@@ -2027,5 +2036,42 @@
     "hideCredentials": "আমার পরিচয়পত্র লুকিয়ে রাখুন",
     "viewCredentials": "আমার পরিচয়পত্র দেখুন"
   },
-  "mobileApp": {}
+  "mobileApp": {},
+  "welcomegreeting": {
+    "welcome": "স্বাগতম,",
+    "welcomeBack": "আবার স্বাগতম,"
+  },
+  "continueLearning": {
+    "heading": "আপনি যেখানে ছেড়েছিলেন সেখান থেকে চালিয়ে যান",
+    "viewAll": "সব দেখুন",
+    "inProgress": "চলছে",
+    "resume": "পুনরায় শুরু করুন",
+    "retired": "অবসরপ্রাপ্ত",
+    "weeklyClaps": "সাপ্তাহিক তালি",
+    "description": "এটি প্ল্যাটফর্মে আপনার সম্পৃক্ততা ট্র্যাক করার একটি মজাদার উপায়। এটি আপনার প্রতিশ্রুতি এবং কার্যকলাপের স্তর প্রতিফলিত করে।",
+    "knowMore": "আরও জানুন",
+    "week": "সপ্তাহ",
+    "weeks": "সপ্তাহ",
+    "popupTitle": "সাপ্তাহিক তালি কী?",
+    "popupIntro": "সাপ্তাহিক তালি প্ল্যাটফর্মে আপনার সম্পৃক্ততা ট্র্যাক করার একটি মজাদার উপায়। এগুলি আপনার প্রতিশ্রুতি এবং কার্যকলাপের স্তর প্রতিফলিত করে।",
+    "maintainQ": "আমি কীভাবে আমার সাপ্তাহিক তালি বজায় রাখতে পারি?",
+    "maintainA1": "আপনার তালি বজায় রাখতে প্রতি সপ্তাহে প্ল্যাটফর্মে কমপক্ষে",
+    "minutes": "মিনিট",
+    "maintainA2": "সময় কাটান।",
+    "loseQ": "আমি কেন আমার সাপ্তাহিক তালি হারিয়েছি?",
+    "loseA1": "যদি আপনি এক সপ্তাহে",
+    "loseA2": "এর কম সময় নিযুক্ত থাকেন, তাহলে আপনার কাউন্টার শূন্যে রিসেট হয়।"
+  },
+  "karmaLeaderboard": {
+    "karmaPoints": "কর্ম পয়েন্ট",
+    "topDesc": "কর্মাপয়েন্ট iGOT-এ আপনার সম্পৃক্ততা পরিমাপ করে। এই পয়েন্টগুলি 4 ঘণ্টায় আপডেট হয়।",
+    "youveEarned": "আপনি অর্জন করেছেন",
+    "sectionHeading": "আপনার বিভাগের শীর্ষ কর্মযোগী:",
+    "yourRank": "আপনার র‍্যাঙ্ক",
+    "upByRank": "{{count}} র‍্যাঙ্ক উপরে।",
+    "prevRankText": "আপনি গত মাসে {{position}} অবস্থানে ছিলেন।",
+    "overlayHeading": "শেখার প্রতি আপনার নিষ্ঠা চমৎকার!",
+    "overlayHint": "বরখাস্ত করতে যেকোনো জায়গায় ট্যাপ করুন বা Escape চাপুন",
+    "tooltipText": "শিক্ষার্থীর লিডারবোর্ড এক মাসে অর্জিত কর্ম পয়েন্টের উপর ভিত্তি করে গণনা করা হয় এবং প্রতি মাসের ১ তারিখে আপডেট হয়।"
+  }
 }
