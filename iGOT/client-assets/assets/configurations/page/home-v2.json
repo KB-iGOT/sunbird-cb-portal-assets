@@ -10,6 +10,7 @@
       "pills": [
         {
           "pillKey": "apar",
+          "pillInfoCountKey": "apar",
           "pillLabel": "APAR",
           "pillDescription": [
             "Annual Performance",
@@ -39,6 +40,7 @@
         },
         {
           "pillKey": "caProgram",
+          "pillInfoCountKey": "caProgram",
           "pillLabel": "C.A. Program",
           "pillDescription": [
             "Capacity Building & Skill Development"
@@ -64,6 +66,7 @@
         },
         {
           "pillKey": "trainingPlan",
+          "pillInfoCountKey": "trainingPlan",
           "pillLabel": "Training Plan",
           "pillDescription": [
             "Structured Training & Goal Alignment"
@@ -94,6 +97,7 @@
         },
         {
           "pillKey": "learningPath",
+          "pillInfoCountKey": "learningPathway",
           "pillLabel": "Learning Path",
           "pillDescription": [
             "Personalized Learning Journeys"
@@ -132,6 +136,7 @@
         },
         {
           "pillKey": "standaloneAssessment",
+          "pillInfoCountKey": "standaloneAssessment",
           "pillLabel": "Standalone Assessment",
           "pillDescription": [
             "Assess, Analyze & Improve"
@@ -155,6 +160,7 @@
         },
         {
           "pillKey": "moderatedContent",
+          "pillInfoCountKey": "moderatedContent",
           "pillLabel": "Moderated Content",
           "pillDescription": [
             "Restricted Access Learning Resources"

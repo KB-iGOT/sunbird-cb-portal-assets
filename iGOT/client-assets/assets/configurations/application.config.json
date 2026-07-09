@@ -278,30 +278,20 @@
       "left": [],
       "right": [
         {
-          "type": "karmapointtext",
+          "type": "langSelect",
           "config": {
-            "actionBtnId": "feature_mydashboard",
-            "toolTip": "Karma points",
+            "actionBtnId": "feature_langselect",
+            "toolTip": "Language",
             "className": "fixtopMargin",
             "config": {
-              "actionBtnId": "feature_home",
+              "actionBtnId": "feature_langselect",
               "type": "card-mini",
               "hideTitle": true
             }
           }
         },
         {
-          "type": "downloadButton",
-          "config": {
-            "actionBtnId": "feature_home",
-            "toolTip": "Home",
-            "className": "fixtopMargin",
-            "config": {
-              "actionBtnId": "feature_home",
-              "type": "card-mini",
-              "hideTitle": true
-            }
-          }
+          "type": "themeToggle"
         },
         {
           "type": "fontButton",
@@ -311,19 +301,6 @@
             "className": "fixtopMargin",
             "config": {
               "actionBtnId": "feature_mydashboard",
-              "type": "card-mini",
-              "hideTitle": true
-            }
-          }
-        },
-        {
-          "type": "langSelect",
-          "config": {
-            "actionBtnId": "feature_langselect",
-            "toolTip": "Language",
-            "className": "fixtopMargin",
-            "config": {
-              "actionBtnId": "feature_langselect",
               "type": "card-mini",
               "hideTitle": true
             }
@@ -343,19 +320,6 @@
           }
         },
         {
-          "type": "helpButton",
-          "config": {
-            "actionBtnId": "feature_mydashboard",
-            "toolTip": "My Dashboard",
-            "className": "fixtopMargin",
-            "config": {
-              "actionBtnId": "feature_mydashboard",
-              "type": "card-mini",
-              "hideTitle": true
-            }
-          }
-        },
-        {
           "type": "widgetButton",
           "config": {
             "widgetType": "actionButton",
@@ -364,9 +328,9 @@
               "disableViewProfile": true,
               "disableAllFeatures": true,
               "disableSettings": true,
-              "removeClass": true
-            },
-            "hideTitle": true
+              "removeClass": true,
+              "showProgress": true
+            }
           }
         }
       ]
@@ -1145,37 +1109,39 @@
       }
     }
   },
-  "iGOTAI":{
-                "iGOTAI": false,
-                "aiTutor": false,
-                "transcription": false,
-                "subTitles": false,
-                "useResourceId": false,
-                "web": {
-                    "iGOTAI": {
-                        "all": true,
-                        "forOrg": ["0140908831042437120"],
-                        "allDesignation": true,
-                        "forDesignation": []
-                    },
-                    "supportAI": {
-                        "all": true,
-                        "forOrg": []
-                    },
-                    "aiTutor": {
-                        "all": false,
-                        "forOrg": [],
-                        "allDesignation": false,
-                        "forDesignation": []
-                    },
-                    "subTitles": {
-                        "all": true,
-                        "forOrg": []
-                    },
-                    "transcription": {
-                        "all": true,
-                        "forOrg": []
-                    }
-                }
-            }
+  "iGOTAI": {
+    "iGOTAI": false,
+    "aiTutor": false,
+    "transcription": false,
+    "subTitles": false,
+    "useResourceId": false,
+    "web": {
+      "iGOTAI": {
+        "all": true,
+        "forOrg": [
+          "0140908831042437120"
+        ],
+        "allDesignation": true,
+        "forDesignation": []
+      },
+      "supportAI": {
+        "all": true,
+        "forOrg": []
+      },
+      "aiTutor": {
+        "all": false,
+        "forOrg": [],
+        "allDesignation": false,
+        "forDesignation": []
+      },
+      "subTitles": {
+        "all": true,
+        "forOrg": []
+      },
+      "transcription": {
+        "all": true,
+        "forOrg": []
+      }
+    }
+  }
 }
