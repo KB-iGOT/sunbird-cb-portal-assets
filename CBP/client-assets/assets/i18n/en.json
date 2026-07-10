@@ -2029,7 +2029,16 @@
         "communities": "Communities ({{count}})",
         "seeAllResults": "See all the results",
         "iGOTSpecializationProgram": "iGOT Specialization",
-        "noEventScheduleYet": "No events scheduled yet"
+        "noEventScheduleYet": "No events scheduled yet",
+        "verificationStatus": "Verification Status",
+        "groups": "Groups",
+        "roles": "Roles",
+        "planType": "Plan Type",
+        "onBoardingDateRange": "Onboarding Date Range",
+        "importedOn": "Imported On",
+        "eventDate": "Event Date",
+        "createdOn": "Created On",
+        "createdDate": "Created Date"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
