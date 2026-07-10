@@ -2097,7 +2097,9 @@
         "externalContent": "External Content ({{count}})",
         "comprehensiveAssessmentProgram": "Comprehensive Assessment Program",
         "multilingualCourse": "Multilingual Course",
-        "learningPathway": "Learning Pathway"
+        "learningPathway": "Learning Pathway",
+        "contentStatus": "Content Status",
+        "createdDate": "Created Date"
     },
     "utilslogout": {
         "logoutNow": "Logout Now",
