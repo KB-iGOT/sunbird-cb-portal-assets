@@ -137,7 +137,7 @@
         {
           "pillKey": "standaloneAssessment",
           "pillInfoCountKey": "standaloneAssessment",
-          "pillLabel": "Standalone Assessment",
+          "pillLabel": "Schedule Assessment",
           "pillDescription": [
             "Assess, Analyze & Improve"
           ],
@@ -269,6 +269,9 @@
     {
       "sectionKey": "featuredAiCourses",
       "header": "Featured AI Courses",
+      "headersubLableTeme": "blueTheme",
+      "headerSubLabel": "AI - powered",
+      "showHeaderSubLabel": true,
       "translateHeader": true,
       "visibilityMode": "visible",
       "displayType": "cards",

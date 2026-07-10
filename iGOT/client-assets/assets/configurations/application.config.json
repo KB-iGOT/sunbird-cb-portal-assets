@@ -294,19 +294,6 @@
           "type": "themeToggle"
         },
         {
-          "type": "fontButton",
-          "config": {
-            "actionBtnId": "feature_mydashboard",
-            "toolTip": "My Dashboard",
-            "className": "fixtopMargin",
-            "config": {
-              "actionBtnId": "feature_mydashboard",
-              "type": "card-mini",
-              "hideTitle": true
-            }
-          }
-        },
-        {
           "type": "notificationBell",
           "config": {
             "actionBtnId": "feature_notification",
