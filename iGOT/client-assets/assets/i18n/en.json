@@ -288,7 +288,8 @@
     "inactive": "Inactive",
     "mostPopular": "Most popular",
     "availableInLanguages": "Available in {{count}} Languages",
-    "completed": "Completed"
+    "completed": "Completed",
+    "unenroll": "Un-enroll"
   },
   "allChannelsComponent": {
     "noChannelsFound": "No channels found!",
