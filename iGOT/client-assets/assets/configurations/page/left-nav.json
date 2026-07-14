@@ -52,7 +52,7 @@
             "iconName": "",
             "iconUrl": "menu_book",
             "label": "Learner Passbook",
-            "navUrl": "/passbook",
+            "navUrl": "/page/competency-passbook/list",
             "disableTranslate": true,
             "enabled": true,
             "subType": "PageMenu"
@@ -62,7 +62,7 @@
             "iconName": "",
             "iconUrl": "chatt_msg",
             "label": "iGOT Community",
-            "navUrl": "/community",
+            "navUrl": "/app/discussion-forum-v2",
             "disableTranslate": true,
             "enabled": true,
             "subType": "PageMenu"
