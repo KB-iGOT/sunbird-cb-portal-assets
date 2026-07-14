@@ -278,59 +278,95 @@
       "left": [],
       "right": [
         {
-          "type": "langSelect",
+          "type": "karmapointtext",
           "config": {
-            "actionBtnId": "feature_langselect",
-            "toolTip": "Language",
-            "className": "fixtopMargin",
             "config": {
-              "actionBtnId": "feature_langselect",
               "type": "card-mini",
-              "hideTitle": true
-            }
+              "hideTitle": true,
+              "actionBtnId": "feature_home"
+            },
+            "toolTip": "Karma points",
+            "className": "fixtopMargin",
+            "actionBtnId": "feature_mydashboard"
           }
         },
         {
-          "type": "themeToggle"
+          "type": "downloadButton",
+          "config": {
+            "config": {
+              "type": "card-mini",
+              "hideTitle": true,
+              "actionBtnId": "feature_home"
+            },
+            "toolTip": "Home",
+            "className": "fixtopMargin",
+            "actionBtnId": "feature_home"
+          }
         },
         {
           "type": "fontButton",
           "config": {
-            "actionBtnId": "feature_mydashboard",
+            "config": {
+              "type": "card-mini",
+              "hideTitle": true,
+              "actionBtnId": "feature_mydashboard"
+            },
             "toolTip": "My Dashboard",
             "className": "fixtopMargin",
+            "actionBtnId": "feature_mydashboard"
+          }
+        },
+        {
+          "type": "langSelect",
+          "config": {
             "config": {
-              "actionBtnId": "feature_mydashboard",
               "type": "card-mini",
-              "hideTitle": true
-            }
+              "hideTitle": true,
+              "actionBtnId": "feature_langselect"
+            },
+            "toolTip": "Language",
+            "className": "fixtopMargin",
+            "actionBtnId": "feature_langselect"
           }
         },
         {
           "type": "notificationBell",
           "config": {
-            "actionBtnId": "feature_notification",
+            "config": {
+              "type": "card-mini",
+              "hideTitle": true,
+              "actionBtnId": "feature_notification"
+            },
             "toolTip": "Notification",
             "className": "fixtopMargin",
+            "actionBtnId": "feature_notification"
+          }
+        },
+        {
+          "type": "helpButton",
+          "config": {
             "config": {
-              "actionBtnId": "feature_notification",
               "type": "card-mini",
-              "hideTitle": true
-            }
+              "hideTitle": true,
+              "actionBtnId": "feature_mydashboard"
+            },
+            "toolTip": "My Dashboard",
+            "className": "fixtopMargin",
+            "actionBtnId": "feature_mydashboard"
           }
         },
         {
           "type": "widgetButton",
           "config": {
-            "widgetType": "actionButton",
-            "widgetSubType": "actionButtonProfile",
+            "hideTitle": true,
             "widgetData": {
-              "disableViewProfile": true,
-              "disableAllFeatures": true,
-              "disableSettings": true,
               "removeClass": true,
-              "showProgress": true
-            }
+              "disableSettings": true,
+              "disableAllFeatures": true,
+              "disableViewProfile": true
+            },
+            "widgetType": "actionButton",
+            "widgetSubType": "actionButtonProfile"
           }
         }
       ]
