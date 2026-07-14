@@ -275,7 +275,7 @@
     "noviews": "No views",
     "resume": "Resume",
     "start": "Start",
-    "re-enroll": "Re-enroll",
+    "reEnroll": "Re-enroll",
     "viewCertificate": "View Certificate",
     "overDue": "Over due",
     "deadline": "Deadline",
@@ -288,7 +288,8 @@
     "inactive": "Inactive",
     "mostPopular": "Most popular",
     "availableInLanguages": "Available in {{count}} Languages",
-    "completed": "Completed"
+    "completed": "Completed",
+    "unenroll": "Un-enroll"
   },
   "allChannelsComponent": {
     "noChannelsFound": "No channels found!",
@@ -664,7 +665,7 @@
     "preEnroll": "Pre-Enrollment Requisites",
     "preEnrollDone": "Pre-Enrollment Requisites Completed",
     "enroll": "Enroll",
-    "re-enroll": "Re-enroll",
+    "reEnroll": "Re-enroll",
     "youAreNotInvited": "You are not invited for this Program.",
     "youAreNotInvitedForAssessment": "You are not invited for this Assessment.",
     "noActiveBatches": "No Active Batches!!.",
@@ -1665,7 +1666,8 @@
       "iGOTSpecialisations": "iGOT Specialisations",
       "amritGyaanKosh": "Amrit Gyaan Kosh",
       "mdoChannel": "MDO Channel"
-    }
+    },
+    "YouWillFindyourUnenrolledCoursesHere.": "You will find your unenrolled courses here."
   },
   "homeotherportals": {
     "otherPortals": "Other Portals You Have Access To",
