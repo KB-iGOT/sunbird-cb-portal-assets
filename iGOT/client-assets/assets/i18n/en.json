@@ -1589,7 +1589,7 @@
     "updateNow": "Update now",
     "myDiscussions": "My Discussions",
     "recentlyAdded": "Recently added",
-    "youWillFindYourCompletedCourses/programHere": "You will find your completed courses/program here",
+    "youWillFindYourCompletedCourses/programHere.": "You will find your completed courses/program here.",
     "today'sEvents": "Today's Events",
     "keySpeakersEvents": "Key Speakers Events",
     "noDataCourse": "No Courses Available.",
@@ -1667,7 +1667,7 @@
       "amritGyaanKosh": "Amrit Gyaan Kosh",
       "mdoChannel": "MDO Channel"
     },
-    "youWillFindyourUnenrolledCoursesHere.": "You will find your unenrolled courses here."
+    "youWillFindYourUnenrolledCoursesHere.": "You will find your unenrolled courses here."
   },
   "homeotherportals": {
     "otherPortals": "Other Portals You Have Access To",

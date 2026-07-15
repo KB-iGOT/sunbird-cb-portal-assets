@@ -1565,7 +1565,7 @@
     "updateNow": "अभी अपडेट करें",
     "myDiscussions": "मेरी चर्चाएँ",
     "recentlyAdded": "नए जोड़े गए",
-    "youWillFindYourCompletedCourses/programHere": "आपको यहां अपने पूरे किए गए कोर्स/कार्यक्रम मिलेंगे।",
+    "youWillFindYourCompletedCourses/programHere.": "आपको यहां अपने पूरे किए गए कोर्स/कार्यक्रम मिलेंगे।",
     "today'sEvents": "आज के इवेंट्स",
     "keySpeakersEvents": "मुख्य वक्ता कार्यक्रम",
     "liveEvents": "लाइव इवेंट",
@@ -1626,7 +1626,7 @@
       "amritGyaanKosh": "अमृत ज्ञान कोश",
       "mdoChannel": "MDO चैनल"
     },
-    "youWillFindyourUnenrolledCoursesHere.": "आपको यहाँ आपके नामांकित नहीं किए गए कोर्स मिलेंगे।"
+    "youWillFindYourUnenrolledCoursesHere.": "आपको यहाँ आपके नामांकित नहीं किए गए कोर्स मिलेंगे।"
   },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
