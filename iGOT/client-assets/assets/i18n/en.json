@@ -275,6 +275,7 @@
         "noviews": "No views",
         "resume": "Resume",
         "start": "Start",
+        "re-enroll": "Re-enroll",
         "viewCertificate": "View Certificate",
         "overDue": "Over due",
         "deadline": "Deadline",
@@ -284,7 +285,9 @@
         "newVersion": "New Version",
         "externalCourseRetiredMessage": "This course is no longer being offered in its current form. We are updating our catalog to bring you improved learning options. Please choose another course with similar topics or browse recommended courses.",
         "externalCourseProviderRetiredMessage": "Courses from this learning partner are temporarily not available on iGOT Karmayogi. Our team is updating partner content. In the meantime, you can continue your journey with courses from other partners.",
-        "inactive": "Inactive"
+        "inactive": "Inactive",
+        "completed": "Completed",
+        "unenroll": "Un-enroll"
     },
     "allChannelsComponent": {
         "noChannelsFound": "No channels found!",
@@ -660,6 +663,7 @@
         "preEnroll": "Pre-Enrollment Requisites",
         "preEnrollDone": "Pre-Enrollment Requisites Completed",
         "enroll": "Enroll",
+        "reEnroll": "Re-enroll",
         "youAreNotInvited": "You are not invited for this Program.",
         "youAreNotInvitedForAssessment": "You are not invited for this Assessment.",
         "noActiveBatches": "No Active Batches!!.",
@@ -1583,7 +1587,7 @@
         "updateNow": "Update now",
         "myDiscussions": "My Discussions",
         "recentlyAdded": "Recently added",
-        "youWillFindYourCompletedCourses/programHere": "You will find your completed courses/program here",
+        "youWillFindYourCompletedCourses/programHere.": "You will find your completed courses/program here.",
         "today'sEvents": "Today's Events",
         "keySpeakersEvents": "Key Speakers Events",
         "noDataCourse": "No Courses Available.",
@@ -1653,7 +1657,8 @@
         "noevents": "Events will be available soon.",
         "learningPathway": "Learning Pathway",
         "noMatchingCourses": "No matching courses",
-        "youwillFindProviderCourseHere.": "You will find Provider Course Here."
+        "youwillFindProviderCourseHere.": "You will find Provider Course Here.",
+        "youWillFindYourUnenrolledCoursesHere.": "You will find your unenrolled courses here."
     },
     "homeotherportals": {
         "otherPortals": "Other Portals You Have Access To",
