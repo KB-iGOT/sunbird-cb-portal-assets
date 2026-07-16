@@ -1,0 +1,125 @@
+{
+  "supportTopics": [
+    {
+      "name": "Getting Started",
+      "color": "#EF5350",
+      "slug": "getting-started",
+      
+      "subTopics": [
+        {
+          "name": "How do I sign in to the Content Portal as an admin?",
+          "answer": "Sign in with your iGOT credentials. Your admin role is granted by your Ministry Admin — if the Content Portal tab is missing from your dashboard, request access through your Nodal Officer."
+        },
+        {
+          "name": "What roles can create or review content?",
+          "answer": "The Content Creator role allows users to create new content, while the Content Reviewer role enables them to review and approve content before it is published."
+        },
+        {
+          "name": "Where do I find the Quick Action landing?",
+          "answer": "The Quick Action landing page is accessible from the dashboard after signing in. It provides shortcuts to commonly used features and tools for content management."
+        },
+        {
+          "name": "Can I work in Hindi, Marathi, or other official languages?",
+          "answer": "Yes, the Content Portal supports content creation and management in multiple languages, including Hindi, Marathi, and other official languages. You can select your preferred language in the settings."
+        },
+        {
+          "name": "How do I switch between Ministry organisations?",
+          "answer": "To switch between Ministry organisations, click on your profile icon in the top right corner of the dashboard, select \"Switch Organisation,\" and choose the desired Ministry from the list."
+        },
+        {
+          "name": "Where can I see a list of my recent activity?",
+          "answer": "Your recent activity can be viewed in the \"Activity Log\" section of your profile. This log includes a history of your content creation, reviews, and other interactions within the Content Portal."
+        }
+      ]
+    },
+    {
+      "name": "Uploading Content",
+      "color": "#EF951E",
+      "slug": "uploading-content",
+      "subTopics": [
+        {
+          "name": "What file formats are supported for content upload?",
+          "answer": "We support PDF, MP4, WebM, MP3, ePub, HTML zip packages, and SCORM 1.2/2004 packages. Each file must not exceed 500 MB. For video content, MP4 with H.264 encoding is recommended."
+        },
+        {
+          "name": "How do I upload a video file to the portal?",
+          "answer": "Go to My Content, click \"Upload New\", select Video as the content type, choose your MP4 file, add metadata such as title and description, and click Submit. The video will be processed and transcoded automatically."
+        },
+        {
+          "name": "Why is my upload failing or taking too long?",
+          "answer": "Upload failures are usually due to large file sizes, slow internet connections, or unsupported file formats. Ensure your file is under 500 MB and in a supported format. Try using a wired connection for large uploads."
+        },
+        {
+          "name": "Can I upload content in bulk?",
+          "answer": "Yes, the portal supports bulk upload via CSV. Download the template from the Bulk Upload section, fill in your content metadata and file paths, compress everything into a ZIP, and upload. You can track progress in the Bulk Upload Jobs page."
+        },
+        {
+          "name": "How do I add subtitles or captions to my video content?",
+          "answer": "After uploading your video, go to the content details page, click on \"Subtitles\", and upload a WebVTT (.vtt) file. You can upload multiple subtitle files for different languages."
+        },
+        {
+          "name": "What metadata fields are mandatory for content upload?",
+          "answer": "Title, Description, Category, Sub-category, and Target Audience are mandatory fields. Additional fields like Keywords, Difficulty Level, and Duration help improve discoverability and are strongly recommended."
+        },
+        {
+          "name": "How do I replace or update an already uploaded file?",
+          "answer": "Navigate to My Content, find the content item, click the three-dot menu, and select \"Replace File\". Upload the new version. The old version will be archived and learners will see only the latest version."
+        },
+        {
+          "name": "Can I schedule content for future publication?",
+          "answer": "Yes, during upload or editing, set a \"Publish Date\" in the future. The content will remain in Draft or Scheduled state until that date, at which point it will be automatically published."
+        }
+      ]
+    },
+    {
+      "name": "Review & Publishing",
+      "slug": "review-publishing",
+      "color": "#66BB6A",
+      "subTopics": [
+        {
+          "name": "How does the content review process work?",
+          "answer": "Once you submit content for review, it is assigned to a Reviewer. The Reviewer can approve it, send it back with comments for revision, or reject it with reasons. You will receive a notification on the status change."
+        },
+        {
+          "name": "How long does the review process typically take?",
+          "answer": "Standard review turnaround is 2-3 business days. Complex content such as interactive modules may take up to 5 business days. You can check the review status in the My Content section at any time."
+        },
+        {
+          "name": "What should I do if my content is rejected?",
+          "answer": "Read the reviewer comments carefully, make the requested changes, and resubmit. Common reasons for rejection include incorrect metadata, formatting issues, or content that does not align with guidelines."
+        },
+        {
+          "name": "How do I publish content immediately after approval?",
+          "answer": "Approved content is automatically queued for publishing. If you need immediate publication, go to My Content, click the three-dot menu on the approved item, and select \"Publish Now\". The content will go live within a few minutes."
+        },
+        {
+          "name": "Can I unpublish or remove published content?",
+          "answer": "Yes, content owners and admins can unpublish content. Go to My Content, find the published item, click the three-dot menu, and select \"Unpublish\". The content will be removed from learner-facing views immediately."
+        }
+      ]
+    },
+    {
+      "name": "Platform & Account",
+      "color": "#AB47BC",
+      "slug": "platform-account",
+      "subTopics": [
+        {
+          "name": "How do I update my profile information?",
+          "answer": "Click on your avatar in the top-right corner, select \"Profile Settings\", and update your name, email, or phone number. Changes to your email or phone require OTP verification before they take effect."
+        },
+        {
+          "name": "The portal is loading slowly or showing errors. What should I do?",
+          "answer": "First, clear your browser cache and cookies. If the issue persists, try a different browser or an incognito window. Contact the support team if the problem continues across all browsers."
+        },
+        {
+          "name": "How do I manage permissions for other users in my ministry?",
+          "answer": "Only Admin role users can manage permissions. Go to Admin > User Management, search for the user, and assign or revoke roles. Changes take effect immediately after saving."
+        },
+        {
+          "name": "How do I view my activity log and usage statistics?",
+          "answer": "Go to Reports > Activity Log from the sidebar. You can filter by date range, action type, and content item. Usage statistics such as total uploads, approvals, and active learners are available on the dashboard."
+        }
+      ]
+    }
+  ]
+}
