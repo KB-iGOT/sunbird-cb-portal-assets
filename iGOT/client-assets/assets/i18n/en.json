@@ -287,7 +287,8 @@
         "externalCourseProviderRetiredMessage": "Courses from this learning partner are temporarily not available on iGOT Karmayogi. Our team is updating partner content. In the meantime, you can continue your journey with courses from other partners.",
         "inactive": "Inactive",
         "completed": "Completed",
-        "unenroll": "Un-enroll"
+        "unenroll": "Un-enroll",
+        "reEnroll": "Re-enroll"
     },
     "allChannelsComponent": {
         "noChannelsFound": "No channels found!",
