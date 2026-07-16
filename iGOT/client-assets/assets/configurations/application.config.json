@@ -580,6 +580,10 @@
     "startDate": 1766428200000
   },
   "npsCategory": "NPS2",
+  "volunteerSearch": {
+    "courseCategory": ["course"],
+    "facets": []
+  },
   "compentency": {
     "competencies_v5": {
       "vKey": "competencies_v5",
@@ -979,6 +983,7 @@
     ]
   },
   "headerFooterConfigData": {
+    "footerContainerClassName": "",
     "topRightNavConfig": [
       {
         "id": 1,
@@ -1017,28 +1022,32 @@
         "order": 1,
         "sectionHeading": "hubs",
         "active": true,
-        "slug": "hub"
+        "slug": "hub",
+        "className": ""
       },
       {
         "id": 2,
         "order": 2,
         "sectionHeading": "relatedLinks",
         "active": true,
-        "slug": "link"
+        "slug": "link",
+        "className": ""
       },
       {
         "id": 3,
         "order": 3,
         "sectionHeading": "support",
         "active": true,
-        "slug": "support"
+        "slug": "support",
+        "className": ""
       },
       {
         "id": 4,
         "order": 4,
         "sectionHeading": "aboutUs",
         "active": true,
-        "slug": "about"
+        "slug": "about",
+        "className": ""
       }
     ]
   },
@@ -1105,39 +1114,38 @@
       }
     }
   },
-  "iGOTAI": {
-    "iGOTAI": false,
-    "aiTutor": false,
-    "transcription": false,
-    "subTitles": false,
-    "useResourceId": false,
-    "web": {
-      "iGOTAI": {
-        "all": true,
-        "forOrg": [
-          "0140908831042437120"
-        ],
-        "allDesignation": true,
-        "forDesignation": []
-      },
-      "supportAI": {
-        "all": true,
-        "forOrg": []
-      },
-      "aiTutor": {
-        "all": false,
-        "forOrg": [],
-        "allDesignation": false,
-        "forDesignation": []
-      },
-      "subTitles": {
-        "all": true,
-        "forOrg": []
-      },
-      "transcription": {
-        "all": true,
-        "forOrg": []
-      }
-    }
-  }
+  "iGOTAI":{
+                "enabled": true,
+                "iGOTAI": false,
+                "aiTutor": false,
+                "transcription": false,
+                "subTitles": false,
+                "useResourceId": false,
+                "web": {
+                    "iGOTAI": {
+                        "all": true,
+                        "forOrg": ["0140908831042437120"],
+                        "allDesignation": true,
+                        "forDesignation": []
+                    },
+                    "supportAI": {
+                        "all": true,
+                        "forOrg": []
+                    },
+                    "aiTutor": {
+                        "all": false,
+                        "forOrg": [],
+                        "allDesignation": false,
+                        "forDesignation": []
+                    },
+                    "subTitles": {
+                        "all": true,
+                        "forOrg": []
+                    },
+                    "transcription": {
+                        "all": true,
+                        "forOrg": []
+                    }
+                }
+            }
 }
