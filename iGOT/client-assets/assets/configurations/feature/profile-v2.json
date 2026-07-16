@@ -313,6 +313,10 @@
                 "fields": {
                     "editTransferRequest": {
                         "key": "editTransferRequest",
+                        "enabled": false
+                    },
+                    "tooltip": {
+                        "key": "tooltip",
                         "enabled": true
                     },
                     "group": {
@@ -522,7 +526,8 @@
                     },
                     "addOTPverification": true,
                     "addValueChangeListener": true,
-                    "valueChangeKey": "primaryEmail"
+                    "valueChangeKey": "primaryEmail",
+                    "disabled": false
                 },
                 {
                     "type": "select",
@@ -532,7 +537,8 @@
                     "required": false,
                     "valuePath": "gender",
                     "row": "genderDobRow",
-                    "optionsSource": "eUserGender"
+                    "optionsSource": "eUserGender",
+                    "disabled": false
                 },
                 {
                     "type": "date",
@@ -542,7 +548,9 @@
                     "valuePath": "dob",
                     "maxDate": "new Date()",
                     "readonly": true,
-                    "row": "genderDobRow"
+                    "row": "genderDobRow",
+                    "required": false,
+                    "disabled": false
                 },
                 {
                     "type": "select",
@@ -551,7 +559,9 @@
                     "placeholder": "Select Category",
                     "valuePath": "category",
                     "row": "categoryPinRow",
-                    "optionsSource": "eCategory"
+                    "optionsSource": "eCategory",
+                    "required": false,
+                    "disabled": false
                 },
                 {
                     "type": "text",
@@ -564,7 +574,9 @@
                     "row": "categoryPinRow",
                     "errorMessages": {
                         "pattern": "Please enter a valid 6-digit pin code."
-                    }
+                    },
+                    "required": false,
+                    "disabled": false
                 },
                 {
                     "type": "mobile",
@@ -581,7 +593,9 @@
                     },
                     "addOTPverification": true,
                     "addValueChangeListener": true,
-                    "valueChangeKey": "primaryMobile"
+                    "valueChangeKey": "primaryMobile",
+                    "required": false,
+                    "disabled": false
                 },
                 {
                     "type": "searchable-select",
@@ -590,7 +604,9 @@
                     "placeholder": "Select Mother Tongue",
                     "valuePath": "domicileMedium",
                     "row": "mobileTongueRow",
-                    "optionsSource": "languages"
+                    "optionsSource": "languages",
+                    "required": false,
+                    "disabled": false
                 }
             ]
         },
