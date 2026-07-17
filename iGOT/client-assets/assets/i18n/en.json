@@ -106,6 +106,7 @@
   "appnavbar": {
     "searchforLearningContents": "Search for learning contents",
     "searchforLearningContentsV2": "Search for Anything",
+    "searchAnything": "Search Anything...",
     "karmaPoints": "Karma Points",
     "karmaPointsToolTip": "Karma Points measure and map your engagement at iGOT. Points are updated within 4 hours."
   },

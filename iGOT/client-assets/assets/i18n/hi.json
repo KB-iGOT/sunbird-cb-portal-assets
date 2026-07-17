@@ -105,6 +105,7 @@
   "appnavbar": {
     "searchforLearningContents": "कंटेन्ट खोजें",
     "searchforLearningContentsV2": "कुछ भी खोजें",
+    "searchAnything": "कुछ भी खोजें...",
     "karmaPoints": "कर्मा पॉइंट्स",
     "karmaPointsToolTip": "कर्मा पॉइंट्स से आईगॉट में आपकी भागीदारी रिकार्ड होती है । पॉइंट्स 4 घंटे में अपडेट हो जाते हैं।"
   },
@@ -274,7 +275,7 @@
     "noviews": "कोई व्यू नहीं",
     "resume": "फिर से शुरू करें",
     "start": "शुरू करें",
-    "reEnroll": "फिर से नामांकन करें",
+    "re-enroll": "फिर से नामांकन करें",
     "viewCertificate": "प्रमाणपत्र देखें",
     "overDue": "बहुत देर",
     "deadline": "समय सीमा",
@@ -285,9 +286,8 @@
     "externalCourseRetiredMessage": "यह पाठ्यक्रम अब अपने वर्तमान स्वरूप में उपलब्ध नहीं है। हम बेहतर शिक्षण विकल्प प्रदान करने के लिए अपनी पाठ्यक्रम सूची को अपडेट कर रहे हैं। कृपया समान विषयों वाले किसी अन्य पाठ्यक्रम का चयन करें या सुझाए गए पाठ्यक्रम देखें।",
     "externalCourseProviderRetiredMessage": "इस शिक्षण साझेदार के पाठ्यक्रम फिलहाल iGOT कर्मयोगी पर उपलब्ध नहीं हैं। हमारी टीम साझेदार की सामग्री को अपडेट कर रही है। इस दौरान, आप अन्य साझेदारों के पाठ्यक्रमों के साथ अपनी सीखने की यात्रा जारी रख सकते हैं।",
     "inactive": "निष्क्रिय",
-    "mostPopular": "सबसे लोकप्रिय",
-    "availableInLanguages": "{{count}} भाषाओं में उपलब्ध",
-    "completed": "पूर्ण"
+    "completed": "पूरा किया",
+    "unenroll": "नामांकन रद्द करें"
   },
   "allChannelsComponent": {
     "noChannelsFound": "कोई चैनल नहीं मिला!",
@@ -1620,14 +1620,14 @@
     "noevents": "कोई इवेंट उपलब्ध नहीं है।",
     "noMatchingCourses": "कोई मेल खाने वाले कोर्स नहीं",
     "inSpotlight": "स्पॉटलाइट में",
-    "spotlightCards": {
+    "youWillFindYourUnenrolledCoursesHere.": "आपको यहाँ आपके नामांकित नहीं किए गए कोर्स मिलेंगे।",
+  },
+  "spotlightCards": {
       "iGOTMarketplace": "iGOT मार्केटप्लेस",
       "iGOTSpecialisations": "iGOT विशेषज्ञता",
       "amritGyaanKosh": "अमृत ज्ञान कोश",
       "mdoChannel": "MDO चैनल"
     },
-    "youWillFindYourUnenrolledCoursesHere.": "आपको यहाँ आपके नामांकित नहीं किए गए कोर्स मिलेंगे।"
-  },
   "homeotherportals": {
     "otherPortals": "अन्य पोर्टल जिन तक आपकी पहुंच है",
     "mdoPortal": "एम.डी.ओ. पोर्टल",

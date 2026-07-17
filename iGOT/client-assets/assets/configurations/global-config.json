@@ -54,6 +54,17 @@
     "marquee": {
       "enabled": false
     },
+    "dialogs": {
+      "enabled": true,
+      "tour": true,
+      "profileVerification": true,
+      "mandatoryNotification": true,
+      "downloadApp": true,
+      "mdoProfileUpdateStatus": true,
+      "profileUpdateNudge": true,
+      "customAttributeUpdate": true,
+      "npsSurvey": true
+    },
     "footer": {
       "enabled": true,
       "showLinks": true,
@@ -93,7 +104,24 @@
       "downloadApp": true
     },
     "bottomNav": {
-      "enabled": true
+      "enabled": true,
+      "items": {
+        "home": true,
+        "explore": true,
+        "search": true,
+        "my learnings": true
+      },
+      "additionalItems": [
+        {
+          "type": "iconButton",
+          "config": {
+            "icon": "profile",
+            "path": "/app/person-profile/me",
+            "fragment": "profileInfo",
+            "label": "profile"
+          }
+        }
+      ]
     },
     "profileMenu": {
       "enabled": true,
@@ -320,21 +348,50 @@
   
 
   "routes": {
-    "home": true,
-    "login": true,
-    "search": false,
-    "globalsearch": true,
-    "profile": true,
-    "profile-v2": true,
-    "profile-v3": true,
-    "discussion-v2": false,
-    "network-v2": true,
-    "event": true,
-    "knowledge-resource": true,
-    "amrit-gyaan-kosh": false,
-    "jan-karmayogi": true,
-    "mandatory-course": true,
-    "organization": true,
-    "taxonomy": true
+    "home": { "enabled": true, "allowedSubRoutes": [] },
+    "login": { "enabled": true, "allowedSubRoutes": [] },
+    "search": { "enabled": false, "allowedSubRoutes": [] },
+    "globalsearch": { "enabled": true, "allowedSubRoutes": [] },
+    "profile": { "enabled": true, "allowedSubRoutes": [] },
+    "profile-v2": { "enabled": true, "allowedSubRoutes": [] },
+    "profile-v3": { "enabled": true, "allowedSubRoutes": [] },
+    "discussion-v2": { "enabled": false, "allowedSubRoutes": [] },
+    "network-v2": { "enabled": true, "allowedSubRoutes": [] },
+    "event": { "enabled": true, "allowedSubRoutes": [] },
+    "knowledge-resource": { "enabled": true, "allowedSubRoutes": [] },
+    "amrit-gyaan-kosh": { "enabled": false, "allowedSubRoutes": ["player"] },
+    "jan-karmayogi": { "enabled": true, "allowedSubRoutes": [] },
+    "mandatory-course": { "enabled": true, "allowedSubRoutes": [] },
+    "organization": { "enabled": true, "allowedSubRoutes": [] },
+    "taxonomy": { "enabled": true, "allowedSubRoutes": [] },
+    "learn": { "enabled": false, "allowedSubRoutes": [] },
+    "mentorship": { "enabled": false, "allowedSubRoutes": [] },
+    "toc": { "enabled": true, "allowedSubRoutes": [] },
+    "viewer": { "enabled": true, "allowedSubRoutes": [] },
+    "seeAll": { "enabled": true, "allowedSubRoutes": [] },
+    "my-learning": { "enabled": true, "allowedSubRoutes": [] },
+    "my-dashboard": { "enabled": true, "allowedSubRoutes": [] },
+    "my-rewards": { "enabled": true, "allowedSubRoutes": [] },
+    "notifications": { "enabled": true, "allowedSubRoutes": [] },
+    "playlist": { "enabled": true, "allowedSubRoutes": [] },
+    "curatedCollections": { "enabled": true, "allowedSubRoutes": [] },
+    "features": { "enabled": true, "allowedSubRoutes": [] },
+    "microsites": { "enabled": true, "allowedSubRoutes": [] },
+    "goals": { "enabled": true, "allowedSubRoutes": [] },
+    "feedback": { "enabled": true, "allowedSubRoutes": [] },
+    "activities": { "enabled": true, "allowedSubRoutes": [] },
+    "peer-validation": { "enabled": true, "allowedSubRoutes": [] },
+    "frac": { "enabled": true, "allowedSubRoutes": [] },
+    "badges": { "enabled": true, "allowedSubRoutes": [] },
+    "learner-advisory": { "enabled": true, "allowedSubRoutes": [] },
+    "page-leaders": { "enabled": true, "allowedSubRoutes": [] },
+    "content-assignment": { "enabled": true, "allowedSubRoutes": [] },
+    "info": { "enabled": true, "allowedSubRoutes": [] },
+    "nlw": { "enabled": true, "allowedSubRoutes": [] },
+    "bharat-kalp": { "enabled": true, "allowedSubRoutes": [] },
+    "mdo-channels": { "enabled": true, "allowedSubRoutes": [] },
+    "karma-programs": { "enabled": true, "allowedSubRoutes": [] },
+    "competency": { "enabled": true, "allowedSubRoutes": [] },
+    "provider": { "enabled": true, "allowedSubRoutes": [] }
   }
 }
