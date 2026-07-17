@@ -581,9 +581,7 @@
   },
   "npsCategory": "NPS2",
   "volunteerSearch": {
-    "courseCategory": [
-      "course"
-    ],
+    "courseCategory": ["course"],
     "facets": []
   },
   "compentency": {
@@ -1116,40 +1114,38 @@
       }
     }
   },
-  "iGOTAI": {
-    "enabled": true,
-    "iGOTAI": false,
-    "aiTutor": false,
-    "transcription": false,
-    "subTitles": false,
-    "useResourceId": false,
-    "web": {
-      "iGOTAI": {
-        "all": true,
-        "forOrg": [
-          "0140908831042437120"
-        ],
-        "allDesignation": true,
-        "forDesignation": []
-      },
-      "supportAI": {
-        "all": true,
-        "forOrg": []
-      },
-      "aiTutor": {
-        "all": false,
-        "forOrg": [],
-        "allDesignation": false,
-        "forDesignation": []
-      },
-      "subTitles": {
-        "all": true,
-        "forOrg": []
-      },
-      "transcription": {
-        "all": true,
-        "forOrg": []
-      }
-    }
-  }
+  "iGOTAI":{
+                "enabled": true,
+                "iGOTAI": false,
+                "aiTutor": false,
+                "transcription": false,
+                "subTitles": false,
+                "useResourceId": false,
+                "web": {
+                    "iGOTAI": {
+                        "all": true,
+                        "forOrg": ["0140908831042437120"],
+                        "allDesignation": true,
+                        "forDesignation": []
+                    },
+                    "supportAI": {
+                        "all": true,
+                        "forOrg": []
+                    },
+                    "aiTutor": {
+                        "all": false,
+                        "forOrg": [],
+                        "allDesignation": false,
+                        "forDesignation": []
+                    },
+                    "subTitles": {
+                        "all": true,
+                        "forOrg": []
+                    },
+                    "transcription": {
+                        "all": true,
+                        "forOrg": []
+                    }
+                }
+            }
 }
