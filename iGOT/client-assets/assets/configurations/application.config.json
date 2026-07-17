@@ -280,14 +280,14 @@
         {
           "type": "langSelect",
           "config": {
-            "actionBtnId": "feature_langselect",
+            "config": {
+              "type": "card-mini",
+              "hideTitle": true,
+              "actionBtnId": "feature_langselect"
+            },
             "toolTip": "Language",
             "className": "fixtopMargin",
-            "config": {
-              "actionBtnId": "feature_langselect",
-              "type": "card-mini",
-              "hideTitle": true
-            }
+            "actionBtnId": "feature_langselect"
           }
         },
         {
@@ -296,28 +296,28 @@
         {
           "type": "notificationBell",
           "config": {
-            "actionBtnId": "feature_notification",
+            "config": {
+              "type": "card-mini",
+              "hideTitle": true,
+              "actionBtnId": "feature_notification"
+            },
             "toolTip": "Notification",
             "className": "fixtopMargin",
-            "config": {
-              "actionBtnId": "feature_notification",
-              "type": "card-mini",
-              "hideTitle": true
-            }
+            "actionBtnId": "feature_notification"
           }
         },
         {
           "type": "widgetButton",
           "config": {
-            "widgetType": "actionButton",
-            "widgetSubType": "actionButtonProfile",
             "widgetData": {
-              "disableViewProfile": true,
-              "disableAllFeatures": true,
-              "disableSettings": true,
               "removeClass": true,
-              "showProgress": true
-            }
+              "showProgress": true,
+              "disableSettings": true,
+              "disableAllFeatures": true,
+              "disableViewProfile": true
+            },
+            "widgetType": "actionButton",
+            "widgetSubType": "actionButtonProfile"
           }
         }
       ]
@@ -581,7 +581,9 @@
   },
   "npsCategory": "NPS2",
   "volunteerSearch": {
-    "courseCategory": ["course"],
+    "courseCategory": [
+      "course"
+    ],
     "facets": []
   },
   "compentency": {
@@ -1114,38 +1116,40 @@
       }
     }
   },
-  "iGOTAI":{
-                "enabled": true,
-                "iGOTAI": false,
-                "aiTutor": false,
-                "transcription": false,
-                "subTitles": false,
-                "useResourceId": false,
-                "web": {
-                    "iGOTAI": {
-                        "all": true,
-                        "forOrg": ["0140908831042437120"],
-                        "allDesignation": true,
-                        "forDesignation": []
-                    },
-                    "supportAI": {
-                        "all": true,
-                        "forOrg": []
-                    },
-                    "aiTutor": {
-                        "all": false,
-                        "forOrg": [],
-                        "allDesignation": false,
-                        "forDesignation": []
-                    },
-                    "subTitles": {
-                        "all": true,
-                        "forOrg": []
-                    },
-                    "transcription": {
-                        "all": true,
-                        "forOrg": []
-                    }
-                }
-            }
+  "iGOTAI": {
+    "enabled": true,
+    "iGOTAI": false,
+    "aiTutor": false,
+    "transcription": false,
+    "subTitles": false,
+    "useResourceId": false,
+    "web": {
+      "iGOTAI": {
+        "all": true,
+        "forOrg": [
+          "0140908831042437120"
+        ],
+        "allDesignation": true,
+        "forDesignation": []
+      },
+      "supportAI": {
+        "all": true,
+        "forOrg": []
+      },
+      "aiTutor": {
+        "all": false,
+        "forOrg": [],
+        "allDesignation": false,
+        "forDesignation": []
+      },
+      "subTitles": {
+        "all": true,
+        "forOrg": []
+      },
+      "transcription": {
+        "all": true,
+        "forOrg": []
+      }
+    }
+  }
 }
