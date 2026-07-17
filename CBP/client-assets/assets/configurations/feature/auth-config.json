@@ -493,7 +493,7 @@
                 "uri": ""
               },
               "enabled": true,
-              "routerLink": "/author/cbp/how-to",
+              "routerLink": "/author/how-to",
               "requiredRoles": [
                 "cbp_admin",
                 "content_reviewer",
@@ -814,7 +814,7 @@
                 "uri": ""
               },
               "enabled": false,
-              "routerLink": "/author/cbp/how-to",
+              "routerLink": "/author/how-to",
               "requiredRoles": [
                 "cbp_admin",
                 "content_reviewer",
