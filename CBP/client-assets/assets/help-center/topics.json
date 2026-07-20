@@ -1,0 +1,327 @@
+{
+  "supportTopics": [
+    {
+      "name": "Getting Started",
+      "color": "#EF5350",
+      "slug": "getting-started",
+      "subTopics": [
+        {
+          "name": "How should I write the course title?",
+          "answer": "<p>The course title should clearly communicate the purpose and content of the course. It should be concise, meaningful, and easy for learners to understand.</p><p><strong>Recommended practices:</strong></p><ul><li>Use Title Case.</li><li>Use full forms instead of abbreviations.</li><li>Keep the title simple and learner friendly.</li><li>Ensure the title reflects the learning content.</li></ul><p><strong>Avoid:</strong></p><ul><li>Using unnecessary symbols or special characters.</li><li>Writing &quot;Course&quot; in the title.</li><li>Using titles such as &quot;Module 1&quot;, &quot;Part 1&quot;, etc.</li><li>Using unexplained abbreviations.</li></ul>"
+        },
+        {
+          "name": "How should I write the course description?",
+          "answer": "<p>The course description should provide learners with a clear understanding of what the course covers and why it is relevant. A good course description should answer:</p><ul><li>What is the course about?</li><li>Why is the course important?</li><li>Who should take the course?</li><li>What will learners gain from completing the course?</li><li>Are there any prerequisites?</li></ul><p>The description should be informative, engaging, and learner focused.</p>"
+        },
+        {
+          "name": "How should I write the learning outcomes?",
+          "answer": "<p>The course objective should clearly state what learners will be able to achieve after completing the course. Objectives should focus on learner outcomes rather than course content.</p><p>For example: &quot;By the end of this course, learners will be able to understand the principles of cyber security and apply best practices to safeguard digital information.&quot;</p><p>It should be specific, measurable, and aligned with the overall purpose of the course.</p>"
+        },
+        {
+          "name": "How should I write the course summary?",
+          "answer": "<p>The course summary is a brief overview of the course and should quickly communicate the key purpose of the learning programme. The summary should:</p><ul><li>Highlight the key topic.</li><li>Mention the target audience.</li><li>Briefly indicate expected learning benefits.</li><li>Be concise and easy to understand.</li></ul>"
+        },
+        {
+          "name": "How should keywords or tags be selected for a course?",
+          "answer": "<p>Keywords help learners discover courses through platform searches. Appropriate keywords improve course visibility and accessibility. Keywords should:</p><ul><li>Reflect the main themes of the course.</li><li>Include common search terms that learners may use.</li><li>Include English keywords even for regional language courses.</li><li>Avoid overly generic or unrelated terms.</li></ul><p>For example, a Cyber Security course may include: Cyber Security, Information Security, Digital Safety, Data Protection, Cyber Awareness.</p>"
+        },
+        {
+          "name": "Is it mandatory to mention the course author?",
+          "answer": "<p>Yes. Course author information should be provided as part of the course metadata. This helps establish content credibility and enables learners to identify the subject matter expert responsible for the course content.</p><p>On iGOT Karmayogi Bharat, it is also possible to add a custom author name without the requirement of providing an email ID. This offers flexibility in displaying author details while ensuring appropriate attribution of the course content.</p>"
+        },
+        {
+          "name": "Who can be mentioned as a course reviewer?",
+          "answer": "<p>A course reviewer should be a qualified individual responsible for validating the quality, accuracy, and relevance of the content before publication. Reviewer details should be provided as per platform requirements.</p><p>The reviewer should be a learner registered on iGOT Karmayogi Bharat. This ensures that the reviewer can be appropriately mapped within the platform and associated with the course review process.</p>"
+        },
+        {
+          "name": "What should be considered while designing a course thumbnail?",
+          "answer": "<p>The course thumbnail is often the first visual element learners see. It should be attractive, relevant, and clearly represent the course topic. The course thumbnail should:</p><ul><li>Follow the prescribed aspect ratio of 16:9.</li><li>Be visually appealing and professional.</li><li>Reflect the course theme.</li><li>Use readable text if text is included.</li><li>Maintain consistency with organizational branding.</li></ul><p><strong>Avoid:</strong></p><ul><li>Cluttered designs.</li><li>Excessive text.</li><li>Low-resolution images.</li><li>Irrelevant graphics.</li></ul>"
+        },
+        {
+          "name": "What should be considered while designing a provider thumbnail or logo?",
+          "answer": "<p>The provider logo represents the organization offering the course. The provider thumbnail should:</p><ul><li>Follow the prescribed aspect ratio of 1:1.</li><li>Use a clear and high-resolution logo.</li><li>Ensure proper visibility and readability.</li><li>Maintain brand consistency.</li></ul><p><strong>Avoid:</strong></p><ul><li>Distorted logos.</li><li>Low-quality images.</li><li>Unofficial branding elements.</li></ul>"
+        },
+        {
+          "name": "Are there any language guidelines for metadata creation?",
+          "answer": "<p>Yes. All metadata should be:</p><ul><li>Written in simple and clear language.</li><li>Free from grammatical and spelling errors.</li><li>Inclusive and learner-friendly.</li><li>Consistent throughout the course.</li></ul><p>Avoid technical jargon unless necessary and provide explanations where required.</p>"
+        },
+        {
+          "name": "What common mistakes should be avoided while creating course metadata?",
+          "answer": "<p>Common mistakes include:</p><ul><li>Vague course titles.</li><li>Generic course objectives.</li><li>Missing keywords.</li><li>Incomplete author or reviewer details.</li><li>Low-quality thumbnails.</li><li>Copying content from other sources without customization.</li><li>Inconsistent terminology across metadata fields.</li></ul><p>Proper metadata creation significantly improves learner experience and course discoverability.</p>"
+        }
+      ]
+    },
+    {
+      "name": "Uploading Content",
+      "color": "#EF951E",
+      "slug": "uploading-content",
+      "subTopics": [
+        {
+          "name": "What is the recommended structure for a course?",
+          "answer": "<p>A well-designed course should follow a structured learning journey that guides learners from introduction to assessment. The recommended course structure includes:</p><ul><li>Introductory Video</li><li>Learning Modules</li><li>Reflection Quiz</li><li>Final Assessment</li><li>Reference Materials (to be uploaded in reference section)</li></ul><p>This structure helps learners progressively build their knowledge and evaluate their understanding throughout the course.</p>"
+        },
+        {
+          "name": "When should the Resource structure be used instead of Modules?",
+          "answer": "<p>The Resource structure should be used only for courses that contain a single learning video along with an introductory video and/or a course summary/conclusion video. Since such courses are not eligible for reflection quizzes, they may be uploaded under the Resource category instead of being structured into modules.</p>"
+        },
+        {
+          "name": "What should be included in an introductory video?",
+          "answer": "<p>The introductory video should help learners understand the purpose and expectations of the course before they begin learning. The introductory video should ideally include:</p><ul><li>Course objectives</li><li>Intended target audience</li><li>Prerequisites, if any</li><li>Key takeaways</li><li>Instructor introduction (optional)</li></ul>"
+        },
+        {
+          "name": "What is the recommended duration of an introductory video?",
+          "answer": "<p>The introductory video should be concise and engaging. It is recommended that the duration should be less than 2 minutes.</p>"
+        },
+        {
+          "name": "What is the minimum recommended duration of a course?",
+          "answer": "<p>A course should generally contain between 20 to 30 minutes of video content. This duration helps ensure sufficient coverage of concepts while maintaining learner engagement.</p>"
+        },
+        {
+          "name": "What is the recommended duration for each module?",
+          "answer": "<p>Each module should ideally be between 7 to 10 minutes long. Shorter modules help learners absorb information more effectively and improve completion rates.</p>"
+        },
+        {
+          "name": "How should learning modules be designed?",
+          "answer": "<p>Modules should be structured to support effective learning and knowledge retention. Each module should:</p><ul><li>Focus on one key concept or topic.</li><li>Follow a logical sequence.</li><li>Avoid information overload.</li><li>Break complex concepts into smaller, manageable learning units.</li></ul><p>This approach helps learners understand and retain information more effectively.</p>"
+        },
+        {
+          "name": "What learning model is recommended for course design?",
+          "answer": "<p>Course creators are encouraged to follow the WTDET learning model, which promotes active learner engagement throughout the learning journey.</p><p>WTDET stands for:</p><ul><li>Watch</li><li>Think</li><li>Do</li><li>Explore</li><li>Test</li></ul><p>This model encourages learners to move beyond passive learning and apply their knowledge in practical situations.</p>"
+        },
+        {
+          "name": "What types of content should be included in course videos?",
+          "answer": "<p>Course videos should be engaging, practical, and learner centric. Videos should include:</p><ul><li>Real-life examples</li><li>Case studies</li><li>Animations</li><li>Infographics</li><li>Practical applications</li></ul><p>These elements help simplify complex concepts and improve learner understanding.</p>"
+        },
+        {
+          "name": "Why are real-life examples and case studies important in videos?",
+          "answer": "<p>Real-life examples and case studies help learners connect theoretical concepts with practical situations. They make the content more relatable, engaging, and easier to understand.</p>"
+        },
+        {
+          "name": "What accessibility requirements should be followed for course videos?",
+          "answer": "<p>Course videos should be designed to ensure accessibility for all learners, including learners with disabilities. Videos should include:</p><ul><li>Closed captions</li><li>SRT transcript files</li><li>Accessible visuals and graphics</li></ul><p>These features improve accessibility and enhance the overall learning experience.</p>"
+        },
+        {
+          "name": "What are closed captions and why are they important?",
+          "answer": "<p>Closed captions provide on-screen text for spoken content in videos. They support learners with hearing impairments and also help learners understand content in noisy environments or when audio cannot be used.</p>"
+        },
+        {
+          "name": "Which video format should be used for course videos?",
+          "answer": "<p>All course videos should be submitted in MP4 format. This format ensures compatibility across devices and supports smooth playback on the platform.</p>"
+        },
+        {
+          "name": "What video aspect ratio should be followed?",
+          "answer": "<p>Course videos should be developed in a 16:9 aspect ratio. This is the standard widescreen format and provides an optimal viewing experience across devices.</p>"
+        },
+        {
+          "name": "What is the maximum file size allowed for video uploads?",
+          "answer": "<p>Each video file should be less than 1 GB in file size. Course creators should optimize video quality while ensuring the file size remains within the prescribed limit.</p>"
+        },
+        {
+          "name": "How should module titles be named?",
+          "answer": "<p>Module titles should clearly communicate the topic being covered and help learners navigate the course effectively. Module titles should:</p><ul><li>Use Title Case.</li><li>Be descriptive and meaningful.</li><li>Follow a logical learning sequence.</li></ul>"
+        },
+        {
+          "name": "What should be avoided while naming modules?",
+          "answer": "<p>Module titles should not:</p><ul><li>Use numbering such as Module 1, Module 2, etc.</li><li>Include the word &quot;Module&quot; in the title.</li></ul><p>The focus should be on descriptive names that communicate the content of the module.</p>"
+        },
+        {
+          "name": "Should video titles and module titles be the same?",
+          "answer": "<p>No. Video titles should be more specific and should not simply repeat the module title. A video title should clearly describe the specific topic being covered within the module.</p>"
+        },
+        {
+          "name": "Why is proper naming of modules and videos important?",
+          "answer": "<p>Clear and descriptive titles help learners understand the learning pathway, improve navigation, and enhance the overall learning experience.</p>"
+        },
+        {
+          "name": "What supporting materials should be submitted along with course videos?",
+          "answer": "<p>Course videos should be accompanied by supporting resources that help learners explore topics in greater depth. These may include:</p><ul><li>Reference materials</li><li>Supporting documents in PDF/MS Word format</li><li>External links (where applicable)</li></ul>"
+        },
+        {
+          "name": "Why are reference materials important in a course?",
+          "answer": "<p>Reference materials provide learners with additional information, resources, and opportunities for further exploration beyond the video content. They support continuous learning and reinforce key concepts.</p>"
+        },
+        {
+          "name": "Can external resources be included in a course?",
+          "answer": "<p>Yes. Relevant external links and resources may be uploaded in the reference section. These resources should be credible, accessible, and directly related to the learning objectives of the course.</p>"
+        },
+        {
+          "name": "What should be checked before submitting course videos for review?",
+          "answer": "<p>Before submission, course creators should ensure that:</p><ul><li>All videos play correctly.</li><li>Audio and video quality are clear.</li><li>If audio is AI-generated, the narration should use clear Indian English with natural, human-like pronunciation.</li><li>Video files meet the prescribed format and size requirements.</li></ul><p>Completing these checks helps ensure a smooth review and deployment process.</p>"
+        },
+        {
+          "name": "What are common mistakes to avoid while developing course videos?",
+          "answer": "<p>Common mistakes include:</p><ul><li>Creating excessively short videos or long videos.</li><li>Covering multiple concepts in a single module.</li><li>Using text-heavy slides.</li><li>Using poor audio quality.</li><li>Providing insufficient learner engagement activities.</li><li>Submitting videos without proper Reflection Quiz and Final Assessment.</li></ul>"
+        }
+      ]
+    },
+    {
+      "name": "Review & Publishing",
+      "slug": "review-publishing",
+      "color": "#66BB6A",
+      "subTopics": [
+        {
+          "name": "How many questions should be included in a Reflection Quiz?",
+          "answer": "<p>Each Reflection Quiz should contain a minimum of 5 questions. These questions help learners revisit and reinforce the concepts covered in a module before progressing further.</p>"
+        },
+        {
+          "name": "What is the recommended question bank size for Reflection Quizzes?",
+          "answer": "<p>A Reflection Quiz should ideally have a question bank of at least 20 questions with at least 10 questions in display. This allows the platform to randomly display questions and provide a varied assessment experience for learners.</p>"
+        },
+        {
+          "name": "How many Reflection Quiz questions will learners see?",
+          "answer": "<p>Learners will be presented with 5 randomly selected questions from the available question bank each time they attempt the Reflection Quiz.</p>"
+        },
+        {
+          "name": "What should Reflection Quiz questions assess?",
+          "answer": "<p>Reflection Quiz questions should assess conceptual understanding and application of knowledge. The focus should be on reinforcing learning rather than testing memorization of facts.</p>"
+        },
+        {
+          "name": "How many questions should be included in the Final Assessment?",
+          "answer": "<p>The Final Assessment should contain a minimum of 10 questions covering the key concepts, learning objectives, and outcomes of the course.</p>"
+        },
+        {
+          "name": "What is the recommended question bank size for the Final Assessment?",
+          "answer": "<p>The Final Assessment should ideally have a question pool of 40 questions. This helps create multiple assessment variations and improves the assessment experience.</p>"
+        },
+        {
+          "name": "What is the recommended passing score for a course assessment?",
+          "answer": "<p>Learners should score at least 50% to successfully complete the assessment and demonstrate a basic understanding of the course content.</p>"
+        },
+        {
+          "name": "How many assessment attempts should learners be allowed?",
+          "answer": "<p>Learners should be provided with a minimum of 3 attempts to successfully complete the Final Assessment.</p>"
+        },
+        {
+          "name": "What types of assessment questions can be used in a course?",
+          "answer": "<p>The platform supports multiple assessment formats, including:</p><ul><li>Single Selection MCQs</li><li>Multiple Selection MCQs</li><li>Fill in the Blanks</li><li>Match the Following</li></ul><p>Using different question types helps improve learner engagement and assessment effectiveness.</p>"
+        },
+        {
+          "name": "Is it recommended to use multiple question types in assessments?",
+          "answer": "<p>Yes. It is recommended to use more than two assessment formats wherever possible to create a richer and more engaging assessment experience.</p>"
+        },
+        {
+          "name": "Which answer options should be avoided while creating MCQs?",
+          "answer": "<p>Assessment creators should avoid using options such as:</p><ul><li>All of the Above</li><li>None of the Above</li><li>Both of the Above</li></ul><p>Since options are shuffled for each attempt, these choices may cause confusion. Instead, use &quot;All of These&quot; or &quot;None of These&quot; to ensure clarity and maintain assessment reliability.</p>"
+        },
+        {
+          "name": "What are distractors in an assessment question?",
+          "answer": "<p>Distractors are incorrect answer choices designed to challenge learners. Good distractors should appear plausible while remaining clearly incorrect to learners who understand the concept.</p>"
+        },
+        {
+          "name": "Should question numbers be displayed in assessments?",
+          "answer": "<p>No. Question numbers should not be displayed, allowing learners to focus on the assessment content rather than question sequencing.</p>"
+        },
+        {
+          "name": "What is the recommended duration for assessments?",
+          "answer": "<p>A good practice is to allocate approximately one minute per question. This provides learners with sufficient time to think and respond appropriately.</p>"
+        },
+        {
+          "name": "How should assessment titles be named?",
+          "answer": "<p>Assessment titles should follow a consistent naming convention:</p><ul><li>Module-level assessments should be titled &quot;Reflection Quiz&quot;</li><li>Course-level assessments should be titled &quot;Final Assessment&quot;</li></ul>"
+        },
+        {
+          "name": "What functionality checks should be completed before submitting a course?",
+          "answer": "<p>Before submission, course creators should verify that:</p><ul><li>All videos play correctly.</li><li>Hyperlinks function properly.</li><li>Metadata fields are complete and accurate.</li><li>Competency mapping has been completed.</li><li>Proper keywords are tagged.</li><li>Course thumbnail and provider thumbnail are uploaded as per guidelines.</li><li>Reference materials are uploaded and working.</li><li>Accessibility requirements have been met.</li><li>Submitting videos with proper Reflection Quiz and Final Assessment.</li></ul>"
+        },
+        {
+          "name": "At what stage should the Course Quality Framework (CQF) be completed?",
+          "answer": "<p>The Course Quality Framework (CQF) should be completed after all course resources have been uploaded and the course has been thoroughly previewed. Once the course creator is satisfied with the content and structure, the CQF should be filled and the course submitted to the reviewer.</p><p>The reviewer should then preview and evaluate the course. If the course meets the required quality standards, the reviewer should complete the CQF and submit the course for publication.</p>"
+        }
+      ]
+    },
+    {
+      "name": "Competency Mapping",
+      "slug": "competency-mapping",
+      "color": "#AB47BC",
+      "subTopics": [
+        {
+          "name": "Is competency tagging mandatory for course creation?",
+          "answer": "<p>Yes. Competency tagging is a mandatory requirement and helps align the course with the competency development framework of the platform.</p>"
+        },
+        {
+          "name": "What competency categories can a course be mapped to?",
+          "answer": "<p>Courses can be mapped to one or more of the following competency categories:</p><ul><li>Behavioural Competencies</li><li>Functional Competencies</li><li>Domain Competencies</li></ul><p>The selected competencies should directly align with the course objectives and learning outcomes.</p>"
+        },
+        {
+          "name": "What competency fields need to be tagged while creating a course?",
+          "answer": "<p>At a minimum, course creators should tag:</p><ul><li>Competency Area</li><li>Competency Theme</li><li>Competency Sub-theme</li></ul><p>These fields help learners discover courses relevant to their competency development needs.</p>"
+        },
+        {
+          "name": "When is sector mapping required?",
+          "answer": "<p>Sector mapping becomes mandatory when a course is mapped under Domain Competencies. This ensures that the course is correctly aligned with the appropriate sector or specialization area.</p>"
+        },
+        {
+          "name": "Why is competency mapping important?",
+          "answer": "<p>Competency mapping helps connect learning outcomes with job roles, professional responsibilities, and organizational capability-building requirements. It also improves course discoverability and supports personalized learning pathways.</p>"
+        },
+        {
+          "name": "How should competencies be selected for a course?",
+          "answer": "<p>Competencies should be selected based on:</p><ul><li>Course objectives</li><li>Learning outcomes</li><li>Target audience requirements</li><li>Skills and knowledge developed through the course</li></ul><p>Only relevant competencies should be selected to ensure accurate mapping.</p>"
+        },
+        {
+          "name": "What common mistakes should be avoided while mapping competencies?",
+          "answer": "<p><strong>Avoid:</strong></p><ul><li>Mapping unrelated competencies</li><li>Selecting excessive competency tags</li><li>Using duplicate competency mappings</li><li>Choosing competencies that are not addressed within the course content</li></ul>"
+        },
+        {
+          "name": "How do I select the appropriate course level?",
+          "answer": "<p>Select the course level based on the learning objective, learner experience, content complexity, and expected outcomes:</p><ul><li><strong>Beginner:</strong> Introduces basic concepts and awareness; no prior knowledge required.</li><li><strong>Intermediate:</strong> Focuses on applying knowledge and skills; some experience or prior knowledge is expected.</li><li><strong>Advanced:</strong> Develops strategic thinking, innovation, and leadership; requires strong domain expertise.</li></ul><p>A simple rule: &quot;What&quot; = Beginner, &quot;How&quot; = Intermediate, &quot;Why/Improve&quot; = Advanced.</p>"
+        }
+      ]
+    },
+    {
+      "name": "Technical Standards & Accessibility",
+      "slug": "technical-standards-accessibility",
+      "color": "#26A69A",
+      "subTopics": [
+        {
+          "name": "Which document format should be used for supporting course materials?",
+          "answer": "<p>Supporting documents and reference materials should be submitted in PDF format to ensure compatibility and accessibility across devices.</p>"
+        },
+        {
+          "name": "Which audio format should be used for course audio files?",
+          "answer": "<p>Audio files should be submitted in MP3 format to ensure smooth playback and platform compatibility.</p>"
+        },
+        {
+          "name": "What accessibility standards should be followed while creating course content?",
+          "answer": "<p>Course creators should follow WCAG (Web Content Accessibility Guidelines) to ensure that content remains accessible to all learners, including persons with disabilities.</p>"
+        },
+        {
+          "name": "Which fonts are recommended for course content?",
+          "answer": "<p>Sans-serif fonts are recommended because they are easier to read on digital platforms. Commonly recommended fonts include:</p><ul><li>Arial</li><li>Calibri</li><li>Verdana</li></ul>"
+        },
+        {
+          "name": "What font sizes should be used in presentations and learning content?",
+          "answer": "<p>To improve readability:</p><ul><li><strong>Headings:</strong> 24-30 pt</li><li><strong>Sub-headings:</strong> 20-24 pt</li><li><strong>Body Text:</strong> 16-20 pt</li></ul><p>These sizes help learners comfortably consume content across different devices.</p>"
+        },
+        {
+          "name": "What design practices should be avoided while developing course content?",
+          "answer": "<p>To maintain accessibility and readability, avoid:</p><ul><li>Italics for large sections of text</li><li>Blinking text</li><li>Moving or scrolling text</li><li>Poor colour contrast</li><li>Overcrowded slides</li></ul>"
+        },
+        {
+          "name": "What colour accessibility practices should be followed?",
+          "answer": "<p>Course content should not rely solely on colour to convey meaning. In particular, red and green combinations should be avoided as the only method of distinguishing information.</p>"
+        },
+        {
+          "name": "What content compliance requirements must be followed?",
+          "answer": "<p>All course content should:</p><ul><li>Be plagiarism-free</li><li>Be factually accurate</li><li>Respect cultural and social sensitivities</li><li>Avoid hate speech, offensive language, and discrimination</li><li>Comply with applicable government guidelines</li></ul>"
+        },
+        {
+          "name": "Which maps can be used in course content?",
+          "answer": "<p>Only maps sourced from the official Survey of India website should be used to ensure compliance with government requirements and standards.</p>"
+        },
+        {
+          "name": "Can SCORM packages be submitted for new course development?",
+          "answer": "<p>No. New course development should not use SCORM packages. MP4-based modular content is the preferred format for course creation and deployment.</p>"
+        },
+        {
+          "name": "How should regional language courses be made searchable?",
+          "answer": "<p>Regional language courses should include appropriate language tags, connecting tags in the relevant language, and English keywords to improve discoverability through platform searches and recommendations. This helps learners find the course more easily through both regional language and English search queries.</p>"
+        },
+        {
+          "name": "What should be checked from an accessibility perspective before deployment?",
+          "answer": "<p>Course creators should ensure that:</p><ul><li>Captions are available for videos.</li><li>Transcripts are provided where required.</li><li>Fonts are readable.</li><li>Colour contrast is adequate.</li><li>Images are meaningful and relevant.</li><li>Content uses inclusive and non-discriminatory language.</li><li>Learners with different accessibility needs can access the course effectively.</li></ul>"
+        }
+      ]
+    }
+  ]
+}
