@@ -22,7 +22,7 @@
             "iconName": "",
             "iconUrl": "home",
             "label": "Home",
-            "navUrl": "/page/home/v2",
+            "navUrl": "/page/home",
             "disableTranslate": true,
             "enabled": true,
             "subType": "PageMenu"
@@ -42,7 +42,12 @@
             "iconName": "",
             "iconUrl": "chatt_msg",
             "label": "My Learning",
-            "navUrl": "/page/learn",
+            "navUrl": "/app/seeAll/new",
+              "queryParams": {
+                  "key": "continueLearning",
+                  "tabSelected": "Contents",
+                  "pillSelected": "inprogress"
+              },
             "disableTranslate": true,
             "enabled": true,
             "subType": "PageMenu"
