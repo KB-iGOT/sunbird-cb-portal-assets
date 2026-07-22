@@ -72,6 +72,10 @@
     "shareContent": {
       "enabled": true,
       "url": "/apis/proxies/v8/user/v1/content/recommend"
+    },
+    "aiResourceTranscoderStats": {
+      "enabled": false,
+      "url": "/apis/proxies/v8/chatbot/v3/transcoder/stats"
     }
   },
   "playerApiConfig": {

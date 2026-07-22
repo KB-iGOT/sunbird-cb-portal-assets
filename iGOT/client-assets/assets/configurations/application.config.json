@@ -621,8 +621,21 @@
   },
   "npsCategory": "NPS2",
   "volunteerSearch": {
-    "courseCategory": ["course"],
-    "facets": []
+    "courseCategory": [
+      "course",
+      "curated program",
+      "standalone assessment"
+    ],
+    "facets": [
+      "language",
+      "organisation",
+      "courseCategory",
+      "sectorDetails_v1.sectorName",
+      "sectorDetails_v1.subSectorName",
+      "competencies_v6.competencyAreaName",
+      "competencies_v6.competencyThemeName",
+      "competencies_v6.competencySubThemeName"
+    ]
   },
   "compentency": {
     "competencies_v5": {
