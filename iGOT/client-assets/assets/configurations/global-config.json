@@ -27,7 +27,9 @@
       "privacy": true,
       "getStartedTour": false,
       "profile": false,
-      "visibilityControl": true
+      "visibilityControl": true,
+      "language": true,
+      "appearance": true
     },
     "secondaryHeader": {
       "enabled": true,
@@ -137,15 +139,17 @@
       "signOut": true
     },
     "searchCategories": {
-    "enabled": true,
+    "enabled": false,
     "courses": false,
-    "events": true,
-    "peoples": true,
-    "external-contents": true,
-    "communities": true,
-    "resources": true,
+    "events": false,
+    "peoples": false,
+    "external-contents": false,
+    "communities": false,
+    "resources": false,
     "all": false
-  },
+  }, "recentSearch": {
+        "enabled": true
+      },
     "cards": {
       "posterImage": true,
       "language": true,
@@ -224,6 +228,14 @@
       },
       "eventsEnrollmentList": {
         "url": "/apis/proxies/v8/user/events/list",
+        "enabled": true
+      },
+      "passwordReset": {
+        "url": "/apis/proxies/v8/user/v2/password/reset",
+        "enabled": true
+      },
+      "badgeDetails": {
+        "url": "/apis/proxies/v8/user/v1/badge/details",
         "enabled": true
       }
     },
@@ -324,11 +336,35 @@
       },
       "dictionary": {
         "url": "/apis/proxies/v8/content/v5/dictionary",
-        "enabled": true
+        "enabled": false
       },
       "read": {
         "url": "/apis/proxies/v8/content/v2/read",
         "enabled": true
+      }
+    },
+    "notification": {
+      "unreadCount": {
+        "url": "/apis/proxies/v8/v1/notifications/unread/count",
+        "enabled": true
+      }
+    },
+    "certificate": {
+      "download": {
+        "url": "/apis/protected/v8/cohorts/course/batch/cert/download/",
+        "enabled": true
+      }
+    },
+    "competency": {
+      "myCompetencyRead": {
+        "url": "/apis/proxies/v8/learner/v1/competency/read",
+        "enabled": true
+      }
+    },
+    "workflow": {
+      "userWFApplicationFieldsSearch": {
+        "url": "/apis/proxies/v8/workflow/v2/userWFApplicationFieldsSearch",
+        "enabled": false
       }
     }
   },
