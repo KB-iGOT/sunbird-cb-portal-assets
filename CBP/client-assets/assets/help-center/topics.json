@@ -218,10 +218,6 @@
         {
           "name": "How should assessment titles be named?",
           "answer": "<p>Assessment titles should follow a consistent naming convention:</p><ul><li>Module-level assessments should be titled &quot;Reflection Quiz&quot;</li><li>Course-level assessments should be titled &quot;Final Assessment&quot;</li></ul>"
-        },
-        {
-          "name": "At what stage should the Course Quality Framework (CQF) be completed?",
-          "answer": "<p>The Course Quality Framework (CQF) should be completed after all course resources have been uploaded and the course has been thoroughly previewed. Once the course creator is satisfied with the content and structure, the CQF should be filled and the course submitted to the reviewer.</p><p>The reviewer should then preview and evaluate the course. If the course meets the required quality standards, the reviewer should complete the CQF and submit the course for publication.</p>"
         }
       ]
     },
