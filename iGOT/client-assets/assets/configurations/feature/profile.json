@@ -230,7 +230,7 @@
       "name": "getStartedTour",
       "key": "Network Home",
       "badges": { "enabled": true, "uri": "" },
-      "enabled": true,
+      "enabled": false,
       "img": "fusion-assets/images/play_circle.svg"
     },
     {
