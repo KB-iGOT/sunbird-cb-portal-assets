@@ -131,7 +131,7 @@
           {
             "code": "karma_points",
             "iconName": "",
-            "iconUrl": "badge",
+            "iconUrl": "karmapoints",
             "headerLabel": "Karma Points",
             "value": "0 Karma Points",
             "navUrl": "",
@@ -141,7 +141,7 @@
           {
             "code": "badges",
             "iconName": "",
-            "iconUrl": "trophi",
+            "iconUrl": "badges",
             "headerLabel": "Your Earned",
             "value": "0 Badges",
             "navUrl": "",
