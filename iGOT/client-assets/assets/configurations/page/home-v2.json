@@ -200,6 +200,15 @@
       "displayType": "spotlight",
       "spotlightConfig": [
         {
+          "iconUrl": "/assets/icons/home-v2/bharat-kalp.png",
+          "label": "Bharat Kalp",
+          "redirectionUrl": "app/learn/bharat-kalp",
+          "cardClickDetails": {
+            "id": "bharat-kalp",
+            "subType": "spotlight"
+          }
+        },
+        {
           "iconUrl": "/assets/icons/home-v2/shopping-bag.svg",
           "label": "iGOT Marketplace",
           "redirectionUrl": "/app/seeAll?key=karmaTracks&tabSelected=Providers",
