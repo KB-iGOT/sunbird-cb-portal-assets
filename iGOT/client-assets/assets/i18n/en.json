@@ -278,7 +278,7 @@
     "start": "Start",
     "reEnroll": "Re-enroll",
     "viewCertificate": "View Certificate",
-    "overDue": "Over due",
+    "overDue": "OverDue",
     "deadline": "Deadline",
     "takeSurveyToUnlock": "Take survey to unlock",
     "iGOTSpecializationProgram": "iGOT Specialization",
@@ -1665,6 +1665,7 @@
     "spotlightCards": {
       "iGOTMarketplace": "iGOT Marketplace",
       "iGOTSpecialisations": "iGOT Specialisations",
+      "bharatKalp": "Bharat Kalp",
       "amritGyaanKosh": "Amrit Gyaan Kosh",
       "mdoChannel": "MDO Channel"
     },
@@ -1915,7 +1916,7 @@
     "updateEamilConfirmation": "Your email is now updated."
   },
   "profileDropdown": {
-    "signOut": "Sign-out",
+    "signOut": "Sign Out",
     "settings": "Settings",
     "competencyPassbook": "Competency Passbook",
     "getStarted": "'Get Started' tour",
@@ -1924,7 +1925,9 @@
     "learningHistory": "Learning History",
     "tipsLearners": "Tips For Learners",
     "igotKarmyogi": "iGOT Karmayogi",
-    "helpCenter": "Help Centre"
+    "helpCenter": "Help Centre",
+    "privacyPolicy": "Privacy Policy",
+    "accessibility": "Accessibility"
   },
   "requestDialog": {
     "designationRequest": "Request to add designation",
@@ -2567,6 +2570,11 @@
     "showAll": "Show all",
     "upcomingAssessments": "Upcoming Assessments",
     "yourStats": "Your stats",
+    "achievement": "Achievement",
+    "myStatistics": "My Statistics",
+    "leaderboard": "Leaderboard",
+    "youEarned": "You Earned",
+    "youreRank": "You're Rank",
     "myDiscussions": "My Discussions",
     "myLearnings": "My Learnings",
     "assessmentDataFail": "Unable to get assessment data, please try again later!",
