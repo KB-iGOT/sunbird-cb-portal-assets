@@ -2246,7 +2246,7 @@
       ]
     },
     "disabledFor": {},
-      "mandatoryFor": {
+    "mandatoryFor": {
       "Course": [],
       "Program": [],
       "Curated Program": [],
@@ -8701,7 +8701,9 @@
               "Course"
             ]
           },
-          "value": ["Public Course"]
+          "value": [
+            "Public Course"
+          ]
         }
       ],
       "Program": [
@@ -8800,11 +8802,94 @@
     "mandatoryFor": {},
     "notDisabledFor": {},
     "notMandatoryFor": {},
-    "notShowFor": {
-    },
+    "notShowFor": {},
     "showFor": {
       "Course": []
     },
     "type": "array"
+  },
+  "selfEnrollment": {
+    "defaultValue": {
+      "Course": [
+        {
+          "condition": {
+            "contentType": [
+              "Course"
+            ],
+            "primaryCategory": [
+              "Course"
+            ]
+          },
+          "value": "No"
+        }
+      ],
+      "Program": [
+        {
+          "condition": {
+            "contentType": [
+              "Course"
+            ],
+            "primaryCategory": [
+              "Program"
+            ]
+          },
+          "value": "No"
+        }
+      ],
+      "Curated Program": [
+        {
+          "condition": {
+            "contentType": [
+              "Course"
+            ],
+            "primaryCategory": [
+              "Curated Program"
+            ]
+          },
+          "value": "No"
+        }
+      ],
+      "Blended Program": [
+        {
+          "condition": {
+            "contentType": [
+              "Course"
+            ],
+            "primaryCategory": [
+              "Blended Program"
+            ]
+          },
+          "value": "No"
+        }
+      ],
+      "Standalone Assessment": [
+        {
+          "condition": {
+            "contentType": [
+              "StandaloneAssessment"
+            ],
+            "primaryCategory": [
+              "Standalone Assessment"
+            ]
+          },
+          "value": "No"
+        }
+      ]
+    },
+    "disabledFor": {},
+    "mandatoryFor": {
+      "Blended Program": []
+    },
+    "notDisabledFor": {},
+    "notMandatoryFor": {},
+    "notShowFor": {
+      "Course": [],
+      "Program": [],
+      "Standalone Assessment": []
+    },
+    "showFor": {
+      "Blended Program": []
+    },
+    "type": "string"
   }
 }

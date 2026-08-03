@@ -88,6 +88,26 @@
                     "customRouting": true,
                     "paramaterName": "contentId",
                     "routerLink": "/author/content-detail/<param>/insights"
+                },
+                {
+                    "name": "Program Coordinator",
+                    "key": "programCoordinator",
+                    "fragment": false,
+                    "render": true,
+                    "badges": {
+                        "enabled": false,
+                        "uri": ""
+                    },
+                    "enabled": true,
+                    "customRouting": true,
+                    "paramaterName": "contentId",
+                    "routerLink": "/author/content-detail/<param>/programCoordinator",
+                    "requriedRoles": [
+                        "program_coordinator"
+                    ],
+                    "requriedContent": [
+                        "Blended Program"
+                    ]
                 }
             ]
         }
@@ -243,6 +263,19 @@
                 "enabled": true,
                 "rolesRequired": [
                     "program_instructor"
+                ],
+                "data": {},
+                "primaryCategory": [
+                    "Blended Program"
+                ]
+            },
+            {
+                "name": "Self Enrolment",
+                "key": "selfEnrolment",
+                "type": "selfEnrolment",
+                "enabled": true,
+                "rolesRequired": [
+                    "program_coordinator"
                 ],
                 "data": {},
                 "primaryCategory": [
