@@ -176,6 +176,12 @@
         }
       ]
     },
+    "recentSearch": {
+      "enabled": true
+    },
+    "allSearchResults": {
+      "enabled": true
+    },
     "searchCategories": {
     "enabled": true,
     "courses": false,
