@@ -105,6 +105,7 @@
         "viewAllLabel": "View all achievements",
         "viewAllKey": "view_all_achievements",
         "disableTranslateOnViewAll": true,
+        "leaderboardUnavailableMessage": "Your leaderboard is being prepared. Check back once more learners in your organisation start earning karma points",
         "maxItemsVisible": 3,
         "enabled": true,
         "items": [
