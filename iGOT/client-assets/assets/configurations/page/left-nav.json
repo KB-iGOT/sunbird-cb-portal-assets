@@ -105,7 +105,8 @@
         "viewAllLabel": "View all achievements",
         "viewAllKey": "view_all_achievements",
         "disableTranslateOnViewAll": true,
-        "leaderboardUnavailableMessage": "Your leaderboard is being prepared. Check back once more learners in your organisation start earning karma points",
+        "leaderboardUnavailableMessageTitle": "Leaderboard Not Yet Available",
+        "leaderboardUnavailableMessage": "The learner leaderboard is calculated based on the Karma Points earned in a month and updated on the 1st of every month.",
         "maxItemsVisible": 3,
         "enabled": true,
         "items": [

@@ -2,7 +2,7 @@
   "seeAllTabsConfig": {
     "forYou": {
       "igotSpecializations": true,
-      "recentlyAdded": true,
+      "recentlyAdded": false,
       "trendingAcrossDepartment": false
     }
   },
