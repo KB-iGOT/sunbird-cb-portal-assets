@@ -814,7 +814,7 @@
     {
       "value": "हिंदी",
       "key": "hi",
-      "active": true
+      "active": false
     },
     {
       "value": "தமிழ்",
@@ -839,7 +839,7 @@
     {
       "value": "ગુજરાતી",
       "key": "gu",
-      "active": true
+      "active": false
     },
     {
       "value": "ಕನ್ನಡ",
