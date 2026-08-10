@@ -105,6 +105,8 @@
         "viewAllLabel": "View all achievements",
         "viewAllKey": "view_all_achievements",
         "disableTranslateOnViewAll": true,
+        "leaderboardUnavailableMessageTitle": "Leaderboard Not Yet Available",
+        "leaderboardUnavailableMessage": "The learner leaderboard is calculated based on the Karma Points earned in a month and updated on the 1st of every month.",
         "maxItemsVisible": 3,
         "enabled": true,
         "items": [

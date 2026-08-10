@@ -1,4 +1,11 @@
 {
+  "seeAllTabsConfig": {
+    "forYou": {
+      "igotSpecializations": true,
+      "recentlyAdded": false,
+      "trendingAcrossDepartment": false
+    }
+  },
   "order": [
     "banner",
     "welcomeGreeting",
