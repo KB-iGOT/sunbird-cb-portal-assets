@@ -273,298 +273,298 @@
       "color": "default"
     }
   },
-   "leftNavBar": {
-                "navUrl": "/page/home",
-                "logoUrl": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo_Horizontal.svg",
-                "headerText": "",
-                "defaultOpen": true,
-                "navSections": [
-                    {
-                        "items": [
-                            {
-                                "code": "home",
-                                "label": "Home",
-                                "navUrl": "/page/home",
-                                "enabled": true,
-                                "iconUrl": "home",
-                                "subType": "PageMenu",
-                                "iconName": "",
-                                "description": "Your learning at a glance",
-                                "showInMweb": false,
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "explore",
-                                "label": "Explore Content",
-                                "navUrl": "",
-                                "enabled": true,
-                                "iconUrl": "school",
-                                "subType": "PageMenu",
-                                "iconName": "",
-                                "description": "Browse courses, programs and more",
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "my-learning",
-                                "label": "My Learning",
-                                "navUrl": "/app/seeAll/new",
-                                "enabled": true,
-                                "iconUrl": "auto_stories",
-                                "subType": "PageMenu",
-                                "iconName": "",
-                                "queryParams": {
-                                    "key": "continueLearning",
-                                    "tabSelected": "Contents",
-                                    "pillSelected": "inprogress"
-                                },
-                                "description": "Pick up where you left off",
-                                "showInMweb": false,
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "learner-passbook",
-                                "label": "Learner Passbook",
-                                "navUrl": "/page/competency-passbook/list",
-                                "enabled": true,
-                                "iconUrl": "menu_book",
-                                "subType": "PageMenu",
-                                "iconName": "",
-                                "description": "Track your competencies and progress",
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "igot-community",
-                                "label": "Discuss",
-                                "navUrl": "/app/discussion-forum-v2",
-                                "enabled": true,
-                                "iconUrl": "chatt_msg",
-                                "subType": "PageMenu",
-                                "iconName": "",
-                                "description": "Discuss ideas with colleagues and experts",
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "events",
-                                "label": "Events",
-                                "navUrl": "/app/event-hub/home",
-                                "enabled": true,
-                                "iconUrl": "calendar_month",
-                                "subType": "PageMenu",
-                                "iconName": "",
-                                "description": "Attend live sessions and webinars",
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "peer-validation",
-                                "label": "Peer Validation",
-                                "navUrl": "/app/peer-validation",
-                                "enabled": true,
-                                "iconUrl": "group_2",
-                                "subType": "PageMenu",
-                                "iconName": "",
-                                "description": "Review and validate peer submissions",
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "provider",
-                                "label": "Explore by provider",
-                                "navUrl": "/app/learn/browse-by/provider/all-providers",
-                                "enabled": true,
-                                "iconUrl": "provider",
-                                "subType": "PageMenu",
-                                "iconName": "",
-                                "description": "Find content by the institutes offering it",
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "karmaPrograms",
-                                "label": "Karma Programs",
-                                "navUrl": "/app/learn/karma-programs/all-programs",
-                                "enabled": true,
-                                "iconUrl": "karmaProgram",
-                                "subType": "PageMenu",
-                                "iconName": "",
-                                "description": "Curated programs to earn Karma Points",
-                                "disableTranslate": true
-                            }
-                        ],
-                        "enabled": true,
-                        "cardType": "nav_list",
-                        "sectionKey": "hubs",
-                        "collapsible": false,
-                        "showViewAll": true,
-                        "sectionTitle": "",
-                        "viewAllLabel": "",
-                        "sectionLoading": false,
-                        "maxItemsVisible": 7,
-                        "disableTranslate": true,
-                        "disableTranslateOnViewAll": true
-                    },
-                    {
-                        "items": [
-                            {
-                                "code": "rank",
-                                "value": "",
-                                "navUrl": "",
-                                "enabled": true,
-                                "iconUrl": "trophi",
-                                "iconName": "",
-                                "headerLabel": "You're now standing at",
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "learning_hours",
-                                "value": "0 Learning Hours",
-                                "navUrl": "",
-                                "enabled": true,
-                                "iconUrl": "badge",
-                                "iconName": "",
-                                "headerLabel": "Learning hours",
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "karma_points",
-                                "value": "0 Karma Points",
-                                "navUrl": "",
-                                "enabled": true,
-                                "iconUrl": "badge",
-                                "iconName": "",
-                                "headerLabel": "Karma Points",
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "badges",
-                                "value": "0 Badges",
-                                "navUrl": "",
-                                "enabled": true,
-                                "iconUrl": "trophi",
-                                "iconName": "",
-                                "headerLabel": "Your Earned",
-                                "disableTranslate": true
-                            }
-                        ],
-                        "enabled": true,
-                        "cardType": "stat_cards",
-                        "sectionKey": "my_achievements",
-                        "viewAllKey": "view_all_achievements",
-                        "collapsible": true,
-                        "showViewAll": true,
-                        "sectionTitle": "My Achievements",
-                        "viewAllLabel": "View all achievements",
-                        "sectionLoading": false,
-                        "maxItemsVisible": 3,
-                        "disableTranslate": true,
-                        "disableTranslateOnViewAll": true
-                    },
-                    {
-                        "items": [
-                            {
-                                "code": "help-centre",
-                                "title": "Help Centre",
-                                "navUrl": "/igot/help-centre",
-                                "enabled": true,
-                                "iconUrl": "unknown_document",
-                                "subType": "page-menu",
-                                "iconName": "",
-                                "description": "Need help? You're in the right place.",
-                                "hasChildren": false,
-                                "disableTranslate": true
-                            },
-                            {
-                                "code": "other_portals",
-                                "title": "Other Portals",
-                                "navUrl": "",
-                                "iconUrl": "",
-                                "children": [
-                                    {
-                                        "code": "mdo-portal",
-                                        "title": "MDO Portal",
-                                        "navUrl": "https://mdo.qa.karmayogibharat.net/",
-                                        "enabled": true,
-                                        "iconUrl": "",
-                                        "subType": "page-menu",
-                                        "iconName": "groups_2",
-                                        "description": "Manage users, training and approvals.",
-                                        "rolesCanAccess": [
-                                            "MDO_ADMIN",
-                                            "WAT_MEMBER",
-                                            "MDO_LEADER",
-                                            "COMMUNITY_MODERATOR"
-                                        ],
-                                        "disableTranslate": true
-                                    },
-                                    {
-                                        "code": "content-portal",
-                                        "title": "Content Portal",
-                                        "navUrl": "https://cbp.qa.karmayogibharat.net/",
-                                        "enabled": true,
-                                        "iconUrl": "video",
-                                        "subType": "page-menu",
-                                        "iconName": "",
-                                        "description": "Create, publish and manage content",
-                                        "rolesCanAccess": [
-                                            "CBP_ADMIN",
-                                            "CONTENT_CREATOR",
-                                            "CONTENT_REVIEWER",
-                                            "CONTENT_PUBLISHER",
-                                            "PROGRAM_COORDINATOR",
-                                            "SPV_PUBLISHER",
-                                            "PROGRAM_INSTRUCTOR",
-                                            "AI_ASSESSMENT_CREATOR"
-                                        ],
-                                        "disableTranslate": true
-                                    },
-                                    {
-                                        "code": "spv-portal",
-                                        "title": "SPV Portal",
-                                        "navUrl": "https://spv.qa.karmayogibharat.net/",
-                                        "enabled": true,
-                                        "iconUrl": "",
-                                        "subType": "page-menu",
-                                        "iconName": "settings_account_box",
-                                        "description": "Manage MDOs, users and competency",
-                                        "rolesCanAccess": [
-                                            "SPV_ADMIN",
-                                            "STATE_ADMIN",
-                                            "DASHBOARD_ADMIN"
-                                        ],
-                                        "disableTranslate": true
-                                    }
-                                ],
-                                "iconName": "",
-                                "description": "",
-                                "hasChildren": true,
-                                "disableTranslate": true
-                            }
-                        ],
-                        "enabled": true,
-                        "cardType": "info_cards",
-                        "sectionKey": "quick_actions",
-                        "collapsible": true,
-                        "showViewAll": false,
-                        "sectionTitle": "Quick Actions",
-                        "viewAllLabel": "",
-                        "sectionLoading": false,
-                        "maxItemsVisible": null,
-                        "disableTranslate": true,
-                        "disableTranslateOnViewAll": true
-                    }
-                ],
-                "activeItemCode": "",
-                "footerSections": [
-                    {
-                        "code": "download-app",
-                        "label": "downloadApp",
-                        "enabled": true,
-                        "iconUrl": "download_2",
-                        "subType": "PageMenu",
-                        "iconName": "",
-                        "infoIcon": "",
-                        "infoText": "downloadApp",
-                        "disableTranslate": false
-                    }
-                ]
+  "leftNavBar": {
+    "navUrl": "/page/home",
+    "logoUrl": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo_Horizontal.svg",
+    "headerText": "",
+    "defaultOpen": true,
+    "navSections": [
+      {
+        "items": [
+          {
+            "code": "home",
+            "label": "Home",
+            "navUrl": "/page/home",
+            "enabled": true,
+            "iconUrl": "home",
+            "subType": "PageMenu",
+            "iconName": "",
+            "showInMweb": false,
+            "description": "Your learning at a glance",
+            "disableTranslate": true
+          },
+          {
+            "code": "explore",
+            "label": "Explore Content",
+            "navUrl": "",
+            "enabled": true,
+            "iconUrl": "school",
+            "subType": "PageMenu",
+            "iconName": "",
+            "description": "Browse courses, programs and more",
+            "disableTranslate": true
+          },
+          {
+            "code": "my-learning",
+            "label": "My Learning",
+            "navUrl": "/app/seeAll/new",
+            "enabled": true,
+            "iconUrl": "auto_stories",
+            "subType": "PageMenu",
+            "iconName": "",
+            "showInMweb": false,
+            "description": "Pick up where you left off",
+            "queryParams": {
+              "key": "continueLearning",
+              "tabSelected": "Contents",
+              "pillSelected": "inprogress"
             },
+            "disableTranslate": true
+          },
+          {
+            "code": "learner-passbook",
+            "label": "Learner Passbook",
+            "navUrl": "/page/competency-passbook/list",
+            "enabled": true,
+            "iconUrl": "menu_book",
+            "subType": "PageMenu",
+            "iconName": "",
+            "description": "Track your competencies and progress",
+            "disableTranslate": true
+          },
+          {
+            "code": "igot-community",
+            "label": "Discuss",
+            "navUrl": "/app/discussion-forum-v2",
+            "enabled": true,
+            "iconUrl": "chatt_msg",
+            "subType": "PageMenu",
+            "iconName": "",
+            "description": "Discuss ideas with colleagues and experts",
+            "disableTranslate": true
+          },
+          {
+            "code": "events",
+            "label": "Events",
+            "navUrl": "/app/event-hub/home",
+            "enabled": true,
+            "iconUrl": "calendar_month",
+            "subType": "PageMenu",
+            "iconName": "",
+            "description": "Attend live sessions and webinars",
+            "disableTranslate": true
+          },
+          {
+            "code": "peer-validation",
+            "label": "Peer Validation",
+            "navUrl": "/app/peer-validation",
+            "enabled": true,
+            "iconUrl": "group_2",
+            "subType": "PageMenu",
+            "iconName": "",
+            "description": "Review and validate peer submissions",
+            "disableTranslate": true
+          },
+          {
+            "code": "provider",
+            "label": "Explore by Providers",
+            "navUrl": "/app/learn/browse-by/provider/all-providers",
+            "enabled": true,
+            "iconUrl": "provider",
+            "subType": "PageMenu",
+            "iconName": "",
+            "description": "Find content by the institutes offering it",
+            "disableTranslate": true
+          },
+          {
+            "code": "karmaPrograms",
+            "label": "Karma Programs",
+            "navUrl": "/app/learn/karma-programs/all-programs",
+            "enabled": true,
+            "iconUrl": "karmaProgram",
+            "subType": "PageMenu",
+            "iconName": "",
+            "description": "Curated programs to earn Karma Points",
+            "disableTranslate": true
+          }
+        ],
+        "enabled": true,
+        "cardType": "nav_list",
+        "sectionKey": "hubs",
+        "collapsible": false,
+        "showViewAll": true,
+        "sectionTitle": "",
+        "viewAllLabel": "",
+        "sectionLoading": false,
+        "maxItemsVisible": 7,
+        "disableTranslate": true,
+        "disableTranslateOnViewAll": true
+      },
+      {
+        "items": [
+          {
+            "code": "rank",
+            "value": "",
+            "navUrl": "",
+            "enabled": true,
+            "iconUrl": "trophi",
+            "iconName": "",
+            "headerLabel": "Your Current Rank is",
+            "disableTranslate": true
+          },
+          {
+            "code": "learning_hours",
+            "value": "0 Learning Hours",
+            "navUrl": "",
+            "enabled": true,
+            "iconUrl": "badge",
+            "iconName": "",
+            "headerLabel": "Learning Hours",
+            "disableTranslate": true
+          },
+          {
+            "code": "karma_points",
+            "value": "0 Karma Points",
+            "navUrl": "",
+            "enabled": true,
+            "iconUrl": "karmapoints",
+            "iconName": "",
+            "headerLabel": "Karma Points",
+            "disableTranslate": true
+          },
+          {
+            "code": "badges",
+            "value": "0 Badges",
+            "navUrl": "",
+            "enabled": true,
+            "iconUrl": "badges",
+            "iconName": "",
+            "headerLabel": "You've Earned",
+            "disableTranslate": true
+          }
+        ],
+        "enabled": true,
+        "cardType": "stat_cards",
+        "sectionKey": "my_achievements",
+        "viewAllKey": "view_all_achievements",
+        "collapsible": true,
+        "showViewAll": true,
+        "sectionTitle": "My Achievements",
+        "viewAllLabel": "View all achievements",
+        "sectionLoading": false,
+        "maxItemsVisible": 3,
+        "disableTranslate": true,
+        "disableTranslateOnViewAll": true
+      },
+      {
+        "items": [
+          {
+            "code": "help-centre",
+            "title": "Help Centre",
+            "navUrl": "/igot/help-centre",
+            "enabled": true,
+            "iconUrl": "unknown_document",
+            "subType": "page-menu",
+            "iconName": "",
+            "description": "Need help? You're in the right place.",
+            "hasChildren": false,
+            "disableTranslate": true
+          },
+          {
+            "code": "other_portals",
+            "title": "Other Portals",
+            "navUrl": "",
+            "iconUrl": "",
+            "children": [
+              {
+                "code": "mdo-portal",
+                "title": "MDO Portal",
+                "navUrl": "https://mdo.uat.karmayogibharat.net/",
+                "enabled": true,
+                "iconUrl": "groups_3",
+                "subType": "page-menu",
+                "iconName": "",
+                "description": "Manage users, training and approvals.",
+                "rolesCanAccess": [
+                  "MDO_ADMIN",
+                  "WAT_MEMBER",
+                  "MDO_LEADER",
+                  "COMMUNITY_MODERATOR"
+                ],
+                "disableTranslate": true
+              },
+              {
+                "code": "content-portal",
+                "title": "Content Portal",
+                "navUrl": "https://cbp.uat.karmayogibharat.net/",
+                "enabled": true,
+                "iconUrl": "video",
+                "subType": "page-menu",
+                "iconName": "",
+                "description": "Create, publish and manage content",
+                "rolesCanAccess": [
+                  "CBP_ADMIN",
+                  "CONTENT_CREATOR",
+                  "CONTENT_REVIEWER",
+                  "CONTENT_PUBLISHER",
+                  "PROGRAM_COORDINATOR",
+                  "SPV_PUBLISHER",
+                  "PROGRAM_INSTRUCTOR",
+                  "AI_ASSESSMENT_CREATOR"
+                ],
+                "disableTranslate": true
+              },
+              {
+                "code": "spv-portal",
+                "title": "SPV Portal",
+                "navUrl": "https://spv.uat.karmayogibharat.net/",
+                "enabled": true,
+                "iconUrl": "settings_account_box",
+                "subType": "page-menu",
+                "iconName": "",
+                "description": "Manage MDOs, users and competency",
+                "rolesCanAccess": [
+                  "SPV_ADMIN",
+                  "STATE_ADMIN",
+                  "DASHBOARD_ADMIN"
+                ],
+                "disableTranslate": true
+              }
+            ],
+            "iconName": "",
+            "description": "",
+            "hasChildren": true,
+            "disableTranslate": true
+          }
+        ],
+        "enabled": true,
+        "cardType": "info_cards",
+        "sectionKey": "quick_actions",
+        "collapsible": true,
+        "showViewAll": false,
+        "sectionTitle": "Quick Actions",
+        "viewAllLabel": "",
+        "sectionLoading": false,
+        "maxItemsVisible": null,
+        "disableTranslate": true,
+        "disableTranslateOnViewAll": true
+      }
+    ],
+    "activeItemCode": "",
+    "footerSections": [
+      {
+        "code": "download-app",
+        "label": "downloadApp",
+        "enabled": true,
+        "iconUrl": "download_2",
+        "subType": "PageMenu",
+        "iconName": "",
+        "infoIcon": "",
+        "infoText": "downloadApp",
+        "disableTranslate": false
+      }
+    ]
+  },
   "primaryNavBarConfig": {
     "mediumScreen": {
       "left": [],
@@ -580,10 +580,12 @@
             "toolTip": "Language",
             "className": "fixtopMargin",
             "actionBtnId": "feature_langselect"
-          }
+          },
+          "enabled": true
         },
         {
-          "type": "themeToggle"
+          "type": "themeToggle",
+          "enabled": true
         },
         {
           "type": "notificationBell",
@@ -596,7 +598,8 @@
             "toolTip": "Notification",
             "className": "fixtopMargin",
             "actionBtnId": "feature_notification"
-          }
+          },
+          "enabled": true
         },
         {
           "type": "widgetButton",
@@ -604,13 +607,16 @@
             "widgetData": {
               "removeClass": true,
               "showProgress": true,
+              "disableSignOut": true,
               "disableSettings": true,
               "disableAllFeatures": true,
-              "disableViewProfile": true
+              "disableViewProfile": true,
+              "disableAccessibility": false
             },
             "widgetType": "actionButton",
             "widgetSubType": "actionButtonProfile"
-          }
+          },
+          "enabled": true
         }
       ]
     },
@@ -619,30 +625,31 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_catalog",
             "config": {
               "type": "card-mini"
-            }
+            },
+            "actionBtnId": "feature_catalog"
           }
         },
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_profile",
             "config": {
               "type": "card-mini"
-            }
+            },
+            "actionBtnId": "feature_profile"
           }
         }
       ],
+
       "right": [
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_search",
             "config": {
               "type": "card-mini"
-            }
+            },
+            "actionBtnId": "feature_search"
           }
         }
       ],
@@ -696,28 +703,28 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_home",
             "config": {
               "type": "mat-button"
-            }
+            },
+            "actionBtnId": "feature_home"
           }
         },
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_goals",
             "config": {
               "type": "mat-button"
-            }
+            },
+            "actionBtnId": "feature_goals"
           }
         },
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_account",
             "config": {
               "type": "mat-button"
-            }
+            },
+            "actionBtnId": "feature_account"
           }
         }
       ],
@@ -814,7 +821,7 @@
     {
       "value": "हिंदी",
       "key": "hi",
-      "active": true
+      "active": false
     },
     {
       "value": "தமிழ்",
@@ -839,7 +846,7 @@
     {
       "value": "ગુજરાતી",
       "key": "gu",
-      "active": true
+      "active": false
     },
     {
       "value": "ಕನ್ನಡ",
@@ -873,7 +880,9 @@
   },
   "npsCategory": "NPS2",
   "volunteerSearch": {
-    "courseCategory": ["course"],
+    "courseCategory": [
+      "course"
+    ],
     "facets": []
   },
   "compentency": {
@@ -1406,38 +1415,40 @@
       }
     }
   },
-  "iGOTAI":{
-                "enabled": true,
-                "iGOTAI": false,
-                "aiTutor": false,
-                "transcription": false,
-                "subTitles": false,
-                "useResourceId": false,
-                "web": {
-                    "iGOTAI": {
-                        "all": true,
-                        "forOrg": ["0140908831042437120"],
-                        "allDesignation": true,
-                        "forDesignation": []
-                    },
-                    "supportAI": {
-                        "all": true,
-                        "forOrg": []
-                    },
-                    "aiTutor": {
-                        "all": false,
-                        "forOrg": [],
-                        "allDesignation": false,
-                        "forDesignation": []
-                    },
-                    "subTitles": {
-                        "all": true,
-                        "forOrg": []
-                    },
-                    "transcription": {
-                        "all": true,
-                        "forOrg": []
-                    }
-                }
-            }
+  "iGOTAI": {
+    "enabled": true,
+    "iGOTAI": false,
+    "aiTutor": false,
+    "transcription": false,
+    "subTitles": false,
+    "useResourceId": false,
+    "web": {
+      "iGOTAI": {
+        "all": true,
+        "forOrg": [
+          "0140908831042437120"
+        ],
+        "allDesignation": true,
+        "forDesignation": []
+      },
+      "supportAI": {
+        "all": true,
+        "forOrg": []
+      },
+      "aiTutor": {
+        "all": false,
+        "forOrg": [],
+        "allDesignation": false,
+        "forDesignation": []
+      },
+      "subTitles": {
+        "all": true,
+        "forOrg": []
+      },
+      "transcription": {
+        "all": true,
+        "forOrg": []
+      }
+    }
+  }
 }
