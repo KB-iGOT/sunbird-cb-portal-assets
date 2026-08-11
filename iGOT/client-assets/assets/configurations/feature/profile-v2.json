@@ -340,7 +340,7 @@
                 "fields": {
                     "employeeId": {
                         "key": "employeeId",
-                        "enabled": true
+                        "enabled": false
                     },
                     "email": {
                         "key": "email",
@@ -1022,7 +1022,7 @@
         },
         "userWFApplicationFieldsSearch": {
             "url": "/apis/proxies/v8/workflow/v2/userWFApplicationFieldsSearch",
-            "enabled": true
+            "enabled": false
         },
         "userV1Groups": {
             "url": "api/user/v1/groups",
