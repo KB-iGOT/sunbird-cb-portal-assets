@@ -13,7 +13,8 @@
                 "Course Topic": "content.topic",
                 "Course Summary": "content.summary",
                 "Course Difficulty Level": "content.difficultyLevel",
-                "Course Providers": "content.courseProvider"
+                "Course Providers": "content.courseProvider",
+                "Course Type": "content.courseType"
             },
             "requiredList": [
               "Course Name", 
@@ -23,7 +24,8 @@
               "Course Thumbnail", 
               "Course Id", 
               "Learning Outcome", 
-              "Course Topic"
+              "Course Topic",
+              "Course Type"
             ]
         }
     ],
