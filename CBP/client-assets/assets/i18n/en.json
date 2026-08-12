@@ -2038,7 +2038,10 @@
         "importedOn": "Imported On",
         "eventDate": "Event Date",
         "createdOn": "Created On",
-        "createdDate": "Created Date"
+        "createdDate": "Created Date",
+        "backToHomePage": "Back to home page",
+        "goToManageContents": "Goto manage contents",
+        "users": "Users"
     },
     "searchfilters": {
         "caseStudy": "Case Study",
