@@ -24,6 +24,32 @@
       "title": "",
       "active": true,
       "banners": {
+        "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785492953250_Asset_11.svg",
+        "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785492982625_Asset_2.svg",
+        "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785492982625_Asset_2.svg",
+        "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785492953250_Asset_11.svg",
+        "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785492982625_Asset_2.svg",
+        "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785492953250_Asset_11.svg"
+      },
+      "openInNewTab": false
+    },
+    {
+      "title": "",
+      "active": true,
+      "banners": {
+        "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785493057010_Asset_3.svg",
+        "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785493090325_Asset_2.svg",
+        "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785493090325_Asset_2.svg",
+        "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785493057010_Asset_3.svg",
+        "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785493090325_Asset_2.svg",
+        "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1785493057010_Asset_3.svg"
+      },
+      "openInNewTab": false
+    },
+    {
+      "title": "",
+      "active": false,
+      "banners": {
         "l": "assets/instances/eagle/banners/orgs/new-banner/10/l.jpg",
         "m": "assets/instances/eagle/banners/orgs/new-banner/10/m.jpg",
         "s": "assets/instances/eagle/banners/orgs/new-banner/10/s.jpg",
@@ -35,7 +61,7 @@
     },
     {
       "title": "",
-      "active": true,
+      "active": false,
       "banners": {
         "l": "assets/instances/eagle/banners/orgs/new-banner/1/lg.jpg",
         "m": "assets/instances/eagle/banners/orgs/new-banner/1/m.png",
@@ -48,7 +74,7 @@
     },
     {
       "title": "",
-      "active": true,
+      "active": false,
       "banners": {
         "l": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
         "m": "assets/instances/eagle/banners/orgs/new-banner/7/l.jpg",
@@ -61,7 +87,7 @@
     },
     {
       "title": "",
-      "active": true,
+      "active": false,
       "banners": {
         "l": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
         "m": "assets/instances/eagle/banners/orgs/new-banner/8/l.jpg",
@@ -73,7 +99,7 @@
     },
     {
       "title": "",
-      "active": true,
+      "active": false,
       "banners": {
         "l": "assets/instances/eagle/banners/orgs/new-banner/2/lg.jpg",
         "m": "assets/instances/eagle/banners/orgs/new-banner/2/m.png",
@@ -113,7 +139,8 @@
       "pills": [
         {
           "pillKey": "apar",
-          "pillLabel": "APAR",
+          "pillLabel": "APAR Courses",
+          "showNoData": true,
           "pillImageUrl": "/assets/icons/home-v2/business.svg",
           "contentConfig": {
             "cardType": "courseCard",
@@ -133,19 +160,18 @@
               "courseCategory": "Course"
             }
           },
+          "noDataMessage": "No data found",
           "translateLabel": true,
           "visibilityMode": "visible",
           "pillDescription": [
-            "Annual Performance",
-            "Appraisal Report"
+            "Annual Performance Appraisal Report"
           ],
-          "pillInfoCountKey": "apar",
-          "showNoData": true,
-          "noDataMessage": "No data found"
+          "pillInfoCountKey": "apar"
         },
         {
           "pillKey": "caProgram",
           "pillLabel": "C.A. Program",
+          "showNoData": true,
           "pillImageUrl": "/assets/icons/home-v2/graduation.svg",
           "contentConfig": {
             "cardType": "courseCard",
@@ -162,18 +188,18 @@
               "courseCategory": "Course"
             }
           },
+          "noDataMessage": "No data found",
           "translateLabel": true,
           "visibilityMode": "visible",
           "pillDescription": [
             "Capacity Building & Skill Development"
           ],
-          "pillInfoCountKey": "caProgram",
-          "showNoData": true,
-          "noDataMessage": "No data found"
+          "pillInfoCountKey": "caProgram"
         },
         {
           "pillKey": "trainingPlan",
           "pillLabel": "Training Plan",
+          "showNoData": true,
           "pillImageUrl": "/assets/icons/home-v2/calendar-check.svg",
           "contentConfig": {
             "cardType": "courseCard",
@@ -195,18 +221,18 @@
               "courseCategory": "Course"
             }
           },
+          "noDataMessage": "No data found",
           "translateLabel": true,
           "visibilityMode": "visible",
           "pillDescription": [
             "Structured Training & Goal Alignment"
           ],
-          "pillInfoCountKey": "trainingPlan",
-          "showNoData": true,
-          "noDataMessage": "No data found"
+          "pillInfoCountKey": "trainingPlan"
         },
         {
           "pillKey": "learningPath",
           "pillLabel": "Learning Path",
+          "showNoData": true,
           "pillImageUrl": "/assets/icons/home-v2/learning-journey.svg",
           "contentConfig": {
             "cardType": "courseCard",
@@ -236,18 +262,18 @@
               "courseCategory": "Course"
             }
           },
+          "noDataMessage": "No data found",
           "translateLabel": true,
           "visibilityMode": "visible",
           "pillDescription": [
             "Personalized Learning Journeys"
           ],
-          "pillInfoCountKey": "learningPathway",
-          "showNoData": true,
-          "noDataMessage": "No data found"
+          "pillInfoCountKey": "learningPathway"
         },
         {
           "pillKey": "standaloneAssessment",
           "pillLabel": "Schedule Assessment",
+          "showNoData": true,
           "pillImageUrl": "/assets/icons/home-v2/assessment.svg",
           "contentConfig": {
             "cardType": "courseCard",
@@ -262,18 +288,18 @@
               "courseCategory": "Course"
             }
           },
+          "noDataMessage": "No data found",
           "translateLabel": true,
           "visibilityMode": "visible",
           "pillDescription": [
             "Assess, Analyze & Improve"
           ],
-          "pillInfoCountKey": "standaloneAssessment",
-          "showNoData": true,
-          "noDataMessage": "No data found"
+          "pillInfoCountKey": "standaloneAssessment"
         },
         {
           "pillKey": "moderatedContent",
           "pillLabel": "Moderated Content",
+          "showNoData": true,
           "pillImageUrl": "/assets/icons/home-v2/key-users.svg",
           "contentConfig": {
             "cardType": "courseCard",
@@ -296,14 +322,13 @@
               "courseCategory": "Course"
             }
           },
+          "noDataMessage": "No data found",
           "translateLabel": true,
           "visibilityMode": "visible",
           "pillDescription": [
             "Restricted Access Learning Resources"
           ],
-          "pillInfoCountKey": "moderatedContent",
-          "showNoData": true,
-          "noDataMessage": "No data found"
+          "pillInfoCountKey": "moderatedContent"
         }
       ],
       "header": "",
@@ -324,7 +349,18 @@
       "visibilityMode": "visible",
       "spotlightConfig": [
         {
+          "label": "Bharat Kalp",
+          "enabled": true,
+          "iconUrl": "/assets/icons/home-v2/bharat-kalp.svg",
+          "redirectionUrl": "app/learn/bharat-kalp",
+          "cardClickDetails": {
+            "id": "bharat-kalp",
+            "subType": "spotlight"
+          }
+        },
+        {
           "label": "iGOT Marketplace",
+          "enabled": true,
           "iconUrl": "/assets/icons/home-v2/shopping-bag.svg",
           "redirectionUrl": "/app/seeAll?key=karmaTracks&tabSelected=Providers",
           "cardClickDetails": {
@@ -333,7 +369,8 @@
           }
         },
         {
-          "label": "iGOT Specialisations",
+          "label": "iGOT Specializations",
+          "enabled": true,
           "iconUrl": "/assets/icons/home-v2/books.svg",
           "redirectionUrl": "/app/seeAll/new?key=forYou&tabSelected=igotSpecializations&pillSelected=programs",
           "cardClickDetails": {
@@ -343,6 +380,7 @@
         },
         {
           "label": "MDO Channel",
+          "enabled": true,
           "iconUrl": "/assets/icons/home-v2/Frame.svg",
           "redirectionUrl": "/app/learn/mdo-channels/all-channels",
           "cardClickDetails": {
@@ -352,6 +390,7 @@
         },
         {
           "label": "Amrit Gyaan Kosh",
+          "enabled": true,
           "iconUrl": "/assets/icons/home-v2/Group.svg",
           "redirectionUrl": "app/amrit-gyaan-kosh/all",
           "cardClickDetails": {
@@ -371,11 +410,9 @@
         "showNoData": true,
         "showViewAll": true,
         "viewMoreUrl": {
-          "path": "/app/seeAll/new",
+          "path": "/app/seeAll",
           "queryParams": {
-            "key": "forYou",
-            "tabSelected": "trendingAcrossDepartment",
-            "pillSelected": "courses"
+            "key": "trendingOnIgot"
           },
           "viewMoreText": "Show all"
         },
@@ -405,7 +442,7 @@
       "contentConfig": {
         "cardType": "courseCard",
         "showNoData": true,
-        "showViewAll": true,
+        "showViewAll": false,
         "viewMoreUrl": {
           "f": {
             "contentType": [
@@ -439,7 +476,7 @@
       "visibilityMode": "visible",
       "translateHeader": true,
       "headersubLableTeme": "blueTheme",
-      "showHeaderSubLabel": true
+      "showHeaderSubLabel": false
     },
     {
       "header": "30 Minutes or Less",
@@ -471,5 +508,12 @@
       "visibilityMode": "visible",
       "translateHeader": true
     }
-  ]
+  ],
+  "seeAllTabsConfig": {
+    "forYou": {
+      "recentlyAdded": false,
+      "igotSpecializations": true,
+      "trendingAcrossDepartment": false
+    }
+  }
 }
