@@ -101,7 +101,8 @@
     "partners": "Partners",
     "karmaTracks": "Karma Tracks",
     "theIgotMarketplace": "The iGOT Marketplace",
-    "igotClassroom": "iGOT Classroom"
+    "igotClassroom": "iGOT Classroom",
+    "augmentedReality": "Augmented Reality"
   },
   "appnavbar": {
     "searchforLearningContents": "Search for learning contents",
@@ -3019,7 +3020,7 @@
   },
   "karmaLeaderboard": {
     "karmaPoints": "Karma Points",
-    "topDesc": "Karmapoints measure and map your engagement at iGOT. These points are updated with 4 hours.",
+    "topDesc": "Karmapoints measure and map your engagement at iGOT. These points are updated within 4 hours.",
     "youveEarned": "You've earned",
     "sectionHeading": "Top Karmayogis in your department:",
     "yourRank": "Your Rank",
