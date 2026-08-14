@@ -1,15 +1,15 @@
-<svg width="1920" height="48" viewBox="0 0 1920 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="16" width="1920" height="16" fill="white"/>
-<rect y="32" width="1920" height="16" fill="url(#paint0_linear_1_4069)"/>
-<rect width="1920" height="16" fill="url(#paint1_linear_1_4069)"/>
+<svg width="1920" height="56" viewBox="0 0 1920 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="18.6667" width="1920" height="18.6667" fill="white"/>
+<rect y="37.3333" width="1920" height="18.6667" fill="url(#paint0_linear_1_4069)"/>
+<rect width="1920" height="18.6667" fill="url(#paint1_linear_1_4069)"/>
 <defs>
-<linearGradient id="paint0_linear_1_4069" x1="1920" y1="40" x2="0" y2="40" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_1_4069" x1="1920" y1="46.6667" x2="0" y2="46.6667" gradientUnits="userSpaceOnUse">
 <stop stop-color="white" stop-opacity="0"/>
 <stop offset="0.3" stop-color="#007E00"/>
 <stop offset="0.659061" stop-color="#007E00"/>
 <stop offset="1" stop-color="#007E00" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint1_linear_1_4069" x1="1920" y1="8" x2="0" y2="8" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_1_4069" x1="1920" y1="9.3333" x2="0" y2="9.3333" gradientUnits="userSpaceOnUse">
 <stop stop-color="white" stop-opacity="0"/>
 <stop offset="0.3" stop-color="#F78500"/>
 <stop offset="0.659061" stop-color="#F78500"/>
