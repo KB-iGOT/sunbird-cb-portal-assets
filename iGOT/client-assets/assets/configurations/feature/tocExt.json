@@ -205,5 +205,10 @@
     "consentDocUrl": "assets/public/content/consents/external_content_enroll_declaration_v1_20251219.html",
     "assetsDocUrl": "assets/consents/ext-course/external_content_enroll_declaration_v1_20251219.html",
     "consentId": "external_content_enroll_declaration_v1_20251219"
+  },
+  "karmaRedeemPopup": {
+    "popupHeader": "You're all set! 🎉",
+    "pointsBeforeText": "Redeem",
+    "pointsAfterText": "Karma Coins to unlock this course and start learning."
   }
 }
