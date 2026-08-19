@@ -1090,6 +1090,9 @@
       ]
     }
   ],
+  
+ 
+
   "overrideThemeChanges": {
     "isEnabled": false,
     "desktop": {
@@ -1114,6 +1117,17 @@
         "0xffFFFFFF",
         "0xffCBEED2"
       ]
+    },
+    "independenceDayBanner" : {
+      "isEnabled": true,
+      "desktop": {
+        "imageUrl": "/assets/instances/eagle/independence-day/Tri_Colour.svg",
+        "onTopText": "Happy Independence Day!"
+      },
+      "mWeb": {
+      "imageUrl": "/assets/instances/eagle/independence-day/Tri_Colour_Mobile.svg",
+        "onTopText": "Happy Independence Day!"
+      }
     },
     "serverUnderMaintenance": {
       "enabled": false,
