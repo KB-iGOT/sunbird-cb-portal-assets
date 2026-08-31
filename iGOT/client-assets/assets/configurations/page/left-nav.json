@@ -141,6 +141,16 @@
             "enabled": true
           },
           {
+            "code": "karma_coins",
+            "iconName": "",
+            "iconUrl": "/assets/icons/karmawallet-v2/karmacoin.svg",
+            "headerLabel": "Your Karma Coins",
+            "value": "0 Karma Coins",
+            "navUrl": "",
+            "disableTranslate": true,
+            "enabled": true
+          },
+          {
             "code": "badges",
             "iconName": "",
             "iconUrl": "badges",

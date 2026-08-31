@@ -283,6 +283,10 @@
         },
         "userStats": {
             "enabled": true,
+            "walletBalance": {
+              "enabled": true,
+              "viewAllEnabled": true
+            },
             "karmaPoints": {
                 "enabled": true,
                 "viewAllEnabled": true

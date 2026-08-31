@@ -120,6 +120,8 @@
   "btnpageback": {
     "home": "Home",
     "hubs": "Hubs",
+    "profile": "Profile",
+    "karmaWallet": "Karma Wallet",
     "noHubs": "No hubs Info Available",
     "doMore": "Do more",
     "knowledgeResources": "Knowledge resources",
@@ -1921,6 +1923,7 @@
     "settings": "Settings",
     "competencyPassbook": "Competency Passbook",
     "getStarted": "'Get Started' tour",
+    "karmaWallet": "Karma Wallet",
     "myLearning": "My Learning",
     "viewProfile": "View Profile",
     "learningHistory": "Learning History",
@@ -2634,6 +2637,7 @@
     "withdrawTransferRequest": "Withdraw Transfer Request",
     "makeTransferToolTip": "If you make a transfer request, your profile will be unverified again",
     "withdrawTransferToolTip": "Click here to withdraw your transfer request. You can submit your request again",
+    "walletBalance": "Wallet Balance",
     "myKarmaPoints": "My Karma Points",
     "primaryDetails": "Primary Details",
     "edit": "Edit",
@@ -3020,6 +3024,8 @@
   },
   "karmaLeaderboard": {
     "karmaPoints": "Karma Points",
+    "karmaCoins": "Karma Coins",
+    "karmaCoinsDesc": "Your spendable balance. Use it on marketplace courses.",
     "topDesc": "Karmapoints measure and map your engagement at iGOT. These points are updated within 4 hours.",
     "youveEarned": "You've earned",
     "sectionHeading": "Top Karmayogis in your department:",
