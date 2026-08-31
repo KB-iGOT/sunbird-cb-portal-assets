@@ -466,6 +466,16 @@
             "disableTranslate": true
           },
           {
+            "code": "karma_coins",
+            "iconName": "",
+            "iconUrl": "/assets/icons/karmawallet-v2/karmacoin.svg",
+            "headerLabel": "Your Karma Coins",
+            "value": "0 Karma Coins",
+            "navUrl": "",
+            "disableTranslate": true,
+            "enabled": true
+          },
+          {
             "code": "badges",
             "value": "0 Badges",
             "navUrl": "",
@@ -634,6 +644,10 @@
             "className": "fixtopMargin",
             "actionBtnId": "feature_notification"
           },
+          "enabled": true
+        },
+        {
+          "type": "walletButton",
           "enabled": true
         },
         {
