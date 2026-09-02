@@ -438,6 +438,7 @@
         "type": "internal",
         "layout": "default",
         "sitePath": "iiidem-portal.igotkarmayogi.gov.in/",
+        "azureHost": "https://iiidem-portal.igotkarmayogi.gov.in",
         "redirectPath": "/page/custom-home/iiidem",
         "cdnContentHost": "https://iiidem-portal.igotkarmayogi.gov.in",
         "karmayogiBharatLink": "https://iiidem.igotkarmayogi.gov.in"
@@ -447,6 +448,7 @@
         "type": "internal",
         "layout": "default",
         "sitePath": "adikarmayogi-portal.igotkarmayogi.gov.in",
+        "azureHost": "https://adikarmayogi-portal.igotkarmayogi.gov.in",
         "redirectPath": "/page/home",
         "cdnContentHost": "https://adikarmayogi-portal.igotkarmayogi.gov.in",
         "karmayogiBharatLink": "https://adikarmayogi.igotkarmayogi.gov.in"
