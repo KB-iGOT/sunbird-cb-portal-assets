@@ -431,6 +431,28 @@
     "tour": false
   },
 
+  "applicationConfig": {
+    "tenants": {
+      "iiidem-portal": {
+        "logo": "/assets/instances/eagle/app_logos/IIIDEM-logo.png",
+        "type": "internal",
+        "layout": "default",
+        "sitePath": "iiidem-portal.igotkarmayogi.gov.in/",
+        "redirectPath": "/page/custom-home/iiidem",
+        "cdnContentHost": "https://iiidem-portal.igotkarmayogi.gov.in",
+        "karmayogiBharatLink": "https://iiidem.igotkarmayogi.gov.in"
+      },
+      "adikarmayogi-portal": {
+        "logo": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133782666818437120/1788176076247_Adikarmayogi.svg",
+        "type": "internal",
+        "layout": "default",
+        "sitePath": "adikarmayogi-portal.igotkarmayogi.gov.in",
+        "redirectPath": "/page/home",
+        "cdnContentHost": "https://adikarmayogi-portal.igotkarmayogi.gov.in",
+        "karmayogiBharatLink": "https://adikarmayogi.igotkarmayogi.gov.in"
+      }
+    }
+  },
   
 
   "routes": {
