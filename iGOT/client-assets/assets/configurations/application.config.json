@@ -192,13 +192,23 @@
       "logo": "/assets/instances/eagle/app_logos/IIIDEM-logo.png",
       "redirectPath": "/page/custom-home/iiidem",
       "cdnContentHost": "https://iiidem-portal.igotkarmayogi.gov.in",
+        "azureHost": "https://iiidem-portal.igotkarmayogi.gov.in",
       "sitePath": "iiidem-portal.igotkarmayogi.gov.in",
       "karmayogiBharatLink": "https://iiidem.igotkarmayogi.gov.in"
+    },
+    "adikarmayogi-portal": {
+      "logo": "/assets/instances/eagle/app_logos/IIIDEM-logo.png",
+      "redirectPath": "/page/home",
+      "cdnContentHost": "https://adikarmayogi-portal.igotkarmayogi.gov.in",
+        "azureHost": "https://adikarmayogi-portal.igotkarmayogi.gov.in",
+      "sitePath": "adikarmayogi-portal.igotkarmayogi.gov.in",
+      "karmayogiBharatLink": "https://adikarmayogi.igotkarmayogi.gov.in"
     },
     "localhost": {
       "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo_Horizontal.svg",
       "redirectPath": "/page/home",
       "cdnContentHost": "https://portal.igotkarmayogi.gov.in",
+        "azureHost": "https://iiidem-portal.igotkarmayogi.gov.in",
       "sitePath": "portal.igotkarmayogi.gov.in",
       "karmayogiBharatLink": "https://qa.karmayogibharat.net"
     }
