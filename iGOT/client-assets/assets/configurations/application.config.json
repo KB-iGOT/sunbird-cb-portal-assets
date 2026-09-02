@@ -197,7 +197,7 @@
       "karmayogiBharatLink": "https://iiidem.igotkarmayogi.gov.in"
     },
     "adikarmayogi-portal": {
-      "logo": "/assets/instances/eagle/app_logos/IIIDEM-logo.png",
+      "logo": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133782666818437120/1788176076247_Adikarmayogi.svg",
       "redirectPath": "/page/home",
       "cdnContentHost": "https://adikarmayogi-portal.igotkarmayogi.gov.in",
         "azureHost": "https://adikarmayogi-portal.igotkarmayogi.gov.in",
