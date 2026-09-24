@@ -233,7 +233,8 @@
     "deadline": "সময়সীমা",
     "mostPopular": "সর্বাধিক জনপ্রিয়",
     "availableInLanguages": "{{count}} ভাষায় উপলব্ধ",
-    "completed": "সম্পন্ন হয়েছে"
+    "completed": "সম্পন্ন হয়েছে",
+    "unlocked": "আনলক করা হয়েছে"
   },
   "allproviderscomponent": {
     "popularProviders": "জনপ্রিয় সরবরাহকারী",
@@ -2080,5 +2081,19 @@
     "overlayHeading": "শেখার প্রতি আপনার নিষ্ঠা চমৎকার!",
     "overlayHint": "বরখাস্ত করতে যেকোনো জায়গায় ট্যাপ করুন বা Escape চাপুন",
     "tooltipText": "শিক্ষার্থীর লিডারবোর্ড এক মাসে অর্জিত কর্ম পয়েন্টের উপর ভিত্তি করে গণনা করা হয় এবং প্রতি মাসের ১ তারিখে আপডেট হয়।"
+  },
+  "planDetail": {
+    "progressOnPlan": "এই পরিকল্পনার অগ্রগতি",
+    "coursesCompleted": "সম্পন্ন কোর্স",
+    "caCourses": "সম্পন্ন CA কোর্স",
+    "comprehensiveAssessment": "বিস্তৃত মূল্যায়ন",
+    "dueDate": "নির্ধারিত তারিখ",
+    "reportingYear": "রিপোর্টিং বছর",
+    "locked": "লক করা আছে",
+    "available": "উপলব্ধ",
+    "of": "এর মধ্যে",
+    "noCourses": "এই পরিকল্পনায় কোনো কোর্স নেই",
+    "backToPlans": "পরিকল্পনায় ফিরে যান",
+    "unlocked": "আনলক করা হয়েছে"
   }
 }

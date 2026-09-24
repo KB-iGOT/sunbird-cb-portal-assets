@@ -233,7 +233,8 @@
     "deadline": "గడువు",
     "mostPopular": "అత్యంత ప్రాచుర్యం",
     "availableInLanguages": "{{count}} భాషలలో అందుబాటులో ఉంది",
-    "completed": "పూర్తయింది"
+    "completed": "పూర్తయింది",
+    "unlocked": "అన్‌లాక్ చేయబడింది"
   },
   "allproviderscomponent": {
     "popularProviders": "ప్రముఖ ప్రొవైడర్లు",
@@ -2133,5 +2134,19 @@
     "overlayHeading": "నేర్చుకోవడంపై మీ అంకితభావం అద్భుతం!",
     "overlayHint": "తొలగించడానికి ఎక్కడైనా నొక్కండి లేదా Escape నొక్కండి",
     "tooltipText": "లెర్నర్ లీడర్‌బోర్డు ఒక నెలలో సంపాదించిన కర్మ పాయింట్ల ఆధారంగా లెక్కించబడుతుంది మరియు ప్రతి నెల 1వ తేదీన నవీకరించబడుతుంది."
+  },
+  "planDetail": {
+    "progressOnPlan": "ఈ ప్రణాళికలో పురోగతి",
+    "coursesCompleted": "పూర్తయిన కోర్సులు",
+    "caCourses": "పూర్తయిన CA కోర్సులు",
+    "comprehensiveAssessment": "సమగ్ర మూల్యాంకనం",
+    "dueDate": "గడువు తేదీ",
+    "reportingYear": "నివేదిక సంవత్సరం",
+    "locked": "లాక్ చేయబడింది",
+    "available": "అందుబాటులో ఉంది",
+    "of": "లో",
+    "noCourses": "ఈ ప్రణాళికలో కోర్సులు లేవు",
+    "backToPlans": "ప్రణాళికలకు తిరిగి వెళ్ళండి",
+    "unlocked": "అన్‌లాక్ చేయబడింది"
   }
 }

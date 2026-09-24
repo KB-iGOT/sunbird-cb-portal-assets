@@ -233,7 +233,8 @@
     "deadline": "कालमर्यादा",
     "mostPopular": "सर्वात लोकप्रिय",
     "availableInLanguages": "{{count}} भाषांमध्ये उपलब्ध",
-    "completed": "पूर्ण झाले"
+    "completed": "पूर्ण झाले",
+    "unlocked": "अनलॉक केलेले"
   },
   "allproviderscomponent": {
     "popularProviders": "लोकप्रिय पुरवठादार",
@@ -2133,5 +2134,19 @@
     "overlayHeading": "शिकण्याप्रती तुमची निष्ठा कौतुकास्पद आहे!",
     "overlayHint": "बंद करण्यासाठी कुठेही टॅप करा किंवा Escape दाबा",
     "tooltipText": "शिकणाऱ्याचा लीडरबोर्ड एका महिन्यात मिळवलेल्या कर्म बिंदूंच्या आधारे मोजला जातो आणि दर महिन्याच्या पहिल्या तारखेला अपडेट केला जातो."
+  },
+  "planDetail": {
+    "progressOnPlan": "या योजनेतील प्रगती",
+    "coursesCompleted": "पूर्ण झालेले अभ्यासक्रम",
+    "caCourses": "पूर्ण झालेले CA अभ्यासक्रम",
+    "comprehensiveAssessment": "सर्वसमावेशक मूल्यांकन",
+    "dueDate": "देय तारीख",
+    "reportingYear": "अहवाल वर्ष",
+    "locked": "लॉक केलेले",
+    "available": "उपलब्ध",
+    "of": "पैकी",
+    "noCourses": "या योजनेत कोणतेही अभ्यासक्रम नाहीत",
+    "backToPlans": "योजनांकडे परत जा",
+    "unlocked": "अनलॉक केलेले"
   }
 }
