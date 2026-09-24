@@ -233,7 +233,8 @@
     "deadline": "ਸਮਾਂ ਸੀਮਾ",
     "mostPopular": "ਸਭ ਤੋਂ ਵੱਧ ਪ੍ਰਸਿੱਧ",
     "availableInLanguages": "{{count}} ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਉਪਲਬਧ",
-    "completed": "ਪੂਰਾ ਹੋਇਆ"
+    "completed": "ਪੂਰਾ ਹੋਇਆ",
+    "unlocked": "ਅਨਲੌਕ ਕੀਤਾ ਗਿਆ"
   },
   "allproviderscomponent": {
     "popularProviders": "ਪ੍ਰਸਿੱਧ ਪ੍ਰਦਾਤਾ",
@@ -2133,5 +2134,19 @@
     "overlayHeading": "ਸਿੱਖਣ ਪ੍ਰਤੀ ਤੁਹਾਡੀ ਸਮਰਪਣਾ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਹੈ!",
     "overlayHint": "ਬੰਦ ਕਰਨ ਲਈ ਕਿਤੇ ਵੀ ਟੈਪ ਕਰੋ ਜਾਂ Escape ਦਬਾਓ",
     "tooltipText": "ਸਿੱਖਣ ਵਾਲੇ ਦਾ ਲੀਡਰਬੋਰਡ ਇੱਕ ਮਹੀਨੇ ਵਿੱਚ ਕਮਾਏ ਕਰਮਾ ਪੁਆਇੰਟਾਂ ਦੇ ਆਧਾਰ ਤੇ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਹਰ ਮਹੀਨੇ ਦੀ 1 ਤਾਰੀਖ਼ ਨੂੰ ਅਪਡੇਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+  },
+  "planDetail": {
+    "progressOnPlan": "ਇਸ ਯੋਜਨਾ ਦੀ ਪ੍ਰਗਤੀ",
+    "coursesCompleted": "ਪੂਰੇ ਕੀਤੇ ਕੋਰਸ",
+    "caCourses": "ਪੂਰੇ ਕੀਤੇ CA ਕੋਰਸ",
+    "comprehensiveAssessment": "ਵਿਆਪਕ ਮੁਲਾਂਕਣ",
+    "dueDate": "ਨਿਯਤ ਮਿਤੀ",
+    "reportingYear": "ਰਿਪੋਰਟਿੰਗ ਸਾਲ",
+    "locked": "ਲਾਕ ਕੀਤਾ ਗਿਆ",
+    "available": "ਉਪਲਬਧ",
+    "of": "ਵਿੱਚੋਂ",
+    "noCourses": "ਇਸ ਯੋਜਨਾ ਵਿੱਚ ਕੋਈ ਕੋਰਸ ਨਹੀਂ ਹੈ",
+    "backToPlans": "ਯੋਜਨਾਵਾਂ 'ਤੇ ਵਾਪਸ ਜਾਓ",
+    "unlocked": "ਅਨਲੌਕ ਕੀਤਾ ਗਿਆ"
   }
 }

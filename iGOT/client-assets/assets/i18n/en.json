@@ -295,7 +295,8 @@
     "locked": "Locked",
     "available": "Available",
     "completed": "Completed",
-    "unenroll": "Un-enroll"
+    "unenroll": "Un-enroll",
+    "unlocked": "Unlocked"
   },
   "cardplanv2": {
     "inProgress": "In Progress",
@@ -317,7 +318,8 @@
     "available": "Available",
     "of": "of",
     "noCourses": "No courses in this plan",
-    "backToPlans": "Back to plans"
+    "backToPlans": "Back to plans",
+    "unlocked": "Unlocked"
   },
   "plansShowAll": {
     "home": "Home",

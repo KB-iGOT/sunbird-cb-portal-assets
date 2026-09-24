@@ -233,7 +233,8 @@
     "deadline": "ସମଯ଼ସୀମା",
     "mostPopular": "ସର୍ବାଧିକ ଜନପ୍ରିୟ",
     "availableInLanguages": "{{count}} ଭାଷାରେ ଉପଲବ୍ଧ",
-    "completed": "ସଂପୂର୍ଣ ହୋଇଛି"
+    "completed": "ସଂପୂର୍ଣ ହୋଇଛି",
+    "unlocked": "ଅନଲକ୍ ହୋଇଛି"
   },
   "allproviderscomponent": {
     "popularProviders": "ଲୋକପ୍ରିଯ଼ ପ୍ରଦାନକାରୀ",
@@ -2133,5 +2134,19 @@
     "overlayHeading": "ଶିକ୍ଷା ପ୍ରତି ଆପଣଙ୍କ ସମର୍ପଣ ପ୍ରଶଂସନୀୟ!",
     "overlayHint": "ବନ୍ଦ କରିବାକୁ ଯେକୌଣସି ସ୍ଥାନ ଟ୍ୟାପ କରନ୍ତୁ ବା Escape ଦବାନ୍ତୁ",
     "tooltipText": "ଶିକ୍ଷାର୍ଥୀ ଲିଡରବୋର୍ଡ ଏକ ମାସରେ ଅର୍ଜିତ କର୍ମ ପଏଣ୍ଟ ଉପରେ ଆଧାରିତ ଏବଂ ପ୍ରତ୍ୟେକ ମାସର ୧ ତାରିଖରେ ଅଦ୍ୟତନ ହୁଏ।"
+  },
+  "planDetail": {
+    "progressOnPlan": "ଏହି ଯୋଜନାର ପ୍ରଗତି",
+    "coursesCompleted": "ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଥିବା ପାଠ୍ୟକ୍ରମ",
+    "caCourses": "ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଥିବା CA ପାଠ୍ୟକ୍ରମ",
+    "comprehensiveAssessment": "ବ୍ୟାପକ ମୂଲ୍ୟାଙ୍କନ",
+    "dueDate": "ଧାର୍ଯ୍ୟ ତାରିଖ",
+    "reportingYear": "ରିପୋର୍ଟିଂ ବର୍ଷ",
+    "locked": "ଲକ୍ ହୋଇଛି",
+    "available": "ଉପଲବ୍ଧ",
+    "of": "ମଧ୍ୟରୁ",
+    "noCourses": "ଏହି ଯୋଜନାରେ କୌଣସି ପାଠ୍ୟକ୍ରମ ନାହିଁ",
+    "backToPlans": "ଯୋଜନାକୁ ଫେରନ୍ତୁ",
+    "unlocked": "ଅନଲକ୍ ହୋଇଛି"
   }
 }

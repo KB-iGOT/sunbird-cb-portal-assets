@@ -274,7 +274,8 @@
     "inactive": "નિષ્ક્રિય",
     "mostPopular": "સૌથી વધુ લોકપ્રિય",
     "availableInLanguages": "{{count}} ભાષામાં ઉપલબ્ધ",
-    "completed": "પૂર્ણ"
+    "completed": "પૂર્ણ",
+    "unlocked": "અનલૉક કરેલ"
   },
   "allChannelsComponent": {
     "noChannelsFound": "કોઈ ચેનલો મળી નથી!",
@@ -2894,5 +2895,19 @@
     "overlayHeading": "શીખવા માટેનું તમારું સમર્પણ પ્રભાવશાળી છે!",
     "overlayHint": "બરખાસ્ત કરવા માટે ક્યાંય પણ ટૅપ કરો અથવા Escape દબાવો",
     "tooltipText": "શીખનાર લીડરબોર્ડની ગણતરી એક મહિનામાં મેળવેલા કર્મ પોઇંટ્સના આધારે કરવામાં આવે છે અને દર મહિનાની પહેલી તારીખે અપડેટ કરવામાં આવે છે."
+  },
+  "planDetail": {
+    "progressOnPlan": "આ યોજનાની પ્રગતિ",
+    "coursesCompleted": "પૂર્ણ થયેલા અભ્યાસક્રમો",
+    "caCourses": "પૂર્ણ થયેલા CA અભ્યાસક્રમો",
+    "comprehensiveAssessment": "વ્યાપક મૂલ્યાંકન",
+    "dueDate": "નિયત તારીખ",
+    "reportingYear": "રિપોર્ટિંગ વર્ષ",
+    "locked": "લૉક કરેલ",
+    "available": "ઉપલબ્ધ",
+    "of": "માંથી",
+    "noCourses": "આ યોજનામાં કોઈ અભ્યાસક્રમ નથી",
+    "backToPlans": "યોજનાઓ પર પાછા જાઓ",
+    "unlocked": "અનલૉક કરેલ"
   }
 }
