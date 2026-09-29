@@ -645,6 +645,7 @@
               "routerLink": "/author/cbp/me",
               "requiredRoles": [
                 "program_coordinator",
+                "bp_program_trainer",
                 "program_instructor"
               ]
             },

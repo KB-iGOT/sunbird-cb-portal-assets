@@ -120,7 +120,8 @@
                 "type": "newrequests",
                 "enabled": true,
                 "rolesRequired": [
-                    "program_coordinator"
+                    "program_coordinator",
+                    "bp_program_trainer"
                 ],
                 "data": {},
                 "primaryCategory": [
@@ -134,6 +135,7 @@
                 "enabled": true,
                 "rolesRequired": [
                     "program_coordinator",
+                    "bp_program_trainer",
                     "content_creator"
                 ],
                 "data": {},
@@ -151,6 +153,7 @@
                 "enabled": true,
                 "rolesRequired": [
                     "program_coordinator",
+                    "bp_program_trainer",
                     "content_creator"
                 ],
                 "data": {},
@@ -167,6 +170,7 @@
                 "type": "approvalstatus",
                 "enabled": true,
                 "rolesRequired": [
+                    "bp_program_trainer",
                     "program_coordinator"
                 ],
                 "data": {},
@@ -181,6 +185,7 @@
                 "enabled": true,
                 "rolesRequired": [
                     "content_creator",
+                    "bp_program_trainer",
                     "program_coordinator"
                 ],
                 "settings": {
@@ -236,7 +241,8 @@
                 "type": "session-details",
                 "enabled": true,
                 "rolesRequired": [
-                    "program_coordinator"
+                    "program_coordinator",
+                    "bp_program_trainer"
                 ],
                 "data": {},
                 "primaryCategory": [
@@ -249,7 +255,8 @@
                 "type": "reports-details",
                 "enabled": true,
                 "rolesRequired": [
-                    "program_coordinator"
+                    "program_coordinator",
+                    "bp_program_trainer"
                 ],
                 "data": {},
                 "primaryCategory": [
@@ -275,7 +282,8 @@
                 "type": "selfEnrolment",
                 "enabled": true,
                 "rolesRequired": [
-                    "program_coordinator"
+                    "program_coordinator",
+                    "bp_program_trainer"
                 ],
                 "data": {},
                 "primaryCategory": [
