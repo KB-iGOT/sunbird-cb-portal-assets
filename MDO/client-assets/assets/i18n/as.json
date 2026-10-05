@@ -60,5 +60,11 @@
     "resource": "সঁজুলি ({{count}})",
     "resources": "সঁজুলিসমূহ ({{count}})",
     "externalContent": "বাহ্যিক সামগ্রী ({{count}})"
+  },
+  "apptochome": {
+    "kpiDuration": "সময়কাল",
+    "kpiQuestion": "প্ৰশ্ন",
+    "kpiQuestions": "প্ৰশ্ন",
+    "kpiAttemptsAllowed": "অনুমোদিত প্ৰচেষ্টা"
   }
 }

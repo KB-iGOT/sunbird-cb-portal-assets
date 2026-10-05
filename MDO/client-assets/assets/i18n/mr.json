@@ -550,6 +550,10 @@
     "batchListExpiredMsg": "तुम्ही या मिश्रित योजनेत नावनोंदणी करू शकत नाही."
   },
   "apptochome": {
+    "kpiDuration": "कालावधी",
+    "kpiQuestion": "प्रश्न",
+    "kpiQuestions": "प्रश्न",
+    "kpiAttemptsAllowed": "अनुमत प्रयत्न",
     "resume": "पुन्हा सुरू करा",
     "start": "सुरुवात करा.",
     "startAgain": "पुन्हा सुरू करा.",

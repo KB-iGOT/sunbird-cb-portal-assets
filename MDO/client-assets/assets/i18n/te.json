@@ -550,6 +550,10 @@
     "batchListExpiredMsg": "మీరు ఈ మిశ్రమ కార్యక్రమంలో నమోదు చేసుకోలేరు."
   },
   "apptochome": {
+    "kpiDuration": "వ్యవధి",
+    "kpiQuestion": "ప్రశ్న",
+    "kpiQuestions": "ప్రశ్నలు",
+    "kpiAttemptsAllowed": "అనుమతించబడిన ప్రయత్నాలు",
     "resume": "తిరిగి ప్రారంభించండి",
     "start": "ప్రారంభించండి",
     "startAgain": "మళ్లీ ప్రారంభించండి.",

@@ -644,6 +644,10 @@
     "batchListExpiredMsg": "इस बलेंडेड कार्यक्रम में आपका नामांकन नहीं हो सकता"
   },
   "apptochome": {
+    "kpiDuration": "अवधि",
+    "kpiQuestion": "प्रश्न",
+    "kpiQuestions": "प्रश्न",
+    "kpiAttemptsAllowed": "अनुमत प्रयास",
     "resume": "फिर से शुरू करें",
     "start": "शुरू करें",
     "startAgain": "फिर से शुरू करें",

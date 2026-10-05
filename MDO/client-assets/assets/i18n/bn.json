@@ -551,6 +551,10 @@
     "batchListExpiredMsg": "আপনি এই মিশ্র প্রোগ্রামে নাম নথিভুক্ত করতে পারবেন না।"
   },
   "apptochome": {
+    "kpiDuration": "সময়কাল",
+    "kpiQuestion": "প্রশ্ন",
+    "kpiQuestions": "প্রশ্ন",
+    "kpiAttemptsAllowed": "অনুমোদিত প্রচেষ্টা",
     "resume": "পুনরায় শুরু করুন",
     "start": "শুরু করুন।",
     "startAgain": "আবার শুরু করুন।",

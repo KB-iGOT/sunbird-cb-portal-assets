@@ -630,6 +630,10 @@
     "batchListExpiredMsg": "તમે આ મિશ્રિત કાર્યક્રમમાં નોંધણી કરાવી શકતા નથી."
   },
   "apptochome": {
+    "kpiDuration": "સમયગાળો",
+    "kpiQuestion": "પ્રશ્ન",
+    "kpiQuestions": "પ્રશ્નો",
+    "kpiAttemptsAllowed": "માન્ય પ્રયાસો",
     "resume": "ફરી શરૂ કરો",
     "start": "પ્રારંભ કરો",
     "startAgain": "ફરી શરૂ કરો",

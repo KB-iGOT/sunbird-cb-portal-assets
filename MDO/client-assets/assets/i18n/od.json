@@ -550,6 +550,10 @@
     "batchListExpiredMsg": "ଆପଣ ଏହି ମିଶ୍ରିତ କାର୍ଯ୍ଯ଼କ୍ରମରେ ନାମ ଲେଖାଇ ପାରିବେ ନାହିଁ।"
   },
   "apptochome": {
+    "kpiDuration": "ଅବଧି",
+    "kpiQuestion": "ପ୍ରଶ୍ନ",
+    "kpiQuestions": "ପ୍ରଶ୍ନ",
+    "kpiAttemptsAllowed": "ଅନୁମୋଦିତ ପ୍ରୟାସ",
     "resume": "ପୁଣି ଆରମ୍ଭ କରନ୍ତୁ।",
     "start": "ଆରମ୍ଭ କରନ୍ତୁ",
     "startAgain": "ପୁଣିଥରେ ଆରମ୍ଭ କରନ୍ତୁ।",

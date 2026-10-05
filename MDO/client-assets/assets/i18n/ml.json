@@ -550,6 +550,10 @@
     "batchListExpiredMsg": "ഈ മിശ്രിത പരിപാടിയിൽ നിങ്ങൾക്ക് ചേരാൻ കഴിയില്ല."
   },
   "apptochome": {
+    "kpiDuration": "ദൈർഘ്യം",
+    "kpiQuestion": "ചോദ്യം",
+    "kpiQuestions": "ചോദ്യങ്ങൾ",
+    "kpiAttemptsAllowed": "അനുവദനീയമായ ശ്രമങ്ങൾ",
     "resume": "പുനരാരംഭിക്കുക",
     "start": "ആരംഭിക്കുക.",
     "startAgain": "വീണ്ടും തുടങ്ങുക.",

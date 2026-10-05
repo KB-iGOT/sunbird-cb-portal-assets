@@ -550,6 +550,10 @@
     "batchListExpiredMsg": "ನೀವು ಈ ಸಂಯೋಜಿತ ಕಾರ್ಯಕ್ರಮಕ್ಕೆ ನೋಂದಾಯಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಿಲ್ಲ."
   },
   "apptochome": {
+    "kpiDuration": "ಅವಧಿ",
+    "kpiQuestion": "ಪ್ರಶ್ನೆ",
+    "kpiQuestions": "ಪ್ರಶ್ನೆಗಳು",
+    "kpiAttemptsAllowed": "ಅನುಮತಿಸಲಾದ ಪ್ರಯತ್ನಗಳು",
     "resume": "ಪುನರಾರಂಭಿಸಿ",
     "start": "ಪ್ರಾರಂಭಿಸಿ",
     "startAgain": "ಮತ್ತೆ ಪ್ರಾರಂಭಿಸಿ.",

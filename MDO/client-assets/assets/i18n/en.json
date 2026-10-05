@@ -647,6 +647,10 @@
         "batchListExpiredMsg": "You can't enroll into this blended program."
     },
     "apptochome": {
+        "kpiDuration": "Duration",
+        "kpiQuestion": "question",
+        "kpiQuestions": "questions",
+        "kpiAttemptsAllowed": "Attempts Allowed",
         "resume": "Resume",
         "start": "Start",
         "startAgain": "Start again",

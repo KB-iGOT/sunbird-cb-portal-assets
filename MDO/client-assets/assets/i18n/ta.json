@@ -550,6 +550,10 @@
     "batchListExpiredMsg": "இந்த கலப்பு திட்டத்தில் நீங்கள் பதிவு செய்ய முடியாது."
   },
   "apptochome": {
+    "kpiDuration": "காலம்",
+    "kpiQuestion": "கேள்வி",
+    "kpiQuestions": "கேள்விகள்",
+    "kpiAttemptsAllowed": "அனுமதிக்கப்பட்ட முயற்சிகள்",
     "resume": "மீண்டும் தொடங்குங்கள்",
     "start": "தொடங்குங்கள்",
     "startAgain": "மீண்டும் தொடங்குங்கள்.",

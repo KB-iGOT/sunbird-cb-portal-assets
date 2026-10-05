@@ -550,6 +550,10 @@
     "batchListExpiredMsg": "ਤੁਸੀਂ ਇਸ ਮਿਸ਼ਰਤ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਦਾਖਲਾ ਨਹੀਂ ਲੈ ਸਕਦੇ।"
   },
   "apptochome": {
+    "kpiDuration": "ਮਿਆਦ",
+    "kpiQuestion": "ਸਵਾਲ",
+    "kpiQuestions": "ਸਵਾਲ",
+    "kpiAttemptsAllowed": "ਮਨਜ਼ੂਰ ਕੋਸ਼ਿਸ਼ਾਂ",
     "resume": "ਮੁਡ਼ ਸ਼ੁਰੂ ਕਰੋ",
     "start": "ਸ਼ੁਰੂ ਕਰੋ",
     "startAgain": "ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ",
