@@ -103,7 +103,8 @@
                     "paramaterName": "contentId",
                     "routerLink": "/author/content-detail/<param>/programCoordinator",
                     "requriedRoles": [
-                        "program_coordinator"
+                        "program_coordinator",
+                        "bp_program_trainer"
                     ],
                     "requriedContent": [
                         "Blended Program"
