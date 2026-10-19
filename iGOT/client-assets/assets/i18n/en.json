@@ -1523,9 +1523,12 @@
     "firstEnroll": "for your 1st course enrolment.",
     "firstEnrollTip": "Note: This is only applicable for your first enrolment.",
     "courseCompleteTip": "Every course completion automatically gets you 5 Karma Points.",
-    "lpCompleteTip": "Every learning pathway completion automatically gets you 25 Karma Points.",
+    "aparCourseCompleteTip": "Every APAR course completion automatically gets you 10 Karma Points.",
+    "lpCompleteTip": "Every learning pathway completion automatically gets you 10 Karma Points.",
     "byCompleting": "by completing this course.",
     "byCompletingLP": "by completing this learning pathway.",
+    "byCompletingCP": "by completing this curated program.",
+    "cpCompleteTip": "Every curated program completion automatically gets you 10 Karma Points.",
     "rateThis": ", rate this content!",
     "rateTip": "Your course rating serves as a valuable recommendation to Karmayogis, so go ahead and RATE.",
     "assessmentTip": "Here's 5 extra Karma Points for successfully completing all final assessments",
@@ -2161,7 +2164,11 @@
     "noEventScheduleYet": "No events scheduled yet",
     "seeMore": "See More",
     "seeLess": "See Less",
-    "showingResultsFor": "Showing results for"
+    "showingResultsFor": "Showing results for",
+    "noResultsInCategories": "No results in these categories",
+    "noMatchingResults": "No matching results were found in the following categories:",
+    "noResultsForTerm": "Sorry, we couldn't find any results for ({{searchTerm}}).",
+    "adjustSearch": "Please try adjusting your search."
   },
   "searchfilters": {
     "caseStudy": "Case Study",

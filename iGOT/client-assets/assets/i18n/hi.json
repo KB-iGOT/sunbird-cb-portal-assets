@@ -2055,7 +2055,11 @@
     "noEventScheduleYet": "अभी तक कोई कार्यक्रम निर्धारित नहीं है",
     "seeMore": "और देखें",
     "seeLess": "कम देखें",
-    "showingResultsFor": "के लिए परिणाम दिखाए जा रहे हैं"
+    "showingResultsFor": "के लिए परिणाम दिखाए जा रहे हैं",
+    "noResultsInCategories": "इन श्रेणियों में कोई परिणाम नहीं",
+    "noMatchingResults": "निम्नलिखित श्रेणियों में कोई मेल खाता परिणाम नहीं मिला:",
+    "noResultsForTerm": "क्षमा करें, हमें ({{searchTerm}}) के लिए कोई परिणाम नहीं मिला.",
+    "adjustSearch": "कृपया अपनी खोज को समायोजित करने का प्रयास करें।"
   },
   "searchfilters": {
     "caseStudy": "केस स्टडीज",

@@ -2014,7 +2014,11 @@
     "noEventScheduleYet": "હજી સુધી કોઈ ઇવેન્ટ્સ શેડ્યૂલ નથી",
     "seeMore": "વધુ જુઓ",
     "seeLess": "ઓછું જુઓ",
-    "showingResultsFor": "માટે પરિણામો બતાવી રહ્યાં છીએ"
+    "showingResultsFor": "માટે પરિણામો બતાવી રહ્યાં છીએ",
+    "noResultsInCategories": "આ શ્રેણીઓમાં કોઈ પરિણામ નથી",
+    "noMatchingResults": "નીચેની શ્રેણીઓમાં કોઈ મેળ ખાતું પરિણામ મળ્યું નથી:",
+    "noResultsForTerm": "માફ કરશો, અમને ({{searchTerm}}) માટે કોઈ પરિણામ મળ્યું નથી.",
+    "adjustSearch": "કૃપા કરીને તમારી શોધને સમાયોજિત કરવાનો પ્રયાસ કરો."
   },
   "searchfilters": {
     "filterSearch": "શોધને ફિલ્ટર કરો",
