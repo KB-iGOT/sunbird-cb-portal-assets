@@ -204,6 +204,14 @@
       "sitePath": "adikarmayogi-portal.igotkarmayogi.gov.in",
       "karmayogiBharatLink": "https://adikarmayogi.igotkarmayogi.gov.in"
     },
+    "mnre-portal": {
+      "logo": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01437330417898291264717/1792757312474_Logo111.svg",
+      "redirectPath": "/page/home",
+      "cdnContentHost": "https://mnre-portal.igotkarmayogi.gov.in",
+        "azureHost": "https://mnre-portal.igotkarmayogi.gov.in",
+      "sitePath": "mnre-portal.igotkarmayogi.gov.in",
+      "karmayogiBharatLink": "https://mnre.igotkarmayogi.gov.in"
+    },
     "localhost": {
       "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo_Horizontal.svg",
       "redirectPath": "/page/home",
