@@ -107,7 +107,7 @@
           "data": {
             "backgroundColor": "#E8EDF6",
             "titleMaxLength": 1000,
-            "containerClass": "container",
+            "containerClass": "container p-0",
             "content": [
               {
                 "title": "",
@@ -210,7 +210,7 @@
           "certificatePending": "Kindly be patient. The certificate generation normally takes up to 24 hours, however, it might take longer sometimes. If the issue persists, please mail us at mission.karmayogi@gov.in",
           "certificateError": "We couldn't load your certificate. Please try again.",
           "charCount": "{{count}}/{{max}}",
-          "minChars": "Minimum {{min}} characters",
+          "minChars": "Minimum {{min}} characters required",
           "required": "This field is required"
         }
       },
@@ -261,7 +261,7 @@
           "locked": false,
           "lockUntilEventStart": false,
           "type": "assessment",
-          "openWhenCompleted": false,
+          "openWhenCompleted": true,
           "identifier": "do_114694791824293888150",
           "batchId": "0146948350872698885",
           "language": "english",
@@ -371,12 +371,12 @@
           "order": 4,
           "enabled": true,
           "locked": false,
-          "lockUntilEventStart": true,
+          "lockUntilEventStart": false,
           "type": "assessment",
-          "openWhenCompleted": false,
+          "openWhenCompleted": true,
           "identifier": "do_114694833379106816152",
-          "startDateTime": "2026-11-06T20:20:00+05:30",
-          "showCountdown": true,
+          "startDateTime": "2026-11-05T20:20:00+05:30",
+          "showCountdown": false,
           "batchId": "0146948464330833926",
           "language": "english",
           "player": {
@@ -413,89 +413,189 @@
     },
     "caseStudies": {
       "enabled": false,
-      "contentStrip": {
-        "strips": [
+      "header": "Case Studies",
+      "contentConfig": {
+        "cardType": "courseCard",
+        "contents": [
           {
-            "active": true,
-            "key": "caseStudies",
-            "title": "Case Studies",
-            "disableTranslate": true,
-            "titleClass": "font-semibold",
-            "sliderConfig": {
-              "showNavs": true,
-              "showDots": true,
-              "maxWidgets": 12,
-              "showNavsSpacing": true
-            },
-            "loader": true,
-            "loaderConfig": {
-              "cardSubType": "card-portrait-lib-skeleton"
-            },
-            "stripConfig": {
-              "cardSubType": "card-portrait-lib"
-            },
-            "viewMoreUrl": {
-              "viewMoreText": "View All",
-              "path": "<CASE_STUDIES_VIEW_ALL_URL>",
-              "queryParams": {}
-            },
-            "tabs": [],
-            "filters": [],
-            "request": {
-              "searchV6": {
-                "request": {
-                  "filters": {
-                    "identifier": ["do_11445676700756377611022", "do_11445927339230003211556", "do_11444581297516544015740"],
-                    "status": ["Live"]
-                  },
-                  "offset": 0,
-                  "limit": 12,
-                  "query": "",
-                  "sort_by": {
-                    "lastUpdatedOn": "desc"
-                  },
-                  "fields": [
-                    "name",
-                    "appIcon",
-                    "instructions",
-                    "description",
-                    "purpose",
-                    "mimeType",
-                    "gradeLevel",
-                    "identifier",
-                    "medium",
-                    "pkgVersion",
-                    "board",
-                    "subject",
-                    "resourceType",
-                    "primaryCategory",
-                    "languageMapV1",
-                    "contentType",
-                    "channel",
-                    "organisation",
-                    "trackable",
-                    "license",
-                    "posterImage",
-                    "idealScreenSize",
-                    "learningMode",
-                    "creatorLogo",
-                    "duration",
-                    "version",
-                    "programDuration",
-                    "avgRating",
-                    "additionalTags",
-                    "difficultyLevel"
-                  ]
-                }
-              }
-            }
+            "name": "Gene Editing Techniques",
+            "identifier": "do_114358596163510272142",
+            "courseCategory": "Case Study",
+            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
+            "language": [
+              "English"
+            ],
+            "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
+            "appIcon": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
+            "mimeType": "application/vnd.ekstep.content-collection",
+            "primaryCategory": "Course",
+            "contentType": "Course",
+            "channel": "01376822290813747263",
+            "organisation": [
+              "TarentoCBP"
+            ]
           }
-        ]
+        ],
+        "showNoData": false,
+        "showViewAll": true,
+        "viewMoreUrl": {
+          "path": "<CASE_STUDIES_VIEW_ALL_URL>",
+          "queryParams": {},
+          "viewMoreText": "View All"
+        },
+        "maxCardsToShow": 12,
+        "cardClickDetails": {
+          "id": "caseStudies",
+          "type": "Course",
+          "subType": "Case Studies",
+          "courseCategory": "Course"
+        }
       }
+    },
+    "contentPills": {
+      "pills": [
+        {
+          "pillKey": "RuralDevelopmentandPanchayatiRaj",
+          "pillLabel": "Rural Development and Panchayati Raj",
+          "pillImageUrl": "",
+          "contentConfig": {
+            "cardType": "courseCard",
+            "contents": [
+              {
+            "name": "Gene Editing Techniques",
+            "identifier": "do_114358596163510272142",
+            "courseCategory": "Course",
+            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
+            "language": [
+              "English"
+            ],
+            "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
+            "appIcon": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
+            "mimeType": "application/vnd.ekstep.content-collection",
+            "primaryCategory": "Course",
+            "contentType": "Course",
+            "channel": "01376822290813747263",
+            "organisation": [
+              "TarentoCBP"
+            ]
+          },
+          {
+            "name": "Cyber security Testing2",
+            "identifier": "do_11431168633064652819",
+            "courseCategory": "Course",
+            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_11431168631848140818/artifact/do_11431168631848140818_1747032021586_cyber-security1747032021492.jpg",
+            "language": [
+              "English"
+            ],
+            "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
+            "appIcon": "https://portal.dev.karmayogibharat.net/content-store/content/do_11431168631848140818/artifact/do_11431168631848140818_1747032021586_cyber-security1747032021492.jpg",
+            "mimeType": "application/vnd.ekstep.content-collection",
+            "primaryCategory": "Course",
+            "contentType": "Course",
+            "channel": "01376822290813747263",
+            "organisation": [
+              "TarentoCBP"
+            ]
+          },
+          {
+            "name": "Course for testing editing 10th April 2025",
+            "identifier": "do_114289012599259136112",
+            "courseCategory": "Course",
+            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114289012584128512111/artifact/do_114289012584128512111_1744264232034_7be4f9cc-bc31-4623-a667-38397a677033-1731344645802_body1744264231676.png",
+            "duration": "10800",
+            "language": [
+              "English"
+            ],
+            "createdBy": "9029b54d-c167-4d88-a1fe-0c31b940c07f",
+            "appIcon": "https://storage.googleapis.com/igot/collection/do_114289012599259136112/artifact/do_114289012584128512111_1744264232034_7be4f9cc-bc31-4623-a667-38397a677033-1731344645802_body1744264231676.thumb.png",
+            "mimeType": "application/vnd.ekstep.content-collection",
+            "primaryCategory": "Course",
+            "contentType": "Course",
+            "channel": "0135071359030722569",
+            "organisation": [
+              "Mahesh MDO"
+            ]
+          },
+          {
+            "name": "blended program course test form ",
+            "identifier": "do_114182851298246656173",
+            "courseCategory": "Course",
+            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_11412847639801036813/artifact/do_11412847639801036813_1724667529161_green.png",
+            "duration": "420",
+            "difficultyLevel": "Beginner",
+            "language": [
+              "English"
+            ],
+            "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
+            "appIcon": "https://storage.googleapis.com/igot/collection/do_114182851298246656173/artifact/do_11412847639801036813_1724667529161_green.thumb.png",
+            "mimeType": "application/vnd.ekstep.content-collection",
+            "primaryCategory": "Course",
+            "contentType": "Course",
+            "channel": "0135071359030722569",
+            "organisation": [
+              "TarentoCBP"
+            ]
+          }
+            ],
+            "showNoData": true,
+            "showViewAll": true,
+            "viewMoreUrl": {
+              "path": "/app/globalsearch/volunteer",
+              "queryParams": {
+                "q": "",
+                "tab": "explore-content",
+                "category": "course",
+                "filtersPanel": "show"
+              },
+              "viewMoreText": "Show all"
+            },
+            "noDataMessage": "No courses available yet.  We are working on adding more learning opportunities under this theme.",
+            "maxCardsToShow": 12,
+            "cardClickDetails": {
+              "id": "public-finance",
+              "type": "Course",
+              "subType": "explore-by-theme",
+              "courseCategory": "Course"
+            }
+          },
+          "translateLabel": true,
+          "visibilityMode": "visible",
+          "pillDescription": [],
+          "pillInfoCountKey": "exploreByTheme"
+        }
+      ],
+      "header": "Sectoral/Scheme-Specific Courses",
+      "sectionKey": "SectoralCourses",
+      "displayType": "pills",
+      "pillEnlarge": false,
+      "noDataMessage": "No courses available yet.  We are working on adding more learning opportunities under this theme.",
+      "addToAccordian": true,
+      "defaultPillKey": "Public Leadership",
+      "visibilityMode": "visible",
+      "translateHeader": false,
+      "canShowScrollArrow": true,
+      "hideAccordianToggel": false
     }
   },
   "eventDetails": {
     "startDate": "17-11-2026",
     "endDate": "28-11-2026"
+  },
+  "pageAvailability": {
+    "enabled": true,
+    "startDateTime": "2026-11-06T00:00:00+05:30",
+    "endDateTime": "2026-11-09T23:59:59+05:30",
+    "notStarted": {
+      "title": "This event has not started yet",
+      "description": "The Leadership as a Mission page opens on {{date}}. Please come back then.",
+      "buttonText": "Go to home",
+      "buttonUrl": "/page/home"
+    },
+    "closed": {
+      "title": "This event has closed",
+      "description": "Leadership as a Mission ended on {{date}}. Thank you for your interest.",
+      "buttonText": "Go to home",
+      "buttonUrl": "/page/home"
+    }
   }
 }

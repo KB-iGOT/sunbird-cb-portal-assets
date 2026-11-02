@@ -2171,6 +2171,8 @@
     "adjustSearch": "Please try adjusting your search."
   },
   "searchfilters": {
+    "baselineAssessment": "Baseline Assessment",
+    "endlineAssessment": "Endline Assessment",
     "caseStudy": "Case Study",
     "karmayogiSaptah": "Karmayogi Saptah",
     "rajyaKarmayogiSaptah": "Rajya Karmayogi Saptah",
