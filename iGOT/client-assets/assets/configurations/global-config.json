@@ -65,7 +65,8 @@
       "mdoProfileUpdateStatus": true,
       "profileUpdateNudge": true,
       "customAttributeUpdate": true,
-      "npsSurvey": true
+      "npsSurvey": true,
+      "milestoneCampaign": true
     },
     "footer": {
       "enabled": false,
