@@ -3148,9 +3148,9 @@
       "completed": "Completed",
       "resume": "Resume",
       "view": "View",
-      "startAssessment": "Start assessment",
+      "startAssessment": "Start Questionnaire",
       "startEvent": "Register",
-      "startSurvey": "Take pledge"
+      "startSurvey": "Take Sankalpa"
     },
     "milestones": {
       "journeyComplete": "Journey complete! You have finished every milestone of this programme."
@@ -3165,8 +3165,9 @@
       "resume": "Resume Milestone {{number}}"
     },
     "survey": {
-      "later": "Do it later",
+      "cancel": "Cancel",
       "submit": "Submit",
+      "commitment": "I commit to strengthening my leadership practice through one meaningful change, within my own authority, for the citizens I serve.",
       "retry": "Try again",
       "loadError": "We couldn't load this form. Please try again.",
       "submitted": "Thank you! Your response has been submitted.",
