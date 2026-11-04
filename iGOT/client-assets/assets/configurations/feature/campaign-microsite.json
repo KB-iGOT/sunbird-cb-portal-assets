@@ -212,27 +212,27 @@
           "enabled": true,
           "locked": false,
           "type": "assessment",
-          "identifier": "do_11440406302015488013577",
-          "batchId": "01440407004890726422",
+          "identifier": "do_114694574956691456146",
+          "batchId": "0146945934412021763",
           "milestoneLabel": "Milestone 1",
           "headline": "Know where\nyou stand",
           "bigNumber": "01",
           "theme": "blue",
-          "posterImage": "",
-          "durationLabel": "30 mins",
+          "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114694574944428032145/artifact/do_114694574944428032145_1793771355895_download1793771355830.jpg",
+          "durationLabel": "61 mins",
           "categoryLabel": "Assessment",
-          "name": "Pre-Assessment: Baseline Leadership Check",
-          "tags": ["20 questions", "MCQ", "Online"],
+          "name": "AR SD Check One 4",
+          "tags": ["2 Assessments", "Online", "Baseline Assessment"],
           "provider": {
             "name": "Karmayogi Bharat",
             "logo": "<KARMAYOGI_BHARAT_LOGO_URL>"
           },
-          "dueDate": "14-11-2026",
+          "dueDate": "",
           "redirectUrl": ""
         },
         {
           "order": 2,
-          "enabled": true,
+          "enabled": false,
           "locked": false,
           "type": "event",
           "identifier": "do_1145509289723330561340",
@@ -255,7 +255,7 @@
         },
         {
           "order": 3,
-          "enabled": true,
+          "enabled": false,
           "locked": false,
           "type": "survey",
           "formId": "1f2e6ad4-c130-4b2a-8995-dc03483972f0",
@@ -277,7 +277,7 @@
         },
         {
           "order": 4,
-          "enabled": true,
+          "enabled": false,
           "locked": true,
           "type": "assessment",
           "identifier": "do_11444157603085516814540",
@@ -334,14 +334,8 @@
               "searchV6": {
                 "request": {
                   "filters": {
-                    "identifier": [
-                      "do_11445676700756377611022",
-                      "do_11445927339230003211556",
-                      "do_11444581297516544015740"
-                    ],
-                    "status": [
-                      "Live"
-                    ]
+                    "identifier": ["do_11445676700756377611022", "do_11445927339230003211556", "do_11444581297516544015740"],
+                    "status": ["Live"]
                   },
                   "offset": 0,
                   "limit": 12,
