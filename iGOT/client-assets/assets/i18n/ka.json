@@ -2119,5 +2119,33 @@
     "noCourses": "ಈ ಯೋಜನೆಯಲ್ಲಿ ಯಾವುದೇ ಕೋರ್ಸ್‌ಗಳಿಲ್ಲ",
     "backToPlans": "ಯೋಜನೆಗಳಿಗೆ ಹಿಂತಿರುಗಿ",
     "unlocked": "ಅನ್‌ಲಾಕ್ ಆಗಿದೆ"
+  },
+  "campaignMicrosite": {
+    "close": "ಮುಚ್ಚಿ",
+    "milestoneCard": {
+      "availableNow": "ಈಗ ಲಭ್ಯವಿದೆ",
+      "locked": "ಲಾಕ್ ಆಗಿದೆ",
+      "due": "ಕೊನೆಯ ದಿನಾಂಕ {{date}}",
+      "overdue": "ಗಡುವು ಮೀರಿದೆ",
+      "inProgress": "ಪ್ರಗತಿಯಲ್ಲಿದೆ",
+      "completed": "ಪೂರ್ಣಗೊಂಡಿದೆ",
+      "resume": "ಪುನರಾರಂಭಿಸಿ",
+      "view": "ವೀಕ್ಷಿಸಿ",
+      "startAssessment": "ಮೌಲ್ಯಮಾಪನ ಪ್ರಾರಂಭಿಸಿ",
+      "startEvent": "ನೋಂದಾಯಿಸಿ",
+      "startSurvey": "ಪ್ರತಿಜ್ಞೆ ಸ್ವೀಕರಿಸಿ"
+    },
+    "milestones": {
+      "journeyComplete": "ಪಯಣ ಪೂರ್ಣ! ನೀವು ಈ ಕಾರ್ಯಕ್ರಮದ ಎಲ್ಲಾ ಮೈಲಿಗಲ್ಲುಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದೀರಿ."
+    },
+    "milestonePopup": {
+      "availableNow": "ಈಗ ಲಭ್ಯವಿದೆ",
+      "inProgress": "ಪ್ರಗತಿಯಲ್ಲಿದೆ",
+      "completed": "ಪೂರ್ಣಗೊಂಡಿದೆ",
+      "unlocksAfter": "ಮೈಲಿಗಲ್ಲು {{number}} ನಂತರ ತೆರೆಯುತ್ತದೆ",
+      "milestone": "ಮೈಲಿಗಲ್ಲು {{number}}",
+      "start": "ಮೈಲಿಗಲ್ಲು {{number}} ಪ್ರಾರಂಭಿಸಿ",
+      "resume": "ಮೈಲಿಗಲ್ಲು {{number}} ಪುನರಾರಂಭಿಸಿ"
+    }
   }
 }

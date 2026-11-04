@@ -3136,5 +3136,42 @@
     "spvPortal": "SPV Portal",
     "manageMdosUsersCompetency": "Manage MDOs, users and competency",
     "downloadApp": "Download App"
+  },
+  "campaignMicrosite": {
+    "close": "Close",
+    "milestoneCard": {
+      "availableNow": "Available now",
+      "locked": "Locked",
+      "due": "Due {{date}}",
+      "overdue": "Overdue",
+      "inProgress": "In progress",
+      "completed": "Completed",
+      "resume": "Resume",
+      "view": "View",
+      "startAssessment": "Start assessment",
+      "startEvent": "Register",
+      "startSurvey": "Take pledge"
+    },
+    "milestones": {
+      "journeyComplete": "Journey complete! You have finished every milestone of this programme."
+    },
+    "milestonePopup": {
+      "availableNow": "Available now",
+      "inProgress": "In progress",
+      "completed": "Completed",
+      "unlocksAfter": "Unlocks after {{number}}",
+      "milestone": "Milestone {{number}}",
+      "start": "Start Milestone {{number}}",
+      "resume": "Resume Milestone {{number}}"
+    },
+    "survey": {
+      "later": "Do it later",
+      "submit": "Submit",
+      "retry": "Try again",
+      "loadError": "We couldn't load this form. Please try again.",
+      "submitted": "Thank you! Your response has been submitted.",
+      "submitError": "Something went wrong. Please try again.",
+      "alreadySubmitted": "You have already submitted this form."
+    }
   }
 }
