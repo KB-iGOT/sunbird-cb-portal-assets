@@ -222,7 +222,7 @@
           "durationLabel": "61 mins",
           "categoryLabel": "Assessment",
           "name": "AR SD Check One 4",
-          "tags": ["2 Assessments", "Online", "Baseline Assessment"],
+          "tags": ["Online", "Baseline Assessment"],
           "provider": {
             "name": "Karmayogi Bharat",
             "logo": "<KARMAYOGI_BHARAT_LOGO_URL>"
