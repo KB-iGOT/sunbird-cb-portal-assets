@@ -50,12 +50,12 @@
                 {
                   "active": true,
                   "banners": {
-                    "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647732285_Asset_26_2x.webp",
-                    "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647895991_Asset_35_2x.webp",
-                    "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647895991_Asset_35_2x.webp",
-                    "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647732285_Asset_26_2x.webp",
-                    "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647895991_Asset_35_2x.webp",
-                    "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647732285_Asset_26_2x.webp"
+                    "l": "/assets/images/micro-sites/campaign/banner-2.png",
+                    "m": "/assets/images/micro-sites/campaign/banner-2.png",
+                    "s": "/assets/images/micro-sites/campaign/banner-2.png",
+                    "xl": "/assets/images/micro-sites/campaign/banner-2.png",
+                    "xs": "/assets/images/micro-sites/campaign/banner-2.png",
+                    "xxl": "/assets/images/micro-sites/campaign/banner-2.png"
                   },
                   "redirectUrl": "",
                   "queryParams": {},
