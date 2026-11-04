@@ -3087,5 +3087,33 @@
     "noCourses": "इस योजना में कोई पाठ्यक्रम नहीं है",
     "backToPlans": "योजनाओं पर वापस जाएं",
     "unlocked": "अनलॉक किया गया"
+  },
+  "campaignMicrosite": {
+    "close": "बंद करें",
+    "milestoneCard": {
+      "availableNow": "अभी उपलब्ध",
+      "locked": "लॉक है",
+      "due": "अंतिम तिथि {{date}}",
+      "overdue": "समय सीमा बीत गई",
+      "inProgress": "प्रगति में",
+      "completed": "पूर्ण",
+      "resume": "फिर से शुरू करें",
+      "view": "देखें",
+      "startAssessment": "मूल्यांकन शुरू करें",
+      "startEvent": "रजिस्टर करें",
+      "startSurvey": "शपथ लें"
+    },
+    "milestones": {
+      "journeyComplete": "यात्रा पूर्ण! आपने इस कार्यक्रम के सभी चरण पूरे कर लिए हैं।"
+    },
+    "milestonePopup": {
+      "availableNow": "अभी उपलब्ध",
+      "inProgress": "प्रगति में",
+      "completed": "पूर्ण",
+      "unlocksAfter": "चरण {{number}} के बाद खुलेगा",
+      "milestone": "चरण {{number}}",
+      "start": "चरण {{number}} शुरू करें",
+      "resume": "चरण {{number}} फिर से शुरू करें"
+    }
   }
 }

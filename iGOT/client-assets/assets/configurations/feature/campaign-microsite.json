@@ -1,0 +1,396 @@
+{
+  "sectionList": [
+    {
+      "enabled": true,
+      "title": "",
+      "key": "sectionTopBanner",
+      "order": 1,
+      "column": [
+        {
+          "enabled": true,
+          "key": "topSection",
+          "title": "Karmayogi Saptah",
+          "colspan": 12,
+          "data": {
+            "sliderData": {
+              "styleData": {
+                "bannerMetaClass": "",
+                "bannerMeta": "visible",
+                "bannerMetaAlign": "right",
+                "navigationArrows": "visible",
+                "borderRadius": "0px",
+                "arrowsPlacement": "",
+                "dots": "hidden",
+                "imageBorderWidth": 0,
+                "imageBorderColor": "#FFFFFF",
+                "imageBorderStyle": "solid",
+                "responsive": {
+                  "bannerMetaClass": "inline-meta",
+                  "bannerMetaAlign": "center",
+                  "navigationArrows": "visible",
+                  "dots": "hidden",
+                  "arrowsPlacement": "middle-inline"
+                }
+              },
+              "sliders": [
+                {
+                  "active": true,
+                  "banners": {
+                    "l": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png",
+                    "m": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png",
+                    "s": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png",
+                    "xl": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png",
+                    "xs": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png",
+                    "xxl": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png"
+                  },
+                  "redirectUrl": "",
+                  "queryParams": {},
+                  "title": ""
+                },
+                {
+                  "active": true,
+                  "banners": {
+                    "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647732285_Asset_26_2x.webp",
+                    "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647895991_Asset_35_2x.webp",
+                    "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647895991_Asset_35_2x.webp",
+                    "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647732285_Asset_26_2x.webp",
+                    "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647895991_Asset_35_2x.webp",
+                    "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0134001680852664321/1792647732285_Asset_26_2x.webp"
+                  },
+                  "redirectUrl": "",
+                  "queryParams": {},
+                  "title": ""
+                },
+                {
+                  "active": true,
+                  "banners": {
+                    "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149170752_bharat-kalp.svg",
+                    "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149271400_bharat-kalp-m.svg",
+                    "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149271400_bharat-kalp-m.svg",
+                    "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149170752_bharat-kalp.svg",
+                    "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149271400_bharat-kalp-m.svg",
+                    "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149170752_bharat-kalp.svg"
+                  },
+                  "redirectUrl": "",
+                  "queryParams": {},
+                  "title": ""
+                },
+                {
+                  "active": true,
+                  "banners": {
+                    "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149541580_bharat-kalp-leadership.svg",
+                    "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149507182_bharat-kalp-leadership.svg",
+                    "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149507182_bharat-kalp-leadership.svg",
+                    "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149541580_bharat-kalp-leadership.svg",
+                    "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149507182_bharat-kalp-leadership.svg",
+                    "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149541580_bharat-kalp-leadership.svg"
+                  },
+                  "redirectUrl": "",
+                  "queryParams": {},
+                  "title": ""
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "enabled": false,
+      "key": "sectionKeyHighlights",
+      "wrapperClass": "",
+      "column": [
+        {
+          "enabled": true,
+          "key": "keyHighlightsSection",
+          "colspan": 12,
+          "data": {
+            "backgroundColor": "#ffffff",
+            "titleMaxLength": 1000,
+            "containerClass": "container",
+            "content": [
+              {
+                "title": "",
+                "innerHTMLTitle": "Your feedback matters! Please take 2 minutes to <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfKORBilcSblaaxvtwL24NdeaYOywe4MW2Y2fhZusWs-dP-jA/viewform\" target=\"_blank\" style=\"text-decoration: none;\">share your experience</a> with the Bharat KALP microsite."
+              },
+              {
+                "title": "",
+                "innerHTMLTitle": "Missed an event or want to revisit one? <a href=\"https://portal.igotkarmayogi.gov.in/app/event-hub/view-all?resourceType=Bharat%20Kalp%20-%20Talks&resourceType=Bharat%20Kalp%20-%20Podcast\" target=\"_blank\" style=\"text-decoration: none;\">Explore all past events here.</a> "
+              }
+            ],
+            "sliderData": {
+              "styleData": {
+                "borderRadius": "0",
+                "bannerMeta": "visible",
+                "dots": "hidden",
+                "arrowsPlacement": "middle-inline",
+                "responsive": {
+                  "bannerMetaAlign": "left",
+                  "navigationArrows": "visible",
+                  "dots": "hidden",
+                  "arrowsPlacement": "middle-inline"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "key": "sectionMainContent",
+      "order": 3,
+      "wrapperClass": "",
+      "column": [
+        {
+          "enabled": true,
+          "key": "mainContentSection",
+          "colspan": 12,
+          "data": {
+            "containerClass": "",
+            "mobileKeys": ["programmeMilestones", "caseStudies"],
+            "deskTopKeys": {
+              "leftContent": {
+                "colspan": 12,
+                "data": ["programmeMilestones", "caseStudies"]
+              },
+              "rightContent": {
+                "colspan": 4,
+                "data": []
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "individualSection": {
+    "programmeMilestones": {
+      "enabled": true,
+      "title": "Programme Milestones",
+      "popup": {
+        "enabled": true,
+        "eyebrow": "Welcome to your learning journey",
+        "title": "Four milestones, completed\none step at a time",
+        "description": "Each milestone unlocks the next. Finish one to open the one that follows — here is the full path from start to finish.",
+        "note": "Milestones open <strong>in order</strong>. The next one stays locked until you complete the current step, so just follow them top to bottom.",
+        "helpText": "Stuck on any step? Reach out to your programme coordinator for help.",
+        "steps": [
+          {
+            "order": 1,
+            "title": "Baseline Assessment",
+            "description": "Know where you stand. A quick check of your current leadership readiness.",
+            "icon": "assessment",
+            "color": "navy"
+          },
+          {
+            "order": 2,
+            "title": "Live Event",
+            "description": "Attend the national workshop and mark your attendance to progress.",
+            "icon": "event",
+            "color": "green"
+          },
+          {
+            "order": 3,
+            "title": "Take the Pledge",
+            "description": "Commit to serve citizens. Complete the pledge form to unlock the final assessment.",
+            "icon": "pledge",
+            "color": "orange"
+          },
+          {
+            "order": 4,
+            "title": "Endline Assessment",
+            "description": "See how far you have come. Measure your growth against the baseline to finish your journey.",
+            "icon": "progress",
+            "color": "teal"
+          }
+        ]
+      },
+      "items": [
+        {
+          "order": 1,
+          "enabled": true,
+          "locked": false,
+          "type": "assessment",
+          "identifier": "do_11440406302015488013577",
+          "batchId": "01440407004890726422",
+          "milestoneLabel": "Milestone 1",
+          "headline": "Know where\nyou stand",
+          "bigNumber": "01",
+          "theme": "blue",
+          "posterImage": "",
+          "durationLabel": "30 mins",
+          "categoryLabel": "Assessment",
+          "name": "Pre-Assessment: Baseline Leadership Check",
+          "tags": ["20 questions", "MCQ", "Online"],
+          "provider": {
+            "name": "Karmayogi Bharat",
+            "logo": "<KARMAYOGI_BHARAT_LOGO_URL>"
+          },
+          "dueDate": "14-11-2026",
+          "redirectUrl": ""
+        },
+        {
+          "order": 2,
+          "enabled": true,
+          "locked": false,
+          "type": "event",
+          "identifier": "do_1145509289723330561340",
+          "batchId": "0145509335307141126",
+          "milestoneLabel": "Milestone 2",
+          "headline": "",
+          "bigNumber": "02",
+          "theme": "image",
+          "posterImage": "<NATIONAL_WORKSHOP_POSTER_URL>",
+          "durationLabel": "2h 30m",
+          "categoryLabel": "Event",
+          "name": "Leadership as Mission: National Workshop",
+          "tags": ["In-person", "New Delhi", "Certificate"],
+          "provider": {
+            "name": "NITI Aayog",
+            "logo": "<NITI_AAYOG_LOGO_URL>"
+          },
+          "dueDate": "",
+          "redirectUrl": ""
+        },
+        {
+          "order": 3,
+          "enabled": true,
+          "locked": false,
+          "type": "survey",
+          "formId": "1f2e6ad4-c130-4b2a-8995-dc03483972f0",
+          "milestoneLabel": "Milestone 3",
+          "headline": "Commit to\nserve citizens",
+          "bigNumber": "03",
+          "theme": "orange",
+          "posterImage": "",
+          "durationLabel": "2 mins",
+          "categoryLabel": "Pledge",
+          "name": "Leadership Pledge: Commit to Serve Citizens",
+          "tags": ["Online", "Self-declared", "Certificate"],
+          "provider": {
+            "name": "Karmayogi Bharat",
+            "logo": "<KARMAYOGI_BHARAT_LOGO_URL>"
+          },
+          "dueDate": "",
+          "redirectUrl": ""
+        },
+        {
+          "order": 4,
+          "enabled": true,
+          "locked": true,
+          "type": "assessment",
+          "identifier": "do_11444157603085516814540",
+          "batchId": "<POST_ASSESSMENT_BATCH_ID>",
+          "milestoneLabel": "Milestone 4",
+          "headline": "See how far\nyou've come",
+          "bigNumber": "04",
+          "theme": "purple",
+          "posterImage": "",
+          "durationLabel": "30 mins",
+          "categoryLabel": "Assessment",
+          "name": "Post-Assessment: Measure Your Growth",
+          "tags": ["20 questions", "MCQ", "Online"],
+          "provider": {
+            "name": "Karmayogi Bharat",
+            "logo": "<KARMAYOGI_BHARAT_LOGO_URL>"
+          },
+          "dueDate": "",
+          "redirectUrl": ""
+        }
+      ]
+    },
+    "caseStudies": {
+      "enabled": false,
+      "contentStrip": {
+        "strips": [
+          {
+            "active": true,
+            "key": "caseStudies",
+            "title": "Case Studies",
+            "disableTranslate": true,
+            "titleClass": "font-semibold",
+            "sliderConfig": {
+              "showNavs": true,
+              "showDots": true,
+              "maxWidgets": 12,
+              "showNavsSpacing": true
+            },
+            "loader": true,
+            "loaderConfig": {
+              "cardSubType": "card-portrait-lib-skeleton"
+            },
+            "stripConfig": {
+              "cardSubType": "card-portrait-lib"
+            },
+            "viewMoreUrl": {
+              "viewMoreText": "View All",
+              "path": "<CASE_STUDIES_VIEW_ALL_URL>",
+              "queryParams": {}
+            },
+            "tabs": [],
+            "filters": [],
+            "request": {
+              "searchV6": {
+                "request": {
+                  "filters": {
+                    "identifier": [
+                      "do_11445676700756377611022",
+                      "do_11445927339230003211556",
+                      "do_11444581297516544015740"
+                    ],
+                    "status": [
+                      "Live"
+                    ]
+                  },
+                  "offset": 0,
+                  "limit": 12,
+                  "query": "",
+                  "sort_by": {
+                    "lastUpdatedOn": "desc"
+                  },
+                  "fields": [
+                    "name",
+                    "appIcon",
+                    "instructions",
+                    "description",
+                    "purpose",
+                    "mimeType",
+                    "gradeLevel",
+                    "identifier",
+                    "medium",
+                    "pkgVersion",
+                    "board",
+                    "subject",
+                    "resourceType",
+                    "primaryCategory",
+                    "languageMapV1",
+                    "contentType",
+                    "channel",
+                    "organisation",
+                    "trackable",
+                    "license",
+                    "posterImage",
+                    "idealScreenSize",
+                    "learningMode",
+                    "creatorLogo",
+                    "duration",
+                    "version",
+                    "programDuration",
+                    "avgRating",
+                    "additionalTags",
+                    "difficultyLevel"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "eventDetails": {
+    "startDate": "05-07-2026",
+    "endDate": "28-11-2026"
+  }
+}
