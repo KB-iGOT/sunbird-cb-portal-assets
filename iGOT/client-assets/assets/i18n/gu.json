@@ -2922,7 +2922,6 @@
     "unlocked": "અનલૉક કરેલ"
   },
   "campaignMicrosite": {
-    "close": "બંધ કરો",
     "milestoneCard": {
       "availableNow": "હવે ઉપલબ્ધ",
       "locked": "લૉક કરેલ",
@@ -2935,18 +2934,6 @@
       "startAssessment": "મૂલ્યાંકન શરૂ કરો",
       "startEvent": "નોંધણી કરો",
       "startSurvey": "શપથ લો"
-    },
-    "milestones": {
-      "journeyComplete": "યાત્રા પૂર્ણ! તમે આ કાર્યક્રમના બધા સીમાચિહ્નો પૂર્ણ કર્યા છે."
-    },
-    "milestonePopup": {
-      "availableNow": "હવે ઉપલબ્ધ",
-      "inProgress": "પ્રગતિમાં",
-      "completed": "પૂર્ણ",
-      "unlocksAfter": "સીમાચિહ્ન {{number}} પછી ખુલશે",
-      "milestone": "સીમાચિહ્ન {{number}}",
-      "start": "સીમાચિહ્ન {{number}} શરૂ કરો",
-      "resume": "સીમાચિહ્ન {{number}} ફરી શરૂ કરો"
     }
   }
 }

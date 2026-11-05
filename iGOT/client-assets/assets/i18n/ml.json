@@ -2154,7 +2154,6 @@
     "unlocked": "അൺലോക്ക് ചെയ്തിരിക്കുന്നു"
   },
   "campaignMicrosite": {
-    "close": "അടയ്ക്കുക",
     "milestoneCard": {
       "availableNow": "ഇപ്പോൾ ലഭ്യമാണ്",
       "locked": "ലോക്ക് ചെയ്തിരിക്കുന്നു",
@@ -2167,18 +2166,6 @@
       "startAssessment": "മൂല്യനിർണ്ണയം ആരംഭിക്കുക",
       "startEvent": "രജിസ്റ്റർ ചെയ്യുക",
       "startSurvey": "പ്രതിജ്ഞ എടുക്കുക"
-    },
-    "milestones": {
-      "journeyComplete": "യാത്ര പൂർത്തിയായി! ഈ പ്രോഗ്രാമിലെ എല്ലാ നാഴികക്കല്ലുകളും നിങ്ങൾ പൂർത്തിയാക്കി."
-    },
-    "milestonePopup": {
-      "availableNow": "ഇപ്പോൾ ലഭ്യമാണ്",
-      "inProgress": "പുരോഗമിക്കുന്നു",
-      "completed": "പൂർത്തിയായി",
-      "unlocksAfter": "നാഴികക്കല്ല് {{number}}-ന് ശേഷം തുറക്കും",
-      "milestone": "നാഴികക്കല്ല് {{number}}",
-      "start": "നാഴികക്കല്ല് {{number}} ആരംഭിക്കുക",
-      "resume": "നാഴികക്കല്ല് {{number}} പുനരാരംഭിക്കുക"
     }
   }
 }

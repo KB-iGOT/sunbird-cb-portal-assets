@@ -2154,7 +2154,6 @@
     "unlocked": "अनलॉक केलेले"
   },
   "campaignMicrosite": {
-    "close": "बंद करा",
     "milestoneCard": {
       "availableNow": "आता उपलब्ध",
       "locked": "लॉक केलेले",
@@ -2167,18 +2166,6 @@
       "startAssessment": "मूल्यांकन सुरू करा",
       "startEvent": "नोंदणी करा",
       "startSurvey": "शपथ घ्या"
-    },
-    "milestones": {
-      "journeyComplete": "प्रवास पूर्ण! तुम्ही या कार्यक्रमाचे सर्व टप्पे पूर्ण केले आहेत."
-    },
-    "milestonePopup": {
-      "availableNow": "आता उपलब्ध",
-      "inProgress": "प्रगतीपथावर",
-      "completed": "पूर्ण झाले",
-      "unlocksAfter": "टप्पा {{number}} नंतर उघडेल",
-      "milestone": "टप्पा {{number}}",
-      "start": "टप्पा {{number}} सुरू करा",
-      "resume": "टप्पा {{number}} पुन्हा सुरू करा"
     }
   }
 }

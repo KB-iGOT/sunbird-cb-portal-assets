@@ -2154,7 +2154,6 @@
     "unlocked": "అన్‌లాక్ చేయబడింది"
   },
   "campaignMicrosite": {
-    "close": "మూసివేయండి",
     "milestoneCard": {
       "availableNow": "ఇప్పుడు అందుబాటులో ఉంది",
       "locked": "లాక్ చేయబడింది",
@@ -2167,18 +2166,6 @@
       "startAssessment": "మూల్యాంకనం ప్రారంభించండి",
       "startEvent": "నమోదు చేసుకోండి",
       "startSurvey": "ప్రతిజ్ఞ చేయండి"
-    },
-    "milestones": {
-      "journeyComplete": "ప్రయాణం పూర్తయింది! మీరు ఈ కార్యక్రమంలోని అన్ని మైలురాళ్లను పూర్తి చేశారు."
-    },
-    "milestonePopup": {
-      "availableNow": "ఇప్పుడు అందుబాటులో ఉంది",
-      "inProgress": "పురోగతిలో ఉంది",
-      "completed": "పూర్తయింది",
-      "unlocksAfter": "మైలురాయి {{number}} తర్వాత అన్‌లాక్ అవుతుంది",
-      "milestone": "మైలురాయి {{number}}",
-      "start": "మైలురాయి {{number}} ప్రారంభించండి",
-      "resume": "మైలురాయి {{number}} తిరిగి ప్రారంభించండి"
     }
   }
 }

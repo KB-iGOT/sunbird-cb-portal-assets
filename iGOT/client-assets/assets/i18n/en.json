@@ -3138,7 +3138,6 @@
     "downloadApp": "Download App"
   },
   "campaignMicrosite": {
-    "close": "Close",
     "milestoneCard": {
       "availableNow": "Available now",
       "locked": "Locked",
@@ -3151,28 +3150,6 @@
       "startAssessment": "Start Questionnaire",
       "startEvent": "Register",
       "startSurvey": "Take Sankalpa"
-    },
-    "milestones": {
-      "journeyComplete": "Journey complete! You have finished every milestone of this programme."
-    },
-    "milestonePopup": {
-      "availableNow": "Available now",
-      "inProgress": "In progress",
-      "completed": "Completed",
-      "unlocksAfter": "Unlocks after {{number}}",
-      "milestone": "Milestone {{number}}",
-      "start": "Start Milestone {{number}}",
-      "resume": "Resume Milestone {{number}}"
-    },
-    "survey": {
-      "cancel": "Cancel",
-      "submit": "Submit",
-      "commitment": "I commit to strengthening my leadership practice through one meaningful change, within my own authority, for the citizens I serve.",
-      "retry": "Try again",
-      "loadError": "We couldn't load this form. Please try again.",
-      "submitted": "Thank you! Your response has been submitted.",
-      "submitError": "Something went wrong. Please try again.",
-      "alreadySubmitted": "You have already submitted this form."
     }
   }
 }

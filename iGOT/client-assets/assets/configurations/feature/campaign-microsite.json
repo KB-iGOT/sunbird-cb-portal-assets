@@ -168,6 +168,38 @@
     "programmeMilestones": {
       "enabled": true,
       "title": "Programme Milestones",
+      "labels": {
+        "close": "Close",
+        "journeyComplete": "Journey complete! You have finished every milestone of this programme.",
+        "enrollError": "We couldn't start this assessment. Please try again.",
+        "popup": {
+          "availableNow": "Available now",
+          "availableFrom": "Available from {{date}}",
+          "inProgress": "In progress",
+          "completed": "Completed",
+          "locked": "Locked",
+          "milestone": "Milestone {{number}}",
+          "okay": "Okay"
+        },
+        "event": {
+          "register": "Register",
+          "upcoming": "Event yet to start",
+          "join": "Join event",
+          "recording": "View recording",
+          "registered": "You are registered. Come back when the event starts.",
+          "registerError": "We couldn't register you for this event. Please try again."
+        },
+        "survey": {
+          "cancel": "Cancel",
+          "submit": "Submit",
+          "commitment": "I commit to strengthening my leadership practice through one meaningful change, within my own authority, for the citizens I serve.",
+          "retry": "Try again",
+          "loadError": "We couldn't load this form. Please try again.",
+          "submitted": "Thank you! Your response has been submitted.",
+          "submitError": "Something went wrong. Please try again.",
+          "alreadySubmitted": "You have already submitted this form."
+        }
+      },
       "popup": {
         "enabled": true,
         "eyebrow": "Welcome to your learning journey",
@@ -192,17 +224,17 @@
           },
           {
             "order": 3,
-            "title": "Take the Pledge",
-            "description": "Commit to serve citizens. Complete the pledge form to unlock the final assessment.",
-            "icon": "pledge",
-            "color": "orange"
+            "title": "Endline Assessment",
+            "description": "See how far you have come. Measure your growth against the baseline to unlock the pledge.",
+            "icon": "progress",
+            "color": "teal"
           },
           {
             "order": 4,
-            "title": "Endline Assessment",
-            "description": "See how far you have come. Measure your growth against the baseline to finish your journey.",
-            "icon": "progress",
-            "color": "teal"
+            "title": "Take the Pledge",
+            "description": "Commit to serve citizens. Complete the pledge form to finish your journey.",
+            "icon": "pledge",
+            "color": "orange"
           }
         ]
       },
@@ -211,9 +243,25 @@
           "order": 1,
           "enabled": true,
           "locked": false,
+          "lockUntilEventStart": false,
           "type": "assessment",
-          "identifier": "do_114694814234836992196",
-          "batchId": "",
+          "identifier": "do_114694791824293888150",
+          "batchId": "0146948350872698885",
+          "language": "english",
+          "player": {
+            "path": "/viewer/practice/{resourceId}",
+            "resourceId": "do_114694814234836992196",
+            "queryParams": {
+              "primaryCategory": "Course Assessment",
+              "collectionId": "{identifier}",
+              "collectionType": "Standalone Assessment",
+              "batchId": "{batchId}",
+              "courseName": "{name}",
+              "ML": "{language}",
+              "MLId": "{identifier}",
+              "fromAITutor": "false"
+            }
+          },
           "milestoneLabel": "Milestone 1",
           "headline": "Know where\nyou stand",
           "bigNumber": "01",
@@ -225,7 +273,7 @@
           "tags": ["5 Questions", "MCQ", "Online"],
           "provider": {
             "name": "Karmayogi Bharat",
-            "logo": "<KARMAYOGI_BHARAT_LOGO_URL>"
+            "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
           },
           "dueDate": "",
           "redirectUrl": ""
@@ -234,9 +282,19 @@
           "order": 2,
           "enabled": true,
           "locked": false,
+          "lockUntilEventStart": true,
           "type": "event",
-          "identifier": "do_1145509289723330561340",
-          "batchId": "0145509335307141126",
+          "identifier": "do_114694858163888128154",
+          "batchId": "0146948641385185287",
+          "startDateTime": "2026-11-04T21:30:00+05:30",
+          "endDateTime": "2026-11-04T23:00:00+05:30",
+          "player": {
+            "path": "/app/event-hub/player/{identifier}/youtube/{resourceId}",
+            "resourceId": "_Op7XbsMkaI",
+            "queryParams": {
+              "isEnrolled": "true"
+            }
+          },
           "milestoneLabel": "Milestone 2",
           "headline": "",
           "bigNumber": "02",
@@ -245,10 +303,10 @@
           "durationLabel": "2h 30m",
           "categoryLabel": "Event",
           "name": "Leadership as Mission: National Workshop",
-          "tags": ["In-person", "New Delhi", "Certificate"],
+          "tags": ["In-person", "New Delhi"],
           "provider": {
             "name": "NITI Aayog",
-            "logo": "<NITI_AAYOG_LOGO_URL>"
+            "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
           },
           "dueDate": "",
           "redirectUrl": ""
@@ -257,34 +315,28 @@
           "order": 3,
           "enabled": true,
           "locked": false,
-          "type": "survey",
-          "formId": "1793801265024",
-          "milestoneLabel": "Milestone 3",
-          "headline": "Commit to\nserve citizens",
-          "bigNumber": "03",
-          "theme": "orange",
-          "posterImage": "",
-          "durationLabel": "2 mins",
-          "categoryLabel": "Pledge",
-          "name": "Leadership Pledge: Commit to Serve Citizens",
-          "tags": ["Online", "Self-declared", "Certificate"],
-          "provider": {
-            "name": "Karmayogi Bharat",
-            "logo": "<KARMAYOGI_BHARAT_LOGO_URL>"
-          },
-          "dueDate": "",
-          "redirectUrl": ""
-        },
-        {
-          "order": 4,
-          "enabled": true,
-          "locked": false,
+          "lockUntilEventStart": true,
           "type": "assessment",
           "identifier": "do_114694833379106816152",
           "batchId": "0146948464330833926",
-          "milestoneLabel": "Milestone 4",
+          "language": "english",
+          "player": {
+            "path": "/viewer/practice/{resourceId}",
+            "resourceId": "do_1146948340731576321114",
+            "queryParams": {
+              "primaryCategory": "Course Assessment",
+              "collectionId": "do_114694833379106816152",
+              "collectionType": "Standalone Assessment",
+              "batchId": "0146948464330833926",
+              "courseName": "Leadership as Mission 2026 - Endline Assessment",
+              "ML": "english",
+              "MLId": "do_114694833379106816152",
+              "fromAITutor": "false"
+            }
+          },
+          "milestoneLabel": "Milestone 3",
           "headline": "See how far\nyou've come",
-          "bigNumber": "04",
+          "bigNumber": "03",
           "theme": "purple",
           "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114694833366155264151/artifact/do_114694833366155264151_1793802901443_download1793802901425.jpg",
           "durationLabel": "120 mins",
@@ -293,7 +345,30 @@
           "tags": ["5 Questions", "MCQ", "Online"],
           "provider": {
             "name": "Karmayogi Bharat",
-            "logo": "<KARMAYOGI_BHARAT_LOGO_URL>"
+            "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
+          },
+          "dueDate": "",
+          "redirectUrl": ""
+        },
+        {
+          "order": 4,
+          "enabled": true,
+          "locked": false,
+          "lockUntilEventStart": false,
+          "type": "survey",
+          "formId": "1793801265024",
+          "milestoneLabel": "Milestone 4",
+          "headline": "Commit to\nserve citizens",
+          "bigNumber": "04",
+          "theme": "orange",
+          "posterImage": "",
+          "durationLabel": "2 mins",
+          "categoryLabel": "Pledge",
+          "name": "Leadership Pledge: Commit to Serve Citizens",
+          "tags": ["Online", "Self-declared", "Certificate" ],
+          "provider": {
+            "name": "Karmayogi Bharat",
+            "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
           },
           "dueDate": "",
           "redirectUrl": ""
@@ -384,7 +459,7 @@
     }
   },
   "eventDetails": {
-    "startDate": "05-07-2026",
+    "startDate": "17-11-2026",
     "endDate": "28-11-2026"
   }
 }

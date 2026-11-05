@@ -2154,7 +2154,6 @@
     "unlocked": "ଅନଲକ୍ ହୋଇଛି"
   },
   "campaignMicrosite": {
-    "close": "ବନ୍ଦ କରନ୍ତୁ",
     "milestoneCard": {
       "availableNow": "ବର୍ତ୍ତମାନ ଉପଲବ୍ଧ",
       "locked": "ଲକ୍ ହୋଇଛି",
@@ -2167,18 +2166,6 @@
       "startAssessment": "ମୂଲ୍ୟାଙ୍କନ ଆରମ୍ଭ କରନ୍ତୁ",
       "startEvent": "ପଞ୍ଜିକରଣ କରନ୍ତୁ",
       "startSurvey": "ଶପଥ ନିଅନ୍ତୁ"
-    },
-    "milestones": {
-      "journeyComplete": "ଯାତ୍ରା ସମ୍ପୂର୍ଣ୍ଣ! ଆପଣ ଏହି କାର୍ଯ୍ୟକ୍ରମର ସମସ୍ତ ମାଇଲଖୁଣ୍ଟ ସମ୍ପୂର୍ଣ୍ଣ କରିଛନ୍ତି।"
-    },
-    "milestonePopup": {
-      "availableNow": "ବର୍ତ୍ତମାନ ଉପଲବ୍ଧ",
-      "inProgress": "ଚାଲିଛି",
-      "completed": "ସମ୍ପୂର୍ଣ୍ଣ",
-      "unlocksAfter": "ମାଇଲଖୁଣ୍ଟ {{number}} ପରେ ଖୋଲିବ",
-      "milestone": "ମାଇଲଖୁଣ୍ଟ {{number}}",
-      "start": "ମାଇଲଖୁଣ୍ଟ {{number}} ଆରମ୍ଭ କରନ୍ତୁ",
-      "resume": "ମାଇଲଖୁଣ୍ଟ {{number}} ପୁଣି ଆରମ୍ଭ କରନ୍ତୁ"
     }
   }
 }

@@ -2155,7 +2155,6 @@
     "unlocked": "আনলক কৰা হৈছে"
   },
   "campaignMicrosite": {
-    "close": "বন্ধ কৰক",
     "milestoneCard": {
       "availableNow": "এতিয়া উপলব্ধ",
       "locked": "লক কৰা",
@@ -2168,18 +2167,6 @@
       "startAssessment": "মূল্যায়ন আৰম্ভ কৰক",
       "startEvent": "পঞ্জীয়ন কৰক",
       "startSurvey": "শপত লওক"
-    },
-    "milestones": {
-      "journeyComplete": "যাত্ৰা সম্পূৰ্ণ! আপুনি এই কাৰ্যসূচীৰ সকলো মাইলফলক সম্পূৰ্ণ কৰিলে।"
-    },
-    "milestonePopup": {
-      "availableNow": "এতিয়া উপলব্ধ",
-      "inProgress": "চলি আছে",
-      "completed": "সম্পূৰ্ণ",
-      "unlocksAfter": "মাইলফলক {{number}}ৰ পিছত খুলিব",
-      "milestone": "মাইলফলক {{number}}",
-      "start": "মাইলফলক {{number}} আৰম্ভ কৰক",
-      "resume": "মাইলফলক {{number}} পুনৰ আৰম্ভ কৰক"
     }
   }
 }

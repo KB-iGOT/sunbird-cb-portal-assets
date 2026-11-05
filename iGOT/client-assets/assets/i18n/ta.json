@@ -2154,7 +2154,6 @@
     "unlocked": "திறக்கப்பட்டுள்ளது"
   },
   "campaignMicrosite": {
-    "close": "மூடு",
     "milestoneCard": {
       "availableNow": "இப்போது கிடைக்கிறது",
       "locked": "பூட்டப்பட்டுள்ளது",
@@ -2167,18 +2166,6 @@
       "startAssessment": "மதிப்பீட்டைத் தொடங்குங்கள்",
       "startEvent": "பதிவு செய்யுங்கள்",
       "startSurvey": "உறுதிமொழி எடுங்கள்"
-    },
-    "milestones": {
-      "journeyComplete": "பயணம் நிறைவடைந்தது! இந்தத் திட்டத்தின் அனைத்து மைல்கற்களையும் நீங்கள் முடித்துவிட்டீர்கள்."
-    },
-    "milestonePopup": {
-      "availableNow": "இப்போது கிடைக்கிறது",
-      "inProgress": "நடைபெற்று வருகிறது",
-      "completed": "முடிந்தது",
-      "unlocksAfter": "மைல்கல் {{number}} க்குப் பிறகு திறக்கும்",
-      "milestone": "மைல்கல் {{number}}",
-      "start": "மைல்கல் {{number}} ஐத் தொடங்குங்கள்",
-      "resume": "மைல்கல் {{number}} ஐ மீண்டும் தொடங்குங்கள்"
     }
   }
 }

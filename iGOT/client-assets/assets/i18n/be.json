@@ -2101,7 +2101,6 @@
     "unlocked": "আনলক করা হয়েছে"
   },
   "campaignMicrosite": {
-    "close": "বন্ধ করুন",
     "milestoneCard": {
       "availableNow": "এখন উপলব্ধ",
       "locked": "লক করা",
@@ -2114,18 +2113,6 @@
       "startAssessment": "মূল্যায়ন শুরু করুন",
       "startEvent": "রেজিস্ট্রেশন করুন",
       "startSurvey": "শপথ নিন"
-    },
-    "milestones": {
-      "journeyComplete": "যাত্রা সম্পূর্ণ! আপনি এই প্রোগ্রামের সব মাইলফলক শেষ করেছেন।"
-    },
-    "milestonePopup": {
-      "availableNow": "এখন উপলব্ধ",
-      "inProgress": "চলছে",
-      "completed": "সম্পন্ন",
-      "unlocksAfter": "মাইলফলক {{number}}-এর পরে খুলবে",
-      "milestone": "মাইলফলক {{number}}",
-      "start": "মাইলফলক {{number}} শুরু করুন",
-      "resume": "মাইলফলক {{number}} পুনরায় শুরু করুন"
     }
   }
 }

@@ -2154,7 +2154,6 @@
     "unlocked": "ਅਨਲੌਕ ਕੀਤਾ ਗਿਆ"
   },
   "campaignMicrosite": {
-    "close": "ਬੰਦ ਕਰੋ",
     "milestoneCard": {
       "availableNow": "ਹੁਣ ਉਪਲਬਧ",
       "locked": "ਲਾਕ ਹੈ",
@@ -2167,18 +2166,6 @@
       "startAssessment": "ਮੁਲਾਂਕਣ ਸ਼ੁਰੂ ਕਰੋ",
       "startEvent": "ਰਜਿਸਟਰ ਕਰੋ",
       "startSurvey": "ਸਹੁੰ ਚੁੱਕੋ"
-    },
-    "milestones": {
-      "journeyComplete": "ਸਫ਼ਰ ਪੂਰਾ! ਤੁਸੀਂ ਇਸ ਪ੍ਰੋਗਰਾਮ ਦੇ ਸਾਰੇ ਮੀਲ ਪੱਥਰ ਪੂਰੇ ਕਰ ਲਏ ਹਨ।"
-    },
-    "milestonePopup": {
-      "availableNow": "ਹੁਣ ਉਪਲਬਧ",
-      "inProgress": "ਜਾਰੀ ਹੈ",
-      "completed": "ਪੂਰਾ ਹੋਇਆ",
-      "unlocksAfter": "ਮੀਲ ਪੱਥਰ {{number}} ਤੋਂ ਬਾਅਦ ਖੁੱਲ੍ਹੇਗਾ",
-      "milestone": "ਮੀਲ ਪੱਥਰ {{number}}",
-      "start": "ਮੀਲ ਪੱਥਰ {{number}} ਸ਼ੁਰੂ ਕਰੋ",
-      "resume": "ਮੀਲ ਪੱਥਰ {{number}} ਮੁੜ ਸ਼ੁਰੂ ਕਰੋ"
     }
   }
 }
