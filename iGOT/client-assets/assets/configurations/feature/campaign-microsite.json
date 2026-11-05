@@ -96,7 +96,7 @@
       ]
     },
     {
-      "enabled": false,
+      "enabled": true,
       "key": "sectionKeyHighlights",
       "wrapperClass": "",
       "column": [
@@ -105,17 +105,17 @@
           "key": "keyHighlightsSection",
           "colspan": 12,
           "data": {
-            "backgroundColor": "#ffffff",
+            "backgroundColor": "#E8EDF6",
             "titleMaxLength": 1000,
             "containerClass": "container",
             "content": [
               {
                 "title": "",
-                "innerHTMLTitle": "Your feedback matters! Please take 2 minutes to <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfKORBilcSblaaxvtwL24NdeaYOywe4MW2Y2fhZusWs-dP-jA/viewform\" target=\"_blank\" style=\"text-decoration: none;\">share your experience</a> with the Bharat KALP microsite."
+                "innerHTMLTitle": "Complete your Sankalpa and earn 100 Karma Points! Take the pledge, reaffirm your commitment, and take a step towards becoming a better Karmayogi."
               },
               {
                 "title": "",
-                "innerHTMLTitle": "Missed an event or want to revisit one? <a href=\"https://portal.igotkarmayogi.gov.in/app/event-hub/view-all?resourceType=Bharat%20Kalp%20-%20Talks&resourceType=Bharat%20Kalp%20-%20Podcast\" target=\"_blank\" style=\"text-decoration: none;\">Explore all past events here.</a> "
+                "innerHTMLTitle": "Complete your Sankalpa and earn 100 Karma Points! Take the pledge, reaffirm your commitment, and take a step towards becoming a better Karmayogi."
               }
             ],
             "sliderData": {
@@ -205,6 +205,8 @@
       },
       "popup": {
         "enabled": true,
+        "image": "https://portal.uat.karmayogibharat.net/content-store/orgStore/01446264792902041611/1793851670432_image__4_.png",
+        "imageAlt": "Welcome to your Karmayogi Sankalpa: four steps to turn your learning into action",
         "eyebrow": "Welcome to your learning journey",
         "title": "Four milestones, completed\none step at a time",
         "description": "Each milestone unlocks the next. Finish one to open the one that follows — here is the full path from start to finish.",
@@ -369,8 +371,8 @@
           "theme": "orange",
           "posterImage": "",
           "durationLabel": "2 mins",
-          "categoryLabel": "Pledge",
-          "name": "Leadership Pledge: Commit to Serve Citizens",
+          "categoryLabel": "Sankalpa",
+          "name": "Leadership Sankalpa: Commit to Serve Citizens",
           "tags": ["Online", "Self-declared", "Certificate" ],
           "provider": {
             "name": "Karmayogi Bharat",
