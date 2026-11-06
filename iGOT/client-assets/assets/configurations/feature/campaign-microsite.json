@@ -328,50 +328,9 @@
           "dueDate": "",
           "redirectUrl": ""
         },
+
         {
           "order": 3,
-          "enabled": true,
-          "locked": false,
-          "lockUntilEventStart": true,
-          "type": "assessment",
-          "openWhenCompleted": false,
-          "identifier": "do_114694833379106816152",
-          "startDateTime": "2026-11-05T20:20:00+05:30",
-          "showCountdown": true,
-          "batchId": "0146948464330833926",
-          "language": "english",
-          "player": {
-            "path": "/viewer/practice/{resourceId}",
-            "resourceId": "do_1146948340731576321114",
-            "queryParams": {
-              "primaryCategory": "Course Assessment",
-              "collectionId": "do_114694833379106816152",
-              "collectionType": "Standalone Assessment",
-              "batchId": "0146948464330833926",
-              "courseName": "Leadership as Mission 2026 - Endline Assessment",
-              "ML": "english",
-              "MLId": "do_114694833379106816152",
-              "fromAITutor": "false"
-            }
-          },
-          "milestoneLabel": "Milestone 3",
-          "headline": "See how far\nyou've come",
-          "bigNumber": "03",
-          "theme": "purple",
-          "posterImage": "",
-          "durationLabel": "120 mins",
-          "categoryLabel": "Assessment",
-          "name": "Leadership as Mission 2026 - Endline Assessment",
-          "tags": ["5 Questions", "MCQ", "Online"],
-          "provider": {
-            "name": "Karmayogi Bharat",
-            "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
-          },
-          "dueDate": "",
-          "redirectUrl": ""
-        },
-        {
-          "order": 4,
           "enabled": true,
           "locked": false,
           "lockUntilEventStart": false,
@@ -401,6 +360,48 @@
           "categoryLabel": "Sankalpa",
           "name": "Leadership Sankalpa: Commit to Serve Citizens",
           "tags": ["Online", "Self-declared", "Certificate" ],
+          "provider": {
+            "name": "Karmayogi Bharat",
+            "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
+          },
+          "dueDate": "",
+          "redirectUrl": ""
+        },
+        {
+          "order": 4,
+          "enabled": true,
+          "locked": false,
+          "lockUntilEventStart": true,
+          "type": "assessment",
+          "openWhenCompleted": false,
+          "identifier": "do_114694833379106816152",
+          "startDateTime": "2026-11-06T20:20:00+05:30",
+          "showCountdown": true,
+          "batchId": "0146948464330833926",
+          "language": "english",
+          "player": {
+            "path": "/viewer/practice/{resourceId}",
+            "resourceId": "do_1146948340731576321114",
+            "queryParams": {
+              "primaryCategory": "Course Assessment",
+              "collectionId": "do_114694833379106816152",
+              "collectionType": "Standalone Assessment",
+              "batchId": "0146948464330833926",
+              "courseName": "Leadership as Mission 2026 - Endline Assessment",
+              "ML": "english",
+              "MLId": "do_114694833379106816152",
+              "fromAITutor": "false"
+            }
+          },
+          "milestoneLabel": "Milestone 3",
+          "headline": "See how far\nyou've come",
+          "bigNumber": "03",
+          "theme": "purple",
+          "posterImage": "",
+          "durationLabel": "120 mins",
+          "categoryLabel": "Assessment",
+          "name": "Leadership as Mission 2026 - Endline Assessment",
+          "tags": ["5 Questions", "MCQ", "Online"],
           "provider": {
             "name": "Karmayogi Bharat",
             "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
