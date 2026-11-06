@@ -170,6 +170,7 @@
       "title": "Programme Milestones",
       "labels": {
         "close": "Close",
+        "completed": "Completed",
         "journeyComplete": "Journey complete! You have finished every milestone of this programme.",
         "enrollError": "We couldn't start this assessment. Please try again.",
         "popup": {
@@ -181,6 +182,12 @@
           "milestone": "Milestone {{number}}",
           "okay": "Okay"
         },
+        "assessment": {
+          "start": "Start Questionnaire",
+          "resume": "Resume Questionnaire",
+          "view": "View Questionnaire",
+          "opensIn": "Opens in {{time}}"
+        },
         "event": {
           "register": "Register",
           "upcoming": "Event yet to start",
@@ -190,6 +197,7 @@
           "registerError": "We couldn't register you for this event. Please try again."
         },
         "survey": {
+          "start": "Take Sankalpa",
           "cancel": "Cancel",
           "submit": "Submit",
           "commitment": "I commit to strengthening my leadership practice through one meaningful change, within my own authority, for the citizens I serve.",
@@ -200,7 +208,10 @@
           "alreadySubmitted": "You have already submitted this form.",
           "downloadCertificate": "Download certificate",
           "certificatePending": "Kindly be patient. The certificate generation normally takes up to 24 hours, however, it might take longer sometimes. If the issue persists, please mail us at mission.karmayogi@gov.in",
-          "certificateError": "We couldn't load your certificate. Please try again."
+          "certificateError": "We couldn't load your certificate. Please try again.",
+          "charCount": "{{count}}/{{max}}",
+          "minChars": "Minimum {{min}} characters",
+          "required": "This field is required"
         }
       },
       "popup": {
@@ -250,6 +261,7 @@
           "locked": false,
           "lockUntilEventStart": false,
           "type": "assessment",
+          "openWhenCompleted": false,
           "identifier": "do_114694791824293888150",
           "batchId": "0146948350872698885",
           "language": "english",
@@ -304,7 +316,7 @@
           "headline": "",
           "bigNumber": "02",
           "theme": "image",
-          "posterImage": "<NATIONAL_WORKSHOP_POSTER_URL>",
+          "posterImage": "",
           "durationLabel": "2h 30m",
           "categoryLabel": "Event",
           "name": "Leadership as Mission: National Workshop",
@@ -322,7 +334,10 @@
           "locked": false,
           "lockUntilEventStart": true,
           "type": "assessment",
+          "openWhenCompleted": false,
           "identifier": "do_114694833379106816152",
+          "startDateTime": "2026-11-05T20:20:00+05:30",
+          "showCountdown": true,
           "batchId": "0146948464330833926",
           "language": "english",
           "player": {
@@ -343,7 +358,7 @@
           "headline": "See how far\nyou've come",
           "bigNumber": "03",
           "theme": "purple",
-          "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114694833366155264151/artifact/do_114694833366155264151_1793802901443_download1793802901425.jpg",
+          "posterImage": "",
           "durationLabel": "120 mins",
           "categoryLabel": "Assessment",
           "name": "Leadership as Mission 2026 - Endline Assessment",
@@ -365,6 +380,18 @@
           "identifier": "do_114694694810370048148",
           "batchId": "0146946973807820804",
           "eventDurationMinutes": 30,
+          "autoOpen": {
+            "enabled": true,
+            "startDateTime": "2026-11-05T00:00:00+05:30",
+            "endDateTime": "2026-11-28T23:59:59+05:30"
+          },
+          "answerLimits": [
+            { "questions": [1, 3, 4], "minLength": 70, "maxLength": 300 },
+            {
+              "questions": [3],
+              "hint": "Say what you will do and by when, e.g. \"I will review pending citizen grievances with my team every Monday, starting 1 December 2026.\""
+            }
+          ],
           "milestoneLabel": "Milestone 4",
           "headline": "Commit to\nserve citizens",
           "bigNumber": "04",
