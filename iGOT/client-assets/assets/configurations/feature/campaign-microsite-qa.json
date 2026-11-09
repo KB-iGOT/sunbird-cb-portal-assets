@@ -239,7 +239,7 @@
           "theme": "blue",
           "posterImage": "",
           "durationLabel": "60 mins",
-          "categoryLabel": "Assessment",
+          "categoryLabel": "Questionnaire",
           "name": "Leadership as Mission 2026 - Baseline Assessment",
           "tags": ["5 Questions", "MCQ", "Online"],
           "provider": {
@@ -273,11 +273,11 @@
           "theme": "image",
           "posterImage": "",
           "durationLabel": "2h 30m",
-          "categoryLabel": "Event",
+          "categoryLabel": "Workshop",
           "name": "Leadership as Mission 2026",
           "tags": ["In-person", "New Delhi"],
           "provider": {
-            "name": "NITI Aayog",
+            "name": "Karmayogi Bharat",
             "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
           },
           "dueDate": "",
@@ -329,8 +329,8 @@
           "type": "assessment",
           "openWhenCompleted": false,
           "identifier": "do_11469616501298790415176",
-          "startDateTime": "2026-11-09T16:00:00+05:30",
-          "showCountdown": false,
+          "startDateTime": "2026-11-09T15:00:00+05:30",
+          "showCountdown": true,
           "batchId": "014696175163408384281",
           "language": "english",
           "player": {
@@ -353,7 +353,7 @@
           "theme": "purple",
           "posterImage": "",
           "durationLabel": "120 mins",
-          "categoryLabel": "Assessment",
+          "categoryLabel": "Questionnaire",
           "name": "Leadership as Mission 2026 - Endline Assessment",
           "tags": ["5 Questions", "MCQ", "Online"],
           "provider": {

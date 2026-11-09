@@ -216,12 +216,12 @@
           "lockUntilEventStart": false,
           "type": "assessment",
           "openWhenCompleted": false,
-          "identifier": "do_11469615425272217615161",
-          "batchId": "014696167445037056279",
+          "identifier": "do_1146968905476096001111",
+          "batchId": "0146969260683182081",
           "language": "english",
           "player": {
             "path": "/viewer/practice/{resourceId}",
-            "resourceId": "do_11469615527751680012254",
+            "resourceId": "do_1146968911917383681363",
             "queryParams": {
               "primaryCategory": "Course Assessment",
               "collectionId": "{identifier}",
@@ -239,7 +239,7 @@
           "theme": "blue",
           "posterImage": "",
           "durationLabel": "60 mins",
-          "categoryLabel": "Assessment",
+          "categoryLabel": "Questionnaire",
           "name": "Leadership as Mission 2026 - Baseline Assessment",
           "tags": ["5 Questions", "MCQ", "Online"],
           "provider": {
@@ -256,28 +256,28 @@
           "lockUntilEventStart": false,
           "openBeforeStart": true,
           "type": "event",
-          "identifier": "do_114696867938066432121",
-          "batchId": "0146968755164364804",
+          "identifier": "do_1146969258189127681116",
+          "batchId": "0146969260412764162",
           "startDateTime": "2026-11-17T00:00:00+05:30",
           "endDateTime": "2026-11-25T23:59:59+05:30",
           "player": {
             "path": "/app/event-hub/player/{identifier}/youtube/{resourceId}",
-            "resourceId": "0XbOhsn5v3g",
+            "resourceId": "EFlz6V0SArg",
             "queryParams": {
               "isEnrolled": "true"
             }
           },
           "milestoneLabel": "Milestone 2",
-          "headline": "",
+          "headline": "Leadership\nas Mission",
           "bigNumber": "02",
           "theme": "image",
           "posterImage": "",
           "durationLabel": "2h 30m",
-          "categoryLabel": "Event",
+          "categoryLabel": "Workshop",
           "name": "Leadership as Mission 2026",
           "tags": ["In-person", "New Delhi"],
           "provider": {
-            "name": "NITI Aayog",
+            "name": "Karmayogi Bharat",
             "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
           },
           "dueDate": "",
@@ -289,7 +289,7 @@
           "locked": false,
           "lockUntilEventStart": false,
           "type": "survey",
-          "formId": "88a8f73e-fda1-4666-9d9b-62bb1a2bf1ab",
+          "formId": "1794210526956",
           "identifier": "do_114696879252881408123",
           "batchId": "0146968822493265925",
           "eventDurationMinutes": 30,
@@ -328,22 +328,22 @@
           "lockUntilEventStart": true,
           "type": "assessment",
           "openWhenCompleted": false,
-          "identifier": "do_11469616501298790415176",
-          "startDateTime": "2026-11-17T00:00:00+05:30",
-          "showCountdown": false,
-          "batchId": "014696175163408384281",
+          "identifier": "do_1146969100307496961114",
+          "startDateTime": "2026-11-09T17:00:00+05:30",
+          "showCountdown": true,
+          "batchId": "0146969244601384960",
           "language": "english",
           "player": {
             "path": "/viewer/practice/{resourceId}",
-            "resourceId": "do_11469616577348403212303",
+            "resourceId": "do_1146969106001428481381",
             "queryParams": {
               "primaryCategory": "Course Assessment",
-              "collectionId": "do_11469616501298790415176",
+              "collectionId": "do_1146969100307496961114",
               "collectionType": "Standalone Assessment",
-              "batchId": "014696175163408384281",
+              "batchId": "0146969244601384960",
               "courseName": "Leadership as Mission 2026 - Endline Assessment",
               "ML": "english",
-              "MLId": "do_11469616501298790415176",
+              "MLId": "do_1146969100307496961114",
               "fromAITutor": "false"
             }
           },
@@ -353,7 +353,7 @@
           "theme": "purple",
           "posterImage": "",
           "durationLabel": "120 mins",
-          "categoryLabel": "Assessment",
+          "categoryLabel": "Questionnaire",
           "name": "Leadership as Mission 2026 - Endline Assessment",
           "tags": ["5 Questions", "MCQ", "Online"],
           "provider": {
@@ -366,7 +366,7 @@
       ]
     },
     "caseStudies": {
-      "enabled": true,
+      "enabled": false,
       "header": "Case Studies",
       "contentConfig": {
         "cardType": "courseCard",
