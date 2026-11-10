@@ -1777,7 +1777,11 @@
     "years": "ವರ್ಷಗಳು",
     "resource": "ಸಂಪನ್ಮೂಲ ({{count}})",
     "resources": "ಸಂಪನ್ಮೂಲಗಳು ({{count}})",
-    "externalContent": "ಬಾಹ್ಯ ವಿಷಯವಸ್ತು ({{count}})"
+    "externalContent": "ಬಾಹ್ಯ ವಿಷಯವಸ್ತು ({{count}})",
+    "baselineAssessment": "ಬೇಸ್‌ಲೈನ್ ಮೌಲ್ಯಮಾಪನ",
+    "endlineAssessment": "ಎಂಡ್‌ಲೈನ್ ಮೌಲ್ಯಮಾಪನ",
+    "sankalpa": "ಸಂಕಲ್ಪ",
+    "workshop": "ಕಾರ್ಯಾಗಾರ"
   },
   "utilslogout": {
     "logoutNow": "ಈಗ ಲಾಗ್ ಔಟ್ ಮಾಡಿ",
