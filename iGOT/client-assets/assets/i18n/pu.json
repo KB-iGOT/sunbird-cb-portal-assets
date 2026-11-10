@@ -1777,7 +1777,11 @@
     "years": "ਸਾਲ",
     "resource": "ਸੰਸਾਧਨ ({{count}})",
     "resources": "ਸੰਸਾਧਨ ({{count}})",
-    "externalContent": "ਬਾਹਰੀ ਸਮੱਗਰੀ ({{count}})"
+    "externalContent": "ਬਾਹਰੀ ਸਮੱਗਰੀ ({{count}})",
+    "baselineAssessment": "ਬੇਸਲਾਈਨ ਮੁਲਾਂਕਣ",
+    "endlineAssessment": "ਐਂਡਲਾਈਨ ਮੁਲਾਂਕਣ",
+    "sankalpa": "ਸੰਕਲਪ",
+    "workshop": "ਵਰਕਸ਼ਾਪ"
   },
   "utilslogout": {
     "logoutNow": "ਹੁਣ ਲਾਗ ਆਊਟ ਕਰੋ",

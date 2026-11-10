@@ -1145,7 +1145,9 @@
     "completedEvent": "You completed this event on",
     "search": "Search events...",
     "sadhanaSaptah": "Sadhana Saptah",
-    "samuhikCharcha-Nlw2026": "Samuhik Charcha - NLW 2026"
+    "samuhikCharcha-Nlw2026": "Samuhik Charcha - NLW 2026",
+    "sankalpa": "Sankalpa",
+    "workshop": "Workshop"
   },
   "eventDetailsRightCard": {
     "viewRecording": "View recording",
@@ -2232,7 +2234,11 @@
     "multilingualCourse": "Multilingual Course",
     "learningPathway": "Learning Pathway",
     "sadhanaSaptah": "Sadhana Saptah",
-    "samuhikCharcha-Nlw2026": "Samuhik Charcha - NLW 2026"
+    "samuhikCharcha-Nlw2026": "Samuhik Charcha - NLW 2026",
+    "sankalpa": "Sankalpa",
+    "workshop": "Workshop",
+    "baselineAssessment": "Baseline Assessment",
+    "endlineAssessment": "Endline Assessment"
   },
   "utilslogout": {
     "logoutNow": "Logout Now",
@@ -3056,7 +3062,9 @@
     "numberOfAttendees": "Number of attendees",
     "eventDuration": "Event Duration",
     "sadhanaSaptah": "Sadhana Saptah",
-    "samuhikCharcha-NLW2026": "Samuhik Charcha - NLW 2026"
+    "samuhikCharcha-NLW2026": "Samuhik Charcha - NLW 2026",
+    "sankalpa": "Sankalpa",
+    "workshop": "Workshop"
   },
   "notificationV2Settings": {
     "email": "Email Notification",

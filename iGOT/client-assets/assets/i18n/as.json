@@ -1778,7 +1778,11 @@
     "years": "বছৰ",
     "resource": "সঁজুলি ({{count}})",
     "resources": "সঁজুলিসমূহ ({{count}})",
-    "externalContent": "বাহ্যিক সামগ্রী ({{count}})"
+    "externalContent": "বাহ্যিক সামগ্রী ({{count}})",
+    "baselineAssessment": "বেছলাইন মূল্যায়ন",
+    "endlineAssessment": "এণ্ডলাইন মূল্যায়ন",
+    "sankalpa": "সংকল্প",
+    "workshop": "কৰ্মশালা"
   },
   "utilslogout": {
     "logoutNow": "এতিয়া লগআউট কৰক",

@@ -1777,7 +1777,11 @@
     "years": "വർഷങ്ങൾ",
     "resource": "വിഭവം ({{count}})",
     "resources": "വിഭവങ്ങൾ ({{count}})",
-    "externalContent": "ബാഹ്യ ഉള്ളടക്കം ({{count}})"
+    "externalContent": "ബാഹ്യ ഉള്ളടക്കം ({{count}})",
+    "baselineAssessment": "ബേസ്‌ലൈൻ മൂല്യനിർണ്ണയം",
+    "endlineAssessment": "എൻഡ്‌ലൈൻ മൂല്യനിർണ്ണയം",
+    "sankalpa": "സങ്കൽപ്പ",
+    "workshop": "ശിൽപശാല"
   },
   "utilslogout": {
     "logoutNow": "ഇപ്പോൾ ലോഗ് ഔട്ട് ചെയ്യുക",

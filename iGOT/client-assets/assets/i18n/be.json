@@ -1726,7 +1726,11 @@
     "lastMonth": "গত মাসে",
     "last3Months": "গত 3 মাস",
     "last6Months": "গত 6 মাস",
-    "lastYear": "গত বছর"
+    "lastYear": "গত বছর",
+    "baselineAssessment": "বেসলাইন মূল্যায়ন",
+    "endlineAssessment": "এন্ডলাইন মূল্যায়ন",
+    "sankalpa": "সংকল্প",
+    "workshop": "কর্মশালা"
   },
   "utilslogout": {
     "logoutNow": "এখন লগআউট করুন",
