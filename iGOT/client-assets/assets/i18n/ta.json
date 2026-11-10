@@ -1777,7 +1777,11 @@
     "years": "ஆண்டுகள்",
     "resource": "வளம் ({{count}})",
     "resources": "வளங்கள் ({{count}})",
-    "externalContent": "வெளிப்புற உள்ளடக்கம் ({{count}})"
+    "externalContent": "வெளிப்புற உள்ளடக்கம் ({{count}})",
+    "baselineAssessment": "அடிப்படை மதிப்பீடு",
+    "endlineAssessment": "இறுதி மதிப்பீடு",
+    "sankalpa": "சங்கல்பா",
+    "workshop": "பயிலரங்கம்"
   },
   "utilslogout": {
     "logoutNow": "இப்போது வெளியேறு",

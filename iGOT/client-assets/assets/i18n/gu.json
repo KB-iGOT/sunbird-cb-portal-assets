@@ -1049,7 +1049,9 @@
     "search": "ઘટનાઓ શોધો...",
     "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026",
+    "sankalpa": "સંકલ્પ",
+    "workshop": "કાર્યશાળા"
   },
   "eventDetailsRightCard": {
     "viewRecording": "રેકોર્ડિંગ જુઓ",
@@ -2075,7 +2077,11 @@
     "agk": "અમૃત જ્ઞાન કોષ ({{count}})",
     "marketPlace": "માર્કેટ પ્લેસ ({{count}})",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026",
+    "sankalpa": "સંકલ્પ",
+    "workshop": "કાર્યશાળા",
+    "baselineAssessment": "બેઝલાઇન મૂલ્યાંકન",
+    "endlineAssessment": "એન્ડલાઇન મૂલ્યાંકન"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
@@ -2853,7 +2859,9 @@
     "today": "આજે",
     "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026",
+    "sankalpa": "સંકલ્પ",
+    "workshop": "કાર્યશાળા"
   },
   "notificationV2Settings": {
     "email": "ઇમેઇલ સૂચના",

@@ -1777,7 +1777,11 @@
     "years": "సంవత్సరాలు",
     "resource": "వనరు ({{count}})",
     "resources": "వనరులు ({{count}})",
-    "externalContent": "బాహ్య కంటెంట్ ({{count}})"
+    "externalContent": "బాహ్య కంటెంట్ ({{count}})",
+    "baselineAssessment": "బేస్‌లైన్ అసెస్‌మెంట్",
+    "endlineAssessment": "ఎండ్‌లైన్ అసెస్‌మెంట్",
+    "sankalpa": "సంకల్ప",
+    "workshop": "కార్యశాల"
   },
   "utilslogout": {
     "logoutNow": "ఇప్పుడు లాగౌట్ చేయండి",
