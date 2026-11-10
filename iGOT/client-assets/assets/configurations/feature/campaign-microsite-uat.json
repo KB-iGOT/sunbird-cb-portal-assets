@@ -240,7 +240,7 @@
           "posterImage": "",
           "durationLabel": "60 mins",
           "categoryLabel": "Questionnaire",
-          "name": "Leadership as Mission 2026 - Baseline Assessment",
+          "name": "Baseline Leadership Situational Judgment Assessment",
           "tags": ["5 Questions", "MCQ", "Online"],
           "provider": {
             "name": "Karmayogi Bharat",
@@ -256,13 +256,13 @@
           "lockUntilEventStart": false,
           "openBeforeStart": true,
           "type": "event",
-          "identifier": "do_1146969258189127681116",
-          "batchId": "0146969260412764162",
-          "startDateTime": "2026-11-17T00:00:00+05:30",
-          "endDateTime": "2026-11-25T23:59:59+05:30",
+          "identifier": "do_11469824271237120019",
+          "batchId": "0146982435646832645",
+          "startDateTime": "2026-11-09T16:30:00+05:30",
+          "endDateTime": "2026-11-09T17:00:59+05:30",
           "player": {
             "path": "/app/event-hub/player/{identifier}/youtube/{resourceId}",
-            "resourceId": "EFlz6V0SArg",
+            "resourceId": "jlq0gmSus4w",
             "queryParams": {
               "isEnrolled": "true"
             }
@@ -274,7 +274,7 @@
           "posterImage": "",
           "durationLabel": "2h 30m",
           "categoryLabel": "Workshop",
-          "name": "Leadership as Mission 2026",
+          "name": "Lessons from Twenty-Five Years of Leadership",
           "tags": ["In-person", "New Delhi"],
           "provider": {
             "name": "Karmayogi Bharat",
@@ -290,8 +290,8 @@
           "lockUntilEventStart": false,
           "type": "survey",
           "formId": "1794210526956",
-          "identifier": "do_114696879252881408123",
-          "batchId": "0146968822493265925",
+          "identifier": "do_1146969258189127681116",
+          "batchId": "0146969260412764162",
           "eventDurationMinutes": 30,
           "autoOpen": {
             "enabled": true,
@@ -354,7 +354,7 @@
           "posterImage": "",
           "durationLabel": "120 mins",
           "categoryLabel": "Questionnaire",
-          "name": "Leadership as Mission 2026 - Endline Assessment",
+          "name": "Endline Leadership Situational Judgment Assessment",
           "tags": ["5 Questions", "MCQ", "Online"],
           "provider": {
             "name": "Karmayogi Bharat",
