@@ -102,11 +102,17 @@
           "colspan": 12,
           "data": {
             "containerClass": "",
-            "mobileKeys": ["programmeMilestones", "caseStudies"],
+            "mobileKeys": [
+              "programmeMilestones",
+              "caseStudies"
+            ],
             "deskTopKeys": {
               "leftContent": {
                 "colspan": 12,
-                "data": ["programmeMilestones", "caseStudies"]
+                "data": [
+                  "programmeMilestones",
+                  "caseStudies"
+                ]
               },
               "rightContent": {
                 "colspan": 4,
@@ -161,7 +167,7 @@
           "submitError": "Something went wrong. Please try again.",
           "alreadySubmitted": "You have already submitted this form.",
           "downloadCertificate": "Download certificate",
-          "certificatePending": "Kindly be patient. The certificate generation normally takes up to 24 hours, however, it might take longer sometimes. If the issue persists, please mail us at mission.karmayogi@gov.in",
+          "certificatePending": "The certificate will be available for download from 17 November 2026, 6:30 PM onwards, once the event has concluded.",
           "certificateError": "We couldn't load your certificate. Please try again.",
           "charCount": "{{count}}/{{max}}",
           "minChars": "Minimum {{min}} characters required",
@@ -238,10 +244,14 @@
           "bigNumber": "01",
           "theme": "blue",
           "posterImage": "",
-          "durationLabel": "60 mins",
+          "durationLabel": "15 mins",
           "categoryLabel": "Questionnaire",
-          "name": "Baseline Leadership Situational Judgment Assessment",
-          "tags": ["5 Questions", "MCQ", "Online"],
+          "name": "Leadership as Mission 2026 - Baseline Assessment",
+          "tags": [
+            "5 Questions",
+            "MCQ",
+            "Online"
+          ],
           "provider": {
             "name": "Karmayogi Bharat",
             "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
@@ -258,11 +268,11 @@
           "type": "event",
           "identifier": "do_11469824271237120019",
           "batchId": "0146982435646832645",
-          "startDateTime": "2026-11-09T16:30:00+05:30",
-          "endDateTime": "2026-11-09T17:00:59+05:30",
+          "startDateTime": "2026-11-10T17:00:00+05:30",
+          "endDateTime": "2026-11-10T17:30:00+05:30",
           "player": {
             "path": "/app/event-hub/player/{identifier}/youtube/{resourceId}",
-            "resourceId": "jlq0gmSus4w",
+            "resourceId": "nxWRg4CSEWM",
             "queryParams": {
               "isEnrolled": "true"
             }
@@ -272,10 +282,13 @@
           "bigNumber": "02",
           "theme": "image",
           "posterImage": "",
-          "durationLabel": "2h 30m",
+          "durationLabel": "9h 30m",
           "categoryLabel": "Workshop",
-          "name": "Lessons from Twenty-Five Years of Leadership",
-          "tags": ["In-person", "New Delhi"],
+          "name": "Leadership as Mission: 25 Years of Service (2001–2026)",
+          "tags": [
+            "In-person",
+            "New Delhi"
+          ],
           "provider": {
             "name": "Karmayogi Bharat",
             "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
@@ -290,18 +303,33 @@
           "lockUntilEventStart": false,
           "type": "survey",
           "formId": "1794210526956",
+          "formApis": {
+            "read": "/apis/proxies/v8/forms/v2/getFormById?formId={formId}",
+            "status": "/apis/proxies/v8/forms/v2/bulkGetApplicationsById",
+            "submit": "/apis/proxies/v8/forms/v2/saveFormSubmit"
+          },
           "identifier": "do_1146969258189127681116",
           "batchId": "0146969260412764162",
           "eventDurationMinutes": 30,
           "autoOpen": {
             "enabled": true,
-            "startDateTime": "2026-11-05T00:00:00+05:30",
-            "endDateTime": "2026-11-28T23:59:59+05:30"
+            "startDateTime": "2026-11-10T17:00:00+05:30",
+            "endDateTime": "2026-11-10T17:15:00+05:30"
           },
           "answerLimits": [
-            { "questions": [1, 3, 4], "minLength": 70, "maxLength": 300 },
             {
-              "questions": [3],
+              "questions": [
+                1,
+                3,
+                4
+              ],
+              "minLength": 70,
+              "maxLength": 300
+            },
+            {
+              "questions": [
+                3
+              ],
               "hint": "Your progress on this Sankalpa will be followed up at 30, 60 and 90 days."
             }
           ],
@@ -313,7 +341,11 @@
           "durationLabel": "2 mins",
           "categoryLabel": "Sankalpa",
           "name": "Leadership Sankalpa: Commit to Serve Citizens",
-          "tags": ["Online", "Self-declared", "Certificate" ],
+          "tags": [
+            "Online",
+            "Self-declared",
+            "Certificate"
+          ],
           "provider": {
             "name": "Karmayogi Bharat",
             "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
@@ -329,7 +361,7 @@
           "type": "assessment",
           "openWhenCompleted": false,
           "identifier": "do_1146969100307496961114",
-          "startDateTime": "2026-11-09T17:00:00+05:30",
+          "startDateTime": "2026-11-10T17:30:00+05:30",
           "showCountdown": true,
           "batchId": "0146969244601384960",
           "language": "english",
@@ -352,10 +384,14 @@
           "bigNumber": "04",
           "theme": "purple",
           "posterImage": "",
-          "durationLabel": "120 mins",
+          "durationLabel": "15 mins",
           "categoryLabel": "Questionnaire",
-          "name": "Endline Leadership Situational Judgment Assessment",
-          "tags": ["5 Questions", "MCQ", "Online"],
+          "name": "Leadership as Mission 2026 - Endline Assessment",
+          "tags": [
+            "5 Questions",
+            "MCQ",
+            "Online"
+          ],
           "provider": {
             "name": "Karmayogi Bharat",
             "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
@@ -416,80 +452,80 @@
             "cardType": "courseCard",
             "contents": [
               {
-            "name": "Gene Editing Techniques",
-            "identifier": "do_114358596163510272142",
-            "courseCategory": "Course",
-            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
-            "language": [
-              "English"
-            ],
-            "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
-            "appIcon": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
-            "mimeType": "application/vnd.ekstep.content-collection",
-            "primaryCategory": "Course",
-            "contentType": "Course",
-            "channel": "01376822290813747263",
-            "organisation": [
-              "TarentoCBP"
-            ]
-          },
-          {
-            "name": "Cyber security Testing2",
-            "identifier": "do_11431168633064652819",
-            "courseCategory": "Course",
-            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_11431168631848140818/artifact/do_11431168631848140818_1747032021586_cyber-security1747032021492.jpg",
-            "language": [
-              "English"
-            ],
-            "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
-            "appIcon": "https://portal.dev.karmayogibharat.net/content-store/content/do_11431168631848140818/artifact/do_11431168631848140818_1747032021586_cyber-security1747032021492.jpg",
-            "mimeType": "application/vnd.ekstep.content-collection",
-            "primaryCategory": "Course",
-            "contentType": "Course",
-            "channel": "01376822290813747263",
-            "organisation": [
-              "TarentoCBP"
-            ]
-          },
-          {
-            "name": "Course for testing editing 10th April 2025",
-            "identifier": "do_114289012599259136112",
-            "courseCategory": "Course",
-            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114289012584128512111/artifact/do_114289012584128512111_1744264232034_7be4f9cc-bc31-4623-a667-38397a677033-1731344645802_body1744264231676.png",
-            "duration": "10800",
-            "language": [
-              "English"
-            ],
-            "createdBy": "9029b54d-c167-4d88-a1fe-0c31b940c07f",
-            "appIcon": "https://storage.googleapis.com/igot/collection/do_114289012599259136112/artifact/do_114289012584128512111_1744264232034_7be4f9cc-bc31-4623-a667-38397a677033-1731344645802_body1744264231676.thumb.png",
-            "mimeType": "application/vnd.ekstep.content-collection",
-            "primaryCategory": "Course",
-            "contentType": "Course",
-            "channel": "0135071359030722569",
-            "organisation": [
-              "Mahesh MDO"
-            ]
-          },
-          {
-            "name": "blended program course test form ",
-            "identifier": "do_114182851298246656173",
-            "courseCategory": "Course",
-            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_11412847639801036813/artifact/do_11412847639801036813_1724667529161_green.png",
-            "duration": "420",
-            "difficultyLevel": "Beginner",
-            "language": [
-              "English"
-            ],
-            "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
-            "appIcon": "https://storage.googleapis.com/igot/collection/do_114182851298246656173/artifact/do_11412847639801036813_1724667529161_green.thumb.png",
-            "mimeType": "application/vnd.ekstep.content-collection",
-            "primaryCategory": "Course",
-            "contentType": "Course",
-            "channel": "0135071359030722569",
-            "organisation": [
-              "TarentoCBP"
-            ]
-          }
+                "name": "Gene Editing Techniques",
+                "identifier": "do_114358596163510272142",
+                "courseCategory": "Course",
+                "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
+                "language": [
+                  "English"
+                ],
+                "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
+                "appIcon": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
+                "mimeType": "application/vnd.ekstep.content-collection",
+                "primaryCategory": "Course",
+                "contentType": "Course",
+                "channel": "01376822290813747263",
+                "organisation": [
+                  "TarentoCBP"
+                ]
+              },
+              {
+                "name": "Cyber security Testing2",
+                "identifier": "do_11431168633064652819",
+                "courseCategory": "Course",
+                "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_11431168631848140818/artifact/do_11431168631848140818_1747032021586_cyber-security1747032021492.jpg",
+                "language": [
+                  "English"
+                ],
+                "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
+                "appIcon": "https://portal.dev.karmayogibharat.net/content-store/content/do_11431168631848140818/artifact/do_11431168631848140818_1747032021586_cyber-security1747032021492.jpg",
+                "mimeType": "application/vnd.ekstep.content-collection",
+                "primaryCategory": "Course",
+                "contentType": "Course",
+                "channel": "01376822290813747263",
+                "organisation": [
+                  "TarentoCBP"
+                ]
+              },
+              {
+                "name": "Course for testing editing 10th April 2025",
+                "identifier": "do_114289012599259136112",
+                "courseCategory": "Course",
+                "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114289012584128512111/artifact/do_114289012584128512111_1744264232034_7be4f9cc-bc31-4623-a667-38397a677033-1731344645802_body1744264231676.png",
+                "duration": "10800",
+                "language": [
+                  "English"
+                ],
+                "createdBy": "9029b54d-c167-4d88-a1fe-0c31b940c07f",
+                "appIcon": "https://storage.googleapis.com/igot/collection/do_114289012599259136112/artifact/do_114289012584128512111_1744264232034_7be4f9cc-bc31-4623-a667-38397a677033-1731344645802_body1744264231676.thumb.png",
+                "mimeType": "application/vnd.ekstep.content-collection",
+                "primaryCategory": "Course",
+                "contentType": "Course",
+                "channel": "0135071359030722569",
+                "organisation": [
+                  "Mahesh MDO"
+                ]
+              },
+              {
+                "name": "blended program course test form ",
+                "identifier": "do_114182851298246656173",
+                "courseCategory": "Course",
+                "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_11412847639801036813/artifact/do_11412847639801036813_1724667529161_green.png",
+                "duration": "420",
+                "difficultyLevel": "Beginner",
+                "language": [
+                  "English"
+                ],
+                "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
+                "appIcon": "https://storage.googleapis.com/igot/collection/do_114182851298246656173/artifact/do_11412847639801036813_1724667529161_green.thumb.png",
+                "mimeType": "application/vnd.ekstep.content-collection",
+                "primaryCategory": "Course",
+                "contentType": "Course",
+                "channel": "0135071359030722569",
+                "organisation": [
+                  "TarentoCBP"
+                ]
+              }
             ],
             "showNoData": true,
             "showViewAll": true,
@@ -553,4 +589,3 @@
     }
   }
 }
- 
