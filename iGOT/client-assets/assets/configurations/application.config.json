@@ -212,6 +212,14 @@
       "sitePath": "mnre-portal.igotkarmayogi.gov.in",
       "karmayogiBharatLink": "https://mnre.igotkarmayogi.gov.in"
     },
+    "ssm-portal": {
+      "logo": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/01463386321112268815211/1794466988220_All_3.svg",
+      "redirectPath": "/page/home",
+      "cdnContentHost": "https://ssm-portal.igotkarmayogi.gov.in",
+        "azureHost": "https://ssm-portal.igotkarmayogi.gov.in",
+      "sitePath": "ssm-portal.igotkarmayogi.gov.in",
+      "karmayogiBharatLink": "https://ssm.igotkarmayogi.gov.in"
+    },
     "localhost": {
       "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo_Horizontal.svg",
       "redirectPath": "/page/home",
