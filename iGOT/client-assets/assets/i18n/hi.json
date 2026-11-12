@@ -1073,7 +1073,9 @@
     "completedEvent": "आपने यह ईवेंट पूरा लिया",
     "search": "खोज इवेंट्स...",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026",
+    "sankalpa": "संकल्प",
+    "workshop": "कार्यशाला"
   },
   "eventDetailsRightCard": {
     "viewRecording": "रिकॉर्डिंग देखें",
@@ -2121,7 +2123,11 @@
     "multilingualCourse": "बहुभाषी पाठ्यक्रम",
     "learningPathway": "लर्निंग पैथवे",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026",
+    "sankalpa": "संकल्प",
+    "workshop": "कार्यशाला",
+    "baselineAssessment": "बेसलाइन मूल्यांकन",
+    "endlineAssessment": "एंडलाइन मूल्यांकन"
   },
   "utilslogout": {
     "logoutNow": "अभी लॉगआउट करें",
@@ -3020,7 +3026,9 @@
     "numberOfAttendees": "उपस्थित लोगों की संख्या",
     "eventDuration": "घटना अवधि",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026",
+    "sankalpa": "संकल्प",
+    "workshop": "कार्यशाला"
   },
   "notificationV2Settings": {
     "email": "ईमेल अधिसूचना",
@@ -3087,5 +3095,20 @@
     "noCourses": "इस योजना में कोई पाठ्यक्रम नहीं है",
     "backToPlans": "योजनाओं पर वापस जाएं",
     "unlocked": "अनलॉक किया गया"
+  },
+  "campaignMicrosite": {
+    "milestoneCard": {
+      "availableNow": "अभी उपलब्ध",
+      "locked": "लॉक है",
+      "due": "अंतिम तिथि {{date}}",
+      "overdue": "समय सीमा बीत गई",
+      "inProgress": "प्रगति में",
+      "completed": "पूर्ण",
+      "resume": "फिर से शुरू करें",
+      "view": "देखें",
+      "startAssessment": "मूल्यांकन शुरू करें",
+      "startEvent": "रजिस्टर करें",
+      "startSurvey": "शपथ लें"
+    }
   }
 }

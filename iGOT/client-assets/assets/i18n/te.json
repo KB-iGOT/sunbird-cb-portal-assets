@@ -1777,7 +1777,11 @@
     "years": "సంవత్సరాలు",
     "resource": "వనరు ({{count}})",
     "resources": "వనరులు ({{count}})",
-    "externalContent": "బాహ్య కంటెంట్ ({{count}})"
+    "externalContent": "బాహ్య కంటెంట్ ({{count}})",
+    "baselineAssessment": "బేస్‌లైన్ అసెస్‌మెంట్",
+    "endlineAssessment": "ఎండ్‌లైన్ అసెస్‌మెంట్",
+    "sankalpa": "సంకల్ప",
+    "workshop": "కార్యశాల"
   },
   "utilslogout": {
     "logoutNow": "ఇప్పుడు లాగౌట్ చేయండి",
@@ -2152,5 +2156,20 @@
     "noCourses": "ఈ ప్రణాళికలో కోర్సులు లేవు",
     "backToPlans": "ప్రణాళికలకు తిరిగి వెళ్ళండి",
     "unlocked": "అన్‌లాక్ చేయబడింది"
+  },
+  "campaignMicrosite": {
+    "milestoneCard": {
+      "availableNow": "ఇప్పుడు అందుబాటులో ఉంది",
+      "locked": "లాక్ చేయబడింది",
+      "due": "చివరి తేదీ {{date}}",
+      "overdue": "గడువు దాటింది",
+      "inProgress": "పురోగతిలో ఉంది",
+      "completed": "పూర్తయింది",
+      "resume": "తిరిగి ప్రారంభించండి",
+      "view": "వీక్షించండి",
+      "startAssessment": "మూల్యాంకనం ప్రారంభించండి",
+      "startEvent": "నమోదు చేసుకోండి",
+      "startSurvey": "ప్రతిజ్ఞ చేయండి"
+    }
   }
 }

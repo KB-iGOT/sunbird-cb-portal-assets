@@ -1756,7 +1756,11 @@
     "lastMonth": "গত মাসে",
     "last3Months": "গত 3 মাস",
     "last6Months": "গত 6 মাস",
-    "lastYear": "গত বছর"
+    "lastYear": "গত বছর",
+    "baselineAssessment": "বেসলাইন মূল্যায়ন",
+    "endlineAssessment": "এন্ডলাইন মূল্যায়ন",
+    "sankalpa": "সংকল্প",
+    "workshop": "কর্মশালা"
   },
   "utilslogout": {
     "logoutNow": "এখন লগআউট করুন",
@@ -2131,5 +2135,20 @@
     "noCourses": "এই পরিকল্পনায় কোনো কোর্স নেই",
     "backToPlans": "পরিকল্পনায় ফিরে যান",
     "unlocked": "আনলক করা হয়েছে"
+  },
+  "campaignMicrosite": {
+    "milestoneCard": {
+      "availableNow": "এখন উপলব্ধ",
+      "locked": "লক করা",
+      "due": "শেষ তারিখ {{date}}",
+      "overdue": "সময়সীমা পেরিয়ে গেছে",
+      "inProgress": "চলছে",
+      "completed": "সম্পন্ন",
+      "resume": "পুনরায় শুরু করুন",
+      "view": "দেখুন",
+      "startAssessment": "মূল্যায়ন শুরু করুন",
+      "startEvent": "রেজিস্ট্রেশন করুন",
+      "startSurvey": "শপথ নিন"
+    }
   }
 }

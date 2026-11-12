@@ -1777,7 +1777,11 @@
     "years": "ವರ್ಷಗಳು",
     "resource": "ಸಂಪನ್ಮೂಲ ({{count}})",
     "resources": "ಸಂಪನ್ಮೂಲಗಳು ({{count}})",
-    "externalContent": "ಬಾಹ್ಯ ವಿಷಯವಸ್ತು ({{count}})"
+    "externalContent": "ಬಾಹ್ಯ ವಿಷಯವಸ್ತು ({{count}})",
+    "baselineAssessment": "ಬೇಸ್‌ಲೈನ್ ಮೌಲ್ಯಮಾಪನ",
+    "endlineAssessment": "ಎಂಡ್‌ಲೈನ್ ಮೌಲ್ಯಮಾಪನ",
+    "sankalpa": "ಸಂಕಲ್ಪ",
+    "workshop": "ಕಾರ್ಯಾಗಾರ"
   },
   "utilslogout": {
     "logoutNow": "ಈಗ ಲಾಗ್ ಔಟ್ ಮಾಡಿ",
@@ -2152,5 +2156,20 @@
     "noCourses": "ಈ ಯೋಜನೆಯಲ್ಲಿ ಯಾವುದೇ ಕೋರ್ಸ್‌ಗಳಿಲ್ಲ",
     "backToPlans": "ಯೋಜನೆಗಳಿಗೆ ಹಿಂತಿರುಗಿ",
     "unlocked": "ಅನ್‌ಲಾಕ್ ಆಗಿದೆ"
+  },
+  "campaignMicrosite": {
+    "milestoneCard": {
+      "availableNow": "ಈಗ ಲಭ್ಯವಿದೆ",
+      "locked": "ಲಾಕ್ ಆಗಿದೆ",
+      "due": "ಕೊನೆಯ ದಿನಾಂಕ {{date}}",
+      "overdue": "ಗಡುವು ಮೀರಿದೆ",
+      "inProgress": "ಪ್ರಗತಿಯಲ್ಲಿದೆ",
+      "completed": "ಪೂರ್ಣಗೊಂಡಿದೆ",
+      "resume": "ಪುನರಾರಂಭಿಸಿ",
+      "view": "ವೀಕ್ಷಿಸಿ",
+      "startAssessment": "ಮೌಲ್ಯಮಾಪನ ಪ್ರಾರಂಭಿಸಿ",
+      "startEvent": "ನೋಂದಾಯಿಸಿ",
+      "startSurvey": "ಪ್ರತಿಜ್ಞೆ ಸ್ವೀಕರಿಸಿ"
+    }
   }
 }

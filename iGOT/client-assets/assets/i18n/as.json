@@ -1778,7 +1778,11 @@
     "years": "বছৰ",
     "resource": "সঁজুলি ({{count}})",
     "resources": "সঁজুলিসমূহ ({{count}})",
-    "externalContent": "বাহ্যিক সামগ্রী ({{count}})"
+    "externalContent": "বাহ্যিক সামগ্রী ({{count}})",
+    "baselineAssessment": "বেছলাইন মূল্যায়ন",
+    "endlineAssessment": "এণ্ডলাইন মূল্যায়ন",
+    "sankalpa": "সংকল্প",
+    "workshop": "কৰ্মশালা"
   },
   "utilslogout": {
     "logoutNow": "এতিয়া লগআউট কৰক",
@@ -2153,5 +2157,20 @@
     "noCourses": "এই পৰিকল্পনাত কোনো পাঠ্যক্ৰম নাই",
     "backToPlans": "পৰিকল্পনালৈ উভতি যাওক",
     "unlocked": "আনলক কৰা হৈছে"
+  },
+  "campaignMicrosite": {
+    "milestoneCard": {
+      "availableNow": "এতিয়া উপলব্ধ",
+      "locked": "লক কৰা",
+      "due": "শেষ তাৰিখ {{date}}",
+      "overdue": "সময়সীমা উকলি গৈছে",
+      "inProgress": "চলি আছে",
+      "completed": "সম্পূৰ্ণ",
+      "resume": "পুনৰ আৰম্ভ কৰক",
+      "view": "চাওক",
+      "startAssessment": "মূল্যায়ন আৰম্ভ কৰক",
+      "startEvent": "পঞ্জীয়ন কৰক",
+      "startSurvey": "শপত লওক"
+    }
   }
 }

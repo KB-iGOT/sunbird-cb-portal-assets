@@ -1777,7 +1777,11 @@
     "years": "വർഷങ്ങൾ",
     "resource": "വിഭവം ({{count}})",
     "resources": "വിഭവങ്ങൾ ({{count}})",
-    "externalContent": "ബാഹ്യ ഉള്ളടക്കം ({{count}})"
+    "externalContent": "ബാഹ്യ ഉള്ളടക്കം ({{count}})",
+    "baselineAssessment": "ബേസ്‌ലൈൻ മൂല്യനിർണ്ണയം",
+    "endlineAssessment": "എൻഡ്‌ലൈൻ മൂല്യനിർണ്ണയം",
+    "sankalpa": "സങ്കൽപ്പ",
+    "workshop": "ശിൽപശാല"
   },
   "utilslogout": {
     "logoutNow": "ഇപ്പോൾ ലോഗ് ഔട്ട് ചെയ്യുക",
@@ -2152,5 +2156,20 @@
     "noCourses": "ഈ പ്ലാനിൽ കോഴ്സുകളൊന്നുമില്ല",
     "backToPlans": "പ്ലാനുകളിലേക്ക് മടങ്ങുക",
     "unlocked": "അൺലോക്ക് ചെയ്തിരിക്കുന്നു"
+  },
+  "campaignMicrosite": {
+    "milestoneCard": {
+      "availableNow": "ഇപ്പോൾ ലഭ്യമാണ്",
+      "locked": "ലോക്ക് ചെയ്തിരിക്കുന്നു",
+      "due": "അവസാന തീയതി {{date}}",
+      "overdue": "സമയപരിധി കഴിഞ്ഞു",
+      "inProgress": "പുരോഗമിക്കുന്നു",
+      "completed": "പൂർത്തിയായി",
+      "resume": "പുനരാരംഭിക്കുക",
+      "view": "കാണുക",
+      "startAssessment": "മൂല്യനിർണ്ണയം ആരംഭിക്കുക",
+      "startEvent": "രജിസ്റ്റർ ചെയ്യുക",
+      "startSurvey": "പ്രതിജ്ഞ എടുക്കുക"
+    }
   }
 }

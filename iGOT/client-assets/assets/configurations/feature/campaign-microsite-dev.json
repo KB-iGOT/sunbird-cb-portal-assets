@@ -1,0 +1,601 @@
+{
+  "sectionList": [
+    {
+      "enabled": true,
+      "title": "",
+      "key": "sectionTopBanner",
+      "order": 1,
+      "column": [
+        {
+          "enabled": true,
+          "key": "topSection",
+          "title": "Karmayogi Saptah",
+          "colspan": 12,
+          "data": {
+            "sliderData": {
+              "styleData": {
+                "bannerMetaClass": "",
+                "bannerMeta": "visible",
+                "bannerMetaAlign": "right",
+                "navigationArrows": "visible",
+                "borderRadius": "0px",
+                "arrowsPlacement": "",
+                "dots": "hidden",
+                "imageBorderWidth": 0,
+                "imageBorderColor": "#FFFFFF",
+                "imageBorderStyle": "solid",
+                "responsive": {
+                  "bannerMetaClass": "inline-meta",
+                  "bannerMetaAlign": "center",
+                  "navigationArrows": "visible",
+                  "dots": "hidden",
+                  "arrowsPlacement": "middle-inline"
+                }
+              },
+              "sliders": [
+                {
+                  "active": true,
+                  "banners": {
+                    "l": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png",
+                    "m": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png",
+                    "s": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png",
+                    "xl": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png",
+                    "xs": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png",
+                    "xxl": "/assets/images/micro-sites/campaign/leadership-as-mission-banner.png"
+                  },
+                  "redirectUrl": "",
+                  "queryParams": {},
+                  "title": ""
+                },
+                {
+                  "active": true,
+                  "banners": {
+                    "l": "/assets/images/micro-sites/campaign/banner-2.png",
+                    "m": "/assets/images/micro-sites/campaign/banner-2.png",
+                    "s": "/assets/images/micro-sites/campaign/banner-2.png",
+                    "xl": "/assets/images/micro-sites/campaign/banner-2.png",
+                    "xs": "/assets/images/micro-sites/campaign/banner-2.png",
+                    "xxl": "/assets/images/micro-sites/campaign/banner-2.png"
+                  },
+                  "redirectUrl": "",
+                  "queryParams": {},
+                  "title": ""
+                },
+                {
+                  "active": true,
+                  "banners": {
+                    "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149170752_bharat-kalp.svg",
+                    "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149271400_bharat-kalp-m.svg",
+                    "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149271400_bharat-kalp-m.svg",
+                    "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149170752_bharat-kalp.svg",
+                    "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149271400_bharat-kalp-m.svg",
+                    "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149170752_bharat-kalp.svg"
+                  },
+                  "redirectUrl": "",
+                  "queryParams": {},
+                  "title": ""
+                },
+                {
+                  "active": true,
+                  "banners": {
+                    "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149541580_bharat-kalp-leadership.svg",
+                    "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149507182_bharat-kalp-leadership.svg",
+                    "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149507182_bharat-kalp-leadership.svg",
+                    "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149541580_bharat-kalp-leadership.svg",
+                    "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149507182_bharat-kalp-leadership.svg",
+                    "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1783149541580_bharat-kalp-leadership.svg"
+                  },
+                  "redirectUrl": "",
+                  "queryParams": {},
+                  "title": ""
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "key": "sectionKeyHighlights",
+      "wrapperClass": "",
+      "column": [
+        {
+          "enabled": true,
+          "key": "keyHighlightsSection",
+          "colspan": 12,
+          "data": {
+            "backgroundColor": "#E8EDF6",
+            "titleMaxLength": 1000,
+            "containerClass": "container p-0",
+            "content": [
+              {
+                "title": "",
+                "innerHTMLTitle": "Complete your Sankalpa and earn 100 Karma Points! Take the pledge, reaffirm your commitment, and take a step towards becoming a better Karmayogi."
+              },
+              {
+                "title": "",
+                "innerHTMLTitle": "Complete your Sankalpa and earn 100 Karma Points! Take the pledge, reaffirm your commitment, and take a step towards becoming a better Karmayogi."
+              }
+            ],
+            "sliderData": {
+              "styleData": {
+                "borderRadius": "0",
+                "bannerMeta": "visible",
+                "dots": "hidden",
+                "arrowsPlacement": "middle-inline",
+                "responsive": {
+                  "bannerMetaAlign": "left",
+                  "navigationArrows": "visible",
+                  "dots": "hidden",
+                  "arrowsPlacement": "middle-inline"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "key": "sectionMainContent",
+      "order": 3,
+      "wrapperClass": "",
+      "column": [
+        {
+          "enabled": true,
+          "key": "mainContentSection",
+          "colspan": 12,
+          "data": {
+            "containerClass": "",
+            "mobileKeys": ["programmeMilestones", "caseStudies"],
+            "deskTopKeys": {
+              "leftContent": {
+                "colspan": 12,
+                "data": ["programmeMilestones", "caseStudies"]
+              },
+              "rightContent": {
+                "colspan": 4,
+                "data": []
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "individualSection": {
+    "programmeMilestones": {
+      "enabled": true,
+      "title": "Programme Milestones",
+      "labels": {
+        "close": "Close",
+        "completed": "Completed",
+        "journeyComplete": "Journey complete! You have finished every milestone of this programme.",
+        "enrollError": "We couldn't start this assessment. Please try again.",
+        "popup": {
+          "availableNow": "Available now",
+          "availableFrom": "Available from {{date}}",
+          "inProgress": "In progress",
+          "completed": "Completed",
+          "locked": "Locked",
+          "milestone": "Milestone {{number}}",
+          "okay": "Okay"
+        },
+        "assessment": {
+          "start": "Start Questionnaire",
+          "resume": "Resume Questionnaire",
+          "view": "View Questionnaire",
+          "opensIn": "Opens in {{time}}"
+        },
+        "event": {
+          "register": "Register",
+          "upcoming": "Event yet to start",
+          "join": "Join event",
+          "recording": "View recording",
+          "registered": "You are registered. Come back when the event starts.",
+          "registerError": "We couldn't register you for this event. Please try again."
+        },
+        "survey": {
+          "start": "Take Sankalpa",
+          "cancel": "Cancel",
+          "submit": "Submit",
+          "commitment": "I commit to strengthening my leadership practice through one meaningful change, within my own authority, for the citizens I serve.",
+          "retry": "Try again",
+          "loadError": "We couldn't load this form. Please try again.",
+          "submitted": "Thank you! Your response has been submitted.",
+          "submitError": "Something went wrong. Please try again.",
+          "alreadySubmitted": "You have already submitted this form.",
+          "downloadCertificate": "Download certificate",
+          "certificatePending": "Kindly be patient. The certificate generation normally takes up to 24 hours, however, it might take longer sometimes. If the issue persists, please mail us at mission.karmayogi@gov.in",
+          "certificateError": "We couldn't load your certificate. Please try again.",
+          "charCount": "{{count}}/{{max}}",
+          "minChars": "Minimum {{min}} characters required",
+          "required": "This field is required"
+        }
+      },
+      "popup": {
+        "enabled": true,
+        "image": "https://portal.uat.karmayogibharat.net/content-store/orgStore/01446264792902041611/1793851670432_image__4_.png",
+        "imageAlt": "Welcome to your Karmayogi Sankalpa: four steps to turn your learning into action",
+        "eyebrow": "Welcome to your learning journey",
+        "title": "Four milestones, completed\none step at a time",
+        "description": "Each milestone unlocks the next. Finish one to open the one that follows — here is the full path from start to finish.",
+        "note": "Milestones open <strong>in order</strong>. The next one stays locked until you complete the current step, so just follow them top to bottom.",
+        "helpText": "Stuck on any step? Reach out to your programme coordinator for help.",
+        "steps": [
+          {
+            "order": 1,
+            "title": "Baseline Assessment",
+            "description": "Know where you stand. A quick check of your current leadership readiness.",
+            "icon": "assessment",
+            "color": "navy"
+          },
+          {
+            "order": 2,
+            "title": "Live Event",
+            "description": "Attend the national workshop and mark your attendance to progress.",
+            "icon": "event",
+            "color": "green"
+          },
+          {
+            "order": 3,
+            "title": "Endline Assessment",
+            "description": "See how far you have come. Measure your growth against the baseline to unlock the pledge.",
+            "icon": "progress",
+            "color": "teal"
+          },
+          {
+            "order": 4,
+            "title": "Take the Pledge",
+            "description": "Commit to serve citizens. Complete the pledge form to finish your journey.",
+            "icon": "pledge",
+            "color": "orange"
+          }
+        ]
+      },
+      "items": [
+        {
+          "order": 1,
+          "enabled": true,
+          "locked": false,
+          "lockUntilEventStart": false,
+          "type": "assessment",
+          "openWhenCompleted": true,
+          "identifier": "do_114694791824293888150",
+          "batchId": "0146948350872698885",
+          "language": "english",
+          "player": {
+            "path": "/viewer/practice/{resourceId}",
+            "resourceId": "do_114694814234836992196",
+            "queryParams": {
+              "primaryCategory": "Course Assessment",
+              "collectionId": "{identifier}",
+              "collectionType": "Standalone Assessment",
+              "batchId": "{batchId}",
+              "courseName": "{name}",
+              "ML": "{language}",
+              "MLId": "{identifier}",
+              "fromAITutor": "false"
+            }
+          },
+          "milestoneLabel": "Milestone 1",
+          "headline": "Know where\nyou stand",
+          "bigNumber": "01",
+          "theme": "blue",
+          "posterImage": "",
+          "durationLabel": "60 mins",
+          "categoryLabel": "Assessment",
+          "name": "Baseline Situational Judgement Assessment",
+          "tags": ["5 Questions", "MCQ", "Online"],
+          "provider": {
+            "name": "Karmayogi Bharat",
+            "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
+          },
+          "dueDate": "",
+          "redirectUrl": ""
+        },
+        {
+          "order": 2,
+          "enabled": true,
+          "locked": false,
+          "lockUntilEventStart": true,
+          "type": "event",
+          "identifier": "do_114694858163888128154",
+          "batchId": "0146948641385185287",
+          "startDateTime": "2026-11-04T21:30:00+05:30",
+          "endDateTime": "2026-11-04T23:00:00+05:30",
+          "player": {
+            "path": "/app/event-hub/player/{identifier}/youtube/{resourceId}",
+            "resourceId": "_Op7XbsMkaI",
+            "queryParams": {
+              "isEnrolled": "true"
+            }
+          },
+          "milestoneLabel": "Milestone 2",
+          "headline": "",
+          "bigNumber": "02",
+          "theme": "image",
+          "posterImage": "",
+          "durationLabel": "2h 30m",
+          "categoryLabel": "Event",
+          "name": "Leadership as Mission: National Workshop",
+          "tags": ["In-person", "New Delhi"],
+          "provider": {
+            "name": "NITI Aayog",
+            "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
+          },
+          "dueDate": "",
+          "redirectUrl": ""
+        },
+
+        {
+          "order": 3,
+          "enabled": true,
+          "locked": false,
+          "lockUntilEventStart": false,
+          "type": "survey",
+          "formId": "1793801265024",
+          "identifier": "do_114694694810370048148",
+          "batchId": "0146946973807820804",
+          "eventDurationMinutes": 30,
+          "autoOpen": {
+            "enabled": true,
+            "startDateTime": "2026-11-05T00:00:00+05:30",
+            "endDateTime": "2026-11-28T23:59:59+05:30"
+          },
+          "answerLimits": [
+            { "questions": [1, 3, 4], "minLength": 70, "maxLength": 300 },
+            {
+              "questions": [3],
+              "hint": "Say what you will do and by when, e.g. \"I will review pending citizen grievances with my team every Monday, starting 1 December 2026.\""
+            }
+          ],
+          "milestoneLabel": "Milestone 4",
+          "headline": "Commit to\nserve citizens",
+          "bigNumber": "04",
+          "theme": "orange",
+          "posterImage": "",
+          "durationLabel": "2 mins",
+          "categoryLabel": "Sankalpa",
+          "name": "Leadership Sankalpa: Commit to Serve Citizens",
+          "tags": ["Online", "Self-declared", "Certificate" ],
+          "provider": {
+            "name": "Karmayogi Bharat",
+            "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
+          },
+          "dueDate": "",
+          "redirectUrl": ""
+        },
+        {
+          "order": 4,
+          "enabled": true,
+          "locked": false,
+          "lockUntilEventStart": false,
+          "type": "assessment",
+          "openWhenCompleted": true,
+          "identifier": "do_114694833379106816152",
+          "startDateTime": "2026-11-05T20:20:00+05:30",
+          "showCountdown": false,
+          "batchId": "0146948464330833926",
+          "language": "english",
+          "player": {
+            "path": "/viewer/practice/{resourceId}",
+            "resourceId": "do_1146948340731576321114",
+            "queryParams": {
+              "primaryCategory": "Course Assessment",
+              "collectionId": "do_114694833379106816152",
+              "collectionType": "Standalone Assessment",
+              "batchId": "0146948464330833926",
+              "courseName": "Leadership as Mission 2026 - Endline Assessment",
+              "ML": "english",
+              "MLId": "do_114694833379106816152",
+              "fromAITutor": "false"
+            }
+          },
+          "milestoneLabel": "Milestone 3",
+          "headline": "See how far\nyou've come",
+          "bigNumber": "03",
+          "theme": "purple",
+          "posterImage": "",
+          "durationLabel": "120 mins",
+          "categoryLabel": "Assessment",
+          "name": "Leadership as Mission 2026 - Endline Assessment",
+          "tags": ["5 Questions", "MCQ", "Online"],
+          "provider": {
+            "name": "Karmayogi Bharat",
+            "logo": "/assets/instances/eagle/app_logos/KarmayogiBharat_Logo.svg"
+          },
+          "dueDate": "",
+          "redirectUrl": ""
+        }
+      ]
+    },
+    "caseStudies": {
+      "enabled": false,
+      "header": "Case Studies",
+      "contentConfig": {
+        "cardType": "courseCard",
+        "contents": [
+          {
+            "name": "Gene Editing Techniques",
+            "identifier": "do_114358596163510272142",
+            "courseCategory": "Case Study",
+            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
+            "language": [
+              "English"
+            ],
+            "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
+            "appIcon": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
+            "mimeType": "application/vnd.ekstep.content-collection",
+            "primaryCategory": "Course",
+            "contentType": "Course",
+            "channel": "01376822290813747263",
+            "organisation": [
+              "TarentoCBP"
+            ]
+          }
+        ],
+        "showNoData": false,
+        "showViewAll": true,
+        "viewMoreUrl": {
+          "path": "<CASE_STUDIES_VIEW_ALL_URL>",
+          "queryParams": {},
+          "viewMoreText": "View All"
+        },
+        "maxCardsToShow": 12,
+        "cardClickDetails": {
+          "id": "caseStudies",
+          "type": "Course",
+          "subType": "Case Studies",
+          "courseCategory": "Course"
+        }
+      }
+    },
+    "contentPills": {
+      "pills": [
+        {
+          "pillKey": "RuralDevelopmentandPanchayatiRaj",
+          "pillLabel": "Rural Development and Panchayati Raj",
+          "pillImageUrl": "",
+          "contentConfig": {
+            "cardType": "courseCard",
+            "contents": [
+              {
+            "name": "Gene Editing Techniques",
+            "identifier": "do_114358596163510272142",
+            "courseCategory": "Course",
+            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
+            "language": [
+              "English"
+            ],
+            "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
+            "appIcon": "https://portal.dev.karmayogibharat.net/content-store/content/do_114358596149854208141/artifact/do_114358596149854208141_1752758319373_assessment-21752758319224.png",
+            "mimeType": "application/vnd.ekstep.content-collection",
+            "primaryCategory": "Course",
+            "contentType": "Course",
+            "channel": "01376822290813747263",
+            "organisation": [
+              "TarentoCBP"
+            ]
+          },
+          {
+            "name": "Cyber security Testing2",
+            "identifier": "do_11431168633064652819",
+            "courseCategory": "Course",
+            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_11431168631848140818/artifact/do_11431168631848140818_1747032021586_cyber-security1747032021492.jpg",
+            "language": [
+              "English"
+            ],
+            "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
+            "appIcon": "https://portal.dev.karmayogibharat.net/content-store/content/do_11431168631848140818/artifact/do_11431168631848140818_1747032021586_cyber-security1747032021492.jpg",
+            "mimeType": "application/vnd.ekstep.content-collection",
+            "primaryCategory": "Course",
+            "contentType": "Course",
+            "channel": "01376822290813747263",
+            "organisation": [
+              "TarentoCBP"
+            ]
+          },
+          {
+            "name": "Course for testing editing 10th April 2025",
+            "identifier": "do_114289012599259136112",
+            "courseCategory": "Course",
+            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_114289012584128512111/artifact/do_114289012584128512111_1744264232034_7be4f9cc-bc31-4623-a667-38397a677033-1731344645802_body1744264231676.png",
+            "duration": "10800",
+            "language": [
+              "English"
+            ],
+            "createdBy": "9029b54d-c167-4d88-a1fe-0c31b940c07f",
+            "appIcon": "https://storage.googleapis.com/igot/collection/do_114289012599259136112/artifact/do_114289012584128512111_1744264232034_7be4f9cc-bc31-4623-a667-38397a677033-1731344645802_body1744264231676.thumb.png",
+            "mimeType": "application/vnd.ekstep.content-collection",
+            "primaryCategory": "Course",
+            "contentType": "Course",
+            "channel": "0135071359030722569",
+            "organisation": [
+              "Mahesh MDO"
+            ]
+          },
+          {
+            "name": "blended program course test form ",
+            "identifier": "do_114182851298246656173",
+            "courseCategory": "Course",
+            "posterImage": "https://portal.dev.karmayogibharat.net/content-store/content/do_11412847639801036813/artifact/do_11412847639801036813_1724667529161_green.png",
+            "duration": "420",
+            "difficultyLevel": "Beginner",
+            "language": [
+              "English"
+            ],
+            "createdBy": "25311a4f-fa42-4cf7-882a-5e79198edfcb",
+            "appIcon": "https://storage.googleapis.com/igot/collection/do_114182851298246656173/artifact/do_11412847639801036813_1724667529161_green.thumb.png",
+            "mimeType": "application/vnd.ekstep.content-collection",
+            "primaryCategory": "Course",
+            "contentType": "Course",
+            "channel": "0135071359030722569",
+            "organisation": [
+              "TarentoCBP"
+            ]
+          }
+            ],
+            "showNoData": true,
+            "showViewAll": true,
+            "viewMoreUrl": {
+              "path": "/app/globalsearch/volunteer",
+              "queryParams": {
+                "q": "",
+                "tab": "explore-content",
+                "category": "course",
+                "filtersPanel": "show"
+              },
+              "viewMoreText": "Show all"
+            },
+            "noDataMessage": "No courses available yet.  We are working on adding more learning opportunities under this theme.",
+            "maxCardsToShow": 12,
+            "cardClickDetails": {
+              "id": "public-finance",
+              "type": "Course",
+              "subType": "explore-by-theme",
+              "courseCategory": "Course"
+            }
+          },
+          "translateLabel": true,
+          "visibilityMode": "visible",
+          "pillDescription": [],
+          "pillInfoCountKey": "exploreByTheme"
+        }
+      ],
+      "header": "Sectoral/Scheme-Specific Courses",
+      "sectionKey": "SectoralCourses",
+      "displayType": "pills",
+      "pillEnlarge": false,
+      "noDataMessage": "No courses available yet.  We are working on adding more learning opportunities under this theme.",
+      "addToAccordian": true,
+      "defaultPillKey": "Public Leadership",
+      "visibilityMode": "visible",
+      "translateHeader": false,
+      "canShowScrollArrow": true,
+      "hideAccordianToggel": false
+    }
+  },
+  "eventDetails": {
+    "startDate": "17-11-2026",
+    "endDate": "28-11-2026"
+  },
+  "pageAvailability": {
+    "enabled": true,
+    "startDateTime": "2026-11-06T00:00:00+05:30",
+    "endDateTime": "2026-11-09T23:59:59+05:30",
+    "notStarted": {
+      "title": "This event has not started yet",
+      "description": "The Leadership as a Mission page opens on {{date}}. Please come back then.",
+      "buttonText": "Go to home",
+      "buttonUrl": "/page/home"
+    },
+    "closed": {
+      "title": "This event has closed",
+      "description": "Leadership as a Mission ended on {{date}}. Thank you for your interest.",
+      "buttonText": "Go to home",
+      "buttonUrl": "/page/home"
+    }
+  }
+}

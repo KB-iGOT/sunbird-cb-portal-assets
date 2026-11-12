@@ -1049,7 +1049,9 @@
     "search": "ઘટનાઓ શોધો...",
     "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026",
+    "sankalpa": "સંકલ્પ",
+    "workshop": "કાર્યશાળા"
   },
   "eventDetailsRightCard": {
     "viewRecording": "રેકોર્ડિંગ જુઓ",
@@ -2075,7 +2077,11 @@
     "agk": "અમૃત જ્ઞાન કોષ ({{count}})",
     "marketPlace": "માર્કેટ પ્લેસ ({{count}})",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-Nlw2026": "सामूहिक चर्चा - NLW 2026",
+    "sankalpa": "સંકલ્પ",
+    "workshop": "કાર્યશાળા",
+    "baselineAssessment": "બેઝલાઇન મૂલ્યાંકન",
+    "endlineAssessment": "એન્ડલાઇન મૂલ્યાંકન"
   },
   "utilslogout": {
     "logoutNow": "હમણાં લૉગઆઉટ કરો",
@@ -2853,7 +2859,9 @@
     "today": "આજે",
     "rajyaKarmayogiSaptah": "રાજ્ય કર્મયોગી સપ્તાહ",
     "sadhanaSaptah": "साधना सप्ताह",
-    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026"
+    "samuhikCharcha-NLW2026": "सामूहिक चर्चा - NLW 2026",
+    "sankalpa": "સંકલ્પ",
+    "workshop": "કાર્યશાળા"
   },
   "notificationV2Settings": {
     "email": "ઇમેઇલ સૂચના",
@@ -2920,5 +2928,20 @@
     "noCourses": "આ યોજનામાં કોઈ અભ્યાસક્રમ નથી",
     "backToPlans": "યોજનાઓ પર પાછા જાઓ",
     "unlocked": "અનલૉક કરેલ"
+  },
+  "campaignMicrosite": {
+    "milestoneCard": {
+      "availableNow": "હવે ઉપલબ્ધ",
+      "locked": "લૉક કરેલ",
+      "due": "છેલ્લી તારીખ {{date}}",
+      "overdue": "સમયમર્યાદા વીતી ગઈ",
+      "inProgress": "પ્રગતિમાં",
+      "completed": "પૂર્ણ",
+      "resume": "ફરી શરૂ કરો",
+      "view": "જુઓ",
+      "startAssessment": "મૂલ્યાંકન શરૂ કરો",
+      "startEvent": "નોંધણી કરો",
+      "startSurvey": "શપથ લો"
+    }
   }
 }

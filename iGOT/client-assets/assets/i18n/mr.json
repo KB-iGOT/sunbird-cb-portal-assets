@@ -1777,7 +1777,11 @@
     "years": "वर्षे",
     "resource": "संसाधन ({{count}})",
     "resources": "संसाधने ({{count}})",
-    "externalContent": "बाह्य सामग्री ({{count}})"
+    "externalContent": "बाह्य सामग्री ({{count}})",
+    "baselineAssessment": "बेसलाइन मूल्यांकन",
+    "endlineAssessment": "एंडलाइन मूल्यांकन",
+    "sankalpa": "संकल्प",
+    "workshop": "कार्यशाळा"
   },
   "utilslogout": {
     "logoutNow": "आता लॉगआऊट करा",
@@ -2152,5 +2156,20 @@
     "noCourses": "या योजनेत कोणतेही अभ्यासक्रम नाहीत",
     "backToPlans": "योजनांकडे परत जा",
     "unlocked": "अनलॉक केलेले"
+  },
+  "campaignMicrosite": {
+    "milestoneCard": {
+      "availableNow": "आता उपलब्ध",
+      "locked": "लॉक केलेले",
+      "due": "अंतिम तारीख {{date}}",
+      "overdue": "मुदत संपली",
+      "inProgress": "प्रगतीपथावर",
+      "completed": "पूर्ण झाले",
+      "resume": "पुन्हा सुरू करा",
+      "view": "पहा",
+      "startAssessment": "मूल्यांकन सुरू करा",
+      "startEvent": "नोंदणी करा",
+      "startSurvey": "शपथ घ्या"
+    }
   }
 }

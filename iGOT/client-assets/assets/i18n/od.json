@@ -1777,7 +1777,11 @@
     "years": "ବର୍ଷ",
     "resource": "ସମ୍ପଦ ({{count}})",
     "resources": "ସମ୍ପଦଗୁଡିକ ({{count}})",
-    "externalContent": "ବାହ୍ୟ ସାମଗ୍ରୀ ({{count}})"
+    "externalContent": "ବାହ୍ୟ ସାମଗ୍ରୀ ({{count}})",
+    "baselineAssessment": "ବେସଲାଇନ୍ ମୂଲ୍ୟାଙ୍କନ",
+    "endlineAssessment": "ଏଣ୍ଡଲାଇନ୍ ମୂଲ୍ୟାଙ୍କନ",
+    "sankalpa": "ସଙ୍କଳ୍ପ",
+    "workshop": "କର୍ମଶାଳା"
   },
   "utilslogout": {
     "logoutNow": "ବର୍ତ୍ତମାନ ଲଗଆଉଟ କରନ୍ତୁ",
@@ -2152,5 +2156,20 @@
     "noCourses": "ଏହି ଯୋଜନାରେ କୌଣସି ପାଠ୍ୟକ୍ରମ ନାହିଁ",
     "backToPlans": "ଯୋଜନାକୁ ଫେରନ୍ତୁ",
     "unlocked": "ଅନଲକ୍ ହୋଇଛି"
+  },
+  "campaignMicrosite": {
+    "milestoneCard": {
+      "availableNow": "ବର୍ତ୍ତମାନ ଉପଲବ୍ଧ",
+      "locked": "ଲକ୍ ହୋଇଛି",
+      "due": "ଶେଷ ତାରିଖ {{date}}",
+      "overdue": "ସମୟସୀମା ଅତିକ୍ରମ ହୋଇଛି",
+      "inProgress": "ଚାଲିଛି",
+      "completed": "ସମ୍ପୂର୍ଣ୍ଣ",
+      "resume": "ପୁଣି ଆରମ୍ଭ କରନ୍ତୁ",
+      "view": "ଦେଖନ୍ତୁ",
+      "startAssessment": "ମୂଲ୍ୟାଙ୍କନ ଆରମ୍ଭ କରନ୍ତୁ",
+      "startEvent": "ପଞ୍ଜିକରଣ କରନ୍ତୁ",
+      "startSurvey": "ଶପଥ ନିଅନ୍ତୁ"
+    }
   }
 }

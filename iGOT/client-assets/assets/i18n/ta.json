@@ -1777,7 +1777,11 @@
     "years": "ஆண்டுகள்",
     "resource": "வளம் ({{count}})",
     "resources": "வளங்கள் ({{count}})",
-    "externalContent": "வெளிப்புற உள்ளடக்கம் ({{count}})"
+    "externalContent": "வெளிப்புற உள்ளடக்கம் ({{count}})",
+    "baselineAssessment": "அடிப்படை மதிப்பீடு",
+    "endlineAssessment": "இறுதி மதிப்பீடு",
+    "sankalpa": "சங்கல்பா",
+    "workshop": "பயிலரங்கம்"
   },
   "utilslogout": {
     "logoutNow": "இப்போது வெளியேறு",
@@ -2152,5 +2156,20 @@
     "noCourses": "இந்தத் திட்டத்தில் பாடநெறிகள் இல்லை",
     "backToPlans": "திட்டங்களுக்குத் திரும்பு",
     "unlocked": "திறக்கப்பட்டுள்ளது"
+  },
+  "campaignMicrosite": {
+    "milestoneCard": {
+      "availableNow": "இப்போது கிடைக்கிறது",
+      "locked": "பூட்டப்பட்டுள்ளது",
+      "due": "கடைசி தேதி {{date}}",
+      "overdue": "காலக்கெடு முடிந்தது",
+      "inProgress": "நடைபெற்று வருகிறது",
+      "completed": "முடிந்தது",
+      "resume": "மீண்டும் தொடங்குங்கள்",
+      "view": "பார்க்கவும்",
+      "startAssessment": "மதிப்பீட்டைத் தொடங்குங்கள்",
+      "startEvent": "பதிவு செய்யுங்கள்",
+      "startSurvey": "உறுதிமொழி எடுங்கள்"
+    }
   }
 }
