@@ -36,12 +36,12 @@
                 {
                   "active": true,
                   "banners": {
-                    "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133782666818437120/1794020955906_Artboard_2.svg",
-                    "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133782666818437120/1794021002173_Artboard_7.svg",
-                    "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133782666818437120/1794021002173_Artboard_7.svg",
-                    "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133782666818437120/1794020955906_Artboard_2.svg",
-                    "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133782666818437120/1794021002173_Artboard_7.svg",
-                    "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133782666818437120/1794020955906_Artboard_2.svg"
+                    "l": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1794397179975_Artboard_1_Website_1.jpg",
+                    "m": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1794397179975_Artboard_1_Website_1.jpg",
+                    "s": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1794397179975_Artboard_1_Website_1.jpg",
+                    "xl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1794397179975_Artboard_1_Website_1.jpg",
+                    "xs": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1794397179975_Artboard_1_Website_1.jpg",
+                    "xxl": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1794397179975_Artboard_1_Website_1.jpg"
                   },
                   "redirectUrl": "",
                   "queryParams": {},
@@ -69,7 +69,7 @@
             "content": [
               {
                 "title": "",
-                "innerHTMLTitle": "Complete your Sankalpa and earn 100 Karma Points! Take the pledge, reaffirm your commitment, and take a step towards becoming a better Karmayogi."
+                "innerHTMLTitle": "Complete your Karmayogi Sankalpa and earn 100 Karma Points! Take the pledge, reaffirm your commitment, and take a step towards becoming a better Karmayogi."
               }
             ],
             "sliderData": {
@@ -127,7 +127,7 @@
   "individualSection": {
     "programmeMilestones": {
       "enabled": true,
-      "title": "Programme Milestones",
+      "title": "Programme Milestones: Leadership as Mission",
       "labels": {
         "close": "Close",
         "completed": "Completed",
@@ -146,7 +146,7 @@
           "start": "Start Questionnaire",
           "resume": "Resume Questionnaire",
           "view": "View Questionnaire",
-          "opensIn": "Opens in {{time}}"
+          "opensIn": "Coming Soon"
         },
         "event": {
           "register": "Register",
@@ -176,7 +176,7 @@
       },
       "popup": {
         "enabled": true,
-        "image": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133782666818437120/1794020791179_Artboard_7.svg",
+        "image": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1794397222004_Artboard_1_Mobile_1.jpg",
         "imageAlt": "Welcome to your Karmayogi Sankalpa: four steps to turn your learning into action",
         "eyebrow": "Welcome to your learning journey",
         "title": "Four milestones, completed\none step at a time",
@@ -219,15 +219,16 @@
           "order": 1,
           "enabled": true,
           "locked": false,
-          "lockUntilEventStart": false,
+          "lockUntilEventStart": true,
           "type": "assessment",
           "openWhenCompleted": false,
-          "identifier": "do_1146968905476096001111",
-          "batchId": "0146969260683182081",
+          "identifier": "do_11469915014080102411",
+          "showCountdown": true,
+          "batchId": "01469918215294156883",
           "language": "english",
           "player": {
             "path": "/viewer/practice/{resourceId}",
-            "resourceId": "do_1146968911917383681363",
+            "resourceId": "do_114699153377714176115",
             "queryParams": {
               "primaryCategory": "Course Assessment",
               "collectionId": "{identifier}",
@@ -244,9 +245,9 @@
           "bigNumber": "01",
           "theme": "blue",
           "posterImage": "",
-          "durationLabel": "15 mins",
+          "durationLabel": "",
           "categoryLabel": "Questionnaire",
-          "name": "Leadership as Mission 2026 - Baseline Assessment",
+          "name": "Baseline Questionnaire",
           "tags": [
             "5 Questions",
             "MCQ",
@@ -266,10 +267,10 @@
           "lockUntilEventStart": false,
           "openBeforeStart": true,
           "type": "event",
-          "identifier": "do_11469824271237120019",
-          "batchId": "0146982435646832645",
-          "startDateTime": "2026-11-10T17:00:00+05:30",
-          "endDateTime": "2026-11-10T17:30:00+05:30",
+          "identifier": "do_11469917729384038415",
+          "batchId": "01469918406804275256",
+          "startDateTime": "2026-11-17T09:00:00+05:30",
+          "endDateTime": "2026-11-17T18:30:00+05:30",
           "player": {
             "path": "/app/event-hub/player/{identifier}/youtube/{resourceId}",
             "resourceId": "nxWRg4CSEWM",
@@ -282,12 +283,11 @@
           "bigNumber": "02",
           "theme": "image",
           "posterImage": "",
-          "durationLabel": "9h 30m",
+          "durationLabel": "",
           "categoryLabel": "Workshop",
-          "name": "Leadership as Mission: 25 Years of Service (2001–2026)",
+          "name": "Leadership lessons for Viksit Bharat 2047",
           "tags": [
-            "In-person",
-            "New Delhi"
+            "Event"
           ],
           "provider": {
             "name": "Karmayogi Bharat",
@@ -302,19 +302,19 @@
           "locked": false,
           "lockUntilEventStart": false,
           "type": "survey",
-          "formId": "1794210526956",
+          "formId": "9dbf6e61-220c-4c28-9634-6f6611c4f9d7",
           "formApis": {
-            "read": "/apis/proxies/v8/forms/v2/getFormById?formId={formId}",
-            "status": "/apis/proxies/v8/forms/v2/bulkGetApplicationsById",
-            "submit": "/apis/proxies/v8/forms/v2/saveFormSubmit"
+            "read": "/apis/proxies/v8/survey/v2/getFormById?formId={formId}",
+            "status": "/apis/proxies/v8/survey/v2/bulkGetApplicationsById",
+            "submit": "/apis/proxies/v8/survey/v2/saveFormSubmit"
           },
-          "identifier": "do_1146969258189127681116",
-          "batchId": "0146969260412764162",
+          "identifier": "do_11469918128296755217",
+          "batchId": "01469918504928870484",
           "eventDurationMinutes": 30,
           "autoOpen": {
             "enabled": true,
-            "startDateTime": "2026-11-10T17:00:00+05:30",
-            "endDateTime": "2026-11-10T17:15:00+05:30"
+            "startDateTime": "2026-11-11T00:00:00+05:30",
+            "endDateTime": "2026-11-16T23:59:59+05:30"
           },
           "answerLimits": [
             {
@@ -338,9 +338,9 @@
           "bigNumber": "03",
           "theme": "orange",
           "posterImage": "",
-          "durationLabel": "2 mins",
+          "durationLabel": "",
           "categoryLabel": "Sankalpa",
-          "name": "Leadership Sankalpa: Commit to Serve Citizens",
+          "name": "Karmayogi Sankalpa: Commit to Serve Citizens",
           "tags": [
             "Online",
             "Self-declared",
@@ -360,22 +360,22 @@
           "lockUntilEventStart": true,
           "type": "assessment",
           "openWhenCompleted": false,
-          "identifier": "do_1146969100307496961114",
-          "startDateTime": "2026-11-10T17:30:00+05:30",
+          "identifier": "do_11469916080549068812",
+          "startDateTime": "2026-11-17T15:00:00+05:30",
           "showCountdown": true,
-          "batchId": "0146969244601384960",
+          "batchId": "01469918317941555262",
           "language": "english",
           "player": {
             "path": "/viewer/practice/{resourceId}",
-            "resourceId": "do_1146969106001428481381",
+            "resourceId": "do_114699161648668672141",
             "queryParams": {
               "primaryCategory": "Course Assessment",
-              "collectionId": "do_1146969100307496961114",
+              "collectionId": "{identifier}",
               "collectionType": "Standalone Assessment",
-              "batchId": "0146969244601384960",
-              "courseName": "Leadership as Mission 2026 - Endline Assessment",
-              "ML": "english",
-              "MLId": "do_1146969100307496961114",
+              "batchId": "{batchId}",
+              "courseName": "{name}",
+              "ML": "{language}",
+              "MLId": "{identifier}",
               "fromAITutor": "false"
             }
           },
@@ -384,9 +384,9 @@
           "bigNumber": "04",
           "theme": "purple",
           "posterImage": "",
-          "durationLabel": "15 mins",
+          "durationLabel": "",
           "categoryLabel": "Questionnaire",
-          "name": "Leadership as Mission 2026 - Endline Assessment",
+          "name": "Endline Questionnaire",
           "tags": [
             "5 Questions",
             "MCQ",
