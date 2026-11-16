@@ -424,6 +424,13 @@
     "dictionaryTime": 300
   },
 
+  "apiTimeouts": {
+    "formConfigRead": {
+      "timeoutSeconds": 15,
+      "retries": 1
+    }
+  },
+
   "featureFlags": {
     "multiLanguage": false,
     "notification": true,
