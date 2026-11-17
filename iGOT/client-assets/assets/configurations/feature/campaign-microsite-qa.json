@@ -295,6 +295,7 @@
           "eventDurationMinutes": 30,
           "autoOpen": {
             "enabled": true,
+            "mandatory": true,
             "startDateTime": "2026-11-05T00:00:00+05:30",
             "endDateTime": "2026-11-28T23:59:59+05:30"
           },
