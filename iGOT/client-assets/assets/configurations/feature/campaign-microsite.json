@@ -127,7 +127,7 @@
   "individualSection": {
     "programmeMilestones": {
       "enabled": true,
-      "title": "Programme Milestones: Leadership as Mission",
+      "title": "Leadership as Mission: Programme Milestones",
       "labels": {
         "close": "Close",
         "completed": "Completed",
@@ -175,7 +175,7 @@
         }
       },
       "popup": {
-        "enabled": true,
+        "enabled": false,
         "image": "https://portal.igotkarmayogi.gov.in/content-store/orgStore/0133783095823810560/1794397222004_Artboard_1_Mobile_1.jpg",
         "imageAlt": "Welcome to your Karmayogi Sankalpa: four steps to turn your learning into action",
         "eyebrow": "Welcome to your learning journey",
@@ -222,13 +222,13 @@
           "lockUntilEventStart": true,
           "type": "assessment",
           "openWhenCompleted": false,
-          "identifier": "do_11469915014080102411",
+          "identifier": "do_1147010722727116801256",
           "showCountdown": true,
-          "batchId": "01469918215294156883",
+          "batchId": "01470127735733452883",
           "language": "english",
           "player": {
             "path": "/viewer/practice/{resourceId}",
-            "resourceId": "do_114699153377714176115",
+            "resourceId": "do_11470107291641446413827",
             "queryParams": {
               "primaryCategory": "Course Assessment",
               "collectionId": "{identifier}",
@@ -284,7 +284,7 @@
           "theme": "image",
           "posterImage": "",
           "durationLabel": "",
-          "categoryLabel": "Workshop",
+          "categoryLabel": "Event",
           "name": "Leadership lessons for Viksit Bharat 2047",
           "tags": [
             "Event"
@@ -313,8 +313,9 @@
           "eventDurationMinutes": 30,
           "autoOpen": {
             "enabled": true,
+            "mandatory": false,
             "startDateTime": "2026-11-11T00:00:00+05:30",
-            "endDateTime": "2026-11-16T23:59:59+05:30"
+            "endDateTime": "2026-11-17T23:59:59+05:30"
           },
           "answerLimits": [
             {
@@ -361,7 +362,7 @@
           "type": "assessment",
           "openWhenCompleted": false,
           "identifier": "do_11469916080549068812",
-          "startDateTime": "2026-11-17T15:00:00+05:30",
+          "startDateTime": "2026-11-17T14:00:00+05:30",
           "showCountdown": true,
           "batchId": "01469918317941555262",
           "language": "english",
@@ -568,7 +569,7 @@
     }
   },
   "eventDetails": {
-    "startDate": "17-11-2026",
+    "startDate": "16-11-2026",
     "endDate": "28-11-2026"
   },
   "pageAvailability": {
