@@ -2,7 +2,8 @@
   "playerUiConfig": {
     "progress": true,
     "rating": true,
-    "share": true
+    "share": true,
+    "defaultTab": "discussion"
   },
   "apiConfig": {
     "extendedContentRead": {

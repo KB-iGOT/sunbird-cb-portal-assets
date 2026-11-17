@@ -228,6 +228,9 @@
     "explore": {},
     "volunteerSearch": {
       "enabled": true
+    },
+    "netcore": {
+      "enabled": true
     }
   },
 
@@ -421,7 +424,8 @@
   },
 
   "apicache": {
-    "dictionaryTime": 300
+    "dictionaryTime": 300,
+    "notificationCountTime": 300
   },
 
   "apiTimeouts": {
