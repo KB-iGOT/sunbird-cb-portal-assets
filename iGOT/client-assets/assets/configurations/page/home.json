@@ -2022,6 +2022,7 @@
               "nodataMsg": "no Data Course",
               "searchNoDataMsg": "No matching providers",
               "showSearchBox": true,
+              "karmaCoinsNote": "Use your Karma Coins to enrol in paid courses from providers marked with this badge.",
               "request": {
                 "apiUrl": "/apis/proxies/v8/contentpartner/v1/search",
                 "condition": "extContent",

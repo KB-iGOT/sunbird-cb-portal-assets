@@ -65,7 +65,8 @@
       "mdoProfileUpdateStatus": true,
       "profileUpdateNudge": true,
       "customAttributeUpdate": true,
-      "npsSurvey": true
+      "npsSurvey": true,
+      "milestoneCampaign": true
     },
     "footer": {
       "enabled": false,
@@ -226,6 +227,9 @@
     "services": {},
     "explore": {},
     "volunteerSearch": {
+      "enabled": true
+    },
+    "netcore": {
       "enabled": true
     }
   },
@@ -420,7 +424,15 @@
   },
 
   "apicache": {
-    "dictionaryTime": 300
+    "dictionaryTime": 300,
+    "notificationCountTime": 300
+  },
+
+  "apiTimeouts": {
+    "formConfigRead": {
+      "timeoutSeconds": 15,
+      "retries": 1
+    }
   },
 
   "featureFlags": {

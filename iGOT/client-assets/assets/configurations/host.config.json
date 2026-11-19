@@ -185,6 +185,7 @@
     "enabled": true,
     "startDate": 1766428200000
   },
+  "disableCertificateCourseCategories": ["Case Study"],
   "compentency": {
     "competencies_v5": {
       "vKey": "competencies_v5",

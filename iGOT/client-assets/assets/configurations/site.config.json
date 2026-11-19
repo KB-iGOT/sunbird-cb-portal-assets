@@ -576,5 +576,6 @@
     "enabled": true,
     "startDate": 1766428200000
   },
+  "disableCertificateCourseCategories": ["Case Study"],
   "npsCategory": "NPS2"
 }

@@ -210,5 +210,11 @@
     "popupHeader": "",
     "pointsBeforeText": "",
     "pointsAfterText": "Karma Coins will be deducted from your Karma Wallet if you proceed with enrolment."
+  },
+  "karmaCoinsStrip": {
+    "tncText": "T&C Apply",
+    "tncHeader": "Terms and Conditions",
+    "tncMessage": "Enrolment eligibility and Karma Coin pricing for this course are at Karmayogi Bharat’s discretion and may change without notice.",
+    "infoText": "Karma Coin Deduction : Users applicable for the Karma Coin deduction over enrolment in this course can see their deduction/debit history in the Karma Wallet Page."
   }
 }
