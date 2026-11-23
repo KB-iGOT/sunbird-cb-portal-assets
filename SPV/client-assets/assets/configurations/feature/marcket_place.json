@@ -101,5 +101,10 @@
     "uuid",
     "uuid@karmayogi.com",
     "userFullName"
-   ]
+   ],
+   "access_settings": {
+    "allowGroupLimit": 5,
+    "unauditedlicencesinfo": "Due to a switch of the enrolment check preference, these licence consumptions aren't tracked against the user groups set earlier in SPV.",
+    "unauditedlicenceszeroinfo": "Licences consumed but not recorded against any user group: enrolments while the preference was No, or enrolments that couldn't be recorded against a group while settings were being saved."
+   }
 }
