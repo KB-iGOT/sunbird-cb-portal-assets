@@ -156,6 +156,7 @@
       "default": "on"
     },
     "userConfig": {},
+    "crossOrgReachServices": ["Indian Police Service (IPS)", "Indian Forest Service (IFoS)", "Central Health Service (CHS)"],
     "application": "mdo_portal",
     "difficultyLevel": ["Beginner", "Intermediate", "Advanced"]
   }

@@ -105,5 +105,6 @@
     "off": "If visibility is set to off, the Karmayogis will NOT be able to search and view the {contentType} on the iGOT portal.",
     "default": "on"
   },
+  "crossOrgReachServices": ["Indian Police Service (IPS)", "Indian Forest Service (IFoS)", "Central Health Service (CHS)"],
   "application": "mdo_portal"
 }
