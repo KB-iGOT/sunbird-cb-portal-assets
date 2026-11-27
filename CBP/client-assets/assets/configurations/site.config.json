@@ -311,7 +311,9 @@
           "config": {
             "widgetType": "actionButton",
             "widgetSubType": "actionButtonProfile",
-            "widgetData": {},
+            "widgetData": {
+              "disableViewProfile": true
+            },
             "hideTitle": true
           },
           "enabled": true
